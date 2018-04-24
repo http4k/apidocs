@@ -2,6 +2,8 @@
 
 ## Package org.http4k.serverless
 
+Common code relevant to HTTP serverless implementations.
+
 ### Types
 
 | Name | Summary |

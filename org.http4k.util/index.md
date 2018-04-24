@@ -2,6 +2,8 @@
 
 ## Package org.http4k.util
 
+Presumed homeless code used across the rest of the library.
+
 ### Types
 
 | Name | Summary |

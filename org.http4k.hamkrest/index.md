@@ -2,6 +2,8 @@
 
 ## Package org.http4k.hamkrest
 
+Matchers for use with the hamkrest matching library.
+
 ### Functions
 
 | Name | Summary |

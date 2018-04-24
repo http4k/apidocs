@@ -2,6 +2,8 @@
 
 ## Package org.http4k.security
 
+Code relevant to interfacing with security mechanisms such as OAuth servers.
+
 ### Types
 
 | Name | Summary |

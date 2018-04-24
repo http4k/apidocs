@@ -2,6 +2,8 @@
 
 ## Package org.http4k.aws
 
+Code for connecting http4k applications to AWS services, including request signing.
+
 ### Types
 
 | Name | Summary |

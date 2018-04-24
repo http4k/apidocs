@@ -2,8 +2,6 @@
 
 ## Package org.http4k.traffic
 
-Code to record and replay HTTP traffic to/from various stores.
-
 ### Types
 
 | Name | Summary |

@@ -2,6 +2,8 @@
 
 ## Package org.http4k.webdriver
 
+Code for testing http4k applications with the Webdriver library.
+
 ### Types
 
 | Name | Summary |

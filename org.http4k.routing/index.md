@@ -2,6 +2,8 @@
 
 ## Package org.http4k.routing
 
+Code for routing HTTP messages inside server implementations.
+
 ### Types
 
 | Name | Summary |

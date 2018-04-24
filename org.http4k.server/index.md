@@ -2,6 +2,8 @@
 
 ## Package org.http4k.server
 
+Common code relevant to HTTP server implementations.
+
 ### Types
 
 | Name | Summary |

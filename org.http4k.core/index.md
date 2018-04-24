@@ -2,6 +2,8 @@
 
 ## Package org.http4k.core
 
+The core abstractions for the http4k library.
+
 ### Types
 
 | Name | Summary |

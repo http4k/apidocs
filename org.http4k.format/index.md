@@ -2,6 +2,8 @@
 
 ## Package org.http4k.format
 
+Common code relevant to the various message format implementations (eg. JSON).
+
 ### Types
 
 | Name | Summary |

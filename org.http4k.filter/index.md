@@ -2,6 +2,8 @@
 
 ## Package org.http4k.filter
 
+This is the base package for all Filter implementations.
+
 ### Types
 
 | Name | Summary |

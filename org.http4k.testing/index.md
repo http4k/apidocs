@@ -2,6 +2,8 @@
 
 ## Package org.http4k.testing
 
+Useful tools for testing http4k applications.
+
 ### Types
 
 | Name | Summary |

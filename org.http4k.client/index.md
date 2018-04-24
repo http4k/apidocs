@@ -2,6 +2,8 @@
 
 ## Package org.http4k.client
 
+Common code relevant to HTTP client implementations.
+
 ### Types
 
 | Name | Summary |

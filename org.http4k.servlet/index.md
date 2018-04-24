@@ -2,6 +2,8 @@
 
 ## Package org.http4k.servlet
 
+Code for mounting http4k applications into Servlet containers.
+
 ### Types
 
 | Name | Summary |

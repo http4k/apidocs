@@ -2,6 +2,8 @@
 
 ## Package org.http4k.lens
 
+Code relevant to extracting and injecting typesafe values into HTTP messages.
+
 ### Types
 
 | Name | Summary |

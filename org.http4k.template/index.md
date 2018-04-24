@@ -2,6 +2,8 @@
 
 ## Package org.http4k.template
 
+Common code relevant to templating implementations.
+
 ### Types
 
 | Name | Summary |

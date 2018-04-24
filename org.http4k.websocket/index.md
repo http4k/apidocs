@@ -2,6 +2,8 @@
 
 ## Package org.http4k.websocket
 
+Common code relevant to websocket implementations.
+
 ### Types
 
 | Name | Summary |

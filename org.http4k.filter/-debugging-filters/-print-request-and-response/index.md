@@ -2,7 +2,7 @@
 
 # PrintRequestAndResponse
 
-`object PrintRequestAndResponse` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/DebuggingFilters.kt#L46)
+`object PrintRequestAndResponse` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/DebuggingFilters.kt#L47)
 
 Print details of a request and it's response.
 

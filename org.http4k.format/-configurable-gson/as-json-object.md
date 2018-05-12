@@ -12,7 +12,7 @@ Overrides [Json.asJsonObject](../-json/as-json-object.md)
 Overrides [Json.asJsonObject](../-json/as-json-object.md)
 
 
-`open fun asJsonObject(a: `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`): JsonElement` [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-gson/src/main/kotlin/org/http4k/format/Gson.kt#L73)
+`open fun asJsonObject(a: `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`): JsonElement` [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-gson/src/main/kotlin/org/http4k/format/Gson.kt#L74)
 
 Overrides [JsonLibAutoMarshallingJson.asJsonObject](../-json-lib-auto-marshalling-json/as-json-object.md)
 

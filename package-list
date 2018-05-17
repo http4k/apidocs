@@ -42,6 +42,7 @@ org.http4k.contract
 org.http4k.core
 org.http4k.core.body
 org.http4k.core.cookie
+org.http4k.core.etag
 org.http4k.filter
 org.http4k.filter.cookie
 org.http4k.format

@@ -72,11 +72,14 @@
 | [org.http4k.filter.DefaultCacheTimings](../org.http4k.filter/-default-cache-timings/index.md) |  |
 | [org.http4k.template.dust.Dust](../org.http4k.template.dust/-dust/index.md) |  |
 | [org.http4k.template.DustTemplates](../org.http4k.template/-dust-templates/index.md) |  |
+| [org.http4k.core.etag.ETag](../org.http4k.core.etag/-e-tag/index.md) |  |
+| [org.http4k.core.etag.ETagValidationRequestParser](../org.http4k.core.etag/-e-tag-validation-request-parser/index.md) | Implemented according to https://www.w3.org/Protocols/rfc2616/rfc2616-sec3.html#sec3.11 |
 | [org.http4k.core.Event](../org.http4k.core/-event/index.md) |  |
 | [org.http4k.core.EventCategory](../org.http4k.core/-event-category/index.md) |  |
 | [org.http4k.core.Events](../org.http4k.core/-events.md) |  |
 | [org.http4k.lens.Failure](../org.http4k.lens/-failure/index.md) |  |
 | [org.http4k.webdriver.FeatureNotImplementedYet](../org.http4k.webdriver/-feature-not-implemented-yet.md) |  |
+| [org.http4k.core.etag.FieldValue](../org.http4k.core.etag/-field-value/index.md) |  |
 | [org.http4k.core.Filter](../org.http4k.core/-filter/index.md) |  |
 | [org.http4k.core.body.Form](../org.http4k.core.body/-form.md) |  |
 | [org.http4k.lens.FormField](../org.http4k.lens/-form-field.md) |  |

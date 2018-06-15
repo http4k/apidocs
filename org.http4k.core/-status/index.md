@@ -77,6 +77,7 @@
 | [TEMPORARY_REDIRECT](-t-e-m-p-o-r-a-r-y_-r-e-d-i-r-e-c-t.md) | `val TEMPORARY_REDIRECT: `[`Status`](./index.md) |
 | [TOO_MANY_REQUESTS](-t-o-o_-m-a-n-y_-r-e-q-u-e-s-t-s.md) | `val TOO_MANY_REQUESTS: `[`Status`](./index.md) |
 | [UNAUTHORIZED](-u-n-a-u-t-h-o-r-i-z-e-d.md) | `val UNAUTHORIZED: `[`Status`](./index.md) |
+| [UNKNOWN_HOST](-u-n-k-n-o-w-n_-h-o-s-t.md) | `val UNKNOWN_HOST: `[`Status`](./index.md) |
 | [UNSATISFIABLE_PARAMETERS](-u-n-s-a-t-i-s-f-i-a-b-l-e_-p-a-r-a-m-e-t-e-r-s.md) | `val UNSATISFIABLE_PARAMETERS: `[`Status`](./index.md) |
 | [UNSUPPORTED_MEDIA_TYPE](-u-n-s-u-p-p-o-r-t-e-d_-m-e-d-i-a_-t-y-p-e.md) | `val UNSUPPORTED_MEDIA_TYPE: `[`Status`](./index.md) |
 | [USE_PROXY](-u-s-e_-p-r-o-x-y.md) | `val USE_PROXY: `[`Status`](./index.md) |

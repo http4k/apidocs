@@ -2,7 +2,7 @@
 
 # OkHttp
 
-`class OkHttp : `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`, `[`AsyncHttpClient`](../-async-http-client/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-client-okhttp/src/main/kotlin/org/http4k/client/OkHttp.kt#L18)
+`class OkHttp : `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`, `[`AsyncHttpClient`](../-async-http-client/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-client-okhttp/src/main/kotlin/org/http4k/client/OkHttp.kt#L22)
 
 ### Constructors
 

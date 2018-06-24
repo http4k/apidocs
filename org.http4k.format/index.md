@@ -27,3 +27,9 @@ Common code relevant to the various message format implementations (eg. JSON).
 | Name | Summary |
 |---|---|
 | [InvalidJsonException](-invalid-json-exception/index.md) | `class InvalidJsonException : `[`Exception`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-exception/index.html) |
+
+### Properties
+
+| Name | Summary |
+|---|---|
+| [defaultKotlinModuleWithHttp4kSerialisers](default-kotlin-module-with-http4k-serialisers.md) | `val defaultKotlinModuleWithHttp4kSerialisers: KotlinModule` |

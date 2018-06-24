@@ -37,6 +37,7 @@ $dokka.location:org.http4k.template$then(kotlin.Function1((org.http4k.template.V
 $dokka.location:org.http4k.testing$testWsClient(kotlin.Function1((org.http4k.core.Request, kotlin.Function1((org.http4k.websocket.Websocket, kotlin.Unit)))), org.http4k.core.Request)org.http4k.testing/kotlin.-function1/test-ws-client.md
 org.http4k
 org.http4k.aws
+org.http4k.chaos
 org.http4k.client
 org.http4k.contract
 org.http4k.core

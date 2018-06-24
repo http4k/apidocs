@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `Jetty(port: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)` = 8000)`<br>`Jetty(vararg inConnectors: `[`ConnectorBuilder`](../-connector-builder.md)`)`<br>`Jetty(server: Server)` |
+| [&lt;init&gt;](-init-.md) | `Jetty(port: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)` = 8000)`<br>`Jetty(port: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`, vararg inConnectors: `[`ConnectorBuilder`](../-connector-builder.md)`)`<br>`Jetty(port: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`, server: Server)` |
 
 ### Functions
 

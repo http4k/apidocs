@@ -2,7 +2,7 @@
 
 # HttpUndertowHandler
 
-`class HttpUndertowHandler : HttpHandler` [(source)](https://github.com/http4k/http4k/blob/master/http4k-server-undertow/src/main/kotlin/org/http4k/server/Undertow.kt#L20)
+`class HttpUndertowHandler : HttpHandler` [(source)](https://github.com/http4k/http4k/blob/master/http4k-server-undertow/src/main/kotlin/org/http4k/server/Undertow.kt#L21)
 
 Exposed to allow for insertion into a customised Undertow server instance
 

@@ -2,7 +2,7 @@
 
 # WsServerConfig
 
-`interface WsServerConfig : `[`ServerConfig`](../-server-config/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/server/http4kServer.kt#L25)
+`interface WsServerConfig : `[`ServerConfig`](../-server-config/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/server/http4kServer.kt#L26)
 
 Standard interface for creating a configured WebServer which supports Websockets
 

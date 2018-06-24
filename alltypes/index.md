@@ -38,6 +38,10 @@
 | [org.http4k.filter.CacheControlHeaderPart](../org.http4k.filter/-cache-control-header-part/index.md) |  |
 | [org.http4k.filter.CachingFilters](../org.http4k.filter/-caching-filters/index.md) | Useful filters for applying Cache-Controls to request/responses |
 | [org.http4k.filter.CanonicalPayload](../org.http4k.filter/-canonical-payload/index.md) |  |
+| [org.http4k.chaos.ChaosBehaviour](../org.http4k.chaos/-chaos-behaviour/index.md) |  |
+| [org.http4k.chaos.ChaosException](../org.http4k.chaos/-chaos-exception/index.md) |  |
+| [org.http4k.chaos.ChaosFilters](../org.http4k.chaos/-chaos-filters/index.md) |  |
+| [org.http4k.chaos.ChaosPolicy](../org.http4k.chaos/-chaos-policy/index.md) |  |
 | [org.http4k.filter.ClientFilters](../org.http4k.filter/-client-filters/index.md) |  |
 | [org.http4k.testing.ClosedWebsocket](../org.http4k.testing/-closed-websocket/index.md) |  |
 | [org.http4k.format.ConfigurableGson](../org.http4k.format/-configurable-gson/index.md) |  |

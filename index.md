@@ -6,6 +6,7 @@
 |---|---|
 | [org.http4k](org.http4k/index.md) |  |
 | [org.http4k.aws](org.http4k.aws/index.md) | Code for connecting http4k applications to AWS services, including request signing. |
+| [org.http4k.chaos](org.http4k.chaos/index.md) |  |
 | [org.http4k.client](org.http4k.client/index.md) | Common code relevant to HTTP client implementations. |
 | [org.http4k.contract](org.http4k.contract/index.md) | Code for defining typesafe contracts which generate OpenAPI documentation. |
 | [org.http4k.core](org.http4k.core/index.md) | The core abstractions for the http4k library. |

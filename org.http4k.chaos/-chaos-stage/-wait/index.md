@@ -17,5 +17,5 @@ Does not apply any ChaosBehaviour.
 | Name | Summary |
 |---|---|
 | [asFilter](../as-filter.md) | `open fun asFilter(clock: Clock = Clock.systemUTC()): `[`Filter`](../../../org.http4k.core/-filter/index.md)<br>Converts this chaos behaviour to a standard http4k Filter. |
-| [then](../then.md) | `open fun then(next: `[`ChaosStage`](../index.md)`): `[`ChaosStage`](../index.md)<br>Chain the next ChaosBehaviour to apply when this stage is finished. |
-| [until](../until.md) | `open fun until(trigger: `[`StageTrigger`](../../-stage-trigger.md)`): `[`ChaosStage`](../index.md)<br>Stop applying the ChaosBehaviour of this stage when the StageTrigger fires. |
+| [then](../then.md) | `open fun then(nextStage: `[`ChaosStage`](../index.md)`): `[`ChaosStage`](../index.md)<br>Chain the next ChaosBehaviour to apply when this stage is finished. |
+| [until](../until.md) | `open fun until(stageTrigger: `[`ChaosStageTrigger`](../../-chaos-stage-trigger.md)`): `[`ChaosStage`](../index.md)<br>Stop applying the ChaosBehaviour of this stage when the StageTrigger fires. |

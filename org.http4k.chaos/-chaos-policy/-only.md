@@ -2,4 +2,4 @@
 
 # Only
 
-`fun Only(trigger: `[`StageTrigger`](../-stage-trigger.md)`): `[`ChaosPolicy`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosPolicy.kt#L20)
+`fun Only(stageTrigger: `[`ChaosStageTrigger`](../-chaos-stage-trigger.md)`): `[`ChaosPolicy`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosPolicy.kt#L20)

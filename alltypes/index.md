@@ -42,6 +42,8 @@
 | [org.http4k.chaos.ChaosConfig](../org.http4k.chaos/-chaos-config/index.md) | Handy ways to inject configuration for ChaosBehaviours into your apps. |
 | [org.http4k.chaos.ChaosPolicy](../org.http4k.chaos/-chaos-policy/index.md) | Determines whether or not to apply a particular type of ChaosBehaviour to a request/response. |
 | [org.http4k.chaos.ChaosStage](../org.http4k.chaos/-chaos-stage/index.md) | Defines a periodic element during which a particular ChaosBehaviour is active. |
+| [org.http4k.chaos.ChaosStageTrigger](../org.http4k.chaos/-chaos-stage-trigger.md) |  |
+| [org.http4k.chaos.ChaosStageTriggers](../org.http4k.chaos/-chaos-stage-triggers/index.md) |  |
 | [org.http4k.filter.ClientFilters](../org.http4k.filter/-client-filters/index.md) |  |
 | [org.http4k.testing.ClosedWebsocket](../org.http4k.testing/-closed-websocket/index.md) |  |
 | [org.http4k.format.ConfigurableGson](../org.http4k.format/-configurable-gson/index.md) |  |
@@ -211,8 +213,6 @@
 | [org.http4k.traffic.Sink](../org.http4k.traffic/-sink/index.md) | Consumes HTTP traffic for storage. |
 | [org.http4k.contract.Slash](../org.http4k.contract/-slash/index.md) |  |
 | [org.http4k.traffic.Source](../org.http4k.traffic/-source/index.md) | Tries to retrieve a stored response for a given request. |
-| [org.http4k.chaos.StageTrigger](../org.http4k.chaos/-stage-trigger.md) |  |
-| [org.http4k.chaos.StageTriggers](../org.http4k.chaos/-stage-triggers/index.md) |  |
 | [org.http4k.filter.StaleIfErrorTtl](../org.http4k.filter/-stale-if-error-ttl/index.md) |  |
 | [org.http4k.filter.StaleWhenRevalidateTtl](../org.http4k.filter/-stale-when-revalidate-ttl/index.md) |  |
 | [org.http4k.core.Status](../org.http4k.core/-status/index.md) |  |

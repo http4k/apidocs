@@ -10,13 +10,13 @@
 | [ChaosConfig](-chaos-config/index.md) | `object ChaosConfig`<br>Handy ways to inject configuration for ChaosBehaviours into your apps. |
 | [ChaosPolicy](-chaos-policy/index.md) | `interface ChaosPolicy`<br>Determines whether or not to apply a particular type of ChaosBehaviour to a request/response. |
 | [ChaosStage](-chaos-stage/index.md) | `interface ChaosStage`<br>Defines a periodic element during which a particular ChaosBehaviour is active. |
-| [StageTriggers](-stage-triggers/index.md) | `object StageTriggers` |
+| [ChaosStageTriggers](-chaos-stage-triggers/index.md) | `object ChaosStageTriggers` |
 
 ### Type Aliases
 
 | Name | Summary |
 |---|---|
-| [StageTrigger](-stage-trigger.md) | `typealias StageTrigger = (`[`HttpTransaction`](../org.http4k.core/-http-transaction/index.md)`) -> `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
+| [ChaosStageTrigger](-chaos-stage-trigger.md) | `typealias ChaosStageTrigger = (`[`HttpTransaction`](../org.http4k.core/-http-transaction/index.md)`) -> `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
 
 ### Properties
 

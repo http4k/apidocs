@@ -6,15 +6,17 @@
 
 | Name | Summary |
 |---|---|
-| [ChaosBehaviour](-chaos-behaviour/index.md) | `interface ChaosBehaviour` |
-| [ChaosFilters](-chaos-filters/index.md) | `object ChaosFilters` |
-| [ChaosPolicy](-chaos-policy/index.md) | `interface ChaosPolicy` |
+| [ChaosBehaviour](-chaos-behaviour/index.md) | `interface ChaosBehaviour`<br>Encapsulates the type of bad behaviour to apply to the response. |
+| [ChaosConfig](-chaos-config/index.md) | `object ChaosConfig`<br>Handy ways to inject configuration for ChaosBehaviours into your apps. |
+| [ChaosPolicy](-chaos-policy/index.md) | `interface ChaosPolicy`<br>Determines whether or not to apply a particular type of ChaosBehaviour to a request/response. |
+| [ChaosStage](-chaos-stage/index.md) | `interface ChaosStage`<br>Defines a periodic element during which a particular ChaosBehaviour is active. |
+| [StageTriggers](-stage-triggers/index.md) | `object StageTriggers` |
 
-### Exceptions
+### Type Aliases
 
 | Name | Summary |
 |---|---|
-| [ChaosException](-chaos-exception/index.md) | `class ChaosException : `[`Exception`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-exception/index.html) |
+| [StageTrigger](-stage-trigger.md) | `typealias StageTrigger = (`[`HttpTransaction`](../org.http4k.core/-http-transaction/index.md)`) -> `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
 
 ### Properties
 

@@ -2,4 +2,7 @@
 
 # ReturnStatus
 
-`fun ReturnStatus(status: `[`Status`](../../org.http4k.core/-status/index.md)` = INTERNAL_SERVER_ERROR): `[`ChaosBehaviour`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosBehaviour.kt#L49)
+`fun ReturnStatus(status: `[`Status`](../../org.http4k.core/-status/index.md)` = INTERNAL_SERVER_ERROR): `[`ChaosBehaviour`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosBehaviour.kt#L46)
+
+Returns an empty response with the appropriate status.
+

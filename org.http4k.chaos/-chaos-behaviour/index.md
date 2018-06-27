@@ -2,27 +2,25 @@
 
 # ChaosBehaviour
 
-`interface ChaosBehaviour` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosBehaviour.kt#L13)
+`interface ChaosBehaviour` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosBehaviour.kt#L20)
 
-### Properties
-
-| Name | Summary |
-|---|---|
-| [description](description.md) | `open val description: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+Encapsulates the type of bad behaviour to apply to the response.
 
 ### Functions
 
 | Name | Summary |
 |---|---|
-| [inject](inject.md) | `open fun inject(request: `[`Request`](../../org.http4k.core/-request/index.md)`): `[`Request`](../../org.http4k.core/-request/index.md)<br>`open fun inject(response: `[`Response`](../../org.http4k.core/-response/index.md)`): `[`Response`](../../org.http4k.core/-response/index.md) |
+| [invoke](invoke.md) | `abstract operator fun invoke(tx: `[`HttpTransaction`](../../org.http4k.core/-http-transaction/index.md)`): `[`Response`](../../org.http4k.core/-response/index.md) |
 
 ### Companion Object Functions
 
 | Name | Summary |
 |---|---|
-| [BlockThread](-block-thread.md) | `fun BlockThread(): `[`ChaosBehaviour`](./index.md) |
-| [ExtraLatencyFromEnv](-extra-latency-from-env.md) | `fun ExtraLatencyFromEnv(): `[`ChaosBehaviour`](./index.md) |
-| [KillProcess](-kill-process.md) | `fun KillProcess(): `[`ChaosBehaviour`](./index.md) |
-| [Latency](-latency.md) | `fun Latency(minDelay: Duration, maxDelay: Duration): `[`ChaosBehaviour`](./index.md) |
-| [ReturnStatus](-return-status.md) | `fun ReturnStatus(status: `[`Status`](../../org.http4k.core/-status/index.md)` = INTERNAL_SERVER_ERROR): `[`ChaosBehaviour`](./index.md) |
-| [ThrowException](-throw-exception.md) | `fun ThrowException(e: `[`Exception`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-exception/index.html)` = ChaosException("Chaos behaviour injected!")): `[`ChaosBehaviour`](./index.md) |
+| [BlockThread](-block-thread.md) | `fun BlockThread(): `[`ChaosBehaviour`](./index.md)<br>Blocks the current thread. |
+| [EatMemory](-eat-memory.md) | `fun EatMemory(): `[`ChaosBehaviour`](./index.md)<br>Allocates memory in a busy loop until an OOM occurs. |
+| [KillProcess](-kill-process.md) | `fun KillProcess(): `[`ChaosBehaviour`](./index.md)<br>System exits from the process. |
+| [Latency](-latency.md) | `fun Latency(latencyRange: `[`ClosedRange`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.ranges/-closed-range/index.html)`<Duration> = ofMillis(100)..ofMillis(500)): `[`ChaosBehaviour`](./index.md)<br>Blocks the thread for a random amount of time within the allocated range. |
+| [NoBody](-no-body.md) | `fun NoBody(): `[`ChaosBehaviour`](./index.md)<br>Strips the body from a response. |
+| [ReturnStatus](-return-status.md) | `fun ReturnStatus(status: `[`Status`](../../org.http4k.core/-status/index.md)` = INTERNAL_SERVER_ERROR): `[`ChaosBehaviour`](./index.md)<br>Returns an empty response with the appropriate status. |
+| [StackOverflow](-stack-overflow.md) | `fun StackOverflow(): `[`ChaosBehaviour`](./index.md)<br>Allocates memory in a busy loop until an OOM occurs. |
+| [ThrowException](-throw-exception.md) | `fun ThrowException(e: `[`Throwable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)` = Exception("Chaos behaviour injected!")): `[`ChaosBehaviour`](./index.md)<br>Throws the appropriate exception. |

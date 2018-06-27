@@ -2,4 +2,7 @@
 
 # BlockThread
 
-`fun BlockThread(): `[`ChaosBehaviour`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosBehaviour.kt#L45)
+`fun BlockThread(): `[`ChaosBehaviour`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosBehaviour.kt#L86)
+
+Blocks the current thread.
+

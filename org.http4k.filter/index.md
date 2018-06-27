@@ -23,6 +23,7 @@ This is the base package for all Filter implementations.
 | [RequestFilters](-request-filters/index.md) | `object RequestFilters` |
 | [ResilienceFilters](-resilience-filters/index.md) | `object ResilienceFilters` |
 | [ResponseFilters](-response-filters/index.md) | `object ResponseFilters` |
+| [SamplingDecision](-sampling-decision/index.md) | `data class SamplingDecision` |
 | [ServerFilters](-server-filters/index.md) | `object ServerFilters` |
 | [StaleIfErrorTtl](-stale-if-error-ttl/index.md) | `data class StaleIfErrorTtl : `[`CacheControlHeaderPart`](-cache-control-header-part/index.md) |
 | [StaleWhenRevalidateTtl](-stale-when-revalidate-ttl/index.md) | `data class StaleWhenRevalidateTtl : `[`CacheControlHeaderPart`](-cache-control-header-part/index.md) |

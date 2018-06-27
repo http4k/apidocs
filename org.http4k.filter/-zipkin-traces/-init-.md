@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`ZipkinTraces(traceId: `[`TraceId`](../-trace-id/index.md)`, spanId: `[`TraceId`](../-trace-id/index.md)`, parentSpanId: `[`TraceId`](../-trace-id/index.md)`?)`
+`ZipkinTraces(traceId: `[`TraceId`](../-trace-id/index.md)`, spanId: `[`TraceId`](../-trace-id/index.md)`, parentSpanId: `[`TraceId`](../-trace-id/index.md)`?, samplingDecision: `[`SamplingDecision`](../-sampling-decision/index.md)`)`

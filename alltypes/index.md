@@ -42,8 +42,8 @@
 | [org.http4k.chaos.ChaosConfig](../org.http4k.chaos/-chaos-config/index.md) | Handy ways to inject configuration for ChaosBehaviours into your apps. |
 | [org.http4k.chaos.ChaosPolicy](../org.http4k.chaos/-chaos-policy/index.md) | Determines whether or not to apply a particular type of ChaosBehaviour to a request/response. |
 | [org.http4k.chaos.ChaosStage](../org.http4k.chaos/-chaos-stage/index.md) | Defines a periodic element during which a particular ChaosBehaviour is active. |
-| [org.http4k.chaos.ChaosStageTrigger](../org.http4k.chaos/-chaos-stage-trigger.md) |  |
-| [org.http4k.chaos.ChaosStageTriggers](../org.http4k.chaos/-chaos-stage-triggers/index.md) |  |
+| [org.http4k.chaos.ChaosTrigger](../org.http4k.chaos/-chaos-trigger.md) |  |
+| [org.http4k.chaos.ChaosTriggers](../org.http4k.chaos/-chaos-triggers/index.md) |  |
 | [org.http4k.filter.ClientFilters](../org.http4k.filter/-client-filters/index.md) |  |
 | [org.http4k.testing.ClosedWebsocket](../org.http4k.testing/-closed-websocket/index.md) |  |
 | [org.http4k.format.ConfigurableGson](../org.http4k.format/-configurable-gson/index.md) |  |

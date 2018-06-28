@@ -10,7 +10,7 @@ Does not apply any ChaosBehaviour.
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `fun invoke(tx: `[`HttpTransaction`](../../../org.http4k.core/-http-transaction/index.md)`): `[`Response`](../../../org.http4k.core/-response/index.md)`?` |
+| [invoke](invoke.md) | `fun invoke(tx: `[`HttpTransaction`](../../../org.http4k.core/-http-transaction/index.md)`): `[`Response`](../../../org.http4k.core/-response/index.md) |
 
 ### Inherited Functions
 

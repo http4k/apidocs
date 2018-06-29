@@ -39,7 +39,6 @@
 | [org.http4k.filter.CachingFilters](../org.http4k.filter/-caching-filters/index.md) | Useful filters for applying Cache-Controls to request/responses |
 | [org.http4k.filter.CanonicalPayload](../org.http4k.filter/-canonical-payload/index.md) |  |
 | [org.http4k.chaos.ChaosBehaviour](../org.http4k.chaos/-chaos-behaviour/index.md) | Encapsulates the type of bad behaviour to apply to the response. |
-| [org.http4k.chaos.ChaosConfig](../org.http4k.chaos/-chaos-config/index.md) | Handy ways to inject configuration for ChaosBehaviours into your apps. |
 | [org.http4k.chaos.ChaosPolicy](../org.http4k.chaos/-chaos-policy/index.md) | Determines whether or not to apply a particular type of ChaosBehaviour to a request/response. |
 | [org.http4k.chaos.ChaosStage](../org.http4k.chaos/-chaos-stage/index.md) | Defines a periodic element during which a particular ChaosBehaviour is active. |
 | [org.http4k.chaos.ChaosTrigger](../org.http4k.chaos/-chaos-trigger.md) |  |
@@ -224,6 +223,7 @@
 | [kotlin.String](../org.http4k.routing/kotlin.-string/index.md) (extensions in package org.http4k.routing) |  |
 | [java.lang.StringBuilder](../org.http4k/java.lang.-string-builder/index.md) (extensions in package org.http4k) |  |
 | [org.http4k.server.SunHttp](../org.http4k.server/-sun-http/index.md) |  |
+| [org.http4k.chaos.SwitchTrigger](../org.http4k.chaos/-switch-trigger/index.md) | Simple toggleable trigger to turn ChaosBehaviour on/off |
 | [org.http4k.contract.Tag](../org.http4k.contract/-tag/index.md) |  |
 | [org.http4k.template.dust.TemplateExpansion](../org.http4k.template.dust/-template-expansion/index.md) |  |
 | [org.http4k.template.dust.TemplateExpansionService](../org.http4k.template.dust/-template-expansion-service.md) |  |

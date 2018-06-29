@@ -7,10 +7,10 @@
 | Name | Summary |
 |---|---|
 | [ChaosBehaviour](-chaos-behaviour/index.md) | `interface ChaosBehaviour`<br>Encapsulates the type of bad behaviour to apply to the response. |
-| [ChaosConfig](-chaos-config/index.md) | `object ChaosConfig`<br>Handy ways to inject configuration for ChaosBehaviours into your apps. |
 | [ChaosPolicy](-chaos-policy/index.md) | `interface ChaosPolicy`<br>Determines whether or not to apply a particular type of ChaosBehaviour to a request/response. |
 | [ChaosStage](-chaos-stage/index.md) | `interface ChaosStage`<br>Defines a periodic element during which a particular ChaosBehaviour is active. |
 | [ChaosTriggers](-chaos-triggers/index.md) | `object ChaosTriggers` |
+| [SwitchTrigger](-switch-trigger/index.md) | `class SwitchTrigger : `[`ChaosTrigger`](-chaos-trigger.md)<br>Simple toggleable trigger to turn ChaosBehaviour on/off |
 
 ### Type Aliases
 

@@ -11,6 +11,7 @@ Determines whether or not to apply a particular type of ChaosBehaviour to a requ
 | Name | Summary |
 |---|---|
 | [Always](-always/index.md) | `object Always : `[`ChaosPolicy`](./index.md) |
+| [PercentageBased](-percentage-based/index.md) | `object PercentageBased` |
 
 ### Functions
 
@@ -24,7 +25,6 @@ Determines whether or not to apply a particular type of ChaosBehaviour to a requ
 | Name | Summary |
 |---|---|
 | [Only](-only.md) | `fun Only(trigger: `[`ChaosTrigger`](../-chaos-trigger.md)`): `[`ChaosPolicy`](./index.md) |
-| [PercentageBased](-percentage-based.md) | `fun PercentageBased(injectionFrequency: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`, selector: `[`Random`](http://docs.oracle.com/javase/6/docs/api/java/util/Random.html)` = ThreadLocalRandom.current()): `[`ChaosPolicy`](./index.md) |
 
 ### Inheritors
 

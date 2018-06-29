@@ -39,6 +39,7 @@
 | [org.http4k.filter.CachingFilters](../org.http4k.filter/-caching-filters/index.md) | Useful filters for applying Cache-Controls to request/responses |
 | [org.http4k.filter.CanonicalPayload](../org.http4k.filter/-canonical-payload/index.md) |  |
 | [org.http4k.chaos.ChaosBehaviour](../org.http4k.chaos/-chaos-behaviour/index.md) | Encapsulates the type of bad behaviour to apply to the response. |
+| [org.http4k.chaos.ChaosControls](../org.http4k.chaos/-chaos-controls/index.md) | Adds a set of endpoints to an application which will control the switching on/off of chaos behaviour. The added endpoints are: //status &lt;- check the on off/status of the injected chaos //activate &lt;- turn on the chaos //deactivate &lt;- turn off the chaos //toggle &lt;- toggle the chaos |
 | [org.http4k.chaos.ChaosPolicy](../org.http4k.chaos/-chaos-policy/index.md) | Determines whether or not to apply a particular type of ChaosBehaviour to a request/response. |
 | [org.http4k.chaos.ChaosStage](../org.http4k.chaos/-chaos-stage/index.md) | Defines a periodic element during which a particular ChaosBehaviour is active. |
 | [org.http4k.chaos.ChaosTrigger](../org.http4k.chaos/-chaos-trigger.md) |  |
@@ -94,6 +95,7 @@
 | [kotlin.Function1](../org.http4k.servlet/kotlin.-function1/index.md) (extensions in package org.http4k.servlet) |  |
 | [kotlin.Function1](../org.http4k.template/kotlin.-function1/index.md) (extensions in package org.http4k.template) |  |
 | [kotlin.Function1](../org.http4k.testing/kotlin.-function1/index.md) (extensions in package org.http4k.testing) |  |
+| [kotlin.Function1](../org.http4k.chaos/kotlin.-function1/index.md) (extensions in package org.http4k.chaos) |  |
 | [org.http4k.filter.GenerateDataClasses](../org.http4k.filter/-generate-data-classes/index.md) | This Filter is used to generate Data class definitions from a Response containing JSON. The Filter will try and reduce the number of class definitions by selecting the definition with the most fields (for cases where lists of items have different fields). |
 | [org.http4k.filter.GenerateXmlDataClasses](../org.http4k.filter/-generate-xml-data-classes/index.md) |  |
 | [org.http4k.format.Gson](../org.http4k.format/-gson.md) |  |

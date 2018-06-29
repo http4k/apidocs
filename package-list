@@ -11,6 +11,8 @@ $dokka.location:org.http4k$base64Encode(kotlin.String)org.http4k/kotlin.-string
 $dokka.location:org.http4k$quoted(kotlin.String)org.http4k/kotlin.-string/quoted.md
 $dokka.location:org.http4k$unquoted(kotlin.String)org.http4k/kotlin.-string/unquoted.md
 $dokka.location:org.http4k$urlEncoded(kotlin.String)org.http4k/kotlin.-string/url-encoded.md
+$dokka.location:org.http4k.chaos$not(kotlin.Function1((org.http4k.core.HttpTransaction, kotlin.Boolean)))org.http4k.chaos/kotlin.-function1/not.md
+$dokka.location:org.http4k.chaos$withChaosControls(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)), org.http4k.chaos.ChaosStage, java.time.Clock)org.http4k.chaos/kotlin.-function1/with-chaos-controls.md
 $dokka.location:org.http4k.client$withAsyncApi(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)))org.http4k.client/kotlin.-function1/with-async-api.md
 $dokka.location:org.http4k.contract$bind(kotlin.String, org.http4k.contract.ContractRoutingHttpHandler)org.http4k.contract/kotlin.-string/bind.md
 $dokka.location:org.http4k.contract$bindContract(kotlin.String, org.http4k.core.Method)org.http4k.contract/kotlin.-string/bind-contract.md

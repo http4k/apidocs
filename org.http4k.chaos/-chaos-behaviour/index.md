@@ -11,12 +11,19 @@ Encapsulates the type of bad behaviour to apply to the response.
 | Name | Summary |
 |---|---|
 | [Latency](-latency/index.md) | `object Latency`<br>Blocks the thread for a random amount of time within the allocated range. |
+| [Variable](-variable/index.md) | `class Variable : `[`ChaosBehaviour`](./index.md)<br>Provide a means of modifying a ChaosBehaviour at runtime. |
 
 ### Functions
 
 | Name | Summary |
 |---|---|
 | [invoke](invoke.md) | `abstract operator fun invoke(tx: `[`HttpTransaction`](../../org.http4k.core/-http-transaction/index.md)`): `[`Response`](../../org.http4k.core/-response/index.md) |
+
+### Companion Object Properties
+
+| Name | Summary |
+|---|---|
+| [None](-none.md) | `val None: `[`ChaosBehaviour`](./index.md)<br>Does absolutely nothing. |
 
 ### Companion Object Functions
 
@@ -29,3 +36,9 @@ Encapsulates the type of bad behaviour to apply to the response.
 | [ReturnStatus](-return-status.md) | `fun ReturnStatus(status: `[`Status`](../../org.http4k.core/-status/index.md)` = INTERNAL_SERVER_ERROR): `[`ChaosBehaviour`](./index.md)<br>Returns an empty response with the appropriate status. |
 | [StackOverflow](-stack-overflow.md) | `fun StackOverflow(): `[`ChaosBehaviour`](./index.md)<br>Allocates memory in a busy loop until an OOM occurs. |
 | [ThrowException](-throw-exception.md) | `fun ThrowException(e: `[`Throwable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)` = Exception("Chaos behaviour injected!")): `[`ChaosBehaviour`](./index.md)<br>Throws the appropriate exception. |
+
+### Inheritors
+
+| Name | Summary |
+|---|---|
+| [Variable](-variable/index.md) | `class Variable : `[`ChaosBehaviour`](./index.md)<br>Provide a means of modifying a ChaosBehaviour at runtime. |

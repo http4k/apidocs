@@ -2,7 +2,7 @@
 
 # PebbleTemplates
 
-`class PebbleTemplates : `[`Templates`](../-templates/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-template-pebble/src/main/kotlin/org/http4k/template/PebbleTemplates.kt#L10)
+`class PebbleTemplates : `[`Templates`](../-templates/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-template-pebble/src/main/kotlin/org/http4k/template/PebbleTemplates.kt#L9)
 
 ### Constructors
 

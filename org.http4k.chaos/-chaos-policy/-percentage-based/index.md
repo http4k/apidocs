@@ -2,7 +2,9 @@
 
 # PercentageBased
 
-`object PercentageBased` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosPolicy.kt#L31)
+`object PercentageBased` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosPolicy.kt#L57)
+
+Applies n% of the time, based on result of a Random.
 
 ### Functions
 

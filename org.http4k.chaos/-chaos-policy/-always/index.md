@@ -2,7 +2,9 @@
 
 # Always
 
-`object Always : `[`ChaosPolicy`](../index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosPolicy.kt#L26)
+`object Always : `[`ChaosPolicy`](../index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosPolicy.kt#L49)
+
+Applies to every transaction.
 
 ### Functions
 
@@ -15,4 +17,4 @@
 
 | Name | Summary |
 |---|---|
-| [inject](../inject.md) | `open fun inject(behaviour: `[`ChaosBehaviour`](../../-chaos-behaviour/index.md)`): `[`ChaosStage`](../../-chaos-stage/index.md) |
+| [inject](../inject.md) | `open fun inject(behaviour: `[`ChaosBehaviour`](../../-chaos-behaviour/index.md)`): `[`ChaosStage`](../../-chaos-stage/index.md)<br>Returns a ChaosStage which applies some ChaosBehaviour based upon if the policy applies to the passed transaction. |

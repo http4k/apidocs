@@ -140,6 +140,7 @@
 | [kotlin.collections.List](../org.http4k.core/kotlin.collections.-list/index.md) (extensions in package org.http4k.core) |  |
 | [kotlin.collections.List](../org.http4k.core.body/kotlin.collections.-list/index.md) (extensions in package org.http4k.core.body) |  |
 | [org.http4k.filter.cookie.LocalCookie](../org.http4k.filter.cookie/-local-cookie/index.md) |  |
+| [kotlin.collections.Map](../org.http4k.core/kotlin.collections.-map/index.md) (extensions in package org.http4k.core) |  |
 | [org.http4k.filter.MaxAgeTtl](../org.http4k.filter/-max-age-ttl/index.md) |  |
 | [org.http4k.core.MemoryBody](../org.http4k.core/-memory-body/index.md) | Represents a body that is backed by an in-memory ByteBuffer. Closing this has no effect. |
 | [org.http4k.core.MemoryRequest](../org.http4k.core/-memory-request/index.md) |  |

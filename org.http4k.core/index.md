@@ -50,6 +50,7 @@ The core abstractions for the http4k library.
 |---|---|
 | [kotlin.String](kotlin.-string/index.md) |  |
 | [kotlin.collections.List](kotlin.collections.-list/index.md) |  |
+| [kotlin.collections.Map](kotlin.collections.-map/index.md) |  |
 
 ### Functions
 

@@ -2,4 +2,4 @@
 
 # CLIENT_TIMEOUT
 
-`val CLIENT_TIMEOUT: `[`Status`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/Status.kt#L59)
+`val CLIENT_TIMEOUT: `[`Status`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/Status.kt#L60)

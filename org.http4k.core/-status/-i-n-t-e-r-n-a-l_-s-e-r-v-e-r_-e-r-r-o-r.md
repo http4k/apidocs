@@ -2,4 +2,4 @@
 
 # INTERNAL_SERVER_ERROR
 
-`val INTERNAL_SERVER_ERROR: `[`Status`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/Status.kt#L52)
+`val INTERNAL_SERVER_ERROR: `[`Status`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/Status.kt#L53)

@@ -64,6 +64,7 @@
 | [OK](-o-k.md) | `val OK: `[`Status`](./index.md) |
 | [PARTIAL_CONTENT](-p-a-r-t-i-a-l_-c-o-n-t-e-n-t.md) | `val PARTIAL_CONTENT: `[`Status`](./index.md) |
 | [PAYMENT_REQUIRED](-p-a-y-m-e-n-t_-r-e-q-u-i-r-e-d.md) | `val PAYMENT_REQUIRED: `[`Status`](./index.md) |
+| [PERMANENT_REDIRECT](-p-e-r-m-a-n-e-n-t_-r-e-d-i-r-e-c-t.md) | `val PERMANENT_REDIRECT: `[`Status`](./index.md) |
 | [PRECONDITION_FAILED](-p-r-e-c-o-n-d-i-t-i-o-n_-f-a-i-l-e-d.md) | `val PRECONDITION_FAILED: `[`Status`](./index.md) |
 | [PROXY_AUTHENTICATION_REQUIRED](-p-r-o-x-y_-a-u-t-h-e-n-t-i-c-a-t-i-o-n_-r-e-q-u-i-r-e-d.md) | `val PROXY_AUTHENTICATION_REQUIRED: `[`Status`](./index.md) |
 | [REQUESTED_RANGE_NOT_SATISFIABLE](-r-e-q-u-e-s-t-e-d_-r-a-n-g-e_-n-o-t_-s-a-t-i-s-f-i-a-b-l-e.md) | `val REQUESTED_RANGE_NOT_SATISFIABLE: `[`Status`](./index.md) |

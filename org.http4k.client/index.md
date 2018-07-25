@@ -26,4 +26,4 @@ Common code relevant to HTTP client implementations.
 
 | Name | Summary |
 |---|---|
-| [describeClientError](describe-client-error.md) | `fun `[`Status`](../org.http4k.core/-status/index.md)`.describeClientError(e: `[`Exception`](http://docs.oracle.com/javase/6/docs/api/java/lang/Exception.html)`): `[`Status`](../org.http4k.core/-status/index.md) |
+| [asClientError](as-client-error.md) | `fun `[`Status`](../org.http4k.core/-status/index.md)`.asClientError(e: `[`Exception`](http://docs.oracle.com/javase/6/docs/api/java/lang/Exception.html)`): `[`Status`](../org.http4k.core/-status/index.md) |

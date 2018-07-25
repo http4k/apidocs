@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `ZipkinTraces(traceId: `[`TraceId`](../-trace-id/index.md)`, spanId: `[`TraceId`](../-trace-id/index.md)`, parentSpanId: `[`TraceId`](../-trace-id/index.md)`?, samplingDecision: `[`SamplingDecision`](../-sampling-decision/index.md)`)` |
+| [&lt;init&gt;](-init-.md) | `ZipkinTraces(traceId: `[`TraceId`](../-trace-id/index.md)`, spanId: `[`TraceId`](../-trace-id/index.md)`, parentSpanId: `[`TraceId`](../-trace-id/index.md)`?, samplingDecision: `[`SamplingDecision`](../-sampling-decision/index.md)` = SAMPLE)` |
 
 ### Properties
 

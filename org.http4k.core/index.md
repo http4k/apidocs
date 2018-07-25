@@ -29,7 +29,7 @@ The core abstractions for the http4k library.
 | [RequestContext](-request-context/index.md) | `class RequestContext` |
 | [RequestContexts](-request-contexts/index.md) | `class RequestContexts : `[`Store`](-store/index.md)`<`[`RequestContext`](-request-context/index.md)`>`<br>In-memory RequestContext store. |
 | [Response](-response/index.md) | `interface Response : `[`HttpMessage`](-http-message/index.md) |
-| [Status](-status/index.md) | `data class Status` |
+| [Status](-status/index.md) | `class Status` |
 | [Store](-store/index.md) | `interface Store<OUT> : `[`LensInjector`](../org.http4k.lens/-lens-injector/index.md)`<`[`OUT`](-store/index.md#OUT)`, `[`Request`](-request/index.md)`>, `[`LensExtractor`](../org.http4k.lens/-lens-extractor/index.md)`<`[`Request`](-request/index.md)`, `[`OUT`](-store/index.md#OUT)`>` |
 | [StreamBody](-stream-body/index.md) | `class StreamBody : `[`Body`](-body/index.md)<br>Represents a body that is backed by a (lazy) InputStream. Operating with StreamBody has a number of potential gotchas: |
 | [Uri](-uri/index.md) | `data class Uri` |

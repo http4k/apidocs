@@ -2,7 +2,7 @@
 
 # Status
 
-`data class Status` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/Status.kt#L3)
+`class Status` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/Status.kt#L3)
 
 ### Constructors
 
@@ -26,7 +26,7 @@
 
 | Name | Summary |
 |---|---|
-| [description](description.md) | `fun description(description: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Status`](./index.md) |
+| [description](description.md) | `fun description(newDescription: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Status`](./index.md) |
 | [equals](equals.md) | `fun equals(other: `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`?): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
 | [hashCode](hash-code.md) | `fun hashCode(): `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
 | [toString](to-string.md) | `fun toString(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
@@ -88,4 +88,4 @@
 
 | Name | Summary |
 |---|---|
-| [describeClientError](../../org.http4k.client/describe-client-error.md) | `fun `[`Status`](./index.md)`.describeClientError(e: `[`Exception`](http://docs.oracle.com/javase/6/docs/api/java/lang/Exception.html)`): `[`Status`](./index.md) |
+| [asClientError](../../org.http4k.client/as-client-error.md) | `fun `[`Status`](./index.md)`.asClientError(e: `[`Exception`](http://docs.oracle.com/javase/6/docs/api/java/lang/Exception.html)`): `[`Status`](./index.md) |

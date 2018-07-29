@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [HTTP4K_BOOTSTRAP_CLASS](-h-t-t-p4-k_-b-o-o-t-s-t-r-a-p_-c-l-a-s-s.md) | `val HTTP4K_BOOTSTRAP_CLASS: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [HTTP4K_BOOTSTRAP_CLASS](-h-t-t-p4-k_-b-o-o-t-s-t-r-a-p_-c-l-a-s-s.md) | `const val HTTP4K_BOOTSTRAP_CLASS: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 
 ### Functions
 

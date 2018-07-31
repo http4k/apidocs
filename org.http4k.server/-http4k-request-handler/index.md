@@ -2,7 +2,7 @@
 
 # Http4kRequestHandler
 
-`class Http4kRequestHandler : HttpRequestHandler` [(source)](https://github.com/http4k/http4k/blob/master/http4k-server-apache/src/main/kotlin/org/http4k/server/ApacheServer.kt#L26)
+`class Http4kRequestHandler : HttpRequestHandler` [(source)](https://github.com/http4k/http4k/blob/master/http4k-server-apache/src/main/kotlin/org/http4k/server/ApacheServer.kt#L28)
 
 Exposed to allow for insertion into a customised Apache WebServer instance
 

@@ -2,19 +2,18 @@
 
 # ApacheServer
 
-`data class ApacheServer : `[`ServerConfig`](../-server-config/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-server-apache/src/main/kotlin/org/http4k/server/ApacheServer.kt#L63)
+`data class ApacheServer : `[`ServerConfig`](../-server-config/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-server-apache/src/main/kotlin/org/http4k/server/ApacheServer.kt#L61)
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `ApacheServer(port: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)` = 8000)`<br>`ApacheServer(port: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)` = 8000, address: `[`InetAddress`](http://docs.oracle.com/javase/6/docs/api/java/net/InetAddress.html)`?)` |
+| [&lt;init&gt;](-init-.md) | `ApacheServer(port: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)` = 8000)` |
 
 ### Properties
 
 | Name | Summary |
 |---|---|
-| [address](address.md) | `val address: `[`InetAddress`](http://docs.oracle.com/javase/6/docs/api/java/net/InetAddress.html)`?` |
 | [port](port.md) | `val port: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
 
 ### Functions

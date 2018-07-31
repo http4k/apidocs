@@ -18,7 +18,7 @@
 | [match](match.md) | `fun match(request: `[`Request`](../../org.http4k.core/-request/index.md)`): `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`?`<br>Attempt to supply an HttpHandler which can service the passed request. |
 | [toString](to-string.md) | `fun toString(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [withBasePath](with-base-path.md) | `fun withBasePath(new: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`ContractRoutingHttpHandler`](./index.md)<br>Returns a RoutingHttpHandler which prepends the passed base path to the logic determining the match() To follow the trend of immutability, this will generally be a new instance. |
-| [withFilter](with-filter.md) | `fun withFilter(new: `[`Filter`](../../org.http4k.core/-filter/index.md)`): `[`ContractRoutingHttpHandler`](./index.md)<br>NOTE: By default, filters for Contracts are applied *after* the Security filter. Use withPreSecurityFilter() to achieve population of filters before security. |
+| [withFilter](with-filter.md) | `fun withFilter(new: `[`Filter`](../../org.http4k.core/-filter/index.md)`): `[`ContractRoutingHttpHandler`](./index.md)<br>NOTE: By default, filters for Contracts are applied *before* the Security filter. Use withPostSecurityFilter() to achieve population of filters after security. |
 | [withPostSecurityFilter](with-post-security-filter.md) | `fun withPostSecurityFilter(new: `[`Filter`](../../org.http4k.core/-filter/index.md)`): `[`ContractRoutingHttpHandler`](./index.md) |
 
 ### Extension Functions

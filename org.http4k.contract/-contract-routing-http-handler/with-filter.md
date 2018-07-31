@@ -6,6 +6,6 @@
 
 Overrides [RoutingHttpHandler.withFilter](../../org.http4k.routing/-routing-http-handler/with-filter.md)
 
-NOTE: By default, filters for Contracts are applied *after* the Security filter. Use withPreSecurityFilter()
-to achieve population of filters before security.
+NOTE: By default, filters for Contracts are applied *before* the Security filter. Use withPostSecurityFilter()
+to achieve population of filters after security.
 

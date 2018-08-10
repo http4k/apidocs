@@ -25,4 +25,6 @@ Simple toggleable trigger to turn ChaosBehaviour on/off
 
 | Name | Summary |
 |---|---|
+| [and](../kotlin.-function1/and.md) | `infix fun `[`ChaosTrigger`](../-chaos-trigger.md)`.and(that: `[`ChaosTrigger`](../-chaos-trigger.md)`): `[`ChaosTrigger`](../-chaos-trigger.md) |
 | [not](../kotlin.-function1/not.md) | `operator fun `[`ChaosTrigger`](../-chaos-trigger.md)`.not(): (`[`HttpTransaction`](../../org.http4k.core/-http-transaction/index.md)`) -> `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
+| [or](../kotlin.-function1/or.md) | `infix fun `[`ChaosTrigger`](../-chaos-trigger.md)`.or(that: `[`ChaosTrigger`](../-chaos-trigger.md)`): `[`ChaosTrigger`](../-chaos-trigger.md) |

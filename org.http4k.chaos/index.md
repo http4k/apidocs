@@ -11,6 +11,7 @@
 | [ChaosPolicy](-chaos-policy/index.md) | `interface ChaosPolicy`<br>Determines whether or not to apply a particular type of ChaosBehaviour to a request/response. |
 | [ChaosStage](-chaos-stage/index.md) | `interface ChaosStage`<br>Defines a periodic element during which a particular ChaosBehaviour is active. |
 | [ChaosTriggers](-chaos-triggers/index.md) | `object ChaosTriggers` |
+| [SerializableTrigger](-serializable-trigger/index.md) | `abstract class SerializableTrigger` |
 | [SwitchTrigger](-switch-trigger/index.md) | `class SwitchTrigger : `[`ChaosTrigger`](-chaos-trigger.md)<br>Simple toggleable trigger to turn ChaosBehaviour on/off |
 
 ### Type Aliases

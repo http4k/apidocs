@@ -2,4 +2,4 @@
 
 # defaultKotlinModuleWithHttp4kSerialisers
 
-`val defaultKotlinModuleWithHttp4kSerialisers: KotlinModule` [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-jackson/src/main/kotlin/org/http4k/format/Jackson.kt#L98)
+`val defaultKotlinModuleWithHttp4kSerialisers: KotlinModule` [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-jackson/src/main/kotlin/org/http4k/format/Jackson.kt#L99)

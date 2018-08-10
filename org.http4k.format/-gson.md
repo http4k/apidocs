@@ -2,7 +2,7 @@
 
 # Gson
 
-`object Gson : `[`ConfigurableGson`](-configurable-gson/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-gson/src/main/kotlin/org/http4k/format/Gson.kt#L102)
+`object Gson : `[`ConfigurableGson`](-configurable-gson/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-gson/src/main/kotlin/org/http4k/format/Gson.kt#L103)
 
 ### Inherited Functions
 

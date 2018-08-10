@@ -2,7 +2,7 @@
 
 # asCompactJsonString
 
-`open fun JsonNode.asCompactJsonString(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-jackson/src/main/kotlin/org/http4k/format/Jackson.kt#L68)
+`open fun JsonNode.asCompactJsonString(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-jackson/src/main/kotlin/org/http4k/format/Jackson.kt#L69)
 
 Overrides [Json.asCompactJsonString](../-json/as-compact-json-string.md)
 

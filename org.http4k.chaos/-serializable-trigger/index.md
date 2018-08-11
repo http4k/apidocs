@@ -2,7 +2,7 @@
 
 # SerializableTrigger
 
-`abstract class SerializableTrigger` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosTriggers.kt#L25)
+`abstract class SerializableTrigger` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosTriggers.kt#L24)
 
 ### Constructors
 
@@ -20,7 +20,7 @@
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `abstract operator fun invoke(clock: Clock): `[`ChaosTrigger`](../-chaos-trigger.md) |
+| [invoke](invoke.md) | `abstract operator fun invoke(clock: Clock = Clock.systemUTC()): `[`ChaosTrigger`](../-chaos-trigger.md) |
 
 ### Inheritors
 
@@ -28,4 +28,4 @@
 |---|---|
 | [Deadline](../-chaos-triggers/-deadline/index.md) | `data class Deadline : `[`SerializableTrigger`](./index.md)<br>Activates after a particular instant in time. |
 | [Delay](../-chaos-triggers/-delay/index.md) | `data class Delay : `[`SerializableTrigger`](./index.md)<br>Activates after a particular delay (compared to instantiation). |
-| [HttpTransactionTrigger](../-chaos-triggers/-http-transaction-trigger/index.md) | `abstract class HttpTransactionTrigger : `[`SerializableTrigger`](./index.md)`, Matcher<`[`HttpTransaction`](../../org.http4k.core/-http-transaction/index.md)`>` |
+| [HttpTransactionTrigger](../-chaos-triggers/-http-transaction-trigger/index.md) | `abstract class HttpTransactionTrigger : `[`SerializableTrigger`](./index.md) |

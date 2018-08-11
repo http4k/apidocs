@@ -2,7 +2,7 @@
 
 # invoke
 
-`operator fun invoke(clock: Clock): `[`ChaosTrigger`](../../-chaos-trigger.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosTriggers.kt#L34)
+`operator fun invoke(clock: Clock): `[`ChaosTrigger`](../../-chaos-trigger.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosTriggers.kt#L33)
 
 Overrides [SerializableTrigger.invoke](../../-serializable-trigger/invoke.md)
 

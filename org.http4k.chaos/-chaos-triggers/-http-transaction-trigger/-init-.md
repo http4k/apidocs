@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`HttpTransactionTrigger(type: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, matcher: Matcher<`[`HttpTransaction`](../../../org.http4k.core/-http-transaction/index.md)`>)`
+`HttpTransactionTrigger(type: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`)`

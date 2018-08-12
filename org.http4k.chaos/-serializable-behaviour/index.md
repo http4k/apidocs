@@ -2,7 +2,7 @@
 
 # SerializableBehaviour
 
-`abstract class SerializableBehaviour : `[`ChaosBehaviour`](../-chaos-behaviour.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosBehaviours.kt#L22)
+`abstract class SerializableBehaviour : `[`ChaosBehaviour`](../-chaos-behaviour/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosBehaviours.kt#L24)
 
 ### Constructors
 
@@ -16,13 +16,11 @@
 |---|---|
 | [type](type.md) | `val type: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 
-### Extension Functions
+### Inherited Functions
 
 | Name | Summary |
 |---|---|
-| [asFilter](../kotlin.-function1/as-filter.md) | `fun `[`ChaosStage`](../-chaos-stage.md)`.asFilter(clock: Clock = Clock.systemUTC()): `[`Filter`](../../org.http4k.core/-filter/index.md)<br>Converts this chaos behaviour to a standard http4k Filter. |
-| [then](../kotlin.-function1/then.md) | `fun `[`ChaosStage`](../-chaos-stage.md)`.then(nextStage: `[`ChaosStage`](../-chaos-stage.md)`): `[`ChaosStage`](../-chaos-stage.md)<br>Chain the next ChaosBehaviour to apply when this stage is finished. |
-| [until](../kotlin.-function1/until.md) | `fun `[`ChaosStage`](../-chaos-stage.md)`.until(trigger: `[`ChaosTrigger`](../-chaos-trigger.md)`): `[`ChaosStage`](../-chaos-stage.md)<br>Stop applying the ChaosBehaviour of this stage when the ChaosTrigger fires. |
+| [invoke](../-chaos-behaviour/invoke.md) | `abstract operator fun invoke(tx: `[`HttpTransaction`](../../org.http4k.core/-http-transaction/index.md)`): `[`Response`](../../org.http4k.core/-response/index.md) |
 
 ### Inheritors
 

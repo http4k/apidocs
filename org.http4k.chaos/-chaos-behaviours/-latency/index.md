@@ -2,7 +2,7 @@
 
 # Latency
 
-`data class Latency : `[`SerializableBehaviour`](../../-serializable-behaviour/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosBehaviours.kt#L28)
+`data class Latency : `[`SerializableBehaviour`](../../-serializable-behaviour/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosBehaviours.kt#L30)
 
 Blocks the thread for a random amount of time within the allocated range.
 
@@ -11,6 +11,13 @@ Blocks the thread for a random amount of time within the allocated range.
 | Name | Summary |
 |---|---|
 | [&lt;init&gt;](-init-.md) | `Latency(latencyRange: `[`ClosedRange`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.ranges/-closed-range/index.html)`<Duration>)``Latency(min: Duration = ofMillis(100), max: Duration = ofMillis(500))`<br>Blocks the thread for a random amount of time within the allocated range. |
+
+### Properties
+
+| Name | Summary |
+|---|---|
+| [max](max.md) | `val max: Duration` |
+| [min](min.md) | `val min: Duration` |
 
 ### Inherited Properties
 

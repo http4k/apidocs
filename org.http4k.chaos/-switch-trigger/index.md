@@ -26,6 +26,6 @@ Simple toggleable trigger to turn ChaosBehaviour on/off
 | Name | Summary |
 |---|---|
 | [and](../kotlin.-function1/and.md) | `infix fun `[`ChaosTrigger`](../-chaos-trigger.md)`.and(that: `[`ChaosTrigger`](../-chaos-trigger.md)`): `[`ChaosTrigger`](../-chaos-trigger.md) |
-| [inject](../kotlin.-function1/inject.md) | `fun `[`ChaosPolicy`](../-chaos-policy.md)`.inject(behaviour: `[`ChaosBehaviour`](../-chaos-behaviour.md)`): `[`ChaosStage`](../-chaos-stage.md)<br>Returns a ChaosStage which applies some ChaosBehaviour based upon if the policy applies to the passed transaction. |
+| [inject](../kotlin.-function1/inject.md) | `fun `[`ChaosPolicy`](../-chaos-policy.md)`.inject(behaviour: `[`ChaosBehaviour`](../-chaos-behaviour/index.md)`): `[`ChaosStage`](../-chaos-stage.md)<br>Returns a ChaosStage which applies some ChaosBehaviour based upon if the policy applies to the passed transaction. |
 | [not](../kotlin.-function1/not.md) | `operator fun `[`ChaosTrigger`](../-chaos-trigger.md)`.not(): (`[`HttpTransaction`](../../org.http4k.core/-http-transaction/index.md)`) -> `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
 | [or](../kotlin.-function1/or.md) | `infix fun `[`ChaosTrigger`](../-chaos-trigger.md)`.or(that: `[`ChaosTrigger`](../-chaos-trigger.md)`): `[`ChaosTrigger`](../-chaos-trigger.md) |

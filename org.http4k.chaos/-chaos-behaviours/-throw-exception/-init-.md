@@ -3,6 +3,3 @@
 # &lt;init&gt;
 
 `ThrowException(e: `[`Throwable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)` = Exception("Chaos behaviour injected!"))`
-
-Throws the appropriate exception.
-

@@ -2,7 +2,7 @@
 
 # SerializableTrigger
 
-`abstract class SerializableTrigger` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosTriggers.kt#L24)
+`abstract class SerializableTrigger` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosTriggers.kt#L26)
 
 ### Constructors
 

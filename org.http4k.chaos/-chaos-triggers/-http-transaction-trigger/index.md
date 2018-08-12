@@ -2,7 +2,7 @@
 
 # HttpTransactionTrigger
 
-`abstract class HttpTransactionTrigger : `[`SerializableTrigger`](../../-serializable-trigger/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosTriggers.kt#L51)
+`abstract class HttpTransactionTrigger : `[`SerializableTrigger`](../../-serializable-trigger/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosTriggers.kt#L53)
 
 ### Constructors
 

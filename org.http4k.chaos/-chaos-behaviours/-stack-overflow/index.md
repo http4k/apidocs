@@ -2,7 +2,7 @@
 
 # StackOverflow
 
-`object StackOverflow : `[`ChaosBehaviour`](../../-chaos-behaviour/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosBehaviours.kt#L91)
+`object StackOverflow : `[`ChaosBehaviour`](../../-chaos-behaviour.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosBehaviours.kt#L89)
 
 Allocates memory in a busy loop until an OOM occurs.
 

@@ -2,7 +2,7 @@
 
 # None
 
-`val None: `[`ChaosBehaviour`](../-chaos-behaviour/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosBehaviours.kt#L119)
+`val None: `[`ChaosBehaviour`](../-chaos-behaviour.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosBehaviours.kt#L117)
 
 Does absolutely nothing.
 

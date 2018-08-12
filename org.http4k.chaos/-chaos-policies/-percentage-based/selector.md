@@ -2,4 +2,4 @@
 
 # selector
 
-`val selector: `[`Random`](http://docs.oracle.com/javase/6/docs/api/java/util/Random.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosPolicies.kt#L57)
+`val selector: `[`Random`](http://docs.oracle.com/javase/6/docs/api/java/util/Random.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosPolicies.kt#L55)

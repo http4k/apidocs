@@ -2,7 +2,7 @@
 
 # Wait
 
-`object Wait : `[`ChaosStage`](../../-chaos-stage/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosStages.kt#L38)
+`object Wait : `[`ChaosStage`](../../-chaos-stage.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosStages.kt#L76)
 
 Does not apply any ChaosBehaviour.
 

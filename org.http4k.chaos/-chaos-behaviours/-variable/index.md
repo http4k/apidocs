@@ -2,7 +2,7 @@
 
 # Variable
 
-`data class Variable : `[`ChaosBehaviour`](../../-chaos-behaviour/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosBehaviours.kt#L127)
+`data class Variable : `[`ChaosBehaviour`](../../-chaos-behaviour.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosBehaviours.kt#L125)
 
 Provide a means of modifying a ChaosBehaviour at runtime.
 
@@ -10,13 +10,13 @@ Provide a means of modifying a ChaosBehaviour at runtime.
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `Variable(current: `[`ChaosBehaviour`](../../-chaos-behaviour/index.md)` = None)`<br>Provide a means of modifying a ChaosBehaviour at runtime. |
+| [&lt;init&gt;](-init-.md) | `Variable(current: `[`ChaosBehaviour`](../../-chaos-behaviour.md)` = None)`<br>Provide a means of modifying a ChaosBehaviour at runtime. |
 
 ### Properties
 
 | Name | Summary |
 |---|---|
-| [current](current.md) | `var current: `[`ChaosBehaviour`](../../-chaos-behaviour/index.md) |
+| [current](current.md) | `var current: `[`ChaosBehaviour`](../../-chaos-behaviour.md) |
 
 ### Functions
 

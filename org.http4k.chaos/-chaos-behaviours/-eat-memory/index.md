@@ -2,7 +2,7 @@
 
 # EatMemory
 
-`object EatMemory : `[`ChaosBehaviour`](../../-chaos-behaviour/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosBehaviours.kt#L80)
+`object EatMemory : `[`ChaosBehaviour`](../../-chaos-behaviour.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosBehaviours.kt#L78)
 
 Allocates memory in a busy loop until an OOM occurs.
 

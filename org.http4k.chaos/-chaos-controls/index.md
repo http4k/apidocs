@@ -16,4 +16,4 @@ By default, controls are mounted at the root path /chaos
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `operator fun invoke(trigger: `[`SwitchTrigger`](../-switch-trigger/index.md)`, chaosStage: `[`ChaosStage`](../-chaos-stage/index.md)`, controlsPath: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = "/chaos"): `[`RoutingHttpHandler`](../../org.http4k.routing/-routing-http-handler/index.md) |
+| [invoke](invoke.md) | `operator fun invoke(trigger: `[`SwitchTrigger`](../-switch-trigger/index.md)`, chaosStage: `[`ChaosStage`](../-chaos-stage.md)`, controlsPath: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = "/chaos"): `[`RoutingHttpHandler`](../../org.http4k.routing/-routing-http-handler/index.md) |

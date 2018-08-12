@@ -2,7 +2,7 @@
 
 # BiDiLensSpec
 
-`open class BiDiLensSpec<IN, OUT> : `[`LensSpec`](../-lens-spec/index.md)`<`[`IN`](index.md#IN)`, `[`OUT`](index.md#OUT)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/lensSpec.kt#L126)
+`open class BiDiLensSpec<IN, OUT> : `[`LensSpec`](../-lens-spec/index.md)`<`[`IN`](index.md#IN)`, `[`OUT`](index.md#OUT)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/lensSpec.kt#L128)
 
 Represents a bi-directional extraction of an entity from a target, or an insertion into a target.
 
@@ -48,6 +48,7 @@ Represents a bi-directional extraction of an entity from a target, or an inserti
 | [dateTime](../date-time.md) | `fun <IN> `[`BiDiLensSpec`](./index.md)`<`[`IN`](../date-time.md#IN)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>.dateTime(formatter: DateTimeFormatter = ISO_LOCAL_DATE_TIME): `[`BiDiLensSpec`](./index.md)`<`[`IN`](../date-time.md#IN)`, LocalDateTime>` |
 | [double](../double.md) | `fun <IN> `[`BiDiLensSpec`](./index.md)`<`[`IN`](../double.md#IN)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>.double(): `[`BiDiLensSpec`](./index.md)`<`[`IN`](../double.md#IN)`, `[`Double`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html)`>` |
 | [float](../float.md) | `fun <IN> `[`BiDiLensSpec`](./index.md)`<`[`IN`](../float.md#IN)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>.float(): `[`BiDiLensSpec`](./index.md)`<`[`IN`](../float.md#IN)`, `[`Float`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html)`>` |
+| [instant](../instant.md) | `fun <IN> `[`BiDiLensSpec`](./index.md)`<`[`IN`](../instant.md#IN)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>.instant(): `[`BiDiLensSpec`](./index.md)`<`[`IN`](../instant.md#IN)`, Instant>` |
 | [int](../int.md) | `fun <IN> `[`BiDiLensSpec`](./index.md)`<`[`IN`](../int.md#IN)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>.int(): `[`BiDiLensSpec`](./index.md)`<`[`IN`](../int.md#IN)`, `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`>` |
 | [localDate](../local-date.md) | `fun <IN> `[`BiDiLensSpec`](./index.md)`<`[`IN`](../local-date.md#IN)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>.localDate(formatter: DateTimeFormatter = ISO_LOCAL_DATE): `[`BiDiLensSpec`](./index.md)`<`[`IN`](../local-date.md#IN)`, LocalDate>` |
 | [long](../long.md) | `fun <IN> `[`BiDiLensSpec`](./index.md)`<`[`IN`](../long.md#IN)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>.long(): `[`BiDiLensSpec`](./index.md)`<`[`IN`](../long.md#IN)`, `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`>` |

@@ -2,7 +2,7 @@
 
 # MultiLensSpec
 
-`interface MultiLensSpec<in IN, OUT>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/lensSpec.kt#L39)
+`interface MultiLensSpec<in IN, OUT>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/lensSpec.kt#L41)
 
 Represents a uni-directional extraction of a list of entities from a target.
 

@@ -2,7 +2,7 @@
 
 # PathLens
 
-`open class PathLens<out FINAL> : `[`Lens`](../-lens/index.md)`<`[`Request`](../../org.http4k.core/-request/index.md)`, `[`FINAL`](index.md#FINAL)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/path.kt#L20)
+`open class PathLens<out FINAL> : `[`Lens`](../-lens/index.md)`<`[`Request`](../../org.http4k.core/-request/index.md)`, `[`FINAL`](index.md#FINAL)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/path.kt#L21)
 
 ### Constructors
 

@@ -2,7 +2,7 @@
 
 # Variable
 
-`class Variable : `[`ChaosBehaviour`](../../-chaos-behaviour/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosBehaviours.kt#L127)
+`data class Variable : `[`ChaosBehaviour`](../../-chaos-behaviour/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosBehaviours.kt#L127)
 
 Provide a means of modifying a ChaosBehaviour at runtime.
 

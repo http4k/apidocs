@@ -2,7 +2,7 @@
 
 # ReturnStatus
 
-`data class ReturnStatus : `[`ChaosBehaviour`](../../-chaos-behaviour.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosBehaviours.kt#L62)
+`data class ReturnStatus : `[`SerializableBehaviour`](../../-serializable-behaviour/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosBehaviours.kt#L67)
 
 Returns an empty response with the appropriate status.
 
@@ -12,11 +12,11 @@ Returns an empty response with the appropriate status.
 |---|---|
 | [&lt;init&gt;](-init-.md) | `ReturnStatus(status: `[`Status`](../../../org.http4k.core/-status/index.md)` = INTERNAL_SERVER_ERROR)`<br>Returns an empty response with the appropriate status. |
 
-### Properties
+### Inherited Properties
 
 | Name | Summary |
 |---|---|
-| [status](status.md) | `val status: `[`Status`](../../../org.http4k.core/-status/index.md) |
+| [type](../../-serializable-behaviour/type.md) | `val type: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 
 ### Functions
 

@@ -2,7 +2,7 @@
 
 # ThrowException
 
-`data class ThrowException : `[`ChaosBehaviour`](../../-chaos-behaviour.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosBehaviours.kt#L54)
+`data class ThrowException : `[`SerializableBehaviour`](../../-serializable-behaviour/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosBehaviours.kt#L59)
 
 Throws the appropriate exception.
 
@@ -12,11 +12,11 @@ Throws the appropriate exception.
 |---|---|
 | [&lt;init&gt;](-init-.md) | `ThrowException(e: `[`Throwable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)` = Exception("Chaos behaviour injected!"))`<br>Throws the appropriate exception. |
 
-### Properties
+### Inherited Properties
 
 | Name | Summary |
 |---|---|
-| [e](e.md) | `val e: `[`Throwable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html) |
+| [type](../../-serializable-behaviour/type.md) | `val type: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 
 ### Functions
 

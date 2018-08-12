@@ -2,7 +2,7 @@
 
 # &lt;init&gt;
 
-`Latency(latencyRange: `[`ClosedRange`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.ranges/-closed-range/index.html)`<Duration> = ofMillis(100)..ofMillis(500))`
+`Latency(latencyRange: `[`ClosedRange`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.ranges/-closed-range/index.html)`<Duration>)``Latency(min: Duration = ofMillis(100), max: Duration = ofMillis(500))`
 
 Blocks the thread for a random amount of time within the allocated range.
 

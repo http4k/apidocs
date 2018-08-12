@@ -11,6 +11,7 @@
 | [ChaosPolicies](-chaos-policies/index.md) | `object ChaosPolicies` |
 | [ChaosStages](-chaos-stages/index.md) | `object ChaosStages` |
 | [ChaosTriggers](-chaos-triggers/index.md) | `object ChaosTriggers` |
+| [SerializableBehaviour](-serializable-behaviour/index.md) | `abstract class SerializableBehaviour : `[`ChaosBehaviour`](-chaos-behaviour.md) |
 | [SerializableTrigger](-serializable-trigger/index.md) | `abstract class SerializableTrigger` |
 | [SwitchTrigger](-switch-trigger/index.md) | `class SwitchTrigger : `[`ChaosTrigger`](-chaos-trigger.md)<br>Simple toggleable trigger to turn ChaosBehaviour on/off |
 

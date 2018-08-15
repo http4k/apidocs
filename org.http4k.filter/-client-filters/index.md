@@ -9,6 +9,7 @@
 | Name | Summary |
 |---|---|
 | [BasicAuth](-basic-auth/index.md) | `object BasicAuth` |
+| [BearerAuth](-bearer-auth/index.md) | `object BearerAuth` |
 | [Cookies](-cookies/index.md) | `object Cookies` |
 | [FollowRedirects](-follow-redirects/index.md) | `object FollowRedirects` |
 | [GZip](-g-zip/index.md) | `object GZip`<br>Basic GZip and Gunzip support of Request/Response. Does not currently support GZipping streams. Only Gunzip responses when the response contains "transfer-encoding" header containing 'gzip' |

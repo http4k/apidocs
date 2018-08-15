@@ -9,6 +9,7 @@
 | Name | Summary |
 |---|---|
 | [BasicAuth](-basic-auth/index.md) | `object BasicAuth`<br>Simple Basic Auth credential checking. |
+| [BearerAuth](-bearer-auth/index.md) | `object BearerAuth`<br>Bearer Auth token checking. |
 | [CatchAll](-catch-all/index.md) | `object CatchAll`<br>Last gasp filter which catches all exceptions and returns a formatted Internal Server Error. |
 | [CatchLensFailure](-catch-lens-failure.md) | `object CatchLensFailure : `[`Filter`](../../org.http4k.core/-filter/index.md)<br>Converts Lens extraction failures into correct HTTP responses (Bad Requests/UnsupportedMediaType). This is required when using lenses to automatically unmarshall inbound requests. Note that LensFailures from unmarshalling upstream Response objects are NOT caught to avoid incorrect server behaviour. |
 | [CopyHeaders](-copy-headers/index.md) | `object CopyHeaders`<br>Copy headers from the incoming request to the outbound response. |

@@ -2,7 +2,7 @@
 
 # BiDiLensSpec
 
-`open class BiDiLensSpec<IN, OUT> : `[`LensSpec`](../-lens-spec/index.md)`<`[`IN`](index.md#IN)`, `[`OUT`](index.md#OUT)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/lensSpec.kt#L128)
+`open class BiDiLensSpec<IN, OUT> : `[`LensSpec`](../-lens-spec/index.md)`<`[`IN`](index.md#IN)`, `[`OUT`](index.md#OUT)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/lensSpec.kt#L143)
 
 Represents a bi-directional extraction of an entity from a target, or an insertion into a target.
 
@@ -30,6 +30,7 @@ Represents a bi-directional extraction of an entity from a target, or an inserti
 | Name | Summary |
 |---|---|
 | [defaulted](defaulted.md) | `open fun defaulted(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, default: `[`OUT`](index.md#OUT)`, description: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`BiDiLens`](../-bi-di-lens/index.md)`<`[`IN`](index.md#IN)`, `[`OUT`](index.md#OUT)`>`<br>Make a concrete Lens for this spec that falls back to the default value if no value is found in the target. |
+| [fallback](fallback.md) | `open fun fallback(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, fallback: `[`Lens`](../-lens/index.md)`<`[`IN`](index.md#IN)`, `[`OUT`](index.md#OUT)`>, description: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`BiDiLens`](../-bi-di-lens/index.md)`<`[`IN`](index.md#IN)`, `[`OUT`](index.md#OUT)`>`<br>Make a concrete Lens for this spec that falls back to another lens if no value is found in the target. |
 | [map](map.md) | `fun <NEXT> map(nextIn: (`[`OUT`](index.md#OUT)`) -> `[`NEXT`](map.md#NEXT)`, nextOut: (`[`NEXT`](map.md#NEXT)`) -> `[`OUT`](index.md#OUT)`): `[`BiDiLensSpec`](./index.md)`<`[`IN`](index.md#IN)`, `[`NEXT`](map.md#NEXT)`>`<br>Create another BiDiLensSpec which applies the bi-directional transformations to the result. Any resultant Lens can be used to extract or insert the final type from/into a target. |
 | [optional](optional.md) | `open fun optional(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, description: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`BiDiLens`](../-bi-di-lens/index.md)`<`[`IN`](index.md#IN)`, `[`OUT`](index.md#OUT)`?>`<br>Make a concrete Lens for this spec that looks for an optional value in the target. |
 | [required](required.md) | `open fun required(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, description: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`BiDiLens`](../-bi-di-lens/index.md)`<`[`IN`](index.md#IN)`, `[`OUT`](index.md#OUT)`>`<br>Make a concrete Lens for this spec that looks for a required value in the target. |

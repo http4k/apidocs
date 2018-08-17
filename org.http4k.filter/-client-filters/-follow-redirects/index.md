@@ -2,7 +2,7 @@
 
 # FollowRedirects
 
-`object FollowRedirects` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ClientFilters.kt#L71)
+`object FollowRedirects` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ClientFilters.kt#L73)
 
 ### Functions
 

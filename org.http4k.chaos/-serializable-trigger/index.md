@@ -21,11 +21,3 @@
 | Name | Summary |
 |---|---|
 | [invoke](invoke.md) | `abstract operator fun invoke(clock: Clock = Clock.systemUTC()): `[`ChaosTrigger`](../-chaos-trigger.md) |
-
-### Inheritors
-
-| Name | Summary |
-|---|---|
-| [Deadline](../-chaos-triggers/-deadline/index.md) | `data class Deadline : `[`SerializableTrigger`](./index.md)<br>Activates after a particular instant in time. |
-| [Delay](../-chaos-triggers/-delay/index.md) | `data class Delay : `[`SerializableTrigger`](./index.md)<br>Activates after a particular delay (compared to instantiation). |
-| [HttpTransactionTrigger](../-chaos-triggers/-http-transaction-trigger/index.md) | `abstract class HttpTransactionTrigger : `[`SerializableTrigger`](./index.md) |

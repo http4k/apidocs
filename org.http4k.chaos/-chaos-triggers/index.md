@@ -8,8 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [Deadline](-deadline/index.md) | `data class Deadline : `[`SerializableTrigger`](../-serializable-trigger/index.md)<br>Activates after a particular instant in time. |
-| [Delay](-delay/index.md) | `data class Delay : `[`SerializableTrigger`](../-serializable-trigger/index.md)<br>Activates after a particular delay (compared to instantiation). |
-| [HttpTransactionTrigger](-http-transaction-trigger/index.md) | `abstract class HttpTransactionTrigger : `[`SerializableTrigger`](../-serializable-trigger/index.md) |
-| [MatchRequest](-match-request/index.md) | `data class MatchRequest : `[`HttpTransactionTrigger`](-http-transaction-trigger/index.md)<br>Activates when matching attributes of a single received request are met. |
-| [MatchResponse](-match-response/index.md) | `data class MatchResponse : `[`HttpTransactionTrigger`](-http-transaction-trigger/index.md)<br>Activates when matching attributes of a single sent response are met. |
+| [Deadline](-deadline/index.md) | `object Deadline`<br>Activates after a particular instant in time. |
+| [Delay](-delay/index.md) | `object Delay`<br>Activates after a particular delay (compared to instantiation). |
+| [MatchRequest](-match-request/index.md) | `object MatchRequest`<br>Activates when matching attributes of a single received request are met. |
+| [MatchResponse](-match-response/index.md) | `object MatchResponse`<br>Activates when matching attributes of a single sent response are met. |

@@ -129,6 +129,7 @@
 | [org.http4k.format.Json](../org.http4k.format/-json/index.md) | This is the contract for all JSON implementations |
 | [org.http4k.format.JsonErrorResponseRenderer](../org.http4k.format/-json-error-response-renderer/index.md) |  |
 | [org.http4k.format.JsonLibAutoMarshallingJson](../org.http4k.format/-json-lib-auto-marshalling-json/index.md) |  |
+| [com.fasterxml.jackson.databind.JsonNode](../org.http4k.chaos/com.fasterxml.jackson.databind.-json-node/index.md) (extensions in package org.http4k.chaos) |  |
 | [org.http4k.util.JsonSchema](../org.http4k.util/-json-schema/index.md) |  |
 | [org.http4k.util.JsonToJsonSchema](../org.http4k.util/-json-to-json-schema/index.md) |  |
 | [org.http4k.format.JsonType](../org.http4k.format/-json-type/index.md) |  |

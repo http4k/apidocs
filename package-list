@@ -13,6 +13,7 @@ $dokka.location:org.http4k$unquoted(kotlin.String)org.http4k/kotlin.-string/unq
 $dokka.location:org.http4k$urlEncoded(kotlin.String)org.http4k/kotlin.-string/url-encoded.md
 $dokka.location:org.http4k.chaos$and(kotlin.Function1((org.http4k.core.HttpTransaction, kotlin.Boolean)), kotlin.Function1((org.http4k.core.HttpTransaction, kotlin.Boolean)))org.http4k.chaos/kotlin.-function1/and.md
 $dokka.location:org.http4k.chaos$asFilter(kotlin.Function1((org.http4k.core.HttpTransaction, org.http4k.core.Response)), java.time.Clock)org.http4k.chaos/kotlin.-function1/as-filter.md
+$dokka.location:org.http4k.chaos$asStage(com.fasterxml.jackson.databind.JsonNode, java.time.Clock)org.http4k.chaos/com.fasterxml.jackson.databind.-json-node/as-stage.md
 $dokka.location:org.http4k.chaos$inject(kotlin.Function1((org.http4k.core.HttpTransaction, kotlin.Boolean)), kotlin.Function1((org.http4k.core.HttpTransaction, org.http4k.core.Response)))org.http4k.chaos/kotlin.-function1/inject.md
 $dokka.location:org.http4k.chaos$not(kotlin.Function1((org.http4k.core.HttpTransaction, kotlin.Boolean)))org.http4k.chaos/kotlin.-function1/not.md
 $dokka.location:org.http4k.chaos$or(kotlin.Function1((org.http4k.core.HttpTransaction, kotlin.Boolean)), kotlin.Function1((org.http4k.core.HttpTransaction, kotlin.Boolean)))org.http4k.chaos/kotlin.-function1/or.md

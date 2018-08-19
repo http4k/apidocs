@@ -27,6 +27,7 @@
 
 | Name | Summary |
 |---|---|
+| [com.fasterxml.jackson.databind.JsonNode](com.fasterxml.jackson.databind.-json-node/index.md) |  |
 | [kotlin.Function1](kotlin.-function1/index.md) |  |
 
 ### Properties

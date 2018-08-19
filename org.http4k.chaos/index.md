@@ -7,7 +7,7 @@
 | Name | Summary |
 |---|---|
 | [ChaosBehaviours](-chaos-behaviours/index.md) | `object ChaosBehaviours` |
-| [ChaosControls](-chaos-controls/index.md) | `object ChaosControls`<br>Adds a set of endpoints to an application which will control the switching on/off of chaos behaviour. The added endpoints are: //status &lt;- check the on off/status of the injected chaos //activate &lt;- turn on the chaos //deactivate &lt;- turn off the chaos //toggle &lt;- toggle the chaos |
+| [ChaosControls](-chaos-controls/index.md) | `object ChaosControls`<br>Adds a set of endpoints to an application which will control the switching on/off of chaos behaviour. The added endpoints are: GET //status &lt;- check the on off/status of the injected chaos POST //activate &lt;- turn on the chaos. optionally POST a JSON body to set a list of new stages to use. POST //deactivate &lt;- turn off the chaos POST //toggle &lt;- toggle the chaos |
 | [ChaosPolicies](-chaos-policies/index.md) | `object ChaosPolicies` |
 | [ChaosStages](-chaos-stages/index.md) | `object ChaosStages` |
 | [ChaosTriggers](-chaos-triggers/index.md) | `object ChaosTriggers` |

@@ -2,7 +2,7 @@
 
 # &lt;init&gt;
 
-`Variable(current: `[`ChaosBehaviour`](../../-chaos-behaviour/index.md)` = None)`
+`Variable(current: `[`ChaosBehaviour`](../../-chaos-behaviour.md)` = None)`
 
 Provide a means of modifying a ChaosBehaviour at runtime.
 

@@ -6,13 +6,11 @@
 
 | Name | Summary |
 |---|---|
-| [ChaosBehaviour](-chaos-behaviour/index.md) | `interface ChaosBehaviour`<br>Encapsulates the type of bad behaviour to apply to the response. |
 | [ChaosBehaviours](-chaos-behaviours/index.md) | `object ChaosBehaviours` |
 | [ChaosControls](-chaos-controls/index.md) | `object ChaosControls`<br>Adds a set of endpoints to an application which will control the switching on/off of chaos behaviour. The added endpoints are: //status &lt;- check the on off/status of the injected chaos //activate &lt;- turn on the chaos //deactivate &lt;- turn off the chaos //toggle &lt;- toggle the chaos |
 | [ChaosPolicies](-chaos-policies/index.md) | `object ChaosPolicies` |
 | [ChaosStages](-chaos-stages/index.md) | `object ChaosStages` |
 | [ChaosTriggers](-chaos-triggers/index.md) | `object ChaosTriggers` |
-| [SerializableBehaviour](-serializable-behaviour/index.md) | `abstract class SerializableBehaviour : `[`ChaosBehaviour`](-chaos-behaviour/index.md) |
 | [SerializableTrigger](-serializable-trigger/index.md) | `abstract class SerializableTrigger` |
 | [SwitchTrigger](-switch-trigger/index.md) | `class SwitchTrigger : `[`ChaosTrigger`](-chaos-trigger.md)<br>Simple toggleable trigger to turn ChaosBehaviour on/off |
 
@@ -20,6 +18,7 @@
 
 | Name | Summary |
 |---|---|
+| [ChaosBehaviour](-chaos-behaviour.md) | `typealias ChaosBehaviour = (tx: `[`HttpTransaction`](../org.http4k.core/-http-transaction/index.md)`) -> `[`Response`](../org.http4k.core/-response/index.md)<br>Encapsulates the type of bad behaviour to apply to the response. |
 | [ChaosPolicy](-chaos-policy.md) | `typealias ChaosPolicy = (`[`HttpTransaction`](../org.http4k.core/-http-transaction/index.md)`) -> `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)<br>Determines whether or not to apply a particular type of ChaosBehaviour to a request/response. |
 | [ChaosStage](-chaos-stage.md) | `typealias ChaosStage = (`[`HttpTransaction`](../org.http4k.core/-http-transaction/index.md)`) -> `[`Response`](../org.http4k.core/-response/index.md)`?`<br>Defines a periodic element during which a particular ChaosBehaviour is active. |
 | [ChaosTrigger](-chaos-trigger.md) | `typealias ChaosTrigger = (`[`HttpTransaction`](../org.http4k.core/-http-transaction/index.md)`) -> `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |

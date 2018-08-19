@@ -11,6 +11,3 @@ Determines whether or not to apply a particular type of ChaosBehaviour to a requ
 | Name | Summary |
 |---|---|
 | [Always](-chaos-policies/-always/index.md) | `object Always : `[`ChaosPolicy`](./-chaos-policy.md)<br>Applies to every transaction. |
-| [Once](-chaos-policies/-once/index.md) | `data class Once : `[`ChaosPolicy`](./-chaos-policy.md)<br>Single application predicated on the ChaosTrigger. Further matches don't apply |
-| [Only](-chaos-policies/-only/index.md) | `data class Only : `[`ChaosPolicy`](./-chaos-policy.md)<br>Application predicated on the ChaosTrigger |
-| [PercentageBased](-chaos-policies/-percentage-based/index.md) | `data class PercentageBased : `[`ChaosPolicy`](./-chaos-policy.md)<br>Applies n% of the time, based on result of a Random. |

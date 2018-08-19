@@ -6,7 +6,7 @@
 |---|---|
 | [and](and.md) | `infix fun `[`ChaosTrigger`](../-chaos-trigger.md)`.and(that: `[`ChaosTrigger`](../-chaos-trigger.md)`): `[`ChaosTrigger`](../-chaos-trigger.md) |
 | [asFilter](as-filter.md) | `fun `[`ChaosStage`](../-chaos-stage.md)`.asFilter(clock: Clock = Clock.systemUTC()): `[`Filter`](../../org.http4k.core/-filter/index.md)<br>Converts this chaos behaviour to a standard http4k Filter. |
-| [inject](inject.md) | `fun `[`ChaosPolicy`](../-chaos-policy.md)`.inject(behaviour: `[`ChaosBehaviour`](../-chaos-behaviour/index.md)`): `[`ChaosStage`](../-chaos-stage.md)<br>Returns a ChaosStage which applies some ChaosBehaviour based upon if the policy applies to the passed transaction. |
+| [inject](inject.md) | `fun `[`ChaosPolicy`](../-chaos-policy.md)`.inject(behaviour: `[`ChaosBehaviour`](../-chaos-behaviour.md)`): `[`ChaosStage`](../-chaos-stage.md)<br>Returns a ChaosStage which applies some ChaosBehaviour based upon if the policy applies to the passed transaction. |
 | [not](not.md) | `operator fun `[`ChaosTrigger`](../-chaos-trigger.md)`.not(): (`[`HttpTransaction`](../../org.http4k.core/-http-transaction/index.md)`) -> `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
 | [or](or.md) | `infix fun `[`ChaosTrigger`](../-chaos-trigger.md)`.or(that: `[`ChaosTrigger`](../-chaos-trigger.md)`): `[`ChaosTrigger`](../-chaos-trigger.md) |
 | [then](then.md) | `fun `[`ChaosStage`](../-chaos-stage.md)`.then(nextStage: `[`ChaosStage`](../-chaos-stage.md)`): `[`ChaosStage`](../-chaos-stage.md)<br>Chain the next ChaosBehaviour to apply when this stage is finished. |

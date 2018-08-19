@@ -38,7 +38,7 @@
 | [org.http4k.filter.CacheControlHeaderPart](../org.http4k.filter/-cache-control-header-part/index.md) |  |
 | [org.http4k.filter.CachingFilters](../org.http4k.filter/-caching-filters/index.md) | Useful filters for applying Cache-Controls to request/responses |
 | [org.http4k.filter.CanonicalPayload](../org.http4k.filter/-canonical-payload/index.md) |  |
-| [org.http4k.chaos.ChaosBehaviour](../org.http4k.chaos/-chaos-behaviour/index.md) | Encapsulates the type of bad behaviour to apply to the response. |
+| [org.http4k.chaos.ChaosBehaviour](../org.http4k.chaos/-chaos-behaviour.md) | Encapsulates the type of bad behaviour to apply to the response. |
 | [org.http4k.chaos.ChaosBehaviours](../org.http4k.chaos/-chaos-behaviours/index.md) |  |
 | [org.http4k.chaos.ChaosControls](../org.http4k.chaos/-chaos-controls/index.md) | Adds a set of endpoints to an application which will control the switching on/off of chaos behaviour. The added endpoints are: //status &lt;- check the on off/status of the injected chaos //activate &lt;- turn on the chaos //deactivate &lt;- turn off the chaos //toggle &lt;- toggle the chaos |
 | [org.http4k.chaos.ChaosPolicies](../org.http4k.chaos/-chaos-policies/index.md) |  |
@@ -212,7 +212,6 @@
 | [org.http4k.routing.RoutingWsHandler](../org.http4k.routing/-routing-ws-handler/index.md) |  |
 | [org.http4k.filter.SamplingDecision](../org.http4k.filter/-sampling-decision/index.md) |  |
 | [org.http4k.contract.Security](../org.http4k.contract/-security/index.md) | Endpoint security. Provides filter to be applied to endpoints for all requests. |
-| [org.http4k.chaos.SerializableBehaviour](../org.http4k.chaos/-serializable-behaviour/index.md) |  |
 | [org.http4k.chaos.SerializableTrigger](../org.http4k.chaos/-serializable-trigger/index.md) |  |
 | [org.http4k.server.ServerConfig](../org.http4k.server/-server-config/index.md) | Standard interface for creating a configured WebServer |
 | [org.http4k.filter.ServerFilters](../org.http4k.filter/-server-filters/index.md) |  |

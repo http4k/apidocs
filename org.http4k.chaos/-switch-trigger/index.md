@@ -2,7 +2,7 @@
 
 # SwitchTrigger
 
-`class SwitchTrigger : `[`ChaosTrigger`](../-chaos-trigger.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosTriggers.kt#L120)
+`class SwitchTrigger : `[`ChaosTrigger`](../-chaos-trigger.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosTriggers.kt#L133)
 
 Simple toggleable trigger to turn ChaosBehaviour on/off
 

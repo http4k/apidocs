@@ -2,7 +2,7 @@
 
 # Deadline
 
-`data class Deadline : `[`SerializableTrigger`](../../-serializable-trigger/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosTriggers.kt#L49)
+`data class Deadline : `[`SerializableTrigger`](../../-serializable-trigger/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosTriggers.kt#L54)
 
 Activates after a particular instant in time.
 

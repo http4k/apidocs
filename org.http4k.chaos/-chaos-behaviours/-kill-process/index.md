@@ -2,7 +2,7 @@
 
 # KillProcess
 
-`object KillProcess` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosBehaviours.kt#L121)
+`object KillProcess` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosBehaviours.kt#L129)
 
 System exits from the process.
 
@@ -10,4 +10,4 @@ System exits from the process.
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `operator fun invoke(): `[`ChaosBehaviour`](../../-chaos-behaviour.md) |
+| [invoke](invoke.md) | `operator fun invoke(): `[`Behaviour`](../../-behaviour.md) |

@@ -2,7 +2,7 @@
 
 # Variable
 
-`class Variable : `[`ChaosStage`](../../-chaos-stage.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosStages.kt#L88)
+`class Variable : `[`Stage`](../../-stage.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosStages.kt#L83)
 
 Provide a means of modifying a ChaosBehaviour at runtime.
 
@@ -10,17 +10,17 @@ Provide a means of modifying a ChaosBehaviour at runtime.
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `Variable(current: `[`ChaosStage`](../../-chaos-stage.md)` = None())`<br>Provide a means of modifying a ChaosBehaviour at runtime. |
+| [&lt;init&gt;](-init-.md) | `Variable(current: `[`Stage`](../../-stage.md)` = Always.inject(None()))`<br>Provide a means of modifying a ChaosBehaviour at runtime. |
 
 ### Properties
 
 | Name | Summary |
 |---|---|
-| [current](current.md) | `var current: `[`ChaosStage`](../../-chaos-stage.md) |
+| [current](current.md) | `var current: `[`Stage`](../../-stage.md) |
 
 ### Functions
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `fun invoke(tx: `[`HttpTransaction`](../../../org.http4k.core/-http-transaction/index.md)`): `[`Response`](../../../org.http4k.core/-response/index.md)`?` |
+| [invoke](invoke.md) | `fun invoke(request: `[`Request`](../../../org.http4k.core/-request/index.md)`): `[`Filter`](../../../org.http4k.core/-filter/index.md)`?` |
 | [toString](to-string.md) | `fun toString(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |

@@ -2,7 +2,7 @@
 
 # ChaosBehaviours
 
-`object ChaosBehaviours` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosBehaviours.kt#L32)
+`object ChaosBehaviours` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosBehaviours.kt#L34)
 
 ### Types
 
@@ -17,4 +17,4 @@
 | [ReturnStatus](-return-status/index.md) | `object ReturnStatus`<br>Returns an empty response with the appropriate status. |
 | [StackOverflow](-stack-overflow/index.md) | `object StackOverflow`<br>Allocates memory in a busy loop until an OOM occurs. |
 | [ThrowException](-throw-exception/index.md) | `object ThrowException`<br>Throws the appropriate exception. |
-| [Variable](-variable/index.md) | `class Variable : `[`ChaosBehaviour`](../-chaos-behaviour.md)<br>Provide a means of modifying a ChaosBehaviour at runtime. |
+| [Variable](-variable/index.md) | `class Variable : `[`Behaviour`](../-behaviour.md)<br>Provide a means of modifying a ChaosBehaviour at runtime. |

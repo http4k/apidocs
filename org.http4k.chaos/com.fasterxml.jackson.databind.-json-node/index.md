@@ -4,4 +4,4 @@
 
 | Name | Summary |
 |---|---|
-| [asStage](as-stage.md) | `fun JsonNode.asStage(clock: Clock = Clock.systemUTC()): `[`ChaosStage`](../-chaos-stage.md) |
+| [asStage](as-stage.md) | `fun JsonNode.asStage(clock: Clock = Clock.systemUTC()): `[`Stage`](../-stage.md) |

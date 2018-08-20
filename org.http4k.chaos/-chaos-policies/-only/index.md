@@ -10,4 +10,4 @@ Application predicated on the ChaosTrigger
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `operator fun invoke(trigger: `[`ChaosTrigger`](../../-chaos-trigger.md)`): `[`ChaosPolicy`](../../-chaos-policy.md) |
+| [invoke](invoke.md) | `operator fun invoke(trigger: `[`Trigger`](../../-trigger.md)`): `[`Policy`](../../-policy.md) |

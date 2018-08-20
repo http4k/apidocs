@@ -2,7 +2,7 @@
 
 # BlockThread
 
-`object BlockThread` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosBehaviours.kt#L131)
+`object BlockThread` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosBehaviours.kt#L143)
 
 Blocks the current thread.
 
@@ -10,4 +10,4 @@ Blocks the current thread.
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `operator fun invoke(): `[`ChaosBehaviour`](../../-chaos-behaviour.md) |
+| [invoke](invoke.md) | `operator fun invoke(): `[`Behaviour`](../../-behaviour.md) |

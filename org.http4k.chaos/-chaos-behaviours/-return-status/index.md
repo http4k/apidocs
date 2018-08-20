@@ -2,7 +2,7 @@
 
 # ReturnStatus
 
-`object ReturnStatus` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosBehaviours.kt#L74)
+`object ReturnStatus` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosBehaviours.kt#L76)
 
 Returns an empty response with the appropriate status.
 
@@ -10,4 +10,4 @@ Returns an empty response with the appropriate status.
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `operator fun invoke(status: `[`Status`](../../../org.http4k.core/-status/index.md)` = INTERNAL_SERVER_ERROR): `[`ChaosBehaviour`](../../-chaos-behaviour.md) |
+| [invoke](invoke.md) | `operator fun invoke(status: `[`Status`](../../../org.http4k.core/-status/index.md)` = INTERNAL_SERVER_ERROR): `[`Behaviour`](../../-behaviour.md) |

@@ -2,7 +2,7 @@
 
 # Wait
 
-`object Wait : `[`ChaosStage`](../../-chaos-stage.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosStages.kt#L80)
+`object Wait : `[`Stage`](../../-stage.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosStages.kt#L75)
 
 Does not apply any ChaosBehaviour.
 
@@ -10,5 +10,5 @@ Does not apply any ChaosBehaviour.
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `fun invoke(tx: `[`HttpTransaction`](../../../org.http4k.core/-http-transaction/index.md)`): `[`Response`](../../../org.http4k.core/-response/index.md) |
+| [invoke](invoke.md) | `fun invoke(request: `[`Request`](../../../org.http4k.core/-request/index.md)`): `[`Filter`](../../../org.http4k.core/-filter/index.md) |
 | [toString](to-string.md) | `fun toString(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |

@@ -11,17 +11,16 @@
 | [ChaosPolicies](-chaos-policies/index.md) | `object ChaosPolicies` |
 | [ChaosStages](-chaos-stages/index.md) | `object ChaosStages` |
 | [ChaosTriggers](-chaos-triggers/index.md) | `object ChaosTriggers` |
-| [SerializableTrigger](-serializable-trigger/index.md) | `abstract class SerializableTrigger` |
-| [SwitchTrigger](-switch-trigger/index.md) | `class SwitchTrigger : `[`ChaosTrigger`](-chaos-trigger.md)<br>Simple toggleable trigger to turn ChaosBehaviour on/off |
+| [SwitchTrigger](-switch-trigger/index.md) | `class SwitchTrigger : `[`Trigger`](-trigger.md)<br>Simple toggleable trigger to turn ChaosBehaviour on/off |
 
 ### Type Aliases
 
 | Name | Summary |
 |---|---|
-| [ChaosBehaviour](-chaos-behaviour.md) | `typealias ChaosBehaviour = (tx: `[`HttpTransaction`](../org.http4k.core/-http-transaction/index.md)`) -> `[`Response`](../org.http4k.core/-response/index.md)<br>Encapsulates the type of bad behaviour to apply to the response. |
-| [ChaosPolicy](-chaos-policy.md) | `typealias ChaosPolicy = (`[`HttpTransaction`](../org.http4k.core/-http-transaction/index.md)`) -> `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)<br>Determines whether or not to apply a particular type of ChaosBehaviour to a request/response. |
-| [ChaosStage](-chaos-stage.md) | `typealias ChaosStage = (`[`HttpTransaction`](../org.http4k.core/-http-transaction/index.md)`) -> `[`Response`](../org.http4k.core/-response/index.md)`?`<br>Defines a periodic element during which a particular ChaosBehaviour is active. |
-| [ChaosTrigger](-chaos-trigger.md) | `typealias ChaosTrigger = (`[`HttpTransaction`](../org.http4k.core/-http-transaction/index.md)`) -> `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
+| [Behaviour](-behaviour.md) | `typealias Behaviour = `[`Filter`](../org.http4k.core/-filter/index.md)<br>Encapsulates the type of bad behaviour to apply to the response. |
+| [Policy](-policy.md) | `typealias Policy = (`[`Request`](../org.http4k.core/-request/index.md)`) -> `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)<br>Determines whether or not to apply a particular type of ChaosBehaviour to a request. |
+| [Stage](-stage.md) | `typealias Stage = (`[`Request`](../org.http4k.core/-request/index.md)`) -> `[`Filter`](../org.http4k.core/-filter/index.md)`?`<br>Defines a periodic element during which a particular ChaosBehaviour is active. |
+| [Trigger](-trigger.md) | `typealias Trigger = (`[`Request`](../org.http4k.core/-request/index.md)`) -> `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
 
 ### Extensions for External Classes
 

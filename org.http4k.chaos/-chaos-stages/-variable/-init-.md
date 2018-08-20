@@ -2,7 +2,7 @@
 
 # &lt;init&gt;
 
-`Variable(current: `[`ChaosStage`](../../-chaos-stage.md)` = None())`
+`Variable(current: `[`Stage`](../../-stage.md)` = Always.inject(None()))`
 
 Provide a means of modifying a ChaosBehaviour at runtime.
 

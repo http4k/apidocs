@@ -2,7 +2,7 @@
 
 # SwitchTrigger
 
-`class SwitchTrigger : `[`ChaosTrigger`](../-chaos-trigger.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosTriggers.kt#L133)
+`class SwitchTrigger : `[`Trigger`](../-trigger.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosTriggers.kt#L115)
 
 Simple toggleable trigger to turn ChaosBehaviour on/off
 
@@ -16,7 +16,7 @@ Simple toggleable trigger to turn ChaosBehaviour on/off
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `fun invoke(p1: `[`HttpTransaction`](../../org.http4k.core/-http-transaction/index.md)`): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
+| [invoke](invoke.md) | `fun invoke(p1: `[`Request`](../../org.http4k.core/-request/index.md)`): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
 | [isActive](is-active.md) | `fun isActive(): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
 | [toString](to-string.md) | `fun toString(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [toggle](toggle.md) | `fun toggle(newValue: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`? = null): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
@@ -25,7 +25,7 @@ Simple toggleable trigger to turn ChaosBehaviour on/off
 
 | Name | Summary |
 |---|---|
-| [and](../kotlin.-function1/and.md) | `infix fun `[`ChaosTrigger`](../-chaos-trigger.md)`.and(that: `[`ChaosTrigger`](../-chaos-trigger.md)`): `[`ChaosTrigger`](../-chaos-trigger.md) |
-| [inject](../kotlin.-function1/inject.md) | `fun `[`ChaosPolicy`](../-chaos-policy.md)`.inject(behaviour: `[`ChaosBehaviour`](../-chaos-behaviour.md)`): `[`ChaosStage`](../-chaos-stage.md)<br>Returns a ChaosStage which applies some ChaosBehaviour based upon if the policy applies to the passed transaction. |
-| [not](../kotlin.-function1/not.md) | `operator fun `[`ChaosTrigger`](../-chaos-trigger.md)`.not(): (`[`HttpTransaction`](../../org.http4k.core/-http-transaction/index.md)`) -> `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
-| [or](../kotlin.-function1/or.md) | `infix fun `[`ChaosTrigger`](../-chaos-trigger.md)`.or(that: `[`ChaosTrigger`](../-chaos-trigger.md)`): `[`ChaosTrigger`](../-chaos-trigger.md) |
+| [and](../kotlin.-function1/and.md) | `infix fun `[`Trigger`](../-trigger.md)`.and(that: `[`Trigger`](../-trigger.md)`): `[`Trigger`](../-trigger.md) |
+| [inject](../kotlin.-function1/inject.md) | `fun `[`Policy`](../-policy.md)`.inject(behaviour: `[`Behaviour`](../-behaviour.md)`): `[`Stage`](../-stage.md)<br>Returns a ChaosStage which applies some ChaosBehaviour based upon if the policy applies to the passed transaction. |
+| [not](../kotlin.-function1/not.md) | `operator fun `[`Trigger`](../-trigger.md)`.not(): (`[`Request`](../../org.http4k.core/-request/index.md)`) -> `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
+| [or](../kotlin.-function1/or.md) | `infix fun `[`Trigger`](../-trigger.md)`.or(that: `[`Trigger`](../-trigger.md)`): `[`Trigger`](../-trigger.md) |

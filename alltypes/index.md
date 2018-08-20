@@ -19,6 +19,7 @@
 | [org.http4k.aws.AwsCredentials](../org.http4k.aws/-aws-credentials/index.md) |  |
 | [org.http4k.aws.AwsHmacSha256](../org.http4k.aws/-aws-hmac-sha256/index.md) |  |
 | [org.http4k.filter.cookie.BasicCookieStorage](../org.http4k.filter.cookie/-basic-cookie-storage/index.md) |  |
+| [org.http4k.chaos.Behaviour](../org.http4k.chaos/-behaviour.md) | Encapsulates the type of bad behaviour to apply to the response. |
 | [org.http4k.lens.BiDiBodyLens](../org.http4k.lens/-bi-di-body-lens/index.md) | A BiDiBodyLens provides the bi-directional extraction of an entity from a target body, or the insertion of an entity into a target body. |
 | [org.http4k.lens.BiDiBodyLensSpec](../org.http4k.lens/-bi-di-body-lens-spec/index.md) | Represents a bi-directional extraction of an entity from a target Body, or an insertion into a target Body. |
 | [org.http4k.lens.BiDiLens](../org.http4k.lens/-bi-di-lens/index.md) | A BiDiLens provides the bi-directional extraction of an entity from a target, or the insertion of an entity into a target. |
@@ -38,14 +39,10 @@
 | [org.http4k.filter.CacheControlHeaderPart](../org.http4k.filter/-cache-control-header-part/index.md) |  |
 | [org.http4k.filter.CachingFilters](../org.http4k.filter/-caching-filters/index.md) | Useful filters for applying Cache-Controls to request/responses |
 | [org.http4k.filter.CanonicalPayload](../org.http4k.filter/-canonical-payload/index.md) |  |
-| [org.http4k.chaos.ChaosBehaviour](../org.http4k.chaos/-chaos-behaviour.md) | Encapsulates the type of bad behaviour to apply to the response. |
 | [org.http4k.chaos.ChaosBehaviours](../org.http4k.chaos/-chaos-behaviours/index.md) |  |
 | [org.http4k.chaos.ChaosControls](../org.http4k.chaos/-chaos-controls/index.md) | Adds a set of endpoints to an application which will control the switching on/off of chaos behaviour. The added endpoints are: GET //status &lt;- check the on off/status of the injected chaos POST //activate &lt;- turn on the chaos. optionally POST a JSON body to set a list of new stages to use. POST //deactivate &lt;- turn off the chaos POST //toggle &lt;- toggle the chaos |
 | [org.http4k.chaos.ChaosPolicies](../org.http4k.chaos/-chaos-policies/index.md) |  |
-| [org.http4k.chaos.ChaosPolicy](../org.http4k.chaos/-chaos-policy.md) | Determines whether or not to apply a particular type of ChaosBehaviour to a request/response. |
-| [org.http4k.chaos.ChaosStage](../org.http4k.chaos/-chaos-stage.md) | Defines a periodic element during which a particular ChaosBehaviour is active. |
 | [org.http4k.chaos.ChaosStages](../org.http4k.chaos/-chaos-stages/index.md) |  |
-| [org.http4k.chaos.ChaosTrigger](../org.http4k.chaos/-chaos-trigger.md) |  |
 | [org.http4k.chaos.ChaosTriggers](../org.http4k.chaos/-chaos-triggers/index.md) |  |
 | [org.http4k.filter.ClientFilters](../org.http4k.filter/-client-filters/index.md) |  |
 | [org.http4k.testing.ClosedWebsocket](../org.http4k.testing/-closed-websocket/index.md) |  |
@@ -182,6 +179,7 @@
 | [org.http4k.contract.PathSegments](../org.http4k.contract/-path-segments/index.md) |  |
 | [org.http4k.filter.Payload](../org.http4k.filter/-payload/index.md) |  |
 | [org.http4k.template.PebbleTemplates](../org.http4k.template/-pebble-templates/index.md) |  |
+| [org.http4k.chaos.Policy](../org.http4k.chaos/-policy.md) | Determines whether or not to apply a particular type of ChaosBehaviour to a request. |
 | [org.http4k.websocket.PolyHandler](../org.http4k.websocket/-poly-handler/index.md) | A PolyHandler represents the combined routing logic of an Http handler and a Websocket handler. ws:// and http:// protocol calls are passed relevantly. |
 | [org.http4k.websocket.PushPullAdaptingWebSocket](../org.http4k.websocket/-push-pull-adapting-web-socket/index.md) |  |
 | [org.http4k.lens.Query](../org.http4k.lens/-query.md) |  |
@@ -213,13 +211,13 @@
 | [org.http4k.routing.RoutingWsHandler](../org.http4k.routing/-routing-ws-handler/index.md) |  |
 | [org.http4k.filter.SamplingDecision](../org.http4k.filter/-sampling-decision/index.md) |  |
 | [org.http4k.contract.Security](../org.http4k.contract/-security/index.md) | Endpoint security. Provides filter to be applied to endpoints for all requests. |
-| [org.http4k.chaos.SerializableTrigger](../org.http4k.chaos/-serializable-trigger/index.md) |  |
 | [org.http4k.server.ServerConfig](../org.http4k.server/-server-config/index.md) | Standard interface for creating a configured WebServer |
 | [org.http4k.filter.ServerFilters](../org.http4k.filter/-server-filters/index.md) |  |
 | [org.http4k.contract.SimpleJson](../org.http4k.contract/-simple-json/index.md) |  |
 | [org.http4k.traffic.Sink](../org.http4k.traffic/-sink/index.md) | Consumes HTTP traffic for storage. |
 | [org.http4k.contract.Slash](../org.http4k.contract/-slash/index.md) |  |
 | [org.http4k.traffic.Source](../org.http4k.traffic/-source/index.md) | Tries to retrieve a stored response for a given request. |
+| [org.http4k.chaos.Stage](../org.http4k.chaos/-stage.md) | Defines a periodic element during which a particular ChaosBehaviour is active. |
 | [org.http4k.filter.StaleIfErrorTtl](../org.http4k.filter/-stale-if-error-ttl/index.md) |  |
 | [org.http4k.filter.StaleWhenRevalidateTtl](../org.http4k.filter/-stale-when-revalidate-ttl/index.md) |  |
 | [org.http4k.core.Status](../org.http4k.core/-status/index.md) |  |
@@ -242,6 +240,7 @@
 | [org.http4k.template.ThymeleafTemplates](../org.http4k.template/-thymeleaf-templates/index.md) |  |
 | [org.http4k.filter.TraceId](../org.http4k.filter/-trace-id/index.md) |  |
 | [org.http4k.filter.TrafficFilters](../org.http4k.filter/-traffic-filters/index.md) |  |
+| [org.http4k.chaos.Trigger](../org.http4k.chaos/-trigger.md) |  |
 | [org.http4k.server.Undertow](../org.http4k.server/-undertow/index.md) |  |
 | [org.http4k.lens.Unsupported](../org.http4k.lens/-unsupported/index.md) |  |
 | [org.http4k.core.Uri](../org.http4k.core/-uri/index.md) |  |

@@ -2,7 +2,7 @@
 
 # Always
 
-`object Always : `[`ChaosPolicy`](../../-chaos-policy.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosPolicies.kt#L65)
+`object Always : `[`Policy`](../../-policy.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosPolicies.kt#L65)
 
 Applies to every transaction.
 
@@ -10,5 +10,5 @@ Applies to every transaction.
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `fun invoke(tx: `[`HttpTransaction`](../../../org.http4k.core/-http-transaction/index.md)`): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
+| [invoke](invoke.md) | `fun invoke(request: `[`Request`](../../../org.http4k.core/-request/index.md)`): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
 | [toString](to-string.md) | `fun toString(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |

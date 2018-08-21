@@ -10,7 +10,7 @@ Provide a means of modifying a ChaosBehaviour at runtime.
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `Variable(current: `[`Stage`](../../-stage.md)` = Always.inject(None()))`<br>Provide a means of modifying a ChaosBehaviour at runtime. |
+| [&lt;init&gt;](-init-.md) | `Variable(current: `[`Stage`](../../-stage.md)` = None().appliedWhen(Always))`<br>Provide a means of modifying a ChaosBehaviour at runtime. |
 
 ### Properties
 

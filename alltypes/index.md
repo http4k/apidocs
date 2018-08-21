@@ -41,7 +41,6 @@
 | [org.http4k.filter.CanonicalPayload](../org.http4k.filter/-canonical-payload/index.md) |  |
 | [org.http4k.chaos.ChaosBehaviours](../org.http4k.chaos/-chaos-behaviours/index.md) |  |
 | [org.http4k.chaos.ChaosControls](../org.http4k.chaos/-chaos-controls/index.md) | Adds a set of endpoints to an application which will control the switching on/off of chaos behaviour. The added endpoints are: GET //status &lt;- check the on off/status of the injected chaos POST //activate &lt;- turn on the chaos. optionally POST a JSON body to set a list of new stages to use. POST //deactivate &lt;- turn off the chaos POST //toggle &lt;- toggle the chaos |
-| [org.http4k.chaos.ChaosPolicies](../org.http4k.chaos/-chaos-policies/index.md) |  |
 | [org.http4k.chaos.ChaosStages](../org.http4k.chaos/-chaos-stages/index.md) |  |
 | [org.http4k.chaos.ChaosTriggers](../org.http4k.chaos/-chaos-triggers/index.md) |  |
 | [org.http4k.filter.ClientFilters](../org.http4k.filter/-client-filters/index.md) |  |
@@ -179,7 +178,6 @@
 | [org.http4k.contract.PathSegments](../org.http4k.contract/-path-segments/index.md) |  |
 | [org.http4k.filter.Payload](../org.http4k.filter/-payload/index.md) |  |
 | [org.http4k.template.PebbleTemplates](../org.http4k.template/-pebble-templates/index.md) |  |
-| [org.http4k.chaos.Policy](../org.http4k.chaos/-policy.md) | Determines whether or not to apply a particular type of ChaosBehaviour to a request. |
 | [org.http4k.websocket.PolyHandler](../org.http4k.websocket/-poly-handler/index.md) | A PolyHandler represents the combined routing logic of an Http handler and a Websocket handler. ws:// and http:// protocol calls are passed relevantly. |
 | [org.http4k.websocket.PushPullAdaptingWebSocket](../org.http4k.websocket/-push-pull-adapting-web-socket/index.md) |  |
 | [org.http4k.lens.Query](../org.http4k.lens/-query.md) |  |

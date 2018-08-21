@@ -14,6 +14,7 @@
 
 | Name | Summary |
 |---|---|
+| [appliedWhen](../../org.http4k.chaos/applied-when.md) | `fun `[`Behaviour`](../../org.http4k.chaos/-behaviour.md)`.appliedWhen(trigger: `[`Trigger`](../../org.http4k.chaos/-trigger.md)`): `[`Stage`](../../org.http4k.chaos/-stage.md) |
 | [then](../then.md) | `fun `[`Filter`](./index.md)`.then(next: `[`Filter`](./index.md)`): `[`Filter`](./index.md)<br>`fun `[`Filter`](./index.md)`.then(next: `[`HttpHandler`](../-http-handler.md)`): `[`HttpHandler`](../-http-handler.md)<br>`fun `[`Filter`](./index.md)`.then(routingHttpHandler: `[`RoutingHttpHandler`](../../org.http4k.routing/-routing-http-handler/index.md)`): `[`RoutingHttpHandler`](../../org.http4k.routing/-routing-http-handler/index.md) |
 
 ### Companion Object Extension Properties

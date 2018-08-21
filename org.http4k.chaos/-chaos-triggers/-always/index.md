@@ -1,8 +1,8 @@
-[http4k](../../../index.md) / [org.http4k.chaos](../../index.md) / [ChaosPolicies](../index.md) / [Always](./index.md)
+[http4k](../../../index.md) / [org.http4k.chaos](../../index.md) / [ChaosTriggers](../index.md) / [Always](./index.md)
 
 # Always
 
-`object Always : `[`Policy`](../../-policy.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosPolicies.kt#L63)
+`object Always : `[`Trigger`](../../-trigger.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosTriggers.kt#L74)
 
 Applies to every transaction.
 

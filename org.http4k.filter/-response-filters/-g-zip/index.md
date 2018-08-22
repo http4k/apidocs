@@ -2,7 +2,7 @@
 
 # GZip
 
-`object GZip` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ResponseFilters.kt#L69)
+`object GZip` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ResponseFilters.kt#L59)
 
 Basic UnGZipping of Response. Does not currently support GZipping streams
 

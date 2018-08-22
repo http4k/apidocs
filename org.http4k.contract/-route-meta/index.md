@@ -24,9 +24,3 @@
 | [responses](responses.md) | `val responses: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`ResponseMeta`](../-response-meta/index.md)`>` |
 | [summary](summary.md) | `val summary: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [tags](tags.md) | `val tags: `[`Set`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html)`<`[`Tag`](../-tag/index.md)`>` |
-
-### Functions
-
-| Name | Summary |
-|---|---|
-| [plus](plus.md) | `operator fun ~~plus~~(new: `[`Lens`](../../org.http4k.lens/-lens/index.md)`<`[`Request`](../../org.http4k.core/-request/index.md)`, *>): `[`RouteMeta`](./index.md)<br>`operator fun ~~plus~~(new: `[`BodyLens`](../../org.http4k.lens/-body-lens/index.md)`<*>): `[`RouteMeta`](./index.md) |

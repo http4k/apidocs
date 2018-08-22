@@ -28,7 +28,6 @@ $dokka.location:org.http4k.core$toBody(kotlin.String)org.http4k.core/kotlin.-st
 $dokka.location:org.http4k.core$toParameters(kotlin.String)org.http4k.core/kotlin.-string/to-parameters.md
 $dokka.location:org.http4k.core$toParametersMap(kotlin.collections.List((kotlin.Pair((kotlin.String, kotlin.String)))))org.http4k.core/kotlin.collections.-list/to-parameters-map.md
 $dokka.location:org.http4k.core$toPathEncoded(kotlin.String)org.http4k.core/kotlin.-string/to-path-encoded.md
-$dokka.location:org.http4k.core$toUrlEncoded(kotlin.collections.List((kotlin.Pair((kotlin.String, kotlin.String)))))org.http4k.core/kotlin.collections.-list/to-url-encoded.md
 $dokka.location:org.http4k.core$toUrlFormEncoded(kotlin.collections.List((kotlin.Pair((kotlin.String, kotlin.String)))))org.http4k.core/kotlin.collections.-list/to-url-form-encoded.md
 $dokka.location:org.http4k.core.body$toBody(kotlin.collections.List((kotlin.Pair((kotlin.String, kotlin.String)))))org.http4k.core.body/kotlin.collections.-list/to-body.md
 $dokka.location:org.http4k.routing$bind(kotlin.String, kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)))org.http4k.routing/kotlin.-string/bind.md

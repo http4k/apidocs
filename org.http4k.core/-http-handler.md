@@ -14,4 +14,6 @@
 | [JsonRpcService](../org.http4k.jsonrpc/-json-rpc-service/index.md) | `data class JsonRpcService<ROOT : `[`NODE`](../org.http4k.jsonrpc/-json-rpc-service/index.md#NODE)`, NODE> : `[`HttpHandler`](./-http-handler.md) |
 | [OAuthCallback](../org.http4k.security/-o-auth-callback/index.md) | `class OAuthCallback : `[`HttpHandler`](./-http-handler.md) |
 | [OkHttp](../org.http4k.client/-ok-http/index.md) | `class OkHttp : `[`HttpHandler`](./-http-handler.md)`, `[`AsyncHttpClient`](../org.http4k.client/-async-http-client/index.md) |
+| [Resource](../org.http4k.routing.experimental/-resource/index.md) | `interface Resource : `[`HttpHandler`](./-http-handler.md) |
+| [ResourceListingHandler](../org.http4k.routing.experimental/-resource-listing-handler/index.md) | `class ResourceListingHandler : `[`HttpHandler`](./-http-handler.md) |
 | [RoutingHttpHandler](../org.http4k.routing/-routing-http-handler/index.md) | `interface RoutingHttpHandler : `[`Router`](../org.http4k.routing/-router/index.md)`, `[`HttpHandler`](./-http-handler.md)<br>Composite HttpHandler which can potentially service many different URL patterns. Should return a 404 Response if it cannot service a particular Request. |

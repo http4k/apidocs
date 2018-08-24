@@ -7,8 +7,7 @@
 | Name | Summary |
 |---|---|
 | [AutoMethodMappingsBuilder](-auto-method-mappings-builder/index.md) | `class AutoMethodMappingsBuilder<ROOT : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`ManualMethodMappingsBuilder`](-manual-method-mappings-builder/index.md)`<`[`ROOT`](-auto-method-mappings-builder/index.md#ROOT)`, `[`ROOT`](-auto-method-mappings-builder/index.md#ROOT)`>` |
-| [ErrorMessage](-error-message/index.md) | `open class ErrorMessage : `[`JsonNodeProducer`](-json-node-producer/index.md) |
-| [JsonNodeProducer](-json-node-producer/index.md) | `interface JsonNodeProducer` |
+| [ErrorMessage](-error-message/index.md) | `open class ErrorMessage` |
 | [JsonRpcService](-json-rpc-service/index.md) | `data class JsonRpcService<ROOT : `[`NODE`](-json-rpc-service/index.md#NODE)`, NODE> : `[`HttpHandler`](../org.http4k.core/-http-handler.md) |
 | [ManualMethodMappingsBuilder](-manual-method-mappings-builder/index.md) | `open class ManualMethodMappingsBuilder<ROOT : `[`NODE`](-manual-method-mappings-builder/index.md#NODE)`, NODE> : `[`MethodMappingsBuilder`](-method-mappings-builder/index.md)`<`[`ROOT`](-manual-method-mappings-builder/index.md#ROOT)`, `[`NODE`](-manual-method-mappings-builder/index.md#NODE)`>` |
 | [MethodMapping](-method-mapping/index.md) | `data class MethodMapping<IN, OUT>` |

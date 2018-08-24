@@ -20,6 +20,7 @@
 | [org.http4k.jsonrpc](org.http4k.jsonrpc/index.md) |  |
 | [org.http4k.lens](org.http4k.lens/index.md) | Code relevant to extracting and injecting typesafe values into HTTP messages. |
 | [org.http4k.routing](org.http4k.routing/index.md) | Code for routing HTTP messages inside server implementations. |
+| [org.http4k.routing.experimental](org.http4k.routing.experimental/index.md) |  |
 | [org.http4k.security](org.http4k.security/index.md) | Code relevant to interfacing with security mechanisms such as OAuth servers. |
 | [org.http4k.server](org.http4k.server/index.md) | Common code relevant to HTTP server implementations. |
 | [org.http4k.serverless](org.http4k.serverless/index.md) | Common code relevant to HTTP serverless implementations. |

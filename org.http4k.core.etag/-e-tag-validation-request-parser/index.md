@@ -2,7 +2,7 @@
 
 # ETagValidationRequestParser
 
-`class ETagValidationRequestParser` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/etag/ETagValidationRequestParser.kt#L19)
+`class ETagValidationRequestParser` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/etag/ETagValidationRequestParser.kt#L21)
 
 Implemented according to https://www.w3.org/Protocols/rfc2616/rfc2616-sec3.html#sec3.11
 

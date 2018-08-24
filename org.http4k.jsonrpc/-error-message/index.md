@@ -2,7 +2,7 @@
 
 # ErrorMessage
 
-`open class ErrorMessage : `[`JsonNodeProducer`](../-json-node-producer/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-jsonrpc/src/main/kotlin/org/http4k/jsonrpc/ErrorMessage.kt#L5)
+`open class ErrorMessage` [(source)](https://github.com/http4k/http4k/blob/master/http4k-jsonrpc/src/main/kotlin/org/http4k/jsonrpc/ErrorMessage.kt#L5)
 
 ### Constructors
 
@@ -22,7 +22,7 @@
 | Name | Summary |
 |---|---|
 | [data](data.md) | `open fun <ROOT : `[`NODE`](data.md#NODE)`, NODE> data(json: `[`Json`](../../org.http4k.format/-json/index.md)`<`[`ROOT`](data.md#ROOT)`, `[`NODE`](data.md#NODE)`>): `[`NODE`](data.md#NODE)`?` |
-| [invoke](invoke.md) | `fun <ROOT : `[`NODE`](invoke.md#NODE)`, NODE> invoke(json: `[`Json`](../../org.http4k.format/-json/index.md)`<`[`ROOT`](invoke.md#ROOT)`, `[`NODE`](invoke.md#NODE)`>): `[`NODE`](invoke.md#NODE) |
+| [invoke](invoke.md) | `operator fun <ROOT : `[`NODE`](invoke.md#NODE)`, NODE> invoke(json: `[`Json`](../../org.http4k.format/-json/index.md)`<`[`ROOT`](invoke.md#ROOT)`, `[`NODE`](invoke.md#NODE)`>): `[`NODE`](invoke.md#NODE) |
 
 ### Companion Object Properties
 

@@ -2,7 +2,7 @@
 
 # FieldValue
 
-`sealed class FieldValue` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/etag/ETagValidationRequestParser.kt#L8)
+`sealed class FieldValue` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/etag/ETagValidationRequestParser.kt#L10)
 
 ### Types
 

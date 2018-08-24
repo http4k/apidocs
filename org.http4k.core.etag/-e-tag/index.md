@@ -16,3 +16,9 @@
 |---|---|
 | [value](value.md) | `val value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [weak](weak.md) | `val weak: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
+
+### Functions
+
+| Name | Summary |
+|---|---|
+| [toHeaderString](to-header-string.md) | `fun toHeaderString(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |

@@ -15,6 +15,7 @@
 | [org.http4k.format.Argo](../org.http4k.format/-argo/index.md) |  |
 | [org.http4k.client.AsyncHttpClient](../org.http4k.client/-async-http-client/index.md) |  |
 | [org.http4k.format.AutoMarshallingJson](../org.http4k.format/-auto-marshalling-json/index.md) |  |
+| [org.http4k.jsonrpc.AutoMethodMappingsBuilder](../org.http4k.jsonrpc/-auto-method-mappings-builder/index.md) |  |
 | [org.http4k.aws.AwsCredentialScope](../org.http4k.aws/-aws-credential-scope/index.md) |  |
 | [org.http4k.aws.AwsCredentials](../org.http4k.aws/-aws-credentials/index.md) |  |
 | [org.http4k.aws.AwsHmacSha256](../org.http4k.aws/-aws-hmac-sha256/index.md) |  |
@@ -79,6 +80,8 @@
 | [org.http4k.template.DustTemplates](../org.http4k.template/-dust-templates/index.md) |  |
 | [org.http4k.core.etag.ETag](../org.http4k.core.etag/-e-tag/index.md) |  |
 | [org.http4k.core.etag.ETagValidationRequestParser](../org.http4k.core.etag/-e-tag-validation-request-parser/index.md) | Implemented according to https://www.w3.org/Protocols/rfc2616/rfc2616-sec3.html#sec3.11 |
+| [org.http4k.jsonrpc.ErrorHandler](../org.http4k.jsonrpc/-error-handler.md) |  |
+| [org.http4k.jsonrpc.ErrorMessage](../org.http4k.jsonrpc/-error-message/index.md) |  |
 | [org.http4k.core.Event](../org.http4k.core/-event/index.md) |  |
 | [org.http4k.core.EventCategory](../org.http4k.core/-event-category/index.md) |  |
 | [org.http4k.core.Events](../org.http4k.core/-events.md) |  |
@@ -126,6 +129,8 @@
 | [org.http4k.format.JsonErrorResponseRenderer](../org.http4k.format/-json-error-response-renderer/index.md) |  |
 | [org.http4k.format.JsonLibAutoMarshallingJson](../org.http4k.format/-json-lib-auto-marshalling-json/index.md) |  |
 | [com.fasterxml.jackson.databind.JsonNode](../org.http4k.chaos/com.fasterxml.jackson.databind.-json-node/index.md) (extensions in package org.http4k.chaos) |  |
+| [org.http4k.jsonrpc.JsonNodeProducer](../org.http4k.jsonrpc/-json-node-producer/index.md) |  |
+| [org.http4k.jsonrpc.JsonRpcService](../org.http4k.jsonrpc/-json-rpc-service/index.md) |  |
 | [org.http4k.util.JsonSchema](../org.http4k.util/-json-schema/index.md) |  |
 | [org.http4k.util.JsonToJsonSchema](../org.http4k.util/-json-to-json-schema/index.md) |  |
 | [org.http4k.format.JsonType](../org.http4k.format/-json-type/index.md) |  |
@@ -140,6 +145,7 @@
 | [kotlin.collections.List](../org.http4k.core/kotlin.collections.-list/index.md) (extensions in package org.http4k.core) |  |
 | [kotlin.collections.List](../org.http4k.core.body/kotlin.collections.-list/index.md) (extensions in package org.http4k.core.body) |  |
 | [org.http4k.filter.cookie.LocalCookie](../org.http4k.filter.cookie/-local-cookie/index.md) |  |
+| [org.http4k.jsonrpc.ManualMethodMappingsBuilder](../org.http4k.jsonrpc/-manual-method-mappings-builder/index.md) |  |
 | [kotlin.collections.Map](../org.http4k.core/kotlin.collections.-map/index.md) (extensions in package org.http4k.core) |  |
 | [org.http4k.filter.MaxAgeTtl](../org.http4k.filter/-max-age-ttl/index.md) |  |
 | [org.http4k.core.MemoryBody](../org.http4k.core/-memory-body/index.md) | Represents a body that is backed by an in-memory ByteBuffer. Closing this has no effect. |
@@ -147,6 +153,8 @@
 | [org.http4k.core.MemoryResponse](../org.http4k.core/-memory-response/index.md) |  |
 | [org.http4k.lens.Meta](../org.http4k.lens/-meta/index.md) |  |
 | [org.http4k.core.Method](../org.http4k.core/-method/index.md) |  |
+| [org.http4k.jsonrpc.MethodMapping](../org.http4k.jsonrpc/-method-mapping/index.md) |  |
+| [org.http4k.jsonrpc.MethodMappingsBuilder](../org.http4k.jsonrpc/-method-mappings-builder/index.md) |  |
 | [org.http4k.filter.MetricFilters](../org.http4k.filter/-metric-filters/index.md) |  |
 | [org.http4k.core.MimeTypes](../org.http4k.core/-mime-types/index.md) |  |
 | [org.http4k.lens.Missing](../org.http4k.lens/-missing/index.md) |  |
@@ -159,6 +167,7 @@
 | [org.http4k.lens.MultipartFormFile](../org.http4k.lens/-multipart-form-file.md) |  |
 | [org.http4k.webdriver.Navigate](../org.http4k.webdriver/-navigate.md) |  |
 | [org.http4k.server.Netty](../org.http4k.server/-netty/index.md) |  |
+| [org.http4k.jsonrpc.NoParamsJsonRequestHandler](../org.http4k.jsonrpc/-no-params-json-request-handler/index.md) |  |
 | [org.http4k.contract.NoRenderer](../org.http4k.contract/-no-renderer/index.md) |  |
 | [org.http4k.contract.NoSecurity](../org.http4k.contract/-no-security/index.md) | Default NoOp security filter. Filter allows all traffic through. |
 | [org.http4k.security.OAuthCallback](../org.http4k.security/-o-auth-callback/index.md) |  |
@@ -169,8 +178,10 @@
 | [org.http4k.client.OkHttp](../org.http4k.client/-ok-http/index.md) |  |
 | [org.http4k.contract.OpenApi](../org.http4k.contract/-open-api/index.md) |  |
 | [org.http4k.webdriver.Page](../org.http4k.webdriver/-page/index.md) |  |
+| [org.http4k.jsonrpc.ParamMappingJsonRequestHandler](../org.http4k.jsonrpc/-param-mapping-json-request-handler/index.md) |  |
 | [org.http4k.lens.ParamMeta](../org.http4k.lens/-param-meta/index.md) |  |
 | [org.http4k.core.Parameters](../org.http4k.core/-parameters.md) |  |
+| [org.http4k.jsonrpc.Params](../org.http4k.jsonrpc/-params/index.md) |  |
 | [org.http4k.lens.Path](../org.http4k.lens/-path/index.md) |  |
 | [org.http4k.lens.PathLens](../org.http4k.lens/-path-lens/index.md) |  |
 | [org.http4k.lens.PathLensSpec](../org.http4k.lens/-path-lens-spec/index.md) | Represents a uni-directional extraction of an entity from a target path segment. |
@@ -191,6 +202,7 @@
 | [org.http4k.lens.RequestContextLens](../org.http4k.lens/-request-context-lens.md) |  |
 | [org.http4k.core.RequestContexts](../org.http4k.core/-request-contexts/index.md) | In-memory RequestContext store. |
 | [org.http4k.filter.RequestFilters](../org.http4k.filter/-request-filters/index.md) |  |
+| [org.http4k.jsonrpc.RequestHandler](../org.http4k.jsonrpc/-request-handler.md) |  |
 | [org.http4k.contract.RequestMeta](../org.http4k.contract/-request-meta/index.md) |  |
 | [org.http4k.filter.ResilienceFilters](../org.http4k.filter/-resilience-filters/index.md) |  |
 | [org.http4k.routing.ResourceLoader](../org.http4k.routing/-resource-loader/index.md) |  |
@@ -198,6 +210,7 @@
 | [org.http4k.core.Response](../org.http4k.core/-response/index.md) |  |
 | [org.http4k.filter.ResponseFilters](../org.http4k.filter/-response-filters/index.md) |  |
 | [org.http4k.contract.ResponseMeta](../org.http4k.contract/-response-meta/index.md) |  |
+| [org.http4k.jsonrpc.Result](../org.http4k.jsonrpc/-result/index.md) |  |
 | [org.http4k.contract.Root](../org.http4k.contract/-root/index.md) |  |
 | [org.http4k.contract.RouteBinder](../org.http4k.contract/-route-binder/index.md) |  |
 | [org.http4k.contract.RouteMeta](../org.http4k.contract/-route-meta/index.md) |  |

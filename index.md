@@ -17,6 +17,7 @@
 | [org.http4k.filter.cookie](org.http4k.filter.cookie/index.md) |  |
 | [org.http4k.format](org.http4k.format/index.md) | Common code relevant to the various message format implementations (eg. JSON). |
 | [org.http4k.hamkrest](org.http4k.hamkrest/index.md) | Matchers for use with the hamkrest matching library. |
+| [org.http4k.jsonrpc](org.http4k.jsonrpc/index.md) |  |
 | [org.http4k.lens](org.http4k.lens/index.md) | Code relevant to extracting and injecting typesafe values into HTTP messages. |
 | [org.http4k.routing](org.http4k.routing/index.md) | Code for routing HTTP messages inside server implementations. |
 | [org.http4k.security](org.http4k.security/index.md) | Code relevant to interfacing with security mechanisms such as OAuth servers. |

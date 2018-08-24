@@ -54,6 +54,7 @@ org.http4k.filter
 org.http4k.filter.cookie
 org.http4k.format
 org.http4k.hamkrest
+org.http4k.jsonrpc
 org.http4k.lens
 org.http4k.routing
 org.http4k.security

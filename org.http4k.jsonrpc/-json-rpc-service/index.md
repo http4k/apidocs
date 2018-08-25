@@ -2,7 +2,7 @@
 
 # JsonRpcService
 
-`data class JsonRpcService<ROOT : `[`NODE`](index.md#NODE)`, NODE> : `[`HttpHandler`](../../org.http4k.core/-http-handler.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-jsonrpc/src/main/kotlin/org/http4k/jsonrpc/JsonRpcService.kt#L24)
+`data class JsonRpcService<ROOT : `[`NODE`](index.md#NODE)`, NODE> : `[`HttpHandler`](../../org.http4k.core/-http-handler.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-jsonrpc/src/main/kotlin/org/http4k/jsonrpc/JsonRpcService.kt#L28)
 
 ### Constructors
 

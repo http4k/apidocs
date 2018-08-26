@@ -44,7 +44,6 @@
 | [org.http4k.chaos.ChaosControls](../org.http4k.chaos/-chaos-controls/index.md) | Adds a set of endpoints to an application which will control the switching on/off of chaos behaviour. The added endpoints are: GET //status &lt;- check the on off/status of the injected chaos POST //activate &lt;- turn on the chaos. optionally POST a JSON body to set a list of new stages to use. POST //deactivate &lt;- turn off the chaos POST //toggle &lt;- toggle the chaos |
 | [org.http4k.chaos.ChaosStages](../org.http4k.chaos/-chaos-stages/index.md) |  |
 | [org.http4k.chaos.ChaosTriggers](../org.http4k.chaos/-chaos-triggers/index.md) |  |
-| [org.http4k.routing.experimental.ClasspathResourceLoader](../org.http4k.routing.experimental/-classpath-resource-loader/index.md) |  |
 | [org.http4k.filter.ClientFilters](../org.http4k.filter/-client-filters/index.md) |  |
 | [org.http4k.testing.ClosedWebsocket](../org.http4k.testing/-closed-websocket/index.md) |  |
 | [org.http4k.format.ConfigurableGson](../org.http4k.format/-configurable-gson/index.md) |  |
@@ -78,7 +77,6 @@
 | [org.http4k.filter.DebuggingFilters](../org.http4k.filter/-debugging-filters/index.md) |  |
 | [org.http4k.filter.DefaultCacheTimings](../org.http4k.filter/-default-cache-timings/index.md) |  |
 | [org.http4k.routing.experimental.DirectoryRenderer](../org.http4k.routing.experimental/-directory-renderer.md) |  |
-| [org.http4k.routing.experimental.DirectoryResourceLoader](../org.http4k.routing.experimental/-directory-resource-loader/index.md) |  |
 | [org.http4k.template.dust.Dust](../org.http4k.template.dust/-dust/index.md) |  |
 | [org.http4k.template.DustTemplates](../org.http4k.template/-dust-templates/index.md) |  |
 | [org.http4k.core.etag.ETag](../org.http4k.core.etag/-e-tag/index.md) |  |
@@ -91,7 +89,6 @@
 | [org.http4k.lens.Failure](../org.http4k.lens/-failure/index.md) |  |
 | [org.http4k.webdriver.FeatureNotImplementedYet](../org.http4k.webdriver/-feature-not-implemented-yet.md) |  |
 | [org.http4k.core.etag.FieldValue](../org.http4k.core.etag/-field-value/index.md) |  |
-| [org.http4k.routing.experimental.FileResource](../org.http4k.routing.experimental/-file-resource/index.md) |  |
 | [org.http4k.core.Filter](../org.http4k.core/-filter/index.md) |  |
 | [org.http4k.core.body.Form](../org.http4k.core.body/-form.md) |  |
 | [org.http4k.lens.FormField](../org.http4k.lens/-form-field.md) |  |
@@ -121,7 +118,6 @@
 | [org.http4k.filter.HttpTransactionLabeller](../org.http4k.filter/-http-transaction-labeller.md) |  |
 | [org.http4k.server.HttpUndertowHandler](../org.http4k.server/-http-undertow-handler/index.md) | Exposed to allow for insertion into a customised Undertow server instance |
 | [org.http4k.util.IllegalSchemaException](../org.http4k.util/-illegal-schema-exception/index.md) |  |
-| [org.http4k.routing.experimental.InMemoryResource](../org.http4k.routing.experimental/-in-memory-resource/index.md) |  |
 | [org.http4k.security.InsecureCookieBasedOAuthPersistence](../org.http4k.security/-insecure-cookie-based-o-auth-persistence/index.md) | This is an example implementation which stores CSRF and AccessTokenEnvelope values in an INSECURE client-side cookie. Access-tokens for end-services are fully available to the browser so do not use this in production! |
 | [org.http4k.lens.Invalid](../org.http4k.lens/-invalid/index.md) |  |
 | [org.http4k.format.InvalidJsonException](../org.http4k.format/-invalid-json-exception/index.md) |  |
@@ -210,7 +206,6 @@
 | [org.http4k.contract.RequestMeta](../org.http4k.contract/-request-meta/index.md) |  |
 | [org.http4k.filter.ResilienceFilters](../org.http4k.filter/-resilience-filters/index.md) |  |
 | [org.http4k.routing.experimental.Resource](../org.http4k.routing.experimental/-resource/index.md) |  |
-| [org.http4k.routing.experimental.ResourceListingHandler](../org.http4k.routing.experimental/-resource-listing-handler/index.md) |  |
 | [org.http4k.routing.ResourceLoader](../org.http4k.routing/-resource-loader/index.md) |  |
 | [org.http4k.routing.experimental.ResourceLoaders](../org.http4k.routing.experimental/-resource-loaders/index.md) |  |
 | [org.http4k.routing.experimental.ResourceLoading](../org.http4k.routing.experimental/-resource-loading/index.md) | A little convenience thunk to simplify implementing [Router](../org.http4k.routing/-router/index.md) for resource loaders. |
@@ -247,7 +242,6 @@
 | [kotlin.String](../org.http4k/kotlin.-string/index.md) (extensions in package org.http4k) |  |
 | [kotlin.String](../org.http4k.core/kotlin.-string/index.md) (extensions in package org.http4k.core) |  |
 | [kotlin.String](../org.http4k.routing/kotlin.-string/index.md) (extensions in package org.http4k.routing) |  |
-| [kotlin.String](../org.http4k.routing.experimental/kotlin.-string/index.md) (extensions in package org.http4k.routing.experimental) |  |
 | [java.lang.StringBuilder](../org.http4k/java.lang.-string-builder/index.md) (extensions in package org.http4k) |  |
 | [org.http4k.server.SunHttp](../org.http4k.server/-sun-http/index.md) |  |
 | [org.http4k.chaos.SwitchTrigger](../org.http4k.chaos/-switch-trigger/index.md) | Simple toggleable trigger to turn ChaosBehaviour on/off |

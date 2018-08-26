@@ -2,7 +2,7 @@
 
 # Resource
 
-`interface Resource : `[`HttpHandler`](../../org.http4k.core/-http-handler.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/routing/experimental/Resource.kt#L21)
+`interface Resource : `[`HttpHandler`](../../org.http4k.core/-http-handler.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-incubator/src/main/kotlin/org/http4k/routing/experimental/Resource.kt#L21)
 
 ### Properties
 
@@ -35,6 +35,4 @@
 
 | Name | Summary |
 |---|---|
-| [FileResource](../-file-resource/index.md) | `class FileResource : `[`Resource`](./index.md) |
-| [InMemoryResource](../-in-memory-resource/index.md) | `class InMemoryResource : `[`Resource`](./index.md) |
 | [URLResource](../-u-r-l-resource/index.md) | `data class URLResource : `[`Resource`](./index.md) |

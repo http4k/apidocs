@@ -35,10 +35,6 @@ $dokka.location:org.http4k.routing$bind(kotlin.String, kotlin.Function1((org.htt
 $dokka.location:org.http4k.routing$bind(kotlin.String, org.http4k.core.Method)org.http4k.routing/kotlin.-string/bind.md
 $dokka.location:org.http4k.routing$bind(kotlin.String, org.http4k.routing.RoutingHttpHandler)org.http4k.routing/kotlin.-string/bind.md
 $dokka.location:org.http4k.routing$bind(kotlin.String, org.http4k.routing.RoutingWsHandler)org.http4k.routing/kotlin.-string/bind.md
-$dokka.location:org.http4k.routing.experimental$pathJoin(kotlin.String, kotlin.String)org.http4k.routing.experimental/kotlin.-string/path-join.md
-$dokka.location:org.http4k.routing.experimental$withLeadingSlash(kotlin.String)org.http4k.routing.experimental/kotlin.-string/with-leading-slash.md
-$dokka.location:org.http4k.routing.experimental$withoutLeadingSlash(kotlin.String)org.http4k.routing.experimental/kotlin.-string/without-leading-slash.md
-$dokka.location:org.http4k.routing.experimental$withoutTrailingSlash(kotlin.String)org.http4k.routing.experimental/kotlin.-string/without-trailing-slash.md
 $dokka.location:org.http4k.server$asServer(kotlin.Function1((org.http4k.core.Request, kotlin.Function1((org.http4k.websocket.Websocket, kotlin.Unit)))), org.http4k.server.WsServerConfig)org.http4k.server/kotlin.-function1/as-server.md
 $dokka.location:org.http4k.server$asServer(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)), org.http4k.server.ServerConfig)org.http4k.server/kotlin.-function1/as-server.md
 $dokka.location:org.http4k.servlet$asServlet(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)))org.http4k.servlet/kotlin.-function1/as-servlet.md

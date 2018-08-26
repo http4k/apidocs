@@ -2,4 +2,4 @@
 
 # lastModified
 
-`val lastModified: Instant?` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/routing/experimental/ResourceSummary.kt#L8)
+`val lastModified: Instant?` [(source)](https://github.com/http4k/http4k/blob/master/http4k-incubator/src/main/kotlin/org/http4k/routing/experimental/ResourceSummary.kt#L5)

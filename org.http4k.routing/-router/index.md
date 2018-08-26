@@ -16,7 +16,5 @@ Provides matching of a Request to an HttpHandler which can service it.
 
 | Name | Summary |
 |---|---|
-| [ClasspathResourceLoader](../../org.http4k.routing.experimental/-classpath-resource-loader/index.md) | `data class ClasspathResourceLoader : `[`Router`](./index.md)`, `[`ResourceLoading`](../../org.http4k.routing.experimental/-resource-loading/index.md) |
-| [DirectoryResourceLoader](../../org.http4k.routing.experimental/-directory-resource-loader/index.md) | `data class DirectoryResourceLoader : `[`Router`](./index.md)`, `[`ResourceLoading`](../../org.http4k.routing.experimental/-resource-loading/index.md) |
 | [ResourceLoading](../../org.http4k.routing.experimental/-resource-loading/index.md) | `interface ResourceLoading : `[`Router`](./index.md)<br>A little convenience thunk to simplify implementing [Router](./index.md) for resource loaders. |
 | [RoutingHttpHandler](../-routing-http-handler/index.md) | `interface RoutingHttpHandler : `[`Router`](./index.md)`, `[`HttpHandler`](../../org.http4k.core/-http-handler.md)<br>Composite HttpHandler which can potentially service many different URL patterns. Should return a 404 Response if it cannot service a particular Request. |

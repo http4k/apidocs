@@ -2,7 +2,7 @@
 
 # Result
 
-`class Result<OUT, NODE> : `[`Lens`](../../org.http4k.lens/-lens/index.md)`<`[`OUT`](index.md#OUT)`, `[`NODE`](index.md#NODE)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-jsonrpc/src/main/kotlin/org/http4k/jsonrpc/lenses.kt#L10)
+`class Result<OUT, NODE> : `[`Lens`](../../org.http4k.lens/-lens/index.md)`<`[`OUT`](index.md#OUT)`, `[`NODE`](index.md#NODE)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-jsonrpc/src/main/kotlin/org/http4k/jsonrpc/lenses.kt#L9)
 
 ### Constructors
 

@@ -2,7 +2,7 @@
 
 # GZip
 
-`object GZip` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/RequestFilters.kt#L23)
+`object GZip` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/RequestFilters.kt#L25)
 
 Basic GZipping of Request. Does not currently support GZipping streams
 

@@ -106,6 +106,7 @@
 | [org.http4k.lens.Header](../org.http4k.lens/-header/index.md) |  |
 | [org.http4k.lens.HeaderLens](../org.http4k.lens/-header-lens.md) |  |
 | [org.http4k.core.Headers](../org.http4k.core/-headers.md) |  |
+| [org.http4k.webdriver.Http4KNavigation](../org.http4k.webdriver/-http4-k-navigation/index.md) |  |
 | [org.http4k.server.Http4kChannelHandler](../org.http4k.server/-http4k-channel-handler/index.md) | Exposed to allow for insertion into a customised Netty server instance |
 | [org.http4k.server.Http4kRequestHandler](../org.http4k.server/-http4k-request-handler/index.md) | Exposed to allow for insertion into a customised Apache WebServer instance |
 | [org.http4k.server.Http4kServer](../org.http4k.server/-http4k-server/index.md) |  |

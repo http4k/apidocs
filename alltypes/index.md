@@ -118,6 +118,7 @@
 | [org.http4k.filter.HttpTransactionLabeller](../org.http4k.filter/-http-transaction-labeller.md) |  |
 | [org.http4k.server.HttpUndertowHandler](../org.http4k.server/-http-undertow-handler/index.md) | Exposed to allow for insertion into a customised Undertow server instance |
 | [org.http4k.util.IllegalSchemaException](../org.http4k.util/-illegal-schema-exception/index.md) |  |
+| [org.http4k.routing.experimental.InMemoryResource](../org.http4k.routing.experimental/-in-memory-resource/index.md) |  |
 | [org.http4k.security.InsecureCookieBasedOAuthPersistence](../org.http4k.security/-insecure-cookie-based-o-auth-persistence/index.md) | This is an example implementation which stores CSRF and AccessTokenEnvelope values in an INSECURE client-side cookie. Access-tokens for end-services are fully available to the browser so do not use this in production! |
 | [org.http4k.lens.Invalid](../org.http4k.lens/-invalid/index.md) |  |
 | [org.http4k.format.InvalidJsonException](../org.http4k.format/-invalid-json-exception/index.md) |  |
@@ -206,6 +207,7 @@
 | [org.http4k.contract.RequestMeta](../org.http4k.contract/-request-meta/index.md) |  |
 | [org.http4k.filter.ResilienceFilters](../org.http4k.filter/-resilience-filters/index.md) |  |
 | [org.http4k.routing.experimental.Resource](../org.http4k.routing.experimental/-resource/index.md) |  |
+| [org.http4k.routing.experimental.ResourceListingHandler](../org.http4k.routing.experimental/-resource-listing-handler/index.md) |  |
 | [org.http4k.routing.ResourceLoader](../org.http4k.routing/-resource-loader/index.md) |  |
 | [org.http4k.routing.experimental.ResourceLoaders](../org.http4k.routing.experimental/-resource-loaders/index.md) |  |
 | [org.http4k.routing.experimental.ResourceLoading](../org.http4k.routing.experimental/-resource-loading/index.md) | A little convenience thunk to simplify implementing [Router](../org.http4k.routing/-router/index.md) for resource loaders. |

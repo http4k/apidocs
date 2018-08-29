@@ -6,7 +6,9 @@
 
 | Name | Summary |
 |---|---|
+| [InMemoryResource](-in-memory-resource/index.md) | `class InMemoryResource : `[`Resource`](-resource/index.md) |
 | [Resource](-resource/index.md) | `interface Resource : `[`HttpHandler`](../org.http4k.core/-http-handler.md) |
+| [ResourceListingHandler](-resource-listing-handler/index.md) | `class ResourceListingHandler : `[`HttpHandler`](../org.http4k.core/-http-handler.md) |
 | [ResourceLoaders](-resource-loaders/index.md) | `object ResourceLoaders` |
 | [ResourceLoading](-resource-loading/index.md) | `interface ResourceLoading : `[`Router`](../org.http4k.routing/-router/index.md)<br>A little convenience thunk to simplify implementing [Router](../org.http4k.routing/-router/index.md) for resource loaders. |
 | [ResourceSummary](-resource-summary/index.md) | `data class ResourceSummary` |

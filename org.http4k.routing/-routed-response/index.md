@@ -2,7 +2,7 @@
 
 # RoutedResponse
 
-`class RoutedResponse : `[`Response`](../../org.http4k.core/-response/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/routing/routing.kt#L129)
+`class RoutedResponse : `[`Response`](../../org.http4k.core/-response/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/routing/routing.kt#L128)
 
 ### Constructors
 

@@ -101,6 +101,7 @@
 | [kotlin.Function1](../org.http4k.chaos/kotlin.-function1/index.md) (extensions in package org.http4k.chaos) |  |
 | [org.http4k.filter.GenerateDataClasses](../org.http4k.filter/-generate-data-classes/index.md) | This Filter is used to generate Data class definitions from a Response containing JSON. The Filter will try and reduce the number of class definitions by selecting the definition with the most fields (for cases where lists of items have different fields). |
 | [org.http4k.filter.GenerateXmlDataClasses](../org.http4k.filter/-generate-xml-data-classes/index.md) |  |
+| [org.http4k.webdriver.GetURL](../org.http4k.webdriver/-get-u-r-l.md) |  |
 | [org.http4k.format.Gson](../org.http4k.format/-gson.md) |  |
 | [org.http4k.template.HandlebarsTemplates](../org.http4k.template/-handlebars-templates/index.md) | Handlebars templating support. Use the function in the constructor to configure the instance. |
 | [org.http4k.lens.Header](../org.http4k.lens/-header/index.md) |  |

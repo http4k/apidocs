@@ -2,7 +2,7 @@
 
 # Http4kWebDriver
 
-`class Http4kWebDriver : WebDriver` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-webdriver/src/main/kotlin/org/http4k/webdriver/Http4kWebDriver.kt#L35)
+`class Http4kWebDriver : WebDriver` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-webdriver/src/main/kotlin/org/http4k/webdriver/Http4kWebDriver.kt#L36)
 
 ### Constructors
 

@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `JSoupWebElement(navigate: `[`Navigate`](../-navigate.md)`, element: Element)` |
+| [&lt;init&gt;](-init-.md) | `JSoupWebElement(navigate: `[`Navigate`](../-navigate.md)`, getURL: `[`GetURL`](../-get-u-r-l.md)`, element: Element)` |
 
 ### Functions
 

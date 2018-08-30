@@ -2,7 +2,7 @@
 
 # Https
 
-`Https` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/RequestFilters.kt#L51)
+`Https` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/RequestFilters.kt#L49)
 
 ### Inherited Functions
 

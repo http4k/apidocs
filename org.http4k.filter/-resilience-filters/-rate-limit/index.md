@@ -4,8 +4,8 @@
 
 `object RateLimit` [(source)](https://github.com/http4k/http4k/blob/master/http4k-resilience4j/src/main/kotlin/org/http4k/filter/ResilienceFilters.kt#L70)
 
-Provide simple Bulkhead functionality.
-By default, handles 25 parallel requests, with zero wait time.
+Provide simple Rate Limiter functionality.
+By default, handles maximum of 50 requests per 5 seconds.
 
 ### Functions
 

@@ -25,4 +25,4 @@
 | Name | Summary |
 |---|---|
 | [simpleDirectoryRenderer](simple-directory-renderer.md) | `fun simpleDirectoryRenderer(uri: `[`Uri`](../org.http4k.core/-uri/index.md)`, dir: `[`ResourceSummary`](-resource-summary/index.md)`, resources: `[`Iterable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html)`<`[`ResourceSummary`](-resource-summary/index.md)`>): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
-| [static](static.md) | `fun static(resourceLoader: `[`ResourceLoading`](-resource-loading/index.md)`): `[`RoutingHttpHandler`](../org.http4k.routing/-routing-http-handler/index.md) |
+| [static](static.md) | `fun static(resourceLoader: `[`Router`](../org.http4k.routing/-router/index.md)`): `[`RoutingHttpHandler`](../org.http4k.routing/-routing-http-handler/index.md) |

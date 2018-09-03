@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`MethodMapping(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, handler: `[`RequestHandler`](../-request-handler.md)`<`[`IN`](index.md#IN)`, `[`OUT`](index.md#OUT)`>)`
+`MethodMapping(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, handler: `[`JsonRpcHandler`](../-json-rpc-handler.md)`<`[`IN`](index.md#IN)`, `[`OUT`](index.md#OUT)`>)`

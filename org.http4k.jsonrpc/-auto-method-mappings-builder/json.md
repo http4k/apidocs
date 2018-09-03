@@ -2,7 +2,7 @@
 
 # json
 
-`val json: `[`JsonLibAutoMarshallingJson`](../../org.http4k.format/-json-lib-auto-marshalling-json/index.md)`<`[`ROOT`](index.md#ROOT)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-jsonrpc/src/main/kotlin/org/http4k/jsonrpc/AutoMethodMappingsBuilder.kt#L5)
+`val json: `[`JsonLibAutoMarshallingJson`](../../org.http4k.format/-json-lib-auto-marshalling-json/index.md)`<`[`ROOT`](index.md#ROOT)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-jsonrpc/src/main/kotlin/org/http4k/jsonrpc/MethodMappingsBuilder.kt#L37)
 
 Overrides [ManualMethodMappingsBuilder.json](../-manual-method-mappings-builder/json.md)
 

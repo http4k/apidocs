@@ -133,6 +133,8 @@
 | [org.http4k.format.JsonErrorResponseRenderer](../org.http4k.format/-json-error-response-renderer/index.md) |  |
 | [org.http4k.format.JsonLibAutoMarshallingJson](../org.http4k.format/-json-lib-auto-marshalling-json/index.md) |  |
 | [com.fasterxml.jackson.databind.JsonNode](../org.http4k.chaos/com.fasterxml.jackson.databind.-json-node/index.md) (extensions in package org.http4k.chaos) |  |
+| [org.http4k.jsonrpc.JsonRpc](../org.http4k.jsonrpc/-json-rpc/index.md) |  |
+| [org.http4k.jsonrpc.JsonRpcHandler](../org.http4k.jsonrpc/-json-rpc-handler.md) |  |
 | [org.http4k.jsonrpc.JsonRpcService](../org.http4k.jsonrpc/-json-rpc-service/index.md) |  |
 | [org.http4k.util.JsonSchema](../org.http4k.util/-json-schema/index.md) |  |
 | [org.http4k.util.JsonToJsonSchema](../org.http4k.util/-json-to-json-schema/index.md) |  |
@@ -170,7 +172,6 @@
 | [org.http4k.lens.MultipartFormFile](../org.http4k.lens/-multipart-form-file.md) |  |
 | [org.http4k.webdriver.Navigate](../org.http4k.webdriver/-navigate.md) |  |
 | [org.http4k.server.Netty](../org.http4k.server/-netty/index.md) |  |
-| [org.http4k.jsonrpc.NoParamsJsonRequestHandler](../org.http4k.jsonrpc/-no-params-json-request-handler/index.md) |  |
 | [org.http4k.contract.NoRenderer](../org.http4k.contract/-no-renderer/index.md) |  |
 | [org.http4k.contract.NoSecurity](../org.http4k.contract/-no-security/index.md) | Default NoOp security filter. Filter allows all traffic through. |
 | [org.http4k.security.OAuthCallback](../org.http4k.security/-o-auth-callback/index.md) |  |
@@ -181,7 +182,6 @@
 | [org.http4k.client.OkHttp](../org.http4k.client/-ok-http/index.md) |  |
 | [org.http4k.contract.OpenApi](../org.http4k.contract/-open-api/index.md) |  |
 | [org.http4k.webdriver.Page](../org.http4k.webdriver/-page/index.md) |  |
-| [org.http4k.jsonrpc.ParamMappingJsonRequestHandler](../org.http4k.jsonrpc/-param-mapping-json-request-handler/index.md) |  |
 | [org.http4k.lens.ParamMeta](../org.http4k.lens/-param-meta/index.md) |  |
 | [org.http4k.core.Parameters](../org.http4k.core/-parameters.md) |  |
 | [org.http4k.jsonrpc.Params](../org.http4k.jsonrpc/-params/index.md) |  |
@@ -205,7 +205,6 @@
 | [org.http4k.lens.RequestContextLens](../org.http4k.lens/-request-context-lens.md) |  |
 | [org.http4k.core.RequestContexts](../org.http4k.core/-request-contexts/index.md) | In-memory RequestContext store. |
 | [org.http4k.filter.RequestFilters](../org.http4k.filter/-request-filters/index.md) |  |
-| [org.http4k.jsonrpc.RequestHandler](../org.http4k.jsonrpc/-request-handler.md) |  |
 | [org.http4k.contract.RequestMeta](../org.http4k.contract/-request-meta/index.md) |  |
 | [org.http4k.filter.ResilienceFilters](../org.http4k.filter/-resilience-filters/index.md) |  |
 | [org.http4k.routing.experimental.Resource](../org.http4k.routing.experimental/-resource/index.md) |  |

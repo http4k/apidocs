@@ -2,4 +2,4 @@
 
 # getScreenshotAs
 
-`fun <X> getScreenshotAs(target: OutputType<`[`X`](get-screenshot-as.md#X)`>?): `[`X`](get-screenshot-as.md#X) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-webdriver/src/main/kotlin/org/http4k/webdriver/JSoupWebElement.kt#L75)
+`fun <X> getScreenshotAs(target: OutputType<`[`X`](get-screenshot-as.md#X)`>?): `[`X`](get-screenshot-as.md#X) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-webdriver/src/main/kotlin/org/http4k/webdriver/JSoupWebElement.kt#L81)

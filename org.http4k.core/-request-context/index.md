@@ -10,6 +10,12 @@
 |---|---|
 | [Companion](-companion/index.md) | `companion object Companion : `[`LensExtractor`](../../org.http4k.lens/-lens-extractor/index.md)`<`[`Request`](../-request/index.md)`, `[`UUID`](http://docs.oracle.com/javase/6/docs/api/java/util/UUID.html)`>, `[`LensInjector`](../../org.http4k.lens/-lens-injector/index.md)`<`[`UUID`](http://docs.oracle.com/javase/6/docs/api/java/util/UUID.html)`, `[`Request`](../-request/index.md)`>` |
 
+### Properties
+
+| Name | Summary |
+|---|---|
+| [id](id.md) | `val id: `[`UUID`](http://docs.oracle.com/javase/6/docs/api/java/util/UUID.html) |
+
 ### Functions
 
 | Name | Summary |

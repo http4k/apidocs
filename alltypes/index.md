@@ -15,7 +15,6 @@
 | [org.http4k.format.Argo](../org.http4k.format/-argo/index.md) |  |
 | [org.http4k.client.AsyncHttpClient](../org.http4k.client/-async-http-client/index.md) |  |
 | [org.http4k.format.AutoMarshallingJson](../org.http4k.format/-auto-marshalling-json/index.md) |  |
-| [org.http4k.jsonrpc.AutoMethodMappingsBuilder](../org.http4k.jsonrpc/-auto-method-mappings-builder/index.md) |  |
 | [org.http4k.aws.AwsCredentialScope](../org.http4k.aws/-aws-credential-scope/index.md) |  |
 | [org.http4k.aws.AwsCredentials](../org.http4k.aws/-aws-credentials/index.md) |  |
 | [org.http4k.aws.AwsHmacSha256](../org.http4k.aws/-aws-hmac-sha256/index.md) |  |
@@ -135,6 +134,7 @@
 | [com.fasterxml.jackson.databind.JsonNode](../org.http4k.chaos/com.fasterxml.jackson.databind.-json-node/index.md) (extensions in package org.http4k.chaos) |  |
 | [org.http4k.jsonrpc.JsonRpc](../org.http4k.jsonrpc/-json-rpc/index.md) |  |
 | [org.http4k.jsonrpc.JsonRpcHandler](../org.http4k.jsonrpc/-json-rpc-handler.md) |  |
+| [org.http4k.jsonrpc.JsonRpcMethodBinding](../org.http4k.jsonrpc/-json-rpc-method-binding/index.md) |  |
 | [org.http4k.jsonrpc.JsonRpcService](../org.http4k.jsonrpc/-json-rpc-service/index.md) |  |
 | [org.http4k.util.JsonSchema](../org.http4k.util/-json-schema/index.md) |  |
 | [org.http4k.util.JsonToJsonSchema](../org.http4k.util/-json-to-json-schema/index.md) |  |
@@ -150,7 +150,6 @@
 | [kotlin.collections.List](../org.http4k.core/kotlin.collections.-list/index.md) (extensions in package org.http4k.core) |  |
 | [kotlin.collections.List](../org.http4k.core.body/kotlin.collections.-list/index.md) (extensions in package org.http4k.core.body) |  |
 | [org.http4k.filter.cookie.LocalCookie](../org.http4k.filter.cookie/-local-cookie/index.md) |  |
-| [org.http4k.jsonrpc.ManualMethodMappingsBuilder](../org.http4k.jsonrpc/-manual-method-mappings-builder/index.md) |  |
 | [kotlin.collections.Map](../org.http4k.core/kotlin.collections.-map/index.md) (extensions in package org.http4k.core) |  |
 | [org.http4k.filter.MaxAgeTtl](../org.http4k.filter/-max-age-ttl/index.md) |  |
 | [org.http4k.core.MemoryBody](../org.http4k.core/-memory-body/index.md) | Represents a body that is backed by an in-memory ByteBuffer. Closing this has no effect. |
@@ -158,8 +157,7 @@
 | [org.http4k.core.MemoryResponse](../org.http4k.core/-memory-response/index.md) |  |
 | [org.http4k.lens.Meta](../org.http4k.lens/-meta/index.md) |  |
 | [org.http4k.core.Method](../org.http4k.core/-method/index.md) |  |
-| [org.http4k.jsonrpc.MethodMapping](../org.http4k.jsonrpc/-method-mapping/index.md) |  |
-| [org.http4k.jsonrpc.MethodMappingsBuilder](../org.http4k.jsonrpc/-method-mappings-builder/index.md) |  |
+| [org.http4k.jsonrpc.MethodBindings](../org.http4k.jsonrpc/-method-bindings/index.md) |  |
 | [org.http4k.filter.MetricFilters](../org.http4k.filter/-metric-filters/index.md) |  |
 | [org.http4k.core.MimeTypes](../org.http4k.core/-mime-types/index.md) |  |
 | [org.http4k.lens.Missing](../org.http4k.lens/-missing/index.md) |  |

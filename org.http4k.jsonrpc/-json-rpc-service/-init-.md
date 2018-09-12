@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`JsonRpcService(json: `[`Json`](../../org.http4k.format/-json/index.md)`<`[`ROOT`](index.md#ROOT)`, `[`NODE`](index.md#NODE)`>, errorHandler: `[`ErrorHandler`](../-error-handler.md)`, methodMappings: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`MethodMapping`](../-method-mapping/index.md)`<`[`NODE`](index.md#NODE)`, `[`NODE`](index.md#NODE)`>>)`
+`JsonRpcService(json: `[`Json`](../../org.http4k.format/-json/index.md)`<`[`ROOT`](index.md#ROOT)`, `[`NODE`](index.md#NODE)`>, errorHandler: `[`ErrorHandler`](../-error-handler.md)`, bindings: `[`Iterable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html)`<`[`JsonRpcMethodBinding`](../-json-rpc-method-binding/index.md)`<`[`NODE`](index.md#NODE)`, `[`NODE`](index.md#NODE)`>>)`

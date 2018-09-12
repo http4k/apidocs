@@ -2,7 +2,7 @@
 
 # CatchLensFailure
 
-`object CatchLensFailure : `[`Filter`](../../org.http4k.core/-filter/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ServerFilters.kt#L124)
+`object CatchLensFailure : `[`Filter`](../../org.http4k.core/-filter/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ServerFilters.kt#L165)
 
 Converts Lens extraction failures into correct HTTP responses (Bad Requests/UnsupportedMediaType).
 This is required when using lenses to automatically unmarshall inbound requests.
@@ -10,7 +10,7 @@ Note that LensFailures from unmarshalling upstream Response objects are NOT caug
 
 `fun CatchLensFailure(failResponseFn: (`[`LensFailure`](../../org.http4k.lens/-lens-failure/index.md)`) -> `[`Response`](../../org.http4k.core/-response/index.md)` = {
         Response(BAD_REQUEST.description(it.failures.joinToString("; ")))
-    }): `[`Filter`](../../org.http4k.core/-filter/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ServerFilters.kt#L133)
+    }): `[`Filter`](../../org.http4k.core/-filter/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ServerFilters.kt#L174)
 
 Converts Lens extraction failures into correct HTTP responses (Bad Requests/UnsupportedMediaType).
 This is required when using lenses to automatically unmarshall inbound requests.

@@ -2,7 +2,7 @@
 
 # CorsPolicy
 
-`data class CorsPolicy` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ServerFilters.kt#L30)
+`data class CorsPolicy` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ServerFilters.kt#L31)
 
 ### Constructors
 

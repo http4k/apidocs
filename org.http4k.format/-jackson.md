@@ -2,7 +2,7 @@
 
 # Jackson
 
-`object Jackson : `[`ConfigurableJackson`](-configurable-jackson/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-jackson/src/main/kotlin/org/http4k/format/Jackson.kt#L113)
+`object Jackson : `[`ConfigurableJackson`](-configurable-jackson/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-jackson/src/main/kotlin/org/http4k/format/Jackson.kt#L115)
 
 ### Inherited Functions
 
@@ -17,6 +17,7 @@
 | [bool](-configurable-jackson/bool.md) | `open fun bool(value: JsonNode): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
 | [elements](-configurable-jackson/elements.md) | `open fun elements(value: JsonNode): `[`Iterable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html)`<JsonNode>` |
 | [fields](-configurable-jackson/fields.md) | `open fun fields(node: JsonNode): `[`Iterable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html)`<`[`Pair`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, JsonNode>>` |
+| [stringFrom](-configurable-jackson/string-from.md) | `open fun stringFrom(node: JsonNode, name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |
 | [text](-configurable-jackson/text.md) | `open fun text(value: JsonNode): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [typeOf](-configurable-jackson/type-of.md) | `open fun typeOf(value: JsonNode): `[`JsonType`](-json-type/index.md) |
 

@@ -32,6 +32,7 @@ This is the contract for all JSON implementations
 | [prettify](prettify.md) | `open fun prettify(s: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [pretty](pretty.md) | `open fun pretty(node: `[`ROOT`](index.md#ROOT)`): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [string](string.md) | `open fun string(value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`NODE`](index.md#NODE) |
+| [stringFrom](string-from.md) | `abstract fun stringFrom(node: `[`NODE`](index.md#NODE)`, name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |
 | [text](text.md) | `abstract fun text(value: `[`NODE`](index.md#NODE)`): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [typeOf](type-of.md) | `abstract fun typeOf(value: `[`NODE`](index.md#NODE)`): `[`JsonType`](../-json-type/index.md) |
 

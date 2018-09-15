@@ -45,8 +45,8 @@
 | [prettify](../-json/prettify.md) | `open fun prettify(s: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [pretty](../-json/pretty.md) | `open fun pretty(node: `[`ROOT`](../-json/index.md#ROOT)`): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [string](../-json/string.md) | `open fun string(value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`NODE`](../-json/index.md#NODE) |
-| [stringFrom](../-json/string-from.md) | `abstract fun stringFrom(node: `[`NODE`](../-json/index.md#NODE)`, name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |
 | [text](../-json/text.md) | `abstract fun text(value: `[`NODE`](../-json/index.md#NODE)`): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [textValueOf](../-json/text-value-of.md) | `abstract fun textValueOf(node: `[`NODE`](../-json/index.md#NODE)`, name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |
 | [typeOf](../-json/type-of.md) | `abstract fun typeOf(value: `[`NODE`](../-json/index.md#NODE)`): `[`JsonType`](../-json-type/index.md) |
 
 ### Extension Functions

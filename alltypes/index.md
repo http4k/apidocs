@@ -151,7 +151,6 @@
 | [kotlin.collections.List](../org.http4k.core.body/kotlin.collections.-list/index.md) (extensions in package org.http4k.core.body) |  |
 | [org.http4k.filter.cookie.LocalCookie](../org.http4k.filter.cookie/-local-cookie/index.md) |  |
 | [kotlin.collections.Map](../org.http4k.core/kotlin.collections.-map/index.md) (extensions in package org.http4k.core) |  |
-| [org.http4k.jsonrpc.Mapping](../org.http4k.jsonrpc/-mapping/index.md) |  |
 | [org.http4k.filter.MaxAgeTtl](../org.http4k.filter/-max-age-ttl/index.md) |  |
 | [org.http4k.core.MemoryBody](../org.http4k.core/-memory-body/index.md) | Represents a body that is backed by an in-memory ByteBuffer. Closing this has no effect. |
 | [org.http4k.core.MemoryRequest](../org.http4k.core/-memory-request/index.md) |  |
@@ -183,6 +182,7 @@
 | [org.http4k.webdriver.Page](../org.http4k.webdriver/-page/index.md) |  |
 | [org.http4k.lens.ParamMeta](../org.http4k.lens/-param-meta/index.md) |  |
 | [org.http4k.core.Parameters](../org.http4k.core/-parameters.md) |  |
+| [org.http4k.jsonrpc.Params](../org.http4k.jsonrpc/-params/index.md) |  |
 | [org.http4k.lens.Path](../org.http4k.lens/-path/index.md) |  |
 | [org.http4k.lens.PathLens](../org.http4k.lens/-path-lens/index.md) |  |
 | [org.http4k.lens.PathLensSpec](../org.http4k.lens/-path-lens-spec/index.md) | Represents a uni-directional extraction of an entity from a target path segment. |
@@ -215,6 +215,7 @@
 | [org.http4k.core.Response](../org.http4k.core/-response/index.md) |  |
 | [org.http4k.filter.ResponseFilters](../org.http4k.filter/-response-filters/index.md) |  |
 | [org.http4k.contract.ResponseMeta](../org.http4k.contract/-response-meta/index.md) |  |
+| [org.http4k.jsonrpc.Result](../org.http4k.jsonrpc/-result/index.md) |  |
 | [org.http4k.contract.Root](../org.http4k.contract/-root/index.md) |  |
 | [org.http4k.contract.RouteBinder](../org.http4k.contract/-route-binder/index.md) |  |
 | [org.http4k.contract.RouteMeta](../org.http4k.contract/-route-meta/index.md) |  |

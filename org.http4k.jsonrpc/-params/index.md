@@ -1,14 +1,14 @@
-[http4k](../../index.md) / [org.http4k.jsonrpc](../index.md) / [Mapping](./index.md)
+[http4k](../../index.md) / [org.http4k.jsonrpc](../index.md) / [Params](./index.md)
 
-# Mapping
+# Params
 
-`class Mapping<IN, OUT> : `[`Lens`](../../org.http4k.lens/-lens/index.md)`<`[`IN`](index.md#IN)`, `[`OUT`](index.md#OUT)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-jsonrpc/src/main/kotlin/org/http4k/jsonrpc/lenses.kt#L7)
+`class Params<NODE, IN> : `[`Lens`](../../org.http4k.lens/-lens/index.md)`<`[`NODE`](index.md#NODE)`, `[`IN`](index.md#IN)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-jsonrpc/src/main/kotlin/org/http4k/jsonrpc/lenses.kt#L7)
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `Mapping(convert: (`[`IN`](index.md#IN)`) -> `[`OUT`](index.md#OUT)`)` |
+| [&lt;init&gt;](-init-.md) | `Params(convert: (`[`NODE`](index.md#NODE)`) -> `[`IN`](index.md#IN)`)` |
 
 ### Inherited Properties
 

@@ -10,9 +10,8 @@
 | [JsonRpc](-json-rpc/index.md) | `object JsonRpc` |
 | [JsonRpcMethodBinding](-json-rpc-method-binding/index.md) | `data class JsonRpcMethodBinding<IN, OUT>` |
 | [JsonRpcService](-json-rpc-service/index.md) | `data class JsonRpcService<ROOT : `[`NODE`](-json-rpc-service/index.md#NODE)`, NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`HttpHandler`](../org.http4k.core/-http-handler.md) |
+| [Mapping](-mapping/index.md) | `class Mapping<IN, OUT> : `[`Lens`](../org.http4k.lens/-lens/index.md)`<`[`IN`](-mapping/index.md#IN)`, `[`OUT`](-mapping/index.md#OUT)`>` |
 | [MethodBindings](-method-bindings/index.md) | `interface MethodBindings<NODE> : `[`Iterable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html)`<`[`JsonRpcMethodBinding`](-json-rpc-method-binding/index.md)`<`[`NODE`](-method-bindings/index.md#NODE)`, `[`NODE`](-method-bindings/index.md#NODE)`>>` |
-| [Params](-params/index.md) | `class Params<NODE, IN> : `[`Lens`](../org.http4k.lens/-lens/index.md)`<`[`NODE`](-params/index.md#NODE)`, `[`IN`](-params/index.md#IN)`>` |
-| [Result](-result/index.md) | `class Result<OUT, NODE> : `[`Lens`](../org.http4k.lens/-lens/index.md)`<`[`OUT`](-result/index.md#OUT)`, `[`NODE`](-result/index.md#NODE)`>` |
 
 ### Type Aliases
 

@@ -2,7 +2,7 @@
 
 # JsonRpcMethodBinding
 
-`data class JsonRpcMethodBinding<IN, OUT>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-jsonrpc/src/main/kotlin/org/http4k/jsonrpc/JsonRpcService.kt#L101)
+`data class JsonRpcMethodBinding<IN, OUT>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-jsonrpc/src/main/kotlin/org/http4k/jsonrpc/JsonRpcService.kt#L104)
 
 ### Constructors
 

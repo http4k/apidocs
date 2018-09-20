@@ -38,6 +38,5 @@ A Lens provides the uni-directional extraction of an entity from a target.
 | Name | Summary |
 |---|---|
 | [BiDiLens](../-bi-di-lens/index.md) | `class BiDiLens<in IN, FINAL> : `[`LensInjector`](../-lens-injector/index.md)`<`[`FINAL`](../-bi-di-lens/index.md#FINAL)`, `[`IN`](../-bi-di-lens/index.md#IN)`>, `[`Lens`](./index.md)`<`[`IN`](../-bi-di-lens/index.md#IN)`, `[`FINAL`](../-bi-di-lens/index.md#FINAL)`>`<br>A BiDiLens provides the bi-directional extraction of an entity from a target, or the insertion of an entity into a target. |
-| [Params](../../org.http4k.jsonrpc/-params/index.md) | `class Params<NODE, IN> : `[`Lens`](./index.md)`<`[`NODE`](../../org.http4k.jsonrpc/-params/index.md#NODE)`, `[`IN`](../../org.http4k.jsonrpc/-params/index.md#IN)`>` |
+| [Mapping](../../org.http4k.jsonrpc/-mapping/index.md) | `class Mapping<IN, OUT> : `[`Lens`](./index.md)`<`[`IN`](../../org.http4k.jsonrpc/-mapping/index.md#IN)`, `[`OUT`](../../org.http4k.jsonrpc/-mapping/index.md#OUT)`>` |
 | [PathLens](../-path-lens/index.md) | `open class PathLens<out FINAL> : `[`Lens`](./index.md)`<`[`Request`](../../org.http4k.core/-request/index.md)`, `[`FINAL`](../-path-lens/index.md#FINAL)`>` |
-| [Result](../../org.http4k.jsonrpc/-result/index.md) | `class Result<OUT, NODE> : `[`Lens`](./index.md)`<`[`OUT`](../../org.http4k.jsonrpc/-result/index.md#OUT)`, `[`NODE`](../../org.http4k.jsonrpc/-result/index.md#NODE)`>` |

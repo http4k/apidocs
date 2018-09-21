@@ -2,7 +2,7 @@
 
 # Argo
 
-`object Argo : `[`Json`](../-json/index.md)`<JsonRootNode, JsonNode>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-argo/src/main/kotlin/org/http4k/format/Argo.kt#L14)
+`object Argo : `[`Json`](../-json/index.md)`<JsonRootNode, JsonNode>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-argo/src/main/kotlin/org/http4k/format/Argo.kt#L15)
 
 ### Functions
 
@@ -15,7 +15,7 @@
 | [asPrettyJsonString](as-pretty-json-string.md) | `fun JsonRootNode.asPrettyJsonString(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [bool](bool.md) | `fun bool(value: JsonNode): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
 | [elements](elements.md) | `fun elements(value: JsonNode): `[`Iterable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html)`<JsonNode>` |
-| [fields](fields.md) | `fun fields(node: JsonNode): `[`Iterable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html)`<`[`Pair`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, JsonNode>>` |
+| [fields](fields.md) | `fun fields(node: JsonNode): `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`Pair`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, JsonNode>>` |
 | [text](text.md) | `fun text(value: JsonNode): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [textValueOf](text-value-of.md) | `fun textValueOf(node: JsonNode, name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [typeOf](type-of.md) | `fun typeOf(value: JsonNode): `[`JsonType`](../-json-type/index.md) |

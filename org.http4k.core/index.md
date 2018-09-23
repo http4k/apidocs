@@ -69,7 +69,7 @@ The core abstractions for the http4k library.
 | [staleIfError](stale-if-error.md) | `fun `[`Response`](-response/index.md)`.staleIfError(duration: Duration): `[`Response`](-response/index.md) |
 | [staleWhileRevalidate](stale-while-revalidate.md) | `fun `[`Response`](-response/index.md)`.staleWhileRevalidate(duration: Duration): `[`Response`](-response/index.md) |
 | [then](then.md) | `fun `[`Filter`](-filter/index.md)`.then(next: `[`Filter`](-filter/index.md)`): `[`Filter`](-filter/index.md)<br>`fun `[`Filter`](-filter/index.md)`.then(next: `[`HttpHandler`](-http-handler.md)`): `[`HttpHandler`](-http-handler.md)<br>`fun `[`Filter`](-filter/index.md)`.then(routingHttpHandler: `[`RoutingHttpHandler`](../org.http4k.routing/-routing-http-handler/index.md)`): `[`RoutingHttpHandler`](../org.http4k.routing/-routing-http-handler/index.md) |
-| [toCurl](to-curl.md) | `fun `[`Request`](-request/index.md)`.toCurl(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [toCurl](to-curl.md) | `fun `[`Request`](-request/index.md)`.toCurl(truncateBodyLength: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)` = 256): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [with](with.md) | `fun <T> `[`T`](with.md#T)`.with(vararg modifiers: (`[`T`](with.md#T)`) -> `[`T`](with.md#T)`): `[`T`](with.md#T) |
 
 ### Companion Object Properties

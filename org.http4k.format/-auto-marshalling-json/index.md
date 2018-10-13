@@ -22,4 +22,4 @@
 | Name | Summary |
 |---|---|
 | [ConfigurableMoshi](../-configurable-moshi/index.md) | `open class ConfigurableMoshi : `[`AutoMarshallingJson`](./index.md) |
-| [JsonLibAutoMarshallingJson](../-json-lib-auto-marshalling-json/index.md) | `abstract class JsonLibAutoMarshallingJson<ROOT : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`AutoMarshallingJson`](./index.md)`, `[`Json`](../-json/index.md)`<`[`ROOT`](../-json-lib-auto-marshalling-json/index.md#ROOT)`, `[`ROOT`](../-json-lib-auto-marshalling-json/index.md#ROOT)`>` |
+| [JsonLibAutoMarshallingJson](../-json-lib-auto-marshalling-json/index.md) | `abstract class JsonLibAutoMarshallingJson<ROOT : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`AutoMarshallingJson`](./index.md)`, `[`Json`](../-json/index.md)`<`[`ROOT`](../-json-lib-auto-marshalling-json/index.md#ROOT)`>` |

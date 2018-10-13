@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`JsonToJsonSchema(json: `[`Json`](../../org.http4k.format/-json/index.md)`<`[`ROOT`](index.md#ROOT)`, `[`NODE`](index.md#NODE)`>)`
+`JsonToJsonSchema(json: `[`Json`](../../org.http4k.format/-json/index.md)`<`[`NODE`](index.md#NODE)`>)`

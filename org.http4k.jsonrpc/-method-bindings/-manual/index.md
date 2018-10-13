@@ -2,13 +2,13 @@
 
 # Manual
 
-`class Manual<ROOT : `[`NODE`](index.md#NODE)`, NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`MethodBindings`](../index.md)`<`[`NODE`](index.md#NODE)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-jsonrpc/src/main/kotlin/org/http4k/jsonrpc/MethodBindings.kt#L10)
+`class Manual<NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`MethodBindings`](../index.md)`<`[`NODE`](index.md#NODE)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-jsonrpc/src/main/kotlin/org/http4k/jsonrpc/MethodBindings.kt#L10)
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `Manual(json: `[`Json`](../../../org.http4k.format/-json/index.md)`<`[`ROOT`](index.md#ROOT)`, `[`NODE`](index.md#NODE)`>)` |
+| [&lt;init&gt;](-init-.md) | `Manual(json: `[`Json`](../../../org.http4k.format/-json/index.md)`<`[`NODE`](index.md#NODE)`>)` |
 
 ### Functions
 
@@ -22,4 +22,4 @@
 
 | Name | Summary |
 |---|---|
-| [Auto](../-auto/index.md) | `class Auto<ROOT : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`Manual`](./index.md)`<`[`ROOT`](../-auto/index.md#ROOT)`, `[`ROOT`](../-auto/index.md#ROOT)`>` |
+| [Auto](../-auto/index.md) | `class Auto<ROOT : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`Manual`](./index.md)`<`[`ROOT`](../-auto/index.md#ROOT)`>` |

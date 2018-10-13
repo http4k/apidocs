@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`Manual(json: `[`Json`](../../../org.http4k.format/-json/index.md)`<`[`ROOT`](index.md#ROOT)`, `[`NODE`](index.md#NODE)`>)`
+`Manual(json: `[`Json`](../../../org.http4k.format/-json/index.md)`<`[`NODE`](index.md#NODE)`>)`

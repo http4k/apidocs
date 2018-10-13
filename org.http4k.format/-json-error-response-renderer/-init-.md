@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`JsonErrorResponseRenderer(json: `[`Json`](../-json/index.md)`<`[`ROOT`](index.md#ROOT)`, `[`NODE`](index.md#NODE)`>)`
+`JsonErrorResponseRenderer(json: `[`Json`](../-json/index.md)`<`[`NODE`](index.md#NODE)`>)`

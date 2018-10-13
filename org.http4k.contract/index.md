@@ -28,7 +28,7 @@ Code for defining typesafe contracts which generate OpenAPI documentation.
 | [HttpMessageMeta](-http-message-meta/index.md) | `sealed class HttpMessageMeta<out T : `[`HttpMessage`](../org.http4k.core/-http-message/index.md)`>` |
 | [NoRenderer](-no-renderer/index.md) | `object NoRenderer : `[`ContractRenderer`](-contract-renderer/index.md) |
 | [NoSecurity](-no-security/index.md) | `object NoSecurity : `[`Security`](-security/index.md)<br>Default NoOp security filter. Filter allows all traffic through. |
-| [OpenApi](-open-api/index.md) | `class OpenApi<ROOT : `[`NODE`](-open-api/index.md#NODE)`, out NODE> : `[`ContractRenderer`](-contract-renderer/index.md) |
+| [OpenApi](-open-api/index.md) | `class OpenApi<out NODE> : `[`ContractRenderer`](-contract-renderer/index.md) |
 | [PathSegments](-path-segments/index.md) | `sealed class PathSegments` |
 | [RequestMeta](-request-meta/index.md) | `class RequestMeta : `[`HttpMessageMeta`](-http-message-meta/index.md)`<`[`Request`](../org.http4k.core/-request/index.md)`>` |
 | [ResponseMeta](-response-meta/index.md) | `class ResponseMeta : `[`HttpMessageMeta`](-http-message-meta/index.md)`<`[`Response`](../org.http4k.core/-response/index.md)`>` |

@@ -8,8 +8,8 @@
 
 | Name | Summary |
 |---|---|
-| [Auto](-auto/index.md) | `class Auto<ROOT : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`Manual`](-manual/index.md)`<`[`ROOT`](-auto/index.md#ROOT)`, `[`ROOT`](-auto/index.md#ROOT)`>` |
-| [Manual](-manual/index.md) | `class Manual<ROOT : `[`NODE`](-manual/index.md#NODE)`, NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`MethodBindings`](./index.md)`<`[`NODE`](-manual/index.md#NODE)`>` |
+| [Auto](-auto/index.md) | `class Auto<ROOT : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`Manual`](-manual/index.md)`<`[`ROOT`](-auto/index.md#ROOT)`>` |
+| [Manual](-manual/index.md) | `class Manual<NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`MethodBindings`](./index.md)`<`[`NODE`](-manual/index.md#NODE)`>` |
 
 ### Functions
 
@@ -21,4 +21,4 @@
 
 | Name | Summary |
 |---|---|
-| [Manual](-manual/index.md) | `class Manual<ROOT : `[`NODE`](-manual/index.md#NODE)`, NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`MethodBindings`](./index.md)`<`[`NODE`](-manual/index.md#NODE)`>` |
+| [Manual](-manual/index.md) | `class Manual<NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`MethodBindings`](./index.md)`<`[`NODE`](-manual/index.md#NODE)`>` |

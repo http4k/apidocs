@@ -21,8 +21,8 @@
 
 | Name | Summary |
 |---|---|
-| [data](data.md) | `open fun <ROOT : `[`NODE`](data.md#NODE)`, NODE> data(json: `[`Json`](../../org.http4k.format/-json/index.md)`<`[`ROOT`](data.md#ROOT)`, `[`NODE`](data.md#NODE)`>): `[`NODE`](data.md#NODE)`?` |
-| [invoke](invoke.md) | `operator fun <ROOT : `[`NODE`](invoke.md#NODE)`, NODE> invoke(json: `[`Json`](../../org.http4k.format/-json/index.md)`<`[`ROOT`](invoke.md#ROOT)`, `[`NODE`](invoke.md#NODE)`>): `[`NODE`](invoke.md#NODE) |
+| [data](data.md) | `open fun <NODE> data(json: `[`Json`](../../org.http4k.format/-json/index.md)`<`[`NODE`](data.md#NODE)`>): `[`NODE`](data.md#NODE)`?` |
+| [invoke](invoke.md) | `operator fun <NODE> invoke(json: `[`Json`](../../org.http4k.format/-json/index.md)`<`[`NODE`](invoke.md#NODE)`>): `[`NODE`](invoke.md#NODE) |
 
 ### Companion Object Properties
 

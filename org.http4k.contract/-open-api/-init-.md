@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`OpenApi(apiInfo: `[`ApiInfo`](../-api-info/index.md)`, json: `[`Json`](../../org.http4k.format/-json/index.md)`<`[`ROOT`](index.md#ROOT)`, `[`NODE`](index.md#NODE)`>)`
+`OpenApi(apiInfo: `[`ApiInfo`](../-api-info/index.md)`, json: `[`Json`](../../org.http4k.format/-json/index.md)`<`[`NODE`](index.md#NODE)`>)`

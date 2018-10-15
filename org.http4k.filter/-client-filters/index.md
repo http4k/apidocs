@@ -2,7 +2,7 @@
 
 # ClientFilters
 
-`object ClientFilters` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ClientFilters.kt#L21)
+`object ClientFilters` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ClientFilters.kt#L22)
 
 ### Types
 
@@ -14,6 +14,7 @@
 | [FollowRedirects](-follow-redirects/index.md) | `object FollowRedirects` |
 | [GZip](-g-zip/index.md) | `object GZip`<br>Basic GZip and Gunzip support of Request/Response. Does not currently support GZipping streams. Only Gunzip responses when the response contains "transfer-encoding" header containing 'gzip' |
 | [RequestTracing](-request-tracing/index.md) | `object RequestTracing`<br>Adds Zipkin request tracing headers to the outbound request. (traceid, spanid, parentspanid) |
+| [SetBaseUriFrom](-set-base-uri-from/index.md) | `object SetBaseUriFrom`<br>Sets the base uri (host + base path) on an outbound request. This is useful to separate configuration of remote endpoints from the logic required to construct the rest of the request. |
 | [SetHostFrom](-set-host-from/index.md) | `object SetHostFrom`<br>Sets the host on an outbound request. This is useful to separate configuration of remote endpoints from the logic required to construct the rest of the request. |
 
 ### Extension Functions

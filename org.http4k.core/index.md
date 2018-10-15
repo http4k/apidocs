@@ -56,6 +56,7 @@ The core abstractions for the http4k library.
 
 | Name | Summary |
 |---|---|
+| [appendToPath](append-to-path.md) | `fun `[`Uri`](-uri/index.md)`.appendToPath(path: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Uri`](-uri/index.md) |
 | [maxAge](max-age.md) | `fun `[`Response`](-response/index.md)`.maxAge(duration: Duration): `[`Response`](-response/index.md) |
 | [multipartIterator](multipart-iterator.md) | `fun `[`HttpMessage`](-http-message/index.md)`.multipartIterator(): `[`Iterator`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterator/index.html)`<`[`MultipartEntity`](-multipart-entity/index.md)`>` |
 | [mustRevalidate](must-revalidate.md) | `fun `[`Response`](-response/index.md)`.mustRevalidate(): `[`Response`](-response/index.md) |

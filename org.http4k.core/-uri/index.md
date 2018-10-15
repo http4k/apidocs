@@ -47,5 +47,6 @@
 
 | Name | Summary |
 |---|---|
+| [appendToPath](../append-to-path.md) | `fun `[`Uri`](./index.md)`.appendToPath(path: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Uri`](./index.md) |
 | [queries](../queries.md) | `fun `[`Uri`](./index.md)`.queries(): `[`Parameters`](../-parameters.md) |
 | [query](../query.md) | `fun `[`Uri`](./index.md)`.query(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`Uri`](./index.md) |

@@ -2,18 +2,13 @@
 
 # K8sEnvironment
 
-`class K8sEnvironment` [(source)](https://github.com/http4k/http4k/blob/master/http4k-k8s/src/main/kotlin/org/http4k/k8s/Config.kt#L5)
-
-### Functions
-
-| Name | Summary |
-|---|---|
-| [get](get.md) | `operator fun get(key: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |
+`data class K8sEnvironment` [(source)](https://github.com/http4k/http4k/blob/master/http4k-k8s/src/main/kotlin/org/http4k/k8s/K8sEnvironment.kt#L6)
 
 ### Companion Object Properties
 
 | Name | Summary |
 |---|---|
+| [EMPTY](-e-m-p-t-y.md) | `val EMPTY: `[`K8sEnvironment`](./index.md) |
 | [ENV](-e-n-v.md) | `val ENV: `[`K8sEnvironment`](./index.md) |
 
 ### Companion Object Functions

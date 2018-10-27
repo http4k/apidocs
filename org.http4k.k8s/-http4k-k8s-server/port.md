@@ -2,7 +2,7 @@
 
 # port
 
-`fun port(): `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-k8s/src/main/kotlin/org/http4k/k8s/Http4kK8sServer.kt#L17)
+`fun port(): `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-k8s/src/main/kotlin/org/http4k/k8s/Http4kK8sServer.kt#L14)
 
 Overrides [Http4kServer.port](../../org.http4k.server/-http4k-server/port.md)
 

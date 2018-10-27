@@ -2,7 +2,7 @@
 
 # K8sEnvKey
 
-`object K8sEnvKey : `[`BiDiLensSpec`](../../org.http4k.lens/-bi-di-lens-spec/index.md)`<`[`K8sEnvironment`](../-k8s-environment/index.md)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-k8s/src/main/kotlin/org/http4k/k8s/Config.kt#L14)
+`object K8sEnvKey : `[`BiDiLensSpec`](../../org.http4k.lens/-bi-di-lens-spec/index.md)`<`[`K8sEnvironment`](../-k8s-environment/index.md)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-k8s/src/main/kotlin/org/http4k/k8s/K8sEnvironment.kt#L19)
 
 ### Properties
 
@@ -21,7 +21,7 @@
 
 | Name | Summary |
 |---|---|
-| [portFor](port-for.md) | `fun portFor(serviceName: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`BiDiLens`](../../org.http4k.lens/-bi-di-lens/index.md)`<`[`K8sEnvironment`](../-k8s-environment/index.md)`, `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`>` |
+| [serviceUriFor](service-uri-for.md) | `fun serviceUriFor(serviceName: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, https: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)` = false): `[`Lens`](../../org.http4k.lens/-lens/index.md)`<`[`K8sEnvironment`](../-k8s-environment/index.md)`, `[`Uri`](../../org.http4k.core/-uri/index.md)`>` |
 
 ### Inherited Functions
 

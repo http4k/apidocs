@@ -10,7 +10,7 @@ Presumed homeless code used across the rest of the library.
 |---|---|
 | [Appendable](-appendable/index.md) | `class Appendable<T>` |
 | [JsonSchema](-json-schema/index.md) | `data class JsonSchema<out NODE>` |
-| [JsonToJsonSchema](-json-to-json-schema/index.md) | `class JsonToJsonSchema<ROOT : `[`NODE`](-json-to-json-schema/index.md#NODE)`, NODE>` |
+| [JsonToJsonSchema](-json-to-json-schema/index.md) | `class JsonToJsonSchema<NODE>` |
 
 ### Exceptions
 

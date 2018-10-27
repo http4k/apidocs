@@ -75,6 +75,7 @@
 | [org.http4k.security.CsrfGenerator](../org.http4k.security/-csrf-generator.md) |  |
 | [org.http4k.filter.DebuggingFilters](../org.http4k.filter/-debugging-filters/index.md) |  |
 | [org.http4k.filter.DefaultCacheTimings](../org.http4k.filter/-default-cache-timings/index.md) |  |
+| [org.http4k.k8s.DefaultReadinessCheckResultRenderer](../org.http4k.k8s/-default-readiness-check-result-renderer/index.md) |  |
 | [org.http4k.routing.experimental.DirectoryRenderer](../org.http4k.routing.experimental/-directory-renderer.md) |  |
 | [org.http4k.template.dust.Dust](../org.http4k.template.dust/-dust/index.md) |  |
 | [org.http4k.template.DustTemplates](../org.http4k.template/-dust-templates/index.md) |  |
@@ -97,6 +98,7 @@
 | [kotlin.Function1](../org.http4k.servlet/kotlin.-function1/index.md) (extensions in package org.http4k.servlet) |  |
 | [kotlin.Function1](../org.http4k.template/kotlin.-function1/index.md) (extensions in package org.http4k.template) |  |
 | [kotlin.Function1](../org.http4k.testing/kotlin.-function1/index.md) (extensions in package org.http4k.testing) |  |
+| [kotlin.Function1](../org.http4k.k8s/kotlin.-function1/index.md) (extensions in package org.http4k.k8s) |  |
 | [kotlin.Function1](../org.http4k.chaos/kotlin.-function1/index.md) (extensions in package org.http4k.chaos) |  |
 | [org.http4k.filter.GenerateDataClasses](../org.http4k.filter/-generate-data-classes/index.md) | This Filter is used to generate Data class definitions from a Response containing JSON. The Filter will try and reduce the number of class definitions by selecting the definition with the most fields (for cases where lists of items have different fields). |
 | [org.http4k.filter.GenerateXmlDataClasses](../org.http4k.filter/-generate-xml-data-classes/index.md) |  |
@@ -106,8 +108,10 @@
 | [org.http4k.lens.Header](../org.http4k.lens/-header/index.md) |  |
 | [org.http4k.lens.HeaderLens](../org.http4k.lens/-header-lens.md) |  |
 | [org.http4k.core.Headers](../org.http4k.core/-headers.md) |  |
+| [org.http4k.k8s.Health](../org.http4k.k8s/-health/index.md) | Represents the set of operational endpoints called by K8S to ensure that a particular pod is working ok. |
 | [org.http4k.webdriver.Http4KNavigation](../org.http4k.webdriver/-http4-k-navigation/index.md) |  |
 | [org.http4k.server.Http4kChannelHandler](../org.http4k.server/-http4k-channel-handler/index.md) | Exposed to allow for insertion into a customised Netty server instance |
+| [org.http4k.k8s.Http4kK8sServer](../org.http4k.k8s/-http4k-k8s-server/index.md) | A K8S server consists of a main application and a health application, running on 2 different ports. |
 | [org.http4k.server.Http4kRequestHandler](../org.http4k.server/-http4k-request-handler/index.md) | Exposed to allow for insertion into a customised Apache WebServer instance |
 | [org.http4k.server.Http4kServer](../org.http4k.server/-http4k-server/index.md) |  |
 | [org.http4k.webdriver.Http4kWebDriver](../org.http4k.webdriver/-http4k-web-driver/index.md) |  |
@@ -132,6 +136,7 @@
 | [org.http4k.format.JsonErrorResponseRenderer](../org.http4k.format/-json-error-response-renderer/index.md) |  |
 | [org.http4k.format.JsonLibAutoMarshallingJson](../org.http4k.format/-json-lib-auto-marshalling-json/index.md) |  |
 | [com.fasterxml.jackson.databind.JsonNode](../org.http4k.chaos/com.fasterxml.jackson.databind.-json-node/index.md) (extensions in package org.http4k.chaos) |  |
+| [org.http4k.k8s.JsonReadinessCheckResultRenderer](../org.http4k.k8s/-json-readiness-check-result-renderer/index.md) |  |
 | [org.http4k.jsonrpc.JsonRpc](../org.http4k.jsonrpc/-json-rpc/index.md) |  |
 | [org.http4k.jsonrpc.JsonRpcHandler](../org.http4k.jsonrpc/-json-rpc-handler.md) |  |
 | [org.http4k.jsonrpc.JsonRpcMethodBinding](../org.http4k.jsonrpc/-json-rpc-method-binding/index.md) |  |
@@ -196,6 +201,9 @@
 | [org.http4k.lens.QueryLens](../org.http4k.lens/-query-lens.md) |  |
 | [org.http4k.traffic.ReadWriteCache](../org.http4k.traffic/-read-write-cache/index.md) | Combined Read/Write storage models, optimised for retrieval. |
 | [org.http4k.traffic.ReadWriteStream](../org.http4k.traffic/-read-write-stream/index.md) | Combined Read/Write storage models, optimised for replay. |
+| [org.http4k.k8s.ReadinessCheck](../org.http4k.k8s/-readiness-check.md) | A Readiness check is used by K8S to determine if the pod is ready to receive traffic. An example is to test if the app can talk to it's database. |
+| [org.http4k.k8s.ReadinessCheckResult](../org.http4k.k8s/-readiness-check-result/index.md) | The result of a Readiness check. Checks can be combined together with `+()` to provide an overall result. |
+| [org.http4k.k8s.ReadinessCheckResultRenderer](../org.http4k.k8s/-readiness-check-result-renderer/index.md) |  |
 | [org.http4k.traffic.Replay](../org.http4k.traffic/-replay/index.md) | Provides a stream of traffic for replaying purposes. |
 | [org.http4k.core.Request](../org.http4k.core/-request/index.md) |  |
 | [org.http4k.core.RequestContext](../org.http4k.core/-request-context/index.md) |  |

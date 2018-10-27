@@ -2,4 +2,4 @@
 
 # String
 
-`String` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/format/Json.kt#L84)
+`String` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/format/Json.kt#L80)

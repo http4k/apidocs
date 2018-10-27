@@ -16,7 +16,7 @@ Common code relevant to the various message format implementations (eg. JSON).
 | [Gson](-gson.md) | `object Gson : `[`ConfigurableGson`](-configurable-gson/index.md) |
 | [Jackson](-jackson.md) | `object Jackson : `[`ConfigurableJackson`](-configurable-jackson/index.md) |
 | [Json](-json/index.md) | `interface Json<NODE>`<br>This is the contract for all JSON implementations |
-| [JsonErrorResponseRenderer](-json-error-response-renderer/index.md) | `class JsonErrorResponseRenderer<ROOT : `[`NODE`](-json-error-response-renderer/index.md#NODE)`, out NODE>` |
+| [JsonErrorResponseRenderer](-json-error-response-renderer/index.md) | `class JsonErrorResponseRenderer<out NODE>` |
 | [JsonLibAutoMarshallingJson](-json-lib-auto-marshalling-json/index.md) | `abstract class JsonLibAutoMarshallingJson<ROOT : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`AutoMarshallingJson`](-auto-marshalling-json/index.md)`, `[`Json`](-json/index.md)`<`[`ROOT`](-json-lib-auto-marshalling-json/index.md#ROOT)`>` |
 | [JsonType](-json-type/index.md) | `enum class JsonType` |
 | [Moshi](-moshi.md) | `object Moshi : `[`ConfigurableMoshi`](-configurable-moshi/index.md) |

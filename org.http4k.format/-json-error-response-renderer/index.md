@@ -2,7 +2,7 @@
 
 # JsonErrorResponseRenderer
 
-`class JsonErrorResponseRenderer<ROOT : `[`NODE`](index.md#NODE)`, out NODE>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/format/JsonErrorResponseRenderer.kt#L11)
+`class JsonErrorResponseRenderer<out NODE>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/format/JsonErrorResponseRenderer.kt#L11)
 
 ### Constructors
 

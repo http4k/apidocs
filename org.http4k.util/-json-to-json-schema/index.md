@@ -2,7 +2,7 @@
 
 # JsonToJsonSchema
 
-`class JsonToJsonSchema<ROOT : `[`NODE`](index.md#NODE)`, NODE>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/util/JsonSchema.kt#L15)
+`class JsonToJsonSchema<NODE>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/util/JsonSchema.kt#L12)
 
 ### Constructors
 

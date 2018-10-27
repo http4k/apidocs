@@ -37,7 +37,7 @@ Code for defining typesafe contracts which generate OpenAPI documentation.
 | [RouteMeta](-route-meta/index.md) | `data class RouteMeta` |
 | [RouteMetaDsl](-route-meta-dsl/index.md) | `class RouteMetaDsl` |
 | [Security](-security/index.md) | `interface Security`<br>Endpoint security. Provides filter to be applied to endpoints for all requests. |
-| [SimpleJson](-simple-json/index.md) | `class SimpleJson<ROOT : `[`NODE`](-simple-json/index.md#NODE)`, out NODE> : `[`ContractRenderer`](-contract-renderer/index.md) |
+| [SimpleJson](-simple-json/index.md) | `class SimpleJson<out NODE> : `[`ContractRenderer`](-contract-renderer/index.md) |
 | [Slash](-slash/index.md) | `data class Slash : `[`PathSegments`](-path-segments/index.md) |
 | [Tag](-tag/index.md) | `data class Tag` |
 

@@ -2,7 +2,7 @@
 
 # Json
 
-`interface Json<NODE>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/format/Json.kt#L22)
+`interface Json<NODE>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/format/Json.kt#L16)
 
 This is the contract for all JSON implementations
 
@@ -23,6 +23,7 @@ This is the contract for all JSON implementations
 | [compactify](compactify.md) | `open fun compactify(s: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [elements](elements.md) | `abstract fun elements(value: `[`NODE`](index.md#NODE)`): `[`Iterable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html)`<`[`NODE`](index.md#NODE)`>` |
 | [fields](fields.md) | `abstract fun fields(node: `[`NODE`](index.md#NODE)`): `[`Iterable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html)`<`[`Pair`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`NODE`](index.md#NODE)`>>` |
+| [invoke](invoke.md) | `open operator fun <T> invoke(fn: `[`Json`](./index.md)`<`[`NODE`](index.md#NODE)`>.() -> `[`T`](invoke.md#T)`): `[`T`](invoke.md#T) |
 | [json](json.md) | `open fun <IN> `[`BiDiLensSpec`](../../org.http4k.lens/-bi-di-lens-spec/index.md)`<`[`IN`](json.md#IN)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>.json(): `[`BiDiLensSpec`](../../org.http4k.lens/-bi-di-lens-spec/index.md)`<`[`IN`](json.md#IN)`, `[`NODE`](index.md#NODE)`>` |
 | [lens](lens.md) | `open fun <IN> lens(spec: `[`BiDiLensSpec`](../../org.http4k.lens/-bi-di-lens-spec/index.md)`<`[`IN`](lens.md#IN)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>): `[`BiDiLensSpec`](../../org.http4k.lens/-bi-di-lens-spec/index.md)`<`[`IN`](lens.md#IN)`, `[`NODE`](index.md#NODE)`>` |
 | [nullNode](null-node.md) | `open fun nullNode(): `[`NODE`](index.md#NODE) |

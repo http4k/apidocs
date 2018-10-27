@@ -30,6 +30,7 @@ $dokka.location:org.http4k.core$toParametersMap(kotlin.collections.List((kotlin.
 $dokka.location:org.http4k.core$toPathEncoded(kotlin.String)org.http4k.core/kotlin.-string/to-path-encoded.md
 $dokka.location:org.http4k.core$toUrlFormEncoded(kotlin.collections.List((kotlin.Pair((kotlin.String, kotlin.String)))))org.http4k.core/kotlin.collections.-list/to-url-form-encoded.md
 $dokka.location:org.http4k.core.body$toBody(kotlin.collections.List((kotlin.Pair((kotlin.String, kotlin.String)))))org.http4k.core.body/kotlin.collections.-list/to-body.md
+$dokka.location:org.http4k.k8s$asK8sServer(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)), kotlin.Function1((kotlin.Int, org.http4k.server.ServerConfig)), kotlin.Int, kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)), kotlin.Int)org.http4k.k8s/kotlin.-function1/as-k8s-server.md
 $dokka.location:org.http4k.routing$bind(kotlin.String, kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)))org.http4k.routing/kotlin.-string/bind.md
 $dokka.location:org.http4k.routing$bind(kotlin.String, kotlin.Function1((org.http4k.websocket.Websocket, kotlin.Unit)))org.http4k.routing/kotlin.-string/bind.md
 $dokka.location:org.http4k.routing$bind(kotlin.String, org.http4k.core.Method)org.http4k.routing/kotlin.-string/bind.md
@@ -56,6 +57,7 @@ org.http4k.filter.cookie
 org.http4k.format
 org.http4k.hamkrest
 org.http4k.jsonrpc
+org.http4k.k8s
 org.http4k.lens
 org.http4k.routing
 org.http4k.routing.experimental

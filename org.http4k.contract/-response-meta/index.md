@@ -2,7 +2,7 @@
 
 # ResponseMeta
 
-`class ResponseMeta : `[`HttpMessageMeta`](../-http-message-meta/index.md)`<`[`Response`](../../org.http4k.core/-response/index.md)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/routeMeta.kt#L18)
+`class ResponseMeta : `[`HttpMessageMeta`](../-http-message-meta/index.md)`<`[`Response`](../../org.http4k.core/-response/index.md)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/routeMeta.kt#L13)
 
 ### Constructors
 

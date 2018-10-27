@@ -10,6 +10,13 @@
 |---|---|
 | [Common](-common/index.md) | `object Common` |
 
+### Properties
+
+| Name | Summary |
+|---|---|
+| [CONTENT_TYPE](-c-o-n-t-e-n-t_-t-y-p-e.md) | `val CONTENT_TYPE: `[`BiDiLens`](../-bi-di-lens/index.md)`<`[`HttpMessage`](../../org.http4k.core/-http-message/index.md)`, `[`ContentType`](../../org.http4k.core/-content-type/index.md)`?>` |
+| [LOCATION](-l-o-c-a-t-i-o-n.md) | `val LOCATION: `[`BiDiLens`](../-bi-di-lens/index.md)`<`[`HttpMessage`](../../org.http4k.core/-http-message/index.md)`, `[`Uri`](../../org.http4k.core/-uri/index.md)`>` |
+
 ### Inherited Properties
 
 | Name | Summary |

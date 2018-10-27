@@ -2,7 +2,7 @@
 
 # RouteMetaDsl
 
-`class RouteMetaDsl` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/routeMeta.kt#L20)
+`class RouteMetaDsl` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/routeMeta.kt#L15)
 
 ### Properties
 

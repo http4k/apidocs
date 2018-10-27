@@ -144,6 +144,8 @@
 | [org.http4k.util.JsonSchema](../org.http4k.util/-json-schema/index.md) |  |
 | [org.http4k.util.JsonToJsonSchema](../org.http4k.util/-json-to-json-schema/index.md) |  |
 | [org.http4k.format.JsonType](../org.http4k.format/-json-type/index.md) |  |
+| [org.http4k.k8s.K8sEnvKey](../org.http4k.k8s/-k8s-env-key/index.md) |  |
+| [org.http4k.k8s.K8sEnvironment](../org.http4k.k8s/-k8s-environment/index.md) |  |
 | [org.http4k.serverless.lambda.LambdaFunction](../org.http4k.serverless.lambda/-lambda-function/index.md) | This is the main entry point for the lambda. It uses the local environment to instantiate the Http4k handler which can be used for further invocations. |
 | [org.http4k.lens.Lens](../org.http4k.lens/-lens/index.md) | A Lens provides the uni-directional extraction of an entity from a target. |
 | [org.http4k.lens.LensExtractor](../org.http4k.lens/-lens-extractor/index.md) |  |

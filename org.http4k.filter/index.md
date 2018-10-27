@@ -15,7 +15,7 @@ This is the base package for all Filter implementations.
 | [CorsPolicy](-cors-policy/index.md) | `data class CorsPolicy` |
 | [DebuggingFilters](-debugging-filters/index.md) | `object DebuggingFilters` |
 | [DefaultCacheTimings](-default-cache-timings/index.md) | `data class DefaultCacheTimings` |
-| [GenerateDataClasses](-generate-data-classes/index.md) | `class GenerateDataClasses<ROOT : `[`NODE`](-generate-data-classes/index.md#NODE)`, out NODE> : `[`Filter`](../org.http4k.core/-filter/index.md)<br>This Filter is used to generate Data class definitions from a Response containing JSON. The Filter will try and reduce the number of class definitions by selecting the definition with the most fields (for cases where lists of items have different fields). |
+| [GenerateDataClasses](-generate-data-classes/index.md) | `class GenerateDataClasses<out NODE> : `[`Filter`](../org.http4k.core/-filter/index.md)<br>This Filter is used to generate Data class definitions from a Response containing JSON. The Filter will try and reduce the number of class definitions by selecting the definition with the most fields (for cases where lists of items have different fields). |
 | [GenerateXmlDataClasses](-generate-xml-data-classes/index.md) | `class GenerateXmlDataClasses : `[`Filter`](../org.http4k.core/-filter/index.md) |
 | [MaxAgeTtl](-max-age-ttl/index.md) | `data class MaxAgeTtl : `[`CacheControlHeaderPart`](-cache-control-header-part/index.md) |
 | [MetricFilters](-metric-filters/index.md) | `object MetricFilters` |

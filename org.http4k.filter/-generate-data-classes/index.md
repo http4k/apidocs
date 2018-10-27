@@ -2,7 +2,7 @@
 
 # GenerateDataClasses
 
-`class GenerateDataClasses<ROOT : `[`NODE`](index.md#NODE)`, out NODE> : `[`Filter`](../../org.http4k.core/-filter/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/GenerateDataClasses.kt#L18)
+`class GenerateDataClasses<out NODE> : `[`Filter`](../../org.http4k.core/-filter/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/GenerateDataClasses.kt#L18)
 
 This Filter is used to generate Data class definitions from a Response containing JSON. The Filter will try and reduce
 the number of class definitions by selecting the definition with the most fields (for cases where lists of items

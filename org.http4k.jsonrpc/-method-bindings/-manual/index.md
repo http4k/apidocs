@@ -22,4 +22,4 @@
 
 | Name | Summary |
 |---|---|
-| [Auto](../-auto/index.md) | `class Auto<ROOT : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`Manual`](./index.md)`<`[`ROOT`](../-auto/index.md#ROOT)`>` |
+| [Auto](../-auto/index.md) | `class Auto<NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`Manual`](./index.md)`<`[`NODE`](../-auto/index.md#NODE)`>` |

@@ -31,8 +31,8 @@
 
 | Name | Summary |
 |---|---|
-| [asA](../-json-lib-auto-marshalling-json/as-a.md) | `fun <T : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> `[`ROOT`](../-json-lib-auto-marshalling-json/index.md#ROOT)`.asA(c: `[`KClass`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.reflect/-k-class/index.html)`<`[`T`](../-json-lib-auto-marshalling-json/as-a.md#T)`>): `[`T`](../-json-lib-auto-marshalling-json/as-a.md#T) |
-| [asJsonObject](../-json-lib-auto-marshalling-json/as-json-object.md) | `fun `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`.asJsonObject(): `[`ROOT`](../-json-lib-auto-marshalling-json/index.md#ROOT) |
+| [asA](../-json-lib-auto-marshalling-json/as-a.md) | `fun <T : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> `[`NODE`](../-json-lib-auto-marshalling-json/index.md#NODE)`.asA(c: `[`KClass`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.reflect/-k-class/index.html)`<`[`T`](../-json-lib-auto-marshalling-json/as-a.md#T)`>): `[`T`](../-json-lib-auto-marshalling-json/as-a.md#T) |
+| [asJsonObject](../-json-lib-auto-marshalling-json/as-json-object.md) | `fun `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`.asJsonObject(): `[`NODE`](../-json-lib-auto-marshalling-json/index.md#NODE) |
 | [asJsonString](../-json-lib-auto-marshalling-json/as-json-string.md) | `open fun asJsonString(a: `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 
 ### Companion Object Functions

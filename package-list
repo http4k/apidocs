@@ -17,6 +17,8 @@ $dokka.location:org.http4k.chaos$not(kotlin.Function1((org.http4k.core.Request, 
 $dokka.location:org.http4k.chaos$or(kotlin.Function1((org.http4k.core.Request, kotlin.Boolean)), kotlin.Function1((org.http4k.core.Request, kotlin.Boolean)))org.http4k.chaos/kotlin.-function1/or.md
 $dokka.location:org.http4k.chaos$withChaosControls(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)), org.http4k.chaos.Stage, org.http4k.contract.Security, kotlin.String, kotlin.String, org.http4k.filter.CorsPolicy)org.http4k.chaos/kotlin.-function1/with-chaos-controls.md
 $dokka.location:org.http4k.client$withAsyncApi(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)))org.http4k.client/kotlin.-function1/with-async-api.md
+$dokka.location:org.http4k.cloudnative$asK8sServer(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)), kotlin.Function1((kotlin.Int, org.http4k.server.ServerConfig)), kotlin.Int, kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)), kotlin.Int)org.http4k.cloudnative/kotlin.-function1/as-k8s-server.md
+$dokka.location:org.http4k.cloudnative$asK8sServer(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)), kotlin.Function1((kotlin.Int, org.http4k.server.ServerConfig)), org.http4k.cloudnative.Environment, kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)))org.http4k.cloudnative/kotlin.-function1/as-k8s-server.md
 $dokka.location:org.http4k.contract$bind(kotlin.String, org.http4k.contract.ContractRoutingHttpHandler)org.http4k.contract/kotlin.-string/bind.md
 $dokka.location:org.http4k.contract$bindContract(kotlin.String, org.http4k.core.Method)org.http4k.contract/kotlin.-string/bind-contract.md
 $dokka.location:org.http4k.contract$div(kotlin.String, org.http4k.lens.PathLens((org.http4k.contract.div.A)))org.http4k.contract/kotlin.-string/div.md
@@ -30,8 +32,6 @@ $dokka.location:org.http4k.core$toParametersMap(kotlin.collections.List((kotlin.
 $dokka.location:org.http4k.core$toPathEncoded(kotlin.String)org.http4k.core/kotlin.-string/to-path-encoded.md
 $dokka.location:org.http4k.core$toUrlFormEncoded(kotlin.collections.List((kotlin.Pair((kotlin.String, kotlin.String)))))org.http4k.core/kotlin.collections.-list/to-url-form-encoded.md
 $dokka.location:org.http4k.core.body$toBody(kotlin.collections.List((kotlin.Pair((kotlin.String, kotlin.String)))))org.http4k.core.body/kotlin.collections.-list/to-body.md
-$dokka.location:org.http4k.k8s$asK8sServer(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)), kotlin.Function1((kotlin.Int, org.http4k.server.ServerConfig)), kotlin.Int, kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)), kotlin.Int)org.http4k.k8s/kotlin.-function1/as-k8s-server.md
-$dokka.location:org.http4k.k8s$asK8sServer(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)), kotlin.Function1((kotlin.Int, org.http4k.server.ServerConfig)), org.http4k.k8s.K8sEnvironment, kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)))org.http4k.k8s/kotlin.-function1/as-k8s-server.md
 $dokka.location:org.http4k.routing$bind(kotlin.String, kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)))org.http4k.routing/kotlin.-string/bind.md
 $dokka.location:org.http4k.routing$bind(kotlin.String, kotlin.Function1((org.http4k.websocket.Websocket, kotlin.Unit)))org.http4k.routing/kotlin.-string/bind.md
 $dokka.location:org.http4k.routing$bind(kotlin.String, org.http4k.core.Method)org.http4k.routing/kotlin.-string/bind.md
@@ -48,6 +48,7 @@ org.http4k
 org.http4k.aws
 org.http4k.chaos
 org.http4k.client
+org.http4k.cloudnative
 org.http4k.contract
 org.http4k.core
 org.http4k.core.body
@@ -58,7 +59,6 @@ org.http4k.filter.cookie
 org.http4k.format
 org.http4k.hamkrest
 org.http4k.jsonrpc
-org.http4k.k8s
 org.http4k.lens
 org.http4k.routing
 org.http4k.routing.experimental

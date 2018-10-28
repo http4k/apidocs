@@ -8,6 +8,7 @@
 | [org.http4k.aws](org.http4k.aws/index.md) | Code for connecting http4k applications to AWS services, including request signing. |
 | [org.http4k.chaos](org.http4k.chaos/index.md) |  |
 | [org.http4k.client](org.http4k.client/index.md) | Common code relevant to HTTP client implementations. |
+| [org.http4k.cloudnative](org.http4k.cloudnative/index.md) |  |
 | [org.http4k.contract](org.http4k.contract/index.md) | Code for defining typesafe contracts which generate OpenAPI documentation. |
 | [org.http4k.core](org.http4k.core/index.md) | The core abstractions for the http4k library. |
 | [org.http4k.core.body](org.http4k.core.body/index.md) |  |
@@ -18,7 +19,6 @@
 | [org.http4k.format](org.http4k.format/index.md) | Common code relevant to the various message format implementations (eg. JSON). |
 | [org.http4k.hamkrest](org.http4k.hamkrest/index.md) | Matchers for use with the hamkrest matching library. |
 | [org.http4k.jsonrpc](org.http4k.jsonrpc/index.md) |  |
-| [org.http4k.k8s](org.http4k.k8s/index.md) |  |
 | [org.http4k.lens](org.http4k.lens/index.md) | Code relevant to extracting and injecting typesafe values into HTTP messages. |
 | [org.http4k.routing](org.http4k.routing/index.md) | Code for routing HTTP messages inside server implementations. |
 | [org.http4k.routing.experimental](org.http4k.routing.experimental/index.md) |  |

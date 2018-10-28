@@ -12,6 +12,7 @@
 | [JavaHttpClient](../org.http4k.client/-java-http-client/index.md) | `class JavaHttpClient : `[`HttpHandler`](./-http-handler.md) |
 | [JettyClient](../org.http4k.client/-jetty-client/index.md) | `class JettyClient : `[`HttpHandler`](./-http-handler.md)`, `[`AsyncHttpClient`](../org.http4k.client/-async-http-client/index.md) |
 | [JsonRpcService](../org.http4k.jsonrpc/-json-rpc-service/index.md) | `data class JsonRpcService<NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`HttpHandler`](./-http-handler.md) |
+| [Liveness](../org.http4k.cloudnative.health/-liveness.md) | `object Liveness : `[`HttpHandler`](./-http-handler.md)<br>The Liveness check is used to determine if an app is alive. |
 | [OAuthCallback](../org.http4k.security/-o-auth-callback/index.md) | `class OAuthCallback : `[`HttpHandler`](./-http-handler.md) |
 | [OkHttp](../org.http4k.client/-ok-http/index.md) | `class OkHttp : `[`HttpHandler`](./-http-handler.md)`, `[`AsyncHttpClient`](../org.http4k.client/-async-http-client/index.md) |
 | [Resource](../org.http4k.routing.experimental/-resource/index.md) | `interface Resource : `[`HttpHandler`](./-http-handler.md) |

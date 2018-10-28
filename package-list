@@ -18,7 +18,7 @@ $dokka.location:org.http4k.chaos$or(kotlin.Function1((org.http4k.core.Request, k
 $dokka.location:org.http4k.chaos$withChaosControls(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)), org.http4k.chaos.Stage, org.http4k.contract.Security, kotlin.String, kotlin.String, org.http4k.filter.CorsPolicy)org.http4k.chaos/kotlin.-function1/with-chaos-controls.md
 $dokka.location:org.http4k.client$withAsyncApi(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)))org.http4k.client/kotlin.-function1/with-async-api.md
 $dokka.location:org.http4k.cloudnative$asK8sServer(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)), kotlin.Function1((kotlin.Int, org.http4k.server.ServerConfig)), kotlin.Int, kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)), kotlin.Int)org.http4k.cloudnative/kotlin.-function1/as-k8s-server.md
-$dokka.location:org.http4k.cloudnative$asK8sServer(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)), kotlin.Function1((kotlin.Int, org.http4k.server.ServerConfig)), org.http4k.cloudnative.Environment, kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)))org.http4k.cloudnative/kotlin.-function1/as-k8s-server.md
+$dokka.location:org.http4k.cloudnative$asK8sServer(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)), kotlin.Function1((kotlin.Int, org.http4k.server.ServerConfig)), org.http4k.cloudnative.env.Environment, kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)))org.http4k.cloudnative/kotlin.-function1/as-k8s-server.md
 $dokka.location:org.http4k.contract$bind(kotlin.String, org.http4k.contract.ContractRoutingHttpHandler)org.http4k.contract/kotlin.-string/bind.md
 $dokka.location:org.http4k.contract$bindContract(kotlin.String, org.http4k.core.Method)org.http4k.contract/kotlin.-string/bind-contract.md
 $dokka.location:org.http4k.contract$div(kotlin.String, org.http4k.lens.PathLens((org.http4k.contract.div.A)))org.http4k.contract/kotlin.-string/div.md
@@ -49,6 +49,8 @@ org.http4k.aws
 org.http4k.chaos
 org.http4k.client
 org.http4k.cloudnative
+org.http4k.cloudnative.env
+org.http4k.cloudnative.health
 org.http4k.contract
 org.http4k.core
 org.http4k.core.body

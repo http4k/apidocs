@@ -2,7 +2,7 @@
 
 # Http4kK8sServer
 
-`class Http4kK8sServer : `[`Http4kServer`](../../org.http4k.server/-http4k-server/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/Http4kK8sServer.kt#L14)
+`class Http4kK8sServer : `[`Http4kServer`](../../org.http4k.server/-http4k-server/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/Http4kK8sServer.kt#L16)
 
 A K8S server consists of a main application and a health application, running on 2 different ports.
 

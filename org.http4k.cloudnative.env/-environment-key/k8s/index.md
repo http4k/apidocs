@@ -2,7 +2,7 @@
 
 # k8s
 
-`object k8s` [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/env/Environment.kt#L36)
+`object k8s` [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/env/Environment.kt#L34)
 
 ### Properties
 
@@ -15,4 +15,4 @@
 
 | Name | Summary |
 |---|---|
-| [serviceUriFor](service-uri-for.md) | `fun serviceUriFor(serviceName: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, https: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)` = false): `[`Lens`](../../../org.http4k.lens/-lens/index.md)`<`[`Environment`](../../-environment/index.md)`, `[`Uri`](../../../org.http4k.core/-uri/index.md)`>` |
+| [baseServiceUriFor](base-service-uri-for.md) | `fun baseServiceUriFor(serviceName: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, https: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)` = false): `[`Lens`](../../../org.http4k.lens/-lens/index.md)`<`[`Environment`](../../-environment/index.md)`, `[`Uri`](../../../org.http4k.core/-uri/index.md)`>` |

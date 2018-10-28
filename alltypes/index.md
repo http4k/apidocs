@@ -45,6 +45,8 @@
 | [org.http4k.chaos.ChaosTriggers](../org.http4k.chaos/-chaos-triggers/index.md) |  |
 | [org.http4k.filter.ClientFilters](../org.http4k.filter/-client-filters/index.md) |  |
 | [org.http4k.testing.ClosedWebsocket](../org.http4k.testing/-closed-websocket/index.md) |  |
+| [org.http4k.cloudnative.Completed](../org.http4k.cloudnative/-completed/index.md) | The check completed successfully |
+| [org.http4k.cloudnative.Composite](../org.http4k.cloudnative/-composite/index.md) | Result of multiple checks which calculates the overall result |
 | [org.http4k.format.ConfigurableGson](../org.http4k.format/-configurable-gson/index.md) |  |
 | [org.http4k.format.ConfigurableJackson](../org.http4k.format/-configurable-jackson/index.md) |  |
 | [org.http4k.format.ConfigurableMoshi](../org.http4k.format/-configurable-moshi/index.md) |  |
@@ -88,6 +90,7 @@
 | [org.http4k.core.Event](../org.http4k.core/-event/index.md) |  |
 | [org.http4k.core.EventCategory](../org.http4k.core/-event-category/index.md) |  |
 | [org.http4k.core.Events](../org.http4k.core/-events.md) |  |
+| [org.http4k.cloudnative.Failed](../org.http4k.cloudnative/-failed/index.md) | The check failed |
 | [org.http4k.lens.Failure](../org.http4k.lens/-failure/index.md) |  |
 | [org.http4k.webdriver.FeatureNotImplementedYet](../org.http4k.webdriver/-feature-not-implemented-yet.md) |  |
 | [org.http4k.core.etag.FieldValue](../org.http4k.core.etag/-field-value/index.md) |  |
@@ -203,7 +206,7 @@
 | [org.http4k.lens.QueryLens](../org.http4k.lens/-query-lens.md) |  |
 | [org.http4k.traffic.ReadWriteCache](../org.http4k.traffic/-read-write-cache/index.md) | Combined Read/Write storage models, optimised for retrieval. |
 | [org.http4k.traffic.ReadWriteStream](../org.http4k.traffic/-read-write-stream/index.md) | Combined Read/Write storage models, optimised for replay. |
-| [org.http4k.cloudnative.ReadinessCheck](../org.http4k.cloudnative/-readiness-check.md) | A Readiness check is used by K8S to determine if the pod is ready to receive traffic. An example is to test if the app can talk to it's database. |
+| [org.http4k.cloudnative.ReadinessCheck](../org.http4k.cloudnative/-readiness-check/index.md) | A Readiness check is used to determine if the pod is ready to receive traffic. An example is to test if the app can talk to it's database. |
 | [org.http4k.cloudnative.ReadinessCheckResult](../org.http4k.cloudnative/-readiness-check-result/index.md) | The result of a Readiness check. Checks can be combined together with `+()` to provide an overall result. |
 | [org.http4k.cloudnative.ReadinessCheckResultRenderer](../org.http4k.cloudnative/-readiness-check-result-renderer/index.md) |  |
 | [org.http4k.traffic.Replay](../org.http4k.traffic/-replay/index.md) | Provides a stream of traffic for replaying purposes. |

@@ -8,12 +8,13 @@ Common code relevant to HTTP client implementations.
 
 | Name | Summary |
 |---|---|
-| [ApacheAsyncClient](-apache-async-client/index.md) | `class ApacheAsyncClient : `[`AsyncHttpClient`](-async-http-client/index.md) |
-| [ApacheClient](-apache-client/index.md) | `class ApacheClient : `[`HttpHandler`](../org.http4k.core/-http-handler.md) |
+| [ApacheAsyncClient](-apache-async-client/index.md) | `object ApacheAsyncClient` |
+| [ApacheClient](-apache-client/index.md) | `object ApacheClient` |
 | [AsyncHttpClient](-async-http-client/index.md) | `interface AsyncHttpClient : `[`Closeable`](http://docs.oracle.com/javase/6/docs/api/java/io/Closeable.html) |
-| [JavaHttpClient](-java-http-client/index.md) | `class JavaHttpClient : `[`HttpHandler`](../org.http4k.core/-http-handler.md) |
-| [JettyClient](-jetty-client/index.md) | `class JettyClient : `[`HttpHandler`](../org.http4k.core/-http-handler.md)`, `[`AsyncHttpClient`](-async-http-client/index.md) |
-| [OkHttp](-ok-http/index.md) | `class OkHttp : `[`HttpHandler`](../org.http4k.core/-http-handler.md)`, `[`AsyncHttpClient`](-async-http-client/index.md) |
+| [DualSyncAsyncHttpHandler](-dual-sync-async-http-handler.md) | `interface DualSyncAsyncHttpHandler : `[`HttpHandler`](../org.http4k.core/-http-handler.md)`, `[`AsyncHttpClient`](-async-http-client/index.md) |
+| [JavaHttpClient](-java-http-client/index.md) | `object JavaHttpClient` |
+| [JettyClient](-jetty-client/index.md) | `object JettyClient` |
+| [OkHttp](-ok-http/index.md) | `object OkHttp` |
 | [WebsocketClient](-websocket-client/index.md) | `object WebsocketClient` |
 
 ### Extensions for External Classes

@@ -15,6 +15,4 @@
 
 | Name | Summary |
 |---|---|
-| [ApacheAsyncClient](../-apache-async-client/index.md) | `class ApacheAsyncClient : `[`AsyncHttpClient`](./index.md) |
-| [JettyClient](../-jetty-client/index.md) | `class JettyClient : `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`, `[`AsyncHttpClient`](./index.md) |
-| [OkHttp](../-ok-http/index.md) | `class OkHttp : `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`, `[`AsyncHttpClient`](./index.md) |
+| [DualSyncAsyncHttpHandler](../-dual-sync-async-http-handler.md) | `interface DualSyncAsyncHttpHandler : `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`, `[`AsyncHttpClient`](./index.md) |

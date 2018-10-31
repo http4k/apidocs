@@ -79,6 +79,7 @@
 | [org.http4k.filter.DefaultCacheTimings](../org.http4k.filter/-default-cache-timings/index.md) |  |
 | [org.http4k.cloudnative.health.DefaultReadinessCheckResultRenderer](../org.http4k.cloudnative.health/-default-readiness-check-result-renderer/index.md) |  |
 | [org.http4k.routing.experimental.DirectoryRenderer](../org.http4k.routing.experimental/-directory-renderer.md) |  |
+| [org.http4k.client.DualSyncAsyncHttpHandler](../org.http4k.client/-dual-sync-async-http-handler.md) |  |
 | [org.http4k.template.dust.Dust](../org.http4k.template.dust/-dust/index.md) |  |
 | [org.http4k.template.DustTemplates](../org.http4k.template/-dust-templates/index.md) |  |
 | [org.http4k.core.etag.ETag](../org.http4k.core.etag/-e-tag/index.md) |  |

@@ -2,4 +2,4 @@
 
 # invoke
 
-`operator fun <T> invoke(fn: `[`k8s`](index.md)`.() -> `[`T`](invoke.md#T)`): `[`T`](invoke.md#T) [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/env/Environment.kt#L45)
+`operator fun <T> invoke(fn: `[`k8s`](index.md)`.() -> `[`T`](invoke.md#T)`): `[`T`](invoke.md#T) [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/env/Environment.kt#L51)

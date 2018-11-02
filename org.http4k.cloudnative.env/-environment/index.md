@@ -2,7 +2,7 @@
 
 # Environment
 
-`data class Environment` [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/env/Environment.kt#L9)
+`data class Environment` [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/env/Environment.kt#L12)
 
 This models the runtime environment of the shell where the app is running
 
@@ -17,11 +17,15 @@ This models the runtime environment of the shell where the app is running
 | Name | Summary |
 |---|---|
 | [EMPTY](-e-m-p-t-y.md) | `val EMPTY: `[`Environment`](./index.md) |
-| [ENV](-e-n-v.md) | `val ENV: `[`Environment`](./index.md)<br>Use this inside K8s |
+| [ENV](-e-n-v.md) | `val ENV: `[`Environment`](./index.md) |
 | [JVM_PROPERTIES](-j-v-m_-p-r-o-p-e-r-t-i-e-s.md) | `val JVM_PROPERTIES: `[`Environment`](./index.md) |
+| [SYSTEM](-s-y-s-t-e-m.md) | `val SYSTEM: `[`Environment`](./index.md) |
 
 ### Companion Object Functions
 
 | Name | Summary |
 |---|---|
+| [defaults](defaults.md) | `fun defaults(vararg fn: (`[`Environment`](./index.md)`) -> `[`Environment`](./index.md)`): `[`Environment`](./index.md) |
 | [from](from.md) | `fun from(vararg pairs: `[`Pair`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>): `[`Environment`](./index.md) |
+| [fromFile](from-file.md) | `fun fromFile(file: `[`File`](http://docs.oracle.com/javase/6/docs/api/java/io/File.html)`): `[`Environment`](./index.md) |
+| [fromResource](from-resource.md) | `fun fromResource(resource: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Environment`](./index.md) |

@@ -2,7 +2,7 @@
 
 # ReportHttpTransaction
 
-`object ReportHttpTransaction` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ResponseFilters.kt#L31)
+`object ReportHttpTransaction` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ResponseFilters.kt#L29)
 
 General reporting Filter for an ReportHttpTransaction. Pass an optional HttpTransactionLabeller to
 create custom labels.

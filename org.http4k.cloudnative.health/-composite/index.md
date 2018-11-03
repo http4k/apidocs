@@ -2,15 +2,15 @@
 
 # Composite
 
-`data class Composite : `[`ReadinessCheckResult`](../-readiness-check-result/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/health/ReadinessCheckResult.kt#L34)
+`data class Composite : `[`ReadinessCheckResult`](../-readiness-check-result/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/health/ReadinessCheckResult.kt#L28)
 
-Result of multiple checks which calculates the overall result
+Result of multiple checks, for which it reports an overall result (ie. any failure is fatal).
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `Composite(parts: `[`Iterable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html)`<`[`ReadinessCheckResult`](../-readiness-check-result/index.md)`> = emptyList())`<br>Result of multiple checks which calculates the overall result |
+| [&lt;init&gt;](-init-.md) | `Composite(parts: `[`Iterable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html)`<`[`ReadinessCheckResult`](../-readiness-check-result/index.md)`> = emptyList())`<br>Result of multiple checks, for which it reports an overall result (ie. any failure is fatal). |
 
 ### Properties
 

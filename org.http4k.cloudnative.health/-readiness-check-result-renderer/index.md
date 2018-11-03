@@ -4,7 +4,7 @@
 
 `interface ReadinessCheckResultRenderer : (`[`ReadinessCheckResult`](../-readiness-check-result/index.md)`) -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/health/ReadinessCheckResultRenderer.kt#L10)
 
-Renders the results of a readiness check into
+Renders the results of a readiness check
 
 ### Properties
 
@@ -16,4 +16,4 @@ Renders the results of a readiness check into
 
 | Name | Summary |
 |---|---|
-| [DefaultReadinessCheckResultRenderer](../-default-readiness-check-result-renderer/index.md) | `object DefaultReadinessCheckResultRenderer : `[`ReadinessCheckResultRenderer`](./index.md) |
+| [DefaultReadinessCheckResultRenderer](../-default-readiness-check-result-renderer/index.md) | `object DefaultReadinessCheckResultRenderer : `[`ReadinessCheckResultRenderer`](./index.md)<br>Basic reporting of ReadinessCheckResults |

@@ -3,6 +3,3 @@
 # &lt;init&gt;
 
 `Completed(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`)`
-
-The check completed successfully
-

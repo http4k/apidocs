@@ -45,8 +45,8 @@
 | [org.http4k.chaos.ChaosTriggers](../org.http4k.chaos/-chaos-triggers/index.md) |  |
 | [org.http4k.filter.ClientFilters](../org.http4k.filter/-client-filters/index.md) |  |
 | [org.http4k.testing.ClosedWebsocket](../org.http4k.testing/-closed-websocket/index.md) |  |
-| [org.http4k.cloudnative.health.Completed](../org.http4k.cloudnative.health/-completed/index.md) | The check completed successfully |
-| [org.http4k.cloudnative.health.Composite](../org.http4k.cloudnative.health/-composite/index.md) | Result of multiple checks which calculates the overall result |
+| [org.http4k.cloudnative.health.Completed](../org.http4k.cloudnative.health/-completed/index.md) |  |
+| [org.http4k.cloudnative.health.Composite](../org.http4k.cloudnative.health/-composite/index.md) | Result of multiple checks, for which it reports an overall result (ie. any failure is fatal). |
 | [org.http4k.format.ConfigurableGson](../org.http4k.format/-configurable-gson/index.md) |  |
 | [org.http4k.format.ConfigurableJackson](../org.http4k.format/-configurable-jackson/index.md) |  |
 | [org.http4k.format.ConfigurableMoshi](../org.http4k.format/-configurable-moshi/index.md) |  |
@@ -77,7 +77,7 @@
 | [org.http4k.security.CsrfGenerator](../org.http4k.security/-csrf-generator.md) |  |
 | [org.http4k.filter.DebuggingFilters](../org.http4k.filter/-debugging-filters/index.md) |  |
 | [org.http4k.filter.DefaultCacheTimings](../org.http4k.filter/-default-cache-timings/index.md) |  |
-| [org.http4k.cloudnative.health.DefaultReadinessCheckResultRenderer](../org.http4k.cloudnative.health/-default-readiness-check-result-renderer/index.md) |  |
+| [org.http4k.cloudnative.health.DefaultReadinessCheckResultRenderer](../org.http4k.cloudnative.health/-default-readiness-check-result-renderer/index.md) | Basic reporting of ReadinessCheckResults |
 | [org.http4k.routing.experimental.DirectoryRenderer](../org.http4k.routing.experimental/-directory-renderer.md) |  |
 | [org.http4k.client.DualSyncAsyncHttpHandler](../org.http4k.client/-dual-sync-async-http-handler.md) |  |
 | [org.http4k.template.dust.Dust](../org.http4k.template.dust/-dust/index.md) |  |
@@ -91,7 +91,7 @@
 | [org.http4k.core.Event](../org.http4k.core/-event/index.md) |  |
 | [org.http4k.core.EventCategory](../org.http4k.core/-event-category/index.md) |  |
 | [org.http4k.core.Events](../org.http4k.core/-events.md) |  |
-| [org.http4k.cloudnative.health.Failed](../org.http4k.cloudnative.health/-failed/index.md) | The check failed |
+| [org.http4k.cloudnative.health.Failed](../org.http4k.cloudnative.health/-failed/index.md) |  |
 | [org.http4k.lens.Failure](../org.http4k.lens/-failure/index.md) |  |
 | [org.http4k.webdriver.FeatureNotImplementedYet](../org.http4k.webdriver/-feature-not-implemented-yet.md) |  |
 | [org.http4k.core.etag.FieldValue](../org.http4k.core.etag/-field-value/index.md) |  |
@@ -114,10 +114,10 @@
 | [org.http4k.lens.Header](../org.http4k.lens/-header/index.md) |  |
 | [org.http4k.lens.HeaderLens](../org.http4k.lens/-header-lens.md) |  |
 | [org.http4k.core.Headers](../org.http4k.core/-headers.md) |  |
-| [org.http4k.cloudnative.health.Health](../org.http4k.cloudnative.health/-health/index.md) | Represents the set of operational endpoints to ensure that a particular pod is working ok. |
+| [org.http4k.cloudnative.health.Health](../org.http4k.cloudnative.health/-health/index.md) | Represents the set of operational endpoints to ensure that a particular app is working ok. By default provides Readiness and Liveness endpoints, but extra routes can be passed, as can a different renderer implementation for the ReadinessCheck results. |
 | [org.http4k.webdriver.Http4KNavigation](../org.http4k.webdriver/-http4-k-navigation/index.md) |  |
 | [org.http4k.server.Http4kChannelHandler](../org.http4k.server/-http4k-channel-handler/index.md) | Exposed to allow for insertion into a customised Netty server instance |
-| [org.http4k.cloudnative.Http4kK8sServer](../org.http4k.cloudnative/-http4k-k8s-server/index.md) | A K8S server consists of a main application and a health application, running on 2 different ports. |
+| [org.http4k.cloudnative.Http4kK8sServer](../org.http4k.cloudnative/-http4k-k8s-server/index.md) | A K8S server consists of a main application and a health application, running on 2 different ports. This class provides unified start/stop control. |
 | [org.http4k.server.Http4kRequestHandler](../org.http4k.server/-http4k-request-handler/index.md) | Exposed to allow for insertion into a customised Apache WebServer instance |
 | [org.http4k.server.Http4kServer](../org.http4k.server/-http4k-server/index.md) |  |
 | [org.http4k.webdriver.Http4kWebDriver](../org.http4k.webdriver/-http4k-web-driver/index.md) |  |
@@ -142,7 +142,7 @@
 | [org.http4k.format.JsonErrorResponseRenderer](../org.http4k.format/-json-error-response-renderer/index.md) |  |
 | [org.http4k.format.JsonLibAutoMarshallingJson](../org.http4k.format/-json-lib-auto-marshalling-json/index.md) |  |
 | [com.fasterxml.jackson.databind.JsonNode](../org.http4k.chaos/com.fasterxml.jackson.databind.-json-node/index.md) (extensions in package org.http4k.chaos) |  |
-| [org.http4k.cloudnative.health.JsonReadinessCheckResultRenderer](../org.http4k.cloudnative.health/-json-readiness-check-result-renderer/index.md) |  |
+| [org.http4k.cloudnative.health.JsonReadinessCheckResultRenderer](../org.http4k.cloudnative.health/-json-readiness-check-result-renderer/index.md) | Reporting of ReadinessCheckResults in a JSON tree |
 | [org.http4k.jsonrpc.JsonRpc](../org.http4k.jsonrpc/-json-rpc/index.md) |  |
 | [org.http4k.jsonrpc.JsonRpcHandler](../org.http4k.jsonrpc/-json-rpc-handler.md) |  |
 | [org.http4k.jsonrpc.JsonRpcMethodBinding](../org.http4k.jsonrpc/-json-rpc-method-binding/index.md) |  |
@@ -211,7 +211,7 @@
 | [org.http4k.cloudnative.health.Readiness](../org.http4k.cloudnative.health/-readiness/index.md) | The Readiness check is used to determine if an app is prepared to receive live traffic. |
 | [org.http4k.cloudnative.health.ReadinessCheck](../org.http4k.cloudnative.health/-readiness-check/index.md) | A Readiness check is used to determine if the pod is ready to receive traffic. An example is to test if the app can talk to it's database. |
 | [org.http4k.cloudnative.health.ReadinessCheckResult](../org.http4k.cloudnative.health/-readiness-check-result/index.md) | The result of a Readiness check. Checks can be combined together with `+()` to provide an overall result. |
-| [org.http4k.cloudnative.health.ReadinessCheckResultRenderer](../org.http4k.cloudnative.health/-readiness-check-result-renderer/index.md) | Renders the results of a readiness check into |
+| [org.http4k.cloudnative.health.ReadinessCheckResultRenderer](../org.http4k.cloudnative.health/-readiness-check-result-renderer/index.md) | Renders the results of a readiness check |
 | [org.http4k.traffic.Replay](../org.http4k.traffic/-replay/index.md) | Provides a stream of traffic for replaying purposes. |
 | [org.http4k.core.Request](../org.http4k.core/-request/index.md) |  |
 | [org.http4k.core.RequestContext](../org.http4k.core/-request-context/index.md) |  |

@@ -2,15 +2,16 @@
 
 # Http4kK8sServer
 
-`class Http4kK8sServer : `[`Http4kServer`](../../org.http4k.server/-http4k-server/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/Http4kK8sServer.kt#L16)
+`class Http4kK8sServer : `[`Http4kServer`](../../org.http4k.server/-http4k-server/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/Http4kK8sServer.kt#L17)
 
 A K8S server consists of a main application and a health application, running on 2 different ports.
+This class provides unified start/stop control.
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `Http4kK8sServer(main: `[`Http4kServer`](../../org.http4k.server/-http4k-server/index.md)`, health: `[`Http4kServer`](../../org.http4k.server/-http4k-server/index.md)`)`<br>A K8S server consists of a main application and a health application, running on 2 different ports. |
+| [&lt;init&gt;](-init-.md) | `Http4kK8sServer(main: `[`Http4kServer`](../../org.http4k.server/-http4k-server/index.md)`, health: `[`Http4kServer`](../../org.http4k.server/-http4k-server/index.md)`)`<br>A K8S server consists of a main application and a health application, running on 2 different ports. This class provides unified start/stop control. |
 
 ### Functions
 

@@ -4,5 +4,5 @@
 
 `Composite(parts: `[`Iterable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html)`<`[`ReadinessCheckResult`](../-readiness-check-result/index.md)`> = emptyList())`
 
-Result of multiple checks which calculates the overall result
+Result of multiple checks, for which it reports an overall result (ie. any failure is fatal).
 

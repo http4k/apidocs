@@ -2,7 +2,9 @@
 
 # JsonReadinessCheckResultRenderer
 
-`object JsonReadinessCheckResultRenderer` [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/health/ReadinessCheckResultRenderer.kt#L26)
+`object JsonReadinessCheckResultRenderer` [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/health/ReadinessCheckResultRenderer.kt#L32)
+
+Reporting of ReadinessCheckResults in a JSON tree
 
 ### Functions
 

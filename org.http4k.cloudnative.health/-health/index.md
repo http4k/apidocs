@@ -2,9 +2,11 @@
 
 # Health
 
-`object Health` [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/health/Health.kt#L17)
+`object Health` [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/health/Health.kt#L19)
 
-Represents the set of operational endpoints to ensure that a particular pod is working ok.
+Represents the set of operational endpoints to ensure that a particular app is working ok.
+By default provides Readiness and Liveness endpoints, but extra routes can be passed, as
+can a different renderer implementation for the ReadinessCheck results.
 
 ### Functions
 

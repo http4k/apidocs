@@ -29,6 +29,6 @@ The result of a Readiness check. Checks can be combined together with `+()` to p
 
 | Name | Summary |
 |---|---|
-| [Completed](../-completed/index.md) | `data class Completed : `[`ReadinessCheckResult`](./index.md)<br>The check completed successfully |
-| [Composite](../-composite/index.md) | `data class Composite : `[`ReadinessCheckResult`](./index.md)<br>Result of multiple checks which calculates the overall result |
-| [Failed](../-failed/index.md) | `data class Failed : `[`ReadinessCheckResult`](./index.md)<br>The check failed |
+| [Completed](../-completed/index.md) | `data class Completed : `[`ReadinessCheckResult`](./index.md) |
+| [Composite](../-composite/index.md) | `data class Composite : `[`ReadinessCheckResult`](./index.md)<br>Result of multiple checks, for which it reports an overall result (ie. any failure is fatal). |
+| [Failed](../-failed/index.md) | `data class Failed : `[`ReadinessCheckResult`](./index.md) |

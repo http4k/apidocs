@@ -10,7 +10,7 @@ This models the runtime environment of the shell where the app is running
 
 | Name | Summary |
 |---|---|
-| [overrides](overrides.md) | `infix fun overrides(that: `[`Environment`](./index.md)`): `[`Environment`](./index.md) |
+| [overrides](overrides.md) | `infix fun overrides(that: `[`Environment`](./index.md)`): `[`Environment`](./index.md)<br>Overlays the configuration set in this Environment on top of the values in the passed Environment. Used to chain: eg. Local File -&gt; System Properties -&gt; Env Properties -&gt; Defaults |
 
 ### Companion Object Properties
 
@@ -24,6 +24,6 @@ This models the runtime environment of the shell where the app is running
 
 | Name | Summary |
 |---|---|
-| [defaults](defaults.md) | `fun defaults(vararg fn: (`[`Environment`](./index.md)`) -> `[`Environment`](./index.md)`): `[`Environment`](./index.md) |
-| [from](from.md) | `fun from(file: `[`File`](http://docs.oracle.com/javase/6/docs/api/java/io/File.html)`): `[`Environment`](./index.md)<br>`fun from(vararg pairs: `[`Pair`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>): `[`Environment`](./index.md) |
-| [fromResource](from-resource.md) | `fun fromResource(resource: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Environment`](./index.md) |
+| [defaults](defaults.md) | `fun defaults(vararg fn: (`[`Environment`](./index.md)`) -> `[`Environment`](./index.md)`): `[`Environment`](./index.md)<br>Setup default configuration mappings using EnvironmentKey lens bindings |
+| [from](from.md) | `fun from(file: `[`File`](http://docs.oracle.com/javase/6/docs/api/java/io/File.html)`): `[`Environment`](./index.md)<br>Load configuration from standard Properties file format on disk`fun from(vararg pairs: `[`Pair`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>): `[`Environment`](./index.md) |
+| [fromResource](from-resource.md) | `fun fromResource(resource: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Environment`](./index.md)<br>Load configuration from standard Properties file format on classpath |

@@ -2,7 +2,9 @@
 
 # DefaultReadinessCheckResultRenderer
 
-`object DefaultReadinessCheckResultRenderer : `[`ReadinessCheckResultRenderer`](../-readiness-check-result-renderer/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/health/ReadinessCheckResultRenderer.kt#L14)
+`object DefaultReadinessCheckResultRenderer : `[`ReadinessCheckResultRenderer`](../-readiness-check-result-renderer/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/health/ReadinessCheckResultRenderer.kt#L17)
+
+Basic reporting of ReadinessCheckResults
 
 ### Properties
 

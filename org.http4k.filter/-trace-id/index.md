@@ -20,4 +20,4 @@
 
 | Name | Summary |
 |---|---|
-| [new](new.md) | `fun new(random: `[`Random`](http://docs.oracle.com/javase/6/docs/api/java/util/Random.html)` = TraceRandom): `[`TraceId`](./index.md) |
+| [new](new.md) | `fun new(random: `[`Random`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.random/-random/index.html)` = Random): `[`TraceId`](./index.md) |

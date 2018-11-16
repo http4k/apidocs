@@ -83,3 +83,9 @@
 | [UNSATISFIABLE_PARAMETERS](-u-n-s-a-t-i-s-f-i-a-b-l-e_-p-a-r-a-m-e-t-e-r-s.md) | `val UNSATISFIABLE_PARAMETERS: `[`Status`](./index.md) |
 | [UNSUPPORTED_MEDIA_TYPE](-u-n-s-u-p-p-o-r-t-e-d_-m-e-d-i-a_-t-y-p-e.md) | `val UNSUPPORTED_MEDIA_TYPE: `[`Status`](./index.md) |
 | [USE_PROXY](-u-s-e_-p-r-o-x-y.md) | `val USE_PROXY: `[`Status`](./index.md) |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [toClientStatus](../../org.http4k.client/to-client-status.md) | `fun `[`Status`](./index.md)`.toClientStatus(e: `[`Exception`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-exception/index.html)`): `[`Status`](./index.md) |

@@ -2,7 +2,7 @@
 
 # ApacheAsyncClient
 
-`object ApacheAsyncClient` [(source)](https://github.com/http4k/http4k/blob/master/http4k-client-apache-async/src/main/kotlin/org/http4k/client/ApacheAsyncClient.kt#L24)
+`object ApacheAsyncClient` [(source)](https://github.com/http4k/http4k/blob/master/http4k-client-apache-async/src/main/kotlin/org/http4k/client/ApacheAsyncClient.kt#L28)
 
 ### Functions
 

@@ -2,7 +2,7 @@
 
 # JettyClient
 
-`object JettyClient` [(source)](https://github.com/http4k/http4k/blob/master/http4k-client-jetty/src/main/kotlin/org/http4k/client/JettyClient.kt#L22)
+`object JettyClient` [(source)](https://github.com/http4k/http4k/blob/master/http4k-client-jetty/src/main/kotlin/org/http4k/client/JettyClient.kt#L26)
 
 ### Functions
 

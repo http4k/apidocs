@@ -2,7 +2,7 @@
 
 # DualSyncAsyncHttpHandler
 
-`interface DualSyncAsyncHttpHandler : `[`HttpHandler`](../org.http4k.core/-http-handler.md)`, `[`AsyncHttpClient`](-async-http-client/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/client/ext.kt#L13)
+`interface DualSyncAsyncHttpHandler : `[`HttpHandler`](../org.http4k.core/-http-handler.md)`, `[`AsyncHttpClient`](-async-http-client/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/client/ext.kt#L14)
 
 ### Inherited Functions
 

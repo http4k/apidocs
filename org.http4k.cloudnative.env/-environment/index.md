@@ -2,9 +2,17 @@
 
 # Environment
 
-`data class Environment` [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/env/Environment.kt#L12)
+`data class Environment` [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/env/Environment.kt#L22)
 
-This models the runtime environment of the shell where the app is running
+This models the runtime environment of the shell where the app is running. Optionally pass a separator to use for multi-values
+otherwise a standard comma is used - this means you MUST override the separator if you have single values which contain commas, otherwise
+singular environment keys will just retrieve the first value.
+
+### Properties
+
+| Name | Summary |
+|---|---|
+| [separator](separator.md) | `val separator: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 
 ### Functions
 

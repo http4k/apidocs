@@ -84,8 +84,8 @@
 | [org.http4k.template.DustTemplates](../org.http4k.template/-dust-templates/index.md) |  |
 | [org.http4k.core.etag.ETag](../org.http4k.core.etag/-e-tag/index.md) |  |
 | [org.http4k.core.etag.ETagValidationRequestParser](../org.http4k.core.etag/-e-tag-validation-request-parser/index.md) | Implemented according to https://www.w3.org/Protocols/rfc2616/rfc2616-sec3.html#sec3.11 |
-| [org.http4k.cloudnative.env.Environment](../org.http4k.cloudnative.env/-environment/index.md) | This models the runtime environment of the shell where the app is running |
-| [org.http4k.cloudnative.env.EnvironmentKey](../org.http4k.cloudnative.env/-environment-key/index.md) |  |
+| [org.http4k.cloudnative.env.Environment](../org.http4k.cloudnative.env/-environment/index.md) | This models the runtime environment of the shell where the app is running. Optionally pass a separator to use for multi-values otherwise a standard comma is used - this means you MUST override the separator if you have single values which contain commas, otherwise singular environment keys will just retrieve the first value. |
+| [org.http4k.cloudnative.env.EnvironmentKey](../org.http4k.cloudnative.env/-environment-key/index.md) | This models the key used to get a value out of the  Environment using the standard Lens mechanic. Note that if your values contain commas, either use a EnvironmentKey.(mapping).multi.required()/optional()/defaulted() to retrieve the entire list, or override the comma separator in your initial Environment. |
 | [org.http4k.jsonrpc.ErrorHandler](../org.http4k.jsonrpc/-error-handler.md) |  |
 | [org.http4k.jsonrpc.ErrorMessage](../org.http4k.jsonrpc/-error-message/index.md) |  |
 | [org.http4k.core.Event](../org.http4k.core/-event/index.md) |  |

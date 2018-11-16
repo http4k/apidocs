@@ -2,7 +2,7 @@
 
 # BiDiLensSpec
 
-`open class BiDiLensSpec<IN, OUT> : `[`LensSpec`](../-lens-spec/index.md)`<`[`IN`](index.md#IN)`, `[`OUT`](index.md#OUT)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/lensSpec.kt#L143)
+`open class BiDiLensSpec<IN, OUT> : `[`LensSpec`](../-lens-spec/index.md)`<`[`IN`](index.md#IN)`, `[`OUT`](index.md#OUT)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/lensSpec.kt#L144)
 
 Represents a bi-directional extraction of an entity from a target, or an insertion into a target.
 
@@ -47,6 +47,7 @@ Represents a bi-directional extraction of an entity from a target, or an inserti
 | [boolean](../boolean.md) | `fun <IN> `[`BiDiLensSpec`](./index.md)`<`[`IN`](../boolean.md#IN)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>.boolean(): `[`BiDiLensSpec`](./index.md)`<`[`IN`](../boolean.md#IN)`, `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`>` |
 | [dateTime](../date-time.md) | `fun <IN> `[`BiDiLensSpec`](./index.md)`<`[`IN`](../date-time.md#IN)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>.dateTime(formatter: DateTimeFormatter = ISO_LOCAL_DATE_TIME): `[`BiDiLensSpec`](./index.md)`<`[`IN`](../date-time.md#IN)`, LocalDateTime>` |
 | [double](../double.md) | `fun <IN> `[`BiDiLensSpec`](./index.md)`<`[`IN`](../double.md#IN)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>.double(): `[`BiDiLensSpec`](./index.md)`<`[`IN`](../double.md#IN)`, `[`Double`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html)`>` |
+| [duration](../duration.md) | `fun <IN> `[`BiDiLensSpec`](./index.md)`<`[`IN`](../duration.md#IN)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>.duration(): `[`BiDiLensSpec`](./index.md)`<`[`IN`](../duration.md#IN)`, Duration>` |
 | [float](../float.md) | `fun <IN> `[`BiDiLensSpec`](./index.md)`<`[`IN`](../float.md#IN)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>.float(): `[`BiDiLensSpec`](./index.md)`<`[`IN`](../float.md#IN)`, `[`Float`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html)`>` |
 | [instant](../instant.md) | `fun <IN> `[`BiDiLensSpec`](./index.md)`<`[`IN`](../instant.md#IN)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>.instant(): `[`BiDiLensSpec`](./index.md)`<`[`IN`](../instant.md#IN)`, Instant>` |
 | [int](../int.md) | `fun <IN> `[`BiDiLensSpec`](./index.md)`<`[`IN`](../int.md#IN)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>.int(): `[`BiDiLensSpec`](./index.md)`<`[`IN`](../int.md#IN)`, `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`>` |
@@ -64,7 +65,7 @@ Represents a bi-directional extraction of an entity from a target, or an inserti
 | Name | Summary |
 |---|---|
 | [Cookies](../-cookies.md) | `object Cookies : `[`BiDiLensSpec`](./index.md)`<`[`Request`](../../org.http4k.core/-request/index.md)`, `[`Cookie`](../../org.http4k.core.cookie/-cookie/index.md)`>` |
-| [EnvironmentKey](../../org.http4k.cloudnative.env/-environment-key/index.md) | `object EnvironmentKey : `[`BiDiLensSpec`](./index.md)`<`[`Environment`](../../org.http4k.cloudnative.env/-environment/index.md)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
+| [EnvironmentKey](../../org.http4k.cloudnative.env/-environment-key/index.md) | `object EnvironmentKey : `[`BiDiLensSpec`](./index.md)`<`[`Environment`](../../org.http4k.cloudnative.env/-environment/index.md)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>`<br>This models the key used to get a value out of the  Environment using the standard Lens mechanic. Note that if your values contain commas, either use a EnvironmentKey.(mapping).multi.required()/optional()/defaulted() to retrieve the entire list, or override the comma separator in your initial Environment. |
 | [FormField](../-form-field.md) | `object FormField : `[`BiDiLensSpec`](./index.md)`<`[`WebForm`](../-web-form/index.md)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
 | [Header](../-header/index.md) | `object Header : `[`BiDiLensSpec`](./index.md)`<`[`HttpMessage`](../../org.http4k.core/-http-message/index.md)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
 | [MultipartFormField](../-multipart-form-field.md) | `object MultipartFormField : `[`BiDiLensSpec`](./index.md)`<`[`MultipartForm`](../-multipart-form/index.md)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |

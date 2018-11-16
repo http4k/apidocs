@@ -2,7 +2,7 @@
 
 # LensSpec
 
-`open class LensSpec<IN, OUT>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/lensSpec.kt#L66)
+`open class LensSpec<IN, OUT>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/lensSpec.kt#L67)
 
 Represents a uni-directional extraction of an entity from a target.
 

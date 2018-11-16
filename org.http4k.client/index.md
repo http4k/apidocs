@@ -22,3 +22,9 @@ Common code relevant to HTTP client implementations.
 | Name | Summary |
 |---|---|
 | [kotlin.Function1](kotlin.-function1/index.md) |  |
+
+### Functions
+
+| Name | Summary |
+|---|---|
+| [toClientStatus](to-client-status.md) | `fun `[`Status`](../org.http4k.core/-status/index.md)`.toClientStatus(e: `[`Exception`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-exception/index.html)`): `[`Status`](../org.http4k.core/-status/index.md) |

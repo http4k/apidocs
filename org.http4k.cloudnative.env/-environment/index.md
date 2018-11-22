@@ -2,7 +2,7 @@
 
 # Environment
 
-`class Environment` [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/env/Environment.kt#L22)
+`interface Environment` [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/env/Environment.kt#L15)
 
 This models the runtime environment of the shell where the app is running. Optionally pass a separator to use for multi-values
 otherwise a standard comma is used - this means you MUST override the separator if you have single values which contain commas, otherwise
@@ -12,13 +12,15 @@ singular environment keys will just retrieve the first value.
 
 | Name | Summary |
 |---|---|
-| [separator](separator.md) | `val separator: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [separator](separator.md) | `open val separator: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 
 ### Functions
 
 | Name | Summary |
 |---|---|
-| [overrides](overrides.md) | `infix fun overrides(that: `[`Environment`](./index.md)`): `[`Environment`](./index.md)<br>Overlays the configuration set in this Environment on top of the values in the passed Environment. Used to chain: eg. Local File -&gt; System Properties -&gt; Env Properties -&gt; Defaults |
+| [get](get.md) | `abstract operator fun <T> get(key: `[`Lens`](../../org.http4k.lens/-lens/index.md)`<`[`Environment`](./index.md)`, `[`T`](get.md#T)`>): `[`T`](get.md#T)<br>`abstract operator fun get(key: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |
+| [overrides](overrides.md) | `open infix fun overrides(that: `[`Environment`](./index.md)`): `[`Environment`](./index.md)<br>Overlays the configuration set in this Environment on top of the values in the passed Environment. Used to chain: eg. Local File -&gt; System Properties -&gt; Env Properties -&gt; Defaults |
+| [set](set.md) | `abstract operator fun set(key: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Environment`](./index.md) |
 
 ### Companion Object Properties
 

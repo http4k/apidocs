@@ -2,7 +2,7 @@
 
 # ApiInfo
 
-`data class ApiInfo` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/OpenApi.kt#L15)
+`data class ApiInfo` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/OpenApi.kt#L16)
 
 ### Constructors
 

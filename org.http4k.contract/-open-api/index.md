@@ -2,7 +2,7 @@
 
 # OpenApi
 
-`class OpenApi<out NODE> : `[`ContractRenderer`](../-contract-renderer/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/OpenApi.kt#L17)
+`class OpenApi<out NODE> : `[`ContractRenderer`](../-contract-renderer/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/OpenApi.kt#L18)
 
 ### Constructors
 

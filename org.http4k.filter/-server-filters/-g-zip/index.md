@@ -2,7 +2,7 @@
 
 # GZip
 
-`object GZip` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ServerFilters.kt#L216)
+`object GZip` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ServerFilters.kt#L224)
 
 Basic GZip and Gunzip support of Request/Response. Does not currently support GZipping streams.
 Only Gunzips requests which contain "transfer-encoding" header containing 'gzip'

@@ -2,7 +2,7 @@
 
 # BasicAuth
 
-`object BasicAuth` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ServerFilters.kt#L77)
+`object BasicAuth` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ServerFilters.kt#L85)
 
 Simple Basic Auth credential checking.
 

@@ -232,7 +232,6 @@
 | [org.http4k.filter.ResponseFilters](../org.http4k.filter/-response-filters/index.md) |  |
 | [org.http4k.contract.ResponseMeta](../org.http4k.contract/-response-meta/index.md) |  |
 | [org.http4k.contract.Root](../org.http4k.contract/-root/index.md) |  |
-| [org.http4k.contract.RouteBinder](../org.http4k.contract/-route-binder/index.md) |  |
 | [org.http4k.contract.RouteMeta](../org.http4k.contract/-route-meta/index.md) |  |
 | [org.http4k.contract.RouteMetaDsl](../org.http4k.contract/-route-meta-dsl/index.md) |  |
 | [org.http4k.routing.RoutedRequest](../org.http4k.routing/-routed-request/index.md) |  |

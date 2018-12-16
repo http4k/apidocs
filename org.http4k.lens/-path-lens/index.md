@@ -34,7 +34,7 @@
 
 | Name | Summary |
 |---|---|
-| [bindContract](../../org.http4k.contract/bind-contract.md) | `infix fun <A> `[`PathLens`](./index.md)`<`[`A`](../../org.http4k.contract/bind-contract.md#A)`>.bindContract(method: `[`Method`](../../org.http4k.core/-method/index.md)`): `[`RouteBinder`](../../org.http4k.contract/-route-binder/index.md)`<(`[`A`](../../org.http4k.contract/bind-contract.md#A)`) -> `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`>` |
+| [bindContract](../../org.http4k.contract/bind-contract.md) | `infix fun <A> `[`PathLens`](./index.md)`<`[`A`](../../org.http4k.contract/bind-contract.md#A)`>.bindContract(method: `[`Method`](../../org.http4k.core/-method/index.md)`): `[`Binder`](../../org.http4k.contract/-contract-route-spec1/-binder/index.md)`<`[`A`](../../org.http4k.contract/bind-contract.md#A)`>` |
 | [div](../../org.http4k.contract/div.md) | `operator fun <A, B> `[`PathLens`](./index.md)`<`[`A`](../../org.http4k.contract/div.md#A)`>.div(next: `[`PathLens`](./index.md)`<`[`B`](../../org.http4k.contract/div.md#B)`>): `[`ContractRouteSpec2`](../../org.http4k.contract/-contract-route-spec2/index.md)`<`[`A`](../../org.http4k.contract/div.md#A)`, `[`B`](../../org.http4k.contract/div.md#B)`>` |
 
 ### Inheritors

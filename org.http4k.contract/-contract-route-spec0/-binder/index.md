@@ -2,7 +2,7 @@
 
 # Binder
 
-`inner class Binder` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/routeSpec.kt#L44)
+`inner class Binder` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/routeSpec.kt#L43)
 
 ### Constructors
 

@@ -2,7 +2,7 @@
 
 # ArrayGen
 
-`data class ArrayGen : `[`Gen`](../-gen/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/GenerateDataClasses.kt#L49)
+`data class ArrayGen : `[`Gen`](../-gen/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/GenerateDataClasses.kt#L48)
 
 ### Constructors
 

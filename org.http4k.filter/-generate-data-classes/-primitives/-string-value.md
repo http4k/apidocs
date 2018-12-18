@@ -2,7 +2,7 @@
 
 # StringValue
 
-`StringValue` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/GenerateDataClasses.kt#L44)
+`StringValue` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/GenerateDataClasses.kt#L43)
 
 ### Inherited Functions
 

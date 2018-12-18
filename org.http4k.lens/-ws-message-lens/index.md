@@ -2,7 +2,7 @@
 
 # WsMessageLens
 
-`open class WsMessageLens<out FINAL> : `[`LensExtractor`](../-lens-extractor/index.md)`<`[`WsMessage`](../../org.http4k.websocket/-ws-message/index.md)`, `[`FINAL`](index.md#FINAL)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/wsMessageLens.kt#L51)
+`open class WsMessageLens<out FINAL> : `[`LensExtractor`](../-lens-extractor/index.md)`<`[`WsMessage`](../../org.http4k.websocket/-ws-message/index.md)`, `[`FINAL`](index.md#FINAL)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/wsMessageLens.kt#L54)
 
 A WsMessageLens provides the extraction of an entity from a target WsMessage.
 

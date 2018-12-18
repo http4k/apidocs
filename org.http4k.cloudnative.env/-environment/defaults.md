@@ -2,7 +2,7 @@
 
 # defaults
 
-`fun defaults(vararg fn: (`[`Environment`](index.md)`) -> `[`Environment`](index.md)`): `[`Environment`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/env/Environment.kt#L57)
+`fun defaults(vararg fn: (`[`Environment`](index.md)`) -> `[`Environment`](index.md)`): `[`Environment`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/env/Environment.kt#L62)
 
 Setup default configuration mappings using EnvironmentKey lens bindings
 

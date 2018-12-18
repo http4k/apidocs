@@ -2,7 +2,7 @@
 
 # WebsocketClient
 
-`object WebsocketClient` [(source)](https://github.com/http4k/http4k/blob/master/http4k-client-websocket/src/main/kotlin/org/http4k/client/WebsocketClient.kt#L26)
+`object WebsocketClient` [(source)](https://github.com/http4k/http4k/blob/master/http4k-client-websocket/src/main/kotlin/org/http4k/client/WebsocketClient.kt#L25)
 
 ### Functions
 

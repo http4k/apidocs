@@ -2,7 +2,7 @@
 
 # OAuthRedirectionFilter
 
-`class OAuthRedirectionFilter : `[`Filter`](../../org.http4k.core/-filter/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/OAuthRedirectionFilter.kt#L7)
+`class OAuthRedirectionFilter : `[`Filter`](../../org.http4k.core/-filter/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/OAuthRedirectionFilter.kt#L13)
 
 ### Constructors
 

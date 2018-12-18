@@ -2,7 +2,7 @@
 
 # ChaosControls
 
-`object ChaosControls` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosControls.kt#L32)
+`object ChaosControls` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosControls.kt#L42)
 
 Adds a set of endpoints to an application which will control the switching on/off of chaos behaviour. The added endpoints are:
 GET //status &lt;- check the on off/status of the injected chaos

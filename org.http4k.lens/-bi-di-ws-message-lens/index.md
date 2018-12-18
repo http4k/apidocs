@@ -2,7 +2,7 @@
 
 # BiDiWsMessageLens
 
-`class BiDiWsMessageLens<FINAL> : `[`WsMessageLens`](../-ws-message-lens/index.md)`<`[`FINAL`](index.md#FINAL)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/wsMessageLens.kt#L65)
+`class BiDiWsMessageLens<FINAL> : `[`WsMessageLens`](../-ws-message-lens/index.md)`<`[`FINAL`](index.md#FINAL)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/wsMessageLens.kt#L68)
 
 A BiDiWsMessageLens provides the bi-directional extraction of an entity from a target body, or the insertion of an entity
 into a target WsMessage.

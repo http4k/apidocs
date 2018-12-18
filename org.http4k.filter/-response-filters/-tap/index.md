@@ -2,7 +2,7 @@
 
 # Tap
 
-`object Tap` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ResponseFilters.kt#L13)
+`object Tap` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ResponseFilters.kt#L18)
 
 Intercept the response after it is sent to the next service.
 

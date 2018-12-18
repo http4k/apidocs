@@ -2,7 +2,7 @@
 
 # ServerConfig
 
-`interface ServerConfig` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/server/http4kServer.kt#L22)
+`interface ServerConfig` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/server/http4kServer.kt#L23)
 
 Standard interface for creating a configured WebServer
 

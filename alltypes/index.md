@@ -101,6 +101,7 @@
 | [org.http4k.core.FormFile](../org.http4k.core/-form-file/index.md) |  |
 | [kotlin.Function1](../org.http4k.client/kotlin.-function1/index.md) (extensions in package org.http4k.client) |  |
 | [kotlin.Function1](../org.http4k.cloudnative/kotlin.-function1/index.md) (extensions in package org.http4k.cloudnative) |  |
+| [kotlin.Function1](../org.http4k.core/kotlin.-function1/index.md) (extensions in package org.http4k.core) |  |
 | [kotlin.Function1](../org.http4k.server/kotlin.-function1/index.md) (extensions in package org.http4k.server) |  |
 | [kotlin.Function1](../org.http4k.servlet/kotlin.-function1/index.md) (extensions in package org.http4k.servlet) |  |
 | [kotlin.Function1](../org.http4k.template/kotlin.-function1/index.md) (extensions in package org.http4k.template) |  |
@@ -212,6 +213,7 @@
 | [org.http4k.cloudnative.health.ReadinessCheck](../org.http4k.cloudnative.health/-readiness-check/index.md) | A Readiness check is used to determine if the pod is ready to receive traffic. An example is to test if the app can talk to it's database. |
 | [org.http4k.cloudnative.health.ReadinessCheckResult](../org.http4k.cloudnative.health/-readiness-check-result/index.md) | The result of a Readiness check. Checks can be combined together with `+()` to provide an overall result. |
 | [org.http4k.cloudnative.health.ReadinessCheckResultRenderer](../org.http4k.cloudnative.health/-readiness-check-result-renderer/index.md) | Renders the results of a readiness check |
+| [org.http4k.testing.RecordingEvents](../org.http4k.testing/-recording-events/index.md) | Simple recording events that can be used in tests |
 | [org.http4k.traffic.Replay](../org.http4k.traffic/-replay/index.md) | Provides a stream of traffic for replaying purposes. |
 | [org.http4k.core.Request](../org.http4k.core/-request/index.md) |  |
 | [org.http4k.core.RequestContext](../org.http4k.core/-request-context/index.md) |  |

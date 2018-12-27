@@ -8,6 +8,7 @@ Useful tools for testing http4k applications.
 
 | Name | Summary |
 |---|---|
+| [RecordingEvents](-recording-events/index.md) | `class RecordingEvents : `[`Events`](../org.http4k.core/-events.md)`, `[`Iterable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html)`<`[`Event`](../org.http4k.core/-event/index.md)`>`<br>Simple recording events that can be used in tests |
 | [TestWsClient](-test-ws-client/index.md) | `class TestWsClient : `[`WsClient`](-ws-client/index.md)<br>A class that is used for *offline* testing of a routed Websocket, without starting up a Server. Calls are routed synchronously to the receiving Websocket, and error are propagated to the caller. |
 | [WsClient](-ws-client/index.md) | `interface WsClient` |
 

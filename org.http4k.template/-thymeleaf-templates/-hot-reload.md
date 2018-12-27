@@ -2,7 +2,7 @@
 
 # HotReload
 
-`fun HotReload(baseTemplateDir: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`TemplateRenderer`](../-template-renderer.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-template-thymeleaf/src/main/kotlin/org/http4k/template/ThymeleafTemplates.kt#L30)
+`fun HotReload(baseTemplateDir: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`TemplateRenderer`](../-template-renderer.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-template-thymeleaf/src/main/kotlin/org/http4k/template/ThymeleafTemplates.kt#L28)
 
 Overrides [Templates.HotReload](../-templates/-hot-reload.md)
 

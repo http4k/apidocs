@@ -2,7 +2,7 @@
 
 # ContractRouteSpec1
 
-`class ContractRouteSpec1<out A> : `[`ContractRouteSpec`](../-contract-route-spec/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/routeSpec.kt#L54)
+`class ContractRouteSpec1<out A> : `[`ContractRouteSpec`](../-contract-route-spec/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/routeSpec.kt#L51)
 
 ### Types
 
@@ -30,7 +30,6 @@
 |---|---|
 | [bindContract](bind-contract.md) | `infix fun bindContract(method: `[`Method`](../../org.http4k.core/-method/index.md)`): `[`Binder`](-binder/index.md)`<`[`A`](-binder/index.md#A)`>` |
 | [div](div.md) | `operator infix fun div(next: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`ContractRouteSpec2`](../-contract-route-spec2/index.md)`<`[`A`](-binder/index.md#A)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>`<br>`operator infix fun <NEXT> div(next: `[`PathLens`](../../org.http4k.lens/-path-lens/index.md)`<`[`NEXT`](div.md#NEXT)`>): `[`ContractRouteSpec2`](../-contract-route-spec2/index.md)`<`[`A`](-binder/index.md#A)`, `[`NEXT`](div.md#NEXT)`>` |
-| [with](with.md) | `fun with(new: `[`RouteMeta`](../-route-meta/index.md)`): `[`ContractRouteSpec1`](./index.md)`<`[`A`](-binder/index.md#A)`>` |
 
 ### Inherited Functions
 

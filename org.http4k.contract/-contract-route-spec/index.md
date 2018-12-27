@@ -24,7 +24,6 @@
 |---|---|
 | [div](div.md) | `abstract operator infix fun <T> div(next: `[`PathLens`](../../org.http4k.lens/-path-lens/index.md)`<`[`T`](div.md#T)`>): `[`ContractRouteSpec`](./index.md)<br>`open operator infix fun div(next: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`ContractRouteSpec`](./index.md) |
 | [invoke](invoke.md) | `open fun invoke(nextHandler: `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`): `[`HttpHandler`](../../org.http4k.core/-http-handler.md) |
-| [with](with.md) | `abstract fun with(new: `[`RouteMeta`](../-route-meta/index.md)`): `[`ContractRouteSpec`](./index.md) |
 
 ### Extension Functions
 

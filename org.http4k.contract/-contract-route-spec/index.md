@@ -4,6 +4,12 @@
 
 `abstract class ContractRouteSpec : `[`Filter`](../../org.http4k.core/-filter/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/routeSpec.kt#L12)
 
+### Types
+
+| Name | Summary |
+|---|---|
+| [ContractRequestBuilder](-contract-request-builder/index.md) | `open inner class ContractRequestBuilder` |
+
 ### Properties
 
 | Name | Summary |

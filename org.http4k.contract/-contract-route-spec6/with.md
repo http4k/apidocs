@@ -2,7 +2,7 @@
 
 # with
 
-`fun with(new: `[`RouteMeta`](../-route-meta/index.md)`): `[`ContractRouteSpec6`](index.md)`<`[`A`](-binder/index.md#A)`, `[`B`](-binder/index.md#B)`, `[`C`](-binder/index.md#C)`, `[`D`](-binder/index.md#D)`, `[`E`](-binder/index.md#E)`, `[`F`](-binder/index.md#F)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/routeSpec.kt#L142)
+`fun with(new: `[`RouteMeta`](../-route-meta/index.md)`): `[`ContractRouteSpec6`](index.md)`<`[`A`](-binder/index.md#A)`, `[`B`](-binder/index.md#B)`, `[`C`](-binder/index.md#C)`, `[`D`](-binder/index.md#D)`, `[`E`](-binder/index.md#E)`, `[`F`](-binder/index.md#F)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/routeSpec.kt#L139)
 
 Overrides [ContractRouteSpec.with](../-contract-route-spec/with.md)
 

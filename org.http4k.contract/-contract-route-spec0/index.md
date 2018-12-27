@@ -2,13 +2,13 @@
 
 # ContractRouteSpec0
 
-`class ContractRouteSpec0 : `[`ContractRouteSpec`](../-contract-route-spec/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/routeSpec.kt#L36)
+`class ContractRouteSpec0 : `[`ContractRouteSpec`](../-contract-route-spec/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/routeSpec.kt#L40)
 
 ### Types
 
 | Name | Summary |
 |---|---|
-| [Binder](-binder/index.md) | `inner class Binder` |
+| [Binder](-binder/index.md) | `inner class Binder : `[`ContractRequestBuilder`](../-contract-route-spec/-contract-request-builder/index.md) |
 
 ### Inherited Properties
 

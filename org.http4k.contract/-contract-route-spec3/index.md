@@ -2,13 +2,13 @@
 
 # ContractRouteSpec3
 
-`class ContractRouteSpec3<out A, out B, out C> : `[`ContractRouteSpec`](../-contract-route-spec/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/routeSpec.kt#L85)
+`class ContractRouteSpec3<out A, out B, out C> : `[`ContractRouteSpec`](../-contract-route-spec/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/routeSpec.kt#L86)
 
 ### Types
 
 | Name | Summary |
 |---|---|
-| [Binder](-binder/index.md) | `inner class Binder<out A, out B, out C>` |
+| [Binder](-binder/index.md) | `inner class Binder<out A, out B, out C> : `[`ContractRequestBuilder`](../-contract-route-spec/-contract-request-builder/index.md) |
 
 ### Properties
 

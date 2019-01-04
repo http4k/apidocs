@@ -2,7 +2,7 @@
 
 # TestWsClient
 
-`class TestWsClient : `[`WsClient`](../-ws-client/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/testing/wsClient.kt#L25)
+`class TestWsClient : `[`WsClient`](../../org.http4k.websocket/-ws-client/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/testing/TestWsClient.kt#L20)
 
 A class that is used for *offline* testing of a routed Websocket, without starting up a Server. Calls
 are routed synchronously to the receiving Websocket, and error are propagated to the caller.

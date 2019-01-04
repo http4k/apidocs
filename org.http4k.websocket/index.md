@@ -11,6 +11,7 @@ Common code relevant to websocket implementations.
 | [PolyHandler](-poly-handler/index.md) | `class PolyHandler`<br>A PolyHandler represents the combined routing logic of an Http handler and a Websocket handler. ws:// and http:// protocol calls are passed relevantly. |
 | [PushPullAdaptingWebSocket](-push-pull-adapting-web-socket/index.md) | `abstract class PushPullAdaptingWebSocket : `[`Websocket`](-websocket/index.md) |
 | [Websocket](-websocket/index.md) | `interface Websocket`<br>Represents a connected Websocket instance, and can be passed around an application. This is configured to react to events on the WS event stream by attaching listeners. |
+| [WsClient](-ws-client/index.md) | `interface WsClient` |
 | [WsMessage](-ws-message/index.md) | `data class WsMessage` |
 | [WsStatus](-ws-status/index.md) | `data class WsStatus` |
 

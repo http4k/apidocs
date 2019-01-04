@@ -284,7 +284,7 @@
 | [org.http4k.lens.WebForm](../org.http4k.lens/-web-form/index.md) |  |
 | [org.http4k.websocket.Websocket](../org.http4k.websocket/-websocket/index.md) | Represents a connected Websocket instance, and can be passed around an application. This is configured to react to events on the WS event stream by attaching listeners. |
 | [org.http4k.client.WebsocketClient](../org.http4k.client/-websocket-client/index.md) |  |
-| [org.http4k.testing.WsClient](../org.http4k.testing/-ws-client/index.md) |  |
+| [org.http4k.websocket.WsClient](../org.http4k.websocket/-ws-client/index.md) |  |
 | [org.http4k.websocket.WsConsumer](../org.http4k.websocket/-ws-consumer.md) |  |
 | [org.http4k.websocket.WsHandler](../org.http4k.websocket/-ws-handler.md) |  |
 | [org.http4k.websocket.WsMessage](../org.http4k.websocket/-ws-message/index.md) |  |

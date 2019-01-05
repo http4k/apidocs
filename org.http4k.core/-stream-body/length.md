@@ -2,14 +2,9 @@
 
 # length
 
-`val length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L63)
+`val length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`?` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L56)
 
 Overrides [Body.length](../-body/length.md)
 
-### Exceptions
+Will be `null` for bodies where it's impossible to a priori determine - e.g. StreamBody
 
-`IllegalStateException` - if there is no supplied body length
-
-### Getter Exceptions
-
-`IllegalStateException` - if there is no supplied body length

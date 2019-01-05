@@ -11,7 +11,7 @@ called.
 
 | Name | Summary |
 |---|---|
-| [length](length.md) | `abstract val length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)<br>Important: As body's length is not always known (e.g. if streaming is activated in the server or client), attempting to retrieve this property can result in an IllegalStateException. |
+| [length](length.md) | `abstract val length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`?`<br>Will be `null` for bodies where it's impossible to a priori determine - e.g. StreamBody |
 | [payload](payload.md) | `abstract val payload: `[`ByteBuffer`](http://docs.oracle.com/javase/6/docs/api/java/nio/ByteBuffer.html) |
 | [stream](stream.md) | `abstract val stream: `[`InputStream`](http://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html) |
 

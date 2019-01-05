@@ -2,7 +2,7 @@
 
 # MemoryBody
 
-`data class MemoryBody : `[`Body`](../-body/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L41)
+`data class MemoryBody : `[`Body`](../-body/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L39)
 
 Represents a body that is backed by an in-memory ByteBuffer. Closing this has no effect.
 
@@ -16,7 +16,7 @@ Represents a body that is backed by an in-memory ByteBuffer. Closing this has no
 
 | Name | Summary |
 |---|---|
-| [length](length.md) | `val length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)<br>Important: As body's length is not always known (e.g. if streaming is activated in the server or client), attempting to retrieve this property can result in an IllegalStateException. |
+| [length](length.md) | `val length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)<br>Will be `null` for bodies where it's impossible to a priori determine - e.g. StreamBody |
 | [payload](payload.md) | `val payload: `[`ByteBuffer`](http://docs.oracle.com/javase/6/docs/api/java/nio/ByteBuffer.html) |
 | [stream](stream.md) | `val stream: `[`InputStream`](http://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html) |
 

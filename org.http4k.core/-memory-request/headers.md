@@ -2,12 +2,12 @@
 
 # headers
 
-`fun headers(headers: `[`Headers`](../-headers.md)`): `[`MemoryRequest`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L172)
+`fun headers(headers: `[`Headers`](../-headers.md)`): `[`MemoryRequest`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L165)
 
 Overrides [Request.headers](../-request/headers.md)
 
 
-`val headers: `[`Headers`](../-headers.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L159)
+`val headers: `[`Headers`](../-headers.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L152)
 
 Overrides [HttpMessage.headers](../-http-message/headers.md)
 

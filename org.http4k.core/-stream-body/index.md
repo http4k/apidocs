@@ -2,7 +2,7 @@
 
 # StreamBody
 
-`class StreamBody : `[`Body`](../-body/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L59)
+`class StreamBody : `[`Body`](../-body/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L56)
 
 Represents a body that is backed by a (lazy) InputStream. Operating with StreamBody has a number of potential
 gotchas:
@@ -10,20 +10,19 @@ gotchas:
 1. Attempts to consume the stream will pull all of the contents into memory, and should thus be avoided.
 This includes calling `equals()` and `payload`
 2. If this Body is NOT being returned to the caller (via a Server implementation or otherwise), close() should be called.
-3. Depending on the source of the stream, this body may or may not contain a known length. Attempts to get the
-length when there is none will cause an IllegalStateException to be thrown.
+3. Depending on the source of the stream, this body may or may not contain a known length.
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `StreamBody(stream: `[`InputStream`](http://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html)`, length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`?)`<br>Represents a body that is backed by a (lazy) InputStream. Operating with StreamBody has a number of potential gotchas: |
+| [&lt;init&gt;](-init-.md) | `StreamBody(stream: `[`InputStream`](http://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html)`, length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`? = null)`<br>Represents a body that is backed by a (lazy) InputStream. Operating with StreamBody has a number of potential gotchas: |
 
 ### Properties
 
 | Name | Summary |
 |---|---|
-| [length](length.md) | `val length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html) |
+| [length](length.md) | `val length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`?`<br>Will be `null` for bodies where it's impossible to a priori determine - e.g. StreamBody |
 | [payload](payload.md) | `val payload: `[`ByteBuffer`](http://docs.oracle.com/javase/6/docs/api/java/nio/ByteBuffer.html) |
 | [stream](stream.md) | `val stream: `[`InputStream`](http://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html) |
 

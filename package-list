@@ -38,9 +38,11 @@ $dokka.location:org.http4k.routing$bind(kotlin.String, kotlin.Function1((org.htt
 $dokka.location:org.http4k.routing$bind(kotlin.String, org.http4k.core.Method)org.http4k.routing/kotlin.-string/bind.md
 $dokka.location:org.http4k.routing$bind(kotlin.String, org.http4k.routing.RoutingHttpHandler)org.http4k.routing/kotlin.-string/bind.md
 $dokka.location:org.http4k.routing$bind(kotlin.String, org.http4k.routing.RoutingWsHandler)org.http4k.routing/kotlin.-string/bind.md
+$dokka.location:org.http4k.server$asHttp4k(io.ktor.request.ApplicationRequest)org.http4k.server/io.ktor.request.-application-request/as-http4k.md
 $dokka.location:org.http4k.server$asServer(kotlin.Function1((org.http4k.core.Request, kotlin.Function1((org.http4k.websocket.Websocket, kotlin.Unit)))), org.http4k.server.WsServerConfig)org.http4k.server/kotlin.-function1/as-server.md
 $dokka.location:org.http4k.server$asServer(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)), org.http4k.server.ServerConfig)org.http4k.server/kotlin.-function1/as-server.md
 $dokka.location:org.http4k.server$asServer(kotlin.Function1((org.http4k.websocket.Websocket, kotlin.Unit)), org.http4k.server.WsServerConfig)org.http4k.server/kotlin.-function1/as-server.md
+$dokka.location:org.http4k.server$fromHttp4K(io.ktor.response.ApplicationResponse, org.http4k.core.Response)org.http4k.server/io.ktor.response.-application-response/from-http4-k.md
 $dokka.location:org.http4k.servlet$asServlet(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)))org.http4k.servlet/kotlin.-function1/as-servlet.md
 $dokka.location:org.http4k.template$renderToResponse(kotlin.Function1((org.http4k.template.ViewModel, kotlin.String)), org.http4k.template.ViewModel, org.http4k.core.Status, org.http4k.core.ContentType)org.http4k.template/kotlin.-function1/render-to-response.md
 $dokka.location:org.http4k.template$then(kotlin.Function1((org.http4k.template.ViewModel, kotlin.String)), kotlin.Function1((org.http4k.template.ViewModel, kotlin.String)))org.http4k.template/kotlin.-function1/then.md

@@ -12,6 +12,8 @@
 | [org.http4k.contract.ApiKey](../org.http4k.contract/-api-key/index.md) | Checks the presence of the named Api Key parameter. Filter returns 401 if Api-Key is not found in request. |
 | [org.http4k.serverless.AppLoader](../org.http4k.serverless/-app-loader.md) | Http4k app loader - instantiate the application from the environment config |
 | [org.http4k.util.Appendable](../org.http4k.util/-appendable/index.md) |  |
+| [io.ktor.request.ApplicationRequest](../org.http4k.server/io.ktor.request.-application-request/index.md) (extensions in package org.http4k.server) |  |
+| [io.ktor.response.ApplicationResponse](../org.http4k.server/io.ktor.response.-application-response/index.md) (extensions in package org.http4k.server) |  |
 | [org.http4k.format.Argo](../org.http4k.format/-argo/index.md) |  |
 | [org.http4k.client.AsyncHttpClient](../org.http4k.client/-async-http-client/index.md) |  |
 | [org.http4k.format.AutoMarshallingJson](../org.http4k.format/-auto-marshalling-json/index.md) |  |
@@ -151,6 +153,7 @@
 | [org.http4k.util.JsonSchema](../org.http4k.util/-json-schema/index.md) |  |
 | [org.http4k.util.JsonToJsonSchema](../org.http4k.util/-json-to-json-schema/index.md) |  |
 | [org.http4k.format.JsonType](../org.http4k.format/-json-type/index.md) |  |
+| [org.http4k.server.KtorCIO](../org.http4k.server/-ktor-c-i-o/index.md) |  |
 | [org.http4k.serverless.lambda.LambdaFunction](../org.http4k.serverless.lambda/-lambda-function/index.md) | This is the main entry point for the lambda. It uses the local environment to instantiate the Http4k handler which can be used for further invocations. |
 | [org.http4k.lens.Lens](../org.http4k.lens/-lens/index.md) | A Lens provides the uni-directional extraction of an entity from a target. |
 | [org.http4k.lens.LensExtractor](../org.http4k.lens/-lens-extractor/index.md) |  |

@@ -14,6 +14,7 @@ Common code relevant to HTTP server implementations.
 | [Http4kServer](-http4k-server/index.md) | `interface Http4kServer : `[`AutoCloseable`](http://docs.oracle.com/javase/6/docs/api/java/lang/AutoCloseable.html) |
 | [HttpUndertowHandler](-http-undertow-handler/index.md) | `class HttpUndertowHandler : HttpHandler`<br>Exposed to allow for insertion into a customised Undertow server instance |
 | [Jetty](-jetty/index.md) | `class Jetty : `[`WsServerConfig`](-ws-server-config/index.md) |
+| [KtorCIO](-ktor-c-i-o/index.md) | `data class KtorCIO : `[`ServerConfig`](-server-config/index.md) |
 | [Netty](-netty/index.md) | `data class Netty : `[`ServerConfig`](-server-config/index.md) |
 | [ServerConfig](-server-config/index.md) | `interface ServerConfig`<br>Standard interface for creating a configured WebServer |
 | [SunHttp](-sun-http/index.md) | `data class SunHttp : `[`ServerConfig`](-server-config/index.md) |
@@ -30,6 +31,8 @@ Common code relevant to HTTP server implementations.
 
 | Name | Summary |
 |---|---|
+| [io.ktor.request.ApplicationRequest](io.ktor.request.-application-request/index.md) |  |
+| [io.ktor.response.ApplicationResponse](io.ktor.response.-application-response/index.md) |  |
 | [kotlin.Function1](kotlin.-function1/index.md) |  |
 
 ### Functions

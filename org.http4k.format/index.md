@@ -28,6 +28,14 @@ Common code relevant to the various message format implementations (eg. JSON).
 |---|---|
 | [InvalidJsonException](-invalid-json-exception/index.md) | `class InvalidJsonException : `[`Exception`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-exception/index.html) |
 
+### Extensions for External Classes
+
+| Name | Summary |
+|---|---|
+| [com.fasterxml.jackson.module.kotlin.KotlinModule](com.fasterxml.jackson.module.kotlin.-kotlin-module/index.md) |  |
+| [com.google.gson.GsonBuilder](com.google.gson.-gson-builder/index.md) |  |
+| [com.squareup.moshi.Moshi.Builder](com.squareup.moshi.-moshi.-builder/index.md) |  |
+
 ### Properties
 
 | Name | Summary |

@@ -2,7 +2,7 @@
 
 # typeOf
 
-`open fun typeOf(value: JsonElement): `[`JsonType`](../-json-type/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-gson/src/main/kotlin/org/http4k/format/Gson.kt#L41)
+`open fun typeOf(value: JsonElement): `[`JsonType`](../-json-type/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-gson/src/main/kotlin/org/http4k/format/Gson.kt#L42)
 
 Overrides [Json.typeOf](../-json/type-of.md)
 

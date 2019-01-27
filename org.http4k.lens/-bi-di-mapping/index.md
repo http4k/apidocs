@@ -35,6 +35,7 @@
 | [offsetDateTime](../offset-date-time.md) | `fun BiDiMapping.Companion.offsetDateTime(formatter: DateTimeFormatter = ISO_OFFSET_DATE_TIME): `[`BiDiMapping`](./index.md)`<OffsetDateTime>` |
 | [offsetTime](../offset-time.md) | `fun BiDiMapping.Companion.offsetTime(formatter: DateTimeFormatter = ISO_OFFSET_TIME): `[`BiDiMapping`](./index.md)`<OffsetTime>` |
 | [regex](../regex.md) | `fun BiDiMapping.Companion.regex(pattern: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, group: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)` = 1): `[`BiDiMapping`](./index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
+| [regexObject](../regex-object.md) | `fun BiDiMapping.Companion.regexObject(): `[`BiDiMapping`](./index.md)`<`[`Regex`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.text/-regex/index.html)`>` |
 | [uri](../uri.md) | `fun BiDiMapping.Companion.uri(): `[`BiDiMapping`](./index.md)`<`[`Uri`](../../org.http4k.core/-uri/index.md)`>` |
 | [url](../url.md) | `fun BiDiMapping.Companion.url(): `[`BiDiMapping`](./index.md)`<`[`URL`](http://docs.oracle.com/javase/6/docs/api/java/net/URL.html)`>` |
 | [uuid](../uuid.md) | `fun BiDiMapping.Companion.uuid(): `[`BiDiMapping`](./index.md)`<`[`UUID`](http://docs.oracle.com/javase/6/docs/api/java/util/UUID.html)`>` |

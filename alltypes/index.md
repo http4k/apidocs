@@ -38,6 +38,7 @@
 | [org.http4k.core.BodyMode](../org.http4k.core/-body-mode/index.md) |  |
 | [org.http4k.serverless.BootstrapAppLoader](../org.http4k.serverless/-bootstrap-app-loader/index.md) |  |
 | [org.http4k.serverless.BootstrapException](../org.http4k.serverless/-bootstrap-exception/index.md) |  |
+| [com.squareup.moshi.Moshi.Builder](../org.http4k.format/com.squareup.moshi.-moshi.-builder/index.md) (extensions in package org.http4k.format) |  |
 | [java.nio.ByteBuffer](../org.http4k/java.nio.-byte-buffer/index.md) (extensions in package org.http4k) |  |
 | [org.http4k.filter.CacheControlHeaderPart](../org.http4k.filter/-cache-control-header-part/index.md) |  |
 | [org.http4k.filter.CachingFilters](../org.http4k.filter/-caching-filters/index.md) | Useful filters for applying Cache-Controls to request/responses |
@@ -114,6 +115,7 @@
 | [org.http4k.filter.GenerateXmlDataClasses](../org.http4k.filter/-generate-xml-data-classes/index.md) |  |
 | [org.http4k.webdriver.GetURL](../org.http4k.webdriver/-get-u-r-l.md) |  |
 | [org.http4k.format.Gson](../org.http4k.format/-gson.md) |  |
+| [com.google.gson.GsonBuilder](../org.http4k.format/com.google.gson.-gson-builder/index.md) (extensions in package org.http4k.format) |  |
 | [org.http4k.template.HandlebarsTemplates](../org.http4k.template/-handlebars-templates/index.md) | Handlebars templating support. Use the function in the constructor to configure the instance. |
 | [org.http4k.lens.Header](../org.http4k.lens/-header/index.md) |  |
 | [org.http4k.lens.HeaderLens](../org.http4k.lens/-header-lens.md) |  |
@@ -154,6 +156,7 @@
 | [org.http4k.util.JsonSchema](../org.http4k.util/-json-schema/index.md) |  |
 | [org.http4k.util.JsonToJsonSchema](../org.http4k.util/-json-to-json-schema/index.md) |  |
 | [org.http4k.format.JsonType](../org.http4k.format/-json-type/index.md) |  |
+| [com.fasterxml.jackson.module.kotlin.KotlinModule](../org.http4k.format/com.fasterxml.jackson.module.kotlin.-kotlin-module/index.md) (extensions in package org.http4k.format) |  |
 | [org.http4k.server.KtorCIO](../org.http4k.server/-ktor-c-i-o/index.md) |  |
 | [org.http4k.serverless.lambda.LambdaFunction](../org.http4k.serverless.lambda/-lambda-function/index.md) | This is the main entry point for the lambda. It uses the local environment to instantiate the Http4k handler which can be used for further invocations. |
 | [org.http4k.lens.Lens](../org.http4k.lens/-lens/index.md) | A Lens provides the uni-directional extraction of an entity from a target. |

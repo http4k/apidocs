@@ -34,6 +34,7 @@
 | [offsetDateTime](../offset-date-time.md) | `fun `[`Path`](./index.md)`.offsetDateTime(formatter: DateTimeFormatter = ISO_OFFSET_DATE_TIME): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<OffsetDateTime>` |
 | [offsetTime](../offset-time.md) | `fun `[`Path`](./index.md)`.offsetTime(formatter: DateTimeFormatter = ISO_OFFSET_TIME): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<OffsetTime>` |
 | [regex](../regex.md) | `fun `[`Path`](./index.md)`.regex(pattern: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, group: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)` = 1): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
+| [regexObject](../regex-object.md) | `fun `[`Path`](./index.md)`.regexObject(): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<`[`Regex`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.text/-regex/index.html)`>` |
 | [string](../string.md) | `fun `[`Path`](./index.md)`.string(): `[`Path`](./index.md) |
 | [uri](../uri.md) | `fun `[`Path`](./index.md)`.uri(): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<`[`Uri`](../../org.http4k.core/-uri/index.md)`>` |
 | [uuid](../uuid.md) | `fun `[`Path`](./index.md)`.uuid(): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<`[`UUID`](http://docs.oracle.com/javase/6/docs/api/java/util/UUID.html)`>` |

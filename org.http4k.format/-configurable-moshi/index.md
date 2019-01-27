@@ -2,7 +2,7 @@
 
 # ConfigurableMoshi
 
-`open class ConfigurableMoshi : `[`AutoMarshallingJson`](../-auto-marshalling-json/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-moshi/src/main/kotlin/org/http4k/format/Moshi.kt#L32)
+`open class ConfigurableMoshi : `[`AutoMarshallingJson`](../-auto-marshalling-json/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-moshi/src/main/kotlin/org/http4k/format/Moshi.kt#L33)
 
 ### Constructors
 

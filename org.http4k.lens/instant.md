@@ -2,6 +2,6 @@
 
 # instant
 
-`fun BiDiMapping.Companion.instant(): `[`BiDiMapping`](-bi-di-mapping/index.md)`<Instant>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/BiDiMapping.kt#L38)
+`fun BiDiMapping.Companion.instant(): `[`BiDiMapping`](-bi-di-mapping/index.md)`<Instant>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/BiDiMapping.kt#L41)
 `fun <IN> `[`BiDiLensSpec`](-bi-di-lens-spec/index.md)`<`[`IN`](instant.md#IN)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>.instant(): `[`BiDiLensSpec`](-bi-di-lens-spec/index.md)`<`[`IN`](instant.md#IN)`, Instant>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/lensSpec.kt#L228)
-`fun `[`Path`](-path/index.md)`.instant(): `[`BiDiPathLensSpec`](-bi-di-path-lens-spec/index.md)`<Instant>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/path.kt#L107)
+`fun `[`Path`](-path/index.md)`.instant(): `[`BiDiPathLensSpec`](-bi-di-path-lens-spec/index.md)`<Instant>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/path.kt#L108)

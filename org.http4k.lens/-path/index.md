@@ -2,7 +2,7 @@
 
 # Path
 
-`object Path : `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/path.kt#L83)
+`object Path : `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/path.kt#L81)
 
 ### Functions
 
@@ -24,13 +24,17 @@
 | [boolean](../boolean.md) | `fun `[`Path`](./index.md)`.boolean(): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<`[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`>` |
 | [dateTime](../date-time.md) | `fun `[`Path`](./index.md)`.dateTime(formatter: DateTimeFormatter = ISO_LOCAL_DATE_TIME): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<LocalDateTime>` |
 | [double](../double.md) | `fun `[`Path`](./index.md)`.double(): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<`[`Double`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html)`>` |
+| [duration](../duration.md) | `fun `[`Path`](./index.md)`.duration(): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<Duration>` |
 | [float](../float.md) | `fun `[`Path`](./index.md)`.float(): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<`[`Float`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html)`>` |
 | [instant](../instant.md) | `fun `[`Path`](./index.md)`.instant(): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<Instant>` |
 | [int](../int.md) | `fun `[`Path`](./index.md)`.int(): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<`[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`>` |
 | [localDate](../local-date.md) | `fun `[`Path`](./index.md)`.localDate(formatter: DateTimeFormatter = ISO_LOCAL_DATE): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<LocalDate>` |
+| [localTime](../local-time.md) | `fun `[`Path`](./index.md)`.localTime(formatter: DateTimeFormatter = ISO_LOCAL_TIME): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<LocalTime>` |
 | [long](../long.md) | `fun `[`Path`](./index.md)`.long(): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<`[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`>` |
-| [nonEmptyString](../non-empty-string.md) | `fun `[`Path`](./index.md)`.nonEmptyString(): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
-| [regex](../regex.md) | `fun `[`Path`](./index.md)`.regex(pattern: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, group: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)` = 1): `[`PathLensSpec`](../-path-lens-spec/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
+| [offsetDateTime](../offset-date-time.md) | `fun `[`Path`](./index.md)`.offsetDateTime(formatter: DateTimeFormatter = ISO_OFFSET_DATE_TIME): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<OffsetDateTime>` |
+| [offsetTime](../offset-time.md) | `fun `[`Path`](./index.md)`.offsetTime(formatter: DateTimeFormatter = ISO_OFFSET_TIME): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<OffsetTime>` |
+| [regex](../regex.md) | `fun `[`Path`](./index.md)`.regex(pattern: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, group: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)` = 1): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
 | [string](../string.md) | `fun `[`Path`](./index.md)`.string(): `[`Path`](./index.md) |
+| [uri](../uri.md) | `fun `[`Path`](./index.md)`.uri(): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<`[`Uri`](../../org.http4k.core/-uri/index.md)`>` |
 | [uuid](../uuid.md) | `fun `[`Path`](./index.md)`.uuid(): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<`[`UUID`](http://docs.oracle.com/javase/6/docs/api/java/util/UUID.html)`>` |
 | [zonedDateTime](../zoned-date-time.md) | `fun `[`Path`](./index.md)`.zonedDateTime(formatter: DateTimeFormatter = ISO_ZONED_DATE_TIME): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<ZonedDateTime>` |

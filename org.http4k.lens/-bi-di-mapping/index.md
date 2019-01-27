@@ -24,7 +24,7 @@ A BiDiMapping defines a standardised transformation
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `operator fun <T> invoke(read: (`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`) -> `[`T`](invoke.md#T)`, write: (`[`T`](invoke.md#T)`) -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`BiDiMapping`](./index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`T`](invoke.md#T)`>` |
+| [invoke](invoke.md) | `operator fun <IN, T> invoke(read: (`[`IN`](invoke.md#IN)`) -> `[`T`](invoke.md#T)`, write: (`[`T`](invoke.md#T)`) -> `[`IN`](invoke.md#IN)`): `[`BiDiMapping`](./index.md)`<`[`IN`](invoke.md#IN)`, `[`T`](invoke.md#T)`>` |
 
 ### Companion Object Extension Functions
 

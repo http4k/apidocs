@@ -2,4 +2,4 @@
 
 # asConfigurable
 
-`fun Builder.asConfigurable(): `[`AutoMappingConfiguration`](../-auto-mapping-configuration/index.md)`<Builder>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-moshi/src/main/kotlin/org/http4k/format/internalMoshi.kt#L38)
+`fun Builder.asConfigurable(): `[`AutoMappingConfiguration`](../-auto-mapping-configuration/index.md)`<Builder>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-moshi/src/main/kotlin/org/http4k/format/internalMoshi.kt#L40)

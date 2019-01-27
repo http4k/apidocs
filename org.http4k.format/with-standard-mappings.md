@@ -2,7 +2,7 @@
 
 # withStandardMappings
 
-`fun <T> `[`AutoMappingConfiguration`](-auto-mapping-configuration/index.md)`<`[`T`](with-standard-mappings.md#T)`>.withStandardMappings(): `[`AutoMappingConfiguration`](-auto-mapping-configuration/index.md)`<`[`T`](with-standard-mappings.md#T)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/format/AutoMappingConfiguration.kt#L35)
+`fun <T> `[`AutoMappingConfiguration`](-auto-mapping-configuration/index.md)`<`[`T`](with-standard-mappings.md#T)`>.withStandardMappings(): `[`AutoMappingConfiguration`](-auto-mapping-configuration/index.md)`<`[`T`](with-standard-mappings.md#T)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/format/AutoMappingConfiguration.kt#L52)
 
 This is the set of (additional) standardised string &lt;-&gt; type mappings which http4k supports out of the box.
 

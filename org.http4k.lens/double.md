@@ -2,6 +2,6 @@
 
 # double
 
-`fun BiDiMapping.Companion.double(): `[`BiDiMapping`](-bi-di-mapping/index.md)`<`[`Double`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/BiDiMapping.kt#L29)
+`fun BiDiMapping.Companion.double(): `[`BiDiMapping`](-bi-di-mapping/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`Double`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/BiDiMapping.kt#L34)
 `fun <IN> `[`BiDiLensSpec`](-bi-di-lens-spec/index.md)`<`[`IN`](double.md#IN)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>.double(): `[`BiDiLensSpec`](-bi-di-lens-spec/index.md)`<`[`IN`](double.md#IN)`, `[`Double`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/lensSpec.kt#L220)
 `fun `[`Path`](-path/index.md)`.double(): `[`BiDiPathLensSpec`](-bi-di-path-lens-spec/index.md)`<`[`Double`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/path.kt#L100)

@@ -2,7 +2,7 @@
 
 # Moshi
 
-`object Moshi : `[`ConfigurableMoshi`](-configurable-moshi/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-moshi/src/main/kotlin/org/http4k/format/Moshi.kt#L53)
+`object Moshi : `[`ConfigurableMoshi`](-configurable-moshi/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-moshi/src/main/kotlin/org/http4k/format/Moshi.kt#L41)
 
 ### Inherited Functions
 

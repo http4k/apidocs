@@ -2,41 +2,50 @@
 
 # BiDiMapping
 
-`data class BiDiMapping<T>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/BiDiMapping.kt#L23)
+`class BiDiMapping<IN, OUT>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/BiDiMapping.kt#L26)
+
+A BiDiMapping defines a standardised transformation
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `BiDiMapping(read: (`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`) -> `[`T`](index.md#T)`, write: (`[`T`](index.md#T)`) -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = { it.toString() })` |
+| [&lt;init&gt;](-init-.md) | `BiDiMapping(clazz: `[`Class`](http://docs.oracle.com/javase/6/docs/api/java/lang/Class.html)`<`[`OUT`](index.md#OUT)`>, read: (`[`IN`](index.md#IN)`) -> `[`OUT`](index.md#OUT)`, write: (`[`OUT`](index.md#OUT)`) -> `[`IN`](index.md#IN)`)`<br>A BiDiMapping defines a standardised transformation |
 
 ### Properties
 
 | Name | Summary |
 |---|---|
-| [read](read.md) | `val read: (`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`) -> `[`T`](index.md#T) |
-| [write](write.md) | `val write: (`[`T`](index.md#T)`) -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [clazz](clazz.md) | `val clazz: `[`Class`](http://docs.oracle.com/javase/6/docs/api/java/lang/Class.html)`<`[`OUT`](index.md#OUT)`>` |
+| [read](read.md) | `val read: (`[`IN`](index.md#IN)`) -> `[`OUT`](index.md#OUT) |
+| [write](write.md) | `val write: (`[`OUT`](index.md#OUT)`) -> `[`IN`](index.md#IN) |
+
+### Companion Object Functions
+
+| Name | Summary |
+|---|---|
+| [invoke](invoke.md) | `operator fun <T> invoke(read: (`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`) -> `[`T`](invoke.md#T)`, write: (`[`T`](invoke.md#T)`) -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`BiDiMapping`](./index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`T`](invoke.md#T)`>` |
 
 ### Companion Object Extension Functions
 
 | Name | Summary |
 |---|---|
-| [boolean](../boolean.md) | `fun BiDiMapping.Companion.boolean(): `[`BiDiMapping`](./index.md)`<`[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`>` |
-| [double](../double.md) | `fun BiDiMapping.Companion.double(): `[`BiDiMapping`](./index.md)`<`[`Double`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html)`>` |
-| [duration](../duration.md) | `fun BiDiMapping.Companion.duration(): `[`BiDiMapping`](./index.md)`<Duration>` |
-| [float](../float.md) | `fun BiDiMapping.Companion.float(): `[`BiDiMapping`](./index.md)`<`[`Float`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html)`>` |
-| [instant](../instant.md) | `fun BiDiMapping.Companion.instant(): `[`BiDiMapping`](./index.md)`<Instant>` |
-| [int](../int.md) | `fun BiDiMapping.Companion.int(): `[`BiDiMapping`](./index.md)`<`[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`>` |
-| [localDate](../local-date.md) | `fun BiDiMapping.Companion.localDate(formatter: DateTimeFormatter = ISO_LOCAL_DATE): `[`BiDiMapping`](./index.md)`<LocalDate>` |
-| [localDateTime](../local-date-time.md) | `fun BiDiMapping.Companion.localDateTime(formatter: DateTimeFormatter = ISO_LOCAL_DATE_TIME): `[`BiDiMapping`](./index.md)`<LocalDateTime>` |
-| [localTime](../local-time.md) | `fun BiDiMapping.Companion.localTime(formatter: DateTimeFormatter = ISO_LOCAL_TIME): `[`BiDiMapping`](./index.md)`<LocalTime>` |
-| [long](../long.md) | `fun BiDiMapping.Companion.long(): `[`BiDiMapping`](./index.md)`<`[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`>` |
-| [nonEmptyString](../non-empty-string.md) | `fun BiDiMapping.Companion.nonEmptyString(): `[`BiDiMapping`](./index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
-| [offsetDateTime](../offset-date-time.md) | `fun BiDiMapping.Companion.offsetDateTime(formatter: DateTimeFormatter = ISO_OFFSET_DATE_TIME): `[`BiDiMapping`](./index.md)`<OffsetDateTime>` |
-| [offsetTime](../offset-time.md) | `fun BiDiMapping.Companion.offsetTime(formatter: DateTimeFormatter = ISO_OFFSET_TIME): `[`BiDiMapping`](./index.md)`<OffsetTime>` |
-| [regex](../regex.md) | `fun BiDiMapping.Companion.regex(pattern: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, group: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)` = 1): `[`BiDiMapping`](./index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
-| [regexObject](../regex-object.md) | `fun BiDiMapping.Companion.regexObject(): `[`BiDiMapping`](./index.md)`<`[`Regex`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.text/-regex/index.html)`>` |
-| [uri](../uri.md) | `fun BiDiMapping.Companion.uri(): `[`BiDiMapping`](./index.md)`<`[`Uri`](../../org.http4k.core/-uri/index.md)`>` |
-| [url](../url.md) | `fun BiDiMapping.Companion.url(): `[`BiDiMapping`](./index.md)`<`[`URL`](http://docs.oracle.com/javase/6/docs/api/java/net/URL.html)`>` |
-| [uuid](../uuid.md) | `fun BiDiMapping.Companion.uuid(): `[`BiDiMapping`](./index.md)`<`[`UUID`](http://docs.oracle.com/javase/6/docs/api/java/util/UUID.html)`>` |
-| [zonedDateTime](../zoned-date-time.md) | `fun BiDiMapping.Companion.zonedDateTime(formatter: DateTimeFormatter = ISO_ZONED_DATE_TIME): `[`BiDiMapping`](./index.md)`<ZonedDateTime>` |
+| [boolean](../boolean.md) | `fun BiDiMapping.Companion.boolean(): `[`BiDiMapping`](./index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`>` |
+| [double](../double.md) | `fun BiDiMapping.Companion.double(): `[`BiDiMapping`](./index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`Double`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html)`>` |
+| [duration](../duration.md) | `fun BiDiMapping.Companion.duration(): `[`BiDiMapping`](./index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, Duration>` |
+| [float](../float.md) | `fun BiDiMapping.Companion.float(): `[`BiDiMapping`](./index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`Float`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html)`>` |
+| [instant](../instant.md) | `fun BiDiMapping.Companion.instant(): `[`BiDiMapping`](./index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, Instant>` |
+| [int](../int.md) | `fun BiDiMapping.Companion.int(): `[`BiDiMapping`](./index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`>` |
+| [localDate](../local-date.md) | `fun BiDiMapping.Companion.localDate(formatter: DateTimeFormatter = ISO_LOCAL_DATE): `[`BiDiMapping`](./index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, LocalDate>` |
+| [localDateTime](../local-date-time.md) | `fun BiDiMapping.Companion.localDateTime(formatter: DateTimeFormatter = ISO_LOCAL_DATE_TIME): `[`BiDiMapping`](./index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, LocalDateTime>` |
+| [localTime](../local-time.md) | `fun BiDiMapping.Companion.localTime(formatter: DateTimeFormatter = ISO_LOCAL_TIME): `[`BiDiMapping`](./index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, LocalTime>` |
+| [long](../long.md) | `fun BiDiMapping.Companion.long(): `[`BiDiMapping`](./index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`>` |
+| [nonEmptyString](../non-empty-string.md) | `fun BiDiMapping.Companion.nonEmptyString(): `[`BiDiMapping`](./index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
+| [offsetDateTime](../offset-date-time.md) | `fun BiDiMapping.Companion.offsetDateTime(formatter: DateTimeFormatter = ISO_OFFSET_DATE_TIME): `[`BiDiMapping`](./index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, OffsetDateTime>` |
+| [offsetTime](../offset-time.md) | `fun BiDiMapping.Companion.offsetTime(formatter: DateTimeFormatter = ISO_OFFSET_TIME): `[`BiDiMapping`](./index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, OffsetTime>` |
+| [regex](../regex.md) | `fun BiDiMapping.Companion.regex(pattern: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, group: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)` = 1): `[`BiDiMapping`](./index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
+| [regexObject](../regex-object.md) | `fun BiDiMapping.Companion.regexObject(): `[`BiDiMapping`](./index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`Regex`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.text/-regex/index.html)`>` |
+| [uri](../uri.md) | `fun BiDiMapping.Companion.uri(): `[`BiDiMapping`](./index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`Uri`](../../org.http4k.core/-uri/index.md)`>` |
+| [url](../url.md) | `fun BiDiMapping.Companion.url(): `[`BiDiMapping`](./index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`URL`](http://docs.oracle.com/javase/6/docs/api/java/net/URL.html)`>` |
+| [uuid](../uuid.md) | `fun BiDiMapping.Companion.uuid(): `[`BiDiMapping`](./index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`UUID`](http://docs.oracle.com/javase/6/docs/api/java/util/UUID.html)`>` |
+| [zonedDateTime](../zoned-date-time.md) | `fun BiDiMapping.Companion.zonedDateTime(formatter: DateTimeFormatter = ISO_ZONED_DATE_TIME): `[`BiDiMapping`](./index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, ZonedDateTime>` |

@@ -2,4 +2,7 @@
 
 # &lt;init&gt;
 
-`BiDiMapping(read: (`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`) -> `[`T`](index.md#T)`, write: (`[`T`](index.md#T)`) -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = { it.toString() })`
+`BiDiMapping(clazz: `[`Class`](http://docs.oracle.com/javase/6/docs/api/java/lang/Class.html)`<`[`OUT`](index.md#OUT)`>, read: (`[`IN`](index.md#IN)`) -> `[`OUT`](index.md#OUT)`, write: (`[`OUT`](index.md#OUT)`) -> `[`IN`](index.md#IN)`)`
+
+A BiDiMapping defines a standardised transformation
+

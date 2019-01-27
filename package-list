@@ -33,9 +33,6 @@ $dokka.location:org.http4k.core$toParametersMap(kotlin.collections.List((kotlin.
 $dokka.location:org.http4k.core$toPathEncoded(kotlin.String)org.http4k.core/kotlin.-string/to-path-encoded.md
 $dokka.location:org.http4k.core$toUrlFormEncoded(kotlin.collections.List((kotlin.Pair((kotlin.String, kotlin.String)))))org.http4k.core/kotlin.collections.-list/to-url-form-encoded.md
 $dokka.location:org.http4k.core.body$toBody(kotlin.collections.List((kotlin.Pair((kotlin.String, kotlin.String)))))org.http4k.core.body/kotlin.collections.-list/to-body.md
-$dokka.location:org.http4k.format$custom(com.fasterxml.jackson.module.kotlin.KotlinModule, org.http4k.lens.BiDiMapping((org.http4k.format.custom.T)))org.http4k.format/com.fasterxml.jackson.module.kotlin.-kotlin-module/custom.md
-$dokka.location:org.http4k.format$custom(com.google.gson.GsonBuilder, org.http4k.lens.BiDiMapping((org.http4k.format.custom.T)))org.http4k.format/com.google.gson.-gson-builder/custom.md
-$dokka.location:org.http4k.format$custom(com.squareup.moshi.Moshi.Builder, org.http4k.lens.BiDiMapping((org.http4k.format.custom.T)))org.http4k.format/com.squareup.moshi.-moshi.-builder/custom.md
 $dokka.location:org.http4k.routing$bind(kotlin.String, kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)))org.http4k.routing/kotlin.-string/bind.md
 $dokka.location:org.http4k.routing$bind(kotlin.String, kotlin.Function1((org.http4k.websocket.Websocket, kotlin.Unit)))org.http4k.routing/kotlin.-string/bind.md
 $dokka.location:org.http4k.routing$bind(kotlin.String, org.http4k.core.Method)org.http4k.routing/kotlin.-string/bind.md

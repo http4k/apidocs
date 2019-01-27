@@ -2,7 +2,7 @@
 
 # text
 
-`open fun text(value: JsonElement): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-gson/src/main/kotlin/org/http4k/format/Gson.kt#L83)
+`open fun text(value: JsonElement): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-gson/src/main/kotlin/org/http4k/format/internalGson.kt#L80)
 
 Overrides [Json.text](../-json/text.md)
 

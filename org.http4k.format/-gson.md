@@ -2,7 +2,9 @@
 
 # Gson
 
-`object Gson : `[`ConfigurableGson`](-configurable-gson/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-gson/src/main/kotlin/org/http4k/format/Gson.kt#L116)
+`object Gson : `[`ConfigurableGson`](-configurable-gson/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-gson/src/main/kotlin/org/http4k/format/Gson.kt#L8)
+
+To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called.
 
 ### Inherited Functions
 

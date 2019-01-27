@@ -2,7 +2,7 @@
 
 # ConfigurableGson
 
-`open class ConfigurableGson : `[`JsonLibAutoMarshallingJson`](../-json-lib-auto-marshalling-json/index.md)`<JsonElement>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-gson/src/main/kotlin/org/http4k/format/Gson.kt#L28)
+`open class ConfigurableGson : `[`JsonLibAutoMarshallingJson`](../-json-lib-auto-marshalling-json/index.md)`<JsonElement>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-gson/src/main/kotlin/org/http4k/format/internalGson.kt#L25)
 
 ### Constructors
 
@@ -51,4 +51,4 @@
 
 | Name | Summary |
 |---|---|
-| [Gson](../-gson.md) | `object Gson : `[`ConfigurableGson`](./index.md) |
+| [Gson](../-gson.md) | `object Gson : `[`ConfigurableGson`](./index.md)<br>To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called. |

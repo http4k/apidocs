@@ -16,6 +16,7 @@
 | [io.ktor.response.ApplicationResponse](../org.http4k.server/io.ktor.response.-application-response/index.md) (extensions in package org.http4k.server) |  |
 | [org.http4k.format.Argo](../org.http4k.format/-argo/index.md) |  |
 | [org.http4k.client.AsyncHttpClient](../org.http4k.client/-async-http-client/index.md) |  |
+| [org.http4k.format.AutoMappingConfiguration](../org.http4k.format/-auto-mapping-configuration/index.md) | This is the main interface which should be |
 | [org.http4k.format.AutoMarshallingJson](../org.http4k.format/-auto-marshalling-json/index.md) |  |
 | [org.http4k.aws.AwsCredentialScope](../org.http4k.aws/-aws-credential-scope/index.md) |  |
 | [org.http4k.aws.AwsCredentials](../org.http4k.aws/-aws-credentials/index.md) |  |
@@ -38,6 +39,7 @@
 | [org.http4k.core.BodyMode](../org.http4k.core/-body-mode/index.md) |  |
 | [org.http4k.serverless.BootstrapAppLoader](../org.http4k.serverless/-bootstrap-app-loader/index.md) |  |
 | [org.http4k.serverless.BootstrapException](../org.http4k.serverless/-bootstrap-exception/index.md) |  |
+| [com.squareup.moshi.Moshi.Builder](../org.http4k.format/com.squareup.moshi.-moshi.-builder/index.md) (extensions in package org.http4k.format) |  |
 | [java.nio.ByteBuffer](../org.http4k/java.nio.-byte-buffer/index.md) (extensions in package org.http4k) |  |
 | [org.http4k.filter.CacheControlHeaderPart](../org.http4k.filter/-cache-control-header-part/index.md) |  |
 | [org.http4k.filter.CachingFilters](../org.http4k.filter/-caching-filters/index.md) | Useful filters for applying Cache-Controls to request/responses |
@@ -53,10 +55,6 @@
 | [org.http4k.format.ConfigurableGson](../org.http4k.format/-configurable-gson/index.md) |  |
 | [org.http4k.format.ConfigurableJackson](../org.http4k.format/-configurable-jackson/index.md) |  |
 | [org.http4k.format.ConfigurableMoshi](../org.http4k.format/-configurable-moshi/index.md) |  |
-| [org.http4k.format.ConfigureAutoMarshallingJson](../org.http4k.format/-configure-auto-marshalling-json/index.md) | This is the main interface which should be |
-| [org.http4k.format.ConfigureGsonBuilder](../org.http4k.format/-configure-gson-builder/index.md) |  |
-| [org.http4k.format.ConfigureJackson](../org.http4k.format/-configure-jackson/index.md) |  |
-| [org.http4k.format.ConfigureMoshi](../org.http4k.format/-configure-moshi/index.md) |  |
 | [org.http4k.server.ConnectorBuilder](../org.http4k.server/-connector-builder.md) |  |
 | [org.http4k.lens.ContentNegotiation](../org.http4k.lens/-content-negotiation/index.md) | Modes for determining if a passed content type is acceptable. |
 | [org.http4k.core.ContentType](../org.http4k.core/-content-type/index.md) |  |
@@ -117,7 +115,8 @@
 | [org.http4k.filter.GenerateDataClasses](../org.http4k.filter/-generate-data-classes/index.md) | This Filter is used to generate Data class definitions from a Response containing JSON. The Filter will try and reduce the number of class definitions by selecting the definition with the most fields (for cases where lists of items have different fields). |
 | [org.http4k.filter.GenerateXmlDataClasses](../org.http4k.filter/-generate-xml-data-classes/index.md) |  |
 | [org.http4k.webdriver.GetURL](../org.http4k.webdriver/-get-u-r-l.md) |  |
-| [org.http4k.format.Gson](../org.http4k.format/-gson.md) |  |
+| [org.http4k.format.Gson](../org.http4k.format/-gson.md) | To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called. |
+| [com.google.gson.GsonBuilder](../org.http4k.format/com.google.gson.-gson-builder/index.md) (extensions in package org.http4k.format) |  |
 | [org.http4k.template.HandlebarsTemplates](../org.http4k.template/-handlebars-templates/index.md) | Handlebars templating support. Use the function in the constructor to configure the instance. |
 | [org.http4k.lens.Header](../org.http4k.lens/-header/index.md) |  |
 | [org.http4k.lens.HeaderLens](../org.http4k.lens/-header-lens.md) |  |
@@ -142,7 +141,7 @@
 | [org.http4k.lens.Invalid](../org.http4k.lens/-invalid/index.md) |  |
 | [org.http4k.format.InvalidJsonException](../org.http4k.format/-invalid-json-exception/index.md) |  |
 | [org.http4k.webdriver.JSoupWebElement](../org.http4k.webdriver/-j-soup-web-element/index.md) |  |
-| [org.http4k.format.Jackson](../org.http4k.format/-jackson.md) |  |
+| [org.http4k.format.Jackson](../org.http4k.format/-jackson.md) | To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called. |
 | [org.http4k.client.JavaHttpClient](../org.http4k.client/-java-http-client/index.md) |  |
 | [org.http4k.server.Jetty](../org.http4k.server/-jetty/index.md) |  |
 | [org.http4k.client.JettyClient](../org.http4k.client/-jetty-client/index.md) |  |
@@ -158,6 +157,7 @@
 | [org.http4k.util.JsonSchema](../org.http4k.util/-json-schema/index.md) |  |
 | [org.http4k.util.JsonToJsonSchema](../org.http4k.util/-json-to-json-schema/index.md) |  |
 | [org.http4k.format.JsonType](../org.http4k.format/-json-type/index.md) |  |
+| [com.fasterxml.jackson.module.kotlin.KotlinModule](../org.http4k.format/com.fasterxml.jackson.module.kotlin.-kotlin-module/index.md) (extensions in package org.http4k.format) |  |
 | [org.http4k.server.KtorCIO](../org.http4k.server/-ktor-c-i-o/index.md) |  |
 | [org.http4k.serverless.lambda.LambdaFunction](../org.http4k.serverless.lambda/-lambda-function/index.md) | This is the main entry point for the lambda. It uses the local environment to instantiate the Http4k handler which can be used for further invocations. |
 | [org.http4k.lens.Lens](../org.http4k.lens/-lens/index.md) | A Lens provides the uni-directional extraction of an entity from a target. |
@@ -183,7 +183,7 @@
 | [org.http4k.filter.MetricFilters](../org.http4k.filter/-metric-filters/index.md) |  |
 | [org.http4k.core.MimeTypes](../org.http4k.core/-mime-types/index.md) |  |
 | [org.http4k.lens.Missing](../org.http4k.lens/-missing/index.md) |  |
-| [org.http4k.format.Moshi](../org.http4k.format/-moshi.md) |  |
+| [org.http4k.format.Moshi](../org.http4k.format/-moshi.md) | To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called. |
 | [org.http4k.lens.MultiLensSpec](../org.http4k.lens/-multi-lens-spec/index.md) | Represents a uni-directional extraction of a list of entities from a target. |
 | [org.http4k.core.MultipartEntity](../org.http4k.core/-multipart-entity/index.md) |  |
 | [org.http4k.lens.MultipartForm](../org.http4k.lens/-multipart-form/index.md) |  |

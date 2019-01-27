@@ -2,7 +2,7 @@
 
 # ConfigurableJackson
 
-`open class ConfigurableJackson : `[`JsonLibAutoMarshallingJson`](../-json-lib-auto-marshalling-json/index.md)`<JsonNode>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-jackson/src/main/kotlin/org/http4k/format/Jackson.kt#L34)
+`open class ConfigurableJackson : `[`JsonLibAutoMarshallingJson`](../-json-lib-auto-marshalling-json/index.md)`<JsonNode>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-jackson/src/main/kotlin/org/http4k/format/internalJackson.kt#L30)
 
 ### Constructors
 
@@ -51,4 +51,4 @@
 
 | Name | Summary |
 |---|---|
-| [Jackson](../-jackson.md) | `object Jackson : `[`ConfigurableJackson`](./index.md) |
+| [Jackson](../-jackson.md) | `object Jackson : `[`ConfigurableJackson`](./index.md)<br>To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called. |

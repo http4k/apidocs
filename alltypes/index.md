@@ -27,7 +27,7 @@
 | [org.http4k.lens.BiDiBodyLensSpec](../org.http4k.lens/-bi-di-body-lens-spec/index.md) | Represents a bi-directional extraction of an entity from a target Body, or an insertion into a target Body. |
 | [org.http4k.lens.BiDiLens](../org.http4k.lens/-bi-di-lens/index.md) | A BiDiLens provides the bi-directional extraction of an entity from a target, or the insertion of an entity into a target. |
 | [org.http4k.lens.BiDiLensSpec](../org.http4k.lens/-bi-di-lens-spec/index.md) | Represents a bi-directional extraction of an entity from a target, or an insertion into a target. |
-| [org.http4k.lens.BiDiMapping](../org.http4k.lens/-bi-di-mapping/index.md) | A BiDiMapping defines a standardised transformation |
+| [org.http4k.lens.BiDiMapping](../org.http4k.lens/-bi-di-mapping/index.md) | A BiDiMapping defines a reusable bidirectional transformation between an input and output type |
 | [org.http4k.lens.BiDiMultiLensSpec](../org.http4k.lens/-bi-di-multi-lens-spec/index.md) | Represents a bi-directional extraction of a list of entities from a target, or an insertion into a target. |
 | [org.http4k.lens.BiDiPathLens](../org.http4k.lens/-bi-di-path-lens/index.md) |  |
 | [org.http4k.lens.BiDiPathLensSpec](../org.http4k.lens/-bi-di-path-lens-spec/index.md) |  |

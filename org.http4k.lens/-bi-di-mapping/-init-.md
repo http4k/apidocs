@@ -2,7 +2,7 @@
 
 # &lt;init&gt;
 
-`BiDiMapping(clazz: `[`Class`](http://docs.oracle.com/javase/6/docs/api/java/lang/Class.html)`<`[`OUT`](index.md#OUT)`>, read: (`[`IN`](index.md#IN)`) -> `[`OUT`](index.md#OUT)`, write: (`[`OUT`](index.md#OUT)`) -> `[`IN`](index.md#IN)`)`
+`BiDiMapping(clazz: `[`Class`](http://docs.oracle.com/javase/6/docs/api/java/lang/Class.html)`<`[`OUT`](index.md#OUT)`>, asOut: (`[`IN`](index.md#IN)`) -> `[`OUT`](index.md#OUT)`, asIn: (`[`OUT`](index.md#OUT)`) -> `[`IN`](index.md#IN)`)`
 
-A BiDiMapping defines a standardised transformation
+A BiDiMapping defines a reusable bidirectional transformation between an input and output type
 

@@ -4,21 +4,25 @@
 
 `class BiDiMapping<IN, OUT>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/BiDiMapping.kt#L26)
 
-A BiDiMapping defines a standardised transformation
+A BiDiMapping defines a reusable bidirectional transformation between an input and output type
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `BiDiMapping(clazz: `[`Class`](http://docs.oracle.com/javase/6/docs/api/java/lang/Class.html)`<`[`OUT`](index.md#OUT)`>, read: (`[`IN`](index.md#IN)`) -> `[`OUT`](index.md#OUT)`, write: (`[`OUT`](index.md#OUT)`) -> `[`IN`](index.md#IN)`)`<br>A BiDiMapping defines a standardised transformation |
+| [&lt;init&gt;](-init-.md) | `BiDiMapping(clazz: `[`Class`](http://docs.oracle.com/javase/6/docs/api/java/lang/Class.html)`<`[`OUT`](index.md#OUT)`>, asOut: (`[`IN`](index.md#IN)`) -> `[`OUT`](index.md#OUT)`, asIn: (`[`OUT`](index.md#OUT)`) -> `[`IN`](index.md#IN)`)`<br>A BiDiMapping defines a reusable bidirectional transformation between an input and output type |
 
 ### Properties
 
 | Name | Summary |
 |---|---|
 | [clazz](clazz.md) | `val clazz: `[`Class`](http://docs.oracle.com/javase/6/docs/api/java/lang/Class.html)`<`[`OUT`](index.md#OUT)`>` |
-| [read](read.md) | `val read: (`[`IN`](index.md#IN)`) -> `[`OUT`](index.md#OUT) |
-| [write](write.md) | `val write: (`[`OUT`](index.md#OUT)`) -> `[`IN`](index.md#IN) |
+
+### Functions
+
+| Name | Summary |
+|---|---|
+| [map](map.md) | `fun map(out: `[`OUT`](index.md#OUT)`): `[`IN`](index.md#IN)<br>`fun map(asIn: `[`IN`](index.md#IN)`): `[`OUT`](index.md#OUT) |
 
 ### Companion Object Functions
 

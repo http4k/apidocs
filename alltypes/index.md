@@ -267,6 +267,7 @@
 | [kotlin.String](../org.http4k/kotlin.-string/index.md) (extensions in package org.http4k) |  |
 | [kotlin.String](../org.http4k.core/kotlin.-string/index.md) (extensions in package org.http4k.core) |  |
 | [kotlin.String](../org.http4k.routing/kotlin.-string/index.md) (extensions in package org.http4k.routing) |  |
+| [org.http4k.lens.StringBiDiMappings](../org.http4k.lens/-string-bi-di-mappings/index.md) | A set of standardised String &lt;-&gt; Type conversions which are used throughout http4k |
 | [java.lang.StringBuilder](../org.http4k/java.lang.-string-builder/index.md) (extensions in package org.http4k) |  |
 | [org.http4k.server.SunHttp](../org.http4k.server/-sun-http/index.md) |  |
 | [org.http4k.chaos.SwitchTrigger](../org.http4k.chaos/-switch-trigger/index.md) | Simple toggleable trigger to turn ChaosBehaviour on/off |

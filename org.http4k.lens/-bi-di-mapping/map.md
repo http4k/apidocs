@@ -2,5 +2,4 @@
 
 # map
 
-`@JvmName("mapIn") fun map(out: `[`OUT`](index.md#OUT)`): `[`IN`](index.md#IN) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/BiDiMapping.kt#L28)
-`@JvmName("mapOut") fun map(asIn: `[`IN`](index.md#IN)`): `[`OUT`](index.md#OUT) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/BiDiMapping.kt#L31)
+`inline fun <reified NEXT> map(crossinline nextOut: (`[`OUT`](index.md#OUT)`) -> `[`NEXT`](map.md#NEXT)`, crossinline nextIn: (`[`NEXT`](map.md#NEXT)`) -> `[`OUT`](index.md#OUT)`): `[`BiDiMapping`](index.md)`<`[`IN`](index.md#IN)`, `[`NEXT`](map.md#NEXT)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/BiDiMapping.kt#L30)

@@ -16,7 +16,7 @@
 | [io.ktor.response.ApplicationResponse](../org.http4k.server/io.ktor.response.-application-response/index.md) (extensions in package org.http4k.server) |  |
 | [org.http4k.format.Argo](../org.http4k.format/-argo/index.md) |  |
 | [org.http4k.client.AsyncHttpClient](../org.http4k.client/-async-http-client/index.md) |  |
-| [org.http4k.format.AutoMappingConfiguration](../org.http4k.format/-auto-mapping-configuration/index.md) | This is the main interface which should be |
+| [org.http4k.format.AutoMappingConfiguration](../org.http4k.format/-auto-mapping-configuration/index.md) | This is the generic interface used to configure auto-mapping functionality for message format libraries. The various methods here can be used to provide custom mapping behaviour (say for domain classes). |
 | [org.http4k.format.AutoMarshallingJson](../org.http4k.format/-auto-marshalling-json/index.md) |  |
 | [org.http4k.aws.AwsCredentialScope](../org.http4k.aws/-aws-credential-scope/index.md) |  |
 | [org.http4k.aws.AwsCredentials](../org.http4k.aws/-aws-credentials/index.md) |  |

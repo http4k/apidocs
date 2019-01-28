@@ -9,7 +9,7 @@ Common code relevant to the various message format implementations (eg. JSON).
 | Name | Summary |
 |---|---|
 | [Argo](-argo/index.md) | `object Argo : `[`Json`](-json/index.md)`<JsonNode>` |
-| [AutoMappingConfiguration](-auto-mapping-configuration/index.md) | `interface AutoMappingConfiguration<T>`<br>This is the main interface which should be |
+| [AutoMappingConfiguration](-auto-mapping-configuration/index.md) | `interface AutoMappingConfiguration<T>`<br>This is the generic interface used to configure auto-mapping functionality for message format libraries. The various methods here can be used to provide custom mapping behaviour (say for domain classes). |
 | [AutoMarshallingJson](-auto-marshalling-json/index.md) | `abstract class AutoMarshallingJson` |
 | [ConfigurableGson](-configurable-gson/index.md) | `open class ConfigurableGson : `[`JsonLibAutoMarshallingJson`](-json-lib-auto-marshalling-json/index.md)`<JsonElement>` |
 | [ConfigurableJackson](-configurable-jackson/index.md) | `open class ConfigurableJackson : `[`JsonLibAutoMarshallingJson`](-json-lib-auto-marshalling-json/index.md)`<JsonNode>` |

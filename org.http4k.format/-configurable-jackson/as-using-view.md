@@ -1,0 +1,5 @@
+[http4k](../../index.md) / [org.http4k.format](../index.md) / [ConfigurableJackson](index.md) / [asUsingView](./as-using-view.md)
+
+# asUsingView
+
+`fun <T : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`, V : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`.asUsingView(t: `[`KClass`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.reflect/-k-class/index.html)`<`[`T`](as-using-view.md#T)`>, v: `[`KClass`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.reflect/-k-class/index.html)`<`[`V`](as-using-view.md#V)`>): `[`T`](as-using-view.md#T) [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-jackson/src/main/kotlin/org/http4k/format/internalJackson.kt#L92)

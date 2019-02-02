@@ -2,7 +2,7 @@
 
 # PathLensSpec
 
-`open class PathLensSpec<out OUT>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/path.kt#L42)
+`open class PathLensSpec<out OUT>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/path.kt#L40)
 
 Represents a uni-directional extraction of an entity from a target path segment.
 

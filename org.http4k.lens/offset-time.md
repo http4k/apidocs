@@ -3,4 +3,3 @@
 # offsetTime
 
 `fun <IN> `[`BiDiLensSpec`](-bi-di-lens-spec/index.md)`<`[`IN`](offset-time.md#IN)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>.offsetTime(formatter: DateTimeFormatter = ISO_OFFSET_TIME): `[`BiDiLensSpec`](-bi-di-lens-spec/index.md)`<`[`IN`](offset-time.md#IN)`, OffsetTime>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/lensSpec.kt#L235)
-`fun `[`Path`](-path/index.md)`.offsetTime(formatter: DateTimeFormatter = ISO_OFFSET_TIME): `[`BiDiPathLensSpec`](-bi-di-path-lens-spec/index.md)`<OffsetTime>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/path.kt#L116)

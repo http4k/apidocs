@@ -2,7 +2,7 @@
 
 # Path
 
-`object Path : `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/path.kt#L82)
+`object Path : `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/path.kt#L80)
 
 ### Functions
 
@@ -33,8 +33,6 @@
 | [localDate](../local-date.md) | `fun `[`Path`](./index.md)`.localDate(formatter: DateTimeFormatter = ISO_LOCAL_DATE): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<LocalDate>` |
 | [localTime](../local-time.md) | `fun `[`Path`](./index.md)`.localTime(formatter: DateTimeFormatter = ISO_LOCAL_TIME): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<LocalTime>` |
 | [long](../long.md) | `fun `[`Path`](./index.md)`.long(): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<`[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`>` |
-| [offsetDateTime](../offset-date-time.md) | `fun `[`Path`](./index.md)`.offsetDateTime(formatter: DateTimeFormatter = ISO_OFFSET_DATE_TIME): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<OffsetDateTime>` |
-| [offsetTime](../offset-time.md) | `fun `[`Path`](./index.md)`.offsetTime(formatter: DateTimeFormatter = ISO_OFFSET_TIME): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<OffsetTime>` |
 | [regex](../regex.md) | `fun `[`Path`](./index.md)`.regex(pattern: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, group: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)` = 1): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
 | [regexObject](../regex-object.md) | `fun `[`Path`](./index.md)`.regexObject(): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<`[`Regex`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.text/-regex/index.html)`>` |
 | [string](../string.md) | `fun `[`Path`](./index.md)`.string(): `[`Path`](./index.md) |

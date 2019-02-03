@@ -2,7 +2,7 @@
 
 # Unsupported
 
-`data class Unsupported : `[`Failure`](../-failure/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/lensFailure.kt#L33)
+`data class Unsupported : `[`Failure`](../-failure/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/lensFailure.kt#L32)
 
 ### Constructors
 

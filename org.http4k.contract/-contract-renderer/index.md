@@ -17,5 +17,5 @@
 | Name | Summary |
 |---|---|
 | [NoRenderer](../-no-renderer/index.md) | `object NoRenderer : `[`ContractRenderer`](./index.md) |
-| [OpenApi](../-open-api/index.md) | `class OpenApi<out NODE> : `[`ContractRenderer`](./index.md) |
+| [OpenApi](../-open-api/index.md) | `open class OpenApi<out NODE> : `[`ContractRenderer`](./index.md) |
 | [SimpleJson](../-simple-json/index.md) | `class SimpleJson<out NODE> : `[`ContractRenderer`](./index.md) |

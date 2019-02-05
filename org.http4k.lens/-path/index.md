@@ -33,6 +33,7 @@
 | [localDate](../local-date.md) | `fun `[`Path`](./index.md)`.localDate(formatter: DateTimeFormatter = ISO_LOCAL_DATE): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<LocalDate>` |
 | [localTime](../local-time.md) | `fun `[`Path`](./index.md)`.localTime(formatter: DateTimeFormatter = ISO_LOCAL_TIME): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<LocalTime>` |
 | [long](../long.md) | `fun `[`Path`](./index.md)`.long(): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<`[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`>` |
+| [nonEmptyString](../non-empty-string.md) | `fun `[`Path`](./index.md)`.nonEmptyString(): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
 | [regex](../regex.md) | `fun `[`Path`](./index.md)`.regex(pattern: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, group: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)` = 1): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
 | [regexObject](../regex-object.md) | `fun `[`Path`](./index.md)`.regexObject(): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<`[`Regex`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.text/-regex/index.html)`>` |
 | [string](../string.md) | `fun `[`Path`](./index.md)`.string(): `[`Path`](./index.md) |

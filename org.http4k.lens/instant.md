@@ -3,4 +3,4 @@
 # instant
 
 `fun <IN> `[`BiDiLensSpec`](-bi-di-lens-spec/index.md)`<`[`IN`](instant.md#IN)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>.instant(): `[`BiDiLensSpec`](-bi-di-lens-spec/index.md)`<`[`IN`](instant.md#IN)`, Instant>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/lensSpec.kt#L230)
-`fun `[`Path`](-path/index.md)`.instant(): `[`BiDiPathLensSpec`](-bi-di-path-lens-spec/index.md)`<Instant>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/path.kt#L109)
+`fun `[`Path`](-path/index.md)`.instant(): `[`BiDiPathLensSpec`](-bi-di-path-lens-spec/index.md)`<Instant>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/path.kt#L110)

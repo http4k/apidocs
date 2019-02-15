@@ -2,7 +2,7 @@
 
 # Host
 
-`data class Host` [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/env/domain.kt#L7)
+`data class Host` [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/env/Host.kt#L3)
 
 ### Constructors
 

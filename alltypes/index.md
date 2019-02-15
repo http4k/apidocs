@@ -253,7 +253,7 @@
 | [org.http4k.routing.RoutingHttpHandler](../org.http4k.routing/-routing-http-handler/index.md) | Composite HttpHandler which can potentially service many different URL patterns. Should return a 404 Response if it cannot service a particular Request. |
 | [org.http4k.routing.RoutingWsHandler](../org.http4k.routing/-routing-ws-handler/index.md) |  |
 | [org.http4k.filter.SamplingDecision](../org.http4k.filter/-sampling-decision/index.md) |  |
-| [org.http4k.cloudnative.env.Secret](../org.http4k.cloudnative.env/-secret/index.md) | A secret is a value which tries very hard not to expose itself as a string |
+| [org.http4k.cloudnative.env.Secret](../org.http4k.cloudnative.env/-secret/index.md) | A secret is a value which tries very hard not to expose itself as a string, by storing it's value in a byte array. It is also able to be cleared after construction. |
 | [org.http4k.contract.Security](../org.http4k.contract/-security/index.md) | Endpoint security. Provides filter to be applied to endpoints for all requests. |
 | [org.http4k.server.ServerConfig](../org.http4k.server/-server-config/index.md) | Standard interface for creating a configured WebServer |
 | [org.http4k.filter.ServerFilters](../org.http4k.filter/-server-filters/index.md) |  |

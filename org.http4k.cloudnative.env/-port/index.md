@@ -2,7 +2,7 @@
 
 # Port
 
-`data class Port` [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/env/domain.kt#L5)
+`data class Port` [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/env/Port.kt#L3)
 
 ### Constructors
 
@@ -15,3 +15,9 @@
 | Name | Summary |
 |---|---|
 | [value](value.md) | `val value: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
+
+### Companion Object Properties
+
+| Name | Summary |
+|---|---|
+| [RANDOM](-r-a-n-d-o-m.md) | `val RANDOM: `[`Port`](./index.md) |

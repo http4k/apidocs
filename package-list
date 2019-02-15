@@ -23,7 +23,6 @@ $dokka.location:org.http4k.contract$bind(kotlin.String, org.http4k.contract.Cont
 $dokka.location:org.http4k.contract$bindContract(kotlin.String, org.http4k.core.Method)org.http4k.contract/kotlin.-string/bind-contract.md
 $dokka.location:org.http4k.contract$div(kotlin.String, org.http4k.lens.PathLens((org.http4k.contract.div.A)))org.http4k.contract/kotlin.-string/div.md
 $dokka.location:org.http4k.contract$meta(kotlin.String, kotlin.Function1((org.http4k.contract.RouteMetaDsl, kotlin.Unit)))org.http4k.contract/kotlin.-string/meta.md
-$dokka.location:org.http4k.core$asServer(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)), kotlin.Function1((kotlin.Int, org.http4k.server.ServerConfig)), org.http4k.cloudnative.env.Port)org.http4k.core/kotlin.-function1/as-server.md
 $dokka.location:org.http4k.core$fromPathEncoded(kotlin.String)org.http4k.core/kotlin.-string/from-path-encoded.md
 $dokka.location:org.http4k.core$getFirst(kotlin.collections.Map((org.http4k.core.getFirst.K, kotlin.collections.List((org.http4k.core.getFirst.V)))), org.http4k.core.getFirst.K)org.http4k.core/kotlin.collections.-map/get-first.md
 $dokka.location:org.http4k.core$safeLong(kotlin.String)org.http4k.core/kotlin.-string/safe-long.md
@@ -44,6 +43,7 @@ $dokka.location:org.http4k.routing$bind(kotlin.String, org.http4k.routing.Routin
 $dokka.location:org.http4k.routing$bind(kotlin.String, org.http4k.routing.RoutingWsHandler)org.http4k.routing/kotlin.-string/bind.md
 $dokka.location:org.http4k.server$asHttp4k(io.ktor.request.ApplicationRequest)org.http4k.server/io.ktor.request.-application-request/as-http4k.md
 $dokka.location:org.http4k.server$asServer(kotlin.Function1((org.http4k.core.Request, kotlin.Function1((org.http4k.websocket.Websocket, kotlin.Unit)))), org.http4k.server.WsServerConfig)org.http4k.server/kotlin.-function1/as-server.md
+$dokka.location:org.http4k.server$asServer(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)), kotlin.Function1((kotlin.Int, org.http4k.server.ServerConfig)), org.http4k.cloudnative.env.Port)org.http4k.server/kotlin.-function1/as-server.md
 $dokka.location:org.http4k.server$asServer(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)), org.http4k.server.ServerConfig)org.http4k.server/kotlin.-function1/as-server.md
 $dokka.location:org.http4k.server$asServer(kotlin.Function1((org.http4k.websocket.Websocket, kotlin.Unit)), org.http4k.server.WsServerConfig)org.http4k.server/kotlin.-function1/as-server.md
 $dokka.location:org.http4k.server$fromHttp4K(io.ktor.response.ApplicationResponse, org.http4k.core.Response)org.http4k.server/io.ktor.response.-application-response/from-http4-k.md

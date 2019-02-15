@@ -57,13 +57,16 @@ The core abstractions for the http4k library.
 
 | Name | Summary |
 |---|---|
+| [authority](authority.md) | `fun `[`Uri`](-uri/index.md)`.authority(authority: `[`Authority`](../org.http4k.cloudnative.env/-authority/index.md)`): `[`Uri`](-uri/index.md)<br>`fun `[`Uri`](-uri/index.md)`.authority(): `[`Authority`](../org.http4k.cloudnative.env/-authority/index.md) |
 | [extend](extend.md) | `fun `[`Uri`](-uri/index.md)`.extend(uri: `[`Uri`](-uri/index.md)`): `[`Uri`](-uri/index.md) |
+| [host](host.md) | `fun `[`Uri`](-uri/index.md)`.host(): `[`Host`](../org.http4k.cloudnative.env/-host/index.md)<br>`fun `[`Uri`](-uri/index.md)`.host(host: `[`Host`](../org.http4k.cloudnative.env/-host/index.md)`): `[`Uri`](-uri/index.md) |
 | [maxAge](max-age.md) | `fun `[`Response`](-response/index.md)`.maxAge(duration: Duration): `[`Response`](-response/index.md) |
 | [multipartIterator](multipart-iterator.md) | `fun `[`HttpMessage`](-http-message/index.md)`.multipartIterator(): `[`Iterator`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterator/index.html)`<`[`MultipartEntity`](-multipart-entity/index.md)`>` |
 | [mustRevalidate](must-revalidate.md) | `fun `[`Response`](-response/index.md)`.mustRevalidate(): `[`Response`](-response/index.md) |
 | [noCache](no-cache.md) | `fun `[`Response`](-response/index.md)`.noCache(): `[`Response`](-response/index.md) |
 | [noStore](no-store.md) | `fun `[`Response`](-response/index.md)`.noStore(): `[`Response`](-response/index.md) |
 | [onlyIfCached](only-if-cached.md) | `fun `[`Response`](-response/index.md)`.onlyIfCached(): `[`Response`](-response/index.md) |
+| [port](port.md) | `fun `[`Uri`](-uri/index.md)`.port(port: `[`Port`](../org.http4k.cloudnative.env/-port/index.md)`?): `[`Uri`](-uri/index.md)<br>`fun `[`Uri`](-uri/index.md)`.port(): `[`Port`](../org.http4k.cloudnative.env/-port/index.md)`?` |
 | [private](private.md) | `fun `[`Response`](-response/index.md)`.private(): `[`Response`](-response/index.md) |
 | [public](public.md) | `fun `[`Response`](-response/index.md)`.public(): `[`Response`](-response/index.md) |
 | [queries](queries.md) | `fun `[`Uri`](-uri/index.md)`.queries(): `[`Parameters`](-parameters.md) |

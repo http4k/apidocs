@@ -31,3 +31,11 @@ A set of standardised String &lt;-&gt; Type conversions which are used throughou
 | [url](url.md) | `fun url(): `[`BiDiMapping`](../-bi-di-mapping/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`URL`](http://docs.oracle.com/javase/6/docs/api/java/net/URL.html)`>` |
 | [uuid](uuid.md) | `fun uuid(): `[`BiDiMapping`](../-bi-di-mapping/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`UUID`](http://docs.oracle.com/javase/6/docs/api/java/util/UUID.html)`>` |
 | [zonedDateTime](zoned-date-time.md) | `fun zonedDateTime(formatter: DateTimeFormatter = ISO_ZONED_DATE_TIME): `[`BiDiMapping`](../-bi-di-mapping/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, ZonedDateTime>` |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [authority](../authority.md) | `fun `[`StringBiDiMappings`](./index.md)`.authority(): `[`BiDiMapping`](../-bi-di-mapping/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`Authority`](../../org.http4k.cloudnative.env/-authority/index.md)`>` |
+| [host](../host.md) | `fun `[`StringBiDiMappings`](./index.md)`.host(): `[`BiDiMapping`](../-bi-di-mapping/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`Host`](../../org.http4k.cloudnative.env/-host/index.md)`>` |
+| [port](../port.md) | `fun `[`StringBiDiMappings`](./index.md)`.port(): `[`BiDiMapping`](../-bi-di-mapping/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`Port`](../../org.http4k.cloudnative.env/-port/index.md)`>` |

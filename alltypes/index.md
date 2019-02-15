@@ -16,6 +16,7 @@
 | [io.ktor.response.ApplicationResponse](../org.http4k.server/io.ktor.response.-application-response/index.md) (extensions in package org.http4k.server) |  |
 | [org.http4k.format.Argo](../org.http4k.format/-argo/index.md) |  |
 | [org.http4k.client.AsyncHttpClient](../org.http4k.client/-async-http-client/index.md) |  |
+| [org.http4k.cloudnative.env.Authority](../org.http4k.cloudnative.env/-authority/index.md) |  |
 | [org.http4k.format.AutoMappingConfiguration](../org.http4k.format/-auto-mapping-configuration/index.md) | This is the generic interface used to configure auto-mapping functionality for message format libraries. The various methods here can be used to provide custom mapping behaviour (say for domain classes). |
 | [org.http4k.format.AutoMarshallingJson](../org.http4k.format/-auto-marshalling-json/index.md) |  |
 | [org.http4k.aws.AwsCredentialScope](../org.http4k.aws/-aws-credential-scope/index.md) |  |
@@ -122,6 +123,7 @@
 | [org.http4k.lens.HeaderLens](../org.http4k.lens/-header-lens.md) |  |
 | [org.http4k.core.Headers](../org.http4k.core/-headers.md) |  |
 | [org.http4k.cloudnative.health.Health](../org.http4k.cloudnative.health/-health/index.md) | Represents the set of operational endpoints to ensure that a particular app is working ok. By default provides Readiness and Liveness endpoints, but extra routes can be passed, as can a different renderer implementation for the ReadinessCheck results. |
+| [org.http4k.cloudnative.env.Host](../org.http4k.cloudnative.env/-host/index.md) |  |
 | [org.http4k.webdriver.Http4KNavigation](../org.http4k.webdriver/-http4-k-navigation/index.md) |  |
 | [org.http4k.server.Http4kChannelHandler](../org.http4k.server/-http4k-channel-handler/index.md) | Exposed to allow for insertion into a customised Netty server instance |
 | [org.http4k.cloudnative.Http4kK8sServer](../org.http4k.cloudnative/-http4k-k8s-server/index.md) | A K8S server consists of a main application and a health application, running on 2 different ports. This class provides unified start/stop control. |
@@ -212,6 +214,7 @@
 | [org.http4k.filter.Payload](../org.http4k.filter/-payload/index.md) |  |
 | [org.http4k.template.PebbleTemplates](../org.http4k.template/-pebble-templates/index.md) |  |
 | [org.http4k.websocket.PolyHandler](../org.http4k.websocket/-poly-handler/index.md) | A PolyHandler represents the combined routing logic of an Http handler and a Websocket handler. ws:// and http:// protocol calls are passed relevantly. |
+| [org.http4k.cloudnative.env.Port](../org.http4k.cloudnative.env/-port/index.md) |  |
 | [org.http4k.websocket.PushPullAdaptingWebSocket](../org.http4k.websocket/-push-pull-adapting-web-socket/index.md) |  |
 | [org.http4k.lens.Query](../org.http4k.lens/-query.md) |  |
 | [org.http4k.lens.QueryLens](../org.http4k.lens/-query-lens.md) |  |
@@ -250,6 +253,7 @@
 | [org.http4k.routing.RoutingHttpHandler](../org.http4k.routing/-routing-http-handler/index.md) | Composite HttpHandler which can potentially service many different URL patterns. Should return a 404 Response if it cannot service a particular Request. |
 | [org.http4k.routing.RoutingWsHandler](../org.http4k.routing/-routing-ws-handler/index.md) |  |
 | [org.http4k.filter.SamplingDecision](../org.http4k.filter/-sampling-decision/index.md) |  |
+| [org.http4k.cloudnative.env.Secret](../org.http4k.cloudnative.env/-secret/index.md) | A secret is a value which tries very hard not to expose itself as a string |
 | [org.http4k.contract.Security](../org.http4k.contract/-security/index.md) | Endpoint security. Provides filter to be applied to endpoints for all requests. |
 | [org.http4k.server.ServerConfig](../org.http4k.server/-server-config/index.md) | Standard interface for creating a configured WebServer |
 | [org.http4k.filter.ServerFilters](../org.http4k.filter/-server-filters/index.md) |  |
@@ -263,9 +267,9 @@
 | [org.http4k.core.Status](../org.http4k.core/-status/index.md) |  |
 | [org.http4k.core.Store](../org.http4k.core/-store/index.md) |  |
 | [org.http4k.core.StreamBody](../org.http4k.core/-stream-body/index.md) | Represents a body that is backed by a (lazy) InputStream. Operating with StreamBody has a number of potential gotchas: |
+| [kotlin.String](../org.http4k.core/kotlin.-string/index.md) (extensions in package org.http4k.core) |  |
 | [kotlin.String](../org.http4k.contract/kotlin.-string/index.md) (extensions in package org.http4k.contract) |  |
 | [kotlin.String](../org.http4k/kotlin.-string/index.md) (extensions in package org.http4k) |  |
-| [kotlin.String](../org.http4k.core/kotlin.-string/index.md) (extensions in package org.http4k.core) |  |
 | [kotlin.String](../org.http4k.routing/kotlin.-string/index.md) (extensions in package org.http4k.routing) |  |
 | [org.http4k.lens.StringBiDiMappings](../org.http4k.lens/-string-bi-di-mappings/index.md) | A set of standardised String &lt;-&gt; Type conversions which are used throughout http4k |
 | [java.lang.StringBuilder](../org.http4k/java.lang.-string-builder/index.md) (extensions in package org.http4k) |  |
@@ -279,6 +283,7 @@
 | [org.http4k.template.Templates](../org.http4k.template/-templates/index.md) | Supported template implementations for templating engine implementations |
 | [org.http4k.testing.TestWsClient](../org.http4k.testing/-test-ws-client/index.md) | A class that is used for *offline* testing of a routed Websocket, without starting up a Server. Calls are routed synchronously to the receiving Websocket, and error are propagated to the caller. |
 | [org.http4k.template.ThymeleafTemplates](../org.http4k.template/-thymeleaf-templates/index.md) |  |
+| [org.http4k.cloudnative.env.Timeout](../org.http4k.cloudnative.env/-timeout/index.md) |  |
 | [org.http4k.filter.TraceId](../org.http4k.filter/-trace-id/index.md) |  |
 | [org.http4k.filter.TrafficFilters](../org.http4k.filter/-traffic-filters/index.md) |  |
 | [org.http4k.chaos.Trigger](../org.http4k.chaos/-trigger.md) |  |

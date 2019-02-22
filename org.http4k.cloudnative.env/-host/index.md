@@ -16,6 +16,12 @@
 |---|---|
 | [value](value.md) | `val value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 
+### Functions
+
+| Name | Summary |
+|---|---|
+| [asAuthority](as-authority.md) | `fun asAuthority(): `[`Authority`](../-authority/index.md) |
+
 ### Companion Object Properties
 
 | Name | Summary |

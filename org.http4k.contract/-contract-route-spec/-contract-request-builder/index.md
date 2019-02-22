@@ -2,7 +2,7 @@
 
 # ContractRequestBuilder
 
-`open inner class ContractRequestBuilder` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/routeSpec.kt#L30)
+`open inner class ContractRequestBuilder` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/routeSpec.kt#L34)
 
 ### Constructors
 

@@ -2,7 +2,7 @@
 
 # Xml
 
-`object Xml` [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-xml/src/main/kotlin/org/http4k/format/Xml.kt#L19)
+`object Xml` [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-xml/src/main/kotlin/org/http4k/format/Xml.kt#L25)
 
 ### Functions
 

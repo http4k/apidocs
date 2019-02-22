@@ -2,7 +2,7 @@
 
 # Json
 
-`interface Json<NODE>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/format/Json.kt#L16)
+`interface Json<NODE>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/format/Json.kt#L22)
 
 This is the contract for all JSON implementations
 

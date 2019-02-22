@@ -2,7 +2,7 @@
 
 # BiDiMultiLensSpec
 
-`interface BiDiMultiLensSpec<IN, OUT> : `[`MultiLensSpec`](../-multi-lens-spec/index.md)`<`[`IN`](index.md#IN)`, `[`OUT`](index.md#OUT)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/lensSpec.kt#L130)
+`interface BiDiMultiLensSpec<IN : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`, OUT> : `[`MultiLensSpec`](../-multi-lens-spec/index.md)`<`[`IN`](index.md#IN)`, `[`OUT`](index.md#OUT)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/lensSpec.kt#L123)
 
 Represents a bi-directional extraction of a list of entities from a target, or an insertion into a target.
 

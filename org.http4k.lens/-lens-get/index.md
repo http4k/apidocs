@@ -2,7 +2,7 @@
 
 # LensGet
 
-`class LensGet<in IN, out OUT>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/lensSpec.kt#L14)
+`class LensGet<in IN, out OUT>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/lensSpec.kt#L7)
 
 ### Functions
 

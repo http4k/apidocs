@@ -16,4 +16,4 @@
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `operator fun <T> invoke(entity: `[`T`](invoke.md#T)`, vararg formFields: `[`Lens`](../-lens/index.md)`<`[`T`](invoke.md#T)`, *>): `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`Failure`](../-failure/index.md)`>` |
+| [invoke](invoke.md) | `operator fun <T : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> invoke(entity: `[`T`](invoke.md#T)`, vararg formFields: `[`Lens`](../-lens/index.md)`<`[`T`](invoke.md#T)`, *>): `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`Failure`](../-failure/index.md)`>` |

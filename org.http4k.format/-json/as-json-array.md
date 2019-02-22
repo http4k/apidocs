@@ -2,4 +2,4 @@
 
 # asJsonArray
 
-`abstract fun <T : `[`Iterable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html)`<`[`NODE`](index.md#NODE)`>> `[`T`](as-json-array.md#T)`.asJsonArray(): `[`NODE`](index.md#NODE) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/format/Json.kt#L35)
+`abstract fun <T : `[`Iterable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html)`<`[`NODE`](index.md#NODE)`>> `[`T`](as-json-array.md#T)`.asJsonArray(): `[`NODE`](index.md#NODE) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/format/Json.kt#L29)

@@ -2,7 +2,7 @@
 
 # LensSpec
 
-`open class LensSpec<IN, OUT>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/lensSpec.kt#L62)
+`open class LensSpec<IN : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`, OUT>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/lensSpec.kt#L55)
 
 Represents a uni-directional extraction of an entity from a target.
 
@@ -33,4 +33,4 @@ Represents a uni-directional extraction of an entity from a target.
 
 | Name | Summary |
 |---|---|
-| [BiDiLensSpec](../-bi-di-lens-spec/index.md) | `open class BiDiLensSpec<IN, OUT> : `[`LensSpec`](./index.md)`<`[`IN`](../-bi-di-lens-spec/index.md#IN)`, `[`OUT`](../-bi-di-lens-spec/index.md#OUT)`>`<br>Represents a bi-directional extraction of an entity from a target, or an insertion into a target. |
+| [BiDiLensSpec](../-bi-di-lens-spec/index.md) | `open class BiDiLensSpec<IN : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`, OUT> : `[`LensSpec`](./index.md)`<`[`IN`](../-bi-di-lens-spec/index.md#IN)`, `[`OUT`](../-bi-di-lens-spec/index.md#OUT)`>`<br>Represents a bi-directional extraction of an entity from a target, or an insertion into a target. |

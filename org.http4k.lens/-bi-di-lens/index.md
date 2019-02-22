@@ -2,7 +2,7 @@
 
 # BiDiLens
 
-`class BiDiLens<in IN, FINAL> : `[`LensInjector`](../-lens-injector/index.md)`<`[`FINAL`](index.md#FINAL)`, `[`IN`](index.md#IN)`>, `[`Lens`](../-lens/index.md)`<`[`IN`](index.md#IN)`, `[`FINAL`](index.md#FINAL)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/lens.kt#L25)
+`class BiDiLens<in IN : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`, FINAL> : `[`LensInjector`](../-lens-injector/index.md)`<`[`FINAL`](index.md#FINAL)`, `[`IN`](index.md#IN)`>, `[`Lens`](../-lens/index.md)`<`[`IN`](index.md#IN)`, `[`FINAL`](index.md#FINAL)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/lens.kt#L25)
 
 A BiDiLens provides the bi-directional extraction of an entity from a target, or the insertion of an entity
 into a target.

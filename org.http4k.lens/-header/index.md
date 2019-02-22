@@ -4,12 +4,6 @@
 
 `object Header : `[`BiDiLensSpec`](../-bi-di-lens-spec/index.md)`<`[`HttpMessage`](../../org.http4k.core/-http-message/index.md)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/header.kt#L11)
 
-### Types
-
-| Name | Summary |
-|---|---|
-| [Common](-common/index.md) | `object Common` |
-
 ### Properties
 
 | Name | Summary |
@@ -31,6 +25,12 @@
 | [map](../-bi-di-lens-spec/map.md) | `fun <NEXT> map(nextIn: (`[`OUT`](../-bi-di-lens-spec/index.md#OUT)`) -> `[`NEXT`](../-bi-di-lens-spec/map.md#NEXT)`, nextOut: (`[`NEXT`](../-bi-di-lens-spec/map.md#NEXT)`) -> `[`OUT`](../-bi-di-lens-spec/index.md#OUT)`): `[`BiDiLensSpec`](../-bi-di-lens-spec/index.md)`<`[`IN`](../-bi-di-lens-spec/index.md#IN)`, `[`NEXT`](../-bi-di-lens-spec/map.md#NEXT)`>`<br>Create another BiDiLensSpec which applies the bi-directional transformations to the result. Any resultant Lens can be used to extract or insert the final type from/into a target. |
 | [optional](../-bi-di-lens-spec/optional.md) | `open fun optional(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, description: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`BiDiLens`](../-bi-di-lens/index.md)`<`[`IN`](../-bi-di-lens-spec/index.md#IN)`, `[`OUT`](../-bi-di-lens-spec/index.md#OUT)`?>`<br>Make a concrete Lens for this spec that looks for an optional value in the target. |
 | [required](../-bi-di-lens-spec/required.md) | `open fun required(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, description: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`BiDiLens`](../-bi-di-lens/index.md)`<`[`IN`](../-bi-di-lens-spec/index.md#IN)`, `[`OUT`](../-bi-di-lens-spec/index.md#OUT)`>`<br>Make a concrete Lens for this spec that looks for a required value in the target. |
+
+### Extension Properties
+
+| Name | Summary |
+|---|---|
+| [CHAOS](../../org.http4k.chaos/-c-h-a-o-s.md) | `val `[`Header`](./index.md)`.CHAOS: `[`BiDiLens`](../-bi-di-lens/index.md)`<`[`HttpMessage`](../../org.http4k.core/-http-message/index.md)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
 
 ### Extension Functions
 

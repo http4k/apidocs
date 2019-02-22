@@ -31,7 +31,7 @@
 
 | Name | Summary |
 |---|---|
-| [CHAOS](-c-h-a-o-s.md) | `val `[`Common`](../org.http4k.lens/-header/-common/index.md)`.CHAOS: `[`BiDiLens`](../org.http4k.lens/-bi-di-lens/index.md)`<`[`HttpMessage`](../org.http4k.core/-http-message/index.md)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
+| [CHAOS](-c-h-a-o-s.md) | `val `[`Header`](../org.http4k.lens/-header/index.md)`.CHAOS: `[`BiDiLens`](../org.http4k.lens/-bi-di-lens/index.md)`<`[`HttpMessage`](../org.http4k.core/-http-message/index.md)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
 
 ### Functions
 

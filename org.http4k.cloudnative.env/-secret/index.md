@@ -2,7 +2,7 @@
 
 # Secret
 
-`class Secret : `[`Closeable`](http://docs.oracle.com/javase/6/docs/api/java/io/Closeable.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/env/Secret.kt#L11)
+`class Secret : `[`Closeable`](http://docs.oracle.com/javase/6/docs/api/java/io/Closeable.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/env/Secret.kt#L12)
 
 A secret is a value which tries very hard not to expose itself as a string, by storing it's value in a byte array.
 You can "use" the value only once, after which the value is destroyed

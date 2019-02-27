@@ -10,4 +10,4 @@ Single application predicated on the ChaosTrigger. Further matches don't apply
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `operator fun invoke(trigger: `[`Trigger`](../../-trigger.md)`): `[`Trigger`](../../-trigger.md) |
+| [invoke](invoke.md) | `operator fun invoke(trigger: `[`Trigger`](../../-trigger.md)`? = Always): `[`Trigger`](../../-trigger.md) |

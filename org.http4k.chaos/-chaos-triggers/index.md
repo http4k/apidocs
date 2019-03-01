@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [Always](-always/index.md) | `object Always : `[`Trigger`](../-trigger.md)<br>Applies to every transaction. |
+| [Always](-always/index.md) | `object Always`<br>Applies to every transaction. |
 | [Countdown](-countdown/index.md) | `object Countdown`<br>Activates for a maximum number of calls. |
 | [Deadline](-deadline/index.md) | `object Deadline`<br>Activates after a particular instant in time. |
 | [Delay](-delay/index.md) | `object Delay`<br>Activates after a particular delay (compared to instantiation). |

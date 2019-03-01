@@ -8,5 +8,4 @@
 
 | Name | Summary |
 |---|---|
-| [Always](-chaos-triggers/-always/index.md) | `object Always : `[`Trigger`](./-trigger.md)<br>Applies to every transaction. |
 | [SwitchTrigger](-switch-trigger/index.md) | `class SwitchTrigger : `[`Trigger`](./-trigger.md)<br>Simple toggleable trigger to turn ChaosBehaviour on/off |

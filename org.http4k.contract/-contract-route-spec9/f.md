@@ -2,4 +2,4 @@
 
 # f
 
-`val f: `[`PathLens`](../../org.http4k.lens/-path-lens/index.md)`<`[`F`](-binder/index.md#F)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/routeSpec.kt#L173)
+`val f: `[`PathLens`](../../org.http4k.lens/-path-lens/index.md)`<`[`F`](-binder/index.md#F)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/routeSpec.kt#L166)

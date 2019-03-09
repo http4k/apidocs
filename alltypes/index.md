@@ -292,7 +292,7 @@
 | [org.http4k.lens.Unsupported](../org.http4k.lens/-unsupported/index.md) |  |
 | [org.http4k.core.Uri](../org.http4k.core/-uri/index.md) |  |
 | [org.http4k.core.UriTemplate](../org.http4k.core/-uri-template/index.md) |  |
-| [org.http4k.lens.Validator](../org.http4k.lens/-validator/index.md) |  |
+| [org.http4k.lens.Validator](../org.http4k.lens/-validator/index.md) | Runs through a list of lenses and extracts the values from each one, collecting the errors |
 | [org.http4k.template.ViewModel](../org.http4k.template/-view-model/index.md) |  |
 | [org.http4k.template.ViewNotFound](../org.http4k.template/-view-not-found/index.md) |  |
 | [org.http4k.lens.WebForm](../org.http4k.lens/-web-form/index.md) |  |

@@ -46,7 +46,7 @@ Code relevant to extracting and injecting typesafe values into HTTP messages.
 | [RequestContextKey](-request-context-key/index.md) | `object RequestContextKey` |
 | [StringBiDiMappings](-string-bi-di-mappings/index.md) | `object StringBiDiMappings`<br>A set of standardised String &lt;-&gt; Type conversions which are used throughout http4k |
 | [Unsupported](-unsupported/index.md) | `data class Unsupported : `[`Failure`](-failure/index.md) |
-| [Validator](-validator/index.md) | `enum class Validator` |
+| [Validator](-validator/index.md) | `enum class Validator`<br>Runs through a list of lenses and extracts the values from each one, collecting the errors |
 | [WebForm](-web-form/index.md) | `data class WebForm` |
 | [WsMessageLens](-ws-message-lens/index.md) | `open class WsMessageLens<out FINAL> : `[`LensExtractor`](-lens-extractor/index.md)`<`[`WsMessage`](../org.http4k.websocket/-ws-message/index.md)`, `[`FINAL`](-ws-message-lens/index.md#FINAL)`>`<br>A WsMessageLens provides the extraction of an entity from a target WsMessage. |
 | [WsMessageLensSpec](-ws-message-lens-spec/index.md) | `open class WsMessageLensSpec<out OUT>`<br>Represents a extraction of an entity from a target WsMessage. |

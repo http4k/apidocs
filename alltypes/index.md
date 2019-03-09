@@ -105,6 +105,7 @@
 | [org.http4k.core.body.Form](../org.http4k.core.body/-form.md) |  |
 | [org.http4k.lens.FormField](../org.http4k.lens/-form-field.md) |  |
 | [org.http4k.core.FormFile](../org.http4k.core/-form-file/index.md) |  |
+| [org.http4k.template.FreemarkerTemplates](../org.http4k.template/-freemarker-templates/index.md) |  |
 | [kotlin.Function1](../org.http4k.client/kotlin.-function1/index.md) (extensions in package org.http4k.client) |  |
 | [kotlin.Function1](../org.http4k.cloudnative/kotlin.-function1/index.md) (extensions in package org.http4k.cloudnative) |  |
 | [kotlin.Function1](../org.http4k.core/kotlin.-function1/index.md) (extensions in package org.http4k.core) |  |

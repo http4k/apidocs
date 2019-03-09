@@ -9,6 +9,7 @@ Common code relevant to templating implementations.
 | Name | Summary |
 |---|---|
 | [DustTemplates](-dust-templates/index.md) | `class DustTemplates : `[`Templates`](-templates/index.md) |
+| [FreemarkerTemplates](-freemarker-templates/index.md) | `class FreemarkerTemplates : `[`Templates`](-templates/index.md) |
 | [HandlebarsTemplates](-handlebars-templates/index.md) | `class HandlebarsTemplates : `[`Templates`](-templates/index.md)<br>Handlebars templating support. Use the function in the constructor to configure the instance. |
 | [PebbleTemplates](-pebble-templates/index.md) | `class PebbleTemplates : `[`Templates`](-templates/index.md) |
 | [Templates](-templates/index.md) | `interface Templates`<br>Supported template implementations for templating engine implementations |

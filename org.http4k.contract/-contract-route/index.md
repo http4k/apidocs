@@ -2,7 +2,7 @@
 
 # ContractRoute
 
-`class ContractRoute` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/ContractRoute.kt#L19)
+`class ContractRoute` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/ContractRoute.kt#L17)
 
 ### Functions
 

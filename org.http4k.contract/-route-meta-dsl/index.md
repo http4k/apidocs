@@ -12,6 +12,7 @@
 | [description](description.md) | `var description: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |
 | [headers](headers.md) | `var headers: `[`Appendable`](../../org.http4k.util/-appendable/index.md)`<`[`Lens`](../../org.http4k.lens/-lens/index.md)`<`[`Request`](../../org.http4k.core/-request/index.md)`, *>>` |
 | [operationId](operation-id.md) | `var operationId: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |
+| [preFlightExtraction](pre-flight-extraction.md) | `var preFlightExtraction: `[`PreFlightExtraction`](../-pre-flight-extraction/index.md)`?` |
 | [produces](produces.md) | `val produces: `[`Appendable`](../../org.http4k.util/-appendable/index.md)`<`[`ContentType`](../../org.http4k.core/-content-type/index.md)`>` |
 | [queries](queries.md) | `var queries: `[`Appendable`](../../org.http4k.util/-appendable/index.md)`<`[`Lens`](../../org.http4k.lens/-lens/index.md)`<`[`Request`](../../org.http4k.core/-request/index.md)`, *>>` |
 | [summary](summary.md) | `var summary: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |

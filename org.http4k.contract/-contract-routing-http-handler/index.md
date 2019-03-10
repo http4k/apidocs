@@ -2,13 +2,13 @@
 
 # ContractRoutingHttpHandler
 
-`data class ContractRoutingHttpHandler : `[`RoutingHttpHandler`](../../org.http4k.routing/-routing-http-handler/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/ContractRoutingHttpHandler.kt#L17)
+`data class ContractRoutingHttpHandler : `[`RoutingHttpHandler`](../../org.http4k.routing/-routing-http-handler/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/ContractRoutingHttpHandler.kt#L18)
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `ContractRoutingHttpHandler(renderer: `[`ContractRenderer`](../-contract-renderer/index.md)`, security: `[`Security`](../-security/index.md)`, descriptionPath: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, routes: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`ContractRoute`](../-contract-route/index.md)`> = emptyList(), rootAsString: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = "", preSecurityFilter: `[`Filter`](../../org.http4k.core/-filter/index.md)` = Filter.NoOp, postSecurityFilter: `[`Filter`](../../org.http4k.core/-filter/index.md)` = Filter.NoOp)` |
+| [&lt;init&gt;](-init-.md) | `ContractRoutingHttpHandler(renderer: `[`ContractRenderer`](../-contract-renderer/index.md)`, security: `[`Security`](../-security/index.md)`, descriptionPath: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, preFlightExtraction: `[`PreFlightExtraction`](../-pre-flight-extraction/index.md)`, routes: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`ContractRoute`](../-contract-route/index.md)`> = emptyList(), rootAsString: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = "", preSecurityFilter: `[`Filter`](../../org.http4k.core/-filter/index.md)` = Filter.NoOp, postSecurityFilter: `[`Filter`](../../org.http4k.core/-filter/index.md)` = Filter.NoOp)` |
 
 ### Functions
 

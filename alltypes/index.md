@@ -216,6 +216,7 @@
 | [org.http4k.template.PebbleTemplates](../org.http4k.template/-pebble-templates/index.md) |  |
 | [org.http4k.websocket.PolyHandler](../org.http4k.websocket/-poly-handler/index.md) | A PolyHandler represents the combined routing logic of an Http handler and a Websocket handler. ws:// and http:// protocol calls are passed relevantly. |
 | [org.http4k.cloudnative.env.Port](../org.http4k.cloudnative.env/-port/index.md) |  |
+| [org.http4k.contract.PreFlightExtraction](../org.http4k.contract/-pre-flight-extraction/index.md) | Determines which parts of the request should be pre-extracted to check for presence before being passed to the ultimate HttpHandler for this route. Choice will be determined by two competing scenarios: |
 | [org.http4k.websocket.PushPullAdaptingWebSocket](../org.http4k.websocket/-push-pull-adapting-web-socket/index.md) |  |
 | [org.http4k.lens.Query](../org.http4k.lens/-query.md) |  |
 | [org.http4k.lens.QueryLens](../org.http4k.lens/-query-lens.md) |  |

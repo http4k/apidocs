@@ -59,6 +59,7 @@
 | [org.http4k.server.ConnectorBuilder](../org.http4k.server/-connector-builder.md) |  |
 | [org.http4k.lens.ContentNegotiation](../org.http4k.lens/-content-negotiation/index.md) | Modes for determining if a passed content type is acceptable. |
 | [org.http4k.core.ContentType](../org.http4k.core/-content-type/index.md) |  |
+| [org.http4k.contract.ContractBuilder](../org.http4k.contract/-contract-builder/index.md) |  |
 | [org.http4k.contract.ContractRenderer](../org.http4k.contract/-contract-renderer/index.md) |  |
 | [org.http4k.contract.ContractRoute](../org.http4k.contract/-contract-route/index.md) |  |
 | [org.http4k.contract.ContractRouteSpec](../org.http4k.contract/-contract-route-spec/index.md) |  |

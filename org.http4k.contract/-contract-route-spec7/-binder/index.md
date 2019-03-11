@@ -20,4 +20,4 @@
 
 | Name | Summary |
 |---|---|
-| [newRequest](../../-contract-route-spec/-contract-request-builder/new-request.md) | `fun newRequest(baseUri: `[`Uri`](../../../org.http4k.core/-uri/index.md)`): `[`Request`](../../../org.http4k.core/-request/index.md) |
+| [newRequest](../../-contract-route-spec/-contract-request-builder/new-request.md) | `fun newRequest(baseUri: `[`Uri`](../../../org.http4k.core/-uri/index.md)` = Uri.of("")): `[`Request`](../../../org.http4k.core/-request/index.md) |

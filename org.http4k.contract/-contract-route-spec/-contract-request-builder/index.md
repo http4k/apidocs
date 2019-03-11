@@ -14,7 +14,7 @@
 
 | Name | Summary |
 |---|---|
-| [newRequest](new-request.md) | `fun newRequest(baseUri: `[`Uri`](../../../org.http4k.core/-uri/index.md)`): `[`Request`](../../../org.http4k.core/-request/index.md) |
+| [newRequest](new-request.md) | `fun newRequest(baseUri: `[`Uri`](../../../org.http4k.core/-uri/index.md)` = Uri.of("")): `[`Request`](../../../org.http4k.core/-request/index.md) |
 
 ### Inheritors
 

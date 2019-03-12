@@ -22,6 +22,8 @@
 | [org.http4k.aws.AwsCredentialScope](../org.http4k.aws/-aws-credential-scope/index.md) |  |
 | [org.http4k.aws.AwsCredentials](../org.http4k.aws/-aws-credentials/index.md) |  |
 | [org.http4k.aws.AwsHmacSha256](../org.http4k.aws/-aws-hmac-sha256/index.md) |  |
+| [org.http4k.cloudnative.BadGateway](../org.http4k.cloudnative/-bad-gateway/index.md) |  |
+| [org.http4k.cloudnative.BadRequest](../org.http4k.cloudnative/-bad-request/index.md) |  |
 | [org.http4k.filter.cookie.BasicCookieStorage](../org.http4k.filter.cookie/-basic-cookie-storage/index.md) |  |
 | [org.http4k.chaos.Behaviour](../org.http4k.chaos/-behaviour.md) | Encapsulates the type of bad behaviour to apply to the response. |
 | [org.http4k.lens.BiDiBodyLens](../org.http4k.lens/-bi-di-body-lens/index.md) | A BiDiBodyLens provides the bi-directional extraction of an entity from a target body, or the insertion of an entity into a target body. |
@@ -50,12 +52,14 @@
 | [org.http4k.chaos.ChaosStages](../org.http4k.chaos/-chaos-stages/index.md) |  |
 | [org.http4k.chaos.ChaosTriggers](../org.http4k.chaos/-chaos-triggers/index.md) |  |
 | [org.http4k.filter.ClientFilters](../org.http4k.filter/-client-filters/index.md) |  |
+| [org.http4k.cloudnative.ClientTimeout](../org.http4k.cloudnative/-client-timeout/index.md) |  |
 | [org.http4k.testing.ClosedWebsocket](../org.http4k.testing/-closed-websocket/index.md) |  |
 | [org.http4k.cloudnative.health.Completed](../org.http4k.cloudnative.health/-completed/index.md) |  |
 | [org.http4k.cloudnative.health.Composite](../org.http4k.cloudnative.health/-composite/index.md) | Result of multiple checks, for which it reports an overall result (ie. any failure is fatal). |
 | [org.http4k.format.ConfigurableGson](../org.http4k.format/-configurable-gson/index.md) |  |
 | [org.http4k.format.ConfigurableJackson](../org.http4k.format/-configurable-jackson/index.md) |  |
 | [org.http4k.format.ConfigurableMoshi](../org.http4k.format/-configurable-moshi/index.md) |  |
+| [org.http4k.cloudnative.Conflict](../org.http4k.cloudnative/-conflict/index.md) |  |
 | [org.http4k.server.ConnectorBuilder](../org.http4k.server/-connector-builder.md) |  |
 | [org.http4k.lens.ContentNegotiation](../org.http4k.lens/-content-negotiation/index.md) | Modes for determining if a passed content type is acceptable. |
 | [org.http4k.core.ContentType](../org.http4k.core/-content-type/index.md) |  |
@@ -142,6 +146,7 @@
 | [org.http4k.util.IllegalSchemaException](../org.http4k.util/-illegal-schema-exception/index.md) |  |
 | [org.http4k.routing.experimental.InMemoryResource](../org.http4k.routing.experimental/-in-memory-resource/index.md) |  |
 | [org.http4k.security.InsecureCookieBasedOAuthPersistence](../org.http4k.security/-insecure-cookie-based-o-auth-persistence/index.md) | This is an example implementation which stores CSRF and AccessTokenEnvelope values in an INSECURE client-side cookie. Access-tokens for end-services are fully available to the browser so do not use this in production! |
+| [org.http4k.cloudnative.InternalServerError](../org.http4k.cloudnative/-internal-server-error/index.md) |  |
 | [org.http4k.lens.Invalid](../org.http4k.lens/-invalid/index.md) |  |
 | [org.http4k.format.InvalidJsonException](../org.http4k.format/-invalid-json-exception/index.md) |  |
 | [org.http4k.webdriver.JSoupWebElement](../org.http4k.webdriver/-j-soup-web-element/index.md) |  |
@@ -198,6 +203,7 @@
 | [org.http4k.server.Netty](../org.http4k.server/-netty/index.md) |  |
 | [org.http4k.contract.NoRenderer](../org.http4k.contract/-no-renderer/index.md) |  |
 | [org.http4k.contract.NoSecurity](../org.http4k.contract/-no-security/index.md) | Default NoOp security filter. Filter allows all traffic through. |
+| [org.http4k.cloudnative.NotFound](../org.http4k.cloudnative/-not-found/index.md) |  |
 | [org.http4k.security.OAuthCallback](../org.http4k.security/-o-auth-callback/index.md) |  |
 | [org.http4k.security.OAuthPersistence](../org.http4k.security/-o-auth-persistence/index.md) | Provides persistence for OAuth lifecycle values: |
 | [org.http4k.security.OAuthProvider](../org.http4k.security/-o-auth-provider/index.md) | Provides a configured set of objects for use with an OAuth2 provider. |
@@ -260,6 +266,7 @@
 | [org.http4k.contract.Security](../org.http4k.contract/-security/index.md) | Endpoint security. Provides filter to be applied to endpoints for all requests. |
 | [org.http4k.server.ServerConfig](../org.http4k.server/-server-config/index.md) | Standard interface for creating a configured WebServer |
 | [org.http4k.filter.ServerFilters](../org.http4k.filter/-server-filters/index.md) |  |
+| [org.http4k.cloudnative.ServiceUnavailable](../org.http4k.cloudnative/-service-unavailable/index.md) |  |
 | [org.http4k.contract.SimpleJson](../org.http4k.contract/-simple-json/index.md) |  |
 | [org.http4k.traffic.Sink](../org.http4k.traffic/-sink/index.md) | Consumes HTTP traffic for storage. |
 | [org.http4k.contract.Slash](../org.http4k.contract/-slash/index.md) |  |
@@ -293,6 +300,7 @@
 | [org.http4k.routing.experimental.URLResource](../org.http4k.routing.experimental/-u-r-l-resource/index.md) |  |
 | [org.http4k.server.Undertow](../org.http4k.server/-undertow/index.md) |  |
 | [org.http4k.lens.Unsupported](../org.http4k.lens/-unsupported/index.md) |  |
+| [org.http4k.cloudnative.UpstreamRequestFailed](../org.http4k.cloudnative/-upstream-request-failed/index.md) | This hierarchy of exceptions should be used to indicate that an upstream remote system has failed with a non-successful status code which caused us to stop processing. They are designed to be used with the Server and Client filters which will allow automatic handling and propagation of erroneous responses from upstream. |
 | [org.http4k.core.Uri](../org.http4k.core/-uri/index.md) |  |
 | [org.http4k.core.UriTemplate](../org.http4k.core/-uri-template/index.md) |  |
 | [org.http4k.lens.Validator](../org.http4k.lens/-validator/index.md) | Runs through a list of lenses and extracts the values from each one, collecting the errors |

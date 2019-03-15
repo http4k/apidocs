@@ -2,7 +2,7 @@
 
 # typeOf
 
-`open fun typeOf(value: JsonNode): `[`JsonType`](../-json-type/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-jackson/src/main/kotlin/org/http4k/format/ConfigurableJackson.kt#L25)
+`open fun typeOf(value: JsonNode): `[`JsonType`](../-json-type/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-jackson/src/main/kotlin/org/http4k/format/ConfigurableJackson.kt#L26)
 
 Overrides [Json.typeOf](../-json/type-of.md)
 

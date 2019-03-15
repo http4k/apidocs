@@ -2,7 +2,7 @@
 
 # ConfigurableJacksonXml
 
-`open class ConfigurableJacksonXml : `[`AutoMarshallingXml`](../-auto-marshalling-xml/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-jackson/src/main/kotlin/org/http4k/format/ConfgurableJacksonXml.kt#L6)
+`open class ConfigurableJacksonXml : `[`AutoMarshallingXml`](../-auto-marshalling-xml/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-jackson-xml/src/main/kotlin/org/http4k/format/ConfgurableJacksonXml.kt#L8)
 
 ### Constructors
 

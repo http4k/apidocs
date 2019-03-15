@@ -2,7 +2,7 @@
 
 # JacksonXml
 
-`object JacksonXml : `[`ConfigurableJacksonXml`](-configurable-jackson-xml/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-jackson/src/main/kotlin/org/http4k/format/JacksonXml.kt#L9)
+`object JacksonXml : `[`ConfigurableJacksonXml`](-configurable-jackson-xml/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-jackson-xml/src/main/kotlin/org/http4k/format/JacksonXml.kt#L9)
 
 To implement custom XML configuration, create your own object singleton. Extra mappings can be added before done() is called.
 

@@ -19,6 +19,8 @@
 | [org.http4k.cloudnative.env.Authority](../org.http4k.cloudnative.env/-authority/index.md) |  |
 | [org.http4k.format.AutoMappingConfiguration](../org.http4k.format/-auto-mapping-configuration/index.md) | This is the generic interface used to configure auto-mapping functionality for message format libraries. The various methods here can be used to provide custom mapping behaviour (say for domain classes). |
 | [org.http4k.format.AutoMarshallingJson](../org.http4k.format/-auto-marshalling-json/index.md) |  |
+| [org.http4k.format.AutoMarshallingXml](../org.http4k.format/-auto-marshalling-xml/index.md) |  |
+| [org.http4k.format.AutoXmlContract](../org.http4k.format/-auto-xml-contract/index.md) |  |
 | [org.http4k.aws.AwsCredentialScope](../org.http4k.aws/-aws-credential-scope/index.md) |  |
 | [org.http4k.aws.AwsCredentials](../org.http4k.aws/-aws-credentials/index.md) |  |
 | [org.http4k.aws.AwsHmacSha256](../org.http4k.aws/-aws-hmac-sha256/index.md) |  |
@@ -58,6 +60,7 @@
 | [org.http4k.cloudnative.health.Composite](../org.http4k.cloudnative.health/-composite/index.md) | Result of multiple checks, for which it reports an overall result (ie. any failure is fatal). |
 | [org.http4k.format.ConfigurableGson](../org.http4k.format/-configurable-gson/index.md) |  |
 | [org.http4k.format.ConfigurableJackson](../org.http4k.format/-configurable-jackson/index.md) |  |
+| [org.http4k.format.ConfigurableJacksonXml](../org.http4k.format/-configurable-jackson-xml/index.md) |  |
 | [org.http4k.format.ConfigurableMoshi](../org.http4k.format/-configurable-moshi/index.md) |  |
 | [org.http4k.cloudnative.Conflict](../org.http4k.cloudnative/-conflict/index.md) |  |
 | [org.http4k.server.ConnectorBuilder](../org.http4k.server/-connector-builder.md) |  |
@@ -151,6 +154,7 @@
 | [org.http4k.format.InvalidJsonException](../org.http4k.format/-invalid-json-exception/index.md) |  |
 | [org.http4k.webdriver.JSoupWebElement](../org.http4k.webdriver/-j-soup-web-element/index.md) |  |
 | [org.http4k.format.Jackson](../org.http4k.format/-jackson.md) | To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called. |
+| [org.http4k.format.JacksonXml](../org.http4k.format/-jackson-xml.md) | To implement custom XML configuration, create your own object singleton. Extra mappings can be added before done() is called. |
 | [org.http4k.client.JavaHttpClient](../org.http4k.client/-java-http-client/index.md) |  |
 | [org.http4k.server.Jetty](../org.http4k.server/-jetty/index.md) |  |
 | [org.http4k.client.JettyClient](../org.http4k.client/-jetty-client/index.md) |  |

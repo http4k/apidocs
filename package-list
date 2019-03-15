@@ -39,6 +39,7 @@ $dokka.location:org.http4k.core.body$toBody(kotlin.collections.List((kotlin.Pair
 $dokka.location:org.http4k.format$asConfigurable(com.fasterxml.jackson.module.kotlin.KotlinModule)org.http4k.format/com.fasterxml.jackson.module.kotlin.-kotlin-module/as-configurable.md
 $dokka.location:org.http4k.format$asConfigurable(com.google.gson.GsonBuilder)org.http4k.format/com.google.gson.-gson-builder/as-configurable.md
 $dokka.location:org.http4k.format$asConfigurable(com.squareup.moshi.Moshi.Builder)org.http4k.format/com.squareup.moshi.-moshi.-builder/as-configurable.md
+$dokka.location:org.http4k.format$asConfigurableXml(com.fasterxml.jackson.module.kotlin.KotlinModule)org.http4k.format/com.fasterxml.jackson.module.kotlin.-kotlin-module/as-configurable-xml.md
 $dokka.location:org.http4k.routing$bind(kotlin.String, kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)))org.http4k.routing/kotlin.-string/bind.md
 $dokka.location:org.http4k.routing$bind(kotlin.String, kotlin.Function1((org.http4k.websocket.Websocket, kotlin.Unit)))org.http4k.routing/kotlin.-string/bind.md
 $dokka.location:org.http4k.routing$bind(kotlin.String, org.http4k.core.Method)org.http4k.routing/kotlin.-string/bind.md

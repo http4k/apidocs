@@ -2,4 +2,9 @@
 
 # asXmlString
 
-`fun `[`Document`](https://kotlinlang.org/api/latest/jvm/stdlib/org.w3c.dom/-document/index.html)`.asXmlString(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-xml/src/main/kotlin/org/http4k/format/Xml.kt#L37)
+`fun `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`.asXmlString(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-xml/src/main/kotlin/org/http4k/format/Xml.kt#L26)
+
+Overrides [AutoMarshallingXml.asXmlString](../-auto-marshalling-xml/as-xml-string.md)
+
+
+`fun `[`Document`](https://kotlinlang.org/api/latest/jvm/stdlib/org.w3c.dom/-document/index.html)`.asXmlString(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-xml/src/main/kotlin/org/http4k/format/Xml.kt#L38)

@@ -2,4 +2,4 @@
 
 # asConfigurable
 
-`fun KotlinModule.asConfigurable(): `[`AutoMappingConfiguration`](../-auto-mapping-configuration/index.md)`<ObjectMapper>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-jackson/src/main/kotlin/org/http4k/format/internalJackson.kt#L102)
+`fun KotlinModule.asConfigurable(): `[`AutoMappingConfiguration`](../-auto-mapping-configuration/index.md)`<ObjectMapper>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-jackson/src/main/kotlin/org/http4k/format/configurable.kt#L18)

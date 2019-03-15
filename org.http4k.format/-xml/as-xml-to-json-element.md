@@ -2,4 +2,4 @@
 
 # asXmlToJsonElement
 
-`fun `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`.asXmlToJsonElement(): JsonElement` [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-xml/src/main/kotlin/org/http4k/format/Xml.kt#L29)
+`fun `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`.asXmlToJsonElement(): JsonElement` [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-xml/src/main/kotlin/org/http4k/format/Xml.kt#L30)

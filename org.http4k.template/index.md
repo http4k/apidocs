@@ -38,4 +38,5 @@ Common code relevant to templating implementations.
 
 | Name | Summary |
 |---|---|
-| [view](view.md) | `fun Body.Companion.view(renderer: `[`TemplateRenderer`](-template-renderer.md)`, contentType: `[`ContentType`](../org.http4k.core/-content-type/index.md)`): `[`BiDiBodyLens`](../org.http4k.lens/-bi-di-body-lens/index.md)`<`[`ViewModel`](-view-model/index.md)`>` |
+| [view](view.md) | `fun Body.Companion.~~view~~(renderer: `[`TemplateRenderer`](-template-renderer.md)`, contentType: `[`ContentType`](../org.http4k.core/-content-type/index.md)`): `[`BiDiBodyLens`](../org.http4k.lens/-bi-di-body-lens/index.md)`<`[`ViewModel`](-view-model/index.md)`>` |
+| [viewModel](view-model.md) | `fun Body.Companion.viewModel(renderer: `[`TemplateRenderer`](-template-renderer.md)`, contentType: `[`ContentType`](../org.http4k.core/-content-type/index.md)`): `[`BiDiBodyLensSpec`](../org.http4k.lens/-bi-di-body-lens-spec/index.md)`<`[`ViewModel`](-view-model/index.md)`>` |

@@ -11,17 +11,21 @@ Common code relevant to the various message format implementations (eg. JSON).
 | [Argo](-argo/index.md) | `object Argo : `[`Json`](-json/index.md)`<JsonNode>` |
 | [AutoMappingConfiguration](-auto-mapping-configuration/index.md) | `interface AutoMappingConfiguration<T>`<br>This is the generic interface used to configure auto-mapping functionality for message format libraries. The various methods here can be used to provide custom mapping behaviour (say for domain classes). |
 | [AutoMarshallingJson](-auto-marshalling-json/index.md) | `abstract class AutoMarshallingJson` |
+| [AutoMarshallingXml](-auto-marshalling-xml/index.md) | `abstract class AutoMarshallingXml` |
+| [AutoXmlContract](-auto-xml-contract/index.md) | `abstract class AutoXmlContract` |
 | [ConfigurableGson](-configurable-gson/index.md) | `open class ConfigurableGson : `[`JsonLibAutoMarshallingJson`](-json-lib-auto-marshalling-json/index.md)`<JsonElement>` |
 | [ConfigurableJackson](-configurable-jackson/index.md) | `open class ConfigurableJackson : `[`JsonLibAutoMarshallingJson`](-json-lib-auto-marshalling-json/index.md)`<JsonNode>` |
+| [ConfigurableJacksonXml](-configurable-jackson-xml/index.md) | `open class ConfigurableJacksonXml : `[`AutoMarshallingXml`](-auto-marshalling-xml/index.md) |
 | [ConfigurableMoshi](-configurable-moshi/index.md) | `open class ConfigurableMoshi : `[`AutoMarshallingJson`](-auto-marshalling-json/index.md) |
 | [Gson](-gson.md) | `object Gson : `[`ConfigurableGson`](-configurable-gson/index.md)<br>To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called. |
 | [Jackson](-jackson.md) | `object Jackson : `[`ConfigurableJackson`](-configurable-jackson/index.md)<br>To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called. |
+| [JacksonXml](-jackson-xml.md) | `object JacksonXml : `[`ConfigurableJacksonXml`](-configurable-jackson-xml/index.md)<br>To implement custom XML configuration, create your own object singleton. Extra mappings can be added before done() is called. |
 | [Json](-json/index.md) | `interface Json<NODE>`<br>This is the contract for all JSON implementations |
 | [JsonErrorResponseRenderer](-json-error-response-renderer/index.md) | `class JsonErrorResponseRenderer<out NODE>` |
 | [JsonLibAutoMarshallingJson](-json-lib-auto-marshalling-json/index.md) | `abstract class JsonLibAutoMarshallingJson<NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`AutoMarshallingJson`](-auto-marshalling-json/index.md)`, `[`Json`](-json/index.md)`<`[`NODE`](-json-lib-auto-marshalling-json/index.md#NODE)`>` |
 | [JsonType](-json-type/index.md) | `enum class JsonType` |
 | [Moshi](-moshi.md) | `object Moshi : `[`ConfigurableMoshi`](-configurable-moshi/index.md)<br>To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called. |
-| [Xml](-xml/index.md) | `object Xml` |
+| [Xml](-xml/index.md) | `object Xml : `[`AutoMarshallingXml`](-auto-marshalling-xml/index.md) |
 
 ### Exceptions
 

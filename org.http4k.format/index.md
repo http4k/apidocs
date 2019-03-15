@@ -12,7 +12,6 @@ Common code relevant to the various message format implementations (eg. JSON).
 | [AutoMappingConfiguration](-auto-mapping-configuration/index.md) | `interface AutoMappingConfiguration<T>`<br>This is the generic interface used to configure auto-mapping functionality for message format libraries. The various methods here can be used to provide custom mapping behaviour (say for domain classes). |
 | [AutoMarshallingJson](-auto-marshalling-json/index.md) | `abstract class AutoMarshallingJson` |
 | [AutoMarshallingXml](-auto-marshalling-xml/index.md) | `abstract class AutoMarshallingXml` |
-| [AutoXmlContract](-auto-xml-contract/index.md) | `abstract class AutoXmlContract` |
 | [ConfigurableGson](-configurable-gson/index.md) | `open class ConfigurableGson : `[`JsonLibAutoMarshallingJson`](-json-lib-auto-marshalling-json/index.md)`<JsonElement>` |
 | [ConfigurableJackson](-configurable-jackson/index.md) | `open class ConfigurableJackson : `[`JsonLibAutoMarshallingJson`](-json-lib-auto-marshalling-json/index.md)`<JsonNode>` |
 | [ConfigurableJacksonXml](-configurable-jackson-xml/index.md) | `open class ConfigurableJacksonXml : `[`AutoMarshallingXml`](-auto-marshalling-xml/index.md) |

@@ -20,7 +20,6 @@
 | [org.http4k.format.AutoMappingConfiguration](../org.http4k.format/-auto-mapping-configuration/index.md) | This is the generic interface used to configure auto-mapping functionality for message format libraries. The various methods here can be used to provide custom mapping behaviour (say for domain classes). |
 | [org.http4k.format.AutoMarshallingJson](../org.http4k.format/-auto-marshalling-json/index.md) |  |
 | [org.http4k.format.AutoMarshallingXml](../org.http4k.format/-auto-marshalling-xml/index.md) |  |
-| [org.http4k.format.AutoXmlContract](../org.http4k.format/-auto-xml-contract/index.md) |  |
 | [org.http4k.aws.AwsCredentialScope](../org.http4k.aws/-aws-credential-scope/index.md) |  |
 | [org.http4k.aws.AwsCredentials](../org.http4k.aws/-aws-credentials/index.md) |  |
 | [org.http4k.aws.AwsHmacSha256](../org.http4k.aws/-aws-hmac-sha256/index.md) |  |

@@ -122,10 +122,11 @@
 | [kotlin.Function1](../org.http4k.testing/kotlin.-function1/index.md) (extensions in package org.http4k.testing) |  |
 | [kotlin.Function1](../org.http4k.chaos/kotlin.-function1/index.md) (extensions in package org.http4k.chaos) |  |
 | [org.http4k.filter.GenerateDataClasses](../org.http4k.filter/-generate-data-classes/index.md) | This Filter is used to generate Data class definitions from a Response containing JSON. The Filter will try and reduce the number of class definitions by selecting the definition with the most fields (for cases where lists of items have different fields). |
-| [org.http4k.filter.GenerateXmlDataClasses](../org.http4k.filter/-generate-xml-data-classes/index.md) |  |
+| [org.http4k.filter.GenerateXmlDataClasses](../org.http4k.filter/-generate-xml-data-classes/index.md) | This Filter is used to generate Data class definitions from a Response containing XML. The Filter will try and reduce the number of class definitions by selecting the definition with the most fields (for cases where lists of items have different fields). |
 | [org.http4k.webdriver.GetURL](../org.http4k.webdriver/-get-u-r-l.md) |  |
 | [org.http4k.format.Gson](../org.http4k.format/-gson.md) | To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called. |
 | [com.google.gson.GsonBuilder](../org.http4k.format/com.google.gson.-gson-builder/index.md) (extensions in package org.http4k.format) |  |
+| [org.http4k.filter.GsonGenerateXmlDataClasses](../org.http4k.filter/-gson-generate-xml-data-classes/index.md) | Provides an implementation of GenerateXmlDataClasses using GSON as an engine. |
 | [org.http4k.template.HandlebarsTemplates](../org.http4k.template/-handlebars-templates/index.md) | Handlebars templating support. Use the function in the constructor to configure the instance. |
 | [org.http4k.lens.Header](../org.http4k.lens/-header/index.md) |  |
 | [org.http4k.lens.HeaderLens](../org.http4k.lens/-header-lens.md) |  |
@@ -154,6 +155,7 @@
 | [org.http4k.webdriver.JSoupWebElement](../org.http4k.webdriver/-j-soup-web-element/index.md) |  |
 | [org.http4k.format.Jackson](../org.http4k.format/-jackson.md) | To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called. |
 | [org.http4k.format.JacksonXml](../org.http4k.format/-jackson-xml.md) | To implement custom XML configuration, create your own object singleton. Extra mappings can be added before done() is called. |
+| [org.http4k.filter.JacksonXmlGenerateXmlDataClasses](../org.http4k.filter/-jackson-xml-generate-xml-data-classes/index.md) | Provides an implementation of GenerateXmlDataClasses using GSON as an engine. |
 | [org.http4k.client.JavaHttpClient](../org.http4k.client/-java-http-client/index.md) |  |
 | [org.http4k.server.Jetty](../org.http4k.server/-jetty/index.md) |  |
 | [org.http4k.client.JettyClient](../org.http4k.client/-jetty-client/index.md) |  |

@@ -77,6 +77,7 @@ org.http4k.lens
 org.http4k.routing
 org.http4k.routing.experimental
 org.http4k.security
+org.http4k.security.oauth.server
 org.http4k.server
 org.http4k.serverless
 org.http4k.serverless.lambda

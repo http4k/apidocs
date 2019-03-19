@@ -5,6 +5,8 @@
 | Name | Summary |
 |---|---|
 | [org.http4k.security.AccessTokenContainer](../org.http4k.security/-access-token-container/index.md) |  |
+| [org.http4k.security.oauth.server.AccessTokenRequest](../org.http4k.security.oauth.server/-access-token-request/index.md) |  |
+| [org.http4k.security.oauth.server.AccessTokens](../org.http4k.security.oauth.server/-access-tokens/index.md) | Provides a consistent way to generate access tokens |
 | [org.http4k.client.ApacheAsyncClient](../org.http4k.client/-apache-async-client/index.md) |  |
 | [org.http4k.client.ApacheClient](../org.http4k.client/-apache-client/index.md) |  |
 | [org.http4k.server.ApacheServer](../org.http4k.server/-apache-server/index.md) |  |
@@ -16,7 +18,14 @@
 | [io.ktor.response.ApplicationResponse](../org.http4k.server/io.ktor.response.-application-response/index.md) (extensions in package org.http4k.server) |  |
 | [org.http4k.format.Argo](../org.http4k.format/-argo/index.md) |  |
 | [org.http4k.client.AsyncHttpClient](../org.http4k.client/-async-http-client/index.md) |  |
+| [org.http4k.security.oauth.server.AuthRequest](../org.http4k.security.oauth.server/-auth-request/index.md) |  |
+| [org.http4k.security.oauth.server.AuthRequestPersistence](../org.http4k.security.oauth.server/-auth-request-persistence/index.md) | Provides a mechanism to store OAuth authorization parameters to be used later (i.e. can be used later to generate code and/or tokens) |
+| [org.http4k.security.oauth.server.AuthRequestPersistenceFilter](../org.http4k.security.oauth.server/-auth-request-persistence-filter/index.md) |  |
+| [org.http4k.security.oauth.server.AuthenticationCompleteFilter](../org.http4k.security.oauth.server/-authentication-complete-filter/index.md) |  |
 | [org.http4k.cloudnative.env.Authority](../org.http4k.cloudnative.env/-authority/index.md) |  |
+| [org.http4k.security.oauth.server.AuthorizationCode](../org.http4k.security.oauth.server/-authorization-code/index.md) |  |
+| [org.http4k.security.oauth.server.AuthorizationCodeDetails](../org.http4k.security.oauth.server/-authorization-code-details/index.md) |  |
+| [org.http4k.security.oauth.server.AuthorizationCodes](../org.http4k.security.oauth.server/-authorization-codes/index.md) | Provides a consistent way to manage authorization codes |
 | [org.http4k.format.AutoMappingConfiguration](../org.http4k.format/-auto-mapping-configuration/index.md) | This is the generic interface used to configure auto-mapping functionality for message format libraries. The various methods here can be used to provide custom mapping behaviour (say for domain classes). |
 | [org.http4k.format.AutoMarshallingJson](../org.http4k.format/-auto-marshalling-json/index.md) |  |
 | [org.http4k.format.AutoMarshallingXml](../org.http4k.format/-auto-marshalling-xml/index.md) |  |
@@ -53,7 +62,10 @@
 | [org.http4k.chaos.ChaosStages](../org.http4k.chaos/-chaos-stages/index.md) |  |
 | [org.http4k.chaos.ChaosTriggers](../org.http4k.chaos/-chaos-triggers/index.md) |  |
 | [org.http4k.filter.ClientFilters](../org.http4k.filter/-client-filters/index.md) |  |
+| [org.http4k.security.oauth.server.ClientId](../org.http4k.security.oauth.server/-client-id/index.md) |  |
 | [org.http4k.cloudnative.ClientTimeout](../org.http4k.cloudnative/-client-timeout/index.md) |  |
+| [org.http4k.security.oauth.server.ClientValidationFilter](../org.http4k.security.oauth.server/-client-validation-filter/index.md) |  |
+| [org.http4k.security.oauth.server.ClientValidator](../org.http4k.security.oauth.server/-client-validator/index.md) | Provides a consistent way to retrieve clients attempting to use an authorization code flow |
 | [org.http4k.testing.ClosedWebsocket](../org.http4k.testing/-closed-websocket/index.md) |  |
 | [org.http4k.cloudnative.health.Completed](../org.http4k.cloudnative.health/-completed/index.md) |  |
 | [org.http4k.cloudnative.health.Composite](../org.http4k.cloudnative.health/-composite/index.md) | Result of multiple checks, for which it reports an overall result (ie. any failure is fatal). |
@@ -121,6 +133,7 @@
 | [kotlin.Function1](../org.http4k.template/kotlin.-function1/index.md) (extensions in package org.http4k.template) |  |
 | [kotlin.Function1](../org.http4k.testing/kotlin.-function1/index.md) (extensions in package org.http4k.testing) |  |
 | [kotlin.Function1](../org.http4k.chaos/kotlin.-function1/index.md) (extensions in package org.http4k.chaos) |  |
+| [org.http4k.security.oauth.server.GenerateAccessToken](../org.http4k.security.oauth.server/-generate-access-token/index.md) |  |
 | [org.http4k.filter.GenerateDataClasses](../org.http4k.filter/-generate-data-classes/index.md) | This Filter is used to generate Data class definitions from a Response containing JSON. The Filter will try and reduce the number of class definitions by selecting the definition with the most fields (for cases where lists of items have different fields). |
 | [org.http4k.filter.GenerateXmlDataClasses](../org.http4k.filter/-generate-xml-data-classes/index.md) | This Filter is used to generate Data class definitions from a Response containing XML. The Filter will try and reduce the number of class definitions by selecting the definition with the most fields (for cases where lists of items have different fields). |
 | [org.http4k.webdriver.GetURL](../org.http4k.webdriver/-get-u-r-l.md) |  |
@@ -148,6 +161,7 @@
 | [org.http4k.server.HttpUndertowHandler](../org.http4k.server/-http-undertow-handler/index.md) | Exposed to allow for insertion into a customised Undertow server instance |
 | [org.http4k.util.IllegalSchemaException](../org.http4k.util/-illegal-schema-exception/index.md) |  |
 | [org.http4k.routing.experimental.InMemoryResource](../org.http4k.routing.experimental/-in-memory-resource/index.md) |  |
+| [org.http4k.security.oauth.server.InsecureCookieBasedAuthRequestPersistence](../org.http4k.security.oauth.server/-insecure-cookie-based-auth-request-persistence/index.md) |  |
 | [org.http4k.security.InsecureCookieBasedOAuthPersistence](../org.http4k.security/-insecure-cookie-based-o-auth-persistence/index.md) | This is an example implementation which stores CSRF and AccessTokenEnvelope values in an INSECURE client-side cookie. Access-tokens for end-services are fully available to the browser so do not use this in production! |
 | [org.http4k.cloudnative.InternalServerError](../org.http4k.cloudnative/-internal-server-error/index.md) |  |
 | [org.http4k.lens.Invalid](../org.http4k.lens/-invalid/index.md) |  |
@@ -214,6 +228,7 @@
 | [org.http4k.security.OAuthProvider](../org.http4k.security/-o-auth-provider/index.md) | Provides a configured set of objects for use with an OAuth2 provider. |
 | [org.http4k.security.OAuthProviderConfig](../org.http4k.security/-o-auth-provider-config/index.md) |  |
 | [org.http4k.security.OAuthRedirectionFilter](../org.http4k.security/-o-auth-redirection-filter/index.md) |  |
+| [org.http4k.security.oauth.server.OAuthServer](../org.http4k.security.oauth.server/-o-auth-server/index.md) | Provide help creating OAuth Authorization Server with Authorization Code Flow |
 | [org.http4k.client.OkHttp](../org.http4k.client/-ok-http/index.md) |  |
 | [org.http4k.contract.OpenApi](../org.http4k.contract/-open-api/index.md) |  |
 | [org.http4k.webdriver.Page](../org.http4k.webdriver/-page/index.md) |  |

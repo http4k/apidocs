@@ -2,7 +2,7 @@
 
 # detailsFor
 
-`abstract fun detailsFor(code: `[`AuthorizationCode`](../-authorization-code/index.md)`): `[`AuthorizationCodeDetails`](../-authorization-code-details/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/AuthorizationCodes.kt#L20)
+`abstract fun detailsFor(code: `[`AuthorizationCode`](../-authorization-code/index.md)`): `[`AuthorizationCodeDetails`](../-authorization-code-details/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/AuthorizationCodes.kt#L21)
 
 Retrieve the details of an authorization code
 

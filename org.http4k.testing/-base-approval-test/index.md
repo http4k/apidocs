@@ -2,7 +2,7 @@
 
 # BaseApprovalTest
 
-`interface BaseApprovalTest : BeforeTestExecutionCallback, ParameterResolver` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-approval/src/main/kotlin/org/http4k/testing/ApprovalTest.kt#L21)
+`interface BaseApprovalTest : BeforeTestExecutionCallback, ParameterResolver` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-approval/src/main/kotlin/org/http4k/testing/ApprovalTest.kt#L23)
 
 Base JUnit extension for injecting an Approver into a JUnit5 test-case. Implement this
 to provide custom approval behaviours, or

@@ -2,7 +2,7 @@
 
 # ApprovalTest
 
-`class ApprovalTest : `[`BaseApprovalTest`](../-base-approval-test/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-approval/src/main/kotlin/org/http4k/testing/ApprovalTest.kt#L41)
+`class ApprovalTest : `[`BaseApprovalTest`](../-base-approval-test/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-approval/src/main/kotlin/org/http4k/testing/ApprovalTest.kt#L43)
 
 Standard Approval JUnit5 extension. Can be used to compare any HttpMessages.
 

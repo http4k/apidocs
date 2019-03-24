@@ -2,7 +2,7 @@
 
 # JsonApprovalTest
 
-`class JsonApprovalTest : `[`BaseApprovalTest`](../-base-approval-test/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-approval/src/main/kotlin/org/http4k/testing/ApprovalTest.kt#L52)
+`class JsonApprovalTest : `[`BaseApprovalTest`](../-base-approval-test/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-approval/src/main/kotlin/org/http4k/testing/ApprovalTest.kt#L54)
 
 Approval JUnit5 extension configured to compare prettified-JSON messages.
 

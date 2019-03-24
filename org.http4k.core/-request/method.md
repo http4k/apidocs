@@ -2,5 +2,5 @@
 
 # method
 
-`abstract val method: `[`Method`](../-method/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L116)
-`abstract fun method(method: `[`Method`](../-method/index.md)`): `[`Request`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L119)
+`abstract val method: `[`Method`](../-method/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L117)
+`abstract fun method(method: `[`Method`](../-method/index.md)`): `[`Request`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L120)

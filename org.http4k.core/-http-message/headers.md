@@ -2,5 +2,5 @@
 
 # headers
 
-`abstract val headers: `[`Headers`](../-headers.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L76)
-`abstract fun headers(headers: `[`Headers`](../-headers.md)`): `[`HttpMessage`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L86)
+`abstract val headers: `[`Headers`](../-headers.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L77)
+`abstract fun headers(headers: `[`Headers`](../-headers.md)`): `[`HttpMessage`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L87)

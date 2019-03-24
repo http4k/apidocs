@@ -16,6 +16,11 @@
 | [org.http4k.util.Appendable](../org.http4k.util/-appendable/index.md) |  |
 | [io.ktor.request.ApplicationRequest](../org.http4k.server/io.ktor.request.-application-request/index.md) (extensions in package org.http4k.server) |  |
 | [io.ktor.response.ApplicationResponse](../org.http4k.server/io.ktor.response.-application-response/index.md) (extensions in package org.http4k.server) |  |
+| [org.http4k.testing.ApprovalContent](../org.http4k.testing/-approval-content/index.md) | Determines which parts of the HttpMessage will be compared. |
+| [org.http4k.testing.ApprovalFailed](../org.http4k.testing/-approval-failed/index.md) |  |
+| [org.http4k.testing.ApprovalSource](../org.http4k.testing/-approval-source/index.md) | The backing store where the approved and actual content will be stored. |
+| [org.http4k.testing.ApprovalTest](../org.http4k.testing/-approval-test/index.md) | Standard Approval JUnit5 extension. Can be used to compare any HttpMessages. |
+| [org.http4k.testing.Approver](../org.http4k.testing/-approver/index.md) | Coordinates the comparison of the content for a test. |
 | [org.http4k.format.Argo](../org.http4k.format/-argo/index.md) |  |
 | [org.http4k.client.AsyncHttpClient](../org.http4k.client/-async-http-client/index.md) |  |
 | [org.http4k.security.oauth.server.AuthRequest](../org.http4k.security.oauth.server/-auth-request/index.md) |  |
@@ -34,6 +39,7 @@
 | [org.http4k.aws.AwsHmacSha256](../org.http4k.aws/-aws-hmac-sha256/index.md) |  |
 | [org.http4k.cloudnative.BadGateway](../org.http4k.cloudnative/-bad-gateway/index.md) |  |
 | [org.http4k.cloudnative.BadRequest](../org.http4k.cloudnative/-bad-request/index.md) |  |
+| [org.http4k.testing.BaseApprovalTest](../org.http4k.testing/-base-approval-test/index.md) | Base JUnit extension for injecting an Approver into a JUnit5 test-case. Implement this to provide custom approval behaviours, or |
 | [org.http4k.filter.cookie.BasicCookieStorage](../org.http4k.filter.cookie/-basic-cookie-storage/index.md) |  |
 | [org.http4k.chaos.Behaviour](../org.http4k.chaos/-behaviour.md) | Encapsulates the type of bad behaviour to apply to the response. |
 | [org.http4k.lens.BiDiBodyLens](../org.http4k.lens/-bi-di-body-lens/index.md) | A BiDiBodyLens provides the bi-directional extraction of an entity from a target body, or the insertion of an entity into a target body. |
@@ -120,6 +126,7 @@
 | [org.http4k.lens.Failure](../org.http4k.lens/-failure/index.md) |  |
 | [org.http4k.webdriver.FeatureNotImplementedYet](../org.http4k.webdriver/-feature-not-implemented-yet.md) |  |
 | [org.http4k.core.etag.FieldValue](../org.http4k.core.etag/-field-value/index.md) |  |
+| [org.http4k.testing.FileSystemApprovalSource](../org.http4k.testing/-file-system-approval-source/index.md) |  |
 | [org.http4k.core.Filter](../org.http4k.core/-filter/index.md) |  |
 | [org.http4k.core.body.Form](../org.http4k.core.body/-form.md) |  |
 | [org.http4k.lens.FormField](../org.http4k.lens/-form-field.md) |  |
@@ -174,6 +181,7 @@
 | [org.http4k.server.Jetty](../org.http4k.server/-jetty/index.md) |  |
 | [org.http4k.client.JettyClient](../org.http4k.client/-jetty-client/index.md) |  |
 | [org.http4k.format.Json](../org.http4k.format/-json/index.md) | This is the contract for all JSON implementations |
+| [org.http4k.testing.JsonApprovalTest](../org.http4k.testing/-json-approval-test/index.md) | Approval JUnit5 extension configured to compare prettified-JSON messages. |
 | [org.http4k.format.JsonErrorResponseRenderer](../org.http4k.format/-json-error-response-renderer/index.md) |  |
 | [org.http4k.format.JsonLibAutoMarshallingJson](../org.http4k.format/-json-lib-auto-marshalling-json/index.md) |  |
 | [com.fasterxml.jackson.databind.JsonNode](../org.http4k.chaos/com.fasterxml.jackson.databind.-json-node/index.md) (extensions in package org.http4k.chaos) |  |
@@ -218,6 +226,7 @@
 | [org.http4k.core.MultipartFormBody](../org.http4k.core/-multipart-form-body/index.md) | Represents a Multi-part that is backed by a stream, which should be closed after handling the content. The gotchas which apply to StreamBody also apply here.. |
 | [org.http4k.lens.MultipartFormField](../org.http4k.lens/-multipart-form-field.md) |  |
 | [org.http4k.lens.MultipartFormFile](../org.http4k.lens/-multipart-form-file.md) |  |
+| [org.http4k.testing.NamedResourceApprover](../org.http4k.testing/-named-resource-approver/index.md) |  |
 | [org.http4k.webdriver.Navigate](../org.http4k.webdriver/-navigate.md) |  |
 | [org.http4k.server.Netty](../org.http4k.server/-netty/index.md) |  |
 | [org.http4k.contract.NoRenderer](../org.http4k.contract/-no-renderer/index.md) |  |
@@ -247,7 +256,9 @@
 | [org.http4k.websocket.PushPullAdaptingWebSocket](../org.http4k.websocket/-push-pull-adapting-web-socket/index.md) |  |
 | [org.http4k.lens.Query](../org.http4k.lens/-query.md) |  |
 | [org.http4k.lens.QueryLens](../org.http4k.lens/-query-lens.md) |  |
+| [org.http4k.testing.ReadResource](../org.http4k.testing/-read-resource/index.md) |  |
 | [org.http4k.traffic.ReadWriteCache](../org.http4k.traffic/-read-write-cache/index.md) | Combined Read/Write storage models, optimised for retrieval. |
+| [org.http4k.testing.ReadWriteResource](../org.http4k.testing/-read-write-resource/index.md) |  |
 | [org.http4k.traffic.ReadWriteStream](../org.http4k.traffic/-read-write-stream/index.md) | Combined Read/Write storage models, optimised for replay. |
 | [org.http4k.cloudnative.health.Readiness](../org.http4k.cloudnative.health/-readiness/index.md) | The Readiness check is used to determine if an app is prepared to receive live traffic. |
 | [org.http4k.cloudnative.health.ReadinessCheck](../org.http4k.cloudnative.health/-readiness-check/index.md) | A Readiness check is used to determine if the pod is ready to receive traffic. An example is to test if the app can talk to it's database. |
@@ -311,6 +322,7 @@
 | [org.http4k.template.dust.TemplateLoader](../org.http4k.template.dust/-template-loader.md) |  |
 | [org.http4k.template.TemplateRenderer](../org.http4k.template/-template-renderer.md) |  |
 | [org.http4k.template.Templates](../org.http4k.template/-templates/index.md) | Supported template implementations for templating engine implementations |
+| [org.http4k.testing.TestNamer](../org.http4k.testing/-test-namer/index.md) | Provides the identification of test case. |
 | [org.http4k.testing.TestWsClient](../org.http4k.testing/-test-ws-client/index.md) | A class that is used for *offline* testing of a routed Websocket, without starting up a Server. Calls are routed synchronously to the receiving Websocket, and error are propagated to the caller. |
 | [org.http4k.template.ThymeleafTemplates](../org.http4k.template/-thymeleaf-templates/index.md) |  |
 | [org.http4k.cloudnative.env.Timeout](../org.http4k.cloudnative.env/-timeout/index.md) |  |

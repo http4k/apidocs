@@ -1,0 +1,19 @@
+[http4k](../../index.md) / [org.http4k.testing](../index.md) / [TestNamer](./index.md)
+
+# TestNamer
+
+`interface TestNamer` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-approval/src/main/kotlin/org/http4k/testing/TestNamer.kt#L8)
+
+Provides the identification of test case.
+
+### Functions
+
+| Name | Summary |
+|---|---|
+| [nameFor](name-for.md) | `abstract fun nameFor(testClass: `[`Class`](http://docs.oracle.com/javase/6/docs/api/java/lang/Class.html)`<*>, testMethod: `[`Method`](http://docs.oracle.com/javase/6/docs/api/java/lang/reflect/Method.html)`): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+
+### Companion Object Properties
+
+| Name | Summary |
+|---|---|
+| [ClassAndMethod](-class-and-method.md) | `val ClassAndMethod: `[`TestNamer`](./index.md) |

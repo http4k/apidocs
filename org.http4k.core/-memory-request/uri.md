@@ -2,12 +2,12 @@
 
 # uri
 
-`fun uri(uri: `[`Uri`](../-uri/index.md)`): `[`MemoryRequest`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L155)
+`fun uri(uri: `[`Uri`](../-uri/index.md)`): `[`MemoryRequest`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L157)
 
 Overrides [Request.uri](../-request/uri.md)
 
 
-`val uri: `[`Uri`](../-uri/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L152)
+`val uri: `[`Uri`](../-uri/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L154)
 
 Overrides [Request.uri](../-request/uri.md)
 

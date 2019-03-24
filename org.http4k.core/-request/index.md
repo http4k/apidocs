@@ -2,7 +2,7 @@
 
 # Request
 
-`interface Request : `[`HttpMessage`](../-http-message/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L115)
+`interface Request : `[`HttpMessage`](../-http-message/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L116)
 
 ### Properties
 
@@ -47,7 +47,7 @@
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `operator fun invoke(method: `[`Method`](../-method/index.md)`, uri: `[`Uri`](../-uri/index.md)`, version: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = HTTP_1_1): `[`Request`](./index.md)<br>`operator fun invoke(method: `[`Method`](../-method/index.md)`, uri: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, version: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = HTTP_1_1): `[`Request`](./index.md) |
+| [invoke](invoke.md) | `operator fun invoke(method: `[`Method`](../-method/index.md)`, uri: `[`Uri`](../-uri/index.md)`, version: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = HTTP_1_1): `[`Request`](./index.md)<br>`operator fun invoke(method: `[`Method`](../-method/index.md)`, uri: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, version: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = HTTP_1_1): `[`Request`](./index.md)<br>`operator fun invoke(method: `[`Method`](../-method/index.md)`, template: `[`UriTemplate`](../-uri-template/index.md)`, version: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = HTTP_1_1): `[`Request`](./index.md) |
 
 ### Extension Functions
 

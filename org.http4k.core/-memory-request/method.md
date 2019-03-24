@@ -2,12 +2,12 @@
 
 # method
 
-`fun method(method: `[`Method`](../-method/index.md)`): `[`Request`](../-request/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L153)
+`fun method(method: `[`Method`](../-method/index.md)`): `[`Request`](../-request/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L155)
 
 Overrides [Request.method](../-request/method.md)
 
 
-`val method: `[`Method`](../-method/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L152)
+`val method: `[`Method`](../-method/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L154)
 
 Overrides [Request.method](../-request/method.md)
 

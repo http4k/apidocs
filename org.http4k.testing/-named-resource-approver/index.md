@@ -21,3 +21,4 @@
 | Name | Summary |
 |---|---|
 | [invoke](../invoke.md) | `operator fun <T : `[`HttpMessage`](../../org.http4k.core/-http-message/index.md)`> `[`Approver`](../-approver/index.md)`.invoke(baseMatcher: Matcher<`[`T`](../invoke.md#T)`>, fn: () -> `[`T`](../invoke.md#T)`): `[`T`](../invoke.md#T)<br>`operator fun `[`Approver`](../-approver/index.md)`.invoke(status: `[`Status`](../../org.http4k.core/-status/index.md)`, fn: () -> `[`Response`](../../org.http4k.core/-response/index.md)`): `[`Response`](../../org.http4k.core/-response/index.md) |
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

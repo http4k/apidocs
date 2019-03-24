@@ -17,3 +17,9 @@
 | [badRequest](bad-request.md) | `open fun badRequest(failures: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`Failure`](../../org.http4k.lens/-failure/index.md)`>): `[`Response`](../../org.http4k.core/-response/index.md) |
 | [description](description.md) | `open fun description(contractRoot: `[`PathSegments`](../-path-segments/index.md)`, security: `[`Security`](../-security/index.md)`, routes: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`ContractRoute`](../-contract-route/index.md)`>): `[`Response`](../../org.http4k.core/-response/index.md) |
 | [notFound](not-found.md) | `open fun notFound(): `[`Response`](../../org.http4k.core/-response/index.md) |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

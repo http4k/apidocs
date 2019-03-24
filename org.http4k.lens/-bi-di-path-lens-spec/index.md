@@ -29,6 +29,12 @@
 |---|---|
 | [map](../-path-lens-spec/map.md) | `fun <NEXT> map(nextIn: (`[`OUT`](../-path-lens-spec/index.md#OUT)`) -> `[`NEXT`](../-path-lens-spec/map.md#NEXT)`): `[`PathLensSpec`](../-path-lens-spec/index.md)`<`[`NEXT`](../-path-lens-spec/map.md#NEXT)`>`<br>Create another PathLensSpec which applies the uni-directional transformation to the result. Any resultant Lens can only be used to extract the final type from a target path segment. |
 
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
+
 ### Inheritors
 
 | Name | Summary |

@@ -2,7 +2,7 @@
 
 # Server
 
-`object Server : `[`FiltersTemplate`](-filters-template/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-metrics-micrometer/src/main/kotlin/org/http4k/filter/MetricFilters.kt#L38)
+`object Server : `[`MetricFilters.FiltersTemplate`](-filters-template/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-metrics-micrometer/src/main/kotlin/org/http4k/filter/MetricFilters.kt#L38)
 
 ### Inherited Functions
 

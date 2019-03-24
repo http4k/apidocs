@@ -12,6 +12,12 @@ Renders the results of a readiness check
 |---|---|
 | [contentType](content-type.md) | `abstract val contentType: `[`ContentType`](../../org.http4k.core/-content-type/index.md) |
 
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
+
 ### Inheritors
 
 | Name | Summary |

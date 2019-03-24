@@ -16,3 +16,9 @@
 | Name | Summary |
 |---|---|
 | [invoke](invoke.md) | `operator fun <IN, OUT> invoke(setFn: (`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`OUT`](invoke.md#OUT)`>, `[`IN`](invoke.md#IN)`) -> `[`IN`](invoke.md#IN)`): `[`LensSet`](./index.md)`<`[`IN`](invoke.md#IN)`, `[`OUT`](invoke.md#OUT)`>` |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

@@ -12,6 +12,12 @@ Endpoint security. Provides filter to be applied to endpoints for all requests.
 |---|---|
 | [filter](filter.md) | `abstract val filter: `[`Filter`](../../org.http4k.core/-filter/index.md) |
 
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
+
 ### Inheritors
 
 | Name | Summary |

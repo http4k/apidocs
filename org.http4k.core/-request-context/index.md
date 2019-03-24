@@ -8,13 +8,13 @@
 
 | Name | Summary |
 |---|---|
-| [Companion](-companion/index.md) | `companion object Companion : `[`LensExtractor`](../../org.http4k.lens/-lens-extractor/index.md)`<`[`Request`](../-request/index.md)`, `[`UUID`](http://docs.oracle.com/javase/6/docs/api/java/util/UUID.html)`>, `[`LensInjector`](../../org.http4k.lens/-lens-injector/index.md)`<`[`UUID`](http://docs.oracle.com/javase/6/docs/api/java/util/UUID.html)`, `[`Request`](../-request/index.md)`>` |
+| [Companion](-companion/index.md) | `companion object Companion : `[`LensExtractor`](../../org.http4k.lens/-lens-extractor/index.md)`<`[`Request`](../-request/index.md)`, `[`UUID`](https://docs.oracle.com/javase/6/docs/api/java/util/UUID.html)`>, `[`LensInjector`](../../org.http4k.lens/-lens-injector/index.md)`<`[`UUID`](https://docs.oracle.com/javase/6/docs/api/java/util/UUID.html)`, `[`Request`](../-request/index.md)`>` |
 
 ### Properties
 
 | Name | Summary |
 |---|---|
-| [id](id.md) | `val id: `[`UUID`](http://docs.oracle.com/javase/6/docs/api/java/util/UUID.html) |
+| [id](id.md) | `val id: `[`UUID`](https://docs.oracle.com/javase/6/docs/api/java/util/UUID.html) |
 
 ### Functions
 
@@ -27,7 +27,7 @@
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `fun <R : `[`Request`](../-request/index.md)`> invoke(value: `[`UUID`](http://docs.oracle.com/javase/6/docs/api/java/util/UUID.html)`, target: `[`R`](-companion/invoke.md#R)`): `[`R`](-companion/invoke.md#R)<br>Lens operation to set the value into the target`fun invoke(target: `[`Request`](../-request/index.md)`): `[`UUID`](http://docs.oracle.com/javase/6/docs/api/java/util/UUID.html)<br>Lens operation to get the value from the target |
+| [invoke](invoke.md) | `fun <R : `[`Request`](../-request/index.md)`> invoke(value: `[`UUID`](https://docs.oracle.com/javase/6/docs/api/java/util/UUID.html)`, target: `[`R`](-companion/invoke.md#R)`): `[`R`](-companion/invoke.md#R)<br>Lens operation to set the value into the target`fun invoke(target: `[`Request`](../-request/index.md)`): `[`UUID`](https://docs.oracle.com/javase/6/docs/api/java/util/UUID.html)<br>Lens operation to get the value from the target |
 
 ### Inherited Companion Object Functions
 
@@ -38,3 +38,9 @@
 | [inject](../../org.http4k.lens/-lens-injector/inject.md) | `open fun <R : `[`OUT`](../../org.http4k.lens/-lens-injector/index.md#OUT)`> inject(value: `[`IN`](../../org.http4k.lens/-lens-injector/index.md#IN)`, target: `[`R`](../../org.http4k.lens/-lens-injector/inject.md#R)`): `[`R`](../../org.http4k.lens/-lens-injector/inject.md#R)<br>Lens operation to set the value into the target. Synomym for invoke(IN, OUT) |
 | [of](../../org.http4k.lens/-lens-injector/of.md) | `open infix fun <R : `[`OUT`](../../org.http4k.lens/-lens-injector/index.md#OUT)`> of(value: `[`IN`](../../org.http4k.lens/-lens-injector/index.md#IN)`): (`[`R`](../../org.http4k.lens/-lens-injector/of.md#R)`) -> `[`R`](../../org.http4k.lens/-lens-injector/of.md#R)<br>Bind this Lens to a value, so we can set it into a target |
 | [set](../../org.http4k.lens/-lens-injector/set.md) | `open operator fun <R : `[`OUT`](../../org.http4k.lens/-lens-injector/index.md#OUT)`> set(target: `[`R`](../../org.http4k.lens/-lens-injector/set.md#R)`, value: `[`IN`](../../org.http4k.lens/-lens-injector/index.md#IN)`): `[`R`](../../org.http4k.lens/-lens-injector/set.md#R)<br>Lens operation to set the value into the target. Synomym for invoke(IN, OUT) |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../with.md) | `fun <T> `[`T`](../with.md#T)`.with(vararg modifiers: (`[`T`](../with.md#T)`) -> `[`T`](../with.md#T)`): `[`T`](../with.md#T) |

@@ -23,3 +23,9 @@ Checks the presence of the named Api Key parameter. Filter returns 401 if Api-Ke
 | Name | Summary |
 |---|---|
 | [invoke](invoke.md) | `operator fun <T> invoke(param: `[`Lens`](../../org.http4k.lens/-lens/index.md)`<`[`Request`](../../org.http4k.core/-request/index.md)`, `[`T`](invoke.md#T)`>, validateKey: (`[`T`](invoke.md#T)`) -> `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`, authorizeOptionsRequests: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)` = true): `[`ApiKey`](./index.md)`<`[`T`](invoke.md#T)`>`<br>Default implementation of ApiKey. Includes an option to NOT authorise OPTIONS requests, which is currently not enabled for OpenAPI. |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

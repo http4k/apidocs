@@ -18,3 +18,9 @@ to instantiate the Http4k handler which can be used for further invocations.
 | Name | Summary |
 |---|---|
 | [handle](handle.md) | `fun handle(request: ApiGatewayProxyRequest): ApiGatewayProxyResponse` |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

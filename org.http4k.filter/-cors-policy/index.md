@@ -23,3 +23,9 @@
 | Name | Summary |
 |---|---|
 | [UnsafeGlobalPermissive](-unsafe-global-permissive.md) | `val UnsafeGlobalPermissive: `[`CorsPolicy`](./index.md) |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

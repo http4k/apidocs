@@ -33,3 +33,9 @@
 | [InvalidRequest](-invalid-request.md) | `val InvalidRequest: `[`ErrorMessage`](./index.md) |
 | [MethodNotFound](-method-not-found.md) | `val MethodNotFound: `[`ErrorMessage`](./index.md) |
 | [ParseError](-parse-error.md) | `val ParseError: `[`ErrorMessage`](./index.md) |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

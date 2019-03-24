@@ -11,3 +11,9 @@ Reporting of ReadinessCheckResults in a JSON tree
 | Name | Summary |
 |---|---|
 | [invoke](invoke.md) | `operator fun <NODE> invoke(json: `[`Json`](../../org.http4k.format/-json/index.md)`<`[`NODE`](invoke.md#NODE)`>): `[`ReadinessCheckResultRenderer`](../-readiness-check-result-renderer/index.md) |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

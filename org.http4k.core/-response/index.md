@@ -22,7 +22,7 @@
 
 | Name | Summary |
 |---|---|
-| [body](body.md) | `abstract fun body(body: `[`Body`](../-body/index.md)`): `[`Response`](./index.md)<br>`abstract fun body(body: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Response`](./index.md)<br>`abstract fun body(body: `[`InputStream`](http://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html)`, length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`?): `[`Response`](./index.md) |
+| [body](body.md) | `abstract fun body(body: `[`Body`](../-body/index.md)`): `[`Response`](./index.md)<br>`abstract fun body(body: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Response`](./index.md)<br>`abstract fun body(body: `[`InputStream`](https://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html)`, length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`?): `[`Response`](./index.md) |
 | [header](header.md) | `abstract fun header(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`Response`](./index.md) |
 | [headers](headers.md) | `abstract fun headers(headers: `[`Headers`](../-headers.md)`): `[`Response`](./index.md) |
 | [removeHeader](remove-header.md) | `abstract fun removeHeader(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Response`](./index.md) |
@@ -63,6 +63,7 @@
 | [replaceCookie](../../org.http4k.core.cookie/replace-cookie.md) | `fun `[`Response`](./index.md)`.replaceCookie(cookie: `[`Cookie`](../../org.http4k.core.cookie/-cookie/index.md)`): `[`Response`](./index.md) |
 | [staleIfError](../stale-if-error.md) | `fun `[`Response`](./index.md)`.staleIfError(duration: Duration): `[`Response`](./index.md) |
 | [staleWhileRevalidate](../stale-while-revalidate.md) | `fun `[`Response`](./index.md)`.staleWhileRevalidate(duration: Duration): `[`Response`](./index.md) |
+| [with](../with.md) | `fun <T> `[`T`](../with.md#T)`.with(vararg modifiers: (`[`T`](../with.md#T)`) -> `[`T`](../with.md#T)`): `[`T`](../with.md#T) |
 
 ### Companion Object Extension Functions
 

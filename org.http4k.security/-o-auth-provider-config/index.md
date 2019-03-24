@@ -19,3 +19,9 @@
 | [authUri](auth-uri.md) | `val authUri: `[`Uri`](../../org.http4k.core/-uri/index.md) |
 | [credentials](credentials.md) | `val credentials: `[`Credentials`](../../org.http4k.core/-credentials/index.md) |
 | [tokenPath](token-path.md) | `val tokenPath: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

@@ -4,4 +4,4 @@
 
 | Name | Summary |
 |---|---|
-| [asString](as-string.md) | `fun `[`ByteBuffer`](http://docs.oracle.com/javase/6/docs/api/java/nio/ByteBuffer.html)`.asString(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [asString](as-string.md) | `fun `[`ByteBuffer`](https://docs.oracle.com/javase/6/docs/api/java/nio/ByteBuffer.html)`.asString(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |

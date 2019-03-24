@@ -8,6 +8,12 @@
 
 | Name | Summary |
 |---|---|
-| [Client](-client.md) | `object Client : `[`FiltersTemplate`](-filters-template/index.md) |
+| [Client](-client.md) | `object Client : `[`MetricFilters.FiltersTemplate`](-filters-template/index.md) |
 | [FiltersTemplate](-filters-template/index.md) | `class FiltersTemplate` |
-| [Server](-server.md) | `object Server : `[`FiltersTemplate`](-filters-template/index.md) |
+| [Server](-server.md) | `object Server : `[`MetricFilters.FiltersTemplate`](-filters-template/index.md) |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

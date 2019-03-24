@@ -19,6 +19,12 @@ Represents a extraction of an entity from a target WsMessage.
 | [map](map.md) | `fun <NEXT> map(nextIn: (`[`OUT`](index.md#OUT)`) -> `[`NEXT`](map.md#NEXT)`): `[`WsMessageLensSpec`](./index.md)`<`[`NEXT`](map.md#NEXT)`>`<br>Create another WsMessageLensSpec which applies the uni-directional transformation to the result. Any resultant Lens can only be used to extract the final type from a WsMessage. |
 | [toLens](to-lens.md) | `open fun toLens(): `[`WsMessageLens`](../-ws-message-lens/index.md)`<`[`OUT`](index.md#OUT)`>`<br>Create a lens for this Spec |
 
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
+
 ### Inheritors
 
 | Name | Summary |

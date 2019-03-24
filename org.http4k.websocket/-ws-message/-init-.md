@@ -3,5 +3,5 @@
 # &lt;init&gt;
 
 `WsMessage(value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`)`
-`WsMessage(value: `[`InputStream`](http://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html)`)`
+`WsMessage(value: `[`InputStream`](https://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html)`)`
 `WsMessage(body: `[`Body`](../../org.http4k.core/-body/index.md)`)`

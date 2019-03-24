@@ -8,7 +8,13 @@
 
 | Name | Summary |
 |---|---|
-| [input](input.md) | `abstract fun input(): `[`InputStream`](http://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html)`?` |
+| [input](input.md) | `abstract fun input(): `[`InputStream`](https://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html)`?` |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
 
 ### Inheritors
 

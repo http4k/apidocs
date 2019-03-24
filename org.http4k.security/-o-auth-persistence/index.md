@@ -19,6 +19,12 @@ Provides persistence for OAuth lifecycle values:
 | [retrieveCsrf](retrieve-csrf.md) | `abstract fun retrieveCsrf(request: `[`Request`](../../org.http4k.core/-request/index.md)`): `[`CrossSiteRequestForgeryToken`](../-cross-site-request-forgery-token/index.md)`?`<br>Retrieve the stored CSRF token for this user request |
 | [retrieveToken](retrieve-token.md) | `abstract fun retrieveToken(request: `[`Request`](../../org.http4k.core/-request/index.md)`): `[`AccessTokenContainer`](../-access-token-container/index.md)`?`<br>Retrieve the stored AccessTokenContainer token for this user request |
 
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
+
 ### Inheritors
 
 | Name | Summary |

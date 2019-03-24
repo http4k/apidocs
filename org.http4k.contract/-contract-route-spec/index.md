@@ -22,7 +22,13 @@
 
 | Name | Summary |
 |---|---|
-| [div](div.md) | `abstract operator infix fun <T> div(next: `[`PathLens`](../../org.http4k.lens/-path-lens/index.md)`<`[`T`](div.md#T)`>): `[`ContractRouteSpec`](./index.md)<br>`open operator infix fun div(next: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`ContractRouteSpec`](./index.md) |
+| [div](div.md) | `abstract infix operator fun <T> div(next: `[`PathLens`](../../org.http4k.lens/-path-lens/index.md)`<`[`T`](div.md#T)`>): `[`ContractRouteSpec`](./index.md)<br>`open infix operator fun div(next: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`ContractRouteSpec`](./index.md) |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
 
 ### Inheritors
 

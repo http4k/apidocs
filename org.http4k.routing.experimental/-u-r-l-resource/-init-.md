@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`URLResource(url: `[`URL`](http://docs.oracle.com/javase/6/docs/api/java/net/URL.html)`, contentType: `[`ContentType`](../../org.http4k.core/-content-type/index.md)`, lastModified: Instant? = null)`
+`URLResource(url: `[`URL`](https://docs.oracle.com/javase/6/docs/api/java/net/URL.html)`, contentType: `[`ContentType`](../../org.http4k.core/-content-type/index.md)`, lastModified: Instant? = null)`

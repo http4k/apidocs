@@ -22,3 +22,9 @@ Access-tokens for end-services are fully available to the browser so do not use 
 | [authFailureResponse](auth-failure-response.md) | `fun authFailureResponse(): `[`Response`](../../org.http4k.core/-response/index.md)<br>Build the default failure response which occurs when a failure occurs during the callback process (eg. a mismatch/missing CSRF or failure occurring when calling into the end-service for the access-token. |
 | [retrieveCsrf](retrieve-csrf.md) | `fun retrieveCsrf(request: `[`Request`](../../org.http4k.core/-request/index.md)`): `[`CrossSiteRequestForgeryToken`](../-cross-site-request-forgery-token/index.md)`?`<br>Retrieve the stored CSRF token for this user request |
 | [retrieveToken](retrieve-token.md) | `fun retrieveToken(request: `[`Request`](../../org.http4k.core/-request/index.md)`): `[`AccessTokenContainer`](../-access-token-container/index.md)`?`<br>Retrieve the stored AccessTokenContainer token for this user request |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

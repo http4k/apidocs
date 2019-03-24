@@ -25,6 +25,12 @@ Represents a uni-directional extraction of an entity from a target path segment.
 | [map](map.md) | `fun <NEXT> map(nextIn: (`[`OUT`](index.md#OUT)`) -> `[`NEXT`](map.md#NEXT)`): `[`PathLensSpec`](./index.md)`<`[`NEXT`](map.md#NEXT)`>`<br>Create another PathLensSpec which applies the uni-directional transformation to the result. Any resultant Lens can only be used to extract the final type from a target path segment. |
 | [of](of.md) | `open fun of(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, description: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`? = null): `[`PathLens`](../-path-lens/index.md)`<`[`OUT`](index.md#OUT)`>` |
 
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
+
 ### Inheritors
 
 | Name | Summary |

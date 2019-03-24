@@ -25,6 +25,12 @@ A WsMessageLens provides the extraction of an entity from a target WsMessage.
 | [extract](../-lens-extractor/extract.md) | `open fun extract(target: `[`IN`](../-lens-extractor/index.md#IN)`): `[`OUT`](../-lens-extractor/index.md#OUT)<br>Lens operation to get the value from the target. Synonym for invoke(IN) |
 | [get](../-lens-extractor/get.md) | `open operator fun <R : `[`IN`](../-lens-extractor/index.md#IN)`> get(target: `[`R`](../-lens-extractor/get.md#R)`): `[`OUT`](../-lens-extractor/index.md#OUT)<br>Lens operation to get the value from the target. Synonym for invoke(IN) |
 
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
+
 ### Inheritors
 
 | Name | Summary |

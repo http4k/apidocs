@@ -15,5 +15,5 @@
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `operator fun <T> invoke(fn: `[`k8s`](./index.md)`.() -> `[`T`](invoke.md#T)`): `[`T`](invoke.md#T) |
+| [invoke](invoke.md) | `operator fun <T> invoke(fn: `[`EnvironmentKey.k8s`](./index.md)`.() -> `[`T`](invoke.md#T)`): `[`T`](invoke.md#T) |
 | [serviceUriFor](service-uri-for.md) | `fun serviceUriFor(serviceName: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, isHttps: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)` = false): `[`BiDiLens`](../../../org.http4k.lens/-bi-di-lens/index.md)`<`[`Environment`](../../-environment/index.md)`, `[`Uri`](../../../org.http4k.core/-uri/index.md)`>` |

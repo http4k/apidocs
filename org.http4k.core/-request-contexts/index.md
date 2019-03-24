@@ -18,3 +18,9 @@ In-memory RequestContext store.
 |---|---|
 | [invoke](invoke.md) | `fun invoke(target: `[`Request`](../-request/index.md)`): `[`RequestContext`](../-request-context/index.md)<br>Lens operation to get the value from the target`fun <R : `[`Request`](../-request/index.md)`> invoke(value: `[`RequestContext`](../-request-context/index.md)`, target: `[`R`](invoke.md#R)`): `[`R`](invoke.md#R)<br>Lens operation to set the value into the target |
 | [remove](remove.md) | `fun remove(value: `[`RequestContext`](../-request-context/index.md)`): `[`RequestContext`](../-request-context/index.md)`?` |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../with.md) | `fun <T> `[`T`](../with.md#T)`.with(vararg modifiers: (`[`T`](../with.md#T)`) -> `[`T`](../with.md#T)`): `[`T`](../with.md#T) |

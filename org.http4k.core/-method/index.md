@@ -17,3 +17,9 @@
 | [PATCH](-p-a-t-c-h.md) |  |
 | [PURGE](-p-u-r-g-e.md) |  |
 | [HEAD](-h-e-a-d.md) |  |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../with.md) | `fun <T> `[`T`](../with.md#T)`.with(vararg modifiers: (`[`T`](../with.md#T)`) -> `[`T`](../with.md#T)`): `[`T`](../with.md#T) |

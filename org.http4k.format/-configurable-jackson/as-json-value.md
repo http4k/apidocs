@@ -22,12 +22,12 @@ Overrides [Json.asJsonValue](../-json/as-json-value.md)
 Overrides [Json.asJsonValue](../-json/as-json-value.md)
 
 
-`open fun `[`BigDecimal`](http://docs.oracle.com/javase/6/docs/api/java/math/BigDecimal.html)`?.asJsonValue(): JsonNode` [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-jackson/src/main/kotlin/org/http4k/format/ConfigurableJackson.kt#L41)
+`open fun `[`BigDecimal`](https://docs.oracle.com/javase/6/docs/api/java/math/BigDecimal.html)`?.asJsonValue(): JsonNode` [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-jackson/src/main/kotlin/org/http4k/format/ConfigurableJackson.kt#L41)
 
 Overrides [Json.asJsonValue](../-json/as-json-value.md)
 
 
-`open fun `[`BigInteger`](http://docs.oracle.com/javase/6/docs/api/java/math/BigInteger.html)`?.asJsonValue(): JsonNode` [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-jackson/src/main/kotlin/org/http4k/format/ConfigurableJackson.kt#L42)
+`open fun `[`BigInteger`](https://docs.oracle.com/javase/6/docs/api/java/math/BigInteger.html)`?.asJsonValue(): JsonNode` [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-jackson/src/main/kotlin/org/http4k/format/ConfigurableJackson.kt#L42)
 
 Overrides [Json.asJsonValue](../-json/as-json-value.md)
 

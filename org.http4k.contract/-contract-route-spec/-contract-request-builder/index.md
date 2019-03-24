@@ -20,14 +20,14 @@
 
 | Name | Summary |
 |---|---|
-| [Binder](../../-contract-route-spec0/-binder/index.md) | `inner class Binder : `[`ContractRequestBuilder`](./index.md) |
-| [Binder](../../-contract-route-spec1/-binder/index.md) | `inner class Binder<out A> : `[`ContractRequestBuilder`](./index.md) |
-| [Binder](../../-contract-route-spec2/-binder/index.md) | `inner class Binder<out A, out B> : `[`ContractRequestBuilder`](./index.md) |
-| [Binder](../../-contract-route-spec3/-binder/index.md) | `inner class Binder<out A, out B, out C> : `[`ContractRequestBuilder`](./index.md) |
-| [Binder](../../-contract-route-spec4/-binder/index.md) | `inner class Binder<out A, out B, out C, out D> : `[`ContractRequestBuilder`](./index.md) |
-| [Binder](../../-contract-route-spec5/-binder/index.md) | `inner class Binder<out A, out B, out C, out D, out E> : `[`ContractRequestBuilder`](./index.md) |
-| [Binder](../../-contract-route-spec6/-binder/index.md) | `inner class Binder<out A, out B, out C, out D, out E, out F> : `[`ContractRequestBuilder`](./index.md) |
-| [Binder](../../-contract-route-spec7/-binder/index.md) | `inner class Binder<out A, out B, out C, out D, out E, out F, out G> : `[`ContractRequestBuilder`](./index.md) |
-| [Binder](../../-contract-route-spec8/-binder/index.md) | `inner class Binder<out A, out B, out C, out D, out E, out F, out G, out H> : `[`ContractRequestBuilder`](./index.md) |
-| [Binder](../../-contract-route-spec9/-binder/index.md) | `inner class Binder<out A, out B, out C, out D, out E, out F, out G, out H, out I> : `[`ContractRequestBuilder`](./index.md) |
-| [Binder](../../-contract-route-spec10/-binder/index.md) | `inner class Binder<out A, out B, out C, out D, out E, out F, out G, out H, out I, out J> : `[`ContractRequestBuilder`](./index.md) |
+| [Binder](../../-contract-route-spec0/-binder/index.md) | `inner class Binder : `[`ContractRouteSpec.ContractRequestBuilder`](./index.md) |
+| [Binder](../../-contract-route-spec1/-binder/index.md) | `inner class Binder<out A> : `[`ContractRouteSpec.ContractRequestBuilder`](./index.md) |
+| [Binder](../../-contract-route-spec2/-binder/index.md) | `inner class Binder<out A, out B> : `[`ContractRouteSpec.ContractRequestBuilder`](./index.md) |
+| [Binder](../../-contract-route-spec3/-binder/index.md) | `inner class Binder<out A, out B, out C> : `[`ContractRouteSpec.ContractRequestBuilder`](./index.md) |
+| [Binder](../../-contract-route-spec4/-binder/index.md) | `inner class Binder<out A, out B, out C, out D> : `[`ContractRouteSpec.ContractRequestBuilder`](./index.md) |
+| [Binder](../../-contract-route-spec5/-binder/index.md) | `inner class Binder<out A, out B, out C, out D, out E> : `[`ContractRouteSpec.ContractRequestBuilder`](./index.md) |
+| [Binder](../../-contract-route-spec6/-binder/index.md) | `inner class Binder<out A, out B, out C, out D, out E, out F> : `[`ContractRouteSpec.ContractRequestBuilder`](./index.md) |
+| [Binder](../../-contract-route-spec7/-binder/index.md) | `inner class Binder<out A, out B, out C, out D, out E, out F, out G> : `[`ContractRouteSpec.ContractRequestBuilder`](./index.md) |
+| [Binder](../../-contract-route-spec8/-binder/index.md) | `inner class Binder<out A, out B, out C, out D, out E, out F, out G, out H> : `[`ContractRouteSpec.ContractRequestBuilder`](./index.md) |
+| [Binder](../../-contract-route-spec9/-binder/index.md) | `inner class Binder<out A, out B, out C, out D, out E, out F, out G, out H, out I> : `[`ContractRouteSpec.ContractRequestBuilder`](./index.md) |
+| [Binder](../../-contract-route-spec10/-binder/index.md) | `inner class Binder<out A, out B, out C, out D, out E, out F, out G, out H, out I, out J> : `[`ContractRouteSpec.ContractRequestBuilder`](./index.md) |

@@ -25,3 +25,9 @@ into a target WsMessage.
 | Name | Summary |
 |---|---|
 | [invoke](../-ws-message-lens/invoke.md) | `open operator fun invoke(target: `[`WsMessage`](../../org.http4k.websocket/-ws-message/index.md)`): `[`FINAL`](../-ws-message-lens/index.md#FINAL)<br>Lens operation to get the value from the target |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

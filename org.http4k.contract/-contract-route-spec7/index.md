@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [Binder](-binder/index.md) | `inner class Binder<out A, out B, out C, out D, out E, out F, out G> : `[`ContractRequestBuilder`](../-contract-route-spec/-contract-request-builder/index.md) |
+| [Binder](-binder/index.md) | `inner class Binder<out A, out B, out C, out D, out E, out F, out G> : `[`ContractRouteSpec.ContractRequestBuilder`](../-contract-route-spec/-contract-request-builder/index.md) |
 
 ### Properties
 
@@ -34,11 +34,12 @@
 
 | Name | Summary |
 |---|---|
-| [bindContract](bind-contract.md) | `infix fun bindContract(method: `[`Method`](../../org.http4k.core/-method/index.md)`): `[`Binder`](-binder/index.md)`<`[`A`](-binder/index.md#A)`, `[`B`](-binder/index.md#B)`, `[`C`](-binder/index.md#C)`, `[`D`](-binder/index.md#D)`, `[`E`](-binder/index.md#E)`, `[`F`](-binder/index.md#F)`, `[`G`](-binder/index.md#G)`>` |
-| [div](div.md) | `operator infix fun div(next: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`ContractRouteSpec8`](../-contract-route-spec8/index.md)`<`[`A`](-binder/index.md#A)`, `[`B`](-binder/index.md#B)`, `[`C`](-binder/index.md#C)`, `[`D`](-binder/index.md#D)`, `[`E`](-binder/index.md#E)`, `[`F`](-binder/index.md#F)`, `[`G`](-binder/index.md#G)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>`<br>`operator infix fun <NEXT> div(next: `[`PathLens`](../../org.http4k.lens/-path-lens/index.md)`<`[`NEXT`](div.md#NEXT)`>): `[`ContractRouteSpec8`](../-contract-route-spec8/index.md)`<`[`A`](-binder/index.md#A)`, `[`B`](-binder/index.md#B)`, `[`C`](-binder/index.md#C)`, `[`D`](-binder/index.md#D)`, `[`E`](-binder/index.md#E)`, `[`F`](-binder/index.md#F)`, `[`G`](-binder/index.md#G)`, `[`NEXT`](div.md#NEXT)`>` |
+| [bindContract](bind-contract.md) | `infix fun bindContract(method: `[`Method`](../../org.http4k.core/-method/index.md)`): `[`ContractRouteSpec7.Binder`](-binder/index.md)`<`[`A`](-binder/index.md#A)`, `[`B`](-binder/index.md#B)`, `[`C`](-binder/index.md#C)`, `[`D`](-binder/index.md#D)`, `[`E`](-binder/index.md#E)`, `[`F`](-binder/index.md#F)`, `[`G`](-binder/index.md#G)`>` |
+| [div](div.md) | `infix operator fun div(next: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`ContractRouteSpec8`](../-contract-route-spec8/index.md)`<`[`A`](-binder/index.md#A)`, `[`B`](-binder/index.md#B)`, `[`C`](-binder/index.md#C)`, `[`D`](-binder/index.md#D)`, `[`E`](-binder/index.md#E)`, `[`F`](-binder/index.md#F)`, `[`G`](-binder/index.md#G)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>`<br>`infix operator fun <NEXT> div(next: `[`PathLens`](../../org.http4k.lens/-path-lens/index.md)`<`[`NEXT`](div.md#NEXT)`>): `[`ContractRouteSpec8`](../-contract-route-spec8/index.md)`<`[`A`](-binder/index.md#A)`, `[`B`](-binder/index.md#B)`, `[`C`](-binder/index.md#C)`, `[`D`](-binder/index.md#D)`, `[`E`](-binder/index.md#E)`, `[`F`](-binder/index.md#F)`, `[`G`](-binder/index.md#G)`, `[`NEXT`](div.md#NEXT)`>` |
 
 ### Extension Functions
 
 | Name | Summary |
 |---|---|
 | [meta](../meta.md) | `infix fun <A, B, C, D, E, F, G> `[`ContractRouteSpec7`](./index.md)`<`[`A`](../meta.md#A)`, `[`B`](../meta.md#B)`, `[`C`](../meta.md#C)`, `[`D`](../meta.md#D)`, `[`E`](../meta.md#E)`, `[`F`](../meta.md#F)`, `[`G`](../meta.md#G)`>.meta(new: `[`RouteMetaDsl`](../-route-meta-dsl/index.md)`.() -> `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)`): `[`ContractRouteSpec7`](./index.md)`<`[`A`](../meta.md#A)`, `[`B`](../meta.md#B)`, `[`C`](../meta.md#C)`, `[`D`](../meta.md#D)`, `[`E`](../meta.md#E)`, `[`F`](../meta.md#F)`, `[`G`](../meta.md#G)`>` |
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

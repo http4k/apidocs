@@ -53,3 +53,4 @@
 | [port](../port.md) | `fun `[`Uri`](./index.md)`.port(port: `[`Port`](../../org.http4k.cloudnative.env/-port/index.md)`?): `[`Uri`](./index.md)<br>`fun `[`Uri`](./index.md)`.port(): `[`Port`](../../org.http4k.cloudnative.env/-port/index.md)`?` |
 | [queries](../queries.md) | `fun `[`Uri`](./index.md)`.queries(): `[`Parameters`](../-parameters.md) |
 | [query](../query.md) | `fun `[`Uri`](./index.md)`.query(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`Uri`](./index.md) |
+| [with](../with.md) | `fun <T> `[`T`](../with.md#T)`.with(vararg modifiers: (`[`T`](../with.md#T)`) -> `[`T`](../with.md#T)`): `[`T`](../with.md#T) |

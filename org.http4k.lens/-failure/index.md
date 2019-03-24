@@ -15,7 +15,13 @@
 | Name | Summary |
 |---|---|
 | [meta](meta.md) | `abstract val meta: `[`Meta`](../-meta/index.md) |
-| [type](type.md) | `val type: `[`Type`](-type/index.md) |
+| [type](type.md) | `val type: `[`Failure.Type`](-type/index.md) |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
 
 ### Inheritors
 

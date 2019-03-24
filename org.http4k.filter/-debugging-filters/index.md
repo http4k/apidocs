@@ -11,3 +11,9 @@
 | [PrintRequest](-print-request/index.md) | `object PrintRequest`<br>Print details of the request before it is sent to the next service. |
 | [PrintRequestAndResponse](-print-request-and-response/index.md) | `object PrintRequestAndResponse`<br>Print details of a request and it's response. |
 | [PrintResponse](-print-response/index.md) | `object PrintResponse`<br>Print details of the response before it is returned. |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

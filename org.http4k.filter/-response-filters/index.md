@@ -8,9 +8,15 @@
 
 | Name | Summary |
 |---|---|
+| [GunZip](-gun-zip/index.md) | `object GunZip`<br>Basic UnGZipping of Response. Does not currently support GZipping streams |
 | [GZip](-g-zip/index.md) | `object GZip`<br>Basic GZipping of Response. Does not currently support GZipping streams |
 | [GZipContentTypes](-g-zip-content-types/index.md) | `class GZipContentTypes : `[`Filter`](../../org.http4k.core/-filter/index.md)<br>GZipping of the response where the content-type (sans-charset) matches an allowed list of compressible types. |
-| [GunZip](-gun-zip/index.md) | `object GunZip`<br>Basic UnGZipping of Response. Does not currently support GZipping streams |
 | [ReportHttpTransaction](-report-http-transaction/index.md) | `object ReportHttpTransaction`<br>General reporting Filter for an ReportHttpTransaction. Pass an optional HttpTransactionLabeller to create custom labels. This is useful for logging metrics. Note that the passed function blocks the response from completing. |
 | [ReportRouteLatency](-report-route-latency/index.md) | `object ReportRouteLatency`<br>Report the latency on a particular route to a callback function. This is useful for logging metrics. Note that the passed function blocks the response from completing. |
 | [Tap](-tap/index.md) | `object Tap`<br>Intercept the response after it is sent to the next service. |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

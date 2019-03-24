@@ -2,7 +2,7 @@
 
 # &lt;init&gt;
 
-`StreamBody(stream: `[`InputStream`](http://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html)`, length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`? = null)`
+`StreamBody(stream: `[`InputStream`](https://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html)`, length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`? = null)`
 
 Represents a body that is backed by a (lazy) InputStream. Operating with StreamBody has a number of potential
 gotchas:

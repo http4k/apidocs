@@ -49,28 +49,28 @@
 | [GATEWAY_TIMEOUT](-g-a-t-e-w-a-y_-t-i-m-e-o-u-t.md) | `val GATEWAY_TIMEOUT: `[`Status`](./index.md) |
 | [GONE](-g-o-n-e.md) | `val GONE: `[`Status`](./index.md) |
 | [HTTP_VERSION_NOT_SUPPORTED](-h-t-t-p_-v-e-r-s-i-o-n_-n-o-t_-s-u-p-p-o-r-t-e-d.md) | `val HTTP_VERSION_NOT_SUPPORTED: `[`Status`](./index.md) |
-| [INTERNAL_SERVER_ERROR](-i-n-t-e-r-n-a-l_-s-e-r-v-e-r_-e-r-r-o-r.md) | `val INTERNAL_SERVER_ERROR: `[`Status`](./index.md) |
 | [I_M_A_TEAPOT](-i_-m_-a_-t-e-a-p-o-t.md) | `val I_M_A_TEAPOT: `[`Status`](./index.md) |
+| [INTERNAL_SERVER_ERROR](-i-n-t-e-r-n-a-l_-s-e-r-v-e-r_-e-r-r-o-r.md) | `val INTERNAL_SERVER_ERROR: `[`Status`](./index.md) |
 | [LENGTH_REQUIRED](-l-e-n-g-t-h_-r-e-q-u-i-r-e-d.md) | `val LENGTH_REQUIRED: `[`Status`](./index.md) |
 | [METHOD_NOT_ALLOWED](-m-e-t-h-o-d_-n-o-t_-a-l-l-o-w-e-d.md) | `val METHOD_NOT_ALLOWED: `[`Status`](./index.md) |
 | [MOVED_PERMANENTLY](-m-o-v-e-d_-p-e-r-m-a-n-e-n-t-l-y.md) | `val MOVED_PERMANENTLY: `[`Status`](./index.md) |
 | [MULTIPLE_CHOICES](-m-u-l-t-i-p-l-e_-c-h-o-i-c-e-s.md) | `val MULTIPLE_CHOICES: `[`Status`](./index.md) |
+| [NO_CONTENT](-n-o_-c-o-n-t-e-n-t.md) | `val NO_CONTENT: `[`Status`](./index.md) |
 | [NON_AUTHORITATIVE_INFORMATION](-n-o-n_-a-u-t-h-o-r-i-t-a-t-i-v-e_-i-n-f-o-r-m-a-t-i-o-n.md) | `val NON_AUTHORITATIVE_INFORMATION: `[`Status`](./index.md) |
 | [NOT_ACCEPTABLE](-n-o-t_-a-c-c-e-p-t-a-b-l-e.md) | `val NOT_ACCEPTABLE: `[`Status`](./index.md) |
 | [NOT_FOUND](-n-o-t_-f-o-u-n-d.md) | `val NOT_FOUND: `[`Status`](./index.md) |
 | [NOT_IMPLEMENTED](-n-o-t_-i-m-p-l-e-m-e-n-t-e-d.md) | `val NOT_IMPLEMENTED: `[`Status`](./index.md) |
 | [NOT_MODIFIED](-n-o-t_-m-o-d-i-f-i-e-d.md) | `val NOT_MODIFIED: `[`Status`](./index.md) |
-| [NO_CONTENT](-n-o_-c-o-n-t-e-n-t.md) | `val NO_CONTENT: `[`Status`](./index.md) |
 | [OK](-o-k.md) | `val OK: `[`Status`](./index.md) |
 | [PARTIAL_CONTENT](-p-a-r-t-i-a-l_-c-o-n-t-e-n-t.md) | `val PARTIAL_CONTENT: `[`Status`](./index.md) |
 | [PAYMENT_REQUIRED](-p-a-y-m-e-n-t_-r-e-q-u-i-r-e-d.md) | `val PAYMENT_REQUIRED: `[`Status`](./index.md) |
 | [PERMANENT_REDIRECT](-p-e-r-m-a-n-e-n-t_-r-e-d-i-r-e-c-t.md) | `val PERMANENT_REDIRECT: `[`Status`](./index.md) |
 | [PRECONDITION_FAILED](-p-r-e-c-o-n-d-i-t-i-o-n_-f-a-i-l-e-d.md) | `val PRECONDITION_FAILED: `[`Status`](./index.md) |
 | [PROXY_AUTHENTICATION_REQUIRED](-p-r-o-x-y_-a-u-t-h-e-n-t-i-c-a-t-i-o-n_-r-e-q-u-i-r-e-d.md) | `val PROXY_AUTHENTICATION_REQUIRED: `[`Status`](./index.md) |
-| [REQUESTED_RANGE_NOT_SATISFIABLE](-r-e-q-u-e-s-t-e-d_-r-a-n-g-e_-n-o-t_-s-a-t-i-s-f-i-a-b-l-e.md) | `val REQUESTED_RANGE_NOT_SATISFIABLE: `[`Status`](./index.md) |
 | [REQUEST_ENTITY_TOO_LARGE](-r-e-q-u-e-s-t_-e-n-t-i-t-y_-t-o-o_-l-a-r-g-e.md) | `val REQUEST_ENTITY_TOO_LARGE: `[`Status`](./index.md) |
 | [REQUEST_TIMEOUT](-r-e-q-u-e-s-t_-t-i-m-e-o-u-t.md) | `val REQUEST_TIMEOUT: `[`Status`](./index.md) |
 | [REQUEST_URI_TOO_LONG](-r-e-q-u-e-s-t_-u-r-i_-t-o-o_-l-o-n-g.md) | `val REQUEST_URI_TOO_LONG: `[`Status`](./index.md) |
+| [REQUESTED_RANGE_NOT_SATISFIABLE](-r-e-q-u-e-s-t-e-d_-r-a-n-g-e_-n-o-t_-s-a-t-i-s-f-i-a-b-l-e.md) | `val REQUESTED_RANGE_NOT_SATISFIABLE: `[`Status`](./index.md) |
 | [RESET_CONTENT](-r-e-s-e-t_-c-o-n-t-e-n-t.md) | `val RESET_CONTENT: `[`Status`](./index.md) |
 | [SEE_OTHER](-s-e-e_-o-t-h-e-r.md) | `val SEE_OTHER: `[`Status`](./index.md) |
 | [SERVICE_UNAVAILABLE](-s-e-r-v-i-c-e_-u-n-a-v-a-i-l-a-b-l-e.md) | `val SERVICE_UNAVAILABLE: `[`Status`](./index.md) |
@@ -90,3 +90,4 @@
 | Name | Summary |
 |---|---|
 | [toClientStatus](../../org.http4k.client/to-client-status.md) | `fun `[`Status`](./index.md)`.toClientStatus(e: `[`Exception`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-exception/index.html)`): `[`Status`](./index.md) |
+| [with](../with.md) | `fun <T> `[`T`](../with.md#T)`.with(vararg modifiers: (`[`T`](../with.md#T)`) -> `[`T`](../with.md#T)`): `[`T`](../with.md#T) |

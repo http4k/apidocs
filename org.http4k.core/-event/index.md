@@ -16,6 +16,12 @@
 |---|---|
 | [category](category.md) | `abstract val category: `[`EventCategory`](../-event-category/index.md) |
 
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../with.md) | `fun <T> `[`T`](../with.md#T)`.with(vararg modifiers: (`[`T`](../with.md#T)`) -> `[`T`](../with.md#T)`): `[`T`](../with.md#T) |
+
 ### Inheritors
 
 | Name | Summary |

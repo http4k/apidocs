@@ -10,4 +10,10 @@ Provides an implementation of GenerateXmlDataClasses using GSON as an engine.
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `operator fun invoke(out: `[`PrintStream`](http://docs.oracle.com/javase/6/docs/api/java/io/PrintStream.html)` = System.out, idGenerator: () -> `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)` = { Math.abs(Random().nextInt()) }): `[`GenerateXmlDataClasses`](../-generate-xml-data-classes/index.md)`<JsonNode>` |
+| [invoke](invoke.md) | `operator fun invoke(out: `[`PrintStream`](https://docs.oracle.com/javase/6/docs/api/java/io/PrintStream.html)` = System.out, idGenerator: () -> `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)` = { Math.abs(Random().nextInt()) }): `[`GenerateXmlDataClasses`](../-generate-xml-data-classes/index.md)`<JsonNode>` |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

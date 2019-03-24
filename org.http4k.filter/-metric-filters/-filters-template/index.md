@@ -21,5 +21,5 @@
 
 | Name | Summary |
 |---|---|
-| [Client](../-client.md) | `object Client : `[`FiltersTemplate`](./index.md) |
-| [Server](../-server.md) | `object Server : `[`FiltersTemplate`](./index.md) |
+| [Client](../-client.md) | `object Client : `[`MetricFilters.FiltersTemplate`](./index.md) |
+| [Server](../-server.md) | `object Server : `[`MetricFilters.FiltersTemplate`](./index.md) |

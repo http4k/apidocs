@@ -24,3 +24,9 @@ Represents a bi-directional extraction of an entity from a target Body, or an in
 | Name | Summary |
 |---|---|
 | [map](../-body-lens-spec/map.md) | `fun <NEXT> map(nextIn: (`[`OUT`](../-body-lens-spec/index.md#OUT)`) -> `[`NEXT`](../-body-lens-spec/map.md#NEXT)`): `[`BodyLensSpec`](../-body-lens-spec/index.md)`<`[`NEXT`](../-body-lens-spec/map.md#NEXT)`>`<br>Create another BodyLensSpec which applies the uni-directional transformation to the result. Any resultant Lens can only be used to extract the final type from a Body. |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

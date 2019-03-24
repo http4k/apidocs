@@ -15,3 +15,9 @@
 | [renderer](renderer.md) | `var renderer: `[`ContractRenderer`](../-contract-renderer/index.md) |
 | [routes](routes.md) | `var routes: `[`Appendable`](../../org.http4k.util/-appendable/index.md)`<`[`ContractRoute`](../-contract-route/index.md)`>` |
 | [security](security.md) | `var security: `[`Security`](../-security/index.md) |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

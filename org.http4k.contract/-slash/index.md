@@ -29,3 +29,9 @@
 | Name | Summary |
 |---|---|
 | [div](../-path-segments/div.md) | `operator fun div(child: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`PathSegments`](../-path-segments/index.md)<br>`operator fun div(child: `[`PathSegments`](../-path-segments/index.md)`): `[`PathSegments`](../-path-segments/index.md) |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

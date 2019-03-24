@@ -8,12 +8,12 @@
 
 | Name | Summary |
 |---|---|
-| [Signed](-signed/index.md) | `object Signed : `[`Mode`](./index.md) |
-| [Unsigned](-unsigned/index.md) | `object Unsigned : `[`Mode`](./index.md) |
+| [Signed](-signed/index.md) | `object Signed : `[`Payload.Mode`](./index.md) |
+| [Unsigned](-unsigned/index.md) | `object Unsigned : `[`Payload.Mode`](./index.md) |
 
 ### Inheritors
 
 | Name | Summary |
 |---|---|
-| [Signed](-signed/index.md) | `object Signed : `[`Mode`](./index.md) |
-| [Unsigned](-unsigned/index.md) | `object Unsigned : `[`Mode`](./index.md) |
+| [Signed](-signed/index.md) | `object Signed : `[`Payload.Mode`](./index.md) |
+| [Unsigned](-unsigned/index.md) | `object Unsigned : `[`Payload.Mode`](./index.md) |

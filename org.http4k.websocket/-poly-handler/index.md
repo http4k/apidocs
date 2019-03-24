@@ -25,3 +25,4 @@ ws:// and http:// protocol calls are passed relevantly.
 |---|---|
 | [asServer](../../org.http4k.server/as-server.md) | `fun `[`PolyHandler`](./index.md)`.asServer(config: `[`WsServerConfig`](../../org.http4k.server/-ws-server-config/index.md)`): `[`Http4kServer`](../../org.http4k.server/-http4k-server/index.md) |
 | [testWsClient](../../org.http4k.testing/test-ws-client.md) | `fun `[`PolyHandler`](./index.md)`.testWsClient(request: `[`Request`](../../org.http4k.core/-request/index.md)`): `[`TestWsClient`](../../org.http4k.testing/-test-ws-client/index.md)`?` |
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

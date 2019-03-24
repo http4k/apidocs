@@ -16,3 +16,9 @@
 | Name | Summary |
 |---|---|
 | [Repeat](-repeat.md) | `fun Repeat(newStageFn: () -> `[`Stage`](../-stage.md)`): `[`Stage`](../-stage.md)<br>Repeats a stage (or composite stage in repeating pattern). Since ChaosStages are STATEFUL, the stage function will be fired on each iteration and expecting a NEW instance. |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

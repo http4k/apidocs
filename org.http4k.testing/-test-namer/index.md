@@ -10,10 +10,16 @@ Provides the identification of test case.
 
 | Name | Summary |
 |---|---|
-| [nameFor](name-for.md) | `abstract fun nameFor(testClass: `[`Class`](http://docs.oracle.com/javase/6/docs/api/java/lang/Class.html)`<*>, testMethod: `[`Method`](http://docs.oracle.com/javase/6/docs/api/java/lang/reflect/Method.html)`): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [nameFor](name-for.md) | `abstract fun nameFor(testClass: `[`Class`](https://docs.oracle.com/javase/6/docs/api/java/lang/Class.html)`<*>, testMethod: `[`Method`](https://docs.oracle.com/javase/6/docs/api/java/lang/reflect/Method.html)`): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 
 ### Companion Object Properties
 
 | Name | Summary |
 |---|---|
 | [ClassAndMethod](-class-and-method.md) | `val ClassAndMethod: `[`TestNamer`](./index.md) |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

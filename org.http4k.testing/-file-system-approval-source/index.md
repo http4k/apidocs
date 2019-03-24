@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `FileSystemApprovalSource(base: `[`File`](http://docs.oracle.com/javase/6/docs/api/java/io/File.html)`)` |
+| [&lt;init&gt;](-init-.md) | `FileSystemApprovalSource(base: `[`File`](https://docs.oracle.com/javase/6/docs/api/java/io/File.html)`)` |
 
 ### Functions
 
@@ -16,3 +16,9 @@
 |---|---|
 | [actualFor](actual-for.md) | `fun actualFor(testName: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`ReadWriteResource`](../-read-write-resource/index.md) |
 | [approvedFor](approved-for.md) | `fun approvedFor(testName: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`ReadResource`](../-read-resource/index.md) |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

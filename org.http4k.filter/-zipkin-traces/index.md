@@ -24,3 +24,9 @@
 | Name | Summary |
 |---|---|
 | [invoke](invoke.md) | `operator fun invoke(target: `[`HttpMessage`](../../org.http4k.core/-http-message/index.md)`): `[`ZipkinTraces`](./index.md)<br>`operator fun <T : `[`HttpMessage`](../../org.http4k.core/-http-message/index.md)`> invoke(value: `[`ZipkinTraces`](./index.md)`, target: `[`T`](invoke.md#T)`): `[`T`](invoke.md#T) |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

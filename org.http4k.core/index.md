@@ -8,23 +8,23 @@ The core abstractions for the http4k library.
 
 | Name | Summary |
 |---|---|
-| [Body](-body/index.md) | `interface Body : `[`Closeable`](http://docs.oracle.com/javase/6/docs/api/java/io/Closeable.html)<br>If this Body is NOT being returned to the caller (via a Server implementation or otherwise), close() should be called. |
-| [BodyMode](-body-mode/index.md) | `sealed class BodyMode : (`[`InputStream`](http://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html)`) -> `[`Body`](-body/index.md) |
+| [Body](-body/index.md) | `interface Body : `[`Closeable`](https://docs.oracle.com/javase/6/docs/api/java/io/Closeable.html)<br>If this Body is NOT being returned to the caller (via a Server implementation or otherwise), close() should be called. |
+| [BodyMode](-body-mode/index.md) | `sealed class BodyMode : (`[`InputStream`](https://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html)`) -> `[`Body`](-body/index.md) |
 | [ContentType](-content-type/index.md) | `data class ContentType` |
 | [Credentials](-credentials/index.md) | `data class Credentials` |
 | [Event](-event/index.md) | `interface Event` |
 | [EventCategory](-event-category/index.md) | `data class EventCategory` |
 | [Filter](-filter/index.md) | `interface Filter : (`[`HttpHandler`](-http-handler.md)`) -> `[`HttpHandler`](-http-handler.md) |
-| [FormFile](-form-file/index.md) | `data class FormFile : `[`Closeable`](http://docs.oracle.com/javase/6/docs/api/java/io/Closeable.html) |
-| [HttpMessage](-http-message/index.md) | `interface HttpMessage : `[`Closeable`](http://docs.oracle.com/javase/6/docs/api/java/io/Closeable.html) |
+| [FormFile](-form-file/index.md) | `data class FormFile : `[`Closeable`](https://docs.oracle.com/javase/6/docs/api/java/io/Closeable.html) |
+| [HttpMessage](-http-message/index.md) | `interface HttpMessage : `[`Closeable`](https://docs.oracle.com/javase/6/docs/api/java/io/Closeable.html) |
 | [HttpTransaction](-http-transaction/index.md) | `data class HttpTransaction` |
 | [MemoryBody](-memory-body/index.md) | `data class MemoryBody : `[`Body`](-body/index.md)<br>Represents a body that is backed by an in-memory ByteBuffer. Closing this has no effect. |
 | [MemoryRequest](-memory-request/index.md) | `data class MemoryRequest : `[`Request`](-request/index.md) |
 | [MemoryResponse](-memory-response/index.md) | `data class MemoryResponse : `[`Response`](-response/index.md) |
 | [Method](-method/index.md) | `enum class Method` |
 | [MimeTypes](-mime-types/index.md) | `data class MimeTypes` |
-| [MultipartEntity](-multipart-entity/index.md) | `sealed class MultipartEntity : `[`Closeable`](http://docs.oracle.com/javase/6/docs/api/java/io/Closeable.html) |
-| [MultipartFormBody](-multipart-form-body/index.md) | `data class MultipartFormBody : `[`Body`](-body/index.md)`, `[`Closeable`](http://docs.oracle.com/javase/6/docs/api/java/io/Closeable.html)<br>Represents a Multi-part that is backed by a stream, which should be closed after handling the content. The gotchas which apply to StreamBody also apply here.. |
+| [MultipartEntity](-multipart-entity/index.md) | `sealed class MultipartEntity : `[`Closeable`](https://docs.oracle.com/javase/6/docs/api/java/io/Closeable.html) |
+| [MultipartFormBody](-multipart-form-body/index.md) | `data class MultipartFormBody : `[`Body`](-body/index.md)`, `[`Closeable`](https://docs.oracle.com/javase/6/docs/api/java/io/Closeable.html)<br>Represents a Multi-part that is backed by a stream, which should be closed after handling the content. The gotchas which apply to StreamBody also apply here.. |
 | [Request](-request/index.md) | `interface Request : `[`HttpMessage`](-http-message/index.md) |
 | [RequestContext](-request-context/index.md) | `class RequestContext` |
 | [RequestContexts](-request-contexts/index.md) | `class RequestContexts : `[`Store`](-store/index.md)`<`[`RequestContext`](-request-context/index.md)`>`<br>In-memory RequestContext store. |
@@ -48,10 +48,10 @@ The core abstractions for the http4k library.
 
 | Name | Summary |
 |---|---|
-| [kotlin.Function1](kotlin.-function1/index.md) |  |
-| [kotlin.String](kotlin.-string/index.md) |  |
 | [kotlin.collections.List](kotlin.collections.-list/index.md) |  |
 | [kotlin.collections.Map](kotlin.collections.-map/index.md) |  |
+| [kotlin.Function1](kotlin.-function1/index.md) |  |
+| [kotlin.String](kotlin.-string/index.md) |  |
 
 ### Functions
 

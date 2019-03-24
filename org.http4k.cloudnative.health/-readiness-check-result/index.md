@@ -24,6 +24,7 @@ The result of a Readiness check. Checks can be combined together with `+()` to p
 | Name | Summary |
 |---|---|
 | [plus](../plus.md) | `operator fun `[`ReadinessCheckResult`](./index.md)`.plus(that: `[`ReadinessCheckResult`](./index.md)`): `[`Composite`](../-composite/index.md) |
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
 
 ### Inheritors
 

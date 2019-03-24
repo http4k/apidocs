@@ -11,3 +11,9 @@ Provides HTTP Handlers which respond using pre-stored Requests.
 | Name | Summary |
 |---|---|
 | [from](from.md) | `fun from(source: `[`Source`](../-source/index.md)`): `[`HttpHandler`](../../org.http4k.core/-http-handler.md)<br>An HTTP Handler which responds to particular requests with the matching cached responses, or a 503.`fun from(replay: `[`Replay`](../-replay/index.md)`, shouldReplay: (`[`HttpMessage`](../../org.http4k.core/-http-message/index.md)`) -> `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)` = { true }): `[`HttpHandler`](../../org.http4k.core/-http-handler.md)<br>An HTTP Handler which responds to from a stream of cached responses, or a 503 once the stream is exhausted. |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

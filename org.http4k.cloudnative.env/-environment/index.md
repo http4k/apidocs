@@ -35,5 +35,11 @@ which contain commas, otherwise singular environment keys will just retrieve the
 | Name | Summary |
 |---|---|
 | [defaults](defaults.md) | `fun defaults(vararg fn: (`[`Environment`](./index.md)`) -> `[`Environment`](./index.md)`): `[`Environment`](./index.md)<br>Setup default configuration mappings using EnvironmentKey lens bindings |
-| [from](from.md) | `fun from(file: `[`File`](http://docs.oracle.com/javase/6/docs/api/java/io/File.html)`): `[`Environment`](./index.md)<br>Load configuration from standard Properties file format on disk`fun from(vararg pairs: `[`Pair`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>): `[`Environment`](./index.md) |
+| [from](from.md) | `fun from(file: `[`File`](https://docs.oracle.com/javase/6/docs/api/java/io/File.html)`): `[`Environment`](./index.md)<br>Load configuration from standard Properties file format on disk`fun from(vararg pairs: `[`Pair`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>): `[`Environment`](./index.md) |
 | [fromResource](from-resource.md) | `fun fromResource(resource: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Environment`](./index.md)<br>Load configuration from standard Properties file format on classpath |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

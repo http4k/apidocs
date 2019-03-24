@@ -33,3 +33,9 @@ References:
 | [redirectUri](redirect-uri.md) | `val redirectUri: `[`BiDiLens`](../../org.http4k.lens/-bi-di-lens/index.md)`<`[`Request`](../../org.http4k.core/-request/index.md)`, `[`Uri`](../../org.http4k.core/-uri/index.md)`>` |
 | [scopes](scopes.md) | `val scopes: `[`BiDiLens`](../../org.http4k.lens/-bi-di-lens/index.md)`<`[`Request`](../../org.http4k.core/-request/index.md)`, `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>?>` |
 | [state](state.md) | `val state: `[`BiDiLens`](../../org.http4k.lens/-bi-di-lens/index.md)`<`[`Request`](../../org.http4k.core/-request/index.md)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?>` |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

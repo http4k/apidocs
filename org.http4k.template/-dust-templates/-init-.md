@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`DustTemplates(precachePoolSize: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)` = 0, dustPluginScripts: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`URL`](http://docs.oracle.com/javase/6/docs/api/java/net/URL.html)`> = emptyList())`
+`DustTemplates(precachePoolSize: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)` = 0, dustPluginScripts: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`URL`](https://docs.oracle.com/javase/6/docs/api/java/net/URL.html)`> = emptyList())`

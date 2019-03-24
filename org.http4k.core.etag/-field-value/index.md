@@ -11,6 +11,12 @@
 | [ETags](-e-tags/index.md) | `data class ETags : `[`FieldValue`](./index.md) |
 | [Wildcard](-wildcard.md) | `object Wildcard : `[`FieldValue`](./index.md) |
 
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
+
 ### Inheritors
 
 | Name | Summary |

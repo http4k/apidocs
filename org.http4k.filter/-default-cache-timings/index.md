@@ -17,3 +17,9 @@
 | [maxAge](max-age.md) | `val maxAge: `[`MaxAgeTtl`](../-max-age-ttl/index.md) |
 | [staleIfErrorTtl](stale-if-error-ttl.md) | `val staleIfErrorTtl: `[`StaleIfErrorTtl`](../-stale-if-error-ttl/index.md) |
 | [staleWhenRevalidateTtl](stale-when-revalidate-ttl.md) | `val staleWhenRevalidateTtl: `[`StaleWhenRevalidateTtl`](../-stale-when-revalidate-ttl/index.md) |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

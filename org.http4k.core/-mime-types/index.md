@@ -15,3 +15,9 @@
 | Name | Summary |
 |---|---|
 | [invoke](invoke.md) | `operator fun invoke(overrides: `[`Map`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`ContentType`](../-content-type/index.md)`> = emptyMap()): `[`MimeTypes`](./index.md) |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../with.md) | `fun <T> `[`T`](../with.md#T)`.with(vararg modifiers: (`[`T`](../with.md#T)`) -> `[`T`](../with.md#T)`): `[`T`](../with.md#T) |

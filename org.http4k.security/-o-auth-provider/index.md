@@ -20,6 +20,12 @@ Provides a configured set of objects for use with an OAuth2 provider.
 | [authFilter](auth-filter.md) | `val authFilter: `[`Filter`](../../org.http4k.core/-filter/index.md) |
 | [callback](callback.md) | `val callback: `[`HttpHandler`](../../org.http4k.core/-http-handler.md) |
 
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
+
 ### Companion Object Extension Functions
 
 | Name | Summary |

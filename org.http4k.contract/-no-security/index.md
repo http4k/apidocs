@@ -11,3 +11,9 @@ Default NoOp security filter. Filter allows all traffic through.
 | Name | Summary |
 |---|---|
 | [filter](filter.md) | `val filter: `[`Filter`](../../org.http4k.core/-filter/index.md) |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

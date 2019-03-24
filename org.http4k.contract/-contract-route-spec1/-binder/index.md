@@ -2,7 +2,7 @@
 
 # Binder
 
-`inner class Binder<out A> : `[`ContractRequestBuilder`](../../-contract-route-spec/-contract-request-builder/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/routeSpec.kt#L41)
+`inner class Binder<out A> : `[`ContractRouteSpec.ContractRequestBuilder`](../../-contract-route-spec/-contract-request-builder/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/routeSpec.kt#L41)
 
 ### Constructors
 

@@ -16,15 +16,15 @@ This includes calling `equals()` and `payload`
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `StreamBody(stream: `[`InputStream`](http://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html)`, length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`? = null)`<br>Represents a body that is backed by a (lazy) InputStream. Operating with StreamBody has a number of potential gotchas: |
+| [&lt;init&gt;](-init-.md) | `StreamBody(stream: `[`InputStream`](https://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html)`, length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`? = null)`<br>Represents a body that is backed by a (lazy) InputStream. Operating with StreamBody has a number of potential gotchas: |
 
 ### Properties
 
 | Name | Summary |
 |---|---|
 | [length](length.md) | `val length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`?`<br>Will be `null` for bodies where it's impossible to a priori determine - e.g. StreamBody |
-| [payload](payload.md) | `val payload: `[`ByteBuffer`](http://docs.oracle.com/javase/6/docs/api/java/nio/ByteBuffer.html) |
-| [stream](stream.md) | `val stream: `[`InputStream`](http://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html) |
+| [payload](payload.md) | `val payload: `[`ByteBuffer`](https://docs.oracle.com/javase/6/docs/api/java/nio/ByteBuffer.html) |
+| [stream](stream.md) | `val stream: `[`InputStream`](https://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html) |
 
 ### Functions
 
@@ -41,3 +41,4 @@ This includes calling `equals()` and `payload`
 |---|---|
 | [gunzipped](../../org.http4k.filter/gunzipped.md) | `fun `[`Body`](../-body/index.md)`.gunzipped(): `[`Body`](../-body/index.md) |
 | [gzipped](../../org.http4k.filter/gzipped.md) | `fun `[`Body`](../-body/index.md)`.gzipped(): `[`Body`](../-body/index.md) |
+| [with](../with.md) | `fun <T> `[`T`](../with.md#T)`.with(vararg modifiers: (`[`T`](../with.md#T)`) -> `[`T`](../with.md#T)`): `[`T`](../with.md#T) |

@@ -13,3 +13,9 @@ can a different renderer implementation for the ReadinessCheck results.
 | Name | Summary |
 |---|---|
 | [invoke](invoke.md) | `operator fun invoke(vararg extraRoutes: `[`RoutingHttpHandler`](../../org.http4k.routing/-routing-http-handler/index.md)`, checks: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`ReadinessCheck`](../-readiness-check/index.md)`> = emptyList(), renderer: `[`ReadinessCheckResultRenderer`](../-readiness-check-result-renderer/index.md)` = DefaultReadinessCheckResultRenderer): `[`RoutingHttpHandler`](../../org.http4k.routing/-routing-http-handler/index.md) |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

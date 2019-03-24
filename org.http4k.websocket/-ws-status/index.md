@@ -36,12 +36,18 @@
 | [FLASHPOLICY](-f-l-a-s-h-p-o-l-i-c-y.md) | `val FLASHPOLICY: `[`WsStatus`](./index.md) |
 | [GOING_AWAY](-g-o-i-n-g_-a-w-a-y.md) | `val GOING_AWAY: `[`WsStatus`](./index.md) |
 | [NEVER_CONNECTED](-n-e-v-e-r_-c-o-n-n-e-c-t-e-d.md) | `val NEVER_CONNECTED: `[`WsStatus`](./index.md) |
+| [NO_UTF8](-n-o_-u-t-f8.md) | `val NO_UTF8: `[`WsStatus`](./index.md) |
 | [NOCODE](-n-o-c-o-d-e.md) | `val NOCODE: `[`WsStatus`](./index.md) |
 | [NORMAL](-n-o-r-m-a-l.md) | `val NORMAL: `[`WsStatus`](./index.md) |
-| [NO_UTF8](-n-o_-u-t-f8.md) | `val NO_UTF8: `[`WsStatus`](./index.md) |
 | [POLICY_VALIDATION](-p-o-l-i-c-y_-v-a-l-i-d-a-t-i-o-n.md) | `val POLICY_VALIDATION: `[`WsStatus`](./index.md) |
 | [PROTOCOL_ERROR](-p-r-o-t-o-c-o-l_-e-r-r-o-r.md) | `val PROTOCOL_ERROR: `[`WsStatus`](./index.md) |
 | [REFUSE](-r-e-f-u-s-e.md) | `val REFUSE: `[`WsStatus`](./index.md) |
 | [TLS_ERROR](-t-l-s_-e-r-r-o-r.md) | `val TLS_ERROR: `[`WsStatus`](./index.md) |
 | [TOOBIG](-t-o-o-b-i-g.md) | `val TOOBIG: `[`WsStatus`](./index.md) |
 | [UNEXPECTED_CONDITION](-u-n-e-x-p-e-c-t-e-d_-c-o-n-d-i-t-i-o-n.md) | `val UNEXPECTED_CONDITION: `[`WsStatus`](./index.md) |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

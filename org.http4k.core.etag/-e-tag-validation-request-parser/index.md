@@ -17,3 +17,9 @@ Implemented according to https://www.w3.org/Protocols/rfc2616/rfc2616-sec3.html#
 | Name | Summary |
 |---|---|
 | [parse](parse.md) | `fun parse(headerValue: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`FieldValue`](../-field-value/index.md) |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

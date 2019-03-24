@@ -17,3 +17,9 @@ Basic reporting of ReadinessCheckResults
 | Name | Summary |
 |---|---|
 | [invoke](invoke.md) | `fun invoke(p1: `[`ReadinessCheckResult`](../-readiness-check-result/index.md)`): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

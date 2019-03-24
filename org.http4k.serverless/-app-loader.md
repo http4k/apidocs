@@ -6,6 +6,12 @@
 
 Http4k app loader - instantiate the application from the environment config
 
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../org.http4k.core/with.md) | `fun <T> `[`T`](../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../org.http4k.core/with.md#T)`) -> `[`T`](../org.http4k.core/with.md#T)`): `[`T`](../org.http4k.core/with.md#T) |
+
 ### Inheritors
 
 | Name | Summary |

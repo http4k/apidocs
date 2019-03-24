@@ -15,3 +15,9 @@
 | Name | Summary |
 |---|---|
 | [toSchema](to-schema.md) | `fun toSchema(node: `[`NODE`](index.md#NODE)`, overrideDefinitionId: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`? = null): `[`JsonSchema`](../-json-schema/index.md)`<`[`NODE`](index.md#NODE)`>` |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

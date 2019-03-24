@@ -2,7 +2,7 @@
 
 # Client
 
-`object Client : `[`FiltersTemplate`](-filters-template/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-metrics-micrometer/src/main/kotlin/org/http4k/filter/MetricFilters.kt#L50)
+`object Client : `[`MetricFilters.FiltersTemplate`](-filters-template/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-metrics-micrometer/src/main/kotlin/org/http4k/filter/MetricFilters.kt#L50)
 
 ### Inherited Functions
 

@@ -18,3 +18,9 @@
 | [StackOverflow](-stack-overflow/index.md) | `object StackOverflow`<br>Allocates memory in a busy loop until an OOM occurs. |
 | [ThrowException](-throw-exception/index.md) | `object ThrowException`<br>Throws the appropriate exception. |
 | [Variable](-variable/index.md) | `class Variable : `[`Behaviour`](../-behaviour.md)<br>Provide a means of modifying a ChaosBehaviour at runtime. |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

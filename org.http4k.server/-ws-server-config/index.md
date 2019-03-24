@@ -13,6 +13,12 @@ Standard interface for creating a configured WebServer which supports Websockets
 | [toServer](to-server.md) | `open fun toServer(httpHandler: `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`): `[`Http4kServer`](../-http4k-server/index.md)<br>`abstract fun toServer(httpHandler: `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`? = null, wsHandler: `[`WsHandler`](../../org.http4k.websocket/-ws-handler.md)`? = null): `[`Http4kServer`](../-http4k-server/index.md) |
 | [toWsServer](to-ws-server.md) | `open fun toWsServer(wsHandler: `[`WsHandler`](../../org.http4k.websocket/-ws-handler.md)`): `[`Http4kServer`](../-http4k-server/index.md) |
 
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
+
 ### Inheritors
 
 | Name | Summary |

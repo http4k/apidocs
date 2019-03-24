@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [load](load.md) | `abstract fun load(path: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`URL`](http://docs.oracle.com/javase/6/docs/api/java/net/URL.html)`?` |
+| [load](load.md) | `abstract fun load(path: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`URL`](https://docs.oracle.com/javase/6/docs/api/java/net/URL.html)`?` |
 
 ### Companion Object Functions
 
@@ -16,3 +16,9 @@
 |---|---|
 | [Classpath](-classpath.md) | `fun Classpath(basePackagePath: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = "/"): `[`ResourceLoader`](./index.md) |
 | [Directory](-directory.md) | `fun Directory(baseDir: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = "."): `[`ResourceLoader`](./index.md) |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

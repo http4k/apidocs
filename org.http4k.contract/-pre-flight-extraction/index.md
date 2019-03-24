@@ -20,6 +20,12 @@ bodies could be expensive and pre-flight-extraction would involve performing thi
 | [All](-all/index.md) | `object All : `[`PreFlightExtraction`](./index.md)<br>Check the entire contract, including the body. |
 | [IgnoreBody](-ignore-body/index.md) | `object IgnoreBody : `[`PreFlightExtraction`](./index.md)<br>Check all parts of the contract apart from the body, relying on the HttpHandler code to raise a correct LensFailure if extraction fails. Use this option to avoid re-extracting the body multiple times. |
 
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
+
 ### Inheritors
 
 | Name | Summary |

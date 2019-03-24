@@ -2,7 +2,7 @@
 
 # Http4kServer
 
-`interface Http4kServer : `[`AutoCloseable`](http://docs.oracle.com/javase/6/docs/api/java/lang/AutoCloseable.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/server/http4kServer.kt#L9)
+`interface Http4kServer : `[`AutoCloseable`](https://docs.oracle.com/javase/6/docs/api/java/lang/AutoCloseable.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/server/http4kServer.kt#L9)
 
 ### Functions
 
@@ -13,6 +13,12 @@
 | [port](port.md) | `abstract fun port(): `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
 | [start](start.md) | `abstract fun start(): `[`Http4kServer`](./index.md) |
 | [stop](stop.md) | `abstract fun stop(): `[`Http4kServer`](./index.md) |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
 
 ### Inheritors
 

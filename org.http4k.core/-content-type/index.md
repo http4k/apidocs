@@ -42,4 +42,10 @@
 | Name | Summary |
 |---|---|
 | [MultipartFormWithBoundary](-multipart-form-with-boundary.md) | `fun MultipartFormWithBoundary(boundary: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`ContentType`](./index.md) |
-| [Text](-text.md) | `fun Text(value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, charset: `[`Charset`](http://docs.oracle.com/javase/6/docs/api/java/nio/charset/Charset.html)`? = Charsets.UTF_8): `[`ContentType`](./index.md) |
+| [Text](-text.md) | `fun Text(value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, charset: `[`Charset`](https://docs.oracle.com/javase/6/docs/api/java/nio/charset/Charset.html)`? = Charsets.UTF_8): `[`ContentType`](./index.md) |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../with.md) | `fun <T> `[`T`](../with.md#T)`.with(vararg modifiers: (`[`T`](../with.md#T)`) -> `[`T`](../with.md#T)`): `[`T`](../with.md#T) |

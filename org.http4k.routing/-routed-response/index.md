@@ -20,7 +20,7 @@
 
 | Name | Summary |
 |---|---|
-| [body](body.md) | `fun body(body: `[`Body`](../../org.http4k.core/-body/index.md)`): `[`Response`](../../org.http4k.core/-response/index.md)<br>`fun body(body: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Response`](../../org.http4k.core/-response/index.md)<br>`fun body(body: `[`InputStream`](http://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html)`, length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`?): `[`Response`](../../org.http4k.core/-response/index.md) |
+| [body](body.md) | `fun body(body: `[`Body`](../../org.http4k.core/-body/index.md)`): `[`Response`](../../org.http4k.core/-response/index.md)<br>`fun body(body: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Response`](../../org.http4k.core/-response/index.md)<br>`fun body(body: `[`InputStream`](https://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html)`, length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`?): `[`Response`](../../org.http4k.core/-response/index.md) |
 | [equals](equals.md) | `fun equals(other: `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`?): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
 | [hashCode](hash-code.md) | `fun hashCode(): `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
 | [header](header.md) | `fun header(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`Response`](../../org.http4k.core/-response/index.md) |
@@ -47,3 +47,4 @@
 | [replaceCookie](../../org.http4k.core.cookie/replace-cookie.md) | `fun `[`Response`](../../org.http4k.core/-response/index.md)`.replaceCookie(cookie: `[`Cookie`](../../org.http4k.core.cookie/-cookie/index.md)`): `[`Response`](../../org.http4k.core/-response/index.md) |
 | [staleIfError](../../org.http4k.core/stale-if-error.md) | `fun `[`Response`](../../org.http4k.core/-response/index.md)`.staleIfError(duration: Duration): `[`Response`](../../org.http4k.core/-response/index.md) |
 | [staleWhileRevalidate](../../org.http4k.core/stale-while-revalidate.md) | `fun `[`Response`](../../org.http4k.core/-response/index.md)`.staleWhileRevalidate(duration: Duration): `[`Response`](../../org.http4k.core/-response/index.md) |
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

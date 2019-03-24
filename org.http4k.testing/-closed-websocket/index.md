@@ -15,3 +15,9 @@
 | Name | Summary |
 |---|---|
 | [status](status.md) | `val status: `[`WsStatus`](../../org.http4k.websocket/-ws-status/index.md) |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

@@ -33,3 +33,9 @@
 | [navigate](navigate.md) | `fun navigate(): `[`Http4KNavigation`](../-http4-k-navigation/index.md) |
 | [quit](quit.md) | `fun quit(): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 | [switchTo](switch-to.md) | `fun switchTo(): TargetLocator` |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

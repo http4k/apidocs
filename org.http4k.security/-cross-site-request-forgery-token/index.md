@@ -21,3 +21,9 @@
 | Name | Summary |
 |---|---|
 | [SECURE_CSRF](-s-e-c-u-r-e_-c-s-r-f.md) | `val SECURE_CSRF: () -> `[`CrossSiteRequestForgeryToken`](./index.md) |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

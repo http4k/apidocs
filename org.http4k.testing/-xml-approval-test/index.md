@@ -1,16 +1,16 @@
-[http4k](../../index.md) / [org.http4k.testing](../index.md) / [JsonApprovalTest](./index.md)
+[http4k](../../index.md) / [org.http4k.testing](../index.md) / [XmlApprovalTest](./index.md)
 
-# JsonApprovalTest
+# XmlApprovalTest
 
-`class JsonApprovalTest : `[`ContentTypeAwareApprovalTest`](../-content-type-aware-approval-test/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-approval/src/main/kotlin/org/http4k/testing/ApprovalTest.kt#L83)
+`class XmlApprovalTest : `[`ContentTypeAwareApprovalTest`](../-content-type-aware-approval-test/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-approval/src/main/kotlin/org/http4k/testing/ApprovalTest.kt#L106)
 
-Approval JUnit5 extension configured to compare prettified-JSON messages.
+Approval JUnit5 extension configured to compare prettified-XML messages.
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `JsonApprovalTest()`<br>Approval JUnit5 extension configured to compare prettified-JSON messages. |
+| [&lt;init&gt;](-init-.md) | `XmlApprovalTest()`<br>Approval JUnit5 extension configured to compare prettified-XML messages. |
 
 ### Functions
 

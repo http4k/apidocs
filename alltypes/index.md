@@ -83,6 +83,7 @@
 | [org.http4k.server.ConnectorBuilder](../org.http4k.server/-connector-builder.md) |  |
 | [org.http4k.lens.ContentNegotiation](../org.http4k.lens/-content-negotiation/index.md) | Modes for determining if a passed content type is acceptable. |
 | [org.http4k.core.ContentType](../org.http4k.core/-content-type/index.md) |  |
+| [org.http4k.testing.ContentTypeAwareApprovalTest](../org.http4k.testing/-content-type-aware-approval-test/index.md) | Approval testing JUnit5 extension that checks the expected content type is present in the |
 | [org.http4k.contract.ContractBuilder](../org.http4k.contract/-contract-builder/index.md) |  |
 | [org.http4k.contract.ContractRenderer](../org.http4k.contract/-contract-renderer/index.md) |  |
 | [org.http4k.contract.ContractRoute](../org.http4k.contract/-contract-route/index.md) |  |
@@ -153,6 +154,7 @@
 | [org.http4k.core.Headers](../org.http4k.core/-headers.md) |  |
 | [org.http4k.cloudnative.health.Health](../org.http4k.cloudnative.health/-health/index.md) | Represents the set of operational endpoints to ensure that a particular app is working ok. By default provides Readiness and Liveness endpoints, but extra routes can be passed, as can a different renderer implementation for the ReadinessCheck results. |
 | [org.http4k.cloudnative.env.Host](../org.http4k.cloudnative.env/-host/index.md) |  |
+| [org.http4k.testing.HtmlApprovalTest](../org.http4k.testing/-html-approval-test/index.md) | Approval JUnit5 extension configured to compare prettified-HTML messages. Note that this strips |
 | [org.http4k.server.Http4kChannelHandler](../org.http4k.server/-http4k-channel-handler/index.md) | Exposed to allow for insertion into a customised Netty server instance |
 | [org.http4k.cloudnative.Http4kK8sServer](../org.http4k.cloudnative/-http4k-k8s-server/index.md) | A K8S server consists of a main application and a health application, running on 2 different ports. This class provides unified start/stop control. |
 | [org.http4k.webdriver.Http4KNavigation](../org.http4k.webdriver/-http4-k-navigation/index.md) |  |
@@ -350,4 +352,5 @@
 | [org.http4k.server.WsServerConfig](../org.http4k.server/-ws-server-config/index.md) | Standard interface for creating a configured WebServer which supports Websockets |
 | [org.http4k.websocket.WsStatus](../org.http4k.websocket/-ws-status/index.md) |  |
 | [org.http4k.format.Xml](../org.http4k.format/-xml/index.md) |  |
+| [org.http4k.testing.XmlApprovalTest](../org.http4k.testing/-xml-approval-test/index.md) | Approval JUnit5 extension configured to compare prettified-XML messages. |
 | [org.http4k.filter.ZipkinTraces](../org.http4k.filter/-zipkin-traces/index.md) |  |

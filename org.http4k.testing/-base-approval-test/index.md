@@ -2,7 +2,7 @@
 
 # BaseApprovalTest
 
-`interface BaseApprovalTest : BeforeTestExecutionCallback, ParameterResolver` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-approval/src/main/kotlin/org/http4k/testing/ApprovalTest.kt#L23)
+`interface BaseApprovalTest : BeforeTestExecutionCallback, ParameterResolver` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-approval/src/main/kotlin/org/http4k/testing/ApprovalTest.kt#L29)
 
 Base JUnit extension for injecting an Approver into a JUnit5 test-case. Implement this
 to provide custom approval behaviours, or
@@ -27,4 +27,4 @@ to provide custom approval behaviours, or
 | Name | Summary |
 |---|---|
 | [ApprovalTest](../-approval-test/index.md) | `class ApprovalTest : `[`BaseApprovalTest`](./index.md)<br>Standard Approval JUnit5 extension. Can be used to compare any HttpMessages. |
-| [JsonApprovalTest](../-json-approval-test/index.md) | `class JsonApprovalTest : `[`BaseApprovalTest`](./index.md)<br>Approval JUnit5 extension configured to compare prettified-JSON messages. |
+| [ContentTypeAwareApprovalTest](../-content-type-aware-approval-test/index.md) | `abstract class ContentTypeAwareApprovalTest : `[`BaseApprovalTest`](./index.md)<br>Approval testing JUnit5 extension that checks the expected content type is present in the |

@@ -2,7 +2,7 @@
 
 # NamedResourceApprover
 
-`class NamedResourceApprover : `[`Approver`](../-approver/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-approval/src/main/kotlin/org/http4k/testing/Approver.kt#L18)
+`class NamedResourceApprover : `[`Approver`](../-approver/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-approval/src/main/kotlin/org/http4k/testing/Approver.kt#L24)
 
 ### Constructors
 
@@ -14,11 +14,12 @@
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `operator fun <T : `[`HttpMessage`](../../org.http4k.core/-http-message/index.md)`> invoke(fn: () -> `[`T`](invoke.md#T)`): `[`T`](invoke.md#T) |
+| [assertApproved](assert-approved.md) | `fun <T : `[`HttpMessage`](../../org.http4k.core/-http-message/index.md)`> assertApproved(httpMessage: `[`T`](assert-approved.md#T)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)<br>Check the content of the passed message against the previously approved content. |
 
 ### Extension Functions
 
 | Name | Summary |
 |---|---|
-| [invoke](../invoke.md) | `operator fun <T : `[`HttpMessage`](../../org.http4k.core/-http-message/index.md)`> `[`Approver`](../-approver/index.md)`.invoke(baseMatcher: Matcher<`[`T`](../invoke.md#T)`>, fn: () -> `[`T`](../invoke.md#T)`): `[`T`](../invoke.md#T)<br>`operator fun `[`Approver`](../-approver/index.md)`.invoke(status: `[`Status`](../../org.http4k.core/-status/index.md)`, fn: () -> `[`Response`](../../org.http4k.core/-response/index.md)`): `[`Response`](../../org.http4k.core/-response/index.md) |
+| [assertApproved](../assert-approved.md) | `fun `[`Approver`](../-approver/index.md)`.assertApproved(response: `[`Response`](../../org.http4k.core/-response/index.md)`, expectedStatus: `[`Status`](../../org.http4k.core/-status/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| [hasApprovedContent](../has-approved-content.md) | `fun <T : `[`HttpMessage`](../../org.http4k.core/-http-message/index.md)`> `[`Approver`](../-approver/index.md)`.hasApprovedContent(): Matcher<`[`T`](../has-approved-content.md#T)`>`<br>Create a Hamkrest Matcher for this message that can be combined with other Matchers |
 | [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

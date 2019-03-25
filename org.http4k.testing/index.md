@@ -42,5 +42,6 @@ Useful tools for testing http4k applications.
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `operator fun <T : `[`HttpMessage`](../org.http4k.core/-http-message/index.md)`> `[`Approver`](-approver/index.md)`.invoke(baseMatcher: Matcher<`[`T`](invoke.md#T)`>, fn: () -> `[`T`](invoke.md#T)`): `[`T`](invoke.md#T)<br>`operator fun `[`Approver`](-approver/index.md)`.invoke(status: `[`Status`](../org.http4k.core/-status/index.md)`, fn: () -> `[`Response`](../org.http4k.core/-response/index.md)`): `[`Response`](../org.http4k.core/-response/index.md) |
+| [assertApproved](assert-approved.md) | `fun `[`Approver`](-approver/index.md)`.assertApproved(response: `[`Response`](../org.http4k.core/-response/index.md)`, expectedStatus: `[`Status`](../org.http4k.core/-status/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| [hasApprovedContent](has-approved-content.md) | `fun <T : `[`HttpMessage`](../org.http4k.core/-http-message/index.md)`> `[`Approver`](-approver/index.md)`.hasApprovedContent(): Matcher<`[`T`](has-approved-content.md#T)`>`<br>Create a Hamkrest Matcher for this message that can be combined with other Matchers |
 | [testWsClient](test-ws-client.md) | `fun `[`PolyHandler`](../org.http4k.websocket/-poly-handler/index.md)`.testWsClient(request: `[`Request`](../org.http4k.core/-request/index.md)`): `[`TestWsClient`](-test-ws-client/index.md)`?` |

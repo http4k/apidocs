@@ -3,4 +3,4 @@
 # uuid
 
 `fun <IN : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> `[`BiDiLensSpec`](-bi-di-lens-spec/index.md)`<`[`IN`](uuid.md#IN)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>.uuid(): `[`BiDiLensSpec`](-bi-di-lens-spec/index.md)`<`[`IN`](uuid.md#IN)`, `[`UUID`](https://docs.oracle.com/javase/6/docs/api/java/util/UUID.html)`!>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/lensSpec.kt#L225)
-`fun `[`Path`](-path/index.md)`.uuid(): `[`BiDiPathLensSpec`](-bi-di-path-lens-spec/index.md)`<`[`UUID`](https://docs.oracle.com/javase/6/docs/api/java/util/UUID.html)`!>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/path.kt#L105)
+`fun `[`Path`](-path/index.md)`.uuid(): `[`BiDiPathLensSpec`](-bi-di-path-lens-spec/index.md)`<`[`UUID`](https://docs.oracle.com/javase/6/docs/api/java/util/UUID.html)`!>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/path.kt#L106)

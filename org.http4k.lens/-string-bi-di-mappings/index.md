@@ -2,7 +2,7 @@
 
 # StringBiDiMappings
 
-`object StringBiDiMappings` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/BiDiMapping.kt#L47)
+`object StringBiDiMappings` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/BiDiMapping.kt#L49)
 
 A set of standardised String &lt;-&gt; Type conversions which are used throughout http4k
 
@@ -10,6 +10,7 @@ A set of standardised String &lt;-&gt; Type conversions which are used throughou
 
 | Name | Summary |
 |---|---|
+| [base64](base64.md) | `fun base64(): `[`BiDiMapping`](../-bi-di-mapping/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
 | [bigDecimal](big-decimal.md) | `fun bigDecimal(): `[`BiDiMapping`](../-bi-di-mapping/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`BigDecimal`](https://docs.oracle.com/javase/6/docs/api/java/math/BigDecimal.html)`>` |
 | [bigInteger](big-integer.md) | `fun bigInteger(): `[`BiDiMapping`](../-bi-di-mapping/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`BigInteger`](https://docs.oracle.com/javase/6/docs/api/java/math/BigInteger.html)`>` |
 | [boolean](boolean.md) | `fun boolean(): `[`BiDiMapping`](../-bi-di-mapping/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`>` |

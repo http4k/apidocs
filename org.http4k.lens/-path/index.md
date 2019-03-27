@@ -21,6 +21,7 @@
 
 | Name | Summary |
 |---|---|
+| [base64](../base64.md) | `fun `[`Path`](./index.md)`.base64(): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
 | [bigDecimal](../big-decimal.md) | `fun `[`Path`](./index.md)`.bigDecimal(): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<`[`BigDecimal`](https://docs.oracle.com/javase/6/docs/api/java/math/BigDecimal.html)`>` |
 | [bigInteger](../big-integer.md) | `fun `[`Path`](./index.md)`.bigInteger(): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<`[`BigInteger`](https://docs.oracle.com/javase/6/docs/api/java/math/BigInteger.html)`>` |
 | [boolean](../boolean.md) | `fun `[`Path`](./index.md)`.boolean(): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<`[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`>` |

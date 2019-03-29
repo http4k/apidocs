@@ -2,7 +2,7 @@
 
 # &lt;init&gt;
 
-`UpstreamRequestFailed(message: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`)`
+`UpstreamRequestFailed(status: `[`Status`](../../org.http4k.core/-status/index.md)`, message: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`)`
 
 This hierarchy of exceptions should be used to indicate that an upstream remote system has failed with a
 non-successful status code which caused us to stop processing. They are designed to be used with the

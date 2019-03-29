@@ -37,8 +37,6 @@
 | [org.http4k.aws.AwsCredentials](../org.http4k.aws/-aws-credentials/index.md) |  |
 | [org.http4k.aws.AwsCredentialScope](../org.http4k.aws/-aws-credential-scope/index.md) |  |
 | [org.http4k.aws.AwsHmacSha256](../org.http4k.aws/-aws-hmac-sha256/index.md) |  |
-| [org.http4k.cloudnative.BadGateway](../org.http4k.cloudnative/-bad-gateway/index.md) |  |
-| [org.http4k.cloudnative.BadRequest](../org.http4k.cloudnative/-bad-request/index.md) |  |
 | [org.http4k.testing.BaseApprovalTest](../org.http4k.testing/-base-approval-test/index.md) | Base JUnit extension for injecting an Approver into a JUnit5 test-case. Implement this to provide custom approval behaviours, or |
 | [org.http4k.filter.cookie.BasicCookieStorage](../org.http4k.filter.cookie/-basic-cookie-storage/index.md) |  |
 | [org.http4k.chaos.Behaviour](../org.http4k.chaos/-behaviour.md) | Encapsulates the type of bad behaviour to apply to the response. |
@@ -79,7 +77,6 @@
 | [org.http4k.format.ConfigurableJackson](../org.http4k.format/-configurable-jackson/index.md) |  |
 | [org.http4k.format.ConfigurableJacksonXml](../org.http4k.format/-configurable-jackson-xml/index.md) |  |
 | [org.http4k.format.ConfigurableMoshi](../org.http4k.format/-configurable-moshi/index.md) |  |
-| [org.http4k.cloudnative.Conflict](../org.http4k.cloudnative/-conflict/index.md) |  |
 | [org.http4k.server.ConnectorBuilder](../org.http4k.server/-connector-builder.md) |  |
 | [org.http4k.lens.ContentNegotiation](../org.http4k.lens/-content-negotiation/index.md) | Modes for determining if a passed content type is acceptable. |
 | [org.http4k.core.ContentType](../org.http4k.core/-content-type/index.md) |  |
@@ -141,6 +138,7 @@
 | [kotlin.Function1](../org.http4k.template/kotlin.-function1/index.md) (extensions in package org.http4k.template) |  |
 | [kotlin.Function1](../org.http4k.testing/kotlin.-function1/index.md) (extensions in package org.http4k.testing) |  |
 | [kotlin.Function1](../org.http4k.chaos/kotlin.-function1/index.md) (extensions in package org.http4k.chaos) |  |
+| [org.http4k.cloudnative.GatewayTimeout](../org.http4k.cloudnative/-gateway-timeout/index.md) |  |
 | [org.http4k.security.oauth.server.GenerateAccessToken](../org.http4k.security.oauth.server/-generate-access-token/index.md) |  |
 | [org.http4k.filter.GenerateDataClasses](../org.http4k.filter/-generate-data-classes/index.md) | This Filter is used to generate Data class definitions from a Response containing JSON. The Filter will try and reduce the number of class definitions by selecting the definition with the most fields (for cases where lists of items have different fields). |
 | [org.http4k.filter.GenerateXmlDataClasses](../org.http4k.filter/-generate-xml-data-classes/index.md) | This Filter is used to generate Data class definitions from a Response containing XML. The Filter will try and reduce the number of class definitions by selecting the definition with the most fields (for cases where lists of items have different fields). |
@@ -172,7 +170,6 @@
 | [org.http4k.routing.experimental.InMemoryResource](../org.http4k.routing.experimental/-in-memory-resource/index.md) |  |
 | [org.http4k.security.oauth.server.InsecureCookieBasedAuthRequestPersistence](../org.http4k.security.oauth.server/-insecure-cookie-based-auth-request-persistence/index.md) |  |
 | [org.http4k.security.InsecureCookieBasedOAuthPersistence](../org.http4k.security/-insecure-cookie-based-o-auth-persistence/index.md) | This is an example implementation which stores CSRF and AccessTokenEnvelope values in an INSECURE client-side cookie. Access-tokens for end-services are fully available to the browser so do not use this in production! |
-| [org.http4k.cloudnative.InternalServerError](../org.http4k.cloudnative/-internal-server-error/index.md) |  |
 | [org.http4k.lens.Invalid](../org.http4k.lens/-invalid/index.md) |  |
 | [org.http4k.format.InvalidJsonException](../org.http4k.format/-invalid-json-exception/index.md) |  |
 | [org.http4k.format.Jackson](../org.http4k.format/-jackson.md) | To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called. |
@@ -299,7 +296,6 @@
 | [org.http4k.contract.Security](../org.http4k.contract/-security/index.md) | Endpoint security. Provides filter to be applied to endpoints for all requests. |
 | [org.http4k.server.ServerConfig](../org.http4k.server/-server-config/index.md) | Standard interface for creating a configured WebServer |
 | [org.http4k.filter.ServerFilters](../org.http4k.filter/-server-filters/index.md) |  |
-| [org.http4k.cloudnative.ServiceUnavailable](../org.http4k.cloudnative/-service-unavailable/index.md) |  |
 | [org.http4k.contract.SimpleJson](../org.http4k.contract/-simple-json/index.md) |  |
 | [org.http4k.traffic.Sink](../org.http4k.traffic/-sink/index.md) | Consumes HTTP traffic for storage. |
 | [org.http4k.contract.Slash](../org.http4k.contract/-slash/index.md) |  |

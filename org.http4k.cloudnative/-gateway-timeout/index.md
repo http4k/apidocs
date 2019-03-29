@@ -1,14 +1,14 @@
-[http4k](../../index.md) / [org.http4k.cloudnative](../index.md) / [NotFound](./index.md)
+[http4k](../../index.md) / [org.http4k.cloudnative](../index.md) / [GatewayTimeout](./index.md)
 
-# NotFound
+# GatewayTimeout
 
-`class NotFound : `[`UpstreamRequestFailed`](../-upstream-request-failed/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/UpstreamRequestFailed.kt#L16)
+`class GatewayTimeout : `[`UpstreamRequestFailed`](../-upstream-request-failed/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/UpstreamRequestFailed.kt#L20)
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `NotFound(message: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`)` |
+| [&lt;init&gt;](-init-.md) | `GatewayTimeout(message: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`)` |
 
 ### Inherited Properties
 

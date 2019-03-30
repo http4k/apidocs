@@ -2,7 +2,13 @@
 
 # HttpMessageMeta
 
-`sealed class HttpMessageMeta<out T : `[`HttpMessage`](../../org.http4k.core/-http-message/index.md)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/routeMeta.kt#L16)
+`open class HttpMessageMeta<out T : `[`HttpMessage`](../../org.http4k.core/-http-message/index.md)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/routeMeta.kt#L16)
+
+### Constructors
+
+| Name | Summary |
+|---|---|
+| [&lt;init&gt;](-init-.md) | `HttpMessageMeta(message: `[`T`](index.md#T)`, definitionId: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`? = null)` |
 
 ### Properties
 

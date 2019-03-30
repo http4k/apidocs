@@ -26,7 +26,7 @@ Code for defining typesafe contracts which generate OpenAPI documentation.
 | [ContractRouteSpec8](-contract-route-spec8/index.md) | `class ContractRouteSpec8<out A, out B, out C, out D, out E, out F, out G, out H> : `[`ContractRouteSpec`](-contract-route-spec/index.md) |
 | [ContractRouteSpec9](-contract-route-spec9/index.md) | `class ContractRouteSpec9<out A, out B, out C, out D, out E, out F, out G, out H, out I> : `[`ContractRouteSpec`](-contract-route-spec/index.md) |
 | [ContractRoutingHttpHandler](-contract-routing-http-handler/index.md) | `data class ContractRoutingHttpHandler : `[`RoutingHttpHandler`](../org.http4k.routing/-routing-http-handler/index.md) |
-| [HttpMessageMeta](-http-message-meta/index.md) | `sealed class HttpMessageMeta<out T : `[`HttpMessage`](../org.http4k.core/-http-message/index.md)`>` |
+| [HttpMessageMeta](-http-message-meta/index.md) | `open class HttpMessageMeta<out T : `[`HttpMessage`](../org.http4k.core/-http-message/index.md)`>` |
 | [NoRenderer](-no-renderer/index.md) | `object NoRenderer : `[`ContractRenderer`](-contract-renderer/index.md) |
 | [NoSecurity](-no-security/index.md) | `object NoSecurity : `[`Security`](-security/index.md)<br>Default NoOp security filter. Filter allows all traffic through. |
 | [OpenApi](-open-api/index.md) | `open class OpenApi<out NODE> : `[`ContractRenderer`](-contract-renderer/index.md) |

@@ -7,7 +7,7 @@
 Add an example request (using a Lens and a value) to this Route. It is also possible to pass in the definitionId for this request body which
 will override the naturally generated one.
 
-`fun <T> receiving(bodyLens: `[`BiDiBodyLens`](../../org.http4k.lens/-bi-di-body-lens/index.md)`<`[`T`](receiving.md#T)`>): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/routeMeta.kt#L87)
+`fun <T> receiving(bodyLens: `[`BiDiBodyLens`](../../org.http4k.lens/-bi-di-body-lens/index.md)`<`[`T`](receiving.md#T)`>): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/routeMeta.kt#L90)
 
 Set the input body type for this request WITHOUT an example. Hence the content-type will be registered but no
 example schema will be generated.

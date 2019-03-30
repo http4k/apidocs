@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [jsonRequest](json-request.md) | `val jsonRequest: `[`RequestMeta`](../-request-meta/index.md)`?` |
+| [jsonRequest](json-request.md) | `val jsonRequest: `[`HttpMessageMeta`](../-http-message-meta/index.md)`<`[`Request`](../../org.http4k.core/-request/index.md)`>?` |
 | [meta](meta.md) | `val meta: `[`RouteMeta`](../-route-meta/index.md) |
 | [method](method.md) | `val method: `[`Method`](../../org.http4k.core/-method/index.md) |
 | [nonBodyParams](non-body-params.md) | `val nonBodyParams: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`Meta`](../../org.http4k.lens/-meta/index.md)`>` |

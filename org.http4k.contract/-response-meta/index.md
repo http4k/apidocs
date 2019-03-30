@@ -10,17 +10,12 @@
 |---|---|
 | [&lt;init&gt;](-init-.md) | `ResponseMeta(description: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, response: `[`Response`](../../org.http4k.core/-response/index.md)`, definitionId: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`? = null)` |
 
-### Properties
-
-| Name | Summary |
-|---|---|
-| [description](description.md) | `val description: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
-
 ### Inherited Properties
 
 | Name | Summary |
 |---|---|
 | [definitionId](../-http-message-meta/definition-id.md) | `val definitionId: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |
+| [description](../-http-message-meta/description.md) | `val description: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [message](../-http-message-meta/message.md) | `val message: `[`T`](../-http-message-meta/index.md#T) |
 
 ### Extension Functions

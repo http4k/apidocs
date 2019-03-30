@@ -15,6 +15,7 @@
 | Name | Summary |
 |---|---|
 | [definitionId](../-http-message-meta/definition-id.md) | `val definitionId: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |
+| [description](../-http-message-meta/description.md) | `val description: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [message](../-http-message-meta/message.md) | `val message: `[`T`](../-http-message-meta/index.md#T) |
 
 ### Extension Functions

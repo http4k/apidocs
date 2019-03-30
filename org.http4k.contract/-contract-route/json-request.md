@@ -2,4 +2,4 @@
 
 # jsonRequest
 
-`val jsonRequest: `[`RequestMeta`](../-request-meta/index.md)`?` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/ContractRoute.kt#L24)
+`val jsonRequest: `[`HttpMessageMeta`](../-http-message-meta/index.md)`<`[`Request`](../../org.http4k.core/-request/index.md)`>?` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/ContractRoute.kt#L24)

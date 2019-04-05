@@ -71,6 +71,7 @@ The core abstractions for the http4k library.
 | [public](public.md) | `fun `[`Response`](-response/index.md)`.public(): `[`Response`](-response/index.md) |
 | [queries](queries.md) | `fun `[`Uri`](-uri/index.md)`.queries(): `[`Parameters`](-parameters.md) |
 | [query](query.md) | `fun `[`Uri`](-uri/index.md)`.query(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`Uri`](-uri/index.md) |
+| [removeQuery](remove-query.md) | `fun `[`Uri`](-uri/index.md)`.removeQuery(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Uri`](-uri/index.md) |
 | [staleIfError](stale-if-error.md) | `fun `[`Response`](-response/index.md)`.staleIfError(duration: Duration): `[`Response`](-response/index.md) |
 | [staleWhileRevalidate](stale-while-revalidate.md) | `fun `[`Response`](-response/index.md)`.staleWhileRevalidate(duration: Duration): `[`Response`](-response/index.md) |
 | [then](then.md) | `fun `[`Filter`](-filter/index.md)`.then(next: `[`Filter`](-filter/index.md)`): `[`Filter`](-filter/index.md)<br>`fun `[`Filter`](-filter/index.md)`.then(next: `[`HttpHandler`](-http-handler.md)`): `[`HttpHandler`](-http-handler.md)<br>`fun `[`Filter`](-filter/index.md)`.then(routingHttpHandler: `[`RoutingHttpHandler`](../org.http4k.routing/-routing-http-handler/index.md)`): `[`RoutingHttpHandler`](../org.http4k.routing/-routing-http-handler/index.md) |

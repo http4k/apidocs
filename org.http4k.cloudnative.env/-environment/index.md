@@ -19,6 +19,7 @@ which contain commas, otherwise singular environment keys will just retrieve the
 | Name | Summary |
 |---|---|
 | [get](get.md) | `abstract operator fun <T> get(key: `[`Lens`](../../org.http4k.lens/-lens/index.md)`<`[`Environment`](./index.md)`, `[`T`](get.md#T)`>): `[`T`](get.md#T)<br>`abstract operator fun get(key: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |
+| [minus](minus.md) | `abstract operator fun minus(key: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Environment`](./index.md) |
 | [overrides](overrides.md) | `open infix fun overrides(that: `[`Environment`](./index.md)`): `[`Environment`](./index.md)<br>Overlays the configuration set in this Environment on top of the values in the passed Environment. Used to chain: eg. Local File -&gt; System Properties -&gt; Env Properties -&gt; Defaults |
 | [set](set.md) | `abstract operator fun set(key: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Environment`](./index.md) |
 

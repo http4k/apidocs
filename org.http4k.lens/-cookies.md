@@ -2,7 +2,7 @@
 
 # Cookies
 
-`object Cookies : `[`BiDiLensSpec`](-bi-di-lens-spec/index.md)`<`[`Request`](../org.http4k.core/-request/index.md)`, `[`Cookie`](../org.http4k.core.cookie/-cookie/index.md)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/Cookies.kt#L9)
+`object Cookies : `[`BiDiLensSpec`](-bi-di-lens-spec/index.md)`<`[`Request`](../org.http4k.core/-request/index.md)`, `[`Cookie`](../org.http4k.core.cookie/-cookie/index.md)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/Cookies.kt#L10)
 
 ### Inherited Properties
 

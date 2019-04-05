@@ -23,6 +23,8 @@
 | Name | Summary |
 |---|---|
 | [close](close.md) | `fun close(): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| [minusField](minus-field.md) | `fun minusField(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`MultipartForm`](./index.md) |
+| [minusFile](minus-file.md) | `fun minusFile(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`MultipartForm`](./index.md) |
 | [plus](plus.md) | `operator fun plus(kv: `[`Pair`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>): `[`MultipartForm`](./index.md)<br>`operator fun plus(kv: `[`Pair`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`FormFile`](../../org.http4k.core/-form-file/index.md)`>): `[`MultipartForm`](./index.md) |
 
 ### Extension Functions

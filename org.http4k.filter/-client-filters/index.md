@@ -10,6 +10,7 @@
 |---|---|
 | [BasicAuth](-basic-auth/index.md) | `object BasicAuth` |
 | [BearerAuth](-bearer-auth/index.md) | `object BearerAuth` |
+| [CleanProxy](-clean-proxy/index.md) | `object CleanProxy`<br>This Filter is used to clean the Request and Response when proxying directly to another system. The purpose of this is to remove any routing metadata that we may have attached to it before sending it onwards. |
 | [Cookies](-cookies/index.md) | `object Cookies` |
 | [FollowRedirects](-follow-redirects/index.md) | `object FollowRedirects` |
 | [GZip](-g-zip/index.md) | `object GZip`<br>Basic GZip and Gunzip support of Request/Response. Does not currently support GZipping streams. Only Gunzip responses when the response contains "transfer-encoding" header containing 'gzip' |

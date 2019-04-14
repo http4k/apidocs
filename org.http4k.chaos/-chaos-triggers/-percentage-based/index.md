@@ -2,7 +2,7 @@
 
 # PercentageBased
 
-`object PercentageBased` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosTriggers.kt#L74)
+`object PercentageBased` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosTriggers.kt#L73)
 
 Applies n% of the time, based on result of a Random.
 
@@ -11,4 +11,4 @@ Applies n% of the time, based on result of a Random.
 | Name | Summary |
 |---|---|
 | [fromEnvironment](from-environment.md) | `fun fromEnvironment(env: (`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`) -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`? = System::getenv, defaultPercentage: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)` = 50, name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = "CHAOS_PERCENTAGE"): `[`Trigger`](../../-trigger.md)<br>Get a percentage from the environment. Defaults to CHAOS_PERCENTAGE and a value of 50% |
-| [invoke](invoke.md) | `operator fun invoke(injectionFrequency: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`, selector: `[`Random`](https://docs.oracle.com/javase/6/docs/api/java/util/Random.html)` = ThreadLocalRandom.current()): `[`Trigger`](../../-trigger.md) |
+| [invoke](invoke.md) | `operator fun invoke(injectionFrequency: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`, selector: `[`Random`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.random/-random/index.html)` = Random): `[`Trigger`](../../-trigger.md) |

@@ -27,12 +27,6 @@
 | [com.fasterxml.jackson.databind.JsonNode](com.fasterxml.jackson.databind.-json-node/index.md) |  |
 | [kotlin.Function1](kotlin.-function1/index.md) |  |
 
-### Properties
-
-| Name | Summary |
-|---|---|
-| [CHAOS](-c-h-a-o-s.md) | `val `[`Header`](../org.http4k.lens/-header/index.md)`.CHAOS: `[`BiDiLens`](../org.http4k.lens/-bi-di-lens/index.md)`<`[`HttpMessage`](../org.http4k.core/-http-message/index.md)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
-
 ### Functions
 
 | Name | Summary |

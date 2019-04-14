@@ -69,6 +69,7 @@ Code relevant to extracting and injecting typesafe values into HTTP messages.
 
 | Name | Summary |
 |---|---|
+| [CHAOS](-c-h-a-o-s.md) | `val `[`Header`](-header/index.md)`.CHAOS: `[`BiDiLens`](-bi-di-lens/index.md)`<`[`HttpMessage`](../org.http4k.core/-http-message/index.md)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
 | [HOST](-h-o-s-t.md) | `val `[`Header`](-header/index.md)`.HOST: `[`BiDiLens`](-bi-di-lens/index.md)`<`[`HttpMessage`](../org.http4k.core/-http-message/index.md)`, `[`Authority`](../org.http4k.cloudnative.env/-authority/index.md)`?>` |
 | [MULTIPART_BOUNDARY](-m-u-l-t-i-p-a-r-t_-b-o-u-n-d-a-r-y.md) | `val MULTIPART_BOUNDARY: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 

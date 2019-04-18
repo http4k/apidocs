@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `AuthenticationCompleteFilter(authorizationCodes: `[`AuthorizationCodes`](../-authorization-codes/index.md)`, requestPersistence: `[`AuthRequestPersistence`](../-auth-request-persistence/index.md)`)` |
+| [&lt;init&gt;](-init-.md) | `AuthenticationCompleteFilter(authorizationCodes: `[`AuthorizationCodes`](../-authorization-codes/index.md)`, requestTracking: `[`AuthRequestTracking`](../-auth-request-tracking/index.md)`)` |
 
 ### Functions
 

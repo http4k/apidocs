@@ -29,8 +29,8 @@
 | [org.http4k.security.oauth.server.AuthorizationCodeDetails](../org.http4k.security.oauth.server/-authorization-code-details/index.md) |  |
 | [org.http4k.security.oauth.server.AuthorizationCodes](../org.http4k.security.oauth.server/-authorization-codes/index.md) | Provides a consistent way to manage authorization codes |
 | [org.http4k.security.oauth.server.AuthRequest](../org.http4k.security.oauth.server/-auth-request/index.md) |  |
-| [org.http4k.security.oauth.server.AuthRequestPersistence](../org.http4k.security.oauth.server/-auth-request-persistence/index.md) | Provides a mechanism to store OAuth authorization parameters to be used later (i.e. can be used later to generate code and/or tokens) |
-| [org.http4k.security.oauth.server.AuthRequestPersistenceFilter](../org.http4k.security.oauth.server/-auth-request-persistence-filter/index.md) |  |
+| [org.http4k.security.oauth.server.AuthRequestTracking](../org.http4k.security.oauth.server/-auth-request-tracking/index.md) | Provides a mechanism to track OAuth authorization parameters to be used later (i.e. can be used later to generate code and/or tokens) |
+| [org.http4k.security.oauth.server.AuthRequestTrackingFilter](../org.http4k.security.oauth.server/-auth-request-tracking-filter/index.md) |  |
 | [org.http4k.format.AutoMappingConfiguration](../org.http4k.format/-auto-mapping-configuration/index.md) | This is the generic interface used to configure auto-mapping functionality for message format libraries. The various methods here can be used to provide custom mapping behaviour (say for domain classes). |
 | [org.http4k.format.AutoMarshallingJson](../org.http4k.format/-auto-marshalling-json/index.md) |  |
 | [org.http4k.format.AutoMarshallingXml](../org.http4k.format/-auto-marshalling-xml/index.md) |  |
@@ -168,7 +168,7 @@
 | [org.http4k.server.HttpUndertowHandler](../org.http4k.server/-http-undertow-handler/index.md) | Exposed to allow for insertion into a customised Undertow server instance |
 | [org.http4k.util.IllegalSchemaException](../org.http4k.util/-illegal-schema-exception/index.md) |  |
 | [org.http4k.routing.experimental.InMemoryResource](../org.http4k.routing.experimental/-in-memory-resource/index.md) |  |
-| [org.http4k.security.oauth.server.InsecureCookieBasedAuthRequestPersistence](../org.http4k.security.oauth.server/-insecure-cookie-based-auth-request-persistence/index.md) |  |
+| [org.http4k.security.oauth.server.InsecureCookieBasedAuthRequestTracking](../org.http4k.security.oauth.server/-insecure-cookie-based-auth-request-tracking/index.md) |  |
 | [org.http4k.security.InsecureCookieBasedOAuthPersistence](../org.http4k.security/-insecure-cookie-based-o-auth-persistence/index.md) | This is an example implementation which stores CSRF and AccessTokenEnvelope values in an INSECURE client-side cookie. Access-tokens for end-services are fully available to the browser so do not use this in production! |
 | [org.http4k.lens.Invalid](../org.http4k.lens/-invalid/index.md) |  |
 | [org.http4k.format.InvalidJsonException](../org.http4k.format/-invalid-json-exception/index.md) |  |

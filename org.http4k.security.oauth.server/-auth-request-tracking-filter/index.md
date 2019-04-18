@@ -1,14 +1,14 @@
-[http4k](../../index.md) / [org.http4k.security.oauth.server](../index.md) / [AuthRequestPersistenceFilter](./index.md)
+[http4k](../../index.md) / [org.http4k.security.oauth.server](../index.md) / [AuthRequestTrackingFilter](./index.md)
 
-# AuthRequestPersistenceFilter
+# AuthRequestTrackingFilter
 
-`class AuthRequestPersistenceFilter : `[`Filter`](../../org.http4k.core/-filter/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/AuthRequestPersistenceFilter.kt#L6)
+`class AuthRequestTrackingFilter : `[`Filter`](../../org.http4k.core/-filter/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/AuthRequestTrackingFilter.kt#L6)
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `AuthRequestPersistenceFilter(persistence: `[`AuthRequestPersistence`](../-auth-request-persistence/index.md)`)` |
+| [&lt;init&gt;](-init-.md) | `AuthRequestTrackingFilter(tracking: `[`AuthRequestTracking`](../-auth-request-tracking/index.md)`)` |
 
 ### Functions
 

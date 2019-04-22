@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`AuthorizationCodeDetails(clientId: `[`ClientId`](../-client-id/index.md)`, redirectUri: `[`Uri`](../../org.http4k.core/-uri/index.md)`, expiresAt: Instant)`
+`AuthorizationCodeDetails(clientId: `[`ClientId`](../-client-id/index.md)`, redirectUri: `[`Uri`](../../org.http4k.core/-uri/index.md)`, expiresAt: Instant, responseType: `[`ResponseType`](../../org.http4k.security/-response-type/index.md)` = Code)`

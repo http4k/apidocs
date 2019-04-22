@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`AuthenticationCompleteFilter(authorizationCodes: `[`AuthorizationCodes`](../-authorization-codes/index.md)`, requestTracking: `[`AuthRequestTracking`](../-auth-request-tracking/index.md)`)`
+`AuthenticationCompleteFilter(authorizationCodes: `[`AuthorizationCodes`](../-authorization-codes/index.md)`, requestTracking: `[`AuthRequestTracking`](../-auth-request-tracking/index.md)`, idTokens: `[`IdTokens`](../-id-tokens/index.md)`)`

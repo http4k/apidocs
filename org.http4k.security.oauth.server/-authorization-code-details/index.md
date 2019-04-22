@@ -2,13 +2,13 @@
 
 # AuthorizationCodeDetails
 
-`data class AuthorizationCodeDetails` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/AuthorizationCodes.kt#L30)
+`data class AuthorizationCodeDetails` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/AuthorizationCodes.kt#L32)
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `AuthorizationCodeDetails(clientId: `[`ClientId`](../-client-id/index.md)`, redirectUri: `[`Uri`](../../org.http4k.core/-uri/index.md)`, expiresAt: Instant)` |
+| [&lt;init&gt;](-init-.md) | `AuthorizationCodeDetails(clientId: `[`ClientId`](../-client-id/index.md)`, redirectUri: `[`Uri`](../../org.http4k.core/-uri/index.md)`, expiresAt: Instant, responseType: `[`ResponseType`](../../org.http4k.security/-response-type/index.md)` = Code)` |
 
 ### Properties
 
@@ -17,6 +17,7 @@
 | [clientId](client-id.md) | `val clientId: `[`ClientId`](../-client-id/index.md) |
 | [expiresAt](expires-at.md) | `val expiresAt: Instant` |
 | [redirectUri](redirect-uri.md) | `val redirectUri: `[`Uri`](../../org.http4k.core/-uri/index.md) |
+| [responseType](response-type.md) | `val responseType: `[`ResponseType`](../../org.http4k.security/-response-type/index.md) |
 
 ### Extension Functions
 

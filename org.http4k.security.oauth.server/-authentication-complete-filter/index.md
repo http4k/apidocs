@@ -2,13 +2,13 @@
 
 # AuthenticationCompleteFilter
 
-`class AuthenticationCompleteFilter : `[`Filter`](../../org.http4k.core/-filter/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/AuthenticationCompleteFilter.kt#L9)
+`class AuthenticationCompleteFilter : `[`Filter`](../../org.http4k.core/-filter/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/AuthenticationCompleteFilter.kt#L8)
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `AuthenticationCompleteFilter(authorizationCodes: `[`AuthorizationCodes`](../-authorization-codes/index.md)`, requestTracking: `[`AuthRequestTracking`](../-auth-request-tracking/index.md)`)` |
+| [&lt;init&gt;](-init-.md) | `AuthenticationCompleteFilter(authorizationCodes: `[`AuthorizationCodes`](../-authorization-codes/index.md)`, requestTracking: `[`AuthRequestTracking`](../-auth-request-tracking/index.md)`, idTokens: `[`IdTokens`](../-id-tokens/index.md)`)` |
 
 ### Functions
 

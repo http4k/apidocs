@@ -2,13 +2,13 @@
 
 # OAuthCallback
 
-`class OAuthCallback : `[`HttpHandler`](../../org.http4k.core/-http-handler.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/OAuthCallback.kt#L16)
+`class OAuthCallback : `[`HttpHandler`](../../org.http4k.core/-http-handler.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/OAuthCallback.kt#L11)
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `OAuthCallback(providerConfig: `[`OAuthProviderConfig`](../-o-auth-provider-config/index.md)`, api: `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`, callbackUri: `[`Uri`](../../org.http4k.core/-uri/index.md)`, oAuthPersistence: `[`OAuthPersistence`](../-o-auth-persistence/index.md)`)` |
+| [&lt;init&gt;](-init-.md) | `OAuthCallback(oAuthPersistence: `[`OAuthPersistence`](../-o-auth-persistence/index.md)`, idTokenConsumer: `[`IdTokenConsumer`](../../org.http4k.security.openid/-id-token-consumer/index.md)`, accessTokenFetcher: `[`AccessTokenFetcher`](../-access-token-fetcher/index.md)`)` |
 
 ### Functions
 

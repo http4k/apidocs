@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`GenerateAccessToken(clientValidator: `[`ClientValidator`](../-client-validator/index.md)`, authorizationCodes: `[`AuthorizationCodes`](../-authorization-codes/index.md)`, accessTokens: `[`AccessTokens`](../-access-tokens/index.md)`, clock: Clock)`
+`GenerateAccessToken(clientValidator: `[`ClientValidator`](../-client-validator/index.md)`, authorizationCodes: `[`AuthorizationCodes`](../-authorization-codes/index.md)`, accessTokens: `[`AccessTokens`](../-access-tokens/index.md)`, clock: Clock, idTokens: `[`IdTokens`](../-id-tokens/index.md)`)`

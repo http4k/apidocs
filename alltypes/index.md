@@ -14,7 +14,8 @@
 | [org.http4k.client.ApacheClient](../org.http4k.client/-apache-client/index.md) |  |
 | [org.http4k.server.ApacheServer](../org.http4k.server/-apache-server/index.md) |  |
 | [org.http4k.contract.ApiInfo](../org.http4k.contract/-api-info/index.md) |  |
-| [org.http4k.contract.ApiKey](../org.http4k.contract/-api-key/index.md) | Checks the presence of the named Api Key parameter. Filter returns 401 if Api-Key is not found in request. |
+| [org.http4k.contract.ApiKey](../org.http4k.contract/-api-key.md) |  |
+| [org.http4k.contract.ApiKeySecurity](../org.http4k.contract/-api-key-security/index.md) | Checks the presence of the named Api Key parameter. Filter returns 401 if Api-Key is not found in request. |
 | [org.http4k.util.Appendable](../org.http4k.util/-appendable/index.md) |  |
 | [io.ktor.request.ApplicationRequest](../org.http4k.server/io.ktor.request.-application-request/index.md) (extensions in package org.http4k.server) |  |
 | [io.ktor.response.ApplicationResponse](../org.http4k.server/io.ktor.response.-application-response/index.md) (extensions in package org.http4k.server) |  |
@@ -41,6 +42,7 @@
 | [org.http4k.aws.AwsCredentialScope](../org.http4k.aws/-aws-credential-scope/index.md) |  |
 | [org.http4k.aws.AwsHmacSha256](../org.http4k.aws/-aws-hmac-sha256/index.md) |  |
 | [org.http4k.testing.BaseApprovalTest](../org.http4k.testing/-base-approval-test/index.md) | Base JUnit extension for injecting an Approver into a JUnit5 test-case. Implement this to provide custom approval behaviours, or |
+| [org.http4k.contract.BasicAuthSecurity](../org.http4k.contract/-basic-auth-security/index.md) | Checks the presence of basic auth credentials |
 | [org.http4k.filter.cookie.BasicCookieStorage](../org.http4k.filter.cookie/-basic-cookie-storage/index.md) |  |
 | [org.http4k.chaos.Behaviour](../org.http4k.chaos/-behaviour.md) | Encapsulates the type of bad behaviour to apply to the response. |
 | [org.http4k.lens.BiDiBodyLens](../org.http4k.lens/-bi-di-body-lens/index.md) | A BiDiBodyLens provides the bi-directional extraction of an entity from a target body, or the insertion of an entity into a target body. |

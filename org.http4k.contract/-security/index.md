@@ -2,7 +2,7 @@
 
 # Security
 
-`interface Security` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/Security.kt#L15)
+`interface Security` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/Security.kt#L17)
 
 Endpoint security. Provides filter to be applied to endpoints for all requests.
 
@@ -22,5 +22,6 @@ Endpoint security. Provides filter to be applied to endpoints for all requests.
 
 | Name | Summary |
 |---|---|
-| [ApiKey](../-api-key/index.md) | `interface ApiKey<out T> : `[`Security`](./index.md)<br>Checks the presence of the named Api Key parameter. Filter returns 401 if Api-Key is not found in request. |
+| [ApiKeySecurity](../-api-key-security/index.md) | `class ApiKeySecurity<out T> : `[`Security`](./index.md)<br>Checks the presence of the named Api Key parameter. Filter returns 401 if Api-Key is not found in request. |
+| [BasicAuthSecurity](../-basic-auth-security/index.md) | `class BasicAuthSecurity : `[`Security`](./index.md)<br>Checks the presence of basic auth credentials |
 | [NoSecurity](../-no-security/index.md) | `object NoSecurity : `[`Security`](./index.md)<br>Default NoOp security filter. Filter allows all traffic through. |

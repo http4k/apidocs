@@ -9,7 +9,8 @@ Code for defining typesafe contracts which generate OpenAPI documentation.
 | Name | Summary |
 |---|---|
 | [ApiInfo](-api-info/index.md) | `data class ApiInfo` |
-| [ApiKey](-api-key/index.md) | `interface ApiKey<out T> : `[`Security`](-security/index.md)<br>Checks the presence of the named Api Key parameter. Filter returns 401 if Api-Key is not found in request. |
+| [ApiKeySecurity](-api-key-security/index.md) | `class ApiKeySecurity<out T> : `[`Security`](-security/index.md)<br>Checks the presence of the named Api Key parameter. Filter returns 401 if Api-Key is not found in request. |
+| [BasicAuthSecurity](-basic-auth-security/index.md) | `class BasicAuthSecurity : `[`Security`](-security/index.md)<br>Checks the presence of basic auth credentials |
 | [ContractBuilder](-contract-builder/index.md) | `class ContractBuilder` |
 | [ContractRenderer](-contract-renderer/index.md) | `interface ContractRenderer` |
 | [ContractRoute](-contract-route/index.md) | `class ContractRoute` |
@@ -41,6 +42,12 @@ Code for defining typesafe contracts which generate OpenAPI documentation.
 | [SimpleJson](-simple-json/index.md) | `class SimpleJson<out NODE> : `[`ContractRenderer`](-contract-renderer/index.md) |
 | [Slash](-slash/index.md) | `data class Slash : `[`PathSegments`](-path-segments/index.md) |
 | [Tag](-tag/index.md) | `data class Tag` |
+
+### Type Aliases
+
+| Name | Summary |
+|---|---|
+| [ApiKey](-api-key.md) | `typealias ~~ApiKey~~<T> = `[`ApiKeySecurity`](-api-key-security/index.md)`<`[`T`](-api-key.md#T)`>` |
 
 ### Extensions for External Classes
 

@@ -2,7 +2,7 @@
 
 # NoSecurity
 
-`object NoSecurity : `[`Security`](../-security/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/Security.kt#L22)
+`object NoSecurity : `[`Security`](../-security/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/Security.kt#L24)
 
 Default NoOp security filter. Filter allows all traffic through.
 

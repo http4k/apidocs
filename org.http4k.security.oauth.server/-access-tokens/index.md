@@ -2,7 +2,7 @@
 
 # AccessTokens
 
-`interface AccessTokens` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/AccessTokens.kt#L8)
+`interface AccessTokens` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/AccessTokens.kt#L6)
 
 Provides a consistent way to generate access tokens
 
@@ -10,7 +10,7 @@ Provides a consistent way to generate access tokens
 
 | Name | Summary |
 |---|---|
-| [create](create.md) | `abstract fun create(authorizationCode: `[`AuthorizationCode`](../-authorization-code/index.md)`): `[`AccessTokenContainer`](../../org.http4k.security/-access-token-container/index.md)<br>Creates a new access token for a valid authorization code |
+| [create](create.md) | `abstract fun create(authorizationCode: `[`AuthorizationCode`](../-authorization-code/index.md)`): `[`AccessTokenResult`](../-access-token-result/index.md)<br>Creates a new access token for a valid authorization code |
 
 ### Extension Functions
 

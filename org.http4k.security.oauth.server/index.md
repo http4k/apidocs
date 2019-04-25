@@ -6,7 +6,9 @@
 
 | Name | Summary |
 |---|---|
+| [AccessTokenCreationError](-access-token-creation-error/index.md) | `enum class AccessTokenCreationError` |
 | [AccessTokenRequest](-access-token-request/index.md) | `data class AccessTokenRequest` |
+| [AccessTokenResult](-access-token-result/index.md) | `data class AccessTokenResult` |
 | [AccessTokens](-access-tokens/index.md) | `interface AccessTokens`<br>Provides a consistent way to generate access tokens |
 | [AuthenticationCompleteFilter](-authentication-complete-filter/index.md) | `class AuthenticationCompleteFilter : `[`Filter`](../org.http4k.core/-filter/index.md) |
 | [AuthorizationCode](-authorization-code/index.md) | `data class AuthorizationCode` |
@@ -18,6 +20,7 @@
 | [ClientId](-client-id/index.md) | `data class ClientId` |
 | [ClientValidationFilter](-client-validation-filter/index.md) | `class ClientValidationFilter : `[`Filter`](../org.http4k.core/-filter/index.md) |
 | [ClientValidator](-client-validator/index.md) | `interface ClientValidator`<br>Provides a consistent way to retrieve clients attempting to use an authorization code flow |
+| [Error](-error/index.md) | `enum class Error` |
 | [ErrorResponse](-error-response/index.md) | `data class ErrorResponse` |
 | [GenerateAccessToken](-generate-access-token/index.md) | `class GenerateAccessToken : `[`HttpHandler`](../org.http4k.core/-http-handler.md) |
 | [IdTokens](-id-tokens/index.md) | `interface IdTokens` |

@@ -120,6 +120,7 @@
 | [org.http4k.cloudnative.env.EnvironmentKey](../org.http4k.cloudnative.env/-environment-key/index.md) | This models the key used to get a value out of the  Environment using the standard Lens mechanic. Note that if your values contain commas, either use a EnvironmentKey.(mapping).multi.required()/optional()/defaulted() to retrieve the entire list, or override the comma separator in your initial Environment. |
 | [org.http4k.jsonrpc.ErrorHandler](../org.http4k.jsonrpc/-error-handler.md) |  |
 | [org.http4k.jsonrpc.ErrorMessage](../org.http4k.jsonrpc/-error-message/index.md) |  |
+| [org.http4k.security.oauth.server.ErrorResponse](../org.http4k.security.oauth.server/-error-response/index.md) |  |
 | [org.http4k.core.etag.ETag](../org.http4k.core.etag/-e-tag/index.md) |  |
 | [org.http4k.core.etag.ETagValidationRequestParser](../org.http4k.core.etag/-e-tag-validation-request-parser/index.md) | Implemented according to https://www.w3.org/Protocols/rfc2616/rfc2616-sec3.html#sec3.11 |
 | [org.http4k.core.Event](../org.http4k.core/-event/index.md) |  |

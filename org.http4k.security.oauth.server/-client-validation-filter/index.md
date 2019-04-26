@@ -2,13 +2,13 @@
 
 # ClientValidationFilter
 
-`class ClientValidationFilter : `[`Filter`](../../org.http4k.core/-filter/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/ClientValidationFilter.kt#L10)
+`class ClientValidationFilter : `[`Filter`](../../org.http4k.core/-filter/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/ClientValidationFilter.kt#L9)
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `ClientValidationFilter(clientValidator: `[`ClientValidator`](../-client-validator/index.md)`)` |
+| [&lt;init&gt;](-init-.md) | `ClientValidationFilter(clientValidator: `[`ClientValidator`](../-client-validator/index.md)`, json: `[`AutoMarshallingJson`](../../org.http4k.format/-auto-marshalling-json/index.md)`, documentationUri: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = "")` |
 
 ### Functions
 

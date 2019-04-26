@@ -20,6 +20,7 @@
 | [ClientId](-client-id/index.md) | `data class ClientId` |
 | [ClientValidationFilter](-client-validation-filter/index.md) | `class ClientValidationFilter : `[`Filter`](../org.http4k.core/-filter/index.md) |
 | [ClientValidator](-client-validator/index.md) | `interface ClientValidator`<br>Provides a consistent way to retrieve clients attempting to use an authorization code flow |
+| [ErrorResponse](-error-response/index.md) | `data class ErrorResponse` |
 | [GenerateAccessToken](-generate-access-token/index.md) | `class GenerateAccessToken : `[`HttpHandler`](../org.http4k.core/-http-handler.md) |
 | [IdTokens](-id-tokens/index.md) | `interface IdTokens` |
 | [InsecureCookieBasedAuthRequestTracking](-insecure-cookie-based-auth-request-tracking/index.md) | `class InsecureCookieBasedAuthRequestTracking : `[`AuthRequestTracking`](-auth-request-tracking/index.md) |

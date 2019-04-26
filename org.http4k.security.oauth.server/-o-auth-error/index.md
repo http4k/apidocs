@@ -28,5 +28,4 @@
 | Name | Summary |
 |---|---|
 | [AccessTokenError](../-access-token-error.md) | `sealed class AccessTokenError : `[`OAuthError`](./index.md) |
-| [InvalidClientId](../-invalid-client-id.md) | `object InvalidClientId : `[`OAuthError`](./index.md) |
-| [InvalidRedirectUri](../-invalid-redirect-uri.md) | `object InvalidRedirectUri : `[`OAuthError`](./index.md) |
+| [AuthorizationError](../-authorization-error.md) | `sealed class AuthorizationError : `[`OAuthError`](./index.md) |

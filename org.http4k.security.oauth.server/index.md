@@ -15,6 +15,7 @@
 | [AuthorizationCodeDetails](-authorization-code-details/index.md) | `data class AuthorizationCodeDetails` |
 | [AuthorizationCodeExpired](-authorization-code-expired.md) | `object AuthorizationCodeExpired : `[`AccessTokenError`](-access-token-error.md) |
 | [AuthorizationCodes](-authorization-codes/index.md) | `interface AuthorizationCodes`<br>Provides a consistent way to manage authorization codes |
+| [AuthorizationError](-authorization-error.md) | `sealed class AuthorizationError : `[`OAuthError`](-o-auth-error/index.md) |
 | [AuthRequest](-auth-request/index.md) | `data class AuthRequest` |
 | [AuthRequestTracking](-auth-request-tracking/index.md) | `interface AuthRequestTracking`<br>Provides a mechanism to track OAuth authorization parameters to be used later (i.e. can be used later to generate code and/or tokens) |
 | [AuthRequestTrackingFilter](-auth-request-tracking-filter/index.md) | `class AuthRequestTrackingFilter : `[`Filter`](../org.http4k.core/-filter/index.md) |
@@ -27,13 +28,14 @@
 | [IdTokens](-id-tokens/index.md) | `interface IdTokens` |
 | [InsecureCookieBasedAuthRequestTracking](-insecure-cookie-based-auth-request-tracking/index.md) | `class InsecureCookieBasedAuthRequestTracking : `[`AuthRequestTracking`](-auth-request-tracking/index.md) |
 | [InvalidClientCredentials](-invalid-client-credentials.md) | `object InvalidClientCredentials : `[`AccessTokenError`](-access-token-error.md) |
-| [InvalidClientId](-invalid-client-id.md) | `object InvalidClientId : `[`OAuthError`](-o-auth-error/index.md) |
-| [InvalidRedirectUri](-invalid-redirect-uri.md) | `object InvalidRedirectUri : `[`OAuthError`](-o-auth-error/index.md) |
+| [InvalidClientId](-invalid-client-id.md) | `object InvalidClientId : `[`AuthorizationError`](-authorization-error.md) |
+| [InvalidRedirectUri](-invalid-redirect-uri.md) | `object InvalidRedirectUri : `[`AuthorizationError`](-authorization-error.md) |
 | [OAuthError](-o-auth-error/index.md) | `abstract class OAuthError` |
 | [OAuthServer](-o-auth-server/index.md) | `class OAuthServer`<br>Provide help creating OAuth Authorization Server with Authorization Code Flow |
 | [RedirectUriMismatch](-redirect-uri-mismatch.md) | `object RedirectUriMismatch : `[`AccessTokenError`](-access-token-error.md) |
 | [RfcError](-rfc-error/index.md) | `enum class RfcError` |
 | [UnsupportedGrantType](-unsupported-grant-type/index.md) | `data class UnsupportedGrantType : `[`AccessTokenError`](-access-token-error.md) |
+| [UnsupportedResponseType](-unsupported-response-type/index.md) | `data class UnsupportedResponseType : `[`AuthorizationError`](-authorization-error.md) |
 
 ### Functions
 

@@ -11,6 +11,7 @@
 | [InvalidClient](-invalid-client.md) |  |
 | [InvalidGrant](-invalid-grant.md) |  |
 | [UnsupportedGrantType](-unsupported-grant-type.md) |  |
+| [UnsupportedResponseType](-unsupported-response-type.md) |  |
 
 ### Extension Functions
 

@@ -2,7 +2,7 @@
 
 # ErrorRenderer
 
-`class ErrorRenderer` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/ErrorRenderer.kt#L14)
+`class ErrorRenderer` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/ErrorRenderer.kt#L15)
 
 ### Constructors
 

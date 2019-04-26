@@ -35,6 +35,7 @@
 | [org.http4k.security.oauth.server.AuthorizationCodeDetails](../org.http4k.security.oauth.server/-authorization-code-details/index.md) |  |
 | [org.http4k.security.oauth.server.AuthorizationCodeExpired](../org.http4k.security.oauth.server/-authorization-code-expired.md) |  |
 | [org.http4k.security.oauth.server.AuthorizationCodes](../org.http4k.security.oauth.server/-authorization-codes/index.md) | Provides a consistent way to manage authorization codes |
+| [org.http4k.security.oauth.server.AuthorizationError](../org.http4k.security.oauth.server/-authorization-error.md) |  |
 | [org.http4k.security.oauth.server.AuthRequest](../org.http4k.security.oauth.server/-auth-request/index.md) |  |
 | [org.http4k.security.oauth.server.AuthRequestTracking](../org.http4k.security.oauth.server/-auth-request-tracking/index.md) | Provides a mechanism to track OAuth authorization parameters to be used later (i.e. can be used later to generate code and/or tokens) |
 | [org.http4k.security.oauth.server.AuthRequestTrackingFilter](../org.http4k.security.oauth.server/-auth-request-tracking-filter/index.md) |  |
@@ -350,6 +351,7 @@
 | [org.http4k.server.Undertow](../org.http4k.server/-undertow/index.md) |  |
 | [org.http4k.lens.Unsupported](../org.http4k.lens/-unsupported/index.md) |  |
 | [org.http4k.security.oauth.server.UnsupportedGrantType](../org.http4k.security.oauth.server/-unsupported-grant-type/index.md) |  |
+| [org.http4k.security.oauth.server.UnsupportedResponseType](../org.http4k.security.oauth.server/-unsupported-response-type/index.md) |  |
 | [org.http4k.cloudnative.UpstreamRequestFailed](../org.http4k.cloudnative/-upstream-request-failed/index.md) | This hierarchy of exceptions should be used to indicate that an upstream remote system has failed with a non-successful status code which caused us to stop processing. They are designed to be used with the Server and Client filters which will allow automatic handling and propagation of erroneous responses from upstream. |
 | [org.http4k.core.Uri](../org.http4k.core/-uri/index.md) |  |
 | [org.http4k.core.UriTemplate](../org.http4k.core/-uri-template/index.md) |  |

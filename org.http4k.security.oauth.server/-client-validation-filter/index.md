@@ -2,7 +2,7 @@
 
 # ClientValidationFilter
 
-`class ClientValidationFilter : `[`Filter`](../../org.http4k.core/-filter/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/ClientValidationFilter.kt#L8)
+`class ClientValidationFilter : `[`Filter`](../../org.http4k.core/-filter/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/ClientValidationFilter.kt#L9)
 
 ### Constructors
 
@@ -15,6 +15,12 @@
 | Name | Summary |
 |---|---|
 | [invoke](invoke.md) | `fun invoke(next: `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`): `[`HttpHandler`](../../org.http4k.core/-http-handler.md) |
+
+### Companion Object Properties
+
+| Name | Summary |
+|---|---|
+| [validResponseTypes](valid-response-types.md) | `val validResponseTypes: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
 
 ### Extension Functions
 

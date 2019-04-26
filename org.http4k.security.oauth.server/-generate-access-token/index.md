@@ -2,7 +2,7 @@
 
 # GenerateAccessToken
 
-`class GenerateAccessToken : `[`HttpHandler`](../../org.http4k.core/-http-handler.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/GenerateAccessToken.kt#L19)
+`class GenerateAccessToken : `[`HttpHandler`](../../org.http4k.core/-http-handler.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/GenerateAccessToken.kt#L24)
 
 ### Constructors
 
@@ -15,12 +15,6 @@
 | Name | Summary |
 |---|---|
 | [invoke](invoke.md) | `fun invoke(request: `[`Request`](../../org.http4k.core/-request/index.md)`): `[`Response`](../../org.http4k.core/-response/index.md) |
-
-### Companion Object Properties
-
-| Name | Summary |
-|---|---|
-| [accessTokenForm](access-token-form.md) | `val accessTokenForm: `[`BiDiBodyLens`](../../org.http4k.lens/-bi-di-body-lens/index.md)`<`[`WebForm`](../../org.http4k.lens/-web-form/index.md)`>` |
 
 ### Extension Functions
 

@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`AccessTokenRequest(clientId: `[`ClientId`](../-client-id/index.md)`, clientSecret: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, redirectUri: `[`Uri`](../../org.http4k.core/-uri/index.md)`, authorizationCode: `[`AuthorizationCode`](../-authorization-code/index.md)`)`
+`AccessTokenRequest(grantType: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, clientId: `[`ClientId`](../-client-id/index.md)`, clientSecret: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, redirectUri: `[`Uri`](../../org.http4k.core/-uri/index.md)`, authorizationCode: `[`AuthorizationCode`](../-authorization-code/index.md)`)`

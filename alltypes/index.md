@@ -5,12 +5,11 @@
 | Name | Summary |
 |---|---|
 | [org.http4k.security.AccessTokenContainer](../org.http4k.security/-access-token-container/index.md) |  |
-| [org.http4k.security.oauth.server.AccessTokenCreationError](../org.http4k.security.oauth.server/-access-token-creation-error/index.md) |  |
 | [org.http4k.security.AccessTokenDetails](../org.http4k.security/-access-token-details/index.md) |  |
+| [org.http4k.security.oauth.server.AccessTokenError](../org.http4k.security.oauth.server/-access-token-error/index.md) |  |
 | [org.http4k.security.AccessTokenFetcher](../org.http4k.security/-access-token-fetcher/index.md) |  |
 | [org.http4k.security.oauth.server.AccessTokenRequest](../org.http4k.security.oauth.server/-access-token-request/index.md) |  |
 | [org.http4k.security.AccessTokenResponse](../org.http4k.security/-access-token-response/index.md) |  |
-| [org.http4k.security.oauth.server.AccessTokenResult](../org.http4k.security.oauth.server/-access-token-result/index.md) |  |
 | [org.http4k.security.oauth.server.AccessTokens](../org.http4k.security.oauth.server/-access-tokens/index.md) | Provides a consistent way to generate access tokens |
 | [org.http4k.client.ApacheAsyncClient](../org.http4k.client/-apache-async-client/index.md) |  |
 | [org.http4k.client.ApacheClient](../org.http4k.client/-apache-client/index.md) |  |
@@ -32,6 +31,7 @@
 | [org.http4k.security.oauth.server.AuthenticationCompleteFilter](../org.http4k.security.oauth.server/-authentication-complete-filter/index.md) |  |
 | [org.http4k.cloudnative.env.Authority](../org.http4k.cloudnative.env/-authority/index.md) |  |
 | [org.http4k.security.oauth.server.AuthorizationCode](../org.http4k.security.oauth.server/-authorization-code/index.md) |  |
+| [org.http4k.security.oauth.server.AuthorizationCodeAlreadyUsed](../org.http4k.security.oauth.server/-authorization-code-already-used.md) |  |
 | [org.http4k.security.oauth.server.AuthorizationCodeDetails](../org.http4k.security.oauth.server/-authorization-code-details/index.md) |  |
 | [org.http4k.security.oauth.server.AuthorizationCodes](../org.http4k.security.oauth.server/-authorization-codes/index.md) | Provides a consistent way to manage authorization codes |
 | [org.http4k.security.oauth.server.AuthRequest](../org.http4k.security.oauth.server/-auth-request/index.md) |  |
@@ -120,10 +120,8 @@
 | [org.http4k.template.DustTemplates](../org.http4k.template/-dust-templates/index.md) |  |
 | [org.http4k.cloudnative.env.Environment](../org.http4k.cloudnative.env/-environment/index.md) | This models the runtime environment of the shell where the app is running. Optionally pass a separator to use for multi-values otherwise a standard comma is used - this means you MUST override the separator if you have single values which contain commas, otherwise singular environment keys will just retrieve the first value. |
 | [org.http4k.cloudnative.env.EnvironmentKey](../org.http4k.cloudnative.env/-environment-key/index.md) | This models the key used to get a value out of the  Environment using the standard Lens mechanic. Note that if your values contain commas, either use a EnvironmentKey.(mapping).multi.required()/optional()/defaulted() to retrieve the entire list, or override the comma separator in your initial Environment. |
-| [org.http4k.security.oauth.server.Error](../org.http4k.security.oauth.server/-error/index.md) |  |
 | [org.http4k.jsonrpc.ErrorHandler](../org.http4k.jsonrpc/-error-handler.md) |  |
 | [org.http4k.jsonrpc.ErrorMessage](../org.http4k.jsonrpc/-error-message/index.md) |  |
-| [org.http4k.security.oauth.server.ErrorResponse](../org.http4k.security.oauth.server/-error-response/index.md) |  |
 | [org.http4k.core.etag.ETag](../org.http4k.core.etag/-e-tag/index.md) |  |
 | [org.http4k.core.etag.ETagValidationRequestParser](../org.http4k.core.etag/-e-tag-validation-request-parser/index.md) | Implemented according to https://www.w3.org/Protocols/rfc2616/rfc2616-sec3.html#sec3.11 |
 | [org.http4k.core.Event](../org.http4k.core/-event/index.md) |  |

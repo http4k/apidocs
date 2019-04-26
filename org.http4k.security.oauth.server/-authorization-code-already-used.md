@@ -2,14 +2,7 @@
 
 # AuthorizationCodeAlreadyUsed
 
-`object AuthorizationCodeAlreadyUsed : `[`AccessTokenError`](-access-token-error/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/GenerateAccessToken.kt#L90)
-
-### Inherited Properties
-
-| Name | Summary |
-|---|---|
-| [description](-access-token-error/description.md) | `val description: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
-| [rfcError](-access-token-error/rfc-error.md) | `val rfcError: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+`object AuthorizationCodeAlreadyUsed : `[`AccessTokenError`](-access-token-error.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/OAuthError.kt#L23)
 
 ### Extension Functions
 

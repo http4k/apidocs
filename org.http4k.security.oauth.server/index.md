@@ -6,25 +6,34 @@
 
 | Name | Summary |
 |---|---|
-| [AccessTokenError](-access-token-error/index.md) | `sealed class AccessTokenError` |
+| [AccessTokenError](-access-token-error.md) | `sealed class AccessTokenError : `[`OAuthError`](-o-auth-error/index.md) |
 | [AccessTokenRequest](-access-token-request/index.md) | `data class AccessTokenRequest` |
 | [AccessTokens](-access-tokens/index.md) | `interface AccessTokens`<br>Provides a consistent way to generate access tokens |
 | [AuthenticationCompleteFilter](-authentication-complete-filter/index.md) | `class AuthenticationCompleteFilter : `[`Filter`](../org.http4k.core/-filter/index.md) |
 | [AuthorizationCode](-authorization-code/index.md) | `data class AuthorizationCode` |
-| [AuthorizationCodeAlreadyUsed](-authorization-code-already-used.md) | `object AuthorizationCodeAlreadyUsed : `[`AccessTokenError`](-access-token-error/index.md) |
+| [AuthorizationCodeAlreadyUsed](-authorization-code-already-used.md) | `object AuthorizationCodeAlreadyUsed : `[`AccessTokenError`](-access-token-error.md) |
 | [AuthorizationCodeDetails](-authorization-code-details/index.md) | `data class AuthorizationCodeDetails` |
+| [AuthorizationCodeExpired](-authorization-code-expired.md) | `object AuthorizationCodeExpired : `[`AccessTokenError`](-access-token-error.md) |
 | [AuthorizationCodes](-authorization-codes/index.md) | `interface AuthorizationCodes`<br>Provides a consistent way to manage authorization codes |
 | [AuthRequest](-auth-request/index.md) | `data class AuthRequest` |
 | [AuthRequestTracking](-auth-request-tracking/index.md) | `interface AuthRequestTracking`<br>Provides a mechanism to track OAuth authorization parameters to be used later (i.e. can be used later to generate code and/or tokens) |
 | [AuthRequestTrackingFilter](-auth-request-tracking-filter/index.md) | `class AuthRequestTrackingFilter : `[`Filter`](../org.http4k.core/-filter/index.md) |
 | [ClientId](-client-id/index.md) | `data class ClientId` |
+| [ClientIdMismatch](-client-id-mismatch.md) | `object ClientIdMismatch : `[`AccessTokenError`](-access-token-error.md) |
 | [ClientValidationFilter](-client-validation-filter/index.md) | `class ClientValidationFilter : `[`Filter`](../org.http4k.core/-filter/index.md) |
 | [ClientValidator](-client-validator/index.md) | `interface ClientValidator`<br>Provides a consistent way to retrieve clients attempting to use an authorization code flow |
-| [ErrorResponse](-error-response/index.md) | `data class ErrorResponse` |
+| [ErrorRenderer](-error-renderer/index.md) | `class ErrorRenderer` |
 | [GenerateAccessToken](-generate-access-token/index.md) | `class GenerateAccessToken : `[`HttpHandler`](../org.http4k.core/-http-handler.md) |
 | [IdTokens](-id-tokens/index.md) | `interface IdTokens` |
 | [InsecureCookieBasedAuthRequestTracking](-insecure-cookie-based-auth-request-tracking/index.md) | `class InsecureCookieBasedAuthRequestTracking : `[`AuthRequestTracking`](-auth-request-tracking/index.md) |
+| [InvalidClientCredentials](-invalid-client-credentials.md) | `object InvalidClientCredentials : `[`AccessTokenError`](-access-token-error.md) |
+| [InvalidClientId](-invalid-client-id.md) | `object InvalidClientId : `[`OAuthError`](-o-auth-error/index.md) |
+| [InvalidRedirectUri](-invalid-redirect-uri.md) | `object InvalidRedirectUri : `[`OAuthError`](-o-auth-error/index.md) |
+| [OAuthError](-o-auth-error/index.md) | `abstract class OAuthError` |
 | [OAuthServer](-o-auth-server/index.md) | `class OAuthServer`<br>Provide help creating OAuth Authorization Server with Authorization Code Flow |
+| [RedirectUriMismatch](-redirect-uri-mismatch.md) | `object RedirectUriMismatch : `[`AccessTokenError`](-access-token-error.md) |
+| [RfcError](-rfc-error/index.md) | `enum class RfcError` |
+| [UnsupportedGrantType](-unsupported-grant-type/index.md) | `data class UnsupportedGrantType : `[`AccessTokenError`](-access-token-error.md) |
 
 ### Functions
 

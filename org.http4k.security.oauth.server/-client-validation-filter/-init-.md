@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`ClientValidationFilter(clientValidator: `[`ClientValidator`](../-client-validator/index.md)`, json: `[`AutoMarshallingJson`](../../org.http4k.format/-auto-marshalling-json/index.md)`, documentationUri: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = "")`
+`ClientValidationFilter(clientValidator: `[`ClientValidator`](../-client-validator/index.md)`, errorRenderer: `[`ErrorRenderer`](../-error-renderer/index.md)`)`

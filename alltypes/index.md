@@ -6,7 +6,7 @@
 |---|---|
 | [org.http4k.security.AccessTokenContainer](../org.http4k.security/-access-token-container/index.md) |  |
 | [org.http4k.security.AccessTokenDetails](../org.http4k.security/-access-token-details/index.md) |  |
-| [org.http4k.security.oauth.server.AccessTokenError](../org.http4k.security.oauth.server/-access-token-error/index.md) |  |
+| [org.http4k.security.oauth.server.AccessTokenError](../org.http4k.security.oauth.server/-access-token-error.md) |  |
 | [org.http4k.security.AccessTokenFetcher](../org.http4k.security/-access-token-fetcher/index.md) |  |
 | [org.http4k.security.oauth.server.AccessTokenRequest](../org.http4k.security.oauth.server/-access-token-request/index.md) |  |
 | [org.http4k.security.AccessTokenResponse](../org.http4k.security/-access-token-response/index.md) |  |
@@ -33,6 +33,7 @@
 | [org.http4k.security.oauth.server.AuthorizationCode](../org.http4k.security.oauth.server/-authorization-code/index.md) |  |
 | [org.http4k.security.oauth.server.AuthorizationCodeAlreadyUsed](../org.http4k.security.oauth.server/-authorization-code-already-used.md) |  |
 | [org.http4k.security.oauth.server.AuthorizationCodeDetails](../org.http4k.security.oauth.server/-authorization-code-details/index.md) |  |
+| [org.http4k.security.oauth.server.AuthorizationCodeExpired](../org.http4k.security.oauth.server/-authorization-code-expired.md) |  |
 | [org.http4k.security.oauth.server.AuthorizationCodes](../org.http4k.security.oauth.server/-authorization-codes/index.md) | Provides a consistent way to manage authorization codes |
 | [org.http4k.security.oauth.server.AuthRequest](../org.http4k.security.oauth.server/-auth-request/index.md) |  |
 | [org.http4k.security.oauth.server.AuthRequestTracking](../org.http4k.security.oauth.server/-auth-request-tracking/index.md) | Provides a mechanism to track OAuth authorization parameters to be used later (i.e. can be used later to generate code and/or tokens) |
@@ -74,6 +75,7 @@
 | [org.http4k.chaos.ChaosTriggers](../org.http4k.chaos/-chaos-triggers/index.md) |  |
 | [org.http4k.filter.ClientFilters](../org.http4k.filter/-client-filters/index.md) |  |
 | [org.http4k.security.oauth.server.ClientId](../org.http4k.security.oauth.server/-client-id/index.md) |  |
+| [org.http4k.security.oauth.server.ClientIdMismatch](../org.http4k.security.oauth.server/-client-id-mismatch.md) |  |
 | [org.http4k.cloudnative.ClientTimeout](../org.http4k.cloudnative/-client-timeout/index.md) |  |
 | [org.http4k.security.oauth.server.ClientValidationFilter](../org.http4k.security.oauth.server/-client-validation-filter/index.md) |  |
 | [org.http4k.security.oauth.server.ClientValidator](../org.http4k.security.oauth.server/-client-validator/index.md) | Provides a consistent way to retrieve clients attempting to use an authorization code flow |
@@ -122,7 +124,7 @@
 | [org.http4k.cloudnative.env.EnvironmentKey](../org.http4k.cloudnative.env/-environment-key/index.md) | This models the key used to get a value out of the  Environment using the standard Lens mechanic. Note that if your values contain commas, either use a EnvironmentKey.(mapping).multi.required()/optional()/defaulted() to retrieve the entire list, or override the comma separator in your initial Environment. |
 | [org.http4k.jsonrpc.ErrorHandler](../org.http4k.jsonrpc/-error-handler.md) |  |
 | [org.http4k.jsonrpc.ErrorMessage](../org.http4k.jsonrpc/-error-message/index.md) |  |
-| [org.http4k.security.oauth.server.ErrorResponse](../org.http4k.security.oauth.server/-error-response/index.md) |  |
+| [org.http4k.security.oauth.server.ErrorRenderer](../org.http4k.security.oauth.server/-error-renderer/index.md) |  |
 | [org.http4k.core.etag.ETag](../org.http4k.core.etag/-e-tag/index.md) |  |
 | [org.http4k.core.etag.ETagValidationRequestParser](../org.http4k.core.etag/-e-tag-validation-request-parser/index.md) | Implemented according to https://www.w3.org/Protocols/rfc2616/rfc2616-sec3.html#sec3.11 |
 | [org.http4k.core.Event](../org.http4k.core/-event/index.md) |  |
@@ -182,7 +184,10 @@
 | [org.http4k.security.oauth.server.InsecureCookieBasedAuthRequestTracking](../org.http4k.security.oauth.server/-insecure-cookie-based-auth-request-tracking/index.md) |  |
 | [org.http4k.security.InsecureCookieBasedOAuthPersistence](../org.http4k.security/-insecure-cookie-based-o-auth-persistence/index.md) | This is an example implementation which stores CSRF and AccessTokenEnvelope values in an INSECURE client-side cookie. Access-tokens for end-services are fully available to the browser so do not use this in production! |
 | [org.http4k.lens.Invalid](../org.http4k.lens/-invalid/index.md) |  |
+| [org.http4k.security.oauth.server.InvalidClientCredentials](../org.http4k.security.oauth.server/-invalid-client-credentials.md) |  |
+| [org.http4k.security.oauth.server.InvalidClientId](../org.http4k.security.oauth.server/-invalid-client-id.md) |  |
 | [org.http4k.format.InvalidJsonException](../org.http4k.format/-invalid-json-exception/index.md) |  |
+| [org.http4k.security.oauth.server.InvalidRedirectUri](../org.http4k.security.oauth.server/-invalid-redirect-uri.md) |  |
 | [org.http4k.format.Jackson](../org.http4k.format/-jackson.md) | To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called. |
 | [org.http4k.format.JacksonXml](../org.http4k.format/-jackson-xml.md) | To implement custom XML configuration, create your own object singleton. Extra mappings can be added before done() is called. |
 | [org.http4k.filter.JacksonXmlGenerateXmlDataClasses](../org.http4k.filter/-jackson-xml-generate-xml-data-classes/index.md) | Provides an implementation of GenerateXmlDataClasses using GSON as an engine. |
@@ -243,6 +248,7 @@
 | [org.http4k.contract.NoSecurity](../org.http4k.contract/-no-security/index.md) | Default NoOp security filter. Filter allows all traffic through. |
 | [org.http4k.cloudnative.NotFound](../org.http4k.cloudnative/-not-found/index.md) |  |
 | [org.http4k.security.OAuthCallback](../org.http4k.security/-o-auth-callback/index.md) |  |
+| [org.http4k.security.oauth.server.OAuthError](../org.http4k.security.oauth.server/-o-auth-error/index.md) |  |
 | [org.http4k.security.OAuthPersistence](../org.http4k.security/-o-auth-persistence/index.md) | Provides persistence for OAuth lifecycle values: |
 | [org.http4k.security.OAuthProvider](../org.http4k.security/-o-auth-provider/index.md) | Provides a configured set of objects for use with an OAuth2 provider. |
 | [org.http4k.security.OAuthProviderConfig](../org.http4k.security/-o-auth-provider-config/index.md) |  |
@@ -275,6 +281,7 @@
 | [org.http4k.testing.ReadWriteResource](../org.http4k.testing/-read-write-resource/index.md) |  |
 | [org.http4k.traffic.ReadWriteStream](../org.http4k.traffic/-read-write-stream/index.md) | Combined Read/Write storage models, optimised for replay. |
 | [org.http4k.testing.RecordingEvents](../org.http4k.testing/-recording-events/index.md) | Simple recording events that can be used in tests |
+| [org.http4k.security.oauth.server.RedirectUriMismatch](../org.http4k.security.oauth.server/-redirect-uri-mismatch.md) |  |
 | [org.http4k.traffic.Replay](../org.http4k.traffic/-replay/index.md) | Provides a stream of traffic for replaying purposes. |
 | [org.http4k.core.Request](../org.http4k.core/-request/index.md) |  |
 | [org.http4k.core.RequestContext](../org.http4k.core/-request-context/index.md) |  |
@@ -295,6 +302,7 @@
 | [org.http4k.filter.ResponseFilters](../org.http4k.filter/-response-filters/index.md) |  |
 | [org.http4k.contract.ResponseMeta](../org.http4k.contract/-response-meta/index.md) |  |
 | [org.http4k.security.ResponseType](../org.http4k.security/-response-type/index.md) |  |
+| [org.http4k.security.oauth.server.RfcError](../org.http4k.security.oauth.server/-rfc-error/index.md) |  |
 | [org.http4k.contract.Root](../org.http4k.contract/-root/index.md) |  |
 | [org.http4k.routing.RoutedRequest](../org.http4k.routing/-routed-request/index.md) |  |
 | [org.http4k.routing.RoutedResponse](../org.http4k.routing/-routed-response/index.md) |  |
@@ -341,6 +349,7 @@
 | [org.http4k.chaos.Trigger](../org.http4k.chaos/-trigger.md) |  |
 | [org.http4k.server.Undertow](../org.http4k.server/-undertow/index.md) |  |
 | [org.http4k.lens.Unsupported](../org.http4k.lens/-unsupported/index.md) |  |
+| [org.http4k.security.oauth.server.UnsupportedGrantType](../org.http4k.security.oauth.server/-unsupported-grant-type/index.md) |  |
 | [org.http4k.cloudnative.UpstreamRequestFailed](../org.http4k.cloudnative/-upstream-request-failed/index.md) | This hierarchy of exceptions should be used to indicate that an upstream remote system has failed with a non-successful status code which caused us to stop processing. They are designed to be used with the Server and Client filters which will allow automatic handling and propagation of erroneous responses from upstream. |
 | [org.http4k.core.Uri](../org.http4k.core/-uri/index.md) |  |
 | [org.http4k.core.UriTemplate](../org.http4k.core/-uri-template/index.md) |  |

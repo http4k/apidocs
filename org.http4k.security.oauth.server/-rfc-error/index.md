@@ -8,10 +8,17 @@
 
 | Name | Summary |
 |---|---|
+| [AccessDenied](-access-denied.md) |  |
 | [InvalidClient](-invalid-client.md) |  |
 | [InvalidGrant](-invalid-grant.md) |  |
 | [UnsupportedGrantType](-unsupported-grant-type.md) |  |
 | [UnsupportedResponseType](-unsupported-response-type.md) |  |
+
+### Properties
+
+| Name | Summary |
+|---|---|
+| [rfcValue](rfc-value.md) | `val rfcValue: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 
 ### Extension Functions
 

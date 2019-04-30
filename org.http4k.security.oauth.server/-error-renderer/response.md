@@ -2,4 +2,4 @@
 
 # response
 
-`fun response(error: `[`OAuthError`](../-o-auth-error/index.md)`): `[`Response`](../../org.http4k.core/-response/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/ErrorRenderer.kt#L21)
+`fun response(error: `[`OAuthError`](../-o-auth-error/index.md)`): `[`Response`](../../org.http4k.core/-response/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/ErrorRenderer.kt#L20)

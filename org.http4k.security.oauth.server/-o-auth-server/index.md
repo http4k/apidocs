@@ -15,13 +15,13 @@ References:
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `OAuthServer(tokenPath: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, authRequestTracking: `[`AuthRequestTracking`](../-auth-request-tracking/index.md)`, clientValidator: `[`ClientValidator`](../-client-validator/index.md)`, authorizationCodes: `[`AuthorizationCodes`](../-authorization-codes/index.md)`, accessTokens: `[`AccessTokens`](../-access-tokens/index.md)`, json: `[`AutoMarshallingJson`](../../org.http4k.format/-auto-marshalling-json/index.md)`, clock: Clock, idTokens: `[`IdTokens`](../-id-tokens/index.md)` = IdTokens.Unsupported, documentationUri: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = "")`<br>Provide help creating OAuth Authorization Server with Authorization Code Flow |
+| [&lt;init&gt;](-init-.md) | `OAuthServer(tokenPath: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, authRequestTracking: `[`AuthRequestTracking`](../-auth-request-tracking/index.md)`, clientValidator: `[`ClientValidator`](../-client-validator/index.md)`, authorizationCodes: `[`AuthorizationCodes`](../-authorization-codes/index.md)`, accessTokens: `[`AccessTokens`](../-access-tokens/index.md)`, json: `[`AutoMarshallingJson`](../../org.http4k.format/-auto-marshalling-json/index.md)`, clock: Clock, idTokens: `[`IdTokens`](../-id-tokens/index.md)` = IdTokens.Unsupported, documentationUri: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`? = null)`<br>Provide help creating OAuth Authorization Server with Authorization Code Flow |
 
 ### Properties
 
 | Name | Summary |
 |---|---|
-| [authenticationComplete](authentication-complete.md) | `val authenticationComplete: `[`AuthenticationCompleteFilter`](../-authentication-complete-filter/index.md) |
+| [authenticationComplete](authentication-complete.md) | `val authenticationComplete: `[`AuthenticationComplete`](../-authentication-complete/index.md) |
 | [authenticationStart](authentication-start.md) | `val authenticationStart: `[`Filter`](../../org.http4k.core/-filter/index.md) |
 | [tokenRoute](token-route.md) | `val tokenRoute: `[`RoutingHttpHandler`](../../org.http4k.routing/-routing-http-handler/index.md) |
 

@@ -28,7 +28,7 @@
 | [org.http4k.testing.Approver](../org.http4k.testing/-approver/index.md) | Coordinates the comparison of the content for a test. |
 | [org.http4k.format.Argo](../org.http4k.format/-argo/index.md) |  |
 | [org.http4k.client.AsyncHttpClient](../org.http4k.client/-async-http-client/index.md) |  |
-| [org.http4k.security.oauth.server.AuthenticationCompleteFilter](../org.http4k.security.oauth.server/-authentication-complete-filter/index.md) |  |
+| [org.http4k.security.oauth.server.AuthenticationComplete](../org.http4k.security.oauth.server/-authentication-complete/index.md) |  |
 | [org.http4k.cloudnative.env.Authority](../org.http4k.cloudnative.env/-authority/index.md) |  |
 | [org.http4k.security.oauth.server.AuthorizationCode](../org.http4k.security.oauth.server/-authorization-code/index.md) |  |
 | [org.http4k.security.oauth.server.AuthorizationCodeAlreadyUsed](../org.http4k.security.oauth.server/-authorization-code-already-used.md) |  |
@@ -356,6 +356,7 @@
 | [org.http4k.core.Uri](../org.http4k.core/-uri/index.md) |  |
 | [org.http4k.core.UriTemplate](../org.http4k.core/-uri-template/index.md) |  |
 | [org.http4k.routing.experimental.URLResource](../org.http4k.routing.experimental/-u-r-l-resource/index.md) |  |
+| [org.http4k.security.oauth.server.UserRejectedRequest](../org.http4k.security.oauth.server/-user-rejected-request.md) |  |
 | [org.http4k.lens.Validator](../org.http4k.lens/-validator/index.md) | Runs through a list of lenses and extracts the values from each one, collecting the errors |
 | [org.http4k.template.ViewModel](../org.http4k.template/-view-model/index.md) |  |
 | [org.http4k.template.ViewNotFound](../org.http4k.template/-view-not-found/index.md) |  |

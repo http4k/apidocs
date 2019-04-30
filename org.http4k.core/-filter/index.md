@@ -28,7 +28,6 @@
 
 | Name | Summary |
 |---|---|
-| [AuthenticationCompleteFilter](../../org.http4k.security.oauth.server/-authentication-complete-filter/index.md) | `class AuthenticationCompleteFilter : `[`Filter`](./index.md) |
 | [AuthRequestTrackingFilter](../../org.http4k.security.oauth.server/-auth-request-tracking-filter/index.md) | `class AuthRequestTrackingFilter : `[`Filter`](./index.md) |
 | [CatchLensFailure](../../org.http4k.filter/-server-filters/-catch-lens-failure.md) | `object CatchLensFailure : `[`Filter`](./index.md)<br>Converts Lens extraction failures into correct HTTP responses (Bad Requests/UnsupportedMediaType). This is required when using lenses to automatically unmarshall inbound requests. Note that LensFailures from unmarshalling upstream Response objects are NOT caught to avoid incorrect server behaviour. |
 | [ClientValidationFilter](../../org.http4k.security.oauth.server/-client-validation-filter/index.md) | `class ClientValidationFilter : `[`Filter`](./index.md) |

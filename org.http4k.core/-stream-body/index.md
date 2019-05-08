@@ -2,7 +2,7 @@
 
 # StreamBody
 
-`class StreamBody : `[`Body`](../-body/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L57)
+`class StreamBody : `[`Body`](../-body/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L63)
 
 Represents a body that is backed by a (lazy) InputStream. Operating with StreamBody has a number of potential
 gotchas:

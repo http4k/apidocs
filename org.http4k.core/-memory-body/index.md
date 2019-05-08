@@ -2,7 +2,7 @@
 
 # MemoryBody
 
-`data class MemoryBody : `[`Body`](../-body/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L40)
+`data class MemoryBody : `[`Body`](../-body/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L45)
 
 Represents a body that is backed by an in-memory ByteBuffer. Closing this has no effect.
 
@@ -10,7 +10,7 @@ Represents a body that is backed by an in-memory ByteBuffer. Closing this has no
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `MemoryBody(payload: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`)``MemoryBody(payload: `[`ByteBuffer`](https://docs.oracle.com/javase/6/docs/api/java/nio/ByteBuffer.html)`)`<br>Represents a body that is backed by an in-memory ByteBuffer. Closing this has no effect. |
+| [&lt;init&gt;](-init-.md) | `MemoryBody(payload: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`)`<br>`MemoryBody(payload: `[`ByteArray`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html)`)``MemoryBody(payload: `[`ByteBuffer`](https://docs.oracle.com/javase/6/docs/api/java/nio/ByteBuffer.html)`)`<br>Represents a body that is backed by an in-memory ByteBuffer. Closing this has no effect. |
 
 ### Properties
 
@@ -18,7 +18,7 @@ Represents a body that is backed by an in-memory ByteBuffer. Closing this has no
 |---|---|
 | [length](length.md) | `val length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)<br>Will be `null` for bodies where it's impossible to a priori determine - e.g. StreamBody |
 | [payload](payload.md) | `val payload: `[`ByteBuffer`](https://docs.oracle.com/javase/6/docs/api/java/nio/ByteBuffer.html) |
-| [stream](stream.md) | `val stream: `[`InputStream`](https://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html) |
+| [stream](stream.md) | `val stream: `[`ByteArrayInputStream`](https://docs.oracle.com/javase/6/docs/api/java/io/ByteArrayInputStream.html) |
 
 ### Functions
 

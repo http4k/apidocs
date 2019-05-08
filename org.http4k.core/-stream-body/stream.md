@@ -2,7 +2,7 @@
 
 # stream
 
-`val stream: `[`InputStream`](https://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L57)
+`val stream: `[`InputStream`](https://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L63)
 
 Overrides [Body.stream](../-body/stream.md)
 

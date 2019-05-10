@@ -43,3 +43,4 @@
 | Name | Summary |
 |---|---|
 | [accessTokenRequest](access-token-request.md) | `fun `[`Request`](../org.http4k.core/-request/index.md)`.accessTokenRequest(): `[`AccessTokenRequest`](-access-token-request/index.md) |
+| [AccessTokenValidationFilter](-access-token-validation-filter.md) | `fun AccessTokenValidationFilter(accessTokens: `[`AccessTokens`](-access-tokens/index.md)`): `[`Filter`](../org.http4k.core/-filter/index.md) |

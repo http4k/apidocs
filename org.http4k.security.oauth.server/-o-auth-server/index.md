@@ -2,7 +2,7 @@
 
 # OAuthServer
 
-`class OAuthServer` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/OAuthServer.kt#L21)
+`class OAuthServer` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/OAuthServer.kt#L23)
 
 Provide help creating OAuth Authorization Server with Authorization Code Flow
 
@@ -21,6 +21,7 @@ References:
 
 | Name | Summary |
 |---|---|
+| [accessFilter](access-filter.md) | `val accessFilter: `[`Filter`](../../org.http4k.core/-filter/index.md) |
 | [authenticationComplete](authentication-complete.md) | `val authenticationComplete: `[`AuthenticationComplete`](../-authentication-complete/index.md) |
 | [authenticationStart](authentication-start.md) | `val authenticationStart: `[`Filter`](../../org.http4k.core/-filter/index.md) |
 | [tokenRoute](token-route.md) | `val tokenRoute: `[`RoutingHttpHandler`](../../org.http4k.routing/-routing-http-handler/index.md) |

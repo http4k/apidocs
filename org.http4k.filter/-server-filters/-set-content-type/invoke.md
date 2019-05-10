@@ -2,4 +2,4 @@
 
 # invoke
 
-`operator fun invoke(contentType: `[`ContentType`](../../../org.http4k.core/-content-type/index.md)`): `[`Filter`](../../../org.http4k.core/-filter/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ServerFilters.kt#L274)
+`operator fun invoke(contentType: `[`ContentType`](../../../org.http4k.core/-content-type/index.md)`): `[`Filter`](../../../org.http4k.core/-filter/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ServerFilters.kt#L279)

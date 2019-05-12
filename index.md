@@ -12,6 +12,11 @@
 | [org.http4k.cloudnative.env](org.http4k.cloudnative.env/index.md) |  |
 | [org.http4k.cloudnative.health](org.http4k.cloudnative.health/index.md) |  |
 | [org.http4k.contract](org.http4k.contract/index.md) | Code for defining typesafe contracts which generate OpenAPI documentation. |
+| [org.http4k.contract.openapi](org.http4k.contract.openapi/index.md) |  |
+| [org.http4k.contract.openapi.v2](org.http4k.contract.openapi.v2/index.md) |  |
+| [org.http4k.contract.openapi.v3](org.http4k.contract.openapi.v3/index.md) |  |
+| [org.http4k.contract.security](org.http4k.contract.security/index.md) |  |
+| [org.http4k.contract.simple](org.http4k.contract.simple/index.md) |  |
 | [org.http4k.core](org.http4k.core/index.md) | The core abstractions for the http4k library. |
 | [org.http4k.core.body](org.http4k.core.body/index.md) |  |
 | [org.http4k.core.cookie](org.http4k.core.cookie/index.md) |  |

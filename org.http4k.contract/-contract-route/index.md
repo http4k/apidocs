@@ -2,13 +2,12 @@
 
 # ContractRoute
 
-`class ContractRoute` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/ContractRoute.kt#L17)
+`class ContractRoute` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/ContractRoute.kt#L15)
 
 ### Properties
 
 | Name | Summary |
 |---|---|
-| [jsonRequest](json-request.md) | `val jsonRequest: `[`HttpMessageMeta`](../-http-message-meta/index.md)`<`[`Request`](../../org.http4k.core/-request/index.md)`>?` |
 | [meta](meta.md) | `val meta: `[`RouteMeta`](../-route-meta/index.md) |
 | [method](method.md) | `val method: `[`Method`](../../org.http4k.core/-method/index.md) |
 | [nonBodyParams](non-body-params.md) | `val nonBodyParams: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`Meta`](../../org.http4k.lens/-meta/index.md)`>` |

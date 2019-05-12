@@ -14,9 +14,13 @@
 | [org.http4k.client.ApacheAsyncClient](../org.http4k.client/-apache-async-client/index.md) |  |
 | [org.http4k.client.ApacheClient](../org.http4k.client/-apache-client/index.md) |  |
 | [org.http4k.server.ApacheServer](../org.http4k.server/-apache-server/index.md) |  |
-| [org.http4k.contract.ApiInfo](../org.http4k.contract/-api-info/index.md) |  |
+| [org.http4k.contract.openapi.v3.Api](../org.http4k.contract.openapi.v3/-api/index.md) |  |
+| [org.http4k.contract.ApiInfo](../org.http4k.contract/-api-info.md) |  |
+| [org.http4k.contract.openapi.ApiInfo](../org.http4k.contract.openapi/-api-info/index.md) |  |
 | [org.http4k.contract.ApiKey](../org.http4k.contract/-api-key.md) |  |
-| [org.http4k.contract.ApiKeySecurity](../org.http4k.contract/-api-key-security/index.md) | Checks the presence of the named Api Key parameter. Filter returns 401 if Api-Key is not found in request. |
+| [org.http4k.contract.security.ApiKeySecurity](../org.http4k.contract.security/-api-key-security/index.md) | Checks the presence of the named Api Key parameter. Filter returns 401 if Api-Key is not found in request. |
+| [org.http4k.contract.openapi.v3.ApiPath](../org.http4k.contract.openapi.v3/-api-path/index.md) |  |
+| [org.http4k.contract.openapi.ApiRenderer](../org.http4k.contract.openapi/-api-renderer/index.md) | Renders the contract contents in OpenApi JSON format. |
 | [org.http4k.util.Appendable](../org.http4k.util/-appendable/index.md) |  |
 | [io.ktor.request.ApplicationRequest](../org.http4k.server/io.ktor.request.-application-request/index.md) (extensions in package org.http4k.server) |  |
 | [io.ktor.response.ApplicationResponse](../org.http4k.server/io.ktor.response.-application-response/index.md) (extensions in package org.http4k.server) |  |
@@ -46,8 +50,10 @@
 | [org.http4k.aws.AwsCredentialScope](../org.http4k.aws/-aws-credential-scope/index.md) |  |
 | [org.http4k.aws.AwsHmacSha256](../org.http4k.aws/-aws-hmac-sha256/index.md) |  |
 | [org.http4k.testing.BaseApprovalTest](../org.http4k.testing/-base-approval-test/index.md) | Base JUnit extension for injecting an Approver into a JUnit5 test-case. Implement this to provide custom approval behaviours, or |
-| [org.http4k.contract.BasicAuthSecurity](../org.http4k.contract/-basic-auth-security/index.md) | Checks the presence of basic auth credentials |
+| [org.http4k.contract.BasicAuthSecurity](../org.http4k.contract/-basic-auth-security.md) |  |
+| [org.http4k.contract.security.BasicAuthSecurity](../org.http4k.contract.security/-basic-auth-security/index.md) | Checks the presence of basic auth credentials. Filter returns 401 if auth fails. |
 | [org.http4k.filter.cookie.BasicCookieStorage](../org.http4k.filter.cookie/-basic-cookie-storage/index.md) |  |
+| [org.http4k.contract.security.BearerAuthSecurity](../org.http4k.contract.security/-bearer-auth-security/index.md) | Checks the presence of bearer auth credentials. Filter returns 401 if auth fails. |
 | [org.http4k.chaos.Behaviour](../org.http4k.chaos/-behaviour.md) | Encapsulates the type of bad behaviour to apply to the response. |
 | [org.http4k.lens.BiDiBodyLens](../org.http4k.lens/-bi-di-body-lens/index.md) | A BiDiBodyLens provides the bi-directional extraction of an entity from a target body, or the insertion of an entity into a target body. |
 | [org.http4k.lens.BiDiBodyLensSpec](../org.http4k.lens/-bi-di-body-lens-spec/index.md) | Represents a bi-directional extraction of an entity from a target Body, or an insertion into a target Body. |
@@ -60,6 +66,7 @@
 | [org.http4k.lens.BiDiWsMessageLens](../org.http4k.lens/-bi-di-ws-message-lens/index.md) | A BiDiWsMessageLens provides the bi-directional extraction of an entity from a target body, or the insertion of an entity into a target WsMessage. |
 | [org.http4k.lens.BiDiWsMessageLensSpec](../org.http4k.lens/-bi-di-ws-message-lens-spec/index.md) | Represents a bi-directional extraction of an entity from a target Body, or an insertion into a target WsMessage. |
 | [org.http4k.core.Body](../org.http4k.core/-body/index.md) | If this Body is NOT being returned to the caller (via a Server implementation or otherwise), close() should be called. |
+| [org.http4k.contract.openapi.v3.BodyContent](../org.http4k.contract.openapi.v3/-body-content/index.md) |  |
 | [org.http4k.lens.BodyLens](../org.http4k.lens/-body-lens/index.md) | A BodyLens provides the uni-directional extraction of an entity from a target body. |
 | [org.http4k.lens.BodyLensSpec](../org.http4k.lens/-body-lens-spec/index.md) | Represents a uni-directional extraction of an entity from a target Body. |
 | [org.http4k.core.BodyMode](../org.http4k.core/-body-mode/index.md) |  |
@@ -82,6 +89,7 @@
 | [org.http4k.security.oauth.server.ClientValidator](../org.http4k.security.oauth.server/-client-validator/index.md) | Provides a consistent way to retrieve clients attempting to use an authorization code flow |
 | [org.http4k.testing.ClosedWebsocket](../org.http4k.testing/-closed-websocket/index.md) |  |
 | [org.http4k.cloudnative.health.Completed](../org.http4k.cloudnative.health/-completed/index.md) |  |
+| [org.http4k.contract.openapi.v3.Components](../org.http4k.contract.openapi.v3/-components/index.md) |  |
 | [org.http4k.cloudnative.health.Composite](../org.http4k.cloudnative.health/-composite/index.md) | Result of multiple checks, for which it reports an overall result (ie. any failure is fatal). |
 | [org.http4k.format.ConfigurableGson](../org.http4k.format/-configurable-gson/index.md) |  |
 | [org.http4k.format.ConfigurableJackson](../org.http4k.format/-configurable-jackson/index.md) |  |
@@ -126,6 +134,7 @@
 | [org.http4k.jsonrpc.ErrorHandler](../org.http4k.jsonrpc/-error-handler.md) |  |
 | [org.http4k.jsonrpc.ErrorMessage](../org.http4k.jsonrpc/-error-message/index.md) |  |
 | [org.http4k.security.oauth.server.ErrorRenderer](../org.http4k.security.oauth.server/-error-renderer/index.md) |  |
+| [org.http4k.contract.ErrorResponseRenderer](../org.http4k.contract/-error-response-renderer/index.md) |  |
 | [org.http4k.core.etag.ETag](../org.http4k.core.etag/-e-tag/index.md) |  |
 | [org.http4k.core.etag.ETagValidationRequestParser](../org.http4k.core.etag/-e-tag-validation-request-parser/index.md) | Implemented according to https://www.w3.org/Protocols/rfc2616/rfc2616-sec3.html#sec3.11 |
 | [org.http4k.core.Event](../org.http4k.core/-event/index.md) |  |
@@ -158,6 +167,7 @@
 | [com.google.gson.GsonBuilder](../org.http4k.format/com.google.gson.-gson-builder/index.md) (extensions in package org.http4k.format) |  |
 | [org.http4k.filter.GsonGenerateXmlDataClasses](../org.http4k.filter/-gson-generate-xml-data-classes/index.md) | Provides an implementation of GenerateXmlDataClasses using GSON as an engine. |
 | [org.http4k.template.HandlebarsTemplates](../org.http4k.template/-handlebars-templates/index.md) | Handlebars templating support. Use the function in the constructor to configure the instance. |
+| [org.http4k.contract.openapi.v3.HasSchema](../org.http4k.contract.openapi.v3/-has-schema/index.md) |  |
 | [org.http4k.lens.Header](../org.http4k.lens/-header/index.md) |  |
 | [org.http4k.lens.HeaderLens](../org.http4k.lens/-header-lens.md) |  |
 | [org.http4k.core.Headers](../org.http4k.core/-headers.md) |  |
@@ -190,6 +200,7 @@
 | [org.http4k.format.InvalidJsonException](../org.http4k.format/-invalid-json-exception/index.md) |  |
 | [org.http4k.security.oauth.server.InvalidRedirectUri](../org.http4k.security.oauth.server/-invalid-redirect-uri.md) |  |
 | [org.http4k.format.Jackson](../org.http4k.format/-jackson.md) | To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called. |
+| [org.http4k.util.JacksonJsonSchemaCreator](../org.http4k.util/-jackson-json-schema-creator/index.md) |  |
 | [org.http4k.format.JacksonXml](../org.http4k.format/-jackson-xml.md) | To implement custom XML configuration, create your own object singleton. Extra mappings can be added before done() is called. |
 | [org.http4k.filter.JacksonXmlGenerateXmlDataClasses](../org.http4k.filter/-jackson-xml-generate-xml-data-classes/index.md) | Provides an implementation of GenerateXmlDataClasses using GSON as an engine. |
 | [org.http4k.client.JavaHttpClient](../org.http4k.client/-java-http-client/index.md) |  |
@@ -197,7 +208,7 @@
 | [org.http4k.client.JettyClient](../org.http4k.client/-jetty-client/index.md) |  |
 | [org.http4k.format.Json](../org.http4k.format/-json/index.md) | This is the contract for all JSON implementations |
 | [org.http4k.testing.JsonApprovalTest](../org.http4k.testing/-json-approval-test/index.md) | Approval JUnit5 extension configured to compare prettified-JSON messages. |
-| [org.http4k.format.JsonErrorResponseRenderer](../org.http4k.format/-json-error-response-renderer/index.md) |  |
+| [org.http4k.contract.JsonErrorResponseRenderer](../org.http4k.contract/-json-error-response-renderer/index.md) |  |
 | [org.http4k.format.JsonLibAutoMarshallingJson](../org.http4k.format/-json-lib-auto-marshalling-json/index.md) |  |
 | [com.fasterxml.jackson.databind.JsonNode](../org.http4k.chaos/com.fasterxml.jackson.databind.-json-node/index.md) (extensions in package org.http4k.chaos) |  |
 | [org.http4k.cloudnative.health.JsonReadinessCheckResultRenderer](../org.http4k.cloudnative.health/-json-readiness-check-result-renderer/index.md) | Reporting of ReadinessCheckResults in a JSON tree |
@@ -206,6 +217,7 @@
 | [org.http4k.jsonrpc.JsonRpcMethodBinding](../org.http4k.jsonrpc/-json-rpc-method-binding/index.md) |  |
 | [org.http4k.jsonrpc.JsonRpcService](../org.http4k.jsonrpc/-json-rpc-service/index.md) |  |
 | [org.http4k.util.JsonSchema](../org.http4k.util/-json-schema/index.md) |  |
+| [org.http4k.util.JsonSchemaCreator](../org.http4k.util/-json-schema-creator/index.md) |  |
 | [org.http4k.util.JsonToJsonSchema](../org.http4k.util/-json-to-json-schema/index.md) |  |
 | [org.http4k.format.JsonType](../org.http4k.format/-json-type/index.md) |  |
 | [org.http4k.webdriver.JSoupWebElement](../org.http4k.webdriver/-j-soup-web-element/index.md) |  |
@@ -246,7 +258,7 @@
 | [org.http4k.webdriver.Navigate](../org.http4k.webdriver/-navigate.md) |  |
 | [org.http4k.server.Netty](../org.http4k.server/-netty/index.md) |  |
 | [org.http4k.contract.NoRenderer](../org.http4k.contract/-no-renderer/index.md) |  |
-| [org.http4k.contract.NoSecurity](../org.http4k.contract/-no-security/index.md) | Default NoOp security filter. Filter allows all traffic through. |
+| [org.http4k.contract.security.NoSecurity](../org.http4k.contract.security/-no-security/index.md) | Default NoOp security filter. Filter allows all traffic through. |
 | [org.http4k.cloudnative.NotFound](../org.http4k.cloudnative/-not-found/index.md) |  |
 | [org.http4k.security.OAuthCallback](../org.http4k.security/-o-auth-callback/index.md) |  |
 | [org.http4k.security.oauth.server.OAuthError](../org.http4k.security.oauth.server/-o-auth-error/index.md) |  |
@@ -256,7 +268,12 @@
 | [org.http4k.security.OAuthRedirectionFilter](../org.http4k.security/-o-auth-redirection-filter/index.md) |  |
 | [org.http4k.security.oauth.server.OAuthServer](../org.http4k.security.oauth.server/-o-auth-server/index.md) | Provide help creating OAuth Authorization Server with Authorization Code Flow |
 | [org.http4k.client.OkHttp](../org.http4k.client/-ok-http/index.md) |  |
-| [org.http4k.contract.OpenApi](../org.http4k.contract/-open-api/index.md) |  |
+| [org.http4k.contract.OpenApi](../org.http4k.contract/-open-api.md) |  |
+| [org.http4k.contract.openapi.v2.OpenApi2](../org.http4k.contract.openapi.v2/-open-api2/index.md) | Contract renderer for OpenApi2 format JSON. Note that for the JSON schema generation, auto-naming of object models is used as the input relies on JSON objects and not JVM classees. |
+| [org.http4k.contract.openapi.v2.OpenApi2SecurityRenderer](../org.http4k.contract.openapi.v2/-open-api2-security-renderer/index.md) |  |
+| [org.http4k.contract.openapi.v3.OpenApi3](../org.http4k.contract.openapi.v3/-open-api3/index.md) | Contract renderer for OpenApi3 format JSON. By default, for the JSON schema generation, auto-naming of object models is used as the input relies on JSON objects and not JVM classees. |
+| [org.http4k.contract.openapi.v3.OpenApi3ApiRenderer](../org.http4k.contract.openapi.v3/-open-api3-api-renderer/index.md) | Converts a API to OpenApi3 format JSON. |
+| [org.http4k.contract.openapi.v3.OpenApi3SecurityRenderer](../org.http4k.contract.openapi.v3/-open-api3-security-renderer/index.md) |  |
 | [org.http4k.webdriver.Page](../org.http4k.webdriver/-page/index.md) |  |
 | [org.http4k.core.Parameters](../org.http4k.core/-parameters.md) |  |
 | [org.http4k.lens.ParamMeta](../org.http4k.lens/-param-meta/index.md) |  |
@@ -283,14 +300,17 @@
 | [org.http4k.traffic.ReadWriteStream](../org.http4k.traffic/-read-write-stream/index.md) | Combined Read/Write storage models, optimised for replay. |
 | [org.http4k.testing.RecordingEvents](../org.http4k.testing/-recording-events/index.md) | Simple recording events that can be used in tests |
 | [org.http4k.security.oauth.server.RedirectUriMismatch](../org.http4k.security.oauth.server/-redirect-uri-mismatch.md) |  |
+| [org.http4k.contract.openapi.Render](../org.http4k.contract.openapi/-render.md) |  |
 | [org.http4k.traffic.Replay](../org.http4k.traffic/-replay/index.md) | Provides a stream of traffic for replaying purposes. |
 | [org.http4k.core.Request](../org.http4k.core/-request/index.md) |  |
+| [org.http4k.contract.openapi.v3.RequestContents](../org.http4k.contract.openapi.v3/-request-contents/index.md) |  |
 | [org.http4k.core.RequestContext](../org.http4k.core/-request-context/index.md) |  |
 | [org.http4k.lens.RequestContextKey](../org.http4k.lens/-request-context-key/index.md) |  |
 | [org.http4k.lens.RequestContextLens](../org.http4k.lens/-request-context-lens.md) |  |
 | [org.http4k.core.RequestContexts](../org.http4k.core/-request-contexts/index.md) | In-memory RequestContext store. |
 | [org.http4k.filter.RequestFilters](../org.http4k.filter/-request-filters/index.md) |  |
 | [org.http4k.contract.RequestMeta](../org.http4k.contract/-request-meta/index.md) |  |
+| [org.http4k.contract.openapi.v3.RequestParameter](../org.http4k.contract.openapi.v3/-request-parameter/index.md) |  |
 | [org.http4k.filter.ResilienceFilters](../org.http4k.filter/-resilience-filters/index.md) |  |
 | [org.http4k.routing.experimental.Resource](../org.http4k.routing.experimental/-resource/index.md) |  |
 | [org.http4k.routing.experimental.ResourceListingHandler](../org.http4k.routing.experimental/-resource-listing-handler/index.md) |  |
@@ -300,6 +320,7 @@
 | [org.http4k.routing.experimental.ResourceSummary](../org.http4k.routing.experimental/-resource-summary/index.md) |  |
 | [org.http4k.traffic.Responder](../org.http4k.traffic/-responder/index.md) | Provides HTTP Handlers which respond using pre-stored Requests. |
 | [org.http4k.core.Response](../org.http4k.core/-response/index.md) |  |
+| [org.http4k.contract.openapi.v3.ResponseContents](../org.http4k.contract.openapi.v3/-response-contents/index.md) |  |
 | [org.http4k.filter.ResponseFilters](../org.http4k.filter/-response-filters/index.md) |  |
 | [org.http4k.contract.ResponseMeta](../org.http4k.contract/-response-meta/index.md) |  |
 | [org.http4k.security.ResponseType](../org.http4k.security/-response-type/index.md) |  |
@@ -314,10 +335,13 @@
 | [org.http4k.routing.RoutingWsHandler](../org.http4k.routing/-routing-ws-handler/index.md) |  |
 | [org.http4k.filter.SamplingDecision](../org.http4k.filter/-sampling-decision/index.md) |  |
 | [org.http4k.cloudnative.env.Secret](../org.http4k.cloudnative.env/-secret/index.md) | A secret is a value which tries very hard not to expose itself as a string, by storing it's value in a byte array. You can "use" the value only once, after which the value is destroyed |
-| [org.http4k.contract.Security](../org.http4k.contract/-security/index.md) | Endpoint security. Provides filter to be applied to endpoints for all requests. |
+| [org.http4k.contract.Security](../org.http4k.contract/-security.md) |  |
+| [org.http4k.contract.security.Security](../org.http4k.contract.security/-security/index.md) | Endpoint security. Provides filter to be applied to endpoints for all requests. |
+| [org.http4k.contract.openapi.SecurityRenderer](../org.http4k.contract.openapi/-security-renderer/index.md) | Provides rendering of Security models in to OpenApi specs. |
 | [org.http4k.server.ServerConfig](../org.http4k.server/-server-config/index.md) | Standard interface for creating a configured WebServer |
 | [org.http4k.filter.ServerFilters](../org.http4k.filter/-server-filters/index.md) |  |
-| [org.http4k.contract.SimpleJson](../org.http4k.contract/-simple-json/index.md) |  |
+| [org.http4k.contract.SimpleJson](../org.http4k.contract/-simple-json.md) |  |
+| [org.http4k.contract.simple.SimpleJson](../org.http4k.contract.simple/-simple-json/index.md) |  |
 | [org.http4k.traffic.Sink](../org.http4k.traffic/-sink/index.md) | Consumes HTTP traffic for storage. |
 | [org.http4k.contract.Slash](../org.http4k.contract/-slash/index.md) |  |
 | [org.http4k.traffic.Source](../org.http4k.traffic/-source/index.md) | Tries to retrieve a stored response for a given request. |

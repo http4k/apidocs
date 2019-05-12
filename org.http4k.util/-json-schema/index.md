@@ -2,7 +2,7 @@
 
 # JsonSchema
 
-`data class JsonSchema<out NODE>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/util/JsonSchema.kt#L13)
+`data class JsonSchema<out NODE>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/util/JsonSchemaCreator.kt#L7)
 
 ### Constructors
 

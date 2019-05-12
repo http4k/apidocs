@@ -2,7 +2,7 @@
 
 # IllegalSchemaException
 
-`class IllegalSchemaException : `[`Exception`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-exception/index.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/util/JsonSchema.kt#L11)
+`class IllegalSchemaException : `[`Exception`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-exception/index.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/util/JsonSchemaCreator.kt#L9)
 
 ### Constructors
 

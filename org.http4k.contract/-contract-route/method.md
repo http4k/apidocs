@@ -2,4 +2,4 @@
 
 # method
 
-`val method: `[`Method`](../../org.http4k.core/-method/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/ContractRoute.kt#L17)
+`val method: `[`Method`](../../org.http4k.core/-method/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/ContractRoute.kt#L15)

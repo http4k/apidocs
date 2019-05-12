@@ -2,7 +2,7 @@
 
 # ContractBuilder
 
-`class ContractBuilder` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/extensions.kt#L17)
+`class ContractBuilder` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/extensions.kt#L19)
 
 ### Properties
 
@@ -14,7 +14,7 @@
 | [preSecurityFilter](pre-security-filter.md) | `var preSecurityFilter: `[`Filter`](../../org.http4k.core/-filter/index.md) |
 | [renderer](renderer.md) | `var renderer: `[`ContractRenderer`](../-contract-renderer/index.md) |
 | [routes](routes.md) | `var routes: `[`Appendable`](../../org.http4k.util/-appendable/index.md)`<`[`ContractRoute`](../-contract-route/index.md)`>` |
-| [security](security.md) | `var security: `[`Security`](../-security/index.md) |
+| [security](security.md) | `var security: `[`Security`](../../org.http4k.contract.security/-security/index.md) |
 
 ### Extension Functions
 

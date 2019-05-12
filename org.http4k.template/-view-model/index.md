@@ -2,7 +2,7 @@
 
 # ViewModel
 
-`interface ViewModel` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/template/ViewModel.kt#L8)
+`interface ViewModel` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/template/ViewModel.kt#L7)
 
 ### Functions
 

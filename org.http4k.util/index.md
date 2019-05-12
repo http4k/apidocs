@@ -9,8 +9,10 @@ Presumed homeless code used across the rest of the library.
 | Name | Summary |
 |---|---|
 | [Appendable](-appendable/index.md) | `class Appendable<T>` |
+| [JacksonJsonSchemaCreator](-jackson-json-schema-creator/index.md) | `class JacksonJsonSchemaCreator : `[`JsonSchemaCreator`](-json-schema-creator/index.md)`<`[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`, JsonNode>` |
 | [JsonSchema](-json-schema/index.md) | `data class JsonSchema<out NODE>` |
-| [JsonToJsonSchema](-json-to-json-schema/index.md) | `class JsonToJsonSchema<NODE>` |
+| [JsonSchemaCreator](-json-schema-creator/index.md) | `interface JsonSchemaCreator<IN, OUT>` |
+| [JsonToJsonSchema](-json-to-json-schema/index.md) | `class JsonToJsonSchema<NODE> : `[`JsonSchemaCreator`](-json-schema-creator/index.md)`<`[`NODE`](-json-to-json-schema/index.md#NODE)`, `[`NODE`](-json-to-json-schema/index.md#NODE)`>` |
 
 ### Exceptions
 

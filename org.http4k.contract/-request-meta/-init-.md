@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`RequestMeta(request: `[`Request`](../../org.http4k.core/-request/index.md)`, definitionId: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`? = null)`
+`RequestMeta(request: `[`Request`](../../org.http4k.core/-request/index.md)`, definitionId: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`? = null, example: `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`? = null)`

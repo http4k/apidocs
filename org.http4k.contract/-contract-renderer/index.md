@@ -2,15 +2,20 @@
 
 # ContractRenderer
 
-`interface ContractRenderer` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/ContractRenderer.kt#L6)
+`interface ContractRenderer : `[`ErrorResponseRenderer`](../-error-response-renderer/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/ContractRenderer.kt#L6)
 
 ### Functions
 
 | Name | Summary |
 |---|---|
-| [badRequest](bad-request.md) | `abstract fun badRequest(failures: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`Failure`](../../org.http4k.lens/-failure/index.md)`>): `[`Response`](../../org.http4k.core/-response/index.md) |
-| [description](description.md) | `abstract fun description(contractRoot: `[`PathSegments`](../-path-segments/index.md)`, security: `[`Security`](../-security/index.md)`, routes: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`ContractRoute`](../-contract-route/index.md)`>): `[`Response`](../../org.http4k.core/-response/index.md) |
-| [notFound](not-found.md) | `abstract fun notFound(): `[`Response`](../../org.http4k.core/-response/index.md) |
+| [description](description.md) | `abstract fun description(contractRoot: `[`PathSegments`](../-path-segments/index.md)`, security: `[`Security`](../../org.http4k.contract.security/-security/index.md)`, routes: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`ContractRoute`](../-contract-route/index.md)`>): `[`Response`](../../org.http4k.core/-response/index.md) |
+
+### Inherited Functions
+
+| Name | Summary |
+|---|---|
+| [badRequest](../-error-response-renderer/bad-request.md) | `open fun badRequest(failures: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`Failure`](../../org.http4k.lens/-failure/index.md)`>): `[`Response`](../../org.http4k.core/-response/index.md) |
+| [notFound](../-error-response-renderer/not-found.md) | `open fun notFound(): `[`Response`](../../org.http4k.core/-response/index.md) |
 
 ### Extension Functions
 
@@ -23,5 +28,6 @@
 | Name | Summary |
 |---|---|
 | [NoRenderer](../-no-renderer/index.md) | `object NoRenderer : `[`ContractRenderer`](./index.md) |
-| [OpenApi](../-open-api/index.md) | `open class OpenApi<out NODE> : `[`ContractRenderer`](./index.md) |
-| [SimpleJson](../-simple-json/index.md) | `class SimpleJson<out NODE> : `[`ContractRenderer`](./index.md) |
+| [OpenApi2](../../org.http4k.contract.openapi.v2/-open-api2/index.md) | `open class OpenApi2<out NODE> : `[`ContractRenderer`](./index.md)`, `[`ErrorResponseRenderer`](../-error-response-renderer/index.md)<br>Contract renderer for OpenApi2 format JSON. Note that for the JSON schema generation, auto-naming of object models is used as the input relies on JSON objects and not JVM classees. |
+| [OpenApi3](../../org.http4k.contract.openapi.v3/-open-api3/index.md) | `class OpenApi3<NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`ContractRenderer`](./index.md)`, `[`ErrorResponseRenderer`](../-error-response-renderer/index.md)<br>Contract renderer for OpenApi3 format JSON. By default, for the JSON schema generation, auto-naming of object models is used as the input relies on JSON objects and not JVM classees. |
+| [SimpleJson](../../org.http4k.contract.simple/-simple-json/index.md) | `class SimpleJson<out NODE> : `[`ContractRenderer`](./index.md)`, `[`ErrorResponseRenderer`](../-error-response-renderer/index.md) |

@@ -11,7 +11,7 @@
 | [org.http4k.cloudnative](org.http4k.cloudnative/index.md) |  |
 | [org.http4k.cloudnative.env](org.http4k.cloudnative.env/index.md) |  |
 | [org.http4k.cloudnative.health](org.http4k.cloudnative.health/index.md) |  |
-| [org.http4k.contract](org.http4k.contract/index.md) | Code for defining typesafe contracts which generate OpenAPI documentation. |
+| [org.http4k.contract](org.http4k.contract/index.md) | Code for defining typesafe HTTP contracts. Contains subpackages for OpenAPI v2 and v3 |
 | [org.http4k.contract.openapi](org.http4k.contract.openapi/index.md) |  |
 | [org.http4k.contract.openapi.v2](org.http4k.contract.openapi.v2/index.md) |  |
 | [org.http4k.contract.openapi.v3](org.http4k.contract.openapi.v3/index.md) |  |

@@ -2,7 +2,7 @@
 
 ## Package org.http4k.contract
 
-Code for defining typesafe contracts which generate OpenAPI documentation.
+Code for defining typesafe HTTP contracts. Contains subpackages for OpenAPI v2 and v3
 
 ### Types
 

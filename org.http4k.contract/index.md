@@ -44,7 +44,9 @@ Code for defining typesafe HTTP contracts. Contains subpackages for OpenAPI v2 a
 |---|---|
 | [ApiInfo](-api-info.md) | `typealias ~~ApiInfo~~ = `[`ApiInfo`](../org.http4k.contract.openapi/-api-info/index.md) |
 | [ApiKey](-api-key.md) | `typealias ~~ApiKey~~<T> = `[`ApiKeySecurity`](../org.http4k.contract.security/-api-key-security/index.md)`<`[`T`](-api-key.md#T)`>` |
+| [ApiKeySecurity](-api-key-security.md) | `typealias ~~ApiKeySecurity~~<T> = `[`ApiKeySecurity`](../org.http4k.contract.security/-api-key-security/index.md)`<`[`T`](-api-key-security.md#T)`>` |
 | [BasicAuthSecurity](-basic-auth-security.md) | `typealias ~~BasicAuthSecurity~~ = `[`BasicAuthSecurity`](../org.http4k.contract.security/-basic-auth-security/index.md) |
+| [NoSecurity](-no-security.md) | `typealias ~~NoSecurity~~ = `[`NoSecurity`](../org.http4k.contract.security/-no-security/index.md) |
 | [OpenApi](-open-api.md) | `typealias ~~OpenApi~~<NODE> = `[`OpenApi2`](../org.http4k.contract.openapi.v2/-open-api2/index.md)`<`[`NODE`](-open-api.md#NODE)`>` |
 | [Security](-security.md) | `typealias ~~Security~~ = `[`Security`](../org.http4k.contract.security/-security/index.md) |
 | [SimpleJson](-simple-json.md) | `typealias ~~SimpleJson~~<NODE> = `[`SimpleJson`](../org.http4k.contract.simple/-simple-json/index.md)`<`[`NODE`](-simple-json.md#NODE)`>` |

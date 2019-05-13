@@ -18,6 +18,7 @@
 | [org.http4k.contract.ApiInfo](../org.http4k.contract/-api-info.md) |  |
 | [org.http4k.contract.openapi.ApiInfo](../org.http4k.contract.openapi/-api-info/index.md) |  |
 | [org.http4k.contract.ApiKey](../org.http4k.contract/-api-key.md) |  |
+| [org.http4k.contract.ApiKeySecurity](../org.http4k.contract/-api-key-security.md) |  |
 | [org.http4k.contract.security.ApiKeySecurity](../org.http4k.contract.security/-api-key-security/index.md) | Checks the presence of the named Api Key parameter. Filter returns 401 if Api-Key is not found in request. |
 | [org.http4k.contract.openapi.v3.ApiPath](../org.http4k.contract.openapi.v3/-api-path/index.md) |  |
 | [org.http4k.contract.openapi.ApiRenderer](../org.http4k.contract.openapi/-api-renderer/index.md) | Renders the contract contents in OpenApi JSON format. |
@@ -258,6 +259,7 @@
 | [org.http4k.webdriver.Navigate](../org.http4k.webdriver/-navigate.md) |  |
 | [org.http4k.server.Netty](../org.http4k.server/-netty/index.md) |  |
 | [org.http4k.contract.NoRenderer](../org.http4k.contract/-no-renderer/index.md) |  |
+| [org.http4k.contract.NoSecurity](../org.http4k.contract/-no-security.md) |  |
 | [org.http4k.contract.security.NoSecurity](../org.http4k.contract.security/-no-security/index.md) | Default NoOp security filter. Filter allows all traffic through. |
 | [org.http4k.cloudnative.NotFound](../org.http4k.cloudnative/-not-found/index.md) |  |
 | [org.http4k.security.OAuthCallback](../org.http4k.security/-o-auth-callback/index.md) |  |

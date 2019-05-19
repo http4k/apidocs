@@ -15,3 +15,9 @@
 | Name | Summary |
 |---|---|
 | [Render](-render.md) | `typealias Render<NODE> = `[`Json`](../org.http4k.format/-json/index.md)`<`[`NODE`](-render.md#NODE)`>.() -> `[`NODE`](-render.md#NODE) |
+
+### Functions
+
+| Name | Summary |
+|---|---|
+| [cached](cached.md) | `fun <API : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`, NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> `[`ApiRenderer`](-api-renderer/index.md)`<`[`API`](cached.md#API)`, `[`NODE`](cached.md#NODE)`>.cached(): `[`ApiRenderer`](-api-renderer/index.md)`<`[`API`](cached.md#API)`, `[`NODE`](cached.md#NODE)`>`<br>Cache the result of the API render, in case it is expensive to calculate. |

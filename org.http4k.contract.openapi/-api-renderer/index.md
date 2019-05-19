@@ -2,7 +2,7 @@
 
 # ApiRenderer
 
-`interface ApiRenderer<API, NODE> : `[`JsonSchemaCreator`](../../org.http4k.util/-json-schema-creator/index.md)`<`[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`, `[`NODE`](index.md#NODE)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/openapi/ApiRenderer.kt#L9)
+`interface ApiRenderer<API, NODE> : `[`JsonSchemaCreator`](../../org.http4k.util/-json-schema-creator/index.md)`<`[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`, `[`NODE`](index.md#NODE)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/openapi/ApiRenderer.kt#L10)
 
 Renders the contract contents in OpenApi JSON format.
 
@@ -28,6 +28,7 @@ Renders the contract contents in OpenApi JSON format.
 
 | Name | Summary |
 |---|---|
+| [cached](../cached.md) | `fun <API : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`, NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> `[`ApiRenderer`](./index.md)`<`[`API`](../cached.md#API)`, `[`NODE`](../cached.md#NODE)`>.cached(): `[`ApiRenderer`](./index.md)`<`[`API`](../cached.md#API)`, `[`NODE`](../cached.md#NODE)`>`<br>Cache the result of the API render, in case it is expensive to calculate. |
 | [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
 
 ### Inheritors

@@ -23,4 +23,5 @@ Converts a API to OpenApi3 format JSON.
 
 | Name | Summary |
 |---|---|
+| [cached](../../org.http4k.contract.openapi/cached.md) | `fun <API : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`, NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> `[`ApiRenderer`](../../org.http4k.contract.openapi/-api-renderer/index.md)`<`[`API`](../../org.http4k.contract.openapi/cached.md#API)`, `[`NODE`](../../org.http4k.contract.openapi/cached.md#NODE)`>.cached(): `[`ApiRenderer`](../../org.http4k.contract.openapi/-api-renderer/index.md)`<`[`API`](../../org.http4k.contract.openapi/cached.md#API)`, `[`NODE`](../../org.http4k.contract.openapi/cached.md#NODE)`>`<br>Cache the result of the API render, in case it is expensive to calculate. |
 | [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

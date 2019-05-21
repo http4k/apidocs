@@ -2,7 +2,7 @@
 
 # OAuthProvider
 
-`class OAuthProvider` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/OAuthProvider.kt#L14)
+`class OAuthProvider` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/OAuthProvider.kt#L15)
 
 Provides a configured set of objects for use with an OAuth2 provider.
 
@@ -19,6 +19,12 @@ Provides a configured set of objects for use with an OAuth2 provider.
 | [api](api.md) | `val api: `[`HttpHandler`](../../org.http4k.core/-http-handler.md) |
 | [authFilter](auth-filter.md) | `val authFilter: `[`Filter`](../../org.http4k.core/-filter/index.md) |
 | [callback](callback.md) | `val callback: `[`HttpHandler`](../../org.http4k.core/-http-handler.md) |
+
+### Functions
+
+| Name | Summary |
+|---|---|
+| [authFilter](auth-filter.md) | `fun authFilter(requestJwts: `[`RequestJwts`](../../org.http4k.security.openid/-request-jwts/index.md)`): `[`Filter`](../../org.http4k.core/-filter/index.md) |
 
 ### Extension Functions
 

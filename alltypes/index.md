@@ -42,6 +42,8 @@
 | [org.http4k.security.oauth.server.AuthorizationCodes](../org.http4k.security.oauth.server/-authorization-codes/index.md) | Provides a consistent way to manage authorization codes |
 | [org.http4k.security.oauth.server.AuthorizationError](../org.http4k.security.oauth.server/-authorization-error.md) |  |
 | [org.http4k.security.oauth.server.AuthRequest](../org.http4k.security.oauth.server/-auth-request/index.md) |  |
+| [org.http4k.security.oauth.server.AuthRequestExtractor](../org.http4k.security.oauth.server/-auth-request-extractor/index.md) |  |
+| [org.http4k.security.oauth.server.AuthRequestFromQueryParameters](../org.http4k.security.oauth.server/-auth-request-from-query-parameters/index.md) |  |
 | [org.http4k.security.oauth.server.AuthRequestTracking](../org.http4k.security.oauth.server/-auth-request-tracking/index.md) | Provides a mechanism to track OAuth authorization parameters to be used later (i.e. can be used later to generate code and/or tokens) |
 | [org.http4k.security.oauth.server.AuthRequestTrackingFilter](../org.http4k.security.oauth.server/-auth-request-tracking-filter/index.md) |  |
 | [org.http4k.format.AutoMappingConfiguration](../org.http4k.format/-auto-mapping-configuration/index.md) | This is the generic interface used to configure auto-mapping functionality for message format libraries. The various methods here can be used to provide custom mapping behaviour (say for domain classes). |
@@ -196,6 +198,7 @@
 | [org.http4k.security.oauth.server.InsecureCookieBasedAuthRequestTracking](../org.http4k.security.oauth.server/-insecure-cookie-based-auth-request-tracking/index.md) |  |
 | [org.http4k.security.InsecureCookieBasedOAuthPersistence](../org.http4k.security/-insecure-cookie-based-o-auth-persistence/index.md) | This is an example implementation which stores CSRF and AccessTokenEnvelope values in an INSECURE client-side cookie. Access-tokens for end-services are fully available to the browser so do not use this in production! |
 | [org.http4k.lens.Invalid](../org.http4k.lens/-invalid/index.md) |  |
+| [org.http4k.security.oauth.server.InvalidAuthorizationRequest](../org.http4k.security.oauth.server/-invalid-authorization-request/index.md) |  |
 | [org.http4k.security.oauth.server.InvalidClientCredentials](../org.http4k.security.oauth.server/-invalid-client-credentials.md) |  |
 | [org.http4k.security.oauth.server.InvalidClientId](../org.http4k.security.oauth.server/-invalid-client-id.md) |  |
 | [org.http4k.format.InvalidJsonException](../org.http4k.format/-invalid-json-exception/index.md) |  |
@@ -301,6 +304,7 @@
 | [org.http4k.testing.ReadWriteResource](../org.http4k.testing/-read-write-resource/index.md) |  |
 | [org.http4k.traffic.ReadWriteStream](../org.http4k.traffic/-read-write-stream/index.md) | Combined Read/Write storage models, optimised for replay. |
 | [org.http4k.testing.RecordingEvents](../org.http4k.testing/-recording-events/index.md) | Simple recording events that can be used in tests |
+| [org.http4k.security.RedirectionUriBuilder](../org.http4k.security/-redirection-uri-builder.md) |  |
 | [org.http4k.security.oauth.server.RedirectUriMismatch](../org.http4k.security.oauth.server/-redirect-uri-mismatch.md) |  |
 | [org.http4k.contract.openapi.Render](../org.http4k.contract.openapi/-render.md) |  |
 | [org.http4k.traffic.Replay](../org.http4k.traffic/-replay/index.md) | Provides a stream of traffic for replaying purposes. |
@@ -311,6 +315,8 @@
 | [org.http4k.lens.RequestContextLens](../org.http4k.lens/-request-context-lens.md) |  |
 | [org.http4k.core.RequestContexts](../org.http4k.core/-request-contexts/index.md) | In-memory RequestContext store. |
 | [org.http4k.filter.RequestFilters](../org.http4k.filter/-request-filters/index.md) |  |
+| [org.http4k.security.openid.RequestJwtContainer](../org.http4k.security.openid/-request-jwt-container/index.md) |  |
+| [org.http4k.security.openid.RequestJwts](../org.http4k.security.openid/-request-jwts/index.md) |  |
 | [org.http4k.contract.RequestMeta](../org.http4k.contract/-request-meta/index.md) |  |
 | [org.http4k.contract.openapi.v3.RequestParameter](../org.http4k.contract.openapi.v3/-request-parameter/index.md) |  |
 | [org.http4k.filter.ResilienceFilters](../org.http4k.filter/-resilience-filters/index.md) |  |

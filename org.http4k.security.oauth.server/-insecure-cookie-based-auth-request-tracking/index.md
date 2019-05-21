@@ -2,7 +2,7 @@
 
 # InsecureCookieBasedAuthRequestTracking
 
-`class InsecureCookieBasedAuthRequestTracking : `[`AuthRequestTracking`](../-auth-request-tracking/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/InsecureCookieBasedAuthRequestTracking.kt#L11)
+`class InsecureCookieBasedAuthRequestTracking : `[`AuthRequestTracking`](../-auth-request-tracking/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/InsecureCookieBasedAuthRequestTracking.kt#L7)
 
 ### Constructors
 
@@ -15,7 +15,7 @@
 | Name | Summary |
 |---|---|
 | [resolveAuthRequest](resolve-auth-request.md) | `fun resolveAuthRequest(request: `[`Request`](../../org.http4k.core/-request/index.md)`): `[`AuthRequest`](../-auth-request/index.md)`?`<br>Resolves a particular AuthRequest related to the particular request |
-| [trackAuthRequest](track-auth-request.md) | `fun trackAuthRequest(authRequest: `[`AuthRequest`](../-auth-request/index.md)`, response: `[`Response`](../../org.http4k.core/-response/index.md)`): `[`Response`](../../org.http4k.core/-response/index.md)<br>Assign a reference of AuthRequest to the response |
+| [trackAuthRequest](track-auth-request.md) | `fun trackAuthRequest(request: `[`Request`](../../org.http4k.core/-request/index.md)`, authRequest: `[`AuthRequest`](../-auth-request/index.md)`, response: `[`Response`](../../org.http4k.core/-response/index.md)`): `[`Response`](../../org.http4k.core/-response/index.md)<br>Assign a reference of AuthRequest to the response |
 
 ### Extension Functions
 

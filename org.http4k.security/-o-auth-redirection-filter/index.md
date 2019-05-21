@@ -2,13 +2,13 @@
 
 # OAuthRedirectionFilter
 
-`class OAuthRedirectionFilter : `[`Filter`](../../org.http4k.core/-filter/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/OAuthRedirectionFilter.kt#L13)
+`class OAuthRedirectionFilter : `[`Filter`](../../org.http4k.core/-filter/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/OAuthRedirectionFilter.kt#L9)
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `OAuthRedirectionFilter(providerConfig: `[`OAuthProviderConfig`](../-o-auth-provider-config/index.md)`, callbackUri: `[`Uri`](../../org.http4k.core/-uri/index.md)`, scopes: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>, generateCrsf: `[`CsrfGenerator`](../-csrf-generator.md)` = CrossSiteRequestForgeryToken.SECURE_CSRF, modifyState: (`[`Uri`](../../org.http4k.core/-uri/index.md)`) -> `[`Uri`](../../org.http4k.core/-uri/index.md)`, oAuthPersistence: `[`OAuthPersistence`](../-o-auth-persistence/index.md)`, responseType: `[`ResponseType`](../-response-type/index.md)`)` |
+| [&lt;init&gt;](-init-.md) | `OAuthRedirectionFilter(providerConfig: `[`OAuthProviderConfig`](../-o-auth-provider-config/index.md)`, callbackUri: `[`Uri`](../../org.http4k.core/-uri/index.md)`, scopes: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>, generateCrsf: `[`CsrfGenerator`](../-csrf-generator.md)` = CrossSiteRequestForgeryToken.SECURE_CSRF, modifyState: (`[`Uri`](../../org.http4k.core/-uri/index.md)`) -> `[`Uri`](../../org.http4k.core/-uri/index.md)`, oAuthPersistence: `[`OAuthPersistence`](../-o-auth-persistence/index.md)`, responseType: `[`ResponseType`](../-response-type/index.md)`, redirectionBuilder: `[`RedirectionUriBuilder`](../-redirection-uri-builder.md)` = defaultUriBuilder)` |
 
 ### Functions
 

@@ -12,7 +12,7 @@ Provides a mechanism to track OAuth authorization parameters to be used later
 | Name | Summary |
 |---|---|
 | [resolveAuthRequest](resolve-auth-request.md) | `abstract fun resolveAuthRequest(request: `[`Request`](../../org.http4k.core/-request/index.md)`): `[`AuthRequest`](../-auth-request/index.md)`?`<br>Resolves a particular AuthRequest related to the particular request |
-| [trackAuthRequest](track-auth-request.md) | `abstract fun trackAuthRequest(authRequest: `[`AuthRequest`](../-auth-request/index.md)`, response: `[`Response`](../../org.http4k.core/-response/index.md)`): `[`Response`](../../org.http4k.core/-response/index.md)<br>Assign a reference of AuthRequest to the response |
+| [trackAuthRequest](track-auth-request.md) | `abstract fun trackAuthRequest(request: `[`Request`](../../org.http4k.core/-request/index.md)`, authRequest: `[`AuthRequest`](../-auth-request/index.md)`, response: `[`Response`](../../org.http4k.core/-response/index.md)`): `[`Response`](../../org.http4k.core/-response/index.md)<br>Assign a reference of AuthRequest to the response |
 
 ### Extension Functions
 

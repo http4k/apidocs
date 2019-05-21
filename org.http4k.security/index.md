@@ -26,12 +26,20 @@ Code relevant to interfacing with security mechanisms such as OAuth servers.
 | Name | Summary |
 |---|---|
 | [CsrfGenerator](-csrf-generator.md) | `typealias CsrfGenerator = () -> `[`CrossSiteRequestForgeryToken`](-cross-site-request-forgery-token/index.md) |
+| [RedirectionUriBuilder](-redirection-uri-builder.md) | `typealias RedirectionUriBuilder = (`[`Uri`](../org.http4k.core/-uri/index.md)`, `[`AuthRequest`](../org.http4k.security.oauth.server/-auth-request/index.md)`, state: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`) -> `[`Uri`](../org.http4k.core/-uri/index.md) |
 
 ### Properties
 
 | Name | Summary |
 |---|---|
 | [accessTokenResponseBody](access-token-response-body.md) | `val accessTokenResponseBody: `[`BiDiBodyLens`](../org.http4k.lens/-bi-di-body-lens/index.md)`<`[`AccessTokenResponse`](-access-token-response/index.md)`>` |
+| [defaultUriBuilder](default-uri-builder.md) | `val defaultUriBuilder: `[`RedirectionUriBuilder`](-redirection-uri-builder.md) |
+
+### Functions
+
+| Name | Summary |
+|---|---|
+| [uriBuilderWithRequestJwt](uri-builder-with-request-jwt.md) | `fun uriBuilderWithRequestJwt(requestJwts: `[`RequestJwts`](../org.http4k.security.openid/-request-jwts/index.md)`): (`[`Uri`](../org.http4k.core/-uri/index.md)`, `[`AuthRequest`](../org.http4k.security.oauth.server/-auth-request/index.md)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`) -> `[`Uri`](../org.http4k.core/-uri/index.md) |
 
 ### Companion Object Functions
 

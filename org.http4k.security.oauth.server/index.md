@@ -17,6 +17,8 @@
 | [AuthorizationCodes](-authorization-codes/index.md) | `interface AuthorizationCodes`<br>Provides a consistent way to manage authorization codes |
 | [AuthorizationError](-authorization-error.md) | `sealed class AuthorizationError : `[`OAuthError`](-o-auth-error/index.md) |
 | [AuthRequest](-auth-request/index.md) | `data class AuthRequest` |
+| [AuthRequestExtractor](-auth-request-extractor/index.md) | `interface AuthRequestExtractor` |
+| [AuthRequestFromQueryParameters](-auth-request-from-query-parameters/index.md) | `object AuthRequestFromQueryParameters : `[`AuthRequestExtractor`](-auth-request-extractor/index.md) |
 | [AuthRequestTracking](-auth-request-tracking/index.md) | `interface AuthRequestTracking`<br>Provides a mechanism to track OAuth authorization parameters to be used later (i.e. can be used later to generate code and/or tokens) |
 | [AuthRequestTrackingFilter](-auth-request-tracking-filter/index.md) | `class AuthRequestTrackingFilter : `[`Filter`](../org.http4k.core/-filter/index.md) |
 | [ClientId](-client-id/index.md) | `data class ClientId` |
@@ -27,6 +29,7 @@
 | [GenerateAccessToken](-generate-access-token/index.md) | `class GenerateAccessToken : `[`HttpHandler`](../org.http4k.core/-http-handler.md) |
 | [IdTokens](-id-tokens/index.md) | `interface IdTokens` |
 | [InsecureCookieBasedAuthRequestTracking](-insecure-cookie-based-auth-request-tracking/index.md) | `class InsecureCookieBasedAuthRequestTracking : `[`AuthRequestTracking`](-auth-request-tracking/index.md) |
+| [InvalidAuthorizationRequest](-invalid-authorization-request/index.md) | `data class InvalidAuthorizationRequest : `[`AuthorizationError`](-authorization-error.md) |
 | [InvalidClientCredentials](-invalid-client-credentials.md) | `object InvalidClientCredentials : `[`AccessTokenError`](-access-token-error.md) |
 | [InvalidClientId](-invalid-client-id.md) | `object InvalidClientId : `[`AuthorizationError`](-authorization-error.md) |
 | [InvalidRedirectUri](-invalid-redirect-uri.md) | `object InvalidRedirectUri : `[`AuthorizationError`](-authorization-error.md) |

@@ -1,4 +1,4 @@
-[http4k](../../index.md) / [org.http4k.util](../index.md) / [JsonToJsonSchema](index.md) / [&lt;init&gt;](./-init-.md)
+[http4k](../../index.md) / [org.http4k.contract.openapi.v2](../index.md) / [JsonToJsonSchema](index.md) / [&lt;init&gt;](./-init-.md)
 
 # &lt;init&gt;
 

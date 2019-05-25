@@ -2,7 +2,7 @@
 
 # ApiRenderer
 
-`interface ApiRenderer<API, NODE> : `[`JsonSchemaCreator`](../../org.http4k.util/-json-schema-creator/index.md)`<`[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`, `[`NODE`](index.md#NODE)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/openapi/ApiRenderer.kt#L10)
+`interface ApiRenderer<API, NODE> : `[`JsonSchemaCreator`](../../org.http4k.util/-json-schema-creator/index.md)`<`[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`, `[`NODE`](index.md#NODE)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/openapi/ApiRenderer.kt#L13)
 
 Renders the contract contents in OpenApi JSON format.
 
@@ -22,7 +22,7 @@ Renders the contract contents in OpenApi JSON format.
 
 | Name | Summary |
 |---|---|
-| [Auto](-auto.md) | `fun <T : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`, NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> Auto(json: `[`JsonLibAutoMarshallingJson`](../../org.http4k.format/-json-lib-auto-marshalling-json/index.md)`<`[`NODE`](-auto.md#NODE)`>, schema: `[`JsonSchemaCreator`](../../org.http4k.util/-json-schema-creator/index.md)`<`[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`, `[`NODE`](-auto.md#NODE)`>): `[`ApiRenderer`](./index.md)`<`[`T`](-auto.md#T)`, `[`NODE`](-auto.md#NODE)`>`<br>ApiRenderer which uses auto-marshalling JSON to create JSON schema for message models. |
+| [Auto](-auto.md) | `fun <T : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`, NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> Auto(json: `[`JsonLibAutoMarshallingJson`](../../org.http4k.format/-json-lib-auto-marshalling-json/index.md)`<`[`NODE`](-auto.md#NODE)`>, schema: `[`JsonSchemaCreator`](../../org.http4k.util/-json-schema-creator/index.md)`<`[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`, `[`NODE`](-auto.md#NODE)`> = AutoJsonToJsonSchema(json)): `[`ApiRenderer`](./index.md)`<`[`T`](-auto.md#T)`, `[`NODE`](-auto.md#NODE)`>`<br>ApiRenderer which uses auto-marshalling JSON to create JSON schema for message models. |
 
 ### Extension Functions
 

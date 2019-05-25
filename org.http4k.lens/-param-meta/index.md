@@ -8,6 +8,7 @@
 
 | Name | Summary |
 |---|---|
+| [ArrayParam](-array-param.md) |  |
 | [StringParam](-string-param.md) |  |
 | [ObjectParam](-object-param.md) |  |
 | [BooleanParam](-boolean-param.md) |  |

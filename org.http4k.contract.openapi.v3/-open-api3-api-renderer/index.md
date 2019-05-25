@@ -2,7 +2,7 @@
 
 # OpenApi3ApiRenderer
 
-`class OpenApi3ApiRenderer<NODE> : `[`ApiRenderer`](../../org.http4k.contract.openapi/-api-renderer/index.md)`<`[`Api`](../-api/index.md)`<`[`NODE`](index.md#NODE)`>, `[`NODE`](index.md#NODE)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/openapi/v3/OpenApi3ApiRenderer.kt#L18)
+`class OpenApi3ApiRenderer<NODE> : `[`ApiRenderer`](../../org.http4k.contract.openapi/-api-renderer/index.md)`<`[`Api`](../-api/index.md)`<`[`NODE`](index.md#NODE)`>, `[`NODE`](index.md#NODE)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/openapi/v3/OpenApi3ApiRenderer.kt#L17)
 
 Converts a API to OpenApi3 format JSON.
 

@@ -46,6 +46,7 @@
 | [org.http4k.security.oauth.server.AuthRequestFromQueryParameters](../org.http4k.security.oauth.server/-auth-request-from-query-parameters/index.md) |  |
 | [org.http4k.security.oauth.server.AuthRequestTracking](../org.http4k.security.oauth.server/-auth-request-tracking/index.md) | Provides a mechanism to track OAuth authorization parameters to be used later (i.e. can be used later to generate code and/or tokens) |
 | [org.http4k.security.oauth.server.AuthRequestTrackingFilter](../org.http4k.security.oauth.server/-auth-request-tracking-filter/index.md) |  |
+| [org.http4k.contract.openapi.v3.AutoJsonToJsonSchema](../org.http4k.contract.openapi.v3/-auto-json-to-json-schema/index.md) |  |
 | [org.http4k.format.AutoMappingConfiguration](../org.http4k.format/-auto-mapping-configuration/index.md) | This is the generic interface used to configure auto-mapping functionality for message format libraries. The various methods here can be used to provide custom mapping behaviour (say for domain classes). |
 | [org.http4k.format.AutoMarshallingJson](../org.http4k.format/-auto-marshalling-json/index.md) |  |
 | [org.http4k.format.AutoMarshallingXml](../org.http4k.format/-auto-marshalling-xml/index.md) |  |
@@ -204,7 +205,6 @@
 | [org.http4k.format.InvalidJsonException](../org.http4k.format/-invalid-json-exception/index.md) |  |
 | [org.http4k.security.oauth.server.InvalidRedirectUri](../org.http4k.security.oauth.server/-invalid-redirect-uri.md) |  |
 | [org.http4k.format.Jackson](../org.http4k.format/-jackson.md) | To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called. |
-| [org.http4k.util.JacksonJsonSchemaCreator](../org.http4k.util/-jackson-json-schema-creator/index.md) |  |
 | [org.http4k.format.JacksonXml](../org.http4k.format/-jackson-xml.md) | To implement custom XML configuration, create your own object singleton. Extra mappings can be added before done() is called. |
 | [org.http4k.filter.JacksonXmlGenerateXmlDataClasses](../org.http4k.filter/-jackson-xml-generate-xml-data-classes/index.md) | Provides an implementation of GenerateXmlDataClasses using GSON as an engine. |
 | [org.http4k.client.JavaHttpClient](../org.http4k.client/-java-http-client/index.md) |  |
@@ -222,7 +222,9 @@
 | [org.http4k.jsonrpc.JsonRpcService](../org.http4k.jsonrpc/-json-rpc-service/index.md) |  |
 | [org.http4k.util.JsonSchema](../org.http4k.util/-json-schema/index.md) |  |
 | [org.http4k.util.JsonSchemaCreator](../org.http4k.util/-json-schema-creator/index.md) |  |
-| [org.http4k.util.JsonToJsonSchema](../org.http4k.util/-json-to-json-schema/index.md) |  |
+| [org.http4k.contract.openapi.v2.JsonToJsonSchema](../org.http4k.contract.openapi.v2/-json-to-json-schema/index.md) |  |
+| [org.http4k.contract.openapi.v3.JsonToJsonSchema](../org.http4k.contract.openapi.v3/-json-to-json-schema/index.md) |  |
+| [org.http4k.util.JsonToJsonSchema](../org.http4k.util/-json-to-json-schema.md) |  |
 | [org.http4k.format.JsonType](../org.http4k.format/-json-type/index.md) |  |
 | [org.http4k.webdriver.JSoupWebElement](../org.http4k.webdriver/-j-soup-web-element/index.md) |  |
 | [com.fasterxml.jackson.module.kotlin.KotlinModule](../org.http4k.format/com.fasterxml.jackson.module.kotlin.-kotlin-module/index.md) (extensions in package org.http4k.format) |  |
@@ -276,7 +278,7 @@
 | [org.http4k.contract.OpenApi](../org.http4k.contract/-open-api.md) |  |
 | [org.http4k.contract.openapi.v2.OpenApi2](../org.http4k.contract.openapi.v2/-open-api2/index.md) | Contract renderer for OpenApi2 format JSON. Note that for the JSON schema generation, auto-naming of object models is used as the input relies on JSON objects and not JVM classees. |
 | [org.http4k.contract.openapi.v2.OpenApi2SecurityRenderer](../org.http4k.contract.openapi.v2/-open-api2-security-renderer/index.md) |  |
-| [org.http4k.contract.openapi.v3.OpenApi3](../org.http4k.contract.openapi.v3/-open-api3/index.md) | Contract renderer for OpenApi3 format JSON. By default, for the JSON schema generation, auto-naming of object models is used as the input relies on JSON objects and not JVM classees. |
+| [org.http4k.contract.openapi.v3.OpenApi3](../org.http4k.contract.openapi.v3/-open-api3/index.md) | Contract renderer for OpenApi3 format JSON. For the JSON schema generation, naming of object models will default to either reflective or hashcode based depending on if a Auto Json is passed. |
 | [org.http4k.contract.openapi.v3.OpenApi3ApiRenderer](../org.http4k.contract.openapi.v3/-open-api3-api-renderer/index.md) | Converts a API to OpenApi3 format JSON. |
 | [org.http4k.contract.openapi.v3.OpenApi3SecurityRenderer](../org.http4k.contract.openapi.v3/-open-api3-security-renderer/index.md) |  |
 | [org.http4k.webdriver.Page](../org.http4k.webdriver/-page/index.md) |  |

@@ -382,6 +382,7 @@
 | [org.http4k.filter.TraceId](../org.http4k.filter/-trace-id/index.md) |  |
 | [org.http4k.filter.TrafficFilters](../org.http4k.filter/-traffic-filters/index.md) |  |
 | [org.http4k.chaos.Trigger](../org.http4k.chaos/-trigger.md) |  |
+| [org.http4k.cloudnative.Unauthorized](../org.http4k.cloudnative/-unauthorized/index.md) |  |
 | [org.http4k.server.Undertow](../org.http4k.server/-undertow/index.md) |  |
 | [org.http4k.lens.Unsupported](../org.http4k.lens/-unsupported/index.md) |  |
 | [org.http4k.security.oauth.server.UnsupportedGrantType](../org.http4k.security.oauth.server/-unsupported-grant-type/index.md) |  |

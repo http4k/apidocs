@@ -147,6 +147,8 @@
 | [org.http4k.cloudnative.health.Failed](../org.http4k.cloudnative.health/-failed/index.md) |  |
 | [org.http4k.lens.Failure](../org.http4k.lens/-failure/index.md) |  |
 | [org.http4k.webdriver.FeatureNotImplementedYet](../org.http4k.webdriver/-feature-not-implemented-yet.md) |  |
+| [org.http4k.contract.openapi.v3.Field](../org.http4k.contract.openapi.v3/-field/index.md) |  |
+| [org.http4k.contract.openapi.v3.FieldRetrieval](../org.http4k.contract.openapi.v3/-field-retrieval/index.md) |  |
 | [org.http4k.core.etag.FieldValue](../org.http4k.core.etag/-field-value/index.md) |  |
 | [org.http4k.testing.FileSystemApprovalSource](../org.http4k.testing/-file-system-approval-source/index.md) |  |
 | [org.http4k.core.Filter](../org.http4k.core/-filter/index.md) |  |
@@ -205,6 +207,7 @@
 | [org.http4k.format.InvalidJsonException](../org.http4k.format/-invalid-json-exception/index.md) |  |
 | [org.http4k.security.oauth.server.InvalidRedirectUri](../org.http4k.security.oauth.server/-invalid-redirect-uri.md) |  |
 | [org.http4k.format.Jackson](../org.http4k.format/-jackson.md) | To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called. |
+| [org.http4k.contract.openapi.v3.JacksonAnnotated](../org.http4k.contract.openapi.v3/-jackson-annotated/index.md) |  |
 | [org.http4k.format.JacksonXml](../org.http4k.format/-jackson-xml.md) | To implement custom XML configuration, create your own object singleton. Extra mappings can be added before done() is called. |
 | [org.http4k.filter.JacksonXmlGenerateXmlDataClasses](../org.http4k.filter/-jackson-xml-generate-xml-data-classes/index.md) | Provides an implementation of GenerateXmlDataClasses using GSON as an engine. |
 | [org.http4k.client.JavaHttpClient](../org.http4k.client/-java-http-client/index.md) |  |
@@ -263,6 +266,7 @@
 | [org.http4k.testing.NamedResourceApprover](../org.http4k.testing/-named-resource-approver/index.md) |  |
 | [org.http4k.webdriver.Navigate](../org.http4k.webdriver/-navigate.md) |  |
 | [org.http4k.server.Netty](../org.http4k.server/-netty/index.md) |  |
+| [org.http4k.contract.openapi.v3.NoFieldFound](../org.http4k.contract.openapi.v3/-no-field-found.md) |  |
 | [org.http4k.contract.NoRenderer](../org.http4k.contract/-no-renderer/index.md) |  |
 | [org.http4k.contract.NoSecurity](../org.http4k.contract/-no-security.md) |  |
 | [org.http4k.contract.security.NoSecurity](../org.http4k.contract.security/-no-security/index.md) | Default NoOp security filter. Filter allows all traffic through. |
@@ -352,6 +356,7 @@
 | [org.http4k.filter.ServerFilters](../org.http4k.filter/-server-filters/index.md) |  |
 | [org.http4k.contract.SimpleJson](../org.http4k.contract/-simple-json.md) |  |
 | [org.http4k.contract.simple.SimpleJson](../org.http4k.contract.simple/-simple-json/index.md) |  |
+| [org.http4k.contract.openapi.v3.SimpleLookup](../org.http4k.contract.openapi.v3/-simple-lookup/index.md) |  |
 | [org.http4k.traffic.Sink](../org.http4k.traffic/-sink/index.md) | Consumes HTTP traffic for storage. |
 | [org.http4k.contract.Slash](../org.http4k.contract/-slash/index.md) |  |
 | [org.http4k.traffic.Source](../org.http4k.traffic/-source/index.md) | Tries to retrieve a stored response for a given request. |

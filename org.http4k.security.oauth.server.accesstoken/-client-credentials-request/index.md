@@ -2,7 +2,7 @@
 
 # ClientCredentialsRequest
 
-`data class ClientCredentialsRequest : `[`AccessTokenRequest`](../-access-token-request.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/accesstoken/ClientCredentialsAccessTokenGenerator.kt#L25)
+`data class ClientCredentialsRequest` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/accesstoken/ClientCredentialsAccessTokenGenerator.kt#L22)
 
 ### Constructors
 

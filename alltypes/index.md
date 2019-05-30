@@ -9,7 +9,7 @@
 | [org.http4k.security.oauth.server.AccessTokenError](../org.http4k.security.oauth.server/-access-token-error.md) |  |
 | [org.http4k.security.AccessTokenFetcher](../org.http4k.security/-access-token-fetcher/index.md) |  |
 | [org.http4k.security.oauth.server.accesstoken.AccessTokenGenerator](../org.http4k.security.oauth.server.accesstoken/-access-token-generator/index.md) |  |
-| [org.http4k.security.oauth.server.accesstoken.AccessTokenRequest](../org.http4k.security.oauth.server.accesstoken/-access-token-request.md) |  |
+| [org.http4k.security.oauth.server.accesstoken.AccessTokenRequestAuthentication](../org.http4k.security.oauth.server.accesstoken/-access-token-request-authentication/index.md) |  |
 | [org.http4k.security.AccessTokenResponse](../org.http4k.security/-access-token-response/index.md) |  |
 | [org.http4k.security.oauth.server.AccessTokens](../org.http4k.security.oauth.server/-access-tokens/index.md) | Provides a consistent way to generate access tokens |
 | [org.http4k.client.ApacheAsyncClient](../org.http4k.client/-apache-async-client/index.md) |  |
@@ -93,6 +93,7 @@
 | [org.http4k.filter.ClientFilters](../org.http4k.filter/-client-filters/index.md) |  |
 | [org.http4k.security.oauth.server.ClientId](../org.http4k.security.oauth.server/-client-id/index.md) |  |
 | [org.http4k.security.oauth.server.ClientIdMismatch](../org.http4k.security.oauth.server/-client-id-mismatch.md) |  |
+| [org.http4k.security.oauth.server.accesstoken.ClientSecretAccessTokenRequestAuthentication](../org.http4k.security.oauth.server.accesstoken/-client-secret-access-token-request-authentication/index.md) |  |
 | [org.http4k.cloudnative.ClientTimeout](../org.http4k.cloudnative/-client-timeout/index.md) |  |
 | [org.http4k.security.oauth.server.ClientValidationFilter](../org.http4k.security.oauth.server/-client-validation-filter/index.md) |  |
 | [org.http4k.security.oauth.server.ClientValidator](../org.http4k.security.oauth.server/-client-validator/index.md) | Provides a consistent way to retrieve clients attempting to use an authorization code flow |
@@ -175,6 +176,8 @@
 | [org.http4k.filter.GenerateDataClasses](../org.http4k.filter/-generate-data-classes/index.md) | This Filter is used to generate Data class definitions from a Response containing JSON. The Filter will try and reduce the number of class definitions by selecting the definition with the most fields (for cases where lists of items have different fields). |
 | [org.http4k.filter.GenerateXmlDataClasses](../org.http4k.filter/-generate-xml-data-classes/index.md) | This Filter is used to generate Data class definitions from a Response containing XML. The Filter will try and reduce the number of class definitions by selecting the definition with the most fields (for cases where lists of items have different fields). |
 | [org.http4k.webdriver.GetURL](../org.http4k.webdriver/-get-u-r-l.md) |  |
+| [org.http4k.security.oauth.server.accesstoken.GrantType](../org.http4k.security.oauth.server.accesstoken/-grant-type/index.md) |  |
+| [org.http4k.security.oauth.server.accesstoken.GrantTypesConfiguration](../org.http4k.security.oauth.server.accesstoken/-grant-types-configuration/index.md) |  |
 | [org.http4k.format.Gson](../org.http4k.format/-gson.md) | To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called. |
 | [com.google.gson.GsonBuilder](../org.http4k.format/com.google.gson.-gson-builder/index.md) (extensions in package org.http4k.format) |  |
 | [org.http4k.filter.GsonGenerateXmlDataClasses](../org.http4k.filter/-gson-generate-xml-data-classes/index.md) | Provides an implementation of GenerateXmlDataClasses using GSON as an engine. |

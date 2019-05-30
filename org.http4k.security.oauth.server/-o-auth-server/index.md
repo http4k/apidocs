@@ -2,7 +2,7 @@
 
 # OAuthServer
 
-`class OAuthServer` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/OAuthServer.kt#L23)
+`class OAuthServer` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/OAuthServer.kt#L22)
 
 Provide help creating OAuth Authorization Server with Authorization Code Flow
 
@@ -15,7 +15,7 @@ References:
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `OAuthServer(tokenPath: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, authRequestTracking: `[`AuthRequestTracking`](../-auth-request-tracking/index.md)`, clientValidator: `[`ClientValidator`](../-client-validator/index.md)`, authorizationCodes: `[`AuthorizationCodes`](../-authorization-codes/index.md)`, accessTokens: `[`AccessTokens`](../-access-tokens/index.md)`, json: `[`AutoMarshallingJson`](../../org.http4k.format/-auto-marshalling-json/index.md)`, clock: Clock, authRequestExtractor: `[`AuthRequestExtractor`](../-auth-request-extractor/index.md)` = AuthRequestFromQueryParameters, idTokens: `[`IdTokens`](../-id-tokens/index.md)` = IdTokens.Unsupported, documentationUri: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`? = null)`<br>Provide help creating OAuth Authorization Server with Authorization Code Flow |
+| [&lt;init&gt;](-init-.md) | `OAuthServer(tokenPath: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, authRequestTracking: `[`AuthRequestTracking`](../-auth-request-tracking/index.md)`, clientValidator: `[`ClientValidator`](../-client-validator/index.md)`, authorizationCodes: `[`AuthorizationCodes`](../-authorization-codes/index.md)`, accessTokens: `[`AccessTokens`](../-access-tokens/index.md)`, json: `[`AutoMarshallingJson`](../../org.http4k.format/-auto-marshalling-json/index.md)`, clock: Clock, authRequestExtractor: `[`AuthRequestExtractor`](../-auth-request-extractor/index.md)` = AuthRequestFromQueryParameters, grantTypes: `[`GrantTypesConfiguration`](../../org.http4k.security.oauth.server.accesstoken/-grant-types-configuration/index.md)` = GrantTypesConfiguration.default(clientValidator), idTokens: `[`IdTokens`](../-id-tokens/index.md)` = IdTokens.Unsupported, documentationUri: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`? = null)`<br>Provide help creating OAuth Authorization Server with Authorization Code Flow |
 
 ### Properties
 

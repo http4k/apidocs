@@ -8,7 +8,8 @@
 | [org.http4k.security.AccessTokenDetails](../org.http4k.security/-access-token-details/index.md) |  |
 | [org.http4k.security.oauth.server.AccessTokenError](../org.http4k.security.oauth.server/-access-token-error.md) |  |
 | [org.http4k.security.AccessTokenFetcher](../org.http4k.security/-access-token-fetcher/index.md) |  |
-| [org.http4k.security.oauth.server.AccessTokenRequest](../org.http4k.security.oauth.server/-access-token-request/index.md) |  |
+| [org.http4k.security.oauth.server.accesstoken.AccessTokenGenerator](../org.http4k.security.oauth.server.accesstoken/-access-token-generator/index.md) |  |
+| [org.http4k.security.oauth.server.accesstoken.AccessTokenRequest](../org.http4k.security.oauth.server.accesstoken/-access-token-request.md) |  |
 | [org.http4k.security.AccessTokenResponse](../org.http4k.security/-access-token-response/index.md) |  |
 | [org.http4k.security.oauth.server.AccessTokens](../org.http4k.security.oauth.server/-access-tokens/index.md) | Provides a consistent way to generate access tokens |
 | [org.http4k.client.ApacheAsyncClient](../org.http4k.client/-apache-async-client/index.md) |  |
@@ -36,6 +37,8 @@
 | [org.http4k.security.oauth.server.AuthenticationComplete](../org.http4k.security.oauth.server/-authentication-complete/index.md) |  |
 | [org.http4k.cloudnative.env.Authority](../org.http4k.cloudnative.env/-authority/index.md) |  |
 | [org.http4k.security.oauth.server.AuthorizationCode](../org.http4k.security.oauth.server/-authorization-code/index.md) |  |
+| [org.http4k.security.oauth.server.accesstoken.AuthorizationCodeAccessTokenGenerator](../org.http4k.security.oauth.server.accesstoken/-authorization-code-access-token-generator/index.md) |  |
+| [org.http4k.security.oauth.server.accesstoken.AuthorizationCodeAccessTokenRequest](../org.http4k.security.oauth.server.accesstoken/-authorization-code-access-token-request/index.md) |  |
 | [org.http4k.security.oauth.server.AuthorizationCodeAlreadyUsed](../org.http4k.security.oauth.server/-authorization-code-already-used.md) |  |
 | [org.http4k.security.oauth.server.AuthorizationCodeDetails](../org.http4k.security.oauth.server/-authorization-code-details/index.md) |  |
 | [org.http4k.security.oauth.server.AuthorizationCodeExpired](../org.http4k.security.oauth.server/-authorization-code-expired.md) |  |
@@ -85,6 +88,8 @@
 | [org.http4k.chaos.ChaosEngine](../org.http4k.chaos/-chaos-engine/index.md) | Adds a set of endpoints to an application which will control the switching on/off of chaos behaviour. The added endpoints are: GET //status &lt;- check the on off/status of the injected chaos POST //activate &lt;- turn on the chaos. optionally POST a JSON body to set a list of new stages to use. POST //deactivate &lt;- turn off the chaos POST //toggle &lt;- toggle the chaos |
 | [org.http4k.chaos.ChaosStages](../org.http4k.chaos/-chaos-stages/index.md) |  |
 | [org.http4k.chaos.ChaosTriggers](../org.http4k.chaos/-chaos-triggers/index.md) |  |
+| [org.http4k.security.oauth.server.accesstoken.ClientCredentialsAccessTokenGenerator](../org.http4k.security.oauth.server.accesstoken/-client-credentials-access-token-generator/index.md) |  |
+| [org.http4k.security.oauth.server.accesstoken.ClientCredentialsRequest](../org.http4k.security.oauth.server.accesstoken/-client-credentials-request/index.md) |  |
 | [org.http4k.filter.ClientFilters](../org.http4k.filter/-client-filters/index.md) |  |
 | [org.http4k.security.oauth.server.ClientId](../org.http4k.security.oauth.server/-client-id/index.md) |  |
 | [org.http4k.security.oauth.server.ClientIdMismatch](../org.http4k.security.oauth.server/-client-id-mismatch.md) |  |
@@ -166,6 +171,7 @@
 | [kotlin.Function1](../org.http4k.chaos/kotlin.-function1/index.md) (extensions in package org.http4k.chaos) |  |
 | [org.http4k.cloudnative.GatewayTimeout](../org.http4k.cloudnative/-gateway-timeout/index.md) |  |
 | [org.http4k.security.oauth.server.GenerateAccessToken](../org.http4k.security.oauth.server/-generate-access-token/index.md) |  |
+| [org.http4k.security.oauth.server.accesstoken.GenerateAccessTokenForGrantType](../org.http4k.security.oauth.server.accesstoken/-generate-access-token-for-grant-type/index.md) |  |
 | [org.http4k.filter.GenerateDataClasses](../org.http4k.filter/-generate-data-classes/index.md) | This Filter is used to generate Data class definitions from a Response containing JSON. The Filter will try and reduce the number of class definitions by selecting the definition with the most fields (for cases where lists of items have different fields). |
 | [org.http4k.filter.GenerateXmlDataClasses](../org.http4k.filter/-generate-xml-data-classes/index.md) | This Filter is used to generate Data class definitions from a Response containing XML. The Filter will try and reduce the number of class definitions by selecting the definition with the most fields (for cases where lists of items have different fields). |
 | [org.http4k.webdriver.GetURL](../org.http4k.webdriver/-get-u-r-l.md) |  |

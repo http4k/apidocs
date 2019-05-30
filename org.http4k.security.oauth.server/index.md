@@ -7,7 +7,6 @@
 | Name | Summary |
 |---|---|
 | [AccessTokenError](-access-token-error.md) | `sealed class AccessTokenError : `[`OAuthError`](-o-auth-error/index.md) |
-| [AccessTokenRequest](-access-token-request/index.md) | `data class AccessTokenRequest` |
 | [AccessTokens](-access-tokens/index.md) | `interface AccessTokens`<br>Provides a consistent way to generate access tokens |
 | [AuthenticationComplete](-authentication-complete/index.md) | `class AuthenticationComplete : `[`HttpHandler`](../org.http4k.core/-http-handler.md) |
 | [AuthorizationCode](-authorization-code/index.md) | `data class AuthorizationCode` |
@@ -45,5 +44,4 @@
 
 | Name | Summary |
 |---|---|
-| [accessTokenRequest](access-token-request.md) | `fun `[`Request`](../org.http4k.core/-request/index.md)`.accessTokenRequest(): `[`AccessTokenRequest`](-access-token-request/index.md) |
 | [AccessTokenValidationFilter](-access-token-validation-filter.md) | `fun AccessTokenValidationFilter(accessTokens: `[`AccessTokens`](-access-tokens/index.md)`): `[`Filter`](../org.http4k.core/-filter/index.md) |

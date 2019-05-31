@@ -29,4 +29,5 @@
 
 | Name | Summary |
 |---|---|
-| [OpenApi3](-open-api3.md) | `fun OpenApi3(apiInfo: `[`ApiInfo`](../org.http4k.contract.openapi/-api-info/index.md)`, json: `[`Jackson`](../org.http4k.format/-jackson.md)`): `[`OpenApi3`](-open-api3/index.md)`<JsonNode>` |
+| [AutoJsonToJsonSchema](-auto-json-to-json-schema.md) | `fun AutoJsonToJsonSchema(json: `[`Jackson`](../org.http4k.format/-jackson.md)`): `[`AutoJsonToJsonSchema`](-auto-json-to-json-schema/index.md)`<JsonNode>` |
+| [OpenApi3](-open-api3.md) | `fun OpenApi3(apiInfo: `[`ApiInfo`](../org.http4k.contract.openapi/-api-info/index.md)`, json: `[`Jackson`](../org.http4k.format/-jackson.md)`): `[`OpenApi3`](-open-api3/index.md)`<JsonNode>`<br>Sensible default objects for using Jackson with minimal fuss. |

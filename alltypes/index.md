@@ -140,7 +140,7 @@
 | [org.http4k.template.dust.Dust](../org.http4k.template.dust/-dust/index.md) |  |
 | [org.http4k.template.DustTemplates](../org.http4k.template/-dust-templates/index.md) |  |
 | [org.http4k.cloudnative.env.Environment](../org.http4k.cloudnative.env/-environment/index.md) | This models the runtime environment of the shell where the app is running. Optionally pass a separator to use for multi-values otherwise a standard comma is used - this means you MUST override the separator if you have single values which contain commas, otherwise singular environment keys will just retrieve the first value. |
-| [org.http4k.cloudnative.env.EnvironmentKey](../org.http4k.cloudnative.env/-environment-key/index.md) | This models the key used to get a value out of the  Environment using the standard Lens mechanic. Note that if your values contain commas, either use a EnvironmentKey.(mapping).multi.required()/optional()/defaulted() to retrieve the entire list, or override the comma separator in your initial Environment. |
+| [org.http4k.cloudnative.env.EnvironmentKey](../org.http4k.cloudnative.env/-environment-key/index.md) | This models the key used to get a value out of the Environment using the standard Lens mechanic. Note that if your values contain commas, either use a EnvironmentKey.(mapping).multi.required()/optional()/defaulted() to retrieve the entire list, or override the comma separator in your initial Environment. |
 | [org.http4k.jsonrpc.ErrorHandler](../org.http4k.jsonrpc/-error-handler.md) |  |
 | [org.http4k.jsonrpc.ErrorMessage](../org.http4k.jsonrpc/-error-message/index.md) |  |
 | [org.http4k.security.oauth.server.ErrorRenderer](../org.http4k.security.oauth.server/-error-renderer/index.md) |  |
@@ -275,7 +275,7 @@
 | [org.http4k.testing.NamedResourceApprover](../org.http4k.testing/-named-resource-approver/index.md) |  |
 | [org.http4k.webdriver.Navigate](../org.http4k.webdriver/-navigate.md) |  |
 | [org.http4k.server.Netty](../org.http4k.server/-netty/index.md) |  |
-| [org.http4k.contract.openapi.v3.NoFieldFound](../org.http4k.contract.openapi.v3/-no-field-found.md) |  |
+| [org.http4k.contract.openapi.v3.NoFieldFound](../org.http4k.contract.openapi.v3/-no-field-found/index.md) |  |
 | [org.http4k.contract.NoRenderer](../org.http4k.contract/-no-renderer/index.md) |  |
 | [org.http4k.contract.NoSecurity](../org.http4k.contract/-no-security.md) |  |
 | [org.http4k.contract.security.NoSecurity](../org.http4k.contract.security/-no-security/index.md) | Default NoOp security filter. Filter allows all traffic through. |

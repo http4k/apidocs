@@ -26,4 +26,5 @@
 
 | Name | Summary |
 |---|---|
+| [operationId](../../org.http4k.contract.openapi/operation-id.md) | `fun `[`ContractRoute`](./index.md)`.operationId(contractRoot: `[`PathSegments`](../-path-segments/index.md)`): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

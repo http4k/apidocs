@@ -357,6 +357,7 @@
 | [org.http4k.routing.RoutingHttpHandler](../org.http4k.routing/-routing-http-handler/index.md) | Composite HttpHandler which can potentially service many different URL patterns. Should return a 404 Response if it cannot service a particular Request. |
 | [org.http4k.routing.RoutingWsHandler](../org.http4k.routing/-routing-ws-handler/index.md) |  |
 | [org.http4k.filter.SamplingDecision](../org.http4k.filter/-sampling-decision/index.md) |  |
+| [org.http4k.contract.openapi.v3.SchemaModelNamer](../org.http4k.contract.openapi.v3/-schema-model-namer/index.md) |  |
 | [org.http4k.cloudnative.env.Secret](../org.http4k.cloudnative.env/-secret/index.md) | A secret is a value which tries very hard not to expose itself as a string, by storing it's value in a byte array. You can "use" the value only once, after which the value is destroyed |
 | [org.http4k.contract.Security](../org.http4k.contract/-security.md) |  |
 | [org.http4k.contract.security.Security](../org.http4k.contract.security/-security/index.md) | Endpoint security. Provides filter to be applied to endpoints for all requests. |

@@ -22,6 +22,7 @@
 | [RequestContents](-request-contents/index.md) | `class RequestContents<NODE> : `[`HasSchema`](-has-schema/index.md)`<`[`NODE`](-request-contents/index.md#NODE)`>` |
 | [RequestParameter](-request-parameter/index.md) | `sealed class RequestParameter<NODE>` |
 | [ResponseContents](-response-contents/index.md) | `class ResponseContents<NODE> : `[`HasSchema`](-has-schema/index.md)`<`[`NODE`](-response-contents/index.md#NODE)`>` |
+| [SchemaModelNamer](-schema-model-namer/index.md) | `interface SchemaModelNamer : (`[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`) -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [SimpleLookup](-simple-lookup/index.md) | `object SimpleLookup : `[`FieldRetrieval`](-field-retrieval/index.md) |
 
 ### Exceptions

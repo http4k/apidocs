@@ -2,19 +2,19 @@
 
 # FormFile
 
-`data class FormFile : `[`Closeable`](https://docs.oracle.com/javase/6/docs/api/java/io/Closeable.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-multipart/src/main/kotlin/org/http4k/core/FormFile.kt#L6)
+`data class FormFile : `[`Closeable`](https://docs.oracle.com/javase/9/docs/api/java/io/Closeable.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-multipart/src/main/kotlin/org/http4k/core/FormFile.kt#L6)
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `FormFile(filename: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, contentType: `[`ContentType`](../-content-type/index.md)`, content: `[`InputStream`](https://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html)`)` |
+| [&lt;init&gt;](-init-.md) | `FormFile(filename: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, contentType: `[`ContentType`](../-content-type/index.md)`, content: `[`InputStream`](https://docs.oracle.com/javase/9/docs/api/java/io/InputStream.html)`)` |
 
 ### Properties
 
 | Name | Summary |
 |---|---|
-| [content](content.md) | `val content: `[`InputStream`](https://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html) |
+| [content](content.md) | `val content: `[`InputStream`](https://docs.oracle.com/javase/9/docs/api/java/io/InputStream.html) |
 | [contentType](content-type.md) | `val contentType: `[`ContentType`](../-content-type/index.md) |
 | [filename](filename.md) | `val filename: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 

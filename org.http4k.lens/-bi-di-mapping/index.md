@@ -10,7 +10,7 @@ A BiDiMapping defines a reusable bidirectional transformation between an input a
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `BiDiMapping(clazz: `[`Class`](https://docs.oracle.com/javase/6/docs/api/java/lang/Class.html)`<`[`OUT`](index.md#OUT)`>, asOut: (`[`IN`](index.md#IN)`) -> `[`OUT`](index.md#OUT)`, asIn: (`[`OUT`](index.md#OUT)`) -> `[`IN`](index.md#IN)`)`<br>A BiDiMapping defines a reusable bidirectional transformation between an input and output type |
+| [&lt;init&gt;](-init-.md) | `BiDiMapping(clazz: `[`Class`](https://docs.oracle.com/javase/9/docs/api/java/lang/Class.html)`<`[`OUT`](index.md#OUT)`>, asOut: (`[`IN`](index.md#IN)`) -> `[`OUT`](index.md#OUT)`, asIn: (`[`OUT`](index.md#OUT)`) -> `[`IN`](index.md#IN)`)`<br>A BiDiMapping defines a reusable bidirectional transformation between an input and output type |
 
 ### Properties
 
@@ -18,7 +18,7 @@ A BiDiMapping defines a reusable bidirectional transformation between an input a
 |---|---|
 | [asIn](as-in.md) | `val asIn: (`[`OUT`](index.md#OUT)`) -> `[`IN`](index.md#IN) |
 | [asOut](as-out.md) | `val asOut: (`[`IN`](index.md#IN)`) -> `[`OUT`](index.md#OUT) |
-| [clazz](clazz.md) | `val clazz: `[`Class`](https://docs.oracle.com/javase/6/docs/api/java/lang/Class.html)`<`[`OUT`](index.md#OUT)`>` |
+| [clazz](clazz.md) | `val clazz: `[`Class`](https://docs.oracle.com/javase/9/docs/api/java/lang/Class.html)`<`[`OUT`](index.md#OUT)`>` |
 
 ### Functions
 

@@ -22,7 +22,7 @@ Approval JUnit5 extension configured to compare prettified-JSON messages.
 
 | Name | Summary |
 |---|---|
-| [approverFor](../-content-type-aware-approval-test/approver-for.md) | `open fun approverFor(context: ExtensionContext): `[`Approver`](../-approver/index.md) |
+| [approverFor](../-content-type-aware-approval-test/approver-for.md) | `open fun approverFor(context: `[`ExtensionContext`](https://junit.org/junit5/docs/5.4.2/api/org/junit/jupiter/api/extension/ExtensionContext.html)`): `[`Approver`](../-approver/index.md) |
 
 ### Extension Functions
 

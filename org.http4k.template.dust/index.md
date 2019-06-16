@@ -8,7 +8,7 @@
 |---|---|
 | [Dust](-dust/index.md) | `class Dust` |
 | [TemplateExpansion](-template-expansion/index.md) | `interface TemplateExpansion` |
-| [TemplateExpansionService](-template-expansion-service.md) | `interface TemplateExpansionService : `[`AutoCloseable`](https://docs.oracle.com/javase/6/docs/api/java/lang/AutoCloseable.html)`, `[`TemplateExpansion`](-template-expansion/index.md) |
+| [TemplateExpansionService](-template-expansion-service.md) | `interface TemplateExpansionService : `[`AutoCloseable`](https://docs.oracle.com/javase/9/docs/api/java/lang/AutoCloseable.html)`, `[`TemplateExpansion`](-template-expansion/index.md) |
 
 ### Type Aliases
 

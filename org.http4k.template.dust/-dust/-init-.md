@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`Dust(cacheTemplates: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`, precachePoolSize: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`, dustPluginScripts: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`URL`](https://docs.oracle.com/javase/6/docs/api/java/net/URL.html)`>, loader: `[`TemplateLoader`](../-template-loader.md)`)`
+`Dust(cacheTemplates: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`, precachePoolSize: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`, dustPluginScripts: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`URL`](https://docs.oracle.com/javase/9/docs/api/java/net/URL.html)`>, loader: `[`TemplateLoader`](../-template-loader.md)`)`

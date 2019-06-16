@@ -10,7 +10,7 @@ Determines which parts of the HttpMessage will be compared.
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `abstract operator fun invoke(input: `[`InputStream`](https://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html)`): `[`InputStream`](https://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html)<br>`abstract operator fun invoke(input: `[`HttpMessage`](../../org.http4k.core/-http-message/index.md)`): `[`InputStream`](https://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html) |
+| [invoke](invoke.md) | `abstract operator fun invoke(input: `[`InputStream`](https://docs.oracle.com/javase/9/docs/api/java/io/InputStream.html)`): `[`InputStream`](https://docs.oracle.com/javase/9/docs/api/java/io/InputStream.html)<br>`abstract operator fun invoke(input: `[`HttpMessage`](../../org.http4k.core/-http-message/index.md)`): `[`InputStream`](https://docs.oracle.com/javase/9/docs/api/java/io/InputStream.html) |
 
 ### Companion Object Functions
 

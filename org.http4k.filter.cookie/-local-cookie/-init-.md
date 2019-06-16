@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`LocalCookie(cookie: `[`Cookie`](../../org.http4k.core.cookie/-cookie/index.md)`, created: LocalDateTime)`
+`LocalCookie(cookie: `[`Cookie`](../../org.http4k.core.cookie/-cookie/index.md)`, created: `[`LocalDateTime`](https://docs.oracle.com/javase/9/docs/api/java/time/LocalDateTime.html)`)`

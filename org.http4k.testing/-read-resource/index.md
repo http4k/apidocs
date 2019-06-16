@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [input](input.md) | `abstract fun input(): `[`InputStream`](https://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html)`?` |
+| [input](input.md) | `abstract fun input(): `[`InputStream`](https://docs.oracle.com/javase/9/docs/api/java/io/InputStream.html)`?` |
 
 ### Extension Functions
 

@@ -2,7 +2,7 @@
 
 # Body
 
-`interface Body : `[`Closeable`](https://docs.oracle.com/javase/6/docs/api/java/io/Closeable.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L20)
+`interface Body : `[`Closeable`](https://docs.oracle.com/javase/9/docs/api/java/io/Closeable.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L20)
 
 If this Body is NOT being returned to the caller (via a Server implementation or otherwise), close() should be
 called.
@@ -12,8 +12,8 @@ called.
 | Name | Summary |
 |---|---|
 | [length](length.md) | `abstract val length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`?`<br>Will be `null` for bodies where it's impossible to a priori determine - e.g. StreamBody |
-| [payload](payload.md) | `abstract val payload: `[`ByteBuffer`](https://docs.oracle.com/javase/6/docs/api/java/nio/ByteBuffer.html) |
-| [stream](stream.md) | `abstract val stream: `[`InputStream`](https://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html) |
+| [payload](payload.md) | `abstract val payload: `[`ByteBuffer`](https://docs.oracle.com/javase/9/docs/api/java/nio/ByteBuffer.html) |
+| [stream](stream.md) | `abstract val stream: `[`InputStream`](https://docs.oracle.com/javase/9/docs/api/java/io/InputStream.html) |
 
 ### Companion Object Properties
 
@@ -25,7 +25,7 @@ called.
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `operator fun invoke(body: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Body`](./index.md)<br>`operator fun invoke(body: `[`ByteBuffer`](https://docs.oracle.com/javase/6/docs/api/java/nio/ByteBuffer.html)`): `[`Body`](./index.md)<br>`operator fun invoke(body: `[`InputStream`](https://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html)`, length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`? = null): `[`Body`](./index.md) |
+| [invoke](invoke.md) | `operator fun invoke(body: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Body`](./index.md)<br>`operator fun invoke(body: `[`ByteBuffer`](https://docs.oracle.com/javase/9/docs/api/java/nio/ByteBuffer.html)`): `[`Body`](./index.md)<br>`operator fun invoke(body: `[`InputStream`](https://docs.oracle.com/javase/9/docs/api/java/io/InputStream.html)`, length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`? = null): `[`Body`](./index.md) |
 
 ### Extension Functions
 
@@ -53,5 +53,5 @@ called.
 | Name | Summary |
 |---|---|
 | [MemoryBody](../-memory-body/index.md) | `data class MemoryBody : `[`Body`](./index.md)<br>Represents a body that is backed by an in-memory ByteBuffer. Closing this has no effect. |
-| [MultipartFormBody](../-multipart-form-body/index.md) | `data class MultipartFormBody : `[`Body`](./index.md)`, `[`Closeable`](https://docs.oracle.com/javase/6/docs/api/java/io/Closeable.html)<br>Represents a Multi-part that is backed by a stream, which should be closed after handling the content. The gotchas which apply to StreamBody also apply here.. |
+| [MultipartFormBody](../-multipart-form-body/index.md) | `data class MultipartFormBody : `[`Body`](./index.md)`, `[`Closeable`](https://docs.oracle.com/javase/9/docs/api/java/io/Closeable.html)<br>Represents a Multi-part that is backed by a stream, which should be closed after handling the content. The gotchas which apply to StreamBody also apply here.. |
 | [StreamBody](../-stream-body/index.md) | `class StreamBody : `[`Body`](./index.md)<br>Represents a body that is backed by a (lazy) InputStream. Operating with StreamBody has a number of potential gotchas: |

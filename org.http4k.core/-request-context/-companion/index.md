@@ -2,7 +2,7 @@
 
 # Companion
 
-`companion object Companion : `[`LensExtractor`](../../../org.http4k.lens/-lens-extractor/index.md)`<`[`Request`](../../-request/index.md)`, `[`UUID`](https://docs.oracle.com/javase/6/docs/api/java/util/UUID.html)`>, `[`LensInjector`](../../../org.http4k.lens/-lens-injector/index.md)`<`[`UUID`](https://docs.oracle.com/javase/6/docs/api/java/util/UUID.html)`, `[`Request`](../../-request/index.md)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/RequestContext.kt)
+`companion object Companion : `[`LensExtractor`](../../../org.http4k.lens/-lens-extractor/index.md)`<`[`Request`](../../-request/index.md)`, `[`UUID`](https://docs.oracle.com/javase/9/docs/api/java/util/UUID.html)`>, `[`LensInjector`](../../../org.http4k.lens/-lens-injector/index.md)`<`[`UUID`](https://docs.oracle.com/javase/9/docs/api/java/util/UUID.html)`, `[`Request`](../../-request/index.md)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/RequestContext.kt)
 
 ### Inherited Functions
 
@@ -18,4 +18,4 @@
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `fun <R : `[`Request`](../../-request/index.md)`> invoke(value: `[`UUID`](https://docs.oracle.com/javase/6/docs/api/java/util/UUID.html)`, target: `[`R`](invoke.md#R)`): `[`R`](invoke.md#R)<br>Lens operation to set the value into the target`fun invoke(target: `[`Request`](../../-request/index.md)`): `[`UUID`](https://docs.oracle.com/javase/6/docs/api/java/util/UUID.html)<br>Lens operation to get the value from the target |
+| [invoke](invoke.md) | `fun <R : `[`Request`](../../-request/index.md)`> invoke(value: `[`UUID`](https://docs.oracle.com/javase/9/docs/api/java/util/UUID.html)`, target: `[`R`](invoke.md#R)`): `[`R`](invoke.md#R)<br>Lens operation to set the value into the target`fun invoke(target: `[`Request`](../../-request/index.md)`): `[`UUID`](https://docs.oracle.com/javase/9/docs/api/java/util/UUID.html)<br>Lens operation to get the value from the target |

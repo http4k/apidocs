@@ -9,10 +9,10 @@ Common code relevant to HTTP server implementations.
 | Name | Summary |
 |---|---|
 | [ApacheServer](-apache-server/index.md) | `data class ApacheServer : `[`ServerConfig`](-server-config/index.md) |
-| [Http4kChannelHandler](-http4k-channel-handler/index.md) | `class Http4kChannelHandler : SimpleChannelInboundHandler<FullHttpRequest>`<br>Exposed to allow for insertion into a customised Netty server instance |
-| [Http4kRequestHandler](-http4k-request-handler/index.md) | `class Http4kRequestHandler : HttpRequestHandler`<br>Exposed to allow for insertion into a customised Apache WebServer instance |
-| [Http4kServer](-http4k-server/index.md) | `interface Http4kServer : `[`AutoCloseable`](https://docs.oracle.com/javase/6/docs/api/java/lang/AutoCloseable.html) |
-| [HttpUndertowHandler](-http-undertow-handler/index.md) | `class HttpUndertowHandler : HttpHandler`<br>Exposed to allow for insertion into a customised Undertow server instance |
+| [Http4kChannelHandler](-http4k-channel-handler/index.md) | `class Http4kChannelHandler : `[`SimpleChannelInboundHandler`](https://netty.io/4.1/api/io/netty/channel/SimpleChannelInboundHandler.html)`<`[`FullHttpRequest`](https://netty.io/4.1/api/io/netty/handler/codec/http/FullHttpRequest.html)`>`<br>Exposed to allow for insertion into a customised Netty server instance |
+| [Http4kRequestHandler](-http4k-request-handler/index.md) | `class Http4kRequestHandler : `[`HttpRequestHandler`](https://hc.apache.org/httpcomponents-core-ga/httpcore/apidocs/org/apache/http/protocol/HttpRequestHandler.html)<br>Exposed to allow for insertion into a customised Apache WebServer instance |
+| [Http4kServer](-http4k-server/index.md) | `interface Http4kServer : `[`AutoCloseable`](https://docs.oracle.com/javase/9/docs/api/java/lang/AutoCloseable.html) |
+| [HttpUndertowHandler](-http-undertow-handler/index.md) | `class HttpUndertowHandler : `[`HttpHandler`](http://undertow.io/javadoc/2.0.x/io/undertow/server/HttpHandler.html)<br>Exposed to allow for insertion into a customised Undertow server instance |
 | [Jetty](-jetty/index.md) | `class Jetty : `[`WsServerConfig`](-ws-server-config/index.md) |
 | [KtorCIO](-ktor-c-i-o/index.md) | `data class KtorCIO : `[`ServerConfig`](-server-config/index.md) |
 | [Netty](-netty/index.md) | `data class Netty : `[`ServerConfig`](-server-config/index.md) |

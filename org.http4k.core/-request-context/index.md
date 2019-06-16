@@ -8,13 +8,13 @@
 
 | Name | Summary |
 |---|---|
-| [Companion](-companion/index.md) | `companion object Companion : `[`LensExtractor`](../../org.http4k.lens/-lens-extractor/index.md)`<`[`Request`](../-request/index.md)`, `[`UUID`](https://docs.oracle.com/javase/6/docs/api/java/util/UUID.html)`>, `[`LensInjector`](../../org.http4k.lens/-lens-injector/index.md)`<`[`UUID`](https://docs.oracle.com/javase/6/docs/api/java/util/UUID.html)`, `[`Request`](../-request/index.md)`>` |
+| [Companion](-companion/index.md) | `companion object Companion : `[`LensExtractor`](../../org.http4k.lens/-lens-extractor/index.md)`<`[`Request`](../-request/index.md)`, `[`UUID`](https://docs.oracle.com/javase/9/docs/api/java/util/UUID.html)`>, `[`LensInjector`](../../org.http4k.lens/-lens-injector/index.md)`<`[`UUID`](https://docs.oracle.com/javase/9/docs/api/java/util/UUID.html)`, `[`Request`](../-request/index.md)`>` |
 
 ### Properties
 
 | Name | Summary |
 |---|---|
-| [id](id.md) | `val id: `[`UUID`](https://docs.oracle.com/javase/6/docs/api/java/util/UUID.html) |
+| [id](id.md) | `val id: `[`UUID`](https://docs.oracle.com/javase/9/docs/api/java/util/UUID.html) |
 
 ### Functions
 
@@ -27,7 +27,7 @@
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `fun <R : `[`Request`](../-request/index.md)`> invoke(value: `[`UUID`](https://docs.oracle.com/javase/6/docs/api/java/util/UUID.html)`, target: `[`R`](-companion/invoke.md#R)`): `[`R`](-companion/invoke.md#R)<br>Lens operation to set the value into the target`fun invoke(target: `[`Request`](../-request/index.md)`): `[`UUID`](https://docs.oracle.com/javase/6/docs/api/java/util/UUID.html)<br>Lens operation to get the value from the target |
+| [invoke](invoke.md) | `fun <R : `[`Request`](../-request/index.md)`> invoke(value: `[`UUID`](https://docs.oracle.com/javase/9/docs/api/java/util/UUID.html)`, target: `[`R`](-companion/invoke.md#R)`): `[`R`](-companion/invoke.md#R)<br>Lens operation to set the value into the target`fun invoke(target: `[`Request`](../-request/index.md)`): `[`UUID`](https://docs.oracle.com/javase/9/docs/api/java/util/UUID.html)<br>Lens operation to get the value from the target |
 
 ### Inherited Companion Object Functions
 

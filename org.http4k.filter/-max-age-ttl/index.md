@@ -8,14 +8,14 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `MaxAgeTtl(valueD: Duration)` |
+| [&lt;init&gt;](-init-.md) | `MaxAgeTtl(valueD: `[`Duration`](https://docs.oracle.com/javase/9/docs/api/java/time/Duration.html)`)` |
 
 ### Inherited Properties
 
 | Name | Summary |
 |---|---|
 | [name](../-cache-control-header-part/name.md) | `open val name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
-| [value](../-cache-control-header-part/value.md) | `val value: Duration` |
+| [value](../-cache-control-header-part/value.md) | `val value: `[`Duration`](https://docs.oracle.com/javase/9/docs/api/java/time/Duration.html) |
 
 ### Inherited Functions
 

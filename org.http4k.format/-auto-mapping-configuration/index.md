@@ -11,8 +11,8 @@ The various methods here can be used to provide custom mapping behaviour (say fo
 
 | Name | Summary |
 |---|---|
-| [bigDecimal](big-decimal.md) | `abstract fun <OUT> bigDecimal(mapping: `[`BiDiMapping`](../../org.http4k.lens/-bi-di-mapping/index.md)`<`[`BigDecimal`](https://docs.oracle.com/javase/6/docs/api/java/math/BigDecimal.html)`, `[`OUT`](big-decimal.md#OUT)`>): `[`AutoMappingConfiguration`](./index.md)`<`[`T`](index.md#T)`>` |
-| [bigInteger](big-integer.md) | `abstract fun <OUT> bigInteger(mapping: `[`BiDiMapping`](../../org.http4k.lens/-bi-di-mapping/index.md)`<`[`BigInteger`](https://docs.oracle.com/javase/6/docs/api/java/math/BigInteger.html)`, `[`OUT`](big-integer.md#OUT)`>): `[`AutoMappingConfiguration`](./index.md)`<`[`T`](index.md#T)`>` |
+| [bigDecimal](big-decimal.md) | `abstract fun <OUT> bigDecimal(mapping: `[`BiDiMapping`](../../org.http4k.lens/-bi-di-mapping/index.md)`<`[`BigDecimal`](https://docs.oracle.com/javase/9/docs/api/java/math/BigDecimal.html)`, `[`OUT`](big-decimal.md#OUT)`>): `[`AutoMappingConfiguration`](./index.md)`<`[`T`](index.md#T)`>` |
+| [bigInteger](big-integer.md) | `abstract fun <OUT> bigInteger(mapping: `[`BiDiMapping`](../../org.http4k.lens/-bi-di-mapping/index.md)`<`[`BigInteger`](https://docs.oracle.com/javase/9/docs/api/java/math/BigInteger.html)`, `[`OUT`](big-integer.md#OUT)`>): `[`AutoMappingConfiguration`](./index.md)`<`[`T`](index.md#T)`>` |
 | [boolean](boolean.md) | `abstract fun <OUT> boolean(mapping: `[`BiDiMapping`](../../org.http4k.lens/-bi-di-mapping/index.md)`<`[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`, `[`OUT`](boolean.md#OUT)`>): `[`AutoMappingConfiguration`](./index.md)`<`[`T`](index.md#T)`>` |
 | [done](done.md) | `abstract fun done(): `[`T`](index.md#T)<br>Finalise the mapping configurations. |
 | [double](double.md) | `abstract fun <OUT> double(mapping: `[`BiDiMapping`](../../org.http4k.lens/-bi-di-mapping/index.md)`<`[`Double`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html)`, `[`OUT`](double.md#OUT)`>): `[`AutoMappingConfiguration`](./index.md)`<`[`T`](index.md#T)`>` |

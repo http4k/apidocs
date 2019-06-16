@@ -8,15 +8,15 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `URLResource(url: `[`URL`](https://docs.oracle.com/javase/6/docs/api/java/net/URL.html)`, contentType: `[`ContentType`](../../org.http4k.core/-content-type/index.md)`, lastModified: Instant? = null)` |
+| [&lt;init&gt;](-init-.md) | `URLResource(url: `[`URL`](https://docs.oracle.com/javase/9/docs/api/java/net/URL.html)`, contentType: `[`ContentType`](../../org.http4k.core/-content-type/index.md)`, lastModified: `[`Instant`](https://docs.oracle.com/javase/9/docs/api/java/time/Instant.html)`? = null)` |
 
 ### Properties
 
 | Name | Summary |
 |---|---|
 | [contentType](content-type.md) | `val contentType: `[`ContentType`](../../org.http4k.core/-content-type/index.md) |
-| [lastModified](last-modified.md) | `val lastModified: Instant?` |
-| [url](url.md) | `val url: `[`URL`](https://docs.oracle.com/javase/6/docs/api/java/net/URL.html) |
+| [lastModified](last-modified.md) | `val lastModified: `[`Instant`](https://docs.oracle.com/javase/9/docs/api/java/time/Instant.html)`?` |
+| [url](url.md) | `val url: `[`URL`](https://docs.oracle.com/javase/9/docs/api/java/net/URL.html) |
 
 ### Inherited Properties
 
@@ -30,14 +30,14 @@
 
 | Name | Summary |
 |---|---|
-| [openStream](open-stream.md) | `fun openStream(): `[`InputStream`](https://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html) |
+| [openStream](open-stream.md) | `fun openStream(): `[`InputStream`](https://docs.oracle.com/javase/9/docs/api/java/io/InputStream.html) |
 
 ### Inherited Functions
 
 | Name | Summary |
 |---|---|
 | [invoke](../-resource/invoke.md) | `open fun invoke(request: `[`Request`](../../org.http4k.core/-request/index.md)`): `[`MemoryResponse`](../../org.http4k.core/-memory-response/index.md) |
-| [isModifiedSince](../-resource/is-modified-since.md) | `open fun isModifiedSince(instant: Instant): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
+| [isModifiedSince](../-resource/is-modified-since.md) | `open fun isModifiedSince(instant: `[`Instant`](https://docs.oracle.com/javase/9/docs/api/java/time/Instant.html)`): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
 
 ### Extension Functions
 

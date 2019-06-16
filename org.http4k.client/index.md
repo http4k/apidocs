@@ -10,7 +10,7 @@ Common code relevant to HTTP client implementations.
 |---|---|
 | [ApacheAsyncClient](-apache-async-client/index.md) | `object ApacheAsyncClient` |
 | [ApacheClient](-apache-client/index.md) | `object ApacheClient` |
-| [AsyncHttpClient](-async-http-client/index.md) | `interface AsyncHttpClient : `[`Closeable`](https://docs.oracle.com/javase/6/docs/api/java/io/Closeable.html) |
+| [AsyncHttpClient](-async-http-client/index.md) | `interface AsyncHttpClient : `[`Closeable`](https://docs.oracle.com/javase/9/docs/api/java/io/Closeable.html) |
 | [DualSyncAsyncHttpHandler](-dual-sync-async-http-handler.md) | `interface DualSyncAsyncHttpHandler : `[`HttpHandler`](../org.http4k.core/-http-handler.md)`, `[`AsyncHttpClient`](-async-http-client/index.md) |
 | [JavaHttpClient](-java-http-client/index.md) | `object JavaHttpClient` |
 | [JettyClient](-jetty-client/index.md) | `object JettyClient` |

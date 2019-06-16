@@ -23,7 +23,7 @@
 
 | Name | Summary |
 |---|---|
-| [body](body.md) | `abstract fun body(body: `[`Body`](../-body/index.md)`): `[`Request`](./index.md)<br>`abstract fun body(body: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Request`](./index.md)<br>`abstract fun body(body: `[`InputStream`](https://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html)`, length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`?): `[`Request`](./index.md) |
+| [body](body.md) | `abstract fun body(body: `[`Body`](../-body/index.md)`): `[`Request`](./index.md)<br>`abstract fun body(body: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Request`](./index.md)<br>`abstract fun body(body: `[`InputStream`](https://docs.oracle.com/javase/9/docs/api/java/io/InputStream.html)`, length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`?): `[`Request`](./index.md) |
 | [header](header.md) | `abstract fun header(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`Request`](./index.md) |
 | [headers](headers.md) | `abstract fun headers(headers: `[`Headers`](../-headers.md)`): `[`Request`](./index.md) |
 | [method](method.md) | `abstract fun method(method: `[`Method`](../-method/index.md)`): `[`Request`](./index.md) |

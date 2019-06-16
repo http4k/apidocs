@@ -4,4 +4,4 @@
 
 | Name | Summary |
 |---|---|
-| [asConfigurable](as-configurable.md) | `fun Builder.asConfigurable(): `[`AutoMappingConfiguration`](../-auto-mapping-configuration/index.md)`<Builder>` |
+| [asConfigurable](as-configurable.md) | `fun `[`Builder`](http://square.github.io/moshi/1.x/moshi/com/squareup/moshi/Moshi/Builder.html)`.asConfigurable(): `[`AutoMappingConfiguration`](../-auto-mapping-configuration/index.md)`<`[`Builder`](http://square.github.io/moshi/1.x/moshi/com/squareup/moshi/Moshi/Builder.html)`>` |

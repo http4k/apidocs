@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`StaleIfErrorTtl(valueD: Duration)`
+`StaleIfErrorTtl(valueD: `[`Duration`](https://docs.oracle.com/javase/9/docs/api/java/time/Duration.html)`)`

@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [load](load.md) | `abstract fun load(path: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`URL`](https://docs.oracle.com/javase/6/docs/api/java/net/URL.html)`?` |
+| [load](load.md) | `abstract fun load(path: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`URL`](https://docs.oracle.com/javase/9/docs/api/java/net/URL.html)`?` |
 
 ### Companion Object Functions
 

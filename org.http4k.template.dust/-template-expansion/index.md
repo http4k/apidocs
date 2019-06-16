@@ -20,4 +20,4 @@
 
 | Name | Summary |
 |---|---|
-| [TemplateExpansionService](../-template-expansion-service.md) | `interface TemplateExpansionService : `[`AutoCloseable`](https://docs.oracle.com/javase/6/docs/api/java/lang/AutoCloseable.html)`, `[`TemplateExpansion`](./index.md) |
+| [TemplateExpansionService](../-template-expansion-service.md) | `interface TemplateExpansionService : `[`AutoCloseable`](https://docs.oracle.com/javase/9/docs/api/java/lang/AutoCloseable.html)`, `[`TemplateExpansion`](./index.md) |

@@ -8,13 +8,13 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `ApacheServer(port: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)` = 8000)`<br>`ApacheServer(port: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)` = 8000, address: `[`InetAddress`](https://docs.oracle.com/javase/6/docs/api/java/net/InetAddress.html)`?)` |
+| [&lt;init&gt;](-init-.md) | `ApacheServer(port: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)` = 8000)`<br>`ApacheServer(port: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)` = 8000, address: `[`InetAddress`](https://docs.oracle.com/javase/9/docs/api/java/net/InetAddress.html)`?)` |
 
 ### Properties
 
 | Name | Summary |
 |---|---|
-| [address](address.md) | `val address: `[`InetAddress`](https://docs.oracle.com/javase/6/docs/api/java/net/InetAddress.html)`?` |
+| [address](address.md) | `val address: `[`InetAddress`](https://docs.oracle.com/javase/9/docs/api/java/net/InetAddress.html)`?` |
 | [port](port.md) | `val port: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
 
 ### Functions

@@ -2,12 +2,12 @@
 
 # asJsonObject
 
-`fun `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`.asJsonObject(): JsonNode` [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-argo/src/main/kotlin/org/http4k/format/Argo.kt#L31)
+`fun `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`.asJsonObject(): `[`JsonNode`](http://argo.sourceforge.net/javadoc/argo/jdom/JsonNode.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-argo/src/main/kotlin/org/http4k/format/Argo.kt#L31)
 
 Overrides [Json.asJsonObject](../-json/as-json-object.md)
 
 
-`fun <LIST : `[`Iterable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html)`<`[`Pair`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, JsonNode>>> `[`LIST`](as-json-object.md#LIST)`.asJsonObject(): JsonNode` [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-argo/src/main/kotlin/org/http4k/format/Argo.kt#L56)
+`fun <LIST : `[`Iterable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html)`<`[`Pair`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`JsonNode`](http://argo.sourceforge.net/javadoc/argo/jdom/JsonNode.html)`>>> `[`LIST`](as-json-object.md#LIST)`.asJsonObject(): `[`JsonNode`](http://argo.sourceforge.net/javadoc/argo/jdom/JsonNode.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-argo/src/main/kotlin/org/http4k/format/Argo.kt#L56)
 
 Overrides [Json.asJsonObject](../-json/as-json-object.md)
 

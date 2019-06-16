@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `WsMessage(value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`)`<br>`WsMessage(value: `[`InputStream`](https://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html)`)`<br>`WsMessage(body: `[`Body`](../../org.http4k.core/-body/index.md)`)` |
+| [&lt;init&gt;](-init-.md) | `WsMessage(value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`)`<br>`WsMessage(value: `[`InputStream`](https://docs.oracle.com/javase/9/docs/api/java/io/InputStream.html)`)`<br>`WsMessage(body: `[`Body`](../../org.http4k.core/-body/index.md)`)` |
 
 ### Properties
 
@@ -33,5 +33,5 @@
 
 | Name | Summary |
 |---|---|
-| [binary](../../org.http4k.lens/binary.md) | `fun WsMessage.Companion.binary(): `[`BiDiWsMessageLensSpec`](../../org.http4k.lens/-bi-di-ws-message-lens-spec/index.md)`<`[`ByteBuffer`](https://docs.oracle.com/javase/6/docs/api/java/nio/ByteBuffer.html)`>` |
+| [binary](../../org.http4k.lens/binary.md) | `fun WsMessage.Companion.binary(): `[`BiDiWsMessageLensSpec`](../../org.http4k.lens/-bi-di-ws-message-lens-spec/index.md)`<`[`ByteBuffer`](https://docs.oracle.com/javase/9/docs/api/java/nio/ByteBuffer.html)`>` |
 | [string](../../org.http4k.lens/string.md) | `fun WsMessage.Companion.string(): `[`BiDiWsMessageLensSpec`](../../org.http4k.lens/-bi-di-ws-message-lens-spec/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |

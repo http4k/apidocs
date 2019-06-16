@@ -10,4 +10,4 @@ Activates after a particular delay (compared to instantiation).
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `operator fun invoke(period: Duration, clock: Clock = Clock.systemUTC()): `[`Trigger`](../../-trigger.md) |
+| [invoke](invoke.md) | `operator fun invoke(period: `[`Duration`](https://docs.oracle.com/javase/9/docs/api/java/time/Duration.html)`, clock: `[`Clock`](https://docs.oracle.com/javase/9/docs/api/java/time/Clock.html)` = Clock.systemUTC()): `[`Trigger`](../../-trigger.md) |

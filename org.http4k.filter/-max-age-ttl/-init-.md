@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`MaxAgeTtl(valueD: Duration)`
+`MaxAgeTtl(valueD: `[`Duration`](https://docs.oracle.com/javase/9/docs/api/java/time/Duration.html)`)`

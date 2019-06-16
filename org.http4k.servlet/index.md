@@ -8,7 +8,7 @@ Code for mounting http4k applications into Servlet containers.
 
 | Name | Summary |
 |---|---|
-| [HttpHandlerServlet](-http-handler-servlet/index.md) | `class HttpHandlerServlet : HttpServlet` |
+| [HttpHandlerServlet](-http-handler-servlet/index.md) | `class HttpHandlerServlet : `[`HttpServlet`](https://javaee.github.io/javaee-spec/javadocs/javax/servlet/http/HttpServlet.html) |
 
 ### Extensions for External Classes
 

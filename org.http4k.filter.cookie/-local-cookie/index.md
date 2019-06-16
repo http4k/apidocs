@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `LocalCookie(cookie: `[`Cookie`](../../org.http4k.core.cookie/-cookie/index.md)`, created: LocalDateTime)` |
+| [&lt;init&gt;](-init-.md) | `LocalCookie(cookie: `[`Cookie`](../../org.http4k.core.cookie/-cookie/index.md)`, created: `[`LocalDateTime`](https://docs.oracle.com/javase/9/docs/api/java/time/LocalDateTime.html)`)` |
 
 ### Properties
 
@@ -20,7 +20,7 @@
 
 | Name | Summary |
 |---|---|
-| [isExpired](is-expired.md) | `fun isExpired(now: LocalDateTime): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
+| [isExpired](is-expired.md) | `fun isExpired(now: `[`LocalDateTime`](https://docs.oracle.com/javase/9/docs/api/java/time/LocalDateTime.html)`): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
 
 ### Extension Functions
 

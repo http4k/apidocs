@@ -2,4 +2,4 @@
 
 # invoke
 
-`operator fun invoke(min: Duration = ofMillis(100), max: Duration = ofMillis(500)): `[`Behaviour`](../../-behaviour.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosBehaviours.kt#L49)
+`operator fun invoke(min: `[`Duration`](https://docs.oracle.com/javase/9/docs/api/java/time/Duration.html)` = ofMillis(100), max: `[`Duration`](https://docs.oracle.com/javase/9/docs/api/java/time/Duration.html)` = ofMillis(500)): `[`Behaviour`](../../-behaviour.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosBehaviours.kt#L49)

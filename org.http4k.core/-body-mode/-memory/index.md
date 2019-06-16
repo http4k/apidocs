@@ -8,4 +8,4 @@
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `fun invoke(stream: `[`InputStream`](https://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html)`): `[`Body`](../../-body/index.md) |
+| [invoke](invoke.md) | `fun invoke(stream: `[`InputStream`](https://docs.oracle.com/javase/9/docs/api/java/io/InputStream.html)`): `[`Body`](../../-body/index.md) |

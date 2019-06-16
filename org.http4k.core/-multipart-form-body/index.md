@@ -2,7 +2,7 @@
 
 # MultipartFormBody
 
-`data class MultipartFormBody : `[`Body`](../-body/index.md)`, `[`Closeable`](https://docs.oracle.com/javase/6/docs/api/java/io/Closeable.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-multipart/src/main/kotlin/org/http4k/core/MultipartFormBody.kt#L47)
+`data class MultipartFormBody : `[`Body`](../-body/index.md)`, `[`Closeable`](https://docs.oracle.com/javase/9/docs/api/java/io/Closeable.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-multipart/src/main/kotlin/org/http4k/core/MultipartFormBody.kt#L47)
 
 Represents a Multi-part that is backed by a stream, which should be closed after handling the content. The gotchas
 which apply to StreamBody also apply here..
@@ -19,8 +19,8 @@ which apply to StreamBody also apply here..
 |---|---|
 | [boundary](boundary.md) | `val boundary: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [length](length.md) | `val length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`?`<br>Will be `null` for bodies where it's impossible to a priori determine - e.g. StreamBody |
-| [payload](payload.md) | `val payload: `[`ByteBuffer`](https://docs.oracle.com/javase/6/docs/api/java/nio/ByteBuffer.html) |
-| [stream](stream.md) | `val stream: `[`InputStream`](https://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html) |
+| [payload](payload.md) | `val payload: `[`ByteBuffer`](https://docs.oracle.com/javase/9/docs/api/java/nio/ByteBuffer.html) |
+| [stream](stream.md) | `val stream: `[`InputStream`](https://docs.oracle.com/javase/9/docs/api/java/io/InputStream.html) |
 
 ### Functions
 

@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `InMemoryResource(content: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, contentType: `[`ContentType`](../../org.http4k.core/-content-type/index.md)`, lastModified: Instant? = null, etag: `[`ETag`](../../org.http4k.core.etag/-e-tag/index.md)`? = null)`<br>`InMemoryResource(content: `[`ByteArray`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html)`, contentType: `[`ContentType`](../../org.http4k.core/-content-type/index.md)`, lastModified: Instant? = null, etag: `[`ETag`](../../org.http4k.core.etag/-e-tag/index.md)`? = null)` |
+| [&lt;init&gt;](-init-.md) | `InMemoryResource(content: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, contentType: `[`ContentType`](../../org.http4k.core/-content-type/index.md)`, lastModified: `[`Instant`](https://docs.oracle.com/javase/9/docs/api/java/time/Instant.html)`? = null, etag: `[`ETag`](../../org.http4k.core.etag/-e-tag/index.md)`? = null)`<br>`InMemoryResource(content: `[`ByteArray`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html)`, contentType: `[`ContentType`](../../org.http4k.core/-content-type/index.md)`, lastModified: `[`Instant`](https://docs.oracle.com/javase/9/docs/api/java/time/Instant.html)`? = null, etag: `[`ETag`](../../org.http4k.core.etag/-e-tag/index.md)`? = null)` |
 
 ### Properties
 
@@ -16,7 +16,7 @@
 |---|---|
 | [contentType](content-type.md) | `val contentType: `[`ContentType`](../../org.http4k.core/-content-type/index.md) |
 | [etag](etag.md) | `val etag: `[`ETag`](../../org.http4k.core.etag/-e-tag/index.md)`?` |
-| [lastModified](last-modified.md) | `val lastModified: Instant?` |
+| [lastModified](last-modified.md) | `val lastModified: `[`Instant`](https://docs.oracle.com/javase/9/docs/api/java/time/Instant.html)`?` |
 | [length](length.md) | `val length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`?` |
 
 ### Inherited Properties
@@ -29,14 +29,14 @@
 
 | Name | Summary |
 |---|---|
-| [openStream](open-stream.md) | `fun openStream(): `[`ByteArrayInputStream`](https://docs.oracle.com/javase/6/docs/api/java/io/ByteArrayInputStream.html) |
+| [openStream](open-stream.md) | `fun openStream(): `[`ByteArrayInputStream`](https://docs.oracle.com/javase/9/docs/api/java/io/ByteArrayInputStream.html) |
 
 ### Inherited Functions
 
 | Name | Summary |
 |---|---|
 | [invoke](../-resource/invoke.md) | `open fun invoke(request: `[`Request`](../../org.http4k.core/-request/index.md)`): `[`MemoryResponse`](../../org.http4k.core/-memory-response/index.md) |
-| [isModifiedSince](../-resource/is-modified-since.md) | `open fun isModifiedSince(instant: Instant): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
+| [isModifiedSince](../-resource/is-modified-since.md) | `open fun isModifiedSince(instant: `[`Instant`](https://docs.oracle.com/javase/9/docs/api/java/time/Instant.html)`): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
 
 ### Extension Functions
 

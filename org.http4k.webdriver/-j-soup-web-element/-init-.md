@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`JSoupWebElement(navigate: `[`Navigate`](../-navigate.md)`, getURL: `[`GetURL`](../-get-u-r-l.md)`, element: Element)`
+`JSoupWebElement(navigate: `[`Navigate`](../-navigate.md)`, getURL: `[`GetURL`](../-get-u-r-l.md)`, element: `[`Element`](https://jsoup.org/apidocs/org/jsoup/nodes/Element.html)`)`

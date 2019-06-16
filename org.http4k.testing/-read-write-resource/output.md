@@ -2,4 +2,4 @@
 
 # output
 
-`abstract fun output(): `[`OutputStream`](https://docs.oracle.com/javase/6/docs/api/java/io/OutputStream.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-approval/src/main/kotlin/org/http4k/testing/approvalSource.kt#L12)
+`abstract fun output(): `[`OutputStream`](https://docs.oracle.com/javase/9/docs/api/java/io/OutputStream.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-approval/src/main/kotlin/org/http4k/testing/approvalSource.kt#L12)

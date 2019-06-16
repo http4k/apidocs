@@ -2,7 +2,7 @@
 
 # TemplateExpansionService
 
-`interface TemplateExpansionService : `[`AutoCloseable`](https://docs.oracle.com/javase/6/docs/api/java/lang/AutoCloseable.html)`, `[`TemplateExpansion`](-template-expansion/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-template-dust/src/main/kotlin/org/http4k/template/dust/Dust.kt#L24)
+`interface TemplateExpansionService : `[`AutoCloseable`](https://docs.oracle.com/javase/9/docs/api/java/lang/AutoCloseable.html)`, `[`TemplateExpansion`](-template-expansion/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-template-dust/src/main/kotlin/org/http4k/template/dust/Dust.kt#L24)
 
 ### Inherited Functions
 

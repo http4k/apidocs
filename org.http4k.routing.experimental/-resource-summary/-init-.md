@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`ResourceSummary(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, lastModified: Instant? = null)`
+`ResourceSummary(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, lastModified: `[`Instant`](https://docs.oracle.com/javase/9/docs/api/java/time/Instant.html)`? = null)`

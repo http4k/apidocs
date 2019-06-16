@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`CacheControlHeaderPart(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, value: Duration)`
+`CacheControlHeaderPart(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, value: `[`Duration`](https://docs.oracle.com/javase/9/docs/api/java/time/Duration.html)`)`

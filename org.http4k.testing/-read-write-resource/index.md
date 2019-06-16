@@ -8,13 +8,13 @@
 
 | Name | Summary |
 |---|---|
-| [output](output.md) | `abstract fun output(): `[`OutputStream`](https://docs.oracle.com/javase/6/docs/api/java/io/OutputStream.html) |
+| [output](output.md) | `abstract fun output(): `[`OutputStream`](https://docs.oracle.com/javase/9/docs/api/java/io/OutputStream.html) |
 
 ### Inherited Functions
 
 | Name | Summary |
 |---|---|
-| [input](../-read-resource/input.md) | `abstract fun input(): `[`InputStream`](https://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html)`?` |
+| [input](../-read-resource/input.md) | `abstract fun input(): `[`InputStream`](https://docs.oracle.com/javase/9/docs/api/java/io/InputStream.html)`?` |
 
 ### Extension Functions
 

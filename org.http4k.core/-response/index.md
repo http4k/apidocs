@@ -22,7 +22,7 @@
 
 | Name | Summary |
 |---|---|
-| [body](body.md) | `abstract fun body(body: `[`Body`](../-body/index.md)`): `[`Response`](./index.md)<br>`abstract fun body(body: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Response`](./index.md)<br>`abstract fun body(body: `[`InputStream`](https://docs.oracle.com/javase/6/docs/api/java/io/InputStream.html)`, length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`?): `[`Response`](./index.md) |
+| [body](body.md) | `abstract fun body(body: `[`Body`](../-body/index.md)`): `[`Response`](./index.md)<br>`abstract fun body(body: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Response`](./index.md)<br>`abstract fun body(body: `[`InputStream`](https://docs.oracle.com/javase/9/docs/api/java/io/InputStream.html)`, length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`?): `[`Response`](./index.md) |
 | [header](header.md) | `abstract fun header(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`Response`](./index.md) |
 | [headers](headers.md) | `abstract fun headers(headers: `[`Headers`](../-headers.md)`): `[`Response`](./index.md) |
 | [removeHeader](remove-header.md) | `abstract fun removeHeader(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Response`](./index.md) |
@@ -51,7 +51,7 @@
 | [cookie](../../org.http4k.core.cookie/cookie.md) | `fun `[`Response`](./index.md)`.cookie(cookie: `[`Cookie`](../../org.http4k.core.cookie/-cookie/index.md)`): `[`Response`](./index.md) |
 | [cookies](../../org.http4k.core.cookie/cookies.md) | `fun `[`Response`](./index.md)`.cookies(): `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`Cookie`](../../org.http4k.core.cookie/-cookie/index.md)`>` |
 | [invalidateCookie](../../org.http4k.core.cookie/invalidate-cookie.md) | `fun `[`Response`](./index.md)`.invalidateCookie(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, domain: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`? = null): `[`Response`](./index.md) |
-| [maxAge](../max-age.md) | `fun `[`Response`](./index.md)`.maxAge(duration: Duration): `[`Response`](./index.md) |
+| [maxAge](../max-age.md) | `fun `[`Response`](./index.md)`.maxAge(duration: `[`Duration`](https://docs.oracle.com/javase/9/docs/api/java/time/Duration.html)`): `[`Response`](./index.md) |
 | [multipartIterator](../multipart-iterator.md) | `fun `[`HttpMessage`](../-http-message/index.md)`.multipartIterator(): `[`Iterator`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterator/index.html)`<`[`MultipartEntity`](../-multipart-entity/index.md)`>` |
 | [mustRevalidate](../must-revalidate.md) | `fun `[`Response`](./index.md)`.mustRevalidate(): `[`Response`](./index.md) |
 | [noCache](../no-cache.md) | `fun `[`Response`](./index.md)`.noCache(): `[`Response`](./index.md) |
@@ -61,8 +61,8 @@
 | [public](../public.md) | `fun `[`Response`](./index.md)`.public(): `[`Response`](./index.md) |
 | [removeCookie](../../org.http4k.core.cookie/remove-cookie.md) | `fun `[`Response`](./index.md)`.removeCookie(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Response`](./index.md) |
 | [replaceCookie](../../org.http4k.core.cookie/replace-cookie.md) | `fun `[`Response`](./index.md)`.replaceCookie(cookie: `[`Cookie`](../../org.http4k.core.cookie/-cookie/index.md)`): `[`Response`](./index.md) |
-| [staleIfError](../stale-if-error.md) | `fun `[`Response`](./index.md)`.staleIfError(duration: Duration): `[`Response`](./index.md) |
-| [staleWhileRevalidate](../stale-while-revalidate.md) | `fun `[`Response`](./index.md)`.staleWhileRevalidate(duration: Duration): `[`Response`](./index.md) |
+| [staleIfError](../stale-if-error.md) | `fun `[`Response`](./index.md)`.staleIfError(duration: `[`Duration`](https://docs.oracle.com/javase/9/docs/api/java/time/Duration.html)`): `[`Response`](./index.md) |
+| [staleWhileRevalidate](../stale-while-revalidate.md) | `fun `[`Response`](./index.md)`.staleWhileRevalidate(duration: `[`Duration`](https://docs.oracle.com/javase/9/docs/api/java/time/Duration.html)`): `[`Response`](./index.md) |
 | [with](../with.md) | `fun <T> `[`T`](../with.md#T)`.with(vararg modifiers: (`[`T`](../with.md#T)`) -> `[`T`](../with.md#T)`): `[`T`](../with.md#T) |
 
 ### Companion Object Extension Functions

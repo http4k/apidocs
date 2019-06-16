@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `operator fun invoke(client: CloseableHttpClient = defaultApacheHttpClient(), responseBodyMode: `[`BodyMode`](../../org.http4k.core/-body-mode/index.md)` = Memory, requestBodyMode: `[`BodyMode`](../../org.http4k.core/-body-mode/index.md)` = Memory): `[`HttpHandler`](../../org.http4k.core/-http-handler.md) |
+| [invoke](invoke.md) | `operator fun invoke(client: `[`CloseableHttpClient`](https://hc.apache.org/httpcomponents-client-ga/httpclient/apidocs/org/apache/http/impl/client/CloseableHttpClient.html)` = defaultApacheHttpClient(), responseBodyMode: `[`BodyMode`](../../org.http4k.core/-body-mode/index.md)` = Memory, requestBodyMode: `[`BodyMode`](../../org.http4k.core/-body-mode/index.md)` = Memory): `[`HttpHandler`](../../org.http4k.core/-http-handler.md) |
 
 ### Extension Functions
 

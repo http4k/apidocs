@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`ConfigurableJackson(mapper: ObjectMapper)`
+`ConfigurableJackson(mapper: `[`ObjectMapper`](https://fasterxml.github.io/jackson-databind/javadoc/2.9/com/fasterxml/jackson/databind/ObjectMapper.html)`)`

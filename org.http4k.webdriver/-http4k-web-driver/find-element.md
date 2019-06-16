@@ -2,4 +2,4 @@
 
 # findElement
 
-`fun findElement(by: By): WebElement?` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-webdriver/src/main/kotlin/org/http4k/webdriver/Http4kWebDriver.kt#L87)
+`fun findElement(by: `[`By`](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/By.html)`): `[`WebElement`](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/WebElement.html)`?` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-webdriver/src/main/kotlin/org/http4k/webdriver/Http4kWebDriver.kt#L87)

@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`ThymeleafTemplates(configure: (TemplateEngine) -> TemplateEngine = { it }, classLoader: `[`ClassLoader`](https://docs.oracle.com/javase/6/docs/api/java/lang/ClassLoader.html)` = ClassLoader.getSystemClassLoader())`
+`ThymeleafTemplates(configure: (TemplateEngine) -> TemplateEngine = { it }, classLoader: `[`ClassLoader`](https://docs.oracle.com/javase/9/docs/api/java/lang/ClassLoader.html)` = ClassLoader.getSystemClassLoader())`

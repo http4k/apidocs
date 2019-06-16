@@ -10,4 +10,4 @@ Activates after a particular instant in time.
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `operator fun invoke(endTime: Instant, clock: Clock): `[`Trigger`](../../-trigger.md) |
+| [invoke](invoke.md) | `operator fun invoke(endTime: `[`Instant`](https://docs.oracle.com/javase/9/docs/api/java/time/Instant.html)`, clock: `[`Clock`](https://docs.oracle.com/javase/9/docs/api/java/time/Clock.html)`): `[`Trigger`](../../-trigger.md) |

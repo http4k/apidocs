@@ -8,13 +8,13 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `Timeout(value: Duration)` |
+| [&lt;init&gt;](-init-.md) | `Timeout(value: `[`Duration`](https://docs.oracle.com/javase/9/docs/api/java/time/Duration.html)`)` |
 
 ### Properties
 
 | Name | Summary |
 |---|---|
-| [value](value.md) | `val value: Duration` |
+| [value](value.md) | `val value: `[`Duration`](https://docs.oracle.com/javase/9/docs/api/java/time/Duration.html) |
 
 ### Extension Functions
 

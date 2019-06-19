@@ -19,6 +19,7 @@
 | [authUri](auth-uri.md) | `val authUri: `[`Uri`](../../org.http4k.core/-uri/index.md) |
 | [credentials](credentials.md) | `val credentials: `[`Credentials`](../../org.http4k.core/-credentials/index.md) |
 | [tokenPath](token-path.md) | `val tokenPath: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [tokenUri](token-uri.md) | `val tokenUri: `[`Uri`](../../org.http4k.core/-uri/index.md) |
 
 ### Extension Functions
 

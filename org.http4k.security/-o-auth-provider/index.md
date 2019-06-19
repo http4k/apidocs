@@ -19,6 +19,7 @@ Provides a configured set of objects for use with an OAuth2 provider.
 | [api](api.md) | `val api: `[`HttpHandler`](../../org.http4k.core/-http-handler.md) |
 | [authFilter](auth-filter.md) | `val authFilter: `[`Filter`](../../org.http4k.core/-filter/index.md) |
 | [callback](callback.md) | `val callback: `[`HttpHandler`](../../org.http4k.core/-http-handler.md) |
+| [providerConfig](provider-config.md) | `val providerConfig: `[`OAuthProviderConfig`](../-o-auth-provider-config/index.md) |
 
 ### Functions
 

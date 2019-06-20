@@ -2,7 +2,7 @@
 
 # InsecureCookieBasedAuthRequestTracking
 
-`class InsecureCookieBasedAuthRequestTracking : `[`AuthRequestTracking`](../-auth-request-tracking/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/InsecureCookieBasedAuthRequestTracking.kt#L7)
+`class InsecureCookieBasedAuthRequestTracking : `[`AuthRequestTracking`](../-auth-request-tracking/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/InsecureCookieBasedAuthRequestTracking.kt#L11)
 
 ### Constructors
 

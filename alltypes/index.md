@@ -286,6 +286,8 @@
 | [org.http4k.security.OAuthProvider](../org.http4k.security/-o-auth-provider/index.md) | Provides a configured set of objects for use with an OAuth2 provider. |
 | [org.http4k.security.OAuthProviderConfig](../org.http4k.security/-o-auth-provider-config/index.md) |  |
 | [org.http4k.security.OAuthRedirectionFilter](../org.http4k.security/-o-auth-redirection-filter/index.md) |  |
+| [org.http4k.contract.security.OAuthScope](../org.http4k.contract.security/-o-auth-scope/index.md) |  |
+| [org.http4k.contract.security.OAuthSecurity](../org.http4k.contract.security/-o-auth-security/index.md) |  |
 | [org.http4k.security.oauth.server.OAuthServer](../org.http4k.security.oauth.server/-o-auth-server/index.md) | Provide help creating OAuth Authorization Server with Authorization Code Flow |
 | [org.http4k.client.OkHttp](../org.http4k.client/-ok-http/index.md) |  |
 | [org.http4k.contract.OpenApi](../org.http4k.contract/-open-api.md) |  |

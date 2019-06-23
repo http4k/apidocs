@@ -25,6 +25,7 @@ Code relevant to interfacing with security mechanisms such as OAuth servers.
 
 | Name | Summary |
 |---|---|
+| [AccessTokenContainer](-access-token-container.md) | `typealias ~~AccessTokenContainer~~ = `[`AccessToken`](-access-token/index.md) |
 | [CsrfGenerator](-csrf-generator.md) | `typealias CsrfGenerator = () -> `[`CrossSiteRequestForgeryToken`](-cross-site-request-forgery-token/index.md) |
 | [RedirectionUriBuilder](-redirection-uri-builder.md) | `typealias RedirectionUriBuilder = (`[`Uri`](../org.http4k.core/-uri/index.md)`, `[`AuthRequest`](../org.http4k.security.oauth.server/-auth-request/index.md)`, state: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`) -> `[`Uri`](../org.http4k.core/-uri/index.md) |
 

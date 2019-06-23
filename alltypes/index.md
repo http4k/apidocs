@@ -5,6 +5,7 @@
 | Name | Summary |
 |---|---|
 | [org.http4k.security.AccessToken](../org.http4k.security/-access-token/index.md) |  |
+| [org.http4k.security.AccessTokenContainer](../org.http4k.security/-access-token-container.md) |  |
 | [org.http4k.security.oauth.server.AccessTokenContainer](../org.http4k.security.oauth.server/-access-token-container.md) |  |
 | [org.http4k.security.AccessTokenDetails](../org.http4k.security/-access-token-details/index.md) |  |
 | [org.http4k.security.oauth.server.AccessTokenError](../org.http4k.security.oauth.server/-access-token-error.md) |  |

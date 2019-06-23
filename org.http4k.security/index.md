@@ -13,7 +13,7 @@ Code relevant to interfacing with security mechanisms such as OAuth servers.
 | [AccessTokenFetcher](-access-token-fetcher/index.md) | `class AccessTokenFetcher` |
 | [AccessTokenResponse](-access-token-response/index.md) | `data class AccessTokenResponse` |
 | [CrossSiteRequestForgeryToken](-cross-site-request-forgery-token/index.md) | `data class CrossSiteRequestForgeryToken` |
-| [InsecureCookieBasedOAuthPersistence](-insecure-cookie-based-o-auth-persistence/index.md) | `class InsecureCookieBasedOAuthPersistence : `[`OAuthPersistence`](-o-auth-persistence/index.md)<br>This is an example implementation which stores CSRF and AccessTokenEnvelope values in an INSECURE client-side cookie. Access-tokens for end-services are fully available to the browser so do not use this in production! |
+| [InsecureCookieBasedOAuthPersistence](-insecure-cookie-based-o-auth-persistence/index.md) | `class InsecureCookieBasedOAuthPersistence : `[`OAuthPersistence`](-o-auth-persistence/index.md)<br>This is an example implementation which stores CSRF and AccessToken values in an INSECURE client-side cookie. Access-tokens for end-services are fully available to the browser so do not use this in production! |
 | [OAuthCallback](-o-auth-callback/index.md) | `class OAuthCallback : `[`HttpHandler`](../org.http4k.core/-http-handler.md) |
 | [OAuthPersistence](-o-auth-persistence/index.md) | `interface OAuthPersistence`<br>Provides persistence for OAuth lifecycle values: |
 | [OAuthProvider](-o-auth-provider/index.md) | `class OAuthProvider`<br>Provides a configured set of objects for use with an OAuth2 provider. |

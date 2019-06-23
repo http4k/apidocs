@@ -4,14 +4,14 @@
 
 `class InsecureCookieBasedOAuthPersistence : `[`OAuthPersistence`](../-o-auth-persistence/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/InsecureCookieBasedOAuthPersistence.kt#L18)
 
-This is an example implementation which stores CSRF and AccessTokenEnvelope values in an INSECURE client-side cookie.
+This is an example implementation which stores CSRF and AccessToken values in an INSECURE client-side cookie.
 Access-tokens for end-services are fully available to the browser so do not use this in production!
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `InsecureCookieBasedOAuthPersistence(cookieNamePrefix: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, cookieValidity: `[`Duration`](https://docs.oracle.com/javase/9/docs/api/java/time/Duration.html)` = Duration.ofHours(1), clock: `[`Clock`](https://docs.oracle.com/javase/9/docs/api/java/time/Clock.html)` = Clock.systemUTC())`<br>This is an example implementation which stores CSRF and AccessTokenEnvelope values in an INSECURE client-side cookie. Access-tokens for end-services are fully available to the browser so do not use this in production! |
+| [&lt;init&gt;](-init-.md) | `InsecureCookieBasedOAuthPersistence(cookieNamePrefix: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, cookieValidity: `[`Duration`](https://docs.oracle.com/javase/9/docs/api/java/time/Duration.html)` = Duration.ofHours(1), clock: `[`Clock`](https://docs.oracle.com/javase/9/docs/api/java/time/Clock.html)` = Clock.systemUTC())`<br>This is an example implementation which stores CSRF and AccessToken values in an INSECURE client-side cookie. Access-tokens for end-services are fully available to the browser so do not use this in production! |
 
 ### Functions
 

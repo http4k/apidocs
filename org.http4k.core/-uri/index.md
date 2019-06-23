@@ -2,7 +2,7 @@
 
 # Uri
 
-`data class Uri` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/Uri.kt#L8)
+`data class Uri : `[`Comparable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-comparable/index.html)`<`[`Uri`](./index.md)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/Uri.kt#L8)
 
 ### Constructors
 
@@ -28,6 +28,7 @@
 | Name | Summary |
 |---|---|
 | [authority](authority.md) | `fun authority(authority: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Uri`](./index.md) |
+| [compareTo](compare-to.md) | `fun compareTo(other: `[`Uri`](./index.md)`): `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
 | [fragment](fragment.md) | `fun fragment(fragment: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Uri`](./index.md) |
 | [host](host.md) | `fun host(host: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Uri`](./index.md) |
 | [path](path.md) | `fun path(path: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Uri`](./index.md) |

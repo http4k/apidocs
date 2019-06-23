@@ -32,7 +32,7 @@ The core abstractions for the http4k library.
 | [Status](-status/index.md) | `class Status` |
 | [Store](-store/index.md) | `interface Store<OUT> : `[`LensInjector`](../org.http4k.lens/-lens-injector/index.md)`<`[`OUT`](-store/index.md#OUT)`, `[`Request`](-request/index.md)`>, `[`LensExtractor`](../org.http4k.lens/-lens-extractor/index.md)`<`[`Request`](-request/index.md)`, `[`OUT`](-store/index.md#OUT)`>` |
 | [StreamBody](-stream-body/index.md) | `class StreamBody : `[`Body`](-body/index.md)<br>Represents a body that is backed by a (lazy) InputStream. Operating with StreamBody has a number of potential gotchas: |
-| [Uri](-uri/index.md) | `data class Uri` |
+| [Uri](-uri/index.md) | `data class Uri : `[`Comparable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-comparable/index.html)`<`[`Uri`](-uri/index.md)`>` |
 | [UriTemplate](-uri-template/index.md) | `data class UriTemplate` |
 
 ### Type Aliases

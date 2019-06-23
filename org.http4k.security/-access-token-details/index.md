@@ -2,20 +2,20 @@
 
 # AccessTokenDetails
 
-`data class AccessTokenDetails` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/AccessTokenContainer.kt#L10)
+`data class AccessTokenDetails` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/AccessToken.kt#L10)
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `AccessTokenDetails(accessToken: `[`AccessTokenContainer`](../-access-token-container/index.md)`, idToken: `[`IdTokenContainer`](../../org.http4k.security.openid/-id-token-container/index.md)`? = null)` |
+| [&lt;init&gt;](-init-.md) | `AccessTokenDetails(accessToken: `[`AccessToken`](../-access-token/index.md)`, idToken: `[`IdToken`](../../org.http4k.security.openid/-id-token/index.md)`? = null)` |
 
 ### Properties
 
 | Name | Summary |
 |---|---|
-| [accessToken](access-token.md) | `val accessToken: `[`AccessTokenContainer`](../-access-token-container/index.md) |
-| [idToken](id-token.md) | `val idToken: `[`IdTokenContainer`](../../org.http4k.security.openid/-id-token-container/index.md)`?` |
+| [accessToken](access-token.md) | `val accessToken: `[`AccessToken`](../-access-token/index.md) |
+| [idToken](id-token.md) | `val idToken: `[`IdToken`](../../org.http4k.security.openid/-id-token/index.md)`?` |
 
 ### Extension Functions
 

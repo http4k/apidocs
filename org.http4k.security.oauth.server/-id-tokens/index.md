@@ -8,8 +8,8 @@
 
 | Name | Summary |
 |---|---|
-| [createForAccessToken](create-for-access-token.md) | `abstract fun createForAccessToken(code: `[`AuthorizationCode`](../-authorization-code/index.md)`): `[`IdTokenContainer`](../../org.http4k.security.openid/-id-token-container/index.md) |
-| [createForAuthorization](create-for-authorization.md) | `abstract fun createForAuthorization(request: `[`Request`](../../org.http4k.core/-request/index.md)`, authRequest: `[`AuthRequest`](../-auth-request/index.md)`, response: `[`Response`](../../org.http4k.core/-response/index.md)`): `[`IdTokenContainer`](../../org.http4k.security.openid/-id-token-container/index.md) |
+| [createForAccessToken](create-for-access-token.md) | `abstract fun createForAccessToken(code: `[`AuthorizationCode`](../-authorization-code/index.md)`): `[`IdToken`](../../org.http4k.security.openid/-id-token/index.md) |
+| [createForAuthorization](create-for-authorization.md) | `abstract fun createForAuthorization(request: `[`Request`](../../org.http4k.core/-request/index.md)`, authRequest: `[`AuthRequest`](../-auth-request/index.md)`, response: `[`Response`](../../org.http4k.core/-response/index.md)`): `[`IdToken`](../../org.http4k.security.openid/-id-token/index.md) |
 
 ### Companion Object Properties
 

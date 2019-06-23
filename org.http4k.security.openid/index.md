@@ -6,7 +6,13 @@
 
 | Name | Summary |
 |---|---|
+| [IdToken](-id-token/index.md) | `data class IdToken` |
 | [IdTokenConsumer](-id-token-consumer/index.md) | `interface IdTokenConsumer` |
-| [IdTokenContainer](-id-token-container/index.md) | `data class IdTokenContainer` |
 | [RequestJwtContainer](-request-jwt-container/index.md) | `data class RequestJwtContainer` |
 | [RequestJwts](-request-jwts/index.md) | `interface RequestJwts` |
+
+### Type Aliases
+
+| Name | Summary |
+|---|---|
+| [IdTokenContainer](-id-token-container.md) | `typealias ~~IdTokenContainer~~ = `[`IdToken`](-id-token/index.md) |

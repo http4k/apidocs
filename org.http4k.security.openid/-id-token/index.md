@@ -1,14 +1,14 @@
-[http4k](../../index.md) / [org.http4k.security.openid](../index.md) / [IdTokenContainer](./index.md)
+[http4k](../../index.md) / [org.http4k.security.openid](../index.md) / [IdToken](./index.md)
 
-# IdTokenContainer
+# IdToken
 
-`data class IdTokenContainer` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/openid/IdTokenContainer.kt#L3)
+`data class IdToken` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/openid/IdToken.kt#L3)
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `IdTokenContainer(value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`)` |
+| [&lt;init&gt;](-init-.md) | `IdToken(value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`)` |
 
 ### Properties
 

@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`AccessTokenDetails(accessToken: `[`AccessTokenContainer`](../-access-token-container/index.md)`, idToken: `[`IdTokenContainer`](../../org.http4k.security.openid/-id-token-container/index.md)`? = null)`
+`AccessTokenDetails(accessToken: `[`AccessToken`](../-access-token/index.md)`, idToken: `[`IdToken`](../../org.http4k.security.openid/-id-token/index.md)`? = null)`

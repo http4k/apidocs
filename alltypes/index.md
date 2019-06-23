@@ -4,7 +4,8 @@
 
 | Name | Summary |
 |---|---|
-| [org.http4k.security.AccessTokenContainer](../org.http4k.security/-access-token-container/index.md) |  |
+| [org.http4k.security.AccessToken](../org.http4k.security/-access-token/index.md) |  |
+| [org.http4k.security.oauth.server.AccessTokenContainer](../org.http4k.security.oauth.server/-access-token-container.md) |  |
 | [org.http4k.security.AccessTokenDetails](../org.http4k.security/-access-token-details/index.md) |  |
 | [org.http4k.security.oauth.server.AccessTokenError](../org.http4k.security.oauth.server/-access-token-error.md) |  |
 | [org.http4k.security.AccessTokenFetcher](../org.http4k.security/-access-token-fetcher/index.md) |  |
@@ -202,8 +203,9 @@
 | [org.http4k.core.HttpTransaction](../org.http4k.core/-http-transaction/index.md) |  |
 | [org.http4k.filter.HttpTransactionLabeller](../org.http4k.filter/-http-transaction-labeller.md) |  |
 | [org.http4k.server.HttpUndertowHandler](../org.http4k.server/-http-undertow-handler/index.md) | Exposed to allow for insertion into a customised Undertow server instance |
+| [org.http4k.security.openid.IdToken](../org.http4k.security.openid/-id-token/index.md) |  |
 | [org.http4k.security.openid.IdTokenConsumer](../org.http4k.security.openid/-id-token-consumer/index.md) |  |
-| [org.http4k.security.openid.IdTokenContainer](../org.http4k.security.openid/-id-token-container/index.md) |  |
+| [org.http4k.security.openid.IdTokenContainer](../org.http4k.security.openid/-id-token-container.md) |  |
 | [org.http4k.security.oauth.server.IdTokens](../org.http4k.security.oauth.server/-id-tokens/index.md) |  |
 | [org.http4k.util.IllegalSchemaException](../org.http4k.util/-illegal-schema-exception/index.md) |  |
 | [org.http4k.routing.experimental.InMemoryResource](../org.http4k.routing.experimental/-in-memory-resource/index.md) |  |

@@ -8,7 +8,7 @@ Code relevant to interfacing with security mechanisms such as OAuth servers.
 
 | Name | Summary |
 |---|---|
-| [AccessTokenContainer](-access-token-container/index.md) | `data class AccessTokenContainer` |
+| [AccessToken](-access-token/index.md) | `data class AccessToken` |
 | [AccessTokenDetails](-access-token-details/index.md) | `data class AccessTokenDetails` |
 | [AccessTokenFetcher](-access-token-fetcher/index.md) | `class AccessTokenFetcher` |
 | [AccessTokenResponse](-access-token-response/index.md) | `data class AccessTokenResponse` |

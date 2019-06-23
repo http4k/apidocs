@@ -8,8 +8,8 @@
 
 | Name | Summary |
 |---|---|
-| [consumeFromAccessTokenResponse](consume-from-access-token-response.md) | `abstract fun consumeFromAccessTokenResponse(idToken: `[`IdTokenContainer`](../-id-token-container/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
-| [consumeFromAuthorizationResponse](consume-from-authorization-response.md) | `abstract fun consumeFromAuthorizationResponse(idToken: `[`IdTokenContainer`](../-id-token-container/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| [consumeFromAccessTokenResponse](consume-from-access-token-response.md) | `abstract fun consumeFromAccessTokenResponse(idToken: `[`IdToken`](../-id-token/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| [consumeFromAuthorizationResponse](consume-from-authorization-response.md) | `abstract fun consumeFromAuthorizationResponse(idToken: `[`IdToken`](../-id-token/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 
 ### Companion Object Properties
 

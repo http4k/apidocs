@@ -1,14 +1,14 @@
-[http4k](../../index.md) / [org.http4k.security](../index.md) / [AccessTokenContainer](./index.md)
+[http4k](../../index.md) / [org.http4k.security](../index.md) / [AccessToken](./index.md)
 
-# AccessTokenContainer
+# AccessToken
 
-`data class AccessTokenContainer` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/AccessTokenContainer.kt#L8)
+`data class AccessToken` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/AccessToken.kt#L8)
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `AccessTokenContainer(value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`)` |
+| [&lt;init&gt;](-init-.md) | `AccessToken(value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`)` |
 
 ### Properties
 

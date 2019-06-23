@@ -11,7 +11,7 @@
 | [org.http4k.security.oauth.server.accesstoken.AccessTokenGenerator](../org.http4k.security.oauth.server.accesstoken/-access-token-generator/index.md) |  |
 | [org.http4k.security.oauth.server.accesstoken.AccessTokenRequestAuthentication](../org.http4k.security.oauth.server.accesstoken/-access-token-request-authentication/index.md) |  |
 | [org.http4k.security.AccessTokenResponse](../org.http4k.security/-access-token-response/index.md) |  |
-| [org.http4k.security.oauth.server.AccessTokens](../org.http4k.security.oauth.server/-access-tokens/index.md) | Provides a consistent way to generate access tokens |
+| [org.http4k.security.oauth.server.AccessTokens](../org.http4k.security.oauth.server/-access-tokens/index.md) | Provides a consistent way to generate access tokens. |
 | [org.http4k.client.ApacheAsyncClient](../org.http4k.client/-apache-async-client/index.md) |  |
 | [org.http4k.client.ApacheClient](../org.http4k.client/-apache-client/index.md) |  |
 | [org.http4k.server.ApacheServer](../org.http4k.server/-apache-server/index.md) |  |

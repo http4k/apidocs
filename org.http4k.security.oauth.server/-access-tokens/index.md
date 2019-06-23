@@ -4,14 +4,13 @@
 
 `interface AccessTokens` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/AccessTokens.kt#L9)
 
-Provides a consistent way to generate access tokens
+Provides a consistent way to generate access tokens.
 
 ### Functions
 
 | Name | Summary |
 |---|---|
-| [create](create.md) | `abstract fun create(authorizationCode: `[`AuthorizationCode`](../-authorization-code/index.md)`): Result<`[`AccessTokenContainer`](../../org.http4k.security/-access-token-container/index.md)`, `[`AuthorizationCodeAlreadyUsed`](../-authorization-code-already-used.md)`>`<br>Creates a new access token for a valid authorization code`abstract fun create(clientId: `[`ClientId`](../-client-id/index.md)`): Result<`[`AccessTokenContainer`](../../org.http4k.security/-access-token-container/index.md)`, `[`AccessTokenError`](../-access-token-error.md)`>`<br>creates a new access token for a given client |
-| [isValid](is-valid.md) | `abstract fun isValid(accessToken: `[`AccessTokenContainer`](../../org.http4k.security/-access-token-container/index.md)`): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)<br>validates an given access token |
+| [create](create.md) | `abstract fun create(authorizationCode: `[`AuthorizationCode`](../-authorization-code/index.md)`): Result<`[`AccessTokenContainer`](../../org.http4k.security/-access-token-container/index.md)`, `[`AuthorizationCodeAlreadyUsed`](../-authorization-code-already-used.md)`>`<br>Creates a new access token for a valid authorization code.`abstract fun create(clientId: `[`ClientId`](../-client-id/index.md)`): Result<`[`AccessTokenContainer`](../../org.http4k.security/-access-token-container/index.md)`, `[`AccessTokenError`](../-access-token-error.md)`>`<br>creates a new access token for a given client. |
 
 ### Extension Functions
 

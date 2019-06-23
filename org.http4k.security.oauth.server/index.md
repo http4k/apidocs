@@ -7,7 +7,7 @@
 | Name | Summary |
 |---|---|
 | [AccessTokenError](-access-token-error.md) | `sealed class AccessTokenError : `[`OAuthError`](-o-auth-error/index.md) |
-| [AccessTokens](-access-tokens/index.md) | `interface AccessTokens`<br>Provides a consistent way to generate access tokens |
+| [AccessTokens](-access-tokens/index.md) | `interface AccessTokens`<br>Provides a consistent way to generate access tokens. |
 | [AuthenticationComplete](-authentication-complete/index.md) | `class AuthenticationComplete : `[`HttpHandler`](../org.http4k.core/-http-handler.md) |
 | [AuthorizationCode](-authorization-code/index.md) | `data class AuthorizationCode` |
 | [AuthorizationCodeAlreadyUsed](-authorization-code-already-used.md) | `object AuthorizationCodeAlreadyUsed : `[`AccessTokenError`](-access-token-error.md) |
@@ -39,9 +39,3 @@
 | [UnsupportedGrantType](-unsupported-grant-type/index.md) | `data class UnsupportedGrantType : `[`AccessTokenError`](-access-token-error.md) |
 | [UnsupportedResponseType](-unsupported-response-type/index.md) | `data class UnsupportedResponseType : `[`AuthorizationError`](-authorization-error.md) |
 | [UserRejectedRequest](-user-rejected-request.md) | `object UserRejectedRequest : `[`AuthorizationError`](-authorization-error.md) |
-
-### Functions
-
-| Name | Summary |
-|---|---|
-| [AccessTokenValidationFilter](-access-token-validation-filter.md) | `fun AccessTokenValidationFilter(accessTokens: `[`AccessTokens`](-access-tokens/index.md)`): `[`Filter`](../org.http4k.core/-filter/index.md) |

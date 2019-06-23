@@ -21,7 +21,6 @@ References:
 
 | Name | Summary |
 |---|---|
-| [accessFilter](access-filter.md) | `val accessFilter: `[`Filter`](../../org.http4k.core/-filter/index.md) |
 | [authenticationComplete](authentication-complete.md) | `val authenticationComplete: `[`AuthenticationComplete`](../-authentication-complete/index.md) |
 | [authenticationStart](authentication-start.md) | `val authenticationStart: `[`Filter`](../../org.http4k.core/-filter/index.md) |
 | [tokenRoute](token-route.md) | `val tokenRoute: `[`RoutingHttpHandler`](../../org.http4k.routing/-routing-http-handler/index.md) |

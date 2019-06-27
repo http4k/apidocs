@@ -6,5 +6,5 @@
 
 Overrides [OAuthPersistence.retrieveToken](../-o-auth-persistence/retrieve-token.md)
 
-Retrieve the stored AccessTokenContainer token for this user request
+Retrieve the stored AccessToken token for this user request
 

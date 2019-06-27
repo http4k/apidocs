@@ -6,6 +6,6 @@
 
 Overrides [OAuthPersistence.assignToken](../-o-auth-persistence/assign-token.md)
 
-Assign the swapped AccessTokenContainer returned by the end-service. Opportunity here to modify the
+Assign the swapped AccessToken returned by the end-service. Opportunity here to modify the
 response returned to the user when the redirection happens.
 

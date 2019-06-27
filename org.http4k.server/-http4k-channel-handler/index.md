@@ -2,7 +2,7 @@
 
 # Http4kChannelHandler
 
-`class Http4kChannelHandler : `[`SimpleChannelInboundHandler`](https://netty.io/4.1/api/io/netty/channel/SimpleChannelInboundHandler.html)`<`[`FullHttpRequest`](https://netty.io/4.1/api/io/netty/handler/codec/http/FullHttpRequest.html)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-server-netty/src/main/kotlin/org/http4k/server/Netty.kt#L42)
+`class Http4kChannelHandler : `[`SimpleChannelInboundHandler`](https://netty.io/4.1/api/io/netty/channel/SimpleChannelInboundHandler.html)`<`[`FullHttpRequest`](https://netty.io/4.1/api/io/netty/handler/codec/http/FullHttpRequest.html)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-server-netty/src/main/kotlin/org/http4k/server/Netty.kt#L43)
 
 Exposed to allow for insertion into a customised Netty server instance
 

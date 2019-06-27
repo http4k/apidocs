@@ -2,7 +2,7 @@
 
 # toServer
 
-`fun toServer(httpHandler: `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`): `[`Http4kServer`](../-http4k-server/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-server-netty/src/main/kotlin/org/http4k/server/Netty.kt#L67)
+`fun toServer(httpHandler: `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`): `[`Http4kServer`](../-http4k-server/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-server-netty/src/main/kotlin/org/http4k/server/Netty.kt#L68)
 
 Overrides [ServerConfig.toServer](../-server-config/to-server.md)
 

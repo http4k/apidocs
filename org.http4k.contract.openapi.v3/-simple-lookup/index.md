@@ -2,7 +2,7 @@
 
 # SimpleLookup
 
-`object SimpleLookup : `[`FieldRetrieval`](../-field-retrieval/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/openapi/v3/FieldRetrieval.kt#L24)
+`object SimpleLookup : `[`FieldRetrieval`](../-field-retrieval/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/openapi/v3/FieldRetrieval.kt#L22)
 
 ### Functions
 

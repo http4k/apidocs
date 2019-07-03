@@ -2,7 +2,7 @@
 
 # Delay
 
-`object Delay` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosTriggers.kt#L102)
+`object Delay` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosTriggers.kt#L101)
 
 Activates after a particular delay (compared to instantiation).
 

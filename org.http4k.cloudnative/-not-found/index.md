@@ -2,7 +2,7 @@
 
 # NotFound
 
-`class NotFound : `[`UpstreamRequestFailed`](../-upstream-request-failed/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/UpstreamRequestFailed.kt#L17)
+`class NotFound : `[`UpstreamRequestFailed`](../-upstream-request-failed/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/UpstreamRequestFailed.kt#L18)
 
 ### Constructors
 

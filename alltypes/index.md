@@ -159,6 +159,7 @@
 | [org.http4k.core.etag.FieldValue](../org.http4k.core.etag/-field-value/index.md) |  |
 | [org.http4k.testing.FileSystemApprovalSource](../org.http4k.testing/-file-system-approval-source/index.md) |  |
 | [org.http4k.core.Filter](../org.http4k.core/-filter/index.md) |  |
+| [org.http4k.cloudnative.Forbidden](../org.http4k.cloudnative/-forbidden/index.md) |  |
 | [org.http4k.core.body.Form](../org.http4k.core.body/-form.md) |  |
 | [org.http4k.lens.FormField](../org.http4k.lens/-form-field.md) |  |
 | [org.http4k.core.FormFile](../org.http4k.core/-form-file/index.md) |  |

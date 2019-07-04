@@ -2,7 +2,7 @@
 
 # UpstreamRequestFailed
 
-`open class UpstreamRequestFailed : `[`RuntimeException`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-runtime-exception/index.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/UpstreamRequestFailed.kt#L15)
+`open class UpstreamRequestFailed : `[`RuntimeException`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-runtime-exception/index.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/UpstreamRequestFailed.kt#L16)
 
 This hierarchy of exceptions should be used to indicate that an upstream remote system has failed with a
 non-successful status code which caused us to stop processing. They are designed to be used with the
@@ -32,6 +32,7 @@ upstream.
 | Name | Summary |
 |---|---|
 | [ClientTimeout](../-client-timeout/index.md) | `class ClientTimeout : `[`UpstreamRequestFailed`](./index.md) |
+| [Forbidden](../-forbidden/index.md) | `class Forbidden : `[`UpstreamRequestFailed`](./index.md) |
 | [GatewayTimeout](../-gateway-timeout/index.md) | `class GatewayTimeout : `[`UpstreamRequestFailed`](./index.md) |
 | [NotFound](../-not-found/index.md) | `class NotFound : `[`UpstreamRequestFailed`](./index.md) |
 | [Unauthorized](../-unauthorized/index.md) | `class Unauthorized : `[`UpstreamRequestFailed`](./index.md) |

@@ -1,14 +1,14 @@
-[http4k](../../index.md) / [org.http4k.cloudnative](../index.md) / [Unauthorized](./index.md)
+[http4k](../../index.md) / [org.http4k.cloudnative](../index.md) / [Forbidden](./index.md)
 
-# Unauthorized
+# Forbidden
 
-`class Unauthorized : `[`UpstreamRequestFailed`](../-upstream-request-failed/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/UpstreamRequestFailed.kt#L22)
+`class Forbidden : `[`UpstreamRequestFailed`](../-upstream-request-failed/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/UpstreamRequestFailed.kt#L24)
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `Unauthorized(message: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`)` |
+| [&lt;init&gt;](-init-.md) | `Forbidden(message: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`)` |
 
 ### Inherited Properties
 

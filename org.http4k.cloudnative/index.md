@@ -13,6 +13,7 @@
 | Name | Summary |
 |---|---|
 | [ClientTimeout](-client-timeout/index.md) | `class ClientTimeout : `[`UpstreamRequestFailed`](-upstream-request-failed/index.md) |
+| [Forbidden](-forbidden/index.md) | `class Forbidden : `[`UpstreamRequestFailed`](-upstream-request-failed/index.md) |
 | [GatewayTimeout](-gateway-timeout/index.md) | `class GatewayTimeout : `[`UpstreamRequestFailed`](-upstream-request-failed/index.md) |
 | [NotFound](-not-found/index.md) | `class NotFound : `[`UpstreamRequestFailed`](-upstream-request-failed/index.md) |
 | [Unauthorized](-unauthorized/index.md) | `class Unauthorized : `[`UpstreamRequestFailed`](-upstream-request-failed/index.md) |

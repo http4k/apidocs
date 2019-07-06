@@ -2,4 +2,4 @@
 
 # invoke
 
-`operator fun invoke(endTime: `[`Instant`](https://docs.oracle.com/javase/9/docs/api/java/time/Instant.html)`, clock: `[`Clock`](https://docs.oracle.com/javase/9/docs/api/java/time/Clock.html)`): `[`Trigger`](../../-trigger.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosTriggers.kt#L92)
+`operator fun invoke(endTime: `[`Instant`](https://docs.oracle.com/javase/9/docs/api/java/time/Instant.html)`, clock: `[`Clock`](https://docs.oracle.com/javase/9/docs/api/java/time/Clock.html)` = systemUTC()): `[`Trigger`](../../-trigger.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosTriggers.kt#L93)

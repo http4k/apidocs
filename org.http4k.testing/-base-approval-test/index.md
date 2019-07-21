@@ -2,7 +2,7 @@
 
 # BaseApprovalTest
 
-`interface BaseApprovalTest : `[`BeforeTestExecutionCallback`](https://junit.org/junit5/docs/5.4.2/api/org/junit/jupiter/api/extension/BeforeTestExecutionCallback.html)`, `[`ParameterResolver`](https://junit.org/junit5/docs/5.4.2/api/org/junit/jupiter/api/extension/ParameterResolver.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-approval/src/main/kotlin/org/http4k/testing/ApprovalTest.kt#L29)
+`interface BaseApprovalTest : `[`BeforeTestExecutionCallback`](https://junit.org/junit5/docs/5.5.1/api/org/junit/jupiter/api/extension/BeforeTestExecutionCallback.html)`, `[`ParameterResolver`](https://junit.org/junit5/docs/5.5.1/api/org/junit/jupiter/api/extension/ParameterResolver.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-approval/src/main/kotlin/org/http4k/testing/ApprovalTest.kt#L29)
 
 Base JUnit extension for injecting an Approver into a JUnit5 test-case. Implement this
 to provide custom approval behaviours, or
@@ -11,10 +11,10 @@ to provide custom approval behaviours, or
 
 | Name | Summary |
 |---|---|
-| [approverFor](approver-for.md) | `abstract fun approverFor(context: `[`ExtensionContext`](https://junit.org/junit5/docs/5.4.2/api/org/junit/jupiter/api/extension/ExtensionContext.html)`): `[`Approver`](../-approver/index.md) |
-| [beforeTestExecution](before-test-execution.md) | `open fun beforeTestExecution(context: `[`ExtensionContext`](https://junit.org/junit5/docs/5.4.2/api/org/junit/jupiter/api/extension/ExtensionContext.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
-| [resolveParameter](resolve-parameter.md) | `open fun resolveParameter(parameterContext: `[`ParameterContext`](https://junit.org/junit5/docs/5.4.2/api/org/junit/jupiter/api/extension/ParameterContext.html)`, context: `[`ExtensionContext`](https://junit.org/junit5/docs/5.4.2/api/org/junit/jupiter/api/extension/ExtensionContext.html)`): `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`?` |
-| [supportsParameter](supports-parameter.md) | `open fun supportsParameter(parameterContext: `[`ParameterContext`](https://junit.org/junit5/docs/5.4.2/api/org/junit/jupiter/api/extension/ParameterContext.html)`, context: `[`ExtensionContext`](https://junit.org/junit5/docs/5.4.2/api/org/junit/jupiter/api/extension/ExtensionContext.html)`): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
+| [approverFor](approver-for.md) | `abstract fun approverFor(context: `[`ExtensionContext`](https://junit.org/junit5/docs/5.5.1/api/org/junit/jupiter/api/extension/ExtensionContext.html)`): `[`Approver`](../-approver/index.md) |
+| [beforeTestExecution](before-test-execution.md) | `open fun beforeTestExecution(context: `[`ExtensionContext`](https://junit.org/junit5/docs/5.5.1/api/org/junit/jupiter/api/extension/ExtensionContext.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| [resolveParameter](resolve-parameter.md) | `open fun resolveParameter(parameterContext: `[`ParameterContext`](https://junit.org/junit5/docs/5.5.1/api/org/junit/jupiter/api/extension/ParameterContext.html)`, context: `[`ExtensionContext`](https://junit.org/junit5/docs/5.5.1/api/org/junit/jupiter/api/extension/ExtensionContext.html)`): `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`?` |
+| [supportsParameter](supports-parameter.md) | `open fun supportsParameter(parameterContext: `[`ParameterContext`](https://junit.org/junit5/docs/5.5.1/api/org/junit/jupiter/api/extension/ParameterContext.html)`, context: `[`ExtensionContext`](https://junit.org/junit5/docs/5.5.1/api/org/junit/jupiter/api/extension/ExtensionContext.html)`): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
 
 ### Extension Functions
 

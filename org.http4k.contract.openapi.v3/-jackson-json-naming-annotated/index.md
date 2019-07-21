@@ -1,8 +1,8 @@
-[http4k](../../index.md) / [org.http4k.contract.openapi.v3](../index.md) / [JacksonAnnotated](./index.md)
+[http4k](../../index.md) / [org.http4k.contract.openapi.v3](../index.md) / [JacksonJsonNamingAnnotated](./index.md)
 
-# JacksonAnnotated
+# JacksonJsonNamingAnnotated
 
-`object JacksonAnnotated : `[`FieldRetrieval`](../-field-retrieval/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/openapi/v3/jacksonExt.kt#L16)
+`object JacksonJsonNamingAnnotated : `[`FieldRetrieval`](../-field-retrieval/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/openapi/v3/jacksonExt.kt#L41)
 
 ### Functions
 

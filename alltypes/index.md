@@ -219,7 +219,8 @@
 | [org.http4k.format.InvalidJsonException](../org.http4k.format/-invalid-json-exception/index.md) |  |
 | [org.http4k.security.oauth.server.InvalidRedirectUri](../org.http4k.security.oauth.server/-invalid-redirect-uri.md) |  |
 | [org.http4k.format.Jackson](../org.http4k.format/-jackson.md) | To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called. |
-| [org.http4k.contract.openapi.v3.JacksonAnnotated](../org.http4k.contract.openapi.v3/-jackson-annotated/index.md) |  |
+| [org.http4k.contract.openapi.v3.JacksonJsonNamingAnnotated](../org.http4k.contract.openapi.v3/-jackson-json-naming-annotated/index.md) |  |
+| [org.http4k.contract.openapi.v3.JacksonJsonPropertyAnnotated](../org.http4k.contract.openapi.v3/-jackson-json-property-annotated/index.md) |  |
 | [org.http4k.format.JacksonXml](../org.http4k.format/-jackson-xml.md) | To implement custom XML configuration, create your own object singleton. Extra mappings can be added before done() is called. |
 | [org.http4k.filter.JacksonXmlGenerateXmlDataClasses](../org.http4k.filter/-jackson-xml-generate-xml-data-classes/index.md) | Provides an implementation of GenerateXmlDataClasses using GSON as an engine. |
 | [org.http4k.client.JavaHttpClient](../org.http4k.client/-java-http-client/index.md) |  |

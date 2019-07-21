@@ -14,7 +14,8 @@
 | [Field](-field/index.md) | `data class Field` |
 | [FieldRetrieval](-field-retrieval/index.md) | `interface FieldRetrieval : (`[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`) -> `[`Field`](-field/index.md) |
 | [HasSchema](-has-schema/index.md) | `interface HasSchema<NODE>` |
-| [JacksonAnnotated](-jackson-annotated/index.md) | `object JacksonAnnotated : `[`FieldRetrieval`](-field-retrieval/index.md) |
+| [JacksonJsonNamingAnnotated](-jackson-json-naming-annotated/index.md) | `object JacksonJsonNamingAnnotated : `[`FieldRetrieval`](-field-retrieval/index.md) |
+| [JacksonJsonPropertyAnnotated](-jackson-json-property-annotated/index.md) | `object JacksonJsonPropertyAnnotated : `[`FieldRetrieval`](-field-retrieval/index.md) |
 | [JsonToJsonSchema](-json-to-json-schema/index.md) | `class JsonToJsonSchema<NODE> : `[`JsonSchemaCreator`](../org.http4k.util/-json-schema-creator/index.md)`<`[`NODE`](-json-to-json-schema/index.md#NODE)`, `[`NODE`](-json-to-json-schema/index.md#NODE)`>` |
 | [OpenApi3](-open-api3/index.md) | `class OpenApi3<NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`ContractRenderer`](../org.http4k.contract/-contract-renderer/index.md)`, `[`ErrorResponseRenderer`](../org.http4k.contract/-error-response-renderer/index.md)<br>Contract renderer for OpenApi3 format JSON. For the JSON schema generation, naming of object models will default to either reflective or hashcode based depending on if a Auto Json is passed. |
 | [OpenApi3ApiRenderer](-open-api3-api-renderer/index.md) | `class OpenApi3ApiRenderer<NODE> : `[`ApiRenderer`](../org.http4k.contract.openapi/-api-renderer/index.md)`<`[`Api`](-api/index.md)`<`[`NODE`](-open-api3-api-renderer/index.md#NODE)`>, `[`NODE`](-open-api3-api-renderer/index.md#NODE)`>`<br>Converts a API to OpenApi3 format JSON. |
@@ -30,6 +31,12 @@
 | Name | Summary |
 |---|---|
 | [NoFieldFound](-no-field-found/index.md) | `class NoFieldFound : `[`Exception`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-exception/index.html) |
+
+### Properties
+
+| Name | Summary |
+|---|---|
+| [JacksonAnnotated](-jackson-annotated.md) | `val JacksonAnnotated: `[`FieldRetrieval`](-field-retrieval/index.md) |
 
 ### Functions
 

@@ -20,5 +20,6 @@
 
 | Name | Summary |
 |---|---|
-| [JacksonAnnotated](../-jackson-annotated/index.md) | `object JacksonAnnotated : `[`FieldRetrieval`](./index.md) |
+| [JacksonJsonNamingAnnotated](../-jackson-json-naming-annotated/index.md) | `object JacksonJsonNamingAnnotated : `[`FieldRetrieval`](./index.md) |
+| [JacksonJsonPropertyAnnotated](../-jackson-json-property-annotated/index.md) | `object JacksonJsonPropertyAnnotated : `[`FieldRetrieval`](./index.md) |
 | [SimpleLookup](../-simple-lookup/index.md) | `object SimpleLookup : `[`FieldRetrieval`](./index.md) |

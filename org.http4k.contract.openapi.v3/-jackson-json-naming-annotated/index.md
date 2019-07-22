@@ -2,7 +2,7 @@
 
 # JacksonJsonNamingAnnotated
 
-`object JacksonJsonNamingAnnotated : `[`FieldRetrieval`](../-field-retrieval/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/openapi/v3/jacksonExt.kt#L41)
+`object JacksonJsonNamingAnnotated : `[`FieldRetrieval`](../-field-retrieval/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/openapi/v3/jacksonExt.kt#L43)
 
 ### Functions
 

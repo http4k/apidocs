@@ -36,7 +36,7 @@
 
 | Name | Summary |
 |---|---|
-| [JacksonAnnotated](-jackson-annotated.md) | `val JacksonAnnotated: `[`FieldRetrieval`](-field-retrieval/index.md) |
+| [JacksonAnnotated](-jackson-annotated.md) | `val JacksonAnnotated: `[`FieldRetrieval`](-field-retrieval/index.md)<br>Composite strategies for handling Jackson annotations in field retreival |
 
 ### Functions
 

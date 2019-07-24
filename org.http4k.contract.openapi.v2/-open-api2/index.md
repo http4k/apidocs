@@ -2,7 +2,7 @@
 
 # OpenApi2
 
-`open class OpenApi2<out NODE> : `[`ContractRenderer`](../../org.http4k.contract/-contract-renderer/index.md)`, `[`ErrorResponseRenderer`](../../org.http4k.contract/-error-response-renderer/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/openapi/v2/OpenApi2.kt#L31)
+`open class OpenApi2<out NODE> : `[`ContractRenderer`](../../org.http4k.contract/-contract-renderer/index.md)`, `[`ErrorResponseRenderer`](../../org.http4k.contract/-error-response-renderer/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/openapi/v2/OpenApi2.kt#L32)
 
 Contract renderer for OpenApi2 format JSON. Note that for the JSON schema generation, auto-naming of
 object models is used as the input relies on JSON objects and not JVM classees.
@@ -11,7 +11,7 @@ object models is used as the input relies on JSON objects and not JVM classees.
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `OpenApi2(apiInfo: `[`ApiInfo`](../../org.http4k.contract.openapi/-api-info/index.md)`, json: `[`Json`](../../org.http4k.format/-json/index.md)`<`[`NODE`](index.md#NODE)`>, securityRenderer: `[`SecurityRenderer`](../../org.http4k.contract.openapi/-security-renderer/index.md)` = OpenApi2SecurityRenderer, schemaGenerator: `[`JsonSchemaCreator`](../../org.http4k.util/-json-schema-creator/index.md)`<`[`NODE`](index.md#NODE)`, `[`NODE`](index.md#NODE)`> = JsonToJsonSchema(json), errorResponseRenderer: `[`ErrorResponseRenderer`](../../org.http4k.contract/-error-response-renderer/index.md)` = JsonErrorResponseRenderer(json))`<br>Contract renderer for OpenApi2 format JSON. Note that for the JSON schema generation, auto-naming of object models is used as the input relies on JSON objects and not JVM classees. |
+| [&lt;init&gt;](-init-.md) | `OpenApi2(apiInfo: `[`ApiInfo`](../../org.http4k.contract.openapi/-api-info/index.md)`, json: `[`Json`](../../org.http4k.format/-json/index.md)`<`[`NODE`](index.md#NODE)`>, baseUri: `[`Uri`](../../org.http4k.core/-uri/index.md)`? = null, securityRenderer: `[`SecurityRenderer`](../../org.http4k.contract.openapi/-security-renderer/index.md)` = OpenApi2SecurityRenderer, schemaGenerator: `[`JsonSchemaCreator`](../../org.http4k.util/-json-schema-creator/index.md)`<`[`NODE`](index.md#NODE)`, `[`NODE`](index.md#NODE)`> = JsonToJsonSchema(json), errorResponseRenderer: `[`ErrorResponseRenderer`](../../org.http4k.contract/-error-response-renderer/index.md)` = JsonErrorResponseRenderer(json))`<br>Contract renderer for OpenApi2 format JSON. Note that for the JSON schema generation, auto-naming of object models is used as the input relies on JSON objects and not JVM classees. |
 
 ### Functions
 

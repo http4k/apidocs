@@ -10,7 +10,7 @@ Code for defining typesafe HTTP contracts. Contains subpackages for OpenAPI v2 a
 |---|---|
 | [ContractBuilder](-contract-builder/index.md) | `class ContractBuilder` |
 | [ContractRenderer](-contract-renderer/index.md) | `interface ContractRenderer : `[`ErrorResponseRenderer`](-error-response-renderer/index.md) |
-| [ContractRoute](-contract-route/index.md) | `class ContractRoute` |
+| [ContractRoute](-contract-route/index.md) | `class ContractRoute : `[`HttpHandler`](../org.http4k.core/-http-handler.md) |
 | [ContractRouteSpec](-contract-route-spec/index.md) | `abstract class ContractRouteSpec` |
 | [ContractRouteSpec0](-contract-route-spec0/index.md) | `class ContractRouteSpec0 : `[`ContractRouteSpec`](-contract-route-spec/index.md) |
 | [ContractRouteSpec1](-contract-route-spec1/index.md) | `class ContractRouteSpec1<out A> : `[`ContractRouteSpec`](-contract-route-spec/index.md) |

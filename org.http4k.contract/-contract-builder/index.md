@@ -2,13 +2,14 @@
 
 # ContractBuilder
 
-`class ContractBuilder` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/extensions.kt#L19)
+`class ContractBuilder` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/extensions.kt#L20)
 
 ### Properties
 
 | Name | Summary |
 |---|---|
 | [descriptionPath](description-path.md) | `var descriptionPath: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [includeDescriptionRoute](include-description-route.md) | `var includeDescriptionRoute: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
 | [postSecurityFilter](post-security-filter.md) | `var postSecurityFilter: `[`Filter`](../../org.http4k.core/-filter/index.md) |
 | [preFlightExtraction](pre-flight-extraction.md) | `var preFlightExtraction: `[`PreFlightExtraction`](../-pre-flight-extraction/index.md) |
 | [preSecurityFilter](pre-security-filter.md) | `var preSecurityFilter: `[`Filter`](../../org.http4k.core/-filter/index.md) |

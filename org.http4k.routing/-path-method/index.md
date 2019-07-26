@@ -2,7 +2,7 @@
 
 # PathMethod
 
-`data class PathMethod` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/routing/routing.kt#L75)
+`data class PathMethod` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/routing/routing.kt#L81)
 
 ### Constructors
 

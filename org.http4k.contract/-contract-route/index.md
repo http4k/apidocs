@@ -2,7 +2,7 @@
 
 # ContractRoute
 
-`class ContractRoute : `[`HttpHandler`](../../org.http4k.core/-http-handler.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/ContractRoute.kt#L17)
+`class ContractRoute : `[`HttpHandler`](../../org.http4k.core/-http-handler.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/ContractRoute.kt#L20)
 
 ### Properties
 
@@ -19,7 +19,7 @@
 | Name | Summary |
 |---|---|
 | [describeFor](describe-for.md) | `fun describeFor(contractRoot: `[`PathSegments`](../-path-segments/index.md)`): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
-| [invoke](invoke.md) | `fun invoke(p1: `[`Request`](../../org.http4k.core/-request/index.md)`): `[`Response`](../../org.http4k.core/-response/index.md) |
+| [invoke](invoke.md) | `fun invoke(p1: `[`Request`](../../org.http4k.core/-request/index.md)`): `[`Response`](../../org.http4k.core/-response/index.md)<br>ContractRoutes are chiefly designed to operate within a contract {} block and not directly as an HttpHandler, but this function exists to enable the testing of the ContractRoute logic outside of a wider contract context. This means that certain behaviour is defaulted - chiefly the generation of NOT_FOUND and BAD_REQUEST responses. |
 | [newRequest](new-request.md) | `fun newRequest(baseUri: `[`Uri`](../../org.http4k.core/-uri/index.md)`): `[`Request`](../../org.http4k.core/-request/index.md) |
 | [toString](to-string.md) | `fun toString(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 

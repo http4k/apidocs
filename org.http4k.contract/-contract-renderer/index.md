@@ -14,7 +14,7 @@
 
 | Name | Summary |
 |---|---|
-| [badRequest](../-error-response-renderer/bad-request.md) | `open fun badRequest(failures: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`Failure`](../../org.http4k.lens/-failure/index.md)`>): `[`Response`](../../org.http4k.core/-response/index.md) |
+| [badRequest](../-error-response-renderer/bad-request.md) | `open fun badRequest(lensFailure: `[`LensFailure`](../../org.http4k.lens/-lens-failure/index.md)`): `[`Response`](../../org.http4k.core/-response/index.md) |
 | [notFound](../-error-response-renderer/not-found.md) | `open fun notFound(): `[`Response`](../../org.http4k.core/-response/index.md) |
 
 ### Extension Functions

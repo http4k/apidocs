@@ -249,6 +249,7 @@
 | [org.http4k.lens.Lens](../org.http4k.lens/-lens/index.md) | A Lens provides the uni-directional extraction of an entity from a target. |
 | [org.http4k.lens.LensExtractor](../org.http4k.lens/-lens-extractor/index.md) |  |
 | [org.http4k.lens.LensFailure](../org.http4k.lens/-lens-failure/index.md) |  |
+| [org.http4k.lens.LensFailures](../org.http4k.lens/-lens-failures/index.md) |  |
 | [org.http4k.lens.LensGet](../org.http4k.lens/-lens-get/index.md) |  |
 | [org.http4k.lens.LensInjector](../org.http4k.lens/-lens-injector/index.md) |  |
 | [org.http4k.lens.LensSet](../org.http4k.lens/-lens-set/index.md) |  |

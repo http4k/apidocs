@@ -344,7 +344,7 @@
 | [org.http4k.filter.ResilienceFilters](../org.http4k.filter/-resilience-filters/index.md) |  |
 | [org.http4k.routing.experimental.Resource](../org.http4k.routing.experimental/-resource/index.md) |  |
 | [org.http4k.routing.experimental.ResourceListingHandler](../org.http4k.routing.experimental/-resource-listing-handler/index.md) |  |
-| [org.http4k.routing.ResourceLoader](../org.http4k.routing/-resource-loader/index.md) |  |
+| [org.http4k.routing.ResourceLoader](../org.http4k.routing/-resource-loader/index.md) | Looks up contents of a resource path. |
 | [org.http4k.routing.experimental.ResourceLoaders](../org.http4k.routing.experimental/-resource-loaders/index.md) |  |
 | [org.http4k.routing.experimental.ResourceLoading](../org.http4k.routing.experimental/-resource-loading/index.md) | A little convenience thunk to simplify implementing [Router](../org.http4k.routing/-router/index.md) for resource loaders. |
 | [org.http4k.routing.experimental.ResourceSummary](../org.http4k.routing.experimental/-resource-summary/index.md) |  |

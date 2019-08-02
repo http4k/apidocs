@@ -2,7 +2,12 @@
 
 # ResourceLoader
 
-`interface ResourceLoader` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/routing/ResourceLoader.kt#L6)
+`interface ResourceLoader` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/routing/ResourceLoader.kt#L12)
+
+Looks up contents of a resource path.
+
+WARNING: A ResourceLoader serves ANY resource it finds within it's structure. This means that you should be
+VERY careful to limit what resources it has access to.
 
 ### Functions
 

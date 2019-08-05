@@ -6,3 +6,5 @@
 
 Overrides [Request.query](../../org.http4k.core/-request/query.md)
 
+(Copy &amp;) Adds a query value with this name.
+

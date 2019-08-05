@@ -6,3 +6,5 @@
 
 Overrides [Request.headers](../../org.http4k.core/-request/headers.md)
 
+(Copy &amp;) Add all passed headers.
+

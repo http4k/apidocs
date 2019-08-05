@@ -6,3 +6,5 @@
 
 Overrides [Request.uri](../../org.http4k.core/-request/uri.md)
 
+(Copy &amp;) sets the Uri.
+

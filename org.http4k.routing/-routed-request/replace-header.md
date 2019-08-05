@@ -6,3 +6,5 @@
 
 Overrides [Request.replaceHeader](../../org.http4k.core/-request/replace-header.md)
 
+(Copy &amp;) Adds a header value with this name, replacing any previously set values.
+

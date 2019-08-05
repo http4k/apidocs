@@ -6,3 +6,5 @@
 
 Overrides [Request.method](../../org.http4k.core/-request/method.md)
 
+(Copy &amp;) sets the method.
+

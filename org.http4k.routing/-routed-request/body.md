@@ -16,3 +16,5 @@ Overrides [Request.body](../../org.http4k.core/-request/body.md)
 
 Overrides [Request.body](../../org.http4k.core/-request/body.md)
 
+(Copy &amp;) sets the body content.
+

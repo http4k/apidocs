@@ -2,7 +2,9 @@
 
 # headers
 
-`abstract fun headers(headers: `[`Headers`](../-headers.md)`): `[`Response`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L204)
+`abstract fun headers(headers: `[`Headers`](../-headers.md)`): `[`Response`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L259)
 
 Overrides [HttpMessage.headers](../-http-message/headers.md)
+
+(Copy &amp;) Add all passed headers.
 

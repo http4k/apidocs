@@ -2,4 +2,4 @@
 
 # bigInteger
 
-`abstract fun <OUT> bigInteger(mapping: `[`BiDiMapping`](../../org.http4k.lens/-bi-di-mapping/index.md)`<`[`BigInteger`](https://docs.oracle.com/javase/9/docs/api/java/math/BigInteger.html)`, `[`OUT`](big-integer.md#OUT)`>): `[`AutoMappingConfiguration`](index.md)`<`[`T`](index.md#T)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/format/AutoMappingConfiguration.kt#L17)
+`abstract fun <OUT> bigInteger(mapping: `[`BiDiMapping`](../../org.http4k.lens/-bi-di-mapping/index.md)`<`[`BigInteger`](https://docs.oracle.com/javase/9/docs/api/java/math/BigInteger.html)`, `[`OUT`](big-integer.md#OUT)`>): `[`AutoMappingConfiguration`](index.md)`<`[`T`](index.md#T)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/format/AutoMappingConfiguration.kt#L28)

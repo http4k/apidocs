@@ -2,7 +2,7 @@
 
 # AutoMappingConfiguration
 
-`interface AutoMappingConfiguration<T>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/format/AutoMappingConfiguration.kt#L12)
+`interface AutoMappingConfiguration<T>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/format/AutoMappingConfiguration.kt#L23)
 
 This is the generic interface used to configure auto-mapping functionality for message format libraries.
 The various methods here can be used to provide custom mapping behaviour (say for domain classes).

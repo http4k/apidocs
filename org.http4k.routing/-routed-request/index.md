@@ -20,17 +20,17 @@
 
 | Name | Summary |
 |---|---|
-| [body](body.md) | `fun body(body: `[`Body`](../../org.http4k.core/-body/index.md)`): `[`Request`](../../org.http4k.core/-request/index.md)<br>`fun body(body: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Request`](../../org.http4k.core/-request/index.md)<br>`fun body(body: `[`InputStream`](https://docs.oracle.com/javase/9/docs/api/java/io/InputStream.html)`, length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`?): `[`Request`](../../org.http4k.core/-request/index.md) |
+| [body](body.md) | `fun body(body: `[`Body`](../../org.http4k.core/-body/index.md)`): `[`Request`](../../org.http4k.core/-request/index.md)<br>`fun body(body: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Request`](../../org.http4k.core/-request/index.md)<br>`fun body(body: `[`InputStream`](https://docs.oracle.com/javase/9/docs/api/java/io/InputStream.html)`, length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`?): `[`Request`](../../org.http4k.core/-request/index.md)<br>(Copy &amp;) sets the body content. |
 | [equals](equals.md) | `fun equals(other: `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`?): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
 | [hashCode](hash-code.md) | `fun hashCode(): `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
-| [header](header.md) | `fun header(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`Request`](../../org.http4k.core/-request/index.md) |
-| [headers](headers.md) | `fun headers(headers: `[`Headers`](../../org.http4k.core/-headers.md)`): `[`Request`](../../org.http4k.core/-request/index.md) |
-| [method](method.md) | `fun method(method: `[`Method`](../../org.http4k.core/-method/index.md)`): `[`Request`](../../org.http4k.core/-request/index.md) |
-| [query](query.md) | `fun query(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Request`](../../org.http4k.core/-request/index.md) |
-| [removeHeader](remove-header.md) | `fun removeHeader(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Request`](../../org.http4k.core/-request/index.md) |
-| [replaceHeader](replace-header.md) | `fun replaceHeader(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`Request`](../../org.http4k.core/-request/index.md) |
+| [header](header.md) | `fun header(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`Request`](../../org.http4k.core/-request/index.md)<br>(Copy &amp;) Adds a header value with this name. |
+| [headers](headers.md) | `fun headers(headers: `[`Headers`](../../org.http4k.core/-headers.md)`): `[`Request`](../../org.http4k.core/-request/index.md)<br>(Copy &amp;) Add all passed headers. |
+| [method](method.md) | `fun method(method: `[`Method`](../../org.http4k.core/-method/index.md)`): `[`Request`](../../org.http4k.core/-request/index.md)<br>(Copy &amp;) sets the method. |
+| [query](query.md) | `fun query(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Request`](../../org.http4k.core/-request/index.md)<br>(Copy &amp;) Adds a query value with this name. |
+| [removeHeader](remove-header.md) | `fun removeHeader(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Request`](../../org.http4k.core/-request/index.md)<br>(Copy &amp;) remove headers with this name. |
+| [replaceHeader](replace-header.md) | `fun replaceHeader(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`Request`](../../org.http4k.core/-request/index.md)<br>(Copy &amp;) Adds a header value with this name, replacing any previously set values. |
 | [toString](to-string.md) | `fun toString(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
-| [uri](uri.md) | `fun uri(uri: `[`Uri`](../../org.http4k.core/-uri/index.md)`): `[`Request`](../../org.http4k.core/-request/index.md) |
+| [uri](uri.md) | `fun uri(uri: `[`Uri`](../../org.http4k.core/-uri/index.md)`): `[`Request`](../../org.http4k.core/-request/index.md)<br>(Copy &amp;) sets the Uri. |
 
 ### Extension Functions
 

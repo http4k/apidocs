@@ -16,3 +16,5 @@ Overrides [Response.body](../../org.http4k.core/-response/body.md)
 
 Overrides [Response.body](../../org.http4k.core/-response/body.md)
 
+(Copy &amp;) sets the body content.
+

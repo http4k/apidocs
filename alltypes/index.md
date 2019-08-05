@@ -199,7 +199,7 @@
 | [org.http4k.webdriver.Http4kWebDriver](../org.http4k.webdriver/-http4k-web-driver/index.md) |  |
 | [org.http4k.core.HttpHandler](../org.http4k.core/-http-handler.md) |  |
 | [org.http4k.servlet.HttpHandlerServlet](../org.http4k.servlet/-http-handler-servlet/index.md) |  |
-| [org.http4k.core.HttpMessage](../org.http4k.core/-http-message/index.md) |  |
+| [org.http4k.core.HttpMessage](../org.http4k.core/-http-message/index.md) | HttpMessages are designed to be immutable, so any mutation methods return a modified copy of the message. |
 | [org.http4k.contract.HttpMessageMeta](../org.http4k.contract/-http-message-meta/index.md) |  |
 | [org.http4k.core.HttpTransaction](../org.http4k.core/-http-transaction/index.md) |  |
 | [org.http4k.filter.HttpTransactionLabeller](../org.http4k.filter/-http-transaction-labeller.md) |  |

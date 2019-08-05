@@ -6,3 +6,5 @@
 
 Overrides [Response.removeHeader](../../org.http4k.core/-response/remove-header.md)
 
+(Copy &amp;) remove headers with this name.
+

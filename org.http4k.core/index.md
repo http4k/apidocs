@@ -16,7 +16,7 @@ The core abstractions for the http4k library.
 | [EventCategory](-event-category/index.md) | `data class EventCategory` |
 | [Filter](-filter/index.md) | `interface Filter : (`[`HttpHandler`](-http-handler.md)`) -> `[`HttpHandler`](-http-handler.md) |
 | [FormFile](-form-file/index.md) | `data class FormFile : `[`Closeable`](https://docs.oracle.com/javase/9/docs/api/java/io/Closeable.html) |
-| [HttpMessage](-http-message/index.md) | `interface HttpMessage : `[`Closeable`](https://docs.oracle.com/javase/9/docs/api/java/io/Closeable.html) |
+| [HttpMessage](-http-message/index.md) | `interface HttpMessage : `[`Closeable`](https://docs.oracle.com/javase/9/docs/api/java/io/Closeable.html)<br>HttpMessages are designed to be immutable, so any mutation methods return a modified copy of the message. |
 | [HttpTransaction](-http-transaction/index.md) | `data class HttpTransaction` |
 | [MemoryBody](-memory-body/index.md) | `data class MemoryBody : `[`Body`](-body/index.md)<br>Represents a body that is backed by an in-memory ByteBuffer. Closing this has no effect. |
 | [MemoryRequest](-memory-request/index.md) | `data class MemoryRequest : `[`Request`](-request/index.md) |

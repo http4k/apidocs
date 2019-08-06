@@ -2,7 +2,7 @@
 
 # StringBiDiMappings
 
-`object StringBiDiMappings` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/BiDiMapping.kt#L49)
+`object StringBiDiMappings` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/BiDiMapping.kt#L50)
 
 A set of standardised String &lt;-&gt; Type conversions which are used throughout http4k
 

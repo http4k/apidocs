@@ -2,4 +2,4 @@
 
 # asIn
 
-`val asIn: (`[`OUT`](index.md#OUT)`) -> `[`IN`](index.md#IN) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/BiDiMapping.kt#L30)
+`val asIn: (`[`OUT`](index.md#OUT)`) -> `[`IN`](index.md#IN) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/BiDiMapping.kt#L31)

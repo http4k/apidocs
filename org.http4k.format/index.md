@@ -9,7 +9,7 @@ Common code relevant to the various message format implementations (eg. JSON).
 | Name | Summary |
 |---|---|
 | [Argo](-argo/index.md) | `object Argo : `[`Json`](-json/index.md)`<`[`JsonNode`](http://argo.sourceforge.net/javadoc/argo/jdom/JsonNode.html)`>` |
-| [AutoMappingConfiguration](-auto-mapping-configuration/index.md) | `interface AutoMappingConfiguration<T>`<br>This is the generic interface used to configure auto-mapping functionality for message format libraries. The various methods here can be used to provide custom mapping behaviour (say for domain classes). |
+| [AutoMappingConfiguration](-auto-mapping-configuration/index.md) | `interface AutoMappingConfiguration<BUILDER>`<br>This is the generic interface used to configure auto-mapping functionality for message format libraries. The various methods here can be used to provide custom mapping behaviour (say for domain classes). |
 | [AutoMarshallingJson](-auto-marshalling-json/index.md) | `abstract class AutoMarshallingJson` |
 | [AutoMarshallingXml](-auto-marshalling-xml/index.md) | `abstract class AutoMarshallingXml` |
 | [ConfigurableGson](-configurable-gson/index.md) | `open class ConfigurableGson : `[`JsonLibAutoMarshallingJson`](-json-lib-auto-marshalling-json/index.md)`<JsonElement>` |
@@ -43,4 +43,5 @@ Common code relevant to the various message format implementations (eg. JSON).
 
 | Name | Summary |
 |---|---|
+| [text](text.md) | `fun <BUILDER, OUT> `[`AutoMappingConfiguration`](-auto-mapping-configuration/index.md)`<`[`BUILDER`](text.md#BUILDER)`>.text(mapping: (`[`OUT`](text.md#OUT)`) -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`AutoMappingConfiguration`](-auto-mapping-configuration/index.md)`<`[`BUILDER`](text.md#BUILDER)`>`<br>Utility method for when only writing/serialization is required`fun <BUILDER, OUT> `[`AutoMappingConfiguration`](-auto-mapping-configuration/index.md)`<`[`BUILDER`](text.md#BUILDER)`>.text(mapping: (`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`) -> `[`OUT`](text.md#OUT)`): `[`AutoMappingConfiguration`](-auto-mapping-configuration/index.md)`<`[`BUILDER`](text.md#BUILDER)`>`<br>Utility method for when only reading/deserialization is required |
 | [withStandardMappings](with-standard-mappings.md) | `fun <T> `[`AutoMappingConfiguration`](-auto-mapping-configuration/index.md)`<`[`T`](with-standard-mappings.md#T)`>.withStandardMappings(): `[`AutoMappingConfiguration`](-auto-mapping-configuration/index.md)`<`[`T`](with-standard-mappings.md#T)`>`<br>This is the set of (additional) standardised string &lt;-&gt; type mappings which http4k supports out of the box. |

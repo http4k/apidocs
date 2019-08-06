@@ -2,7 +2,7 @@
 
 # AutoMappingConfiguration
 
-`interface AutoMappingConfiguration<T>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/format/AutoMappingConfiguration.kt#L23)
+`interface AutoMappingConfiguration<BUILDER>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/format/AutoMappingConfiguration.kt#L23)
 
 This is the generic interface used to configure auto-mapping functionality for message format libraries.
 The various methods here can be used to provide custom mapping behaviour (say for domain classes).
@@ -11,19 +11,20 @@ The various methods here can be used to provide custom mapping behaviour (say fo
 
 | Name | Summary |
 |---|---|
-| [bigDecimal](big-decimal.md) | `abstract fun <OUT> bigDecimal(mapping: `[`BiDiMapping`](../../org.http4k.lens/-bi-di-mapping/index.md)`<`[`BigDecimal`](https://docs.oracle.com/javase/9/docs/api/java/math/BigDecimal.html)`, `[`OUT`](big-decimal.md#OUT)`>): `[`AutoMappingConfiguration`](./index.md)`<`[`T`](index.md#T)`>` |
-| [bigInteger](big-integer.md) | `abstract fun <OUT> bigInteger(mapping: `[`BiDiMapping`](../../org.http4k.lens/-bi-di-mapping/index.md)`<`[`BigInteger`](https://docs.oracle.com/javase/9/docs/api/java/math/BigInteger.html)`, `[`OUT`](big-integer.md#OUT)`>): `[`AutoMappingConfiguration`](./index.md)`<`[`T`](index.md#T)`>` |
-| [boolean](boolean.md) | `abstract fun <OUT> boolean(mapping: `[`BiDiMapping`](../../org.http4k.lens/-bi-di-mapping/index.md)`<`[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`, `[`OUT`](boolean.md#OUT)`>): `[`AutoMappingConfiguration`](./index.md)`<`[`T`](index.md#T)`>` |
-| [done](done.md) | `abstract fun done(): `[`T`](index.md#T)<br>Finalise the mapping configurations. |
-| [double](double.md) | `abstract fun <OUT> double(mapping: `[`BiDiMapping`](../../org.http4k.lens/-bi-di-mapping/index.md)`<`[`Double`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html)`, `[`OUT`](double.md#OUT)`>): `[`AutoMappingConfiguration`](./index.md)`<`[`T`](index.md#T)`>` |
-| [int](int.md) | `abstract fun <OUT> int(mapping: `[`BiDiMapping`](../../org.http4k.lens/-bi-di-mapping/index.md)`<`[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`, `[`OUT`](int.md#OUT)`>): `[`AutoMappingConfiguration`](./index.md)`<`[`T`](index.md#T)`>` |
-| [long](long.md) | `abstract fun <OUT> long(mapping: `[`BiDiMapping`](../../org.http4k.lens/-bi-di-mapping/index.md)`<`[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`, `[`OUT`](long.md#OUT)`>): `[`AutoMappingConfiguration`](./index.md)`<`[`T`](index.md#T)`>` |
-| [prohibitStrings](prohibit-strings.md) | `open fun prohibitStrings(): `[`AutoMappingConfiguration`](./index.md)`<`[`T`](index.md#T)`>`<br>Prevent the unmarshalling of raw (unbounded) strings. Useful when we are taking data from the Internet and want to ensure that all inbound fields are represented by bounded or validated types. |
-| [text](text.md) | `abstract fun <OUT> text(mapping: `[`BiDiMapping`](../../org.http4k.lens/-bi-di-mapping/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`OUT`](text.md#OUT)`>): `[`AutoMappingConfiguration`](./index.md)`<`[`T`](index.md#T)`>` |
+| [bigDecimal](big-decimal.md) | `abstract fun <OUT> bigDecimal(mapping: `[`BiDiMapping`](../../org.http4k.lens/-bi-di-mapping/index.md)`<`[`BigDecimal`](https://docs.oracle.com/javase/9/docs/api/java/math/BigDecimal.html)`, `[`OUT`](big-decimal.md#OUT)`>): `[`AutoMappingConfiguration`](./index.md)`<`[`BUILDER`](index.md#BUILDER)`>` |
+| [bigInteger](big-integer.md) | `abstract fun <OUT> bigInteger(mapping: `[`BiDiMapping`](../../org.http4k.lens/-bi-di-mapping/index.md)`<`[`BigInteger`](https://docs.oracle.com/javase/9/docs/api/java/math/BigInteger.html)`, `[`OUT`](big-integer.md#OUT)`>): `[`AutoMappingConfiguration`](./index.md)`<`[`BUILDER`](index.md#BUILDER)`>` |
+| [boolean](boolean.md) | `abstract fun <OUT> boolean(mapping: `[`BiDiMapping`](../../org.http4k.lens/-bi-di-mapping/index.md)`<`[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`, `[`OUT`](boolean.md#OUT)`>): `[`AutoMappingConfiguration`](./index.md)`<`[`BUILDER`](index.md#BUILDER)`>` |
+| [done](done.md) | `abstract fun done(): `[`BUILDER`](index.md#BUILDER)<br>Finalise the mapping configurations. |
+| [double](double.md) | `abstract fun <OUT> double(mapping: `[`BiDiMapping`](../../org.http4k.lens/-bi-di-mapping/index.md)`<`[`Double`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html)`, `[`OUT`](double.md#OUT)`>): `[`AutoMappingConfiguration`](./index.md)`<`[`BUILDER`](index.md#BUILDER)`>` |
+| [int](int.md) | `abstract fun <OUT> int(mapping: `[`BiDiMapping`](../../org.http4k.lens/-bi-di-mapping/index.md)`<`[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`, `[`OUT`](int.md#OUT)`>): `[`AutoMappingConfiguration`](./index.md)`<`[`BUILDER`](index.md#BUILDER)`>` |
+| [long](long.md) | `abstract fun <OUT> long(mapping: `[`BiDiMapping`](../../org.http4k.lens/-bi-di-mapping/index.md)`<`[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`, `[`OUT`](long.md#OUT)`>): `[`AutoMappingConfiguration`](./index.md)`<`[`BUILDER`](index.md#BUILDER)`>` |
+| [prohibitStrings](prohibit-strings.md) | `open fun prohibitStrings(): `[`AutoMappingConfiguration`](./index.md)`<`[`BUILDER`](index.md#BUILDER)`>`<br>Prevent the unmarshalling of raw (unbounded) strings. Useful when we are taking data from the Internet and want to ensure that all inbound fields are represented by bounded or validated types. |
+| [text](text.md) | `abstract fun <OUT> text(mapping: `[`BiDiMapping`](../../org.http4k.lens/-bi-di-mapping/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`OUT`](text.md#OUT)`>): `[`AutoMappingConfiguration`](./index.md)`<`[`BUILDER`](index.md#BUILDER)`>` |
 
 ### Extension Functions
 
 | Name | Summary |
 |---|---|
+| [text](../text.md) | `fun <BUILDER, OUT> `[`AutoMappingConfiguration`](./index.md)`<`[`BUILDER`](../text.md#BUILDER)`>.text(mapping: (`[`OUT`](../text.md#OUT)`) -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`AutoMappingConfiguration`](./index.md)`<`[`BUILDER`](../text.md#BUILDER)`>`<br>Utility method for when only writing/serialization is required`fun <BUILDER, OUT> `[`AutoMappingConfiguration`](./index.md)`<`[`BUILDER`](../text.md#BUILDER)`>.text(mapping: (`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`) -> `[`OUT`](../text.md#OUT)`): `[`AutoMappingConfiguration`](./index.md)`<`[`BUILDER`](../text.md#BUILDER)`>`<br>Utility method for when only reading/deserialization is required |
 | [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
 | [withStandardMappings](../with-standard-mappings.md) | `fun <T> `[`AutoMappingConfiguration`](./index.md)`<`[`T`](../with-standard-mappings.md#T)`>.withStandardMappings(): `[`AutoMappingConfiguration`](./index.md)`<`[`T`](../with-standard-mappings.md#T)`>`<br>This is the set of (additional) standardised string &lt;-&gt; type mappings which http4k supports out of the box. |

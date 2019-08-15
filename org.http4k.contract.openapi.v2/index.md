@@ -19,4 +19,4 @@
 
 | Name | Summary |
 |---|---|
-| [renderer](renderer.md) | `val ApiKeySecurity.Companion.renderer: `[`SecurityRenderer`](../org.http4k.contract.openapi/-security-renderer/index.md)<br>`val BasicAuthSecurity.Companion.renderer: `[`SecurityRenderer`](../org.http4k.contract.openapi/-security-renderer/index.md) |
+| [renderer](renderer.md) | `val ApiKeySecurity.Companion.renderer: `[`SecurityRenderer`](../org.http4k.contract.openapi/-security-renderer/index.md)<br>`val BasicAuthSecurity.Companion.renderer: `[`SecurityRenderer`](../org.http4k.contract.openapi/-security-renderer/index.md)<br>`val ImplicitOAuthSecurity.Companion.renderer: `[`SecurityRenderer`](../org.http4k.contract.openapi/-security-renderer/index.md) |

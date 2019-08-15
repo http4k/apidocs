@@ -36,4 +36,5 @@
 
 | Name | Summary |
 |---|---|
+| [renderer](../../org.http4k.contract.openapi.v2/renderer.md) | `val ImplicitOAuthSecurity.Companion.renderer: `[`SecurityRenderer`](../../org.http4k.contract.openapi/-security-renderer/index.md) |
 | [renderer](../../org.http4k.contract.openapi.v3/renderer.md) | `val ImplicitOAuthSecurity.Companion.renderer: `[`SecurityRenderer`](../../org.http4k.contract.openapi/-security-renderer/index.md) |

@@ -24,3 +24,10 @@ Checks the presence of basic auth credentials. Filter returns 401 if auth fails.
 | Name | Summary |
 |---|---|
 | [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
+
+### Companion Object Extension Properties
+
+| Name | Summary |
+|---|---|
+| [renderer](../../org.http4k.contract.openapi.v2/renderer.md) | `val BasicAuthSecurity.Companion.renderer: `[`SecurityRenderer`](../../org.http4k.contract.openapi/-security-renderer/index.md) |
+| [renderer](../../org.http4k.contract.openapi.v3/renderer.md) | `val BasicAuthSecurity.Companion.renderer: `[`SecurityRenderer`](../../org.http4k.contract.openapi/-security-renderer/index.md) |

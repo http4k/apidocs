@@ -35,6 +35,7 @@
 | [org.http4k.testing.Approver](../org.http4k.testing/-approver/index.md) | Coordinates the comparison of the content for a test. |
 | [org.http4k.format.Argo](../org.http4k.format/-argo/index.md) |  |
 | [org.http4k.client.AsyncHttpClient](../org.http4k.client/-async-http-client/index.md) |  |
+| [org.http4k.contract.security.AuthCodeOAuthSecurity](../org.http4k.contract.security/-auth-code-o-auth-security/index.md) |  |
 | [org.http4k.security.oauth.server.AuthenticationComplete](../org.http4k.security.oauth.server/-authentication-complete/index.md) |  |
 | [org.http4k.cloudnative.env.Authority](../org.http4k.cloudnative.env/-authority/index.md) |  |
 | [org.http4k.security.oauth.server.AuthorizationCode](../org.http4k.security.oauth.server/-authorization-code/index.md) |  |
@@ -209,6 +210,7 @@
 | [org.http4k.security.openid.IdTokenContainer](../org.http4k.security.openid/-id-token-container.md) |  |
 | [org.http4k.security.oauth.server.IdTokens](../org.http4k.security.oauth.server/-id-tokens/index.md) |  |
 | [org.http4k.util.IllegalSchemaException](../org.http4k.util/-illegal-schema-exception/index.md) |  |
+| [org.http4k.contract.security.ImplicitOAuthSecurity](../org.http4k.contract.security/-implicit-o-auth-security/index.md) |  |
 | [org.http4k.routing.experimental.InMemoryResource](../org.http4k.routing.experimental/-in-memory-resource/index.md) |  |
 | [org.http4k.security.oauth.server.InsecureCookieBasedAuthRequestTracking](../org.http4k.security.oauth.server/-insecure-cookie-based-auth-request-tracking/index.md) |  |
 | [org.http4k.security.InsecureCookieBasedOAuthPersistence](../org.http4k.security/-insecure-cookie-based-o-auth-persistence/index.md) | This is an example implementation which stores CSRF and AccessToken values in an INSECURE client-side cookie. Access-tokens for end-services are fully available to the browser so do not use this in production! |
@@ -297,10 +299,8 @@
 | [org.http4k.client.OkHttp](../org.http4k.client/-ok-http/index.md) |  |
 | [org.http4k.contract.OpenApi](../org.http4k.contract/-open-api.md) |  |
 | [org.http4k.contract.openapi.v2.OpenApi2](../org.http4k.contract.openapi.v2/-open-api2/index.md) | Contract renderer for OpenApi2 format JSON. Note that for the JSON schema generation, auto-naming of object models is used as the input relies on JSON objects and not JVM classees. |
-| [org.http4k.contract.openapi.v2.OpenApi2SecurityRenderer](../org.http4k.contract.openapi.v2/-open-api2-security-renderer/index.md) |  |
 | [org.http4k.contract.openapi.v3.OpenApi3](../org.http4k.contract.openapi.v3/-open-api3/index.md) | Contract renderer for OpenApi3 format JSON. For the JSON schema generation, naming of object models will default to either reflective or hashcode based depending on if a Auto Json is passed. |
 | [org.http4k.contract.openapi.v3.OpenApi3ApiRenderer](../org.http4k.contract.openapi.v3/-open-api3-api-renderer/index.md) | Converts a API to OpenApi3 format JSON. |
-| [org.http4k.contract.openapi.v3.OpenApi3SecurityRenderer](../org.http4k.contract.openapi.v3/-open-api3-security-renderer/index.md) |  |
 | [org.http4k.webdriver.Page](../org.http4k.webdriver/-page/index.md) |  |
 | [org.http4k.core.Parameters](../org.http4k.core/-parameters.md) |  |
 | [org.http4k.lens.ParamMeta](../org.http4k.lens/-param-meta/index.md) |  |
@@ -329,6 +329,7 @@
 | [org.http4k.security.RedirectionUriBuilder](../org.http4k.security/-redirection-uri-builder.md) |  |
 | [org.http4k.security.oauth.server.RedirectUriMismatch](../org.http4k.security.oauth.server/-redirect-uri-mismatch.md) |  |
 | [org.http4k.contract.openapi.Render](../org.http4k.contract.openapi/-render.md) |  |
+| [org.http4k.contract.openapi.RenderModes](../org.http4k.contract.openapi/-render-modes/index.md) |  |
 | [org.http4k.traffic.Replay](../org.http4k.traffic/-replay/index.md) | Provides a stream of traffic for replaying purposes. |
 | [org.http4k.core.Request](../org.http4k.core/-request/index.md) |  |
 | [org.http4k.contract.openapi.v3.RequestContents](../org.http4k.contract.openapi.v3/-request-contents/index.md) |  |

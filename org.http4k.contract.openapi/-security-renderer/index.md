@@ -24,10 +24,3 @@ Provides rendering of Security models in to OpenApi specs.
 | Name | Summary |
 |---|---|
 | [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
-
-### Inheritors
-
-| Name | Summary |
-|---|---|
-| [OpenApi2SecurityRenderer](../../org.http4k.contract.openapi.v2/-open-api2-security-renderer/index.md) | `object OpenApi2SecurityRenderer : `[`SecurityRenderer`](./index.md) |
-| [OpenApi3SecurityRenderer](../../org.http4k.contract.openapi.v3/-open-api3-security-renderer/index.md) | `object OpenApi3SecurityRenderer : `[`SecurityRenderer`](./index.md) |

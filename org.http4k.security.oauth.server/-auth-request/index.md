@@ -20,6 +20,18 @@
 | [scopes](scopes.md) | `val scopes: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
 | [state](state.md) | `val state: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |
 
+### Functions
+
+| Name | Summary |
+|---|---|
+| [isOIDC](is-o-i-d-c.md) | `fun isOIDC(): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
+
+### Companion Object Properties
+
+| Name | Summary |
+|---|---|
+| [OIDC_SCOPE](-o-i-d-c_-s-c-o-p-e.md) | `const val OIDC_SCOPE: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+
 ### Extension Functions
 
 | Name | Summary |

@@ -2,4 +2,4 @@
 
 # clientId
 
-`val clientId: `[`ClientId`](../../org.http4k.security.oauth.server/-client-id/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/accesstoken/AuthorizationCodeAccessTokenGenerator.kt#L61)
+`val clientId: `[`ClientId`](../../org.http4k.security.oauth.server/-client-id/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/accesstoken/AuthorizationCodeAccessTokenGenerator.kt#L60)

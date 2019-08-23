@@ -2,4 +2,4 @@
 
 # createForAccessToken
 
-`abstract fun createForAccessToken(code: `[`AuthorizationCode`](../-authorization-code/index.md)`, accessToken: `[`AccessToken`](../../org.http4k.security/-access-token/index.md)`): `[`IdToken`](../../org.http4k.security.openid/-id-token/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/IdTokens.kt#L11)
+`abstract fun createForAccessToken(code: `[`AuthorizationCode`](../-authorization-code/index.md)`): `[`IdToken`](../../org.http4k.security.openid/-id-token/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/IdTokens.kt#L10)

@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `AuthorizationCodeDetails(clientId: `[`ClientId`](../-client-id/index.md)`, redirectUri: `[`Uri`](../../org.http4k.core/-uri/index.md)`, expiresAt: `[`Instant`](https://docs.oracle.com/javase/9/docs/api/java/time/Instant.html)`, isOIDC: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`, responseType: `[`ResponseType`](../../org.http4k.security/-response-type/index.md)` = Code)` |
+| [&lt;init&gt;](-init-.md) | `AuthorizationCodeDetails(clientId: `[`ClientId`](../-client-id/index.md)`, redirectUri: `[`Uri`](../../org.http4k.core/-uri/index.md)`, expiresAt: `[`Instant`](https://docs.oracle.com/javase/9/docs/api/java/time/Instant.html)`, state: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?, isOIDC: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`, responseType: `[`ResponseType`](../../org.http4k.security/-response-type/index.md)` = Code)` |
 
 ### Properties
 
@@ -19,6 +19,7 @@
 | [isOIDC](is-o-i-d-c.md) | `val isOIDC: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
 | [redirectUri](redirect-uri.md) | `val redirectUri: `[`Uri`](../../org.http4k.core/-uri/index.md) |
 | [responseType](response-type.md) | `val responseType: `[`ResponseType`](../../org.http4k.security/-response-type/index.md) |
+| [state](state.md) | `val state: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |
 
 ### Extension Functions
 

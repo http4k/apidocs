@@ -2,7 +2,7 @@
 
 # RouteMetaDsl
 
-`class RouteMetaDsl` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/routeMeta.kt#L31)
+`class RouteMetaDsl` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/routeMeta.kt#L30)
 
 ### Properties
 
@@ -15,7 +15,7 @@
 | [preFlightExtraction](pre-flight-extraction.md) | `var preFlightExtraction: `[`PreFlightExtraction`](../-pre-flight-extraction/index.md)`?` |
 | [produces](produces.md) | `val produces: `[`Appendable`](../../org.http4k.util/-appendable/index.md)`<`[`ContentType`](../../org.http4k.core/-content-type/index.md)`>` |
 | [queries](queries.md) | `val queries: `[`Appendable`](../../org.http4k.util/-appendable/index.md)`<`[`Lens`](../../org.http4k.lens/-lens/index.md)`<`[`Request`](../../org.http4k.core/-request/index.md)`, *>>` |
-| [security](security.md) | `var security: `[`Security`](../../org.http4k.contract.security/-security/index.md) |
+| [security](security.md) | `var security: `[`Security`](../../org.http4k.contract.security/-security/index.md)`?` |
 | [summary](summary.md) | `var summary: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [tags](tags.md) | `val tags: `[`Appendable`](../../org.http4k.util/-appendable/index.md)`<`[`Tag`](../-tag/index.md)`>` |
 

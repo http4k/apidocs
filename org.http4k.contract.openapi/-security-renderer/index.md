@@ -2,7 +2,7 @@
 
 # SecurityRenderer
 
-`interface SecurityRenderer` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/openapi/SecurityRenderer.kt#L11)
+`interface SecurityRenderer` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/openapi/SecurityRenderer.kt#L10)
 
 Provides rendering of Security models in to OpenApi specs.
 

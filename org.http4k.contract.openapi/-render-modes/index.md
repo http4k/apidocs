@@ -2,7 +2,7 @@
 
 # RenderModes
 
-`interface RenderModes` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/openapi/SecurityRenderer.kt#L26)
+`interface RenderModes` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/openapi/SecurityRenderer.kt#L42)
 
 ### Functions
 

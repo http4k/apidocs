@@ -2,7 +2,7 @@
 
 # Security
 
-`interface Security` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/security/Security.kt#L8)
+`interface Security` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/security/Security.kt#L12)
 
 Endpoint security. Provides filter to be applied to endpoints for all requests.
 
@@ -16,6 +16,8 @@ Endpoint security. Provides filter to be applied to endpoints for all requests.
 
 | Name | Summary |
 |---|---|
+| [and](../and.md) | `fun `[`Security`](./index.md)`.and(that: `[`Security`](./index.md)`): `[`Security`](./index.md) |
+| [or](../or.md) | `fun `[`Security`](./index.md)`.or(that: `[`Security`](./index.md)`): `[`Security`](./index.md) |
 | [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
 
 ### Inheritors

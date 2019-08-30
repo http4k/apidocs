@@ -8,6 +8,7 @@
 |---|---|
 | [ApiInfo](-api-info/index.md) | `data class ApiInfo` |
 | [ApiRenderer](-api-renderer/index.md) | `interface ApiRenderer<API, NODE> : `[`JsonSchemaCreator`](../org.http4k.util/-json-schema-creator/index.md)`<`[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`, `[`NODE`](-api-renderer/index.md#NODE)`>`<br>Renders the contract contents in OpenApi JSON format. |
+| [OpenApiExtension](-open-api-extension/index.md) | `interface OpenApiExtension`<br>Provides a way to apply extensions to the OpenAPI JSON document. |
 | [RenderModes](-render-modes/index.md) | `interface RenderModes` |
 | [SecurityRenderer](-security-renderer/index.md) | `interface SecurityRenderer`<br>Provides rendering of Security models in to OpenApi specs. |
 

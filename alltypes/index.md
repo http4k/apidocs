@@ -301,6 +301,7 @@
 | [org.http4k.contract.openapi.v2.OpenApi2](../org.http4k.contract.openapi.v2/-open-api2/index.md) | Contract renderer for OpenApi2 format JSON. Note that for the JSON schema generation, auto-naming of object models is used as the input relies on JSON objects and not JVM classees. |
 | [org.http4k.contract.openapi.v3.OpenApi3](../org.http4k.contract.openapi.v3/-open-api3/index.md) | Contract renderer for OpenApi3 format JSON. For the JSON schema generation, naming of object models will default to either reflective or hashcode based depending on if a Auto Json is passed. |
 | [org.http4k.contract.openapi.v3.OpenApi3ApiRenderer](../org.http4k.contract.openapi.v3/-open-api3-api-renderer/index.md) | Converts a API to OpenApi3 format JSON. |
+| [org.http4k.contract.openapi.OpenApiExtension](../org.http4k.contract.openapi/-open-api-extension/index.md) | Provides a way to apply extensions to the OpenAPI JSON document. |
 | [org.http4k.webdriver.Page](../org.http4k.webdriver/-page/index.md) |  |
 | [org.http4k.core.Parameters](../org.http4k.core/-parameters.md) |  |
 | [org.http4k.lens.ParamMeta](../org.http4k.lens/-param-meta/index.md) |  |

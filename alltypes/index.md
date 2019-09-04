@@ -78,7 +78,7 @@
 | [org.http4k.contract.openapi.v3.BodyContent](../org.http4k.contract.openapi.v3/-body-content/index.md) |  |
 | [org.http4k.lens.BodyLens](../org.http4k.lens/-body-lens/index.md) | A BodyLens provides the uni-directional extraction of an entity from a target body. |
 | [org.http4k.lens.BodyLensSpec](../org.http4k.lens/-body-lens-spec/index.md) | Represents a uni-directional extraction of an entity from a target Body. |
-| [org.http4k.core.BodyMode](../org.http4k.core/-body-mode/index.md) |  |
+| [org.http4k.core.BodyMode](../org.http4k.core/-body-mode/index.md) | BodyMode represents a choice between working lazily with streams or eagerly storing the body contents in memory. |
 | [org.http4k.serverless.BootstrapAppLoader](../org.http4k.serverless/-bootstrap-app-loader/index.md) |  |
 | [org.http4k.serverless.BootstrapException](../org.http4k.serverless/-bootstrap-exception/index.md) |  |
 | [com.squareup.moshi.Moshi.Builder](../org.http4k.format/com.squareup.moshi.-moshi.-builder/index.md) (extensions in package org.http4k.format) |  |

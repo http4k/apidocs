@@ -9,7 +9,7 @@ The core abstractions for the http4k library.
 | Name | Summary |
 |---|---|
 | [Body](-body/index.md) | `interface Body : `[`Closeable`](https://docs.oracle.com/javase/9/docs/api/java/io/Closeable.html)<br>If this Body is NOT being returned to the caller (via a Server implementation or otherwise), close() should be called. |
-| [BodyMode](-body-mode/index.md) | `sealed class BodyMode : (`[`InputStream`](https://docs.oracle.com/javase/9/docs/api/java/io/InputStream.html)`) -> `[`Body`](-body/index.md) |
+| [BodyMode](-body-mode/index.md) | `sealed class BodyMode : (`[`InputStream`](https://docs.oracle.com/javase/9/docs/api/java/io/InputStream.html)`) -> `[`Body`](-body/index.md)<br>BodyMode represents a choice between working lazily with streams or eagerly storing the body contents in memory. |
 | [ContentType](-content-type/index.md) | `data class ContentType` |
 | [Credentials](-credentials/index.md) | `data class Credentials` |
 | [Event](-event/index.md) | `interface Event` |

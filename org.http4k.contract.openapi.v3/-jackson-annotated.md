@@ -2,7 +2,7 @@
 
 # JacksonAnnotated
 
-`val JacksonAnnotated: `[`FieldRetrieval`](-field-retrieval/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/openapi/v3/jacksonExt.kt#L27)
+`val JacksonAnnotated: `[`FieldRetrieval`](-field-retrieval/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/openapi/v3/jacksonExt.kt#L26)
 
 Composite strategies for handling Jackson annotations in field retreival
 

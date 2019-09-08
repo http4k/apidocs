@@ -2,7 +2,7 @@
 
 # JacksonJsonPropertyAnnotated
 
-`object JacksonJsonPropertyAnnotated : `[`FieldRetrieval`](../-field-retrieval/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/openapi/v3/jacksonExt.kt#L29)
+`object JacksonJsonPropertyAnnotated : `[`FieldRetrieval`](../-field-retrieval/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/openapi/v3/jacksonExt.kt#L28)
 
 ### Functions
 

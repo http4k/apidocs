@@ -2,7 +2,7 @@
 
 # OpenApi3
 
-`fun OpenApi3(apiInfo: `[`ApiInfo`](../org.http4k.contract.openapi/-api-info/index.md)`, json: `[`Jackson`](../org.http4k.format/-jackson.md)`, extensions: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`OpenApiExtension`](../org.http4k.contract.openapi/-open-api-extension/index.md)`> = emptyList()): `[`OpenApi3`](-open-api3/index.md)`<`[`JsonNode`](https://fasterxml.github.io/jackson-databind/javadoc/2.9/com/fasterxml/jackson/databind/JsonNode.html)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/openapi/v3/jacksonExt.kt#L20)
+`fun OpenApi3(apiInfo: `[`ApiInfo`](../org.http4k.contract.openapi/-api-info/index.md)`, json: `[`Jackson`](../org.http4k.format/-jackson.md)` = Jackson, extensions: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`OpenApiExtension`](../org.http4k.contract.openapi/-open-api-extension/index.md)`> = emptyList()): `[`OpenApi3`](-open-api3/index.md)`<`[`JsonNode`](https://fasterxml.github.io/jackson-databind/javadoc/2.9/com/fasterxml/jackson/databind/JsonNode.html)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/openapi/v3/jacksonExt.kt#L19)
 
-Sensible default objects for using Jackson with minimal fuss.
+Defaults for configuring OpenApi3 with Jackson
 

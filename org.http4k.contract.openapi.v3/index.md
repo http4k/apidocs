@@ -43,7 +43,7 @@
 | Name | Summary |
 |---|---|
 | [AutoJsonToJsonSchema](-auto-json-to-json-schema.md) | `fun AutoJsonToJsonSchema(json: `[`Jackson`](../org.http4k.format/-jackson.md)`): `[`AutoJsonToJsonSchema`](-auto-json-to-json-schema/index.md)`<`[`JsonNode`](https://fasterxml.github.io/jackson-databind/javadoc/2.9/com/fasterxml/jackson/databind/JsonNode.html)`>` |
-| [OpenApi3](-open-api3.md) | `fun OpenApi3(apiInfo: `[`ApiInfo`](../org.http4k.contract.openapi/-api-info/index.md)`, json: `[`Jackson`](../org.http4k.format/-jackson.md)` = Jackson, extensions: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`OpenApiExtension`](../org.http4k.contract.openapi/-open-api-extension/index.md)`> = emptyList()): `[`OpenApi3`](-open-api3/index.md)`<`[`JsonNode`](https://fasterxml.github.io/jackson-databind/javadoc/2.9/com/fasterxml/jackson/databind/JsonNode.html)`>`<br>Defaults for configuring OpenApi3 with Jackson |
+| [OpenApi3](-open-api3.md) | `fun OpenApi3(apiInfo: `[`ApiInfo`](../org.http4k.contract.openapi/-api-info/index.md)`, json: `[`Jackson`](../org.http4k.format/-jackson.md)`, extensions: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`OpenApiExtension`](../org.http4k.contract.openapi/-open-api-extension/index.md)`> = emptyList()): `[`OpenApi3`](-open-api3/index.md)`<`[`JsonNode`](https://fasterxml.github.io/jackson-databind/javadoc/2.9/com/fasterxml/jackson/databind/JsonNode.html)`>`<br>Defaults for configuring OpenApi3 with Jackson |
 
 ### Companion Object Properties
 

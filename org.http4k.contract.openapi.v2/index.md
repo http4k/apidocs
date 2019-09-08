@@ -19,7 +19,7 @@
 
 | Name | Summary |
 |---|---|
-| [OpenApi2](-open-api2.md) | `fun OpenApi2(apiInfo: `[`ApiInfo`](../org.http4k.contract.openapi/-api-info/index.md)`, baseUri: `[`Uri`](../org.http4k.core/-uri/index.md)`, json: `[`Jackson`](../org.http4k.format/-jackson.md)` = Jackson, extensions: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`OpenApiExtension`](../org.http4k.contract.openapi/-open-api-extension/index.md)`> = emptyList()): `[`OpenApi2`](-open-api2/index.md)`<`[`JsonNode`](https://fasterxml.github.io/jackson-databind/javadoc/2.9/com/fasterxml/jackson/databind/JsonNode.html)`>`<br>Defaults for configuring OpenApi2 with Jackson |
+| [OpenApi2](-open-api2.md) | `fun OpenApi2(apiInfo: `[`ApiInfo`](../org.http4k.contract.openapi/-api-info/index.md)`, baseUri: `[`Uri`](../org.http4k.core/-uri/index.md)`, json: `[`Jackson`](../org.http4k.format/-jackson.md)`, extensions: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`OpenApiExtension`](../org.http4k.contract.openapi/-open-api-extension/index.md)`> = emptyList()): `[`OpenApi2`](-open-api2/index.md)`<`[`JsonNode`](https://fasterxml.github.io/jackson-databind/javadoc/2.9/com/fasterxml/jackson/databind/JsonNode.html)`>`<br>Defaults for configuring OpenApi2 with Jackson |
 
 ### Companion Object Properties
 

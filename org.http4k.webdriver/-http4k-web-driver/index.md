@@ -38,4 +38,5 @@
 
 | Name | Summary |
 |---|---|
+| [invoke](../invoke.md) | `operator fun `[`Http4kWebDriver`](./index.md)`.invoke(fn: `[`Http4kWebDriver`](./index.md)`.() -> `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)`): `[`Http4kWebDriver`](./index.md)<br>DSL-helper so we can use this webdriver in a lambda-with-receiver context |
 | [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

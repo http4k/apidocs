@@ -2,7 +2,7 @@
 
 # IgnoreBody
 
-`object IgnoreBody : `[`PreFlightExtraction`](../index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/PreFlightExtraction.kt#L32)
+`object IgnoreBody : `[`PreFlightExtraction`](../index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/PreFlightExtraction.kt#L33)
 
 Check all parts of the contract apart from the body, relying on the HttpHandler code to raise a correct
 LensFailure if extraction fails. Use this option to avoid re-extracting the body multiple times.

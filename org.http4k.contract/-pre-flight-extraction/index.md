@@ -17,8 +17,9 @@ bodies could be expensive and pre-flight-extraction would involve performing thi
 
 | Name | Summary |
 |---|---|
-| [All](-all/index.md) | `object All : `[`PreFlightExtraction`](./index.md)<br>Check the entire contract, including the body. |
+| [All](-all/index.md) | `object All : `[`PreFlightExtraction`](./index.md)<br>Check the entire contract, including extracting the body, before passing it to the underlying HttpHandler. |
 | [IgnoreBody](-ignore-body/index.md) | `object IgnoreBody : `[`PreFlightExtraction`](./index.md)<br>Check all parts of the contract apart from the body, relying on the HttpHandler code to raise a correct LensFailure if extraction fails. Use this option to avoid re-extracting the body multiple times. |
+| [None](-none/index.md) | `object None : `[`PreFlightExtraction`](./index.md)<br>Check none the contract, relying entirely  on the HttpHandler code to raise a correct LensFailure if extraction fails. Use this option to fully optimise performance, at the risk of not checking |
 
 ### Extension Functions
 
@@ -30,5 +31,6 @@ bodies could be expensive and pre-flight-extraction would involve performing thi
 
 | Name | Summary |
 |---|---|
-| [All](-all/index.md) | `object All : `[`PreFlightExtraction`](./index.md)<br>Check the entire contract, including the body. |
+| [All](-all/index.md) | `object All : `[`PreFlightExtraction`](./index.md)<br>Check the entire contract, including extracting the body, before passing it to the underlying HttpHandler. |
 | [IgnoreBody](-ignore-body/index.md) | `object IgnoreBody : `[`PreFlightExtraction`](./index.md)<br>Check all parts of the contract apart from the body, relying on the HttpHandler code to raise a correct LensFailure if extraction fails. Use this option to avoid re-extracting the body multiple times. |
+| [None](-none/index.md) | `object None : `[`PreFlightExtraction`](./index.md)<br>Check none the contract, relying entirely  on the HttpHandler code to raise a correct LensFailure if extraction fails. Use this option to fully optimise performance, at the risk of not checking |

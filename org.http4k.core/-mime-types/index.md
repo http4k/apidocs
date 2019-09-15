@@ -2,7 +2,7 @@
 
 # MimeTypes
 
-`data class MimeTypes` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/MimeTypes.kt#L5)
+`data class MimeTypes` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/MimeTypes.kt#L6)
 
 ### Functions
 

@@ -10,7 +10,7 @@ Approval JUnit5 extension configured to compare prettified-JSON messages.
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `JsonApprovalTest()`<br>Approval JUnit5 extension configured to compare prettified-JSON messages. |
+| [&lt;init&gt;](-init-.md) | `JsonApprovalTest(testNamer: `[`TestNamer`](../-test-namer/index.md)` = ClassAndMethod, approvalSource: `[`ApprovalSource`](../-approval-source/index.md)` = FileSystemApprovalSource(File("src/test/resources")))`<br>Approval JUnit5 extension configured to compare prettified-JSON messages. |
 
 ### Functions
 

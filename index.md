@@ -21,6 +21,7 @@
 | [org.http4k.core.body](org.http4k.core.body/index.md) |  |
 | [org.http4k.core.cookie](org.http4k.core.cookie/index.md) |  |
 | [org.http4k.core.etag](org.http4k.core.etag/index.md) |  |
+| [org.http4k.events](org.http4k.events/index.md) |  |
 | [org.http4k.filter](org.http4k.filter/index.md) | This is the base package for all Filter implementations. |
 | [org.http4k.filter.cookie](org.http4k.filter.cookie/index.md) |  |
 | [org.http4k.format](org.http4k.format/index.md) | Common code relevant to the various message format implementations (eg. JSON). |

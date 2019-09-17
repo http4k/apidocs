@@ -12,8 +12,6 @@ The core abstractions for the http4k library.
 | [BodyMode](-body-mode/index.md) | `sealed class BodyMode : (`[`InputStream`](https://docs.oracle.com/javase/9/docs/api/java/io/InputStream.html)`) -> `[`Body`](-body/index.md)<br>BodyMode represents a choice between working lazily with streams or eagerly storing the body contents in memory. |
 | [ContentType](-content-type/index.md) | `data class ContentType` |
 | [Credentials](-credentials/index.md) | `data class Credentials` |
-| [Event](-event/index.md) | `interface Event` |
-| [EventCategory](-event-category/index.md) | `data class EventCategory` |
 | [Filter](-filter/index.md) | `interface Filter : (`[`HttpHandler`](-http-handler.md)`) -> `[`HttpHandler`](-http-handler.md) |
 | [FormFile](-form-file/index.md) | `data class FormFile : `[`Closeable`](https://docs.oracle.com/javase/9/docs/api/java/io/Closeable.html) |
 | [HttpMessage](-http-message/index.md) | `interface HttpMessage : `[`Closeable`](https://docs.oracle.com/javase/9/docs/api/java/io/Closeable.html)<br>HttpMessages are designed to be immutable, so any mutation methods return a modified copy of the message. |
@@ -39,7 +37,9 @@ The core abstractions for the http4k library.
 
 | Name | Summary |
 |---|---|
-| [Events](-events.md) | `typealias Events = (`[`Event`](-event/index.md)`) -> `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| [Event](-event.md) | `typealias ~~Event~~ = `[`Event`](../org.http4k.events/-event/index.md) |
+| [EventCategory](-event-category.md) | `typealias ~~EventCategory~~ = `[`EventCategory`](../org.http4k.events/-event-category/index.md) |
+| [Events](-events.md) | `typealias ~~Events~~ = `[`Events`](../org.http4k.events/-events.md) |
 | [Headers](-headers.md) | `typealias Headers = `[`Parameters`](-parameters.md) |
 | [HttpHandler](-http-handler.md) | `typealias HttpHandler = (`[`Request`](-request/index.md)`) -> `[`Response`](-response/index.md) |
 | [Parameters](-parameters.md) | `typealias Parameters = `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<Parameter>` |

@@ -17,6 +17,7 @@ Provides the identification of test case.
 | Name | Summary |
 |---|---|
 | [ClassAndMethod](-class-and-method.md) | `val ClassAndMethod: `[`TestNamer`](./index.md) |
+| [MethodOnly](-method-only.md) | `val MethodOnly: `[`TestNamer`](./index.md) |
 
 ### Extension Functions
 

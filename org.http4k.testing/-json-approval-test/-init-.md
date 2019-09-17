@@ -2,7 +2,7 @@
 
 # &lt;init&gt;
 
-`JsonApprovalTest()`
+`JsonApprovalTest(testNamer: `[`TestNamer`](../-test-namer/index.md)` = ClassAndMethod, approvalSource: `[`ApprovalSource`](../-approval-source/index.md)` = FileSystemApprovalSource(File("src/test/resources")))`
 
 Approval JUnit5 extension configured to compare prettified-JSON messages.
 

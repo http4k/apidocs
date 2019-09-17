@@ -2,7 +2,7 @@
 
 # StringBiDiMappings
 
-`object StringBiDiMappings` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/BiDiMapping.kt#L50)
+`object StringBiDiMappings` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/BiDiMapping.kt#L53)
 
 A set of standardised String &lt;-&gt; Type conversions which are used throughout http4k
 
@@ -16,6 +16,7 @@ A set of standardised String &lt;-&gt; Type conversions which are used throughou
 | [boolean](boolean.md) | `fun boolean(): `[`BiDiMapping`](../-bi-di-mapping/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`>` |
 | [double](double.md) | `fun double(): `[`BiDiMapping`](../-bi-di-mapping/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`Double`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html)`>` |
 | [duration](duration.md) | `fun duration(): `[`BiDiMapping`](../-bi-di-mapping/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`Duration`](https://docs.oracle.com/javase/9/docs/api/java/time/Duration.html)`!>` |
+| [eventCategory](event-category.md) | `fun eventCategory(): `[`BiDiMapping`](../-bi-di-mapping/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`EventCategory`](../../org.http4k.events/-event-category/index.md)`>` |
 | [float](float.md) | `fun float(): `[`BiDiMapping`](../-bi-di-mapping/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`Float`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html)`>` |
 | [instant](instant.md) | `fun instant(): `[`BiDiMapping`](../-bi-di-mapping/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!, `[`Instant`](https://docs.oracle.com/javase/9/docs/api/java/time/Instant.html)`!>` |
 | [int](int.md) | `fun int(): `[`BiDiMapping`](../-bi-di-mapping/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`>` |
@@ -28,6 +29,8 @@ A set of standardised String &lt;-&gt; Type conversions which are used throughou
 | [offsetTime](offset-time.md) | `fun offsetTime(formatter: `[`DateTimeFormatter`](https://docs.oracle.com/javase/9/docs/api/java/time/format/DateTimeFormatter.html)` = ISO_OFFSET_TIME): `[`BiDiMapping`](../-bi-di-mapping/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!, `[`OffsetTime`](https://docs.oracle.com/javase/9/docs/api/java/time/OffsetTime.html)`!>` |
 | [regex](regex.md) | `fun regex(pattern: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, group: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)` = 1): `[`BiDiMapping`](../-bi-di-mapping/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
 | [regexObject](regex-object.md) | `fun regexObject(): `[`BiDiMapping`](../-bi-di-mapping/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`Regex`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.text/-regex/index.html)`>` |
+| [samplingDecision](sampling-decision.md) | `fun samplingDecision(): `[`BiDiMapping`](../-bi-di-mapping/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`SamplingDecision`](../../org.http4k.filter/-sampling-decision/index.md)`>` |
+| [traceId](trace-id.md) | `fun traceId(): `[`BiDiMapping`](../-bi-di-mapping/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`TraceId`](../../org.http4k.filter/-trace-id/index.md)`>` |
 | [uri](uri.md) | `fun uri(): `[`BiDiMapping`](../-bi-di-mapping/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`Uri`](../../org.http4k.core/-uri/index.md)`>` |
 | [url](url.md) | `fun url(): `[`BiDiMapping`](../-bi-di-mapping/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!, `[`URL`](https://docs.oracle.com/javase/9/docs/api/java/net/URL.html)`>` |
 | [uuid](uuid.md) | `fun uuid(): `[`BiDiMapping`](../-bi-di-mapping/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`UUID`](https://docs.oracle.com/javase/9/docs/api/java/util/UUID.html)`!>` |

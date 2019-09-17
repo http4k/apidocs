@@ -1,4 +1,4 @@
-[http4k](../../index.md) / [org.http4k.core](../index.md) / [EventCategory](index.md) / [&lt;init&gt;](./-init-.md)
+[http4k](../../index.md) / [org.http4k.events](../index.md) / [EventCategory](index.md) / [&lt;init&gt;](./-init-.md)
 
 # &lt;init&gt;
 

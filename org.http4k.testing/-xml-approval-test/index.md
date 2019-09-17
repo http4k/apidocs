@@ -2,7 +2,7 @@
 
 # XmlApprovalTest
 
-`class XmlApprovalTest : `[`ContentTypeAwareApprovalTest`](../-content-type-aware-approval-test/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-approval/src/main/kotlin/org/http4k/testing/ApprovalTest.kt#L107)
+`class XmlApprovalTest : `[`ContentTypeAwareApprovalTest`](../-content-type-aware-approval-test/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-approval/src/main/kotlin/org/http4k/testing/ApprovalTest.kt#L113)
 
 Approval JUnit5 extension configured to compare prettified-XML messages.
 
@@ -10,7 +10,7 @@ Approval JUnit5 extension configured to compare prettified-XML messages.
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `XmlApprovalTest()`<br>Approval JUnit5 extension configured to compare prettified-XML messages. |
+| [&lt;init&gt;](-init-.md) | `XmlApprovalTest(testNamer: `[`TestNamer`](../-test-namer/index.md)` = ClassAndMethod, approvalSource: `[`ApprovalSource`](../-approval-source/index.md)` = FileSystemApprovalSource(File("src/test/resources")))`<br>Approval JUnit5 extension configured to compare prettified-XML messages. |
 
 ### Functions
 

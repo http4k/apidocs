@@ -51,6 +51,7 @@
 | [org.http4k.security.oauth.server.AuthRequestFromQueryParameters](../org.http4k.security.oauth.server/-auth-request-from-query-parameters/index.md) |  |
 | [org.http4k.security.oauth.server.AuthRequestTracking](../org.http4k.security.oauth.server/-auth-request-tracking/index.md) | Provides a mechanism to track OAuth authorization parameters to be used later (i.e. can be used later to generate code and/or tokens) |
 | [org.http4k.security.oauth.server.AuthRequestTrackingFilter](../org.http4k.security.oauth.server/-auth-request-tracking-filter/index.md) |  |
+| [org.http4k.events.AutoJsonEvents](../org.http4k.events/-auto-json-events/index.md) |  |
 | [org.http4k.contract.openapi.v3.AutoJsonToJsonSchema](../org.http4k.contract.openapi.v3/-auto-json-to-json-schema/index.md) |  |
 | [org.http4k.format.AutoMappingConfiguration](../org.http4k.format/-auto-mapping-configuration/index.md) | This is the generic interface used to configure auto-mapping functionality for message format libraries. The various methods here can be used to provide custom mapping behaviour (say for domain classes). |
 | [org.http4k.format.AutoMarshallingJson](../org.http4k.format/-auto-marshalling-json/index.md) |  |
@@ -149,9 +150,14 @@
 | [org.http4k.contract.ErrorResponseRenderer](../org.http4k.contract/-error-response-renderer/index.md) |  |
 | [org.http4k.core.etag.ETag](../org.http4k.core.etag/-e-tag/index.md) |  |
 | [org.http4k.core.etag.ETagValidationRequestParser](../org.http4k.core.etag/-e-tag-validation-request-parser/index.md) | Implemented according to https://www.w3.org/Protocols/rfc2616/rfc2616-sec3.html#sec3.11 |
-| [org.http4k.core.Event](../org.http4k.core/-event/index.md) |  |
-| [org.http4k.core.EventCategory](../org.http4k.core/-event-category/index.md) |  |
+| [org.http4k.core.Event](../org.http4k.core/-event.md) |  |
+| [org.http4k.events.Event](../org.http4k.events/-event/index.md) |  |
+| [org.http4k.core.EventCategory](../org.http4k.core/-event-category.md) |  |
+| [org.http4k.events.EventCategory](../org.http4k.events/-event-category/index.md) |  |
+| [org.http4k.events.EventFilters](../org.http4k.events/-event-filters/index.md) | Useful EventFilters used in building event processing pipelines to add various types of metadata to the events |
 | [org.http4k.core.Events](../org.http4k.core/-events.md) |  |
+| [org.http4k.events.Events](../org.http4k.events/-events.md) |  |
+| [org.http4k.events.EventsFilter](../org.http4k.events/-events-filter/index.md) |  |
 | [org.http4k.cloudnative.health.Failed](../org.http4k.cloudnative.health/-failed/index.md) |  |
 | [org.http4k.lens.Failure](../org.http4k.lens/-failure/index.md) |  |
 | [org.http4k.webdriver.FeatureNotImplementedYet](../org.http4k.webdriver/-feature-not-implemented-yet.md) |  |
@@ -169,6 +175,7 @@
 | [kotlin.Function1](../org.http4k.cloudnative/kotlin.-function1/index.md) (extensions in package org.http4k.cloudnative) |  |
 | [kotlin.Function1](../org.http4k.core/kotlin.-function1/index.md) (extensions in package org.http4k.core) |  |
 | [kotlin.Function1](../org.http4k.server/kotlin.-function1/index.md) (extensions in package org.http4k.server) |  |
+| [kotlin.Function1](../org.http4k.events/kotlin.-function1/index.md) (extensions in package org.http4k.events) |  |
 | [kotlin.Function1](../org.http4k.servlet/kotlin.-function1/index.md) (extensions in package org.http4k.servlet) |  |
 | [kotlin.Function1](../org.http4k.template/kotlin.-function1/index.md) (extensions in package org.http4k.template) |  |
 | [kotlin.Function1](../org.http4k.testing/kotlin.-function1/index.md) (extensions in package org.http4k.testing) |  |
@@ -267,6 +274,7 @@
 | [org.http4k.core.MemoryRequest](../org.http4k.core/-memory-request/index.md) |  |
 | [org.http4k.core.MemoryResponse](../org.http4k.core/-memory-response/index.md) |  |
 | [org.http4k.lens.Meta](../org.http4k.lens/-meta/index.md) |  |
+| [org.http4k.events.MetadataEvent](../org.http4k.events/-metadata-event/index.md) |  |
 | [org.http4k.core.Method](../org.http4k.core/-method/index.md) |  |
 | [org.http4k.jsonrpc.MethodBindings](../org.http4k.jsonrpc/-method-bindings/index.md) |  |
 | [org.http4k.filter.MetricFilters](../org.http4k.filter/-metric-filters/index.md) |  |

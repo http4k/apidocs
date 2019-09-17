@@ -4,4 +4,4 @@
 
 | Name | Summary |
 |---|---|
-| [then](then.md) | `fun `[`Events`](../-events.md)`.then(next: `[`Events`](../-events.md)`): `[`Events`](../-events.md) |
+| [then](then.md) | `fun `[`Events`](../-events.md)`.~~then~~(next: `[`Events`](../-events.md)`): `[`Events`](../-events.md) |

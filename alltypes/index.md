@@ -151,13 +151,14 @@
 | [org.http4k.core.etag.ETag](../org.http4k.core.etag/-e-tag/index.md) |  |
 | [org.http4k.core.etag.ETagValidationRequestParser](../org.http4k.core.etag/-e-tag-validation-request-parser/index.md) | Implemented according to https://www.w3.org/Protocols/rfc2616/rfc2616-sec3.html#sec3.11 |
 | [org.http4k.core.Event](../org.http4k.core/-event.md) |  |
-| [org.http4k.events.Event](../org.http4k.events/-event/index.md) |  |
+| [org.http4k.events.Event](../org.http4k.events/-event/index.md) | Represents a meaningful "happening" in an app. |
 | [org.http4k.core.EventCategory](../org.http4k.core/-event-category.md) |  |
 | [org.http4k.events.EventCategory](../org.http4k.events/-event-category/index.md) |  |
+| [org.http4k.events.EventFilter](../org.http4k.events/-event-filter/index.md) | An EventFilter is used to create pipelines for Event processing. |
 | [org.http4k.events.EventFilters](../org.http4k.events/-event-filters/index.md) | Useful EventFilters used in building event processing pipelines to add various types of metadata to the events |
 | [org.http4k.core.Events](../org.http4k.core/-events.md) |  |
 | [org.http4k.events.Events](../org.http4k.events/-events.md) |  |
-| [org.http4k.events.EventsFilter](../org.http4k.events/-events-filter/index.md) |  |
+| [org.http4k.events.EventsFilter](../org.http4k.events/-events-filter.md) |  |
 | [org.http4k.cloudnative.health.Failed](../org.http4k.cloudnative.health/-failed/index.md) |  |
 | [org.http4k.lens.Failure](../org.http4k.lens/-failure/index.md) |  |
 | [org.http4k.webdriver.FeatureNotImplementedYet](../org.http4k.webdriver/-feature-not-implemented-yet.md) |  |

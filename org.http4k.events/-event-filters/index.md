@@ -10,8 +10,8 @@ Useful EventFilters used in building event processing pipelines to add various t
 
 | Name | Summary |
 |---|---|
-| [AddTimestamp](-add-timestamp.md) | `fun AddTimestamp(clock: `[`Clock`](https://docs.oracle.com/javase/9/docs/api/java/time/Clock.html)`): `[`EventsFilter`](../-events-filter/index.md)<br>Adds timestamp metadata to the event. |
-| [AddZipkinTraces](-add-zipkin-traces.md) | `fun AddZipkinTraces(): `[`EventsFilter`](../-events-filter/index.md)<br>Adds Zipkin traces metadata to the event. |
+| [AddTimestamp](-add-timestamp.md) | `fun AddTimestamp(clock: `[`Clock`](https://docs.oracle.com/javase/9/docs/api/java/time/Clock.html)`): `[`EventFilter`](../-event-filter/index.md)<br>Adds timestamp metadata to the event. |
+| [AddZipkinTraces](-add-zipkin-traces.md) | `fun AddZipkinTraces(): `[`EventFilter`](../-event-filter/index.md)<br>Adds Zipkin traces metadata to the event. |
 
 ### Extension Functions
 

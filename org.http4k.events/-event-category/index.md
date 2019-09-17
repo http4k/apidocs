@@ -2,7 +2,7 @@
 
 # EventCategory
 
-`data class EventCategory` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/events/events.kt#L26)
+`data class EventCategory` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/events/events.kt#L32)
 
 ### Constructors
 

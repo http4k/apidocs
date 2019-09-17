@@ -2,7 +2,9 @@
 
 # Event
 
-`interface Event` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/events/events.kt#L5)
+`interface Event` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/events/events.kt#L8)
+
+Represents a meaningful "happening" in an app.
 
 ### Types
 

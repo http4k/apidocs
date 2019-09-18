@@ -2,7 +2,7 @@
 
 # BootstrapException
 
-`open class BootstrapException : `[`Exception`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-exception/index.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-serverless-lambda/src/main/kotlin/org/http4k/serverless/BootstrapAppLoader.kt#L6)
+`open class BootstrapException : `[`Exception`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-exception/index.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-serverless-lambda/src/main/kotlin/org/http4k/serverless/BootstrapAppLoader.kt#L24)
 
 ### Constructors
 

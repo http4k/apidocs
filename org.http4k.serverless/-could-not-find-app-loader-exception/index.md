@@ -2,7 +2,7 @@
 
 # CouldNotFindAppLoaderException
 
-`class CouldNotFindAppLoaderException : `[`BootstrapException`](../-bootstrap-exception/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-serverless-lambda/src/main/kotlin/org/http4k/serverless/BootstrapAppLoader.kt#L7)
+`class CouldNotFindAppLoaderException : `[`BootstrapException`](../-bootstrap-exception/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-serverless-lambda/src/main/kotlin/org/http4k/serverless/BootstrapAppLoader.kt#L26)
 
 ### Constructors
 

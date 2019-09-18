@@ -28,6 +28,7 @@
 | [io.ktor.request.ApplicationRequest](../org.http4k.server/io.ktor.request.-application-request/index.md) (extensions in package org.http4k.server) |  |
 | [io.ktor.response.ApplicationResponse](../org.http4k.server/io.ktor.response.-application-response/index.md) (extensions in package org.http4k.server) |  |
 | [org.http4k.serverless.AppLoader](../org.http4k.serverless/-app-loader.md) | Http4k app loader - instantiate the application from the environment config |
+| [org.http4k.serverless.AppLoaderWithContexts](../org.http4k.serverless/-app-loader-with-contexts.md) | Http4k app loader - instantiate the application from the environment config and request contexts object |
 | [org.http4k.testing.ApprovalContent](../org.http4k.testing/-approval-content/index.md) | Determines which parts of the HttpMessage will be compared. |
 | [org.http4k.testing.ApprovalFailed](../org.http4k.testing/-approval-failed/index.md) |  |
 | [org.http4k.testing.ApprovalSource](../org.http4k.testing/-approval-source/index.md) | The backing store where the approved and actual content will be stored. |
@@ -132,6 +133,7 @@
 | [org.http4k.lens.Cookies](../org.http4k.lens/-cookies.md) |  |
 | [org.http4k.filter.cookie.CookieStorage](../org.http4k.filter.cookie/-cookie-storage/index.md) |  |
 | [org.http4k.filter.CorsPolicy](../org.http4k.filter/-cors-policy/index.md) |  |
+| [org.http4k.serverless.CouldNotFindAppLoaderException](../org.http4k.serverless/-could-not-find-app-loader-exception/index.md) |  |
 | [org.http4k.core.Credentials](../org.http4k.core/-credentials/index.md) |  |
 | [org.http4k.security.CrossSiteRequestForgeryToken](../org.http4k.security/-cross-site-request-forgery-token/index.md) |  |
 | [org.http4k.security.CsrfGenerator](../org.http4k.security/-csrf-generator.md) |  |
@@ -223,6 +225,7 @@
 | [org.http4k.security.oauth.server.InsecureCookieBasedAuthRequestTracking](../org.http4k.security.oauth.server/-insecure-cookie-based-auth-request-tracking/index.md) |  |
 | [org.http4k.security.InsecureCookieBasedOAuthPersistence](../org.http4k.security/-insecure-cookie-based-o-auth-persistence/index.md) | This is an example implementation which stores CSRF and AccessToken values in an INSECURE client-side cookie. Access-tokens for end-services are fully available to the browser so do not use this in production! |
 | [org.http4k.lens.Invalid](../org.http4k.lens/-invalid/index.md) |  |
+| [org.http4k.serverless.InvalidAppLoaderException](../org.http4k.serverless/-invalid-app-loader-exception/index.md) |  |
 | [org.http4k.security.oauth.server.InvalidAuthorizationRequest](../org.http4k.security.oauth.server/-invalid-authorization-request/index.md) |  |
 | [org.http4k.security.oauth.server.InvalidClientCredentials](../org.http4k.security.oauth.server/-invalid-client-credentials.md) |  |
 | [org.http4k.security.oauth.server.InvalidClientId](../org.http4k.security.oauth.server/-invalid-client-id.md) |  |

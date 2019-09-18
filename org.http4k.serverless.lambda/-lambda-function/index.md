@@ -2,7 +2,7 @@
 
 # LambdaFunction
 
-`class LambdaFunction` [(source)](https://github.com/http4k/http4k/blob/master/http4k-serverless-lambda/src/main/kotlin/org/http4k/serverless/lambda/LambdaFunction.kt#L16)
+`class LambdaFunction` [(source)](https://github.com/http4k/http4k/blob/master/http4k-serverless-lambda/src/main/kotlin/org/http4k/serverless/lambda/LambdaFunction.kt#L26)
 
 This is the main entry point for the lambda. It uses the local environment
 to instantiate the Http4k handler which can be used for further invocations.
@@ -17,7 +17,7 @@ to instantiate the Http4k handler which can be used for further invocations.
 
 | Name | Summary |
 |---|---|
-| [handle](handle.md) | `fun handle(request: ApiGatewayProxyRequest): ApiGatewayProxyResponse` |
+| [handle](handle.md) | `fun handle(request: APIGatewayProxyRequestEvent, lambdaContext: Context? = null): APIGatewayProxyResponseEvent` |
 
 ### Extension Functions
 

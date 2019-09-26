@@ -9,6 +9,7 @@
 | Name | Summary |
 |---|---|
 | [consumes](consumes.md) | `val consumes: `[`Appendable`](../../org.http4k.util/-appendable/index.md)`<`[`ContentType`](../../org.http4k.core/-content-type/index.md)`>` |
+| [cookies](cookies.md) | `val cookies: `[`Appendable`](../../org.http4k.util/-appendable/index.md)`<`[`Lens`](../../org.http4k.lens/-lens/index.md)`<`[`Request`](../../org.http4k.core/-request/index.md)`, *>>` |
 | [description](description.md) | `var description: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |
 | [headers](headers.md) | `val headers: `[`Appendable`](../../org.http4k.util/-appendable/index.md)`<`[`Lens`](../../org.http4k.lens/-lens/index.md)`<`[`Request`](../../org.http4k.core/-request/index.md)`, *>>` |
 | [operationId](operation-id.md) | `var operationId: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |

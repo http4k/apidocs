@@ -37,6 +37,7 @@ Common code relevant to the various message format implementations (eg. JSON).
 |---|---|
 | [com.fasterxml.jackson.databind.ObjectMapper](com.fasterxml.jackson.databind.-object-mapper/index.md) |  |
 | [com.fasterxml.jackson.module.kotlin.KotlinModule](com.fasterxml.jackson.module.kotlin.-kotlin-module/index.md) |  |
+| [com.google.gson.Gson](com.google.gson.-gson/index.md) |  |
 | [com.google.gson.GsonBuilder](com.google.gson.-gson-builder/index.md) |  |
 | [com.squareup.moshi.Moshi.Builder](com.squareup.moshi.-moshi.-builder/index.md) |  |
 

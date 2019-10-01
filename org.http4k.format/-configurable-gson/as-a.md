@@ -11,3 +11,5 @@ Overrides [AutoMarshallingJson.asA](../-auto-marshalling-json/as-a.md)
 
 Overrides [JsonLibAutoMarshallingJson.asA](../-json-lib-auto-marshalling-json/as-a.md)
 
+
+`inline fun <reified T : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> JsonElement.asA(): `[`T`](as-a.md#T) [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-gson/src/main/kotlin/org/http4k/format/ConfigurableGson.kt#L91)

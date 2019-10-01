@@ -2,5 +2,5 @@
 
 # asConfigurable
 
-`fun KotlinModule.asConfigurable(): `[`AutoMappingConfiguration`](../-auto-mapping-configuration/index.md)`<`[`ObjectMapper`](https://fasterxml.github.io/jackson-databind/javadoc/2.10/com/fasterxml/jackson/databind/ObjectMapper.html)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-jackson/src/main/kotlin/org/http4k/format/ConfigurableJackson.kt#L86)
+`fun KotlinModule.asConfigurable(): `[`AutoMappingConfiguration`](../-auto-mapping-configuration/index.md)`<`[`ObjectMapper`](https://fasterxml.github.io/jackson-databind/javadoc/2.10/com/fasterxml/jackson/databind/ObjectMapper.html)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-jackson/src/main/kotlin/org/http4k/format/ConfigurableJackson.kt#L88)
 `fun <T : `[`ObjectMapper`](https://fasterxml.github.io/jackson-databind/javadoc/2.10/com/fasterxml/jackson/databind/ObjectMapper.html)`> KotlinModule.asConfigurable(mapper: `[`T`](as-configurable.md#T)`): `[`AutoMappingConfiguration`](../-auto-mapping-configuration/index.md)`<`[`T`](as-configurable.md#T)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-jackson/src/main/kotlin/org/http4k/format/configurable.kt#L16)

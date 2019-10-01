@@ -191,6 +191,7 @@
 | [org.http4k.webdriver.GetURL](../org.http4k.webdriver/-get-u-r-l.md) |  |
 | [org.http4k.security.oauth.server.accesstoken.GrantType](../org.http4k.security.oauth.server.accesstoken/-grant-type/index.md) |  |
 | [org.http4k.security.oauth.server.accesstoken.GrantTypesConfiguration](../org.http4k.security.oauth.server.accesstoken/-grant-types-configuration/index.md) |  |
+| [com.google.gson.Gson](../org.http4k.format/com.google.gson.-gson/index.md) (extensions in package org.http4k.format) |  |
 | [org.http4k.format.Gson](../org.http4k.format/-gson.md) | To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called. |
 | [com.google.gson.GsonBuilder](../org.http4k.format/com.google.gson.-gson-builder/index.md) (extensions in package org.http4k.format) |  |
 | [org.http4k.filter.GsonGenerateXmlDataClasses](../org.http4k.filter/-gson-generate-xml-data-classes/index.md) | Provides an implementation of GenerateXmlDataClasses using GSON as an engine. |

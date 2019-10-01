@@ -11,3 +11,5 @@ Overrides [AutoMarshallingJson.asA](../-auto-marshalling-json/as-a.md)
 
 Overrides [JsonLibAutoMarshallingJson.asA](../-json-lib-auto-marshalling-json/as-a.md)
 
+
+`inline fun <reified T : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> `[`JsonNode`](https://fasterxml.github.io/jackson-databind/javadoc/2.10/com/fasterxml/jackson/databind/JsonNode.html)`.asA(): `[`T`](as-a.md#T) [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-jackson/src/main/kotlin/org/http4k/format/ConfigurableJackson.kt#L66)

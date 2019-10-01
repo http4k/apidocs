@@ -308,6 +308,7 @@
 | [org.http4k.contract.security.OAuthScope](../org.http4k.contract.security/-o-auth-scope/index.md) |  |
 | [org.http4k.contract.security.OAuthSecurity](../org.http4k.contract.security/-o-auth-security/index.md) |  |
 | [org.http4k.security.oauth.server.OAuthServer](../org.http4k.security.oauth.server/-o-auth-server/index.md) | Provide help creating OAuth Authorization Server with Authorization Code Flow |
+| [com.fasterxml.jackson.databind.ObjectMapper](../org.http4k.format/com.fasterxml.jackson.databind.-object-mapper/index.md) (extensions in package org.http4k.format) |  |
 | [org.http4k.client.OkHttp](../org.http4k.client/-ok-http/index.md) |  |
 | [org.http4k.contract.OpenApi](../org.http4k.contract/-open-api.md) |  |
 | [org.http4k.contract.openapi.v2.OpenApi2](../org.http4k.contract.openapi.v2/-open-api2/index.md) | Contract renderer for OpenApi2 format JSON. Note that for the JSON schema generation, auto-naming of object models is used as the input relies on JSON objects and not JVM classees. |

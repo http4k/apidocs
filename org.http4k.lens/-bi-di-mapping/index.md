@@ -2,7 +2,7 @@
 
 # BiDiMapping
 
-`class BiDiMapping<IN, OUT>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/BiDiMapping.kt#L34)
+`class BiDiMapping<IN, OUT>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/BiDiMapping.kt#L35)
 
 A BiDiMapping defines a reusable bidirectional transformation between an input and output type
 

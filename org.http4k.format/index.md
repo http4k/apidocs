@@ -13,7 +13,7 @@ Common code relevant to the various message format implementations (eg. JSON).
 | [AutoMarshallingJson](-auto-marshalling-json/index.md) | `abstract class AutoMarshallingJson` |
 | [AutoMarshallingXml](-auto-marshalling-xml/index.md) | `abstract class AutoMarshallingXml` |
 | [ConfigurableGson](-configurable-gson/index.md) | `open class ConfigurableGson : `[`JsonLibAutoMarshallingJson`](-json-lib-auto-marshalling-json/index.md)`<JsonElement>` |
-| [ConfigurableJackson](-configurable-jackson/index.md) | `open class ConfigurableJackson : `[`JsonLibAutoMarshallingJson`](-json-lib-auto-marshalling-json/index.md)`<`[`JsonNode`](https://fasterxml.github.io/jackson-databind/javadoc/2.9/com/fasterxml/jackson/databind/JsonNode.html)`>` |
+| [ConfigurableJackson](-configurable-jackson/index.md) | `open class ConfigurableJackson : `[`JsonLibAutoMarshallingJson`](-json-lib-auto-marshalling-json/index.md)`<`[`JsonNode`](https://fasterxml.github.io/jackson-databind/javadoc/2.10/com/fasterxml/jackson/databind/JsonNode.html)`>` |
 | [ConfigurableJacksonXml](-configurable-jackson-xml/index.md) | `open class ConfigurableJacksonXml : `[`AutoMarshallingXml`](-auto-marshalling-xml/index.md) |
 | [ConfigurableMoshi](-configurable-moshi/index.md) | `open class ConfigurableMoshi : `[`AutoMarshallingJson`](-auto-marshalling-json/index.md) |
 | [Gson](-gson.md) | `object Gson : `[`ConfigurableGson`](-configurable-gson/index.md)<br>To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called. |
@@ -35,6 +35,7 @@ Common code relevant to the various message format implementations (eg. JSON).
 
 | Name | Summary |
 |---|---|
+| [com.fasterxml.jackson.databind.ObjectMapper](com.fasterxml.jackson.databind.-object-mapper/index.md) |  |
 | [com.fasterxml.jackson.module.kotlin.KotlinModule](com.fasterxml.jackson.module.kotlin.-kotlin-module/index.md) |  |
 | [com.google.gson.GsonBuilder](com.google.gson.-gson-builder/index.md) |  |
 | [com.squareup.moshi.Moshi.Builder](com.squareup.moshi.-moshi.-builder/index.md) |  |

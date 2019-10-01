@@ -2,7 +2,7 @@
 
 # Bulkheading
 
-`object Bulkheading` [(source)](https://github.com/http4k/http4k/blob/master/http4k-resilience4j/src/main/kotlin/org/http4k/filter/ResilienceFilters.kt#L87)
+`object Bulkheading` [(source)](https://github.com/http4k/http4k/blob/master/http4k-resilience4j/src/main/kotlin/org/http4k/filter/ResilienceFilters.kt#L88)
 
 Provide simple Bulkhead functionality.
 By default, handles 25 parallel requests, with zero wait time.

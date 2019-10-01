@@ -2,7 +2,7 @@
 
 # ResilienceFilters
 
-`object ResilienceFilters` [(source)](https://github.com/http4k/http4k/blob/master/http4k-resilience4j/src/main/kotlin/org/http4k/filter/ResilienceFilters.kt#L16)
+`object ResilienceFilters` [(source)](https://github.com/http4k/http4k/blob/master/http4k-resilience4j/src/main/kotlin/org/http4k/filter/ResilienceFilters.kt#L17)
 
 ### Types
 

@@ -2,7 +2,7 @@
 
 # StringBiDiMappings
 
-`object StringBiDiMappings` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/BiDiMapping.kt#L53)
+`object StringBiDiMappings` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/BiDiMapping.kt#L54)
 
 A set of standardised String &lt;-&gt; Type conversions which are used throughout http4k
 
@@ -34,6 +34,7 @@ A set of standardised String &lt;-&gt; Type conversions which are used throughou
 | [uri](uri.md) | `fun uri(): `[`BiDiMapping`](../-bi-di-mapping/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`Uri`](../../org.http4k.core/-uri/index.md)`>` |
 | [url](url.md) | `fun url(): `[`BiDiMapping`](../-bi-di-mapping/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!, `[`URL`](https://docs.oracle.com/javase/9/docs/api/java/net/URL.html)`>` |
 | [uuid](uuid.md) | `fun uuid(): `[`BiDiMapping`](../-bi-di-mapping/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`UUID`](https://docs.oracle.com/javase/9/docs/api/java/util/UUID.html)`!>` |
+| [yearMonth](year-month.md) | `fun yearMonth(formatter: `[`DateTimeFormatter`](https://docs.oracle.com/javase/9/docs/api/java/time/format/DateTimeFormatter.html)` = DateTimeFormatter.ofPattern("yyyy-MM")): `[`BiDiMapping`](../-bi-di-mapping/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!, `[`YearMonth`](https://docs.oracle.com/javase/9/docs/api/java/time/YearMonth.html)`!>` |
 | [zonedDateTime](zoned-date-time.md) | `fun zonedDateTime(formatter: `[`DateTimeFormatter`](https://docs.oracle.com/javase/9/docs/api/java/time/format/DateTimeFormatter.html)` = ISO_ZONED_DATE_TIME): `[`BiDiMapping`](../-bi-di-mapping/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!, `[`ZonedDateTime`](https://docs.oracle.com/javase/9/docs/api/java/time/ZonedDateTime.html)`!>` |
 
 ### Extension Functions

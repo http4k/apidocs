@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `ConfigurableJacksonXml(mapper: `[`XmlMapper`](https://fasterxml.github.io/jackson-dataformat-xml/javadoc/2.9/com/fasterxml/jackson/dataformat/xml/XmlMapper.html)`)` |
+| [&lt;init&gt;](-init-.md) | `ConfigurableJacksonXml(mapper: XmlMapper)` |
 
 ### Functions
 

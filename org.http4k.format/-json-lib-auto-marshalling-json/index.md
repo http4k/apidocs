@@ -65,4 +65,4 @@
 | Name | Summary |
 |---|---|
 | [ConfigurableGson](../-configurable-gson/index.md) | `open class ConfigurableGson : `[`JsonLibAutoMarshallingJson`](./index.md)`<JsonElement>` |
-| [ConfigurableJackson](../-configurable-jackson/index.md) | `open class ConfigurableJackson : `[`JsonLibAutoMarshallingJson`](./index.md)`<`[`JsonNode`](https://fasterxml.github.io/jackson-databind/javadoc/2.9/com/fasterxml/jackson/databind/JsonNode.html)`>` |
+| [ConfigurableJackson](../-configurable-jackson/index.md) | `open class ConfigurableJackson : `[`JsonLibAutoMarshallingJson`](./index.md)`<`[`JsonNode`](https://fasterxml.github.io/jackson-databind/javadoc/2.10/com/fasterxml/jackson/databind/JsonNode.html)`>` |

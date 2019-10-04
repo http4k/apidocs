@@ -2,7 +2,7 @@
 
 # HasSchema
 
-`interface HasSchema<NODE>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/openapi/v3/model.kt#L61)
+`interface HasSchema<NODE>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/openapi/v3/model.kt#L60)
 
 ### Functions
 
@@ -20,7 +20,8 @@
 
 | Name | Summary |
 |---|---|
+| [OneOfSchemaContent](../-body-content/-one-of-schema-content/index.md) | `class OneOfSchemaContent<NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`BodyContent`](../-body-content/index.md)`, `[`HasSchema`](./index.md)`<`[`NODE`](../-body-content/-one-of-schema-content/index.md#NODE)`>` |
 | [RequestContents](../-request-contents/index.md) | `class RequestContents<NODE> : `[`HasSchema`](./index.md)`<`[`NODE`](../-request-contents/index.md#NODE)`>` |
 | [ResponseContents](../-response-contents/index.md) | `class ResponseContents<NODE> : `[`HasSchema`](./index.md)`<`[`NODE`](../-response-contents/index.md#NODE)`>` |
-| [SchemaContent](../-body-content/-schema-content/index.md) | `class SchemaContent<NODE> : `[`BodyContent`](../-body-content/index.md)`, `[`HasSchema`](./index.md)`<`[`NODE`](../-body-content/-schema-content/index.md#NODE)`>` |
+| [SchemaContent](../-body-content/-schema-content/index.md) | `class SchemaContent<NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`BodyContent`](../-body-content/index.md)`, `[`HasSchema`](./index.md)`<`[`NODE`](../-body-content/-schema-content/index.md#NODE)`>` |
 | [SchemaParameter](../-request-parameter/-schema-parameter/index.md) | `class SchemaParameter<NODE> : `[`RequestParameter`](../-request-parameter/index.md)`<`[`NODE`](../-request-parameter/-schema-parameter/index.md#NODE)`>, `[`HasSchema`](./index.md)`<`[`NODE`](../-request-parameter/-schema-parameter/index.md#NODE)`>` |

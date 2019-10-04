@@ -2,7 +2,7 @@
 
 # FormContent
 
-`class FormContent : `[`BodyContent`](../index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/openapi/v3/model.kt#L75)
+`class FormContent : `[`BodyContent`](../index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/openapi/v3/model.kt#L86)
 
 ### Types
 

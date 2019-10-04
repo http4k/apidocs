@@ -35,4 +35,4 @@ Renders the contract contents in OpenApi JSON format.
 
 | Name | Summary |
 |---|---|
-| [OpenApi3ApiRenderer](../../org.http4k.contract.openapi.v3/-open-api3-api-renderer/index.md) | `class OpenApi3ApiRenderer<NODE> : `[`ApiRenderer`](./index.md)`<`[`Api`](../../org.http4k.contract.openapi.v3/-api/index.md)`<`[`NODE`](../../org.http4k.contract.openapi.v3/-open-api3-api-renderer/index.md#NODE)`>, `[`NODE`](../../org.http4k.contract.openapi.v3/-open-api3-api-renderer/index.md#NODE)`>`<br>Converts a API to OpenApi3 format JSON. |
+| [OpenApi3ApiRenderer](../../org.http4k.contract.openapi.v3/-open-api3-api-renderer/index.md) | `class OpenApi3ApiRenderer<NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`ApiRenderer`](./index.md)`<`[`Api`](../../org.http4k.contract.openapi.v3/-api/index.md)`<`[`NODE`](../../org.http4k.contract.openapi.v3/-open-api3-api-renderer/index.md#NODE)`>, `[`NODE`](../../org.http4k.contract.openapi.v3/-open-api3-api-renderer/index.md#NODE)`>`<br>Converts a API to OpenApi3 format JSON. |

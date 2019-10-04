@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`NoSchema(paramMeta: `[`ParamMeta`](../../../org.http4k.lens/-param-meta/index.md)`)`
+`NoSchema(schema: `[`NODE`](index.md#NODE)`)`

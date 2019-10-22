@@ -11,6 +11,7 @@ Common code relevant to templating implementations.
 | [DustTemplates](-dust-templates/index.md) | `class DustTemplates : `[`Templates`](-templates/index.md) |
 | [FreemarkerTemplates](-freemarker-templates/index.md) | `class FreemarkerTemplates : `[`Templates`](-templates/index.md) |
 | [HandlebarsTemplates](-handlebars-templates/index.md) | `class HandlebarsTemplates : `[`Templates`](-templates/index.md)<br>Handlebars templating support. Use the function in the constructor to configure the instance. |
+| [Jade4jTemplates](-jade4j-templates/index.md) | `class Jade4jTemplates : `[`Templates`](-templates/index.md)<br>Jade4j templating support. Use the function in the constructor to configure the instance. |
 | [PebbleTemplates](-pebble-templates/index.md) | `class PebbleTemplates : `[`Templates`](-templates/index.md) |
 | [Templates](-templates/index.md) | `interface Templates`<br>Supported template implementations for templating engine implementations |
 | [ThymeleafTemplates](-thymeleaf-templates/index.md) | `class ThymeleafTemplates : `[`Templates`](-templates/index.md) |

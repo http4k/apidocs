@@ -238,6 +238,7 @@
 | [org.http4k.contract.openapi.v3.JacksonJsonPropertyAnnotated](../org.http4k.contract.openapi.v3/-jackson-json-property-annotated/index.md) |  |
 | [org.http4k.format.JacksonXml](../org.http4k.format/-jackson-xml.md) | To implement custom XML configuration, create your own object singleton. Extra mappings can be added before done() is called. |
 | [org.http4k.filter.JacksonXmlGenerateXmlDataClasses](../org.http4k.filter/-jackson-xml-generate-xml-data-classes/index.md) | Provides an implementation of GenerateXmlDataClasses using GSON as an engine. |
+| [org.http4k.template.Jade4jTemplates](../org.http4k.template/-jade4j-templates/index.md) | Jade4j templating support. Use the function in the constructor to configure the instance. |
 | [org.http4k.client.JavaHttpClient](../org.http4k.client/-java-http-client/index.md) |  |
 | [org.http4k.server.Jetty](../org.http4k.server/-jetty/index.md) |  |
 | [org.http4k.client.JettyClient](../org.http4k.client/-jetty-client/index.md) |  |

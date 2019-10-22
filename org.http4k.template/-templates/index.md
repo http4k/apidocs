@@ -27,5 +27,6 @@ Supported template implementations for templating engine implementations
 | [DustTemplates](../-dust-templates/index.md) | `class DustTemplates : `[`Templates`](./index.md) |
 | [FreemarkerTemplates](../-freemarker-templates/index.md) | `class FreemarkerTemplates : `[`Templates`](./index.md) |
 | [HandlebarsTemplates](../-handlebars-templates/index.md) | `class HandlebarsTemplates : `[`Templates`](./index.md)<br>Handlebars templating support. Use the function in the constructor to configure the instance. |
+| [Jade4jTemplates](../-jade4j-templates/index.md) | `class Jade4jTemplates : `[`Templates`](./index.md)<br>Jade4j templating support. Use the function in the constructor to configure the instance. |
 | [PebbleTemplates](../-pebble-templates/index.md) | `class PebbleTemplates : `[`Templates`](./index.md) |
 | [ThymeleafTemplates](../-thymeleaf-templates/index.md) | `class ThymeleafTemplates : `[`Templates`](./index.md) |

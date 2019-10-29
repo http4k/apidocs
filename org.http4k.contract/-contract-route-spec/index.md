@@ -22,6 +22,7 @@
 
 | Name | Summary |
 |---|---|
+| [bindContract](bind-contract.md) | `abstract infix fun bindContract(method: `[`Method`](../../org.http4k.core/-method/index.md)`): `[`ContractRouteSpec.ContractRequestBuilder`](-contract-request-builder/index.md) |
 | [div](div.md) | `abstract infix operator fun <T> div(next: `[`PathLens`](../../org.http4k.lens/-path-lens/index.md)`<`[`T`](div.md#T)`>): `[`ContractRouteSpec`](./index.md)<br>`open infix operator fun div(next: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`ContractRouteSpec`](./index.md) |
 
 ### Extension Functions

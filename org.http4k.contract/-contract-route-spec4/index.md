@@ -2,7 +2,7 @@
 
 # ContractRouteSpec4
 
-`class ContractRouteSpec4<out A, out B, out C, out D> : `[`ContractRouteSpec`](../-contract-route-spec/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/routeSpec.kt#L79)
+`class ContractRouteSpec4<out A, out B, out C, out D> : `[`ContractRouteSpec`](../-contract-route-spec/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/routeSpec.kt#L81)
 
 ### Types
 

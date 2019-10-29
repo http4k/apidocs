@@ -2,4 +2,7 @@
 
 # bindContract
 
-`infix fun bindContract(method: `[`Method`](../../org.http4k.core/-method/index.md)`): `[`ContractRouteSpec1.Binder`](-binder/index.md)`<`[`A`](-binder/index.md#A)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/routeSpec.kt#L47)
+`infix fun bindContract(method: `[`Method`](../../org.http4k.core/-method/index.md)`): `[`ContractRouteSpec1.Binder`](-binder/index.md)`<`[`A`](-binder/index.md#A)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/routeSpec.kt#L49)
+
+Overrides [ContractRouteSpec.bindContract](../-contract-route-spec/bind-contract.md)
+

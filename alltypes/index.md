@@ -172,7 +172,7 @@
 | [org.http4k.cloudnative.Forbidden](../org.http4k.cloudnative/-forbidden/index.md) |  |
 | [org.http4k.core.body.Form](../org.http4k.core.body/-form.md) |  |
 | [org.http4k.lens.FormField](../org.http4k.lens/-form-field.md) |  |
-| [org.http4k.core.FormFile](../org.http4k.core/-form-file/index.md) |  |
+| [org.http4k.core.FormFile](../org.http4k.core/-form-file.md) |  |
 | [org.http4k.template.FreemarkerTemplates](../org.http4k.template/-freemarker-templates/index.md) |  |
 | [kotlin.Function1](../org.http4k.client/kotlin.-function1/index.md) (extensions in package org.http4k.client) |  |
 | [kotlin.Function1](../org.http4k.cloudnative/kotlin.-function1/index.md) (extensions in package org.http4k.cloudnative) |  |
@@ -292,8 +292,8 @@
 | [org.http4k.core.MultipartEntity](../org.http4k.core/-multipart-entity/index.md) |  |
 | [org.http4k.lens.MultipartForm](../org.http4k.lens/-multipart-form/index.md) |  |
 | [org.http4k.core.MultipartFormBody](../org.http4k.core/-multipart-form-body/index.md) | Represents a Multi-part that is backed by a stream, which should be closed after handling the content. The gotchas which apply to StreamBody also apply here.. |
-| [org.http4k.lens.MultipartFormField](../org.http4k.lens/-multipart-form-field.md) |  |
-| [org.http4k.lens.MultipartFormFile](../org.http4k.lens/-multipart-form-file.md) |  |
+| [org.http4k.lens.MultipartFormField](../org.http4k.lens/-multipart-form-field/index.md) |  |
+| [org.http4k.lens.MultipartFormFile](../org.http4k.lens/-multipart-form-file/index.md) |  |
 | [org.http4k.testing.NamedResourceApprover](../org.http4k.testing/-named-resource-approver/index.md) |  |
 | [org.http4k.webdriver.Navigate](../org.http4k.webdriver/-navigate.md) |  |
 | [org.http4k.server.Netty](../org.http4k.server/-netty/index.md) |  |

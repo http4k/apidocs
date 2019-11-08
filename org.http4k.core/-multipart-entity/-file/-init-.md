@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`File(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, file: `[`FormFile`](../../-form-file/index.md)`)`
+`File(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, file: `[`MultipartFormFile`](../../../org.http4k.lens/-multipart-form-file/index.md)`, headers: `[`Headers`](../../-headers.md)` = emptyList())`

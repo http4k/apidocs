@@ -21,6 +21,7 @@
 
 | Name | Summary |
 |---|---|
+| [equalsIgnoringDirective](equals-ignoring-directive.md) | `fun equalsIgnoringDirective(that: `[`ContentType`](./index.md)`): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
 | [toHeaderValue](to-header-value.md) | `fun toHeaderValue(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [withNoDirective](with-no-directive.md) | `fun withNoDirective(): `[`ContentType`](./index.md) |
 
@@ -30,6 +31,7 @@
 |---|---|
 | [APPLICATION_FORM_URLENCODED](-a-p-p-l-i-c-a-t-i-o-n_-f-o-r-m_-u-r-l-e-n-c-o-d-e-d.md) | `val APPLICATION_FORM_URLENCODED: `[`ContentType`](./index.md) |
 | [APPLICATION_JSON](-a-p-p-l-i-c-a-t-i-o-n_-j-s-o-n.md) | `val APPLICATION_JSON: `[`ContentType`](./index.md) |
+| [APPLICATION_PDF](-a-p-p-l-i-c-a-t-i-o-n_-p-d-f.md) | `val APPLICATION_PDF: `[`ContentType`](./index.md) |
 | [APPLICATION_XML](-a-p-p-l-i-c-a-t-i-o-n_-x-m-l.md) | `val APPLICATION_XML: `[`ContentType`](./index.md) |
 | [MULTIPART_FORM_DATA](-m-u-l-t-i-p-a-r-t_-f-o-r-m_-d-a-t-a.md) | `val MULTIPART_FORM_DATA: `[`ContentType`](./index.md) |
 | [OCTET_STREAM](-o-c-t-e-t_-s-t-r-e-a-m.md) | `val OCTET_STREAM: `[`ContentType`](./index.md) |
@@ -42,6 +44,7 @@
 | Name | Summary |
 |---|---|
 | [MultipartFormWithBoundary](-multipart-form-with-boundary.md) | `fun MultipartFormWithBoundary(boundary: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`ContentType`](./index.md) |
+| [MultipartMixedWithBoundary](-multipart-mixed-with-boundary.md) | `fun MultipartMixedWithBoundary(boundary: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`ContentType`](./index.md) |
 | [Text](-text.md) | `fun Text(value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, charset: `[`Charset`](https://docs.oracle.com/javase/9/docs/api/java/nio/charset/Charset.html)`? = Charsets.UTF_8): `[`ContentType`](./index.md) |
 
 ### Extension Functions

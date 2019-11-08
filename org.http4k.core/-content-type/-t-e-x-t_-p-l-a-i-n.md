@@ -2,4 +2,4 @@
 
 # TEXT_PLAIN
 
-`val TEXT_PLAIN: `[`ContentType`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/ContentType.kt#L22)
+`val TEXT_PLAIN: `[`ContentType`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/ContentType.kt#L26)

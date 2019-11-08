@@ -13,7 +13,6 @@ The core abstractions for the http4k library.
 | [ContentType](-content-type/index.md) | `data class ContentType` |
 | [Credentials](-credentials/index.md) | `data class Credentials` |
 | [Filter](-filter/index.md) | `interface Filter : (`[`HttpHandler`](-http-handler.md)`) -> `[`HttpHandler`](-http-handler.md) |
-| [FormFile](-form-file/index.md) | `data class FormFile : `[`Closeable`](https://docs.oracle.com/javase/9/docs/api/java/io/Closeable.html) |
 | [HttpMessage](-http-message/index.md) | `interface HttpMessage : `[`Closeable`](https://docs.oracle.com/javase/9/docs/api/java/io/Closeable.html)<br>HttpMessages are designed to be immutable, so any mutation methods return a modified copy of the message. |
 | [HttpTransaction](-http-transaction/index.md) | `data class HttpTransaction` |
 | [MemoryBody](-memory-body/index.md) | `data class MemoryBody : `[`Body`](-body/index.md)<br>Represents a body that is backed by an in-memory ByteBuffer. Closing this has no effect. |
@@ -40,6 +39,7 @@ The core abstractions for the http4k library.
 | [Event](-event.md) | `typealias ~~Event~~ = `[`Event`](../org.http4k.events/-event/index.md) |
 | [EventCategory](-event-category.md) | `typealias ~~EventCategory~~ = `[`EventCategory`](../org.http4k.events/-event-category/index.md) |
 | [Events](-events.md) | `typealias ~~Events~~ = `[`Events`](../org.http4k.events/-events.md) |
+| [FormFile](-form-file.md) | `typealias ~~FormFile~~ = `[`MultipartFormFile`](../org.http4k.lens/-multipart-form-file/index.md) |
 | [Headers](-headers.md) | `typealias Headers = `[`Parameters`](-parameters.md) |
 | [HttpHandler](-http-handler.md) | `typealias HttpHandler = (`[`Request`](-request/index.md)`) -> `[`Response`](-response/index.md) |
 | [Parameters](-parameters.md) | `typealias Parameters = `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<Parameter>` |

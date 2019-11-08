@@ -81,10 +81,10 @@ Represents a bi-directional extraction of an entity from a target, or an inserti
 
 | Name | Summary |
 |---|---|
+| [Companion](../-multipart-form-field/-companion/index.md) | `companion object Companion : `[`BiDiLensSpec`](./index.md)`<`[`MultipartForm`](../-multipart-form/index.md)`, `[`MultipartFormField`](../-multipart-form-field/index.md)`>` |
+| [Companion](../-multipart-form-file/-companion.md) | `companion object Companion : `[`BiDiLensSpec`](./index.md)`<`[`MultipartForm`](../-multipart-form/index.md)`, `[`MultipartFormFile`](../-multipart-form-file/index.md)`>` |
 | [Cookies](../-cookies.md) | `object Cookies : `[`BiDiLensSpec`](./index.md)`<`[`Request`](../../org.http4k.core/-request/index.md)`, `[`Cookie`](../../org.http4k.core.cookie/-cookie/index.md)`>` |
 | [EnvironmentKey](../../org.http4k.cloudnative.env/-environment-key/index.md) | `object EnvironmentKey : `[`BiDiLensSpec`](./index.md)`<`[`Environment`](../../org.http4k.cloudnative.env/-environment/index.md)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>`<br>This models the key used to get a value out of the Environment using the standard Lens mechanic. Note that if your values contain commas, either use a EnvironmentKey.(mapping).multi.required()/optional()/defaulted() to retrieve the entire list, or override the comma separator in your initial Environment. |
 | [FormField](../-form-field.md) | `object FormField : `[`BiDiLensSpec`](./index.md)`<`[`WebForm`](../-web-form/index.md)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
 | [Header](../-header/index.md) | `object Header : `[`BiDiLensSpec`](./index.md)`<`[`HttpMessage`](../../org.http4k.core/-http-message/index.md)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
-| [MultipartFormField](../-multipart-form-field.md) | `object MultipartFormField : `[`BiDiLensSpec`](./index.md)`<`[`MultipartForm`](../-multipart-form/index.md)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
-| [MultipartFormFile](../-multipart-form-file.md) | `object MultipartFormFile : `[`BiDiLensSpec`](./index.md)`<`[`MultipartForm`](../-multipart-form/index.md)`, `[`FormFile`](../../org.http4k.core/-form-file/index.md)`>` |
 | [Query](../-query.md) | `object Query : `[`BiDiLensSpec`](./index.md)`<`[`Request`](../../org.http4k.core/-request/index.md)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |

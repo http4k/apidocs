@@ -2,19 +2,20 @@
 
 # File
 
-`data class File : `[`MultipartEntity`](../index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-multipart/src/main/kotlin/org/http4k/core/MultipartFormBody.kt#L25)
+`data class File : `[`MultipartEntity`](../index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-multipart/src/main/kotlin/org/http4k/core/MultipartFormBody.kt#L27)
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `File(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, file: `[`FormFile`](../../-form-file/index.md)`)` |
+| [&lt;init&gt;](-init-.md) | `File(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, file: `[`MultipartFormFile`](../../../org.http4k.lens/-multipart-form-file/index.md)`, headers: `[`Headers`](../../-headers.md)` = emptyList())` |
 
 ### Properties
 
 | Name | Summary |
 |---|---|
-| [file](file.md) | `val file: `[`FormFile`](../../-form-file/index.md) |
+| [file](file.md) | `val file: `[`MultipartFormFile`](../../../org.http4k.lens/-multipart-form-file/index.md) |
+| [headers](headers.md) | `val headers: `[`Headers`](../../-headers.md) |
 | [name](name.md) | `val name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 
 ### Functions

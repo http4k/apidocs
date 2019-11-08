@@ -2,4 +2,4 @@
 
 # APPLICATION_XML
 
-`val APPLICATION_XML: `[`ContentType`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/ContentType.kt#L19)
+`val APPLICATION_XML: `[`ContentType`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/ContentType.kt#L22)

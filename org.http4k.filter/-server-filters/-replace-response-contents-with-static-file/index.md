@@ -2,7 +2,7 @@
 
 # ReplaceResponseContentsWithStaticFile
 
-`object ReplaceResponseContentsWithStaticFile` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ServerFilters.kt#L291)
+`object ReplaceResponseContentsWithStaticFile` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ServerFilters.kt#L292)
 
 Intercepts responses and replaces the contents with contents of the statically loaded resource.
 By default, this Filter replaces the contents of unsuccessful requests with the contents of a file named

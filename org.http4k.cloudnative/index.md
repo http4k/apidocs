@@ -12,12 +12,18 @@
 
 | Name | Summary |
 |---|---|
-| [ClientTimeout](-client-timeout/index.md) | `class ClientTimeout : `[`UpstreamRequestFailed`](-upstream-request-failed/index.md) |
-| [Forbidden](-forbidden/index.md) | `class Forbidden : `[`UpstreamRequestFailed`](-upstream-request-failed/index.md) |
-| [GatewayTimeout](-gateway-timeout/index.md) | `class GatewayTimeout : `[`UpstreamRequestFailed`](-upstream-request-failed/index.md) |
-| [NotFound](-not-found/index.md) | `class NotFound : `[`UpstreamRequestFailed`](-upstream-request-failed/index.md) |
-| [Unauthorized](-unauthorized/index.md) | `class Unauthorized : `[`UpstreamRequestFailed`](-upstream-request-failed/index.md) |
-| [UpstreamRequestFailed](-upstream-request-failed/index.md) | `open class UpstreamRequestFailed : `[`RuntimeException`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-runtime-exception/index.html)<br>This hierarchy of exceptions should be used to indicate that an upstream remote system has failed with a non-successful status code which caused us to stop processing. They are designed to be used with the Server and Client filters which will allow automatic handling and propagation of erroneous responses from upstream. |
+| [ClientTimeout](-client-timeout/index.md) | `class ClientTimeout : `[`RemoteRequestFailed`](-remote-request-failed/index.md) |
+| [Forbidden](-forbidden/index.md) | `class Forbidden : `[`RemoteRequestFailed`](-remote-request-failed/index.md) |
+| [GatewayTimeout](-gateway-timeout/index.md) | `class GatewayTimeout : `[`RemoteRequestFailed`](-remote-request-failed/index.md) |
+| [NotFound](-not-found/index.md) | `class NotFound : `[`RemoteRequestFailed`](-remote-request-failed/index.md) |
+| [RemoteRequestFailed](-remote-request-failed/index.md) | `open class RemoteRequestFailed : `[`RuntimeException`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-runtime-exception/index.html)<br>This hierarchy of exceptions should be used to indicate that an upstream remote system has failed with a non-successful status code which caused us to stop processing. They are designed to be used with the Server and Client filters which will allow automatic handling and propagation of erroneous responses from upstream. |
+| [Unauthorized](-unauthorized/index.md) | `class Unauthorized : `[`RemoteRequestFailed`](-remote-request-failed/index.md) |
+
+### Type Aliases
+
+| Name | Summary |
+|---|---|
+| [UpstreamRequestFailed](-upstream-request-failed.md) | `typealias ~~UpstreamRequestFailed~~ = `[`RemoteRequestFailed`](-remote-request-failed/index.md) |
 
 ### Extensions for External Classes
 

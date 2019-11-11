@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`Unauthorized(message: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`)`
+`Unauthorized(message: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, uri: `[`Uri`](../../org.http4k.core/-uri/index.md)`? = null)`

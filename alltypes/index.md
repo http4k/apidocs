@@ -345,6 +345,7 @@
 | [org.http4k.testing.RecordingEvents](../org.http4k.testing/-recording-events/index.md) | Simple recording events that can be used in tests |
 | [org.http4k.security.RedirectionUriBuilder](../org.http4k.security/-redirection-uri-builder.md) |  |
 | [org.http4k.security.oauth.server.RedirectUriMismatch](../org.http4k.security.oauth.server/-redirect-uri-mismatch.md) |  |
+| [org.http4k.cloudnative.RemoteRequestFailed](../org.http4k.cloudnative/-remote-request-failed/index.md) | This hierarchy of exceptions should be used to indicate that an upstream remote system has failed with a non-successful status code which caused us to stop processing. They are designed to be used with the Server and Client filters which will allow automatic handling and propagation of erroneous responses from upstream. |
 | [org.http4k.contract.openapi.Render](../org.http4k.contract.openapi/-render.md) |  |
 | [org.http4k.contract.openapi.RenderModes](../org.http4k.contract.openapi/-render-modes/index.md) |  |
 | [org.http4k.traffic.Replay](../org.http4k.traffic/-replay/index.md) | Provides a stream of traffic for replaying purposes. |
@@ -427,7 +428,7 @@
 | [org.http4k.lens.Unsupported](../org.http4k.lens/-unsupported/index.md) |  |
 | [org.http4k.security.oauth.server.UnsupportedGrantType](../org.http4k.security.oauth.server/-unsupported-grant-type/index.md) |  |
 | [org.http4k.security.oauth.server.UnsupportedResponseType](../org.http4k.security.oauth.server/-unsupported-response-type/index.md) |  |
-| [org.http4k.cloudnative.UpstreamRequestFailed](../org.http4k.cloudnative/-upstream-request-failed/index.md) | This hierarchy of exceptions should be used to indicate that an upstream remote system has failed with a non-successful status code which caused us to stop processing. They are designed to be used with the Server and Client filters which will allow automatic handling and propagation of erroneous responses from upstream. |
+| [org.http4k.cloudnative.UpstreamRequestFailed](../org.http4k.cloudnative/-upstream-request-failed.md) |  |
 | [org.http4k.core.Uri](../org.http4k.core/-uri/index.md) |  |
 | [org.http4k.core.UriTemplate](../org.http4k.core/-uri-template/index.md) |  |
 | [org.http4k.routing.experimental.URLResource](../org.http4k.routing.experimental/-u-r-l-resource/index.md) |  |

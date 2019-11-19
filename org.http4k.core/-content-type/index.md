@@ -8,22 +8,22 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `ContentType(value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, directive: `[`Pair`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>? = null)` |
+| [&lt;init&gt;](-init-.md) | `ContentType(value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, directives: `[`Parameters`](../-parameters.md)` = emptyList())` |
 
 ### Properties
 
 | Name | Summary |
 |---|---|
-| [directive](directive.md) | `val directive: `[`Pair`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>?` |
+| [directives](directives.md) | `val directives: `[`Parameters`](../-parameters.md) |
 | [value](value.md) | `val value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 
 ### Functions
 
 | Name | Summary |
 |---|---|
-| [equalsIgnoringDirective](equals-ignoring-directive.md) | `fun equalsIgnoringDirective(that: `[`ContentType`](./index.md)`): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
+| [equalsIgnoringDirectives](equals-ignoring-directives.md) | `fun equalsIgnoringDirectives(that: `[`ContentType`](./index.md)`): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
 | [toHeaderValue](to-header-value.md) | `fun toHeaderValue(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
-| [withNoDirective](with-no-directive.md) | `fun withNoDirective(): `[`ContentType`](./index.md) |
+| [withNoDirectives](with-no-directives.md) | `fun withNoDirectives(): `[`ContentType`](./index.md) |
 
 ### Companion Object Properties
 

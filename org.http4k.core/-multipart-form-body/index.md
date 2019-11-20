@@ -2,7 +2,7 @@
 
 # MultipartFormBody
 
-`data class MultipartFormBody : `[`Body`](../-body/index.md)`, `[`Closeable`](https://docs.oracle.com/javase/9/docs/api/java/io/Closeable.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-multipart/src/main/kotlin/org/http4k/core/MultipartFormBody.kt#L50)
+`data class MultipartFormBody : `[`Body`](../-body/index.md)`, `[`Closeable`](https://docs.oracle.com/javase/9/docs/api/java/io/Closeable.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-multipart/src/main/kotlin/org/http4k/core/MultipartFormBody.kt#L51)
 
 Represents a Multi-part that is backed by a stream, which should be closed after handling the content. The gotchas
 which apply to StreamBody also apply here..

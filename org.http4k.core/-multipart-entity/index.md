@@ -2,7 +2,7 @@
 
 # MultipartEntity
 
-`sealed class MultipartEntity : `[`Closeable`](https://docs.oracle.com/javase/9/docs/api/java/io/Closeable.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-multipart/src/main/kotlin/org/http4k/core/MultipartFormBody.kt#L18)
+`sealed class MultipartEntity : `[`Closeable`](https://docs.oracle.com/javase/9/docs/api/java/io/Closeable.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-multipart/src/main/kotlin/org/http4k/core/MultipartFormBody.kt#L19)
 
 ### Types
 

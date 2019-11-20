@@ -2,7 +2,7 @@
 
 # HttpMessage
 
-`interface HttpMessage : `[`Closeable`](https://docs.oracle.com/javase/9/docs/api/java/io/Closeable.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L85)
+`interface HttpMessage : `[`Closeable`](https://docs.oracle.com/javase/9/docs/api/java/io/Closeable.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L82)
 
 HttpMessages are designed to be immutable, so any mutation methods return a modified copy of the message.
 

@@ -2,7 +2,7 @@
 
 # method
 
-`abstract val method: `[`Method`](../-method/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L160)`abstract fun method(method: `[`Method`](../-method/index.md)`): `[`Request`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L166)
+`abstract val method: `[`Method`](../-method/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L157)`abstract fun method(method: `[`Method`](../-method/index.md)`): `[`Request`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L163)
 
 (Copy &amp;) sets the method.
 

@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `OAuthProviderConfig(authBase: `[`Uri`](../../org.http4k.core/-uri/index.md)`, authPath: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, tokenPath: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, credentials: `[`Credentials`](../../org.http4k.core/-credentials/index.md)`, apiBase: `[`Uri`](../../org.http4k.core/-uri/index.md)` = authBase)` |
+| [&lt;init&gt;](-init-.md) | `OAuthProviderConfig(authBase: `[`Uri`](../../org.http4k.core/-uri/index.md)`, authPath: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, tokenPath: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, credentials: `[`Credentials`](../../org.http4k.core/-credentials/index.md)`, apiBase: `[`Uri`](../../org.http4k.core/-uri/index.md)` = authBase, authUri: `[`Uri`](../../org.http4k.core/-uri/index.md)` = authBase.path(authPath), tokenUri: `[`Uri`](../../org.http4k.core/-uri/index.md)` = authBase.path(tokenPath))` |
 
 ### Properties
 

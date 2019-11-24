@@ -2,7 +2,7 @@
 
 # Jade4jTemplates
 
-`class Jade4jTemplates : `[`Templates`](../-templates/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-template-jade4j/src/main/kotlin/org/http4k/template/Jade4jTemplates.kt#L16)
+`class Jade4jTemplates : `[`Templates`](../-templates/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-template-jade4j/src/main/kotlin/org/http4k/template/Jade4jTemplates.kt#L13)
 
 Jade4j templating support. Use the function in the constructor to configure the instance.
 

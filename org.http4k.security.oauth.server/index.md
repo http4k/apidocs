@@ -32,6 +32,7 @@
 | [InvalidClientCredentials](-invalid-client-credentials.md) | `object InvalidClientCredentials : `[`AccessTokenError`](-access-token-error.md) |
 | [InvalidClientId](-invalid-client-id.md) | `object InvalidClientId : `[`AuthorizationError`](-authorization-error.md) |
 | [InvalidRedirectUri](-invalid-redirect-uri.md) | `object InvalidRedirectUri : `[`AuthorizationError`](-authorization-error.md) |
+| [InvalidRequestObject](-invalid-request-object.md) | `object InvalidRequestObject : `[`AuthorizationError`](-authorization-error.md) |
 | [InvalidScopes](-invalid-scopes.md) | `object InvalidScopes : `[`AuthorizationError`](-authorization-error.md) |
 | [OAuthError](-o-auth-error/index.md) | `abstract class OAuthError` |
 | [OAuthServer](-o-auth-server/index.md) | `class OAuthServer`<br>Provide help creating OAuth Authorization Server with Authorization Code Flow |

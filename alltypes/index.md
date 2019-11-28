@@ -232,6 +232,7 @@
 | [org.http4k.security.oauth.server.InvalidClientId](../org.http4k.security.oauth.server/-invalid-client-id.md) |  |
 | [org.http4k.format.InvalidJsonException](../org.http4k.format/-invalid-json-exception/index.md) |  |
 | [org.http4k.security.oauth.server.InvalidRedirectUri](../org.http4k.security.oauth.server/-invalid-redirect-uri.md) |  |
+| [org.http4k.security.oauth.server.InvalidRequestObject](../org.http4k.security.oauth.server/-invalid-request-object.md) |  |
 | [org.http4k.security.oauth.server.InvalidScopes](../org.http4k.security.oauth.server/-invalid-scopes.md) |  |
 | [org.http4k.format.Jackson](../org.http4k.format/-jackson.md) | To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called. |
 | [org.http4k.contract.openapi.v3.JacksonJsonNamingAnnotated](../org.http4k.contract.openapi.v3/-jackson-json-naming-annotated/index.md) |  |

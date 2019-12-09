@@ -2,13 +2,13 @@
 
 # ClientValidationFilter
 
-`class ClientValidationFilter : `[`Filter`](../../org.http4k.core/-filter/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/ClientValidationFilter.kt#L11)
+`class ClientValidationFilter : `[`Filter`](../../org.http4k.core/-filter/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/ClientValidationFilter.kt#L12)
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `ClientValidationFilter(clientValidator: `[`ClientValidator`](../-client-validator/index.md)`, errorRenderer: `[`ErrorRenderer`](../-error-renderer/index.md)`, extractor: `[`AuthRequestExtractor`](../-auth-request-extractor/index.md)`)` |
+| [&lt;init&gt;](-init-.md) | `ClientValidationFilter(authoriseRequestValidator: `[`AuthoriseRequestValidator`](../-authorise-request-validator/index.md)`, errorRenderer: `[`ErrorRenderer`](../-error-renderer/index.md)`, extractor: `[`AuthRequestExtractor`](../-auth-request-extractor/index.md)`)` |
 
 ### Functions
 

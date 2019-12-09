@@ -2,7 +2,7 @@
 
 # ClientCredentials
 
-`ClientCredentials` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/accesstoken/GrantConfiguration.kt#L7)
+`ClientCredentials` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/accesstoken/GrantConfiguration.kt#L5)
 
 ### Inherited Properties
 

@@ -9,6 +9,7 @@
 | [AccessTokenError](-access-token-error.md) | `sealed class AccessTokenError : `[`OAuthError`](-o-auth-error/index.md) |
 | [AccessTokens](-access-tokens/index.md) | `interface AccessTokens`<br>Provides a consistent way to generate access tokens. |
 | [AuthenticationComplete](-authentication-complete/index.md) | `class AuthenticationComplete : `[`HttpHandler`](../org.http4k.core/-http-handler.md) |
+| [AuthoriseRequestValidator](-authorise-request-validator/index.md) | `interface AuthoriseRequestValidator` |
 | [AuthorizationCode](-authorization-code/index.md) | `data class AuthorizationCode` |
 | [AuthorizationCodeAlreadyUsed](-authorization-code-already-used.md) | `object AuthorizationCodeAlreadyUsed : `[`AccessTokenError`](-access-token-error.md) |
 | [AuthorizationCodeDetails](-authorization-code-details/index.md) | `data class AuthorizationCodeDetails` |
@@ -32,12 +33,13 @@
 | [InvalidClientCredentials](-invalid-client-credentials.md) | `object InvalidClientCredentials : `[`AccessTokenError`](-access-token-error.md) |
 | [InvalidClientId](-invalid-client-id.md) | `object InvalidClientId : `[`AuthorizationError`](-authorization-error.md) |
 | [InvalidRedirectUri](-invalid-redirect-uri.md) | `object InvalidRedirectUri : `[`AuthorizationError`](-authorization-error.md) |
-| [InvalidRequestObject](-invalid-request-object.md) | `object InvalidRequestObject : `[`AuthorizationError`](-authorization-error.md) |
 | [InvalidScopes](-invalid-scopes.md) | `object InvalidScopes : `[`AuthorizationError`](-authorization-error.md) |
 | [OAuthError](-o-auth-error/index.md) | `abstract class OAuthError` |
 | [OAuthServer](-o-auth-server/index.md) | `class OAuthServer`<br>Provide help creating OAuth Authorization Server with Authorization Code Flow |
 | [RedirectUriMismatch](-redirect-uri-mismatch.md) | `object RedirectUriMismatch : `[`AccessTokenError`](-access-token-error.md) |
 | [RfcError](-rfc-error/index.md) | `enum class RfcError` |
+| [SimpleAuthoriseRequestValidator](-simple-authorise-request-validator/index.md) | `class SimpleAuthoriseRequestValidator : `[`AuthoriseRequestValidator`](-authorise-request-validator/index.md) |
+| [TokenRequest](-token-request/index.md) | `data class TokenRequest` |
 | [UnsupportedGrantType](-unsupported-grant-type/index.md) | `data class UnsupportedGrantType : `[`AccessTokenError`](-access-token-error.md) |
 | [UnsupportedResponseType](-unsupported-response-type/index.md) | `data class UnsupportedResponseType : `[`AuthorizationError`](-authorization-error.md) |
 | [UserRejectedRequest](-user-rejected-request.md) | `object UserRejectedRequest : `[`AuthorizationError`](-authorization-error.md) |

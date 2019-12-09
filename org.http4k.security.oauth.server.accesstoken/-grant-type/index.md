@@ -2,7 +2,7 @@
 
 # GrantType
 
-`enum class GrantType` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/accesstoken/GrantConfiguration.kt#L5)
+`enum class GrantType` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/accesstoken/GrantConfiguration.kt#L3)
 
 ### Enum Values
 

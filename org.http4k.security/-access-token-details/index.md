@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `AccessTokenDetails(accessToken: `[`AccessToken`](../-access-token/index.md)`, idToken: `[`IdToken`](../../org.http4k.security.openid/-id-token/index.md)`? = null)` |
+| [&lt;init&gt;](-init-.md) | `AccessTokenDetails(accessToken: `[`AccessToken`](../-access-token/index.md)`, idToken: `[`IdToken`](../../org.http4k.security.openid/-id-token/index.md)`? = null, scope: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`? = null)` |
 
 ### Properties
 
@@ -16,6 +16,7 @@
 |---|---|
 | [accessToken](access-token.md) | `val accessToken: `[`AccessToken`](../-access-token/index.md) |
 | [idToken](id-token.md) | `val idToken: `[`IdToken`](../../org.http4k.security.openid/-id-token/index.md)`?` |
+| [scope](scope.md) | `val scope: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |
 
 ### Extension Functions
 

@@ -38,6 +38,7 @@
 | [org.http4k.client.AsyncHttpClient](../org.http4k.client/-async-http-client/index.md) |  |
 | [org.http4k.contract.security.AuthCodeOAuthSecurity](../org.http4k.contract.security/-auth-code-o-auth-security/index.md) |  |
 | [org.http4k.security.oauth.server.AuthenticationComplete](../org.http4k.security.oauth.server/-authentication-complete/index.md) |  |
+| [org.http4k.security.oauth.server.AuthoriseRequestValidator](../org.http4k.security.oauth.server/-authorise-request-validator/index.md) |  |
 | [org.http4k.cloudnative.env.Authority](../org.http4k.cloudnative.env/-authority/index.md) |  |
 | [org.http4k.security.oauth.server.AuthorizationCode](../org.http4k.security.oauth.server/-authorization-code/index.md) |  |
 | [org.http4k.security.oauth.server.accesstoken.AuthorizationCodeAccessTokenGenerator](../org.http4k.security.oauth.server.accesstoken/-authorization-code-access-token-generator/index.md) |  |
@@ -232,7 +233,6 @@
 | [org.http4k.security.oauth.server.InvalidClientId](../org.http4k.security.oauth.server/-invalid-client-id.md) |  |
 | [org.http4k.format.InvalidJsonException](../org.http4k.format/-invalid-json-exception/index.md) |  |
 | [org.http4k.security.oauth.server.InvalidRedirectUri](../org.http4k.security.oauth.server/-invalid-redirect-uri.md) |  |
-| [org.http4k.security.oauth.server.InvalidRequestObject](../org.http4k.security.oauth.server/-invalid-request-object.md) |  |
 | [org.http4k.security.oauth.server.InvalidScopes](../org.http4k.security.oauth.server/-invalid-scopes.md) |  |
 | [org.http4k.format.Jackson](../org.http4k.format/-jackson.md) | To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called. |
 | [org.http4k.contract.openapi.v3.JacksonJsonNamingAnnotated](../org.http4k.contract.openapi.v3/-jackson-json-naming-annotated/index.md) |  |
@@ -391,6 +391,7 @@
 | [org.http4k.contract.openapi.SecurityRenderer](../org.http4k.contract.openapi/-security-renderer/index.md) | Provides rendering of Security models in to OpenApi specs. |
 | [org.http4k.server.ServerConfig](../org.http4k.server/-server-config/index.md) | Standard interface for creating a configured WebServer |
 | [org.http4k.filter.ServerFilters](../org.http4k.filter/-server-filters/index.md) |  |
+| [org.http4k.security.oauth.server.SimpleAuthoriseRequestValidator](../org.http4k.security.oauth.server/-simple-authorise-request-validator/index.md) |  |
 | [org.http4k.contract.SimpleJson](../org.http4k.contract/-simple-json.md) |  |
 | [org.http4k.contract.simple.SimpleJson](../org.http4k.contract.simple/-simple-json/index.md) |  |
 | [org.http4k.contract.openapi.v3.SimpleLookup](../org.http4k.contract.openapi.v3/-simple-lookup/index.md) |  |
@@ -421,6 +422,7 @@
 | [org.http4k.testing.TestWsClient](../org.http4k.testing/-test-ws-client/index.md) | A class that is used for *offline* testing of a routed Websocket, without starting up a Server. Calls are routed synchronously to the receiving Websocket, and error are propagated to the caller. |
 | [org.http4k.template.ThymeleafTemplates](../org.http4k.template/-thymeleaf-templates/index.md) |  |
 | [org.http4k.cloudnative.env.Timeout](../org.http4k.cloudnative.env/-timeout/index.md) |  |
+| [org.http4k.security.oauth.server.TokenRequest](../org.http4k.security.oauth.server/-token-request/index.md) |  |
 | [org.http4k.filter.TraceId](../org.http4k.filter/-trace-id/index.md) |  |
 | [org.http4k.filter.TrafficFilters](../org.http4k.filter/-traffic-filters/index.md) |  |
 | [org.http4k.chaos.Trigger](../org.http4k.chaos/-trigger.md) |  |

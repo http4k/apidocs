@@ -2,7 +2,7 @@
 
 # ClientId
 
-`data class ClientId` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/OAuthServer.kt#L55)
+`data class ClientId` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/OAuthServer.kt#L106)
 
 ### Constructors
 

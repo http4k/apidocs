@@ -30,6 +30,8 @@
 | [IdTokens](-id-tokens/index.md) | `interface IdTokens` |
 | [InsecureCookieBasedAuthRequestTracking](-insecure-cookie-based-auth-request-tracking/index.md) | `class InsecureCookieBasedAuthRequestTracking : `[`AuthRequestTracking`](-auth-request-tracking/index.md) |
 | [InvalidAuthorizationRequest](-invalid-authorization-request/index.md) | `data class InvalidAuthorizationRequest : `[`AuthorizationError`](-authorization-error.md) |
+| [InvalidClientAssertion](-invalid-client-assertion.md) | `object InvalidClientAssertion : `[`AccessTokenError`](-access-token-error.md) |
+| [InvalidClientAssertionType](-invalid-client-assertion-type.md) | `object InvalidClientAssertionType : `[`AccessTokenError`](-access-token-error.md) |
 | [InvalidClientCredentials](-invalid-client-credentials.md) | `object InvalidClientCredentials : `[`AccessTokenError`](-access-token-error.md) |
 | [InvalidClientId](-invalid-client-id.md) | `object InvalidClientId : `[`AuthorizationError`](-authorization-error.md) |
 | [InvalidRedirectUri](-invalid-redirect-uri.md) | `object InvalidRedirectUri : `[`AuthorizationError`](-authorization-error.md) |

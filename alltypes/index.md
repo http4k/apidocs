@@ -94,7 +94,6 @@
 | [org.http4k.chaos.ChaosStages](../org.http4k.chaos/-chaos-stages/index.md) |  |
 | [org.http4k.chaos.ChaosTriggers](../org.http4k.chaos/-chaos-triggers/index.md) |  |
 | [org.http4k.security.oauth.server.accesstoken.ClientCredentialsAccessTokenGenerator](../org.http4k.security.oauth.server.accesstoken/-client-credentials-access-token-generator/index.md) |  |
-| [org.http4k.security.oauth.server.accesstoken.ClientCredentialsRequest](../org.http4k.security.oauth.server.accesstoken/-client-credentials-request/index.md) |  |
 | [org.http4k.filter.ClientFilters](../org.http4k.filter/-client-filters/index.md) |  |
 | [org.http4k.security.oauth.server.ClientId](../org.http4k.security.oauth.server/-client-id/index.md) |  |
 | [org.http4k.security.oauth.server.ClientIdMismatch](../org.http4k.security.oauth.server/-client-id-mismatch.md) |  |
@@ -290,6 +289,8 @@
 | [org.http4k.filter.MetricFilters](../org.http4k.filter/-metric-filters/index.md) |  |
 | [org.http4k.core.MimeTypes](../org.http4k.core/-mime-types/index.md) |  |
 | [org.http4k.lens.Missing](../org.http4k.lens/-missing/index.md) |  |
+| [org.http4k.security.oauth.server.MissingAuthorizationCode](../org.http4k.security.oauth.server/-missing-authorization-code.md) |  |
+| [org.http4k.security.oauth.server.MissingRedirectUri](../org.http4k.security.oauth.server/-missing-redirect-uri.md) |  |
 | [org.http4k.format.Moshi](../org.http4k.format/-moshi.md) | To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called. |
 | [org.http4k.lens.MultiLensSpec](../org.http4k.lens/-multi-lens-spec/index.md) | Represents a uni-directional extraction of a list of entities from a target. |
 | [org.http4k.core.MultipartEntity](../org.http4k.core/-multipart-entity/index.md) |  |

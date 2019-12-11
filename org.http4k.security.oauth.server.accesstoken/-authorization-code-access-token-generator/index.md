@@ -2,7 +2,7 @@
 
 # AuthorizationCodeAccessTokenGenerator
 
-`class AuthorizationCodeAccessTokenGenerator : `[`AccessTokenGenerator`](../-access-token-generator/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/accesstoken/AuthorizationCodeAccessTokenGenerator.kt#L27)
+`class AuthorizationCodeAccessTokenGenerator : `[`AccessTokenGenerator`](../-access-token-generator/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/accesstoken/AuthorizationCodeAccessTokenGenerator.kt#L25)
 
 ### Constructors
 
@@ -14,13 +14,13 @@
 
 | Name | Summary |
 |---|---|
-| [generate](generate.md) | `fun generate(request: `[`Request`](../../org.http4k.core/-request/index.md)`): Result<`[`AccessTokenDetails`](../../org.http4k.security/-access-token-details/index.md)`, `[`AccessTokenError`](../../org.http4k.security.oauth.server/-access-token-error.md)`>`<br>`fun generate(request: `[`AuthorizationCodeAccessTokenRequest`](../-authorization-code-access-token-request/index.md)`): Result<`[`AccessTokenDetails`](../../org.http4k.security/-access-token-details/index.md)`, `[`AccessTokenError`](../../org.http4k.security.oauth.server/-access-token-error.md)`>` |
+| [generate](generate.md) | `fun generate(request: `[`Request`](../../org.http4k.core/-request/index.md)`, clientId: `[`ClientId`](../../org.http4k.security.oauth.server/-client-id/index.md)`, tokenRequest: `[`TokenRequest`](../../org.http4k.security.oauth.server/-token-request/index.md)`): Result<`[`AccessTokenDetails`](../../org.http4k.security/-access-token-details/index.md)`, `[`AccessTokenError`](../../org.http4k.security.oauth.server/-access-token-error.md)`>`<br>`fun generate(request: `[`AuthorizationCodeAccessTokenRequest`](../-authorization-code-access-token-request/index.md)`): Result<`[`AccessTokenDetails`](../../org.http4k.security/-access-token-details/index.md)`, `[`AccessTokenError`](../../org.http4k.security.oauth.server/-access-token-error.md)`>` |
 
 ### Companion Object Functions
 
 | Name | Summary |
 |---|---|
-| [extract](extract.md) | `fun extract(request: `[`Request`](../../org.http4k.core/-request/index.md)`): Success<`[`AuthorizationCodeAccessTokenRequest`](../-authorization-code-access-token-request/index.md)`>` |
+| [extract](extract.md) | `fun extract(clientId: `[`ClientId`](../../org.http4k.security.oauth.server/-client-id/index.md)`, tokenRequest: `[`TokenRequest`](../../org.http4k.security.oauth.server/-token-request/index.md)`): Result<`[`AuthorizationCodeAccessTokenRequest`](../-authorization-code-access-token-request/index.md)`, `[`AccessTokenError`](../../org.http4k.security.oauth.server/-access-token-error.md)`>` |
 
 ### Extension Functions
 

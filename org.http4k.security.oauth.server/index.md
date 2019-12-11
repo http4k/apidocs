@@ -36,6 +36,8 @@
 | [InvalidClientId](-invalid-client-id.md) | `object InvalidClientId : `[`AuthorizationError`](-authorization-error.md) |
 | [InvalidRedirectUri](-invalid-redirect-uri.md) | `object InvalidRedirectUri : `[`AuthorizationError`](-authorization-error.md) |
 | [InvalidScopes](-invalid-scopes.md) | `object InvalidScopes : `[`AuthorizationError`](-authorization-error.md) |
+| [MissingAuthorizationCode](-missing-authorization-code.md) | `object MissingAuthorizationCode : `[`AccessTokenError`](-access-token-error.md) |
+| [MissingRedirectUri](-missing-redirect-uri.md) | `object MissingRedirectUri : `[`AccessTokenError`](-access-token-error.md) |
 | [OAuthError](-o-auth-error/index.md) | `abstract class OAuthError` |
 | [OAuthServer](-o-auth-server/index.md) | `class OAuthServer`<br>Provide help creating OAuth Authorization Server with Authorization Code Flow |
 | [RedirectUriMismatch](-redirect-uri-mismatch.md) | `object RedirectUriMismatch : `[`AccessTokenError`](-access-token-error.md) |

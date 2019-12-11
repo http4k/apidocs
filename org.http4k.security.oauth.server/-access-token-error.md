@@ -27,5 +27,7 @@
 | [InvalidClientAssertion](-invalid-client-assertion.md) | `object InvalidClientAssertion : `[`AccessTokenError`](./-access-token-error.md) |
 | [InvalidClientAssertionType](-invalid-client-assertion-type.md) | `object InvalidClientAssertionType : `[`AccessTokenError`](./-access-token-error.md) |
 | [InvalidClientCredentials](-invalid-client-credentials.md) | `object InvalidClientCredentials : `[`AccessTokenError`](./-access-token-error.md) |
+| [MissingAuthorizationCode](-missing-authorization-code.md) | `object MissingAuthorizationCode : `[`AccessTokenError`](./-access-token-error.md) |
+| [MissingRedirectUri](-missing-redirect-uri.md) | `object MissingRedirectUri : `[`AccessTokenError`](./-access-token-error.md) |
 | [RedirectUriMismatch](-redirect-uri-mismatch.md) | `object RedirectUriMismatch : `[`AccessTokenError`](./-access-token-error.md) |
 | [UnsupportedGrantType](-unsupported-grant-type/index.md) | `data class UnsupportedGrantType : `[`AccessTokenError`](./-access-token-error.md) |

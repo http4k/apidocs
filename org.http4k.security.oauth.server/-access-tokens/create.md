@@ -6,7 +6,7 @@
 
 Creates a new access token for a valid authorization code.
 
-`abstract fun create(clientId: `[`ClientId`](../-client-id/index.md)`): Result<`[`AccessToken`](../../org.http4k.security/-access-token/index.md)`, `[`AccessTokenError`](../-access-token-error.md)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/AccessTokens.kt#L18)
+`abstract fun create(clientId: `[`ClientId`](../-client-id/index.md)`, tokenRequest: `[`TokenRequest`](../-token-request/index.md)`): Result<`[`AccessToken`](../../org.http4k.security/-access-token/index.md)`, `[`AccessTokenError`](../-access-token-error.md)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/AccessTokens.kt#L18)
 
 creates a new access token for a given client.
 

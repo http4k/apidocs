@@ -10,7 +10,7 @@ Provides a consistent way to generate access tokens.
 
 | Name | Summary |
 |---|---|
-| [create](create.md) | `abstract fun create(authorizationCode: `[`AuthorizationCode`](../-authorization-code/index.md)`): Result<`[`AccessToken`](../../org.http4k.security/-access-token/index.md)`, `[`AuthorizationCodeAlreadyUsed`](../-authorization-code-already-used.md)`>`<br>Creates a new access token for a valid authorization code.`abstract fun create(clientId: `[`ClientId`](../-client-id/index.md)`): Result<`[`AccessToken`](../../org.http4k.security/-access-token/index.md)`, `[`AccessTokenError`](../-access-token-error.md)`>`<br>creates a new access token for a given client. |
+| [create](create.md) | `abstract fun create(authorizationCode: `[`AuthorizationCode`](../-authorization-code/index.md)`): Result<`[`AccessToken`](../../org.http4k.security/-access-token/index.md)`, `[`AuthorizationCodeAlreadyUsed`](../-authorization-code-already-used.md)`>`<br>Creates a new access token for a valid authorization code.`abstract fun create(clientId: `[`ClientId`](../-client-id/index.md)`, tokenRequest: `[`TokenRequest`](../-token-request/index.md)`): Result<`[`AccessToken`](../../org.http4k.security/-access-token/index.md)`, `[`AccessTokenError`](../-access-token-error.md)`>`<br>creates a new access token for a given client. |
 
 ### Extension Functions
 

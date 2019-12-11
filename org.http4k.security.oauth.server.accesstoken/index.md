@@ -11,7 +11,6 @@
 | [AuthorizationCodeAccessTokenGenerator](-authorization-code-access-token-generator/index.md) | `class AuthorizationCodeAccessTokenGenerator : `[`AccessTokenGenerator`](-access-token-generator/index.md) |
 | [AuthorizationCodeAccessTokenRequest](-authorization-code-access-token-request/index.md) | `data class AuthorizationCodeAccessTokenRequest` |
 | [ClientCredentialsAccessTokenGenerator](-client-credentials-access-token-generator/index.md) | `class ClientCredentialsAccessTokenGenerator : `[`AccessTokenGenerator`](-access-token-generator/index.md) |
-| [ClientCredentialsRequest](-client-credentials-request/index.md) | `data class ClientCredentialsRequest` |
 | [ClientSecretAccessTokenRequestAuthentication](-client-secret-access-token-request-authentication/index.md) | `class ClientSecretAccessTokenRequestAuthentication : `[`AccessTokenRequestAuthentication`](-access-token-request-authentication/index.md) |
 | [GenerateAccessTokenForGrantType](-generate-access-token-for-grant-type/index.md) | `class GenerateAccessTokenForGrantType` |
 | [GrantType](-grant-type/index.md) | `enum class GrantType` |

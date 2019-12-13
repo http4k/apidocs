@@ -9,6 +9,7 @@ Presumed homeless code used across the rest of the library.
 | Name | Summary |
 |---|---|
 | [Appendable](-appendable/index.md) | `class Appendable<T>` |
+| [Hex](-hex/index.md) | `object Hex` |
 | [JsonSchema](-json-schema/index.md) | `data class JsonSchema<out NODE>` |
 | [JsonSchemaCreator](-json-schema-creator/index.md) | `interface JsonSchemaCreator<IN, OUT>` |
 

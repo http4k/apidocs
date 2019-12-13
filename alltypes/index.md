@@ -201,6 +201,7 @@
 | [org.http4k.lens.HeaderLens](../org.http4k.lens/-header-lens.md) |  |
 | [org.http4k.core.Headers](../org.http4k.core/-headers.md) |  |
 | [org.http4k.cloudnative.health.Health](../org.http4k.cloudnative.health/-health/index.md) | Represents the set of operational endpoints to ensure that a particular app is working ok. By default provides Readiness and Liveness endpoints, but extra routes can be passed, as can a different renderer implementation for the ReadinessCheck results. |
+| [org.http4k.util.Hex](../org.http4k.util/-hex/index.md) |  |
 | [org.http4k.cloudnative.env.Host](../org.http4k.cloudnative.env/-host/index.md) |  |
 | [org.http4k.testing.HtmlApprovalTest](../org.http4k.testing/-html-approval-test/index.md) | Approval JUnit5 extension configured to compare prettified-HTML messages. Note that this strips |
 | [org.http4k.server.Http4kChannelHandler](../org.http4k.server/-http4k-channel-handler/index.md) | Exposed to allow for insertion into a customised Netty server instance |

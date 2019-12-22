@@ -37,6 +37,7 @@
 |---|---|
 | [JacksonAnnotated](-jackson-annotated.md) | `val JacksonAnnotated: `[`FieldRetrieval`](-field-retrieval/index.md)<br>Composite strategies for handling Jackson annotations in field retreival |
 | [OpenApi3SecurityRenderer](-open-api3-security-renderer.md) | `val OpenApi3SecurityRenderer: `[`SecurityRenderer`](../org.http4k.contract.openapi/-security-renderer/index.md)<br>Compose the supported Security models |
+| [value](value.md) | `val `[`ParamMeta`](../org.http4k.lens/-param-meta/index.md)`.value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 
 ### Functions
 

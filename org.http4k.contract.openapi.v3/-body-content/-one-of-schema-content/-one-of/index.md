@@ -2,7 +2,7 @@
 
 # OneOf
 
-`data class OneOf<NODE>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/openapi/v3/model.kt#L77)
+`data class OneOf<NODE>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/openapi/v3/model.kt#L78)
 
 ### Constructors
 

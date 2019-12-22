@@ -21,7 +21,14 @@
 
 | Name | Summary |
 |---|---|
-| [value](value.md) | `val value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [description](description.md) | `val description: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+
+### Extension Properties
+
+| Name | Summary |
+|---|---|
+| [value](../../org.http4k.contract.openapi.v2/value.md) | `val `[`ParamMeta`](./index.md)`.value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [value](../../org.http4k.contract.openapi.v3/value.md) | `val `[`ParamMeta`](./index.md)`.value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 
 ### Extension Functions
 

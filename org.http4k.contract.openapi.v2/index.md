@@ -14,6 +14,7 @@
 | Name | Summary |
 |---|---|
 | [OpenApi2SecurityRenderer](-open-api2-security-renderer.md) | `val OpenApi2SecurityRenderer: `[`SecurityRenderer`](../org.http4k.contract.openapi/-security-renderer/index.md)<br>Compose the supported Security models |
+| [value](value.md) | `val `[`ParamMeta`](../org.http4k.lens/-param-meta/index.md)`.value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 
 ### Functions
 

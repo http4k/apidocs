@@ -21,8 +21,11 @@ Useful tools for testing http4k applications.
 | [ReadResource](-read-resource/index.md) | `interface ReadResource` |
 | [ReadWriteResource](-read-write-resource/index.md) | `interface ReadWriteResource : `[`ReadResource`](-read-resource/index.md) |
 | [RecordingEvents](-recording-events/index.md) | `class RecordingEvents : `[`Events`](../org.http4k.events/-events.md)`, `[`Iterable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html)`<`[`Event`](../org.http4k.events/-event/index.md)`>`<br>Simple recording events that can be used in tests |
+| [ServirtiumContract](-servirtium-contract/index.md) | `interface ServirtiumContract`<br>Defines a test contract which can be used to implement recording or replaying of Servirtium-formatted tests |
+| [ServirtiumRecording](-servirtium-recording/index.md) | `class ServirtiumRecording : `[`BeforeTestExecutionCallback`](https://junit.org/junit5/docs/5.5.2/api/org/junit/jupiter/api/extension/BeforeTestExecutionCallback.html)`, `[`ParameterResolver`](https://junit.org/junit5/docs/5.5.2/api/org/junit/jupiter/api/extension/ParameterResolver.html) |
 | [TestNamer](-test-namer/index.md) | `interface TestNamer`<br>Provides the identification of test case. |
 | [TestWsClient](-test-ws-client/index.md) | `class TestWsClient : `[`WsClient`](../org.http4k.websocket/-ws-client/index.md)<br>A class that is used for *offline* testing of a routed Websocket, without starting up a Server. Calls are routed synchronously to the receiving Websocket, and error are propagated to the caller. |
+| [VerifyServirtiumContract](-verify-servirtium-contract/index.md) | `abstract class VerifyServirtiumContract` |
 | [XmlApprovalTest](-xml-approval-test/index.md) | `class XmlApprovalTest : `[`ContentTypeAwareApprovalTest`](-content-type-aware-approval-test/index.md)<br>Approval JUnit5 extension configured to compare prettified-XML messages. |
 
 ### Exceptions

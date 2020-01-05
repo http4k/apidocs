@@ -26,6 +26,12 @@ Provides a stream of traffic for replaying purposes.
 |---|---|
 | [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
 
+### Companion Object Extension Functions
+
+| Name | Summary |
+|---|---|
+| [Servirtium](../-servirtium.md) | `fun Replay.Companion.Servirtium(output: `[`File`](https://docs.oracle.com/javase/9/docs/api/java/io/File.html)`): `[`Replay`](./index.md)<br>Read HTTP traffic from disk in Servirtium markdown format |
+
 ### Inheritors
 
 | Name | Summary |

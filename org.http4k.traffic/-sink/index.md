@@ -27,6 +27,12 @@ Consumes HTTP traffic for storage.
 |---|---|
 | [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
 
+### Companion Object Extension Functions
+
+| Name | Summary |
+|---|---|
+| [Servirtium](../-servirtium.md) | `fun Sink.Companion.Servirtium(output: `[`File`](https://docs.oracle.com/javase/9/docs/api/java/io/File.html)`): `[`Sink`](./index.md)<br>Write HTTP traffic to disk in Servirtium markdown format |
+
 ### Inheritors
 
 | Name | Summary |

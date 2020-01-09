@@ -398,6 +398,7 @@
 | [org.http4k.filter.ServerFilters](../org.http4k.filter/-server-filters/index.md) |  |
 | [org.http4k.testing.ServirtiumContract](../org.http4k.testing/-servirtium-contract/index.md) | Defines a test contract which can be used to implement recording or replaying of Servirtium-formatted tests |
 | [org.http4k.testing.ServirtiumRecording](../org.http4k.testing/-servirtium-recording/index.md) |  |
+| [org.http4k.testing.ServirtiumReplay](../org.http4k.testing/-servirtium-replay/index.md) |  |
 | [org.http4k.security.oauth.server.SimpleAuthoriseRequestValidator](../org.http4k.security.oauth.server/-simple-authorise-request-validator/index.md) |  |
 | [org.http4k.contract.SimpleJson](../org.http4k.contract/-simple-json.md) |  |
 | [org.http4k.contract.simple.SimpleJson](../org.http4k.contract.simple/-simple-json/index.md) |  |
@@ -444,7 +445,6 @@
 | [org.http4k.routing.experimental.URLResource](../org.http4k.routing.experimental/-u-r-l-resource/index.md) |  |
 | [org.http4k.security.oauth.server.UserRejectedRequest](../org.http4k.security.oauth.server/-user-rejected-request.md) |  |
 | [org.http4k.lens.Validator](../org.http4k.lens/-validator/index.md) | Runs through a list of lenses and extracts the values from each one, collecting the errors |
-| [org.http4k.testing.VerifyServirtiumContract](../org.http4k.testing/-verify-servirtium-contract/index.md) |  |
 | [org.http4k.template.ViewModel](../org.http4k.template/-view-model/index.md) |  |
 | [org.http4k.template.ViewNotFound](../org.http4k.template/-view-not-found/index.md) |  |
 | [org.http4k.lens.WebForm](../org.http4k.lens/-web-form/index.md) |  |

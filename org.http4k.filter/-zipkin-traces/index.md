@@ -23,7 +23,9 @@
 
 | Name | Summary |
 |---|---|
+| [forCurrentThread](for-current-thread.md) | `fun forCurrentThread(): `[`ZipkinTraces`](./index.md) |
 | [invoke](invoke.md) | `operator fun invoke(target: `[`HttpMessage`](../../org.http4k.core/-http-message/index.md)`): `[`ZipkinTraces`](./index.md)<br>`operator fun <T : `[`HttpMessage`](../../org.http4k.core/-http-message/index.md)`> invoke(value: `[`ZipkinTraces`](./index.md)`, target: `[`T`](invoke.md#T)`): `[`T`](invoke.md#T) |
+| [setForCurrentThread](set-for-current-thread.md) | `fun setForCurrentThread(zipkinTraces: `[`ZipkinTraces`](./index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 
 ### Extension Functions
 

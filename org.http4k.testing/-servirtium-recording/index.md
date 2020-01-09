@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `ServirtiumRecording(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, original: `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`, root: `[`File`](https://docs.oracle.com/javase/9/docs/api/java/io/File.html)` = File("."))` |
+| [&lt;init&gt;](-init-.md) | `ServirtiumRecording(original: `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`, root: `[`File`](https://docs.oracle.com/javase/9/docs/api/java/io/File.html)` = File("."))` |
 
 ### Functions
 

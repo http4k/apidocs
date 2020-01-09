@@ -31,4 +31,4 @@ Combined Read/Write storage models, optimised for replay.
 
 | Name | Summary |
 |---|---|
-| [Servirtium](../-servirtium.md) | `fun ReadWriteStream.Companion.Servirtium(baseDir: `[`File`](https://docs.oracle.com/javase/9/docs/api/java/io/File.html)`, name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`ReadWriteStream`](./index.md)<br>Read and write HTTP traffic to disk in Servirtium markdown format |
+| [Servirtium](../-servirtium.md) | `fun ReadWriteStream.Companion.Servirtium(baseDir: `[`File`](https://docs.oracle.com/javase/9/docs/api/java/io/File.html)`, name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, clean: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)` = false): `[`ReadWriteStream`](./index.md)<br>Read and write HTTP traffic to disk in Servirtium markdown format |

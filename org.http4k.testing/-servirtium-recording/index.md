@@ -2,7 +2,7 @@
 
 # ServirtiumRecording
 
-`class ServirtiumRecording : `[`BeforeTestExecutionCallback`](https://junit.org/junit5/docs/5.5.2/api/org/junit/jupiter/api/extension/BeforeTestExecutionCallback.html)`, `[`ParameterResolver`](https://junit.org/junit5/docs/5.5.2/api/org/junit/jupiter/api/extension/ParameterResolver.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-incubator/src/main/kotlin/org/http4k/testing/ServirtiumRecording.kt#L15)
+`class ServirtiumRecording : `[`ParameterResolver`](https://junit.org/junit5/docs/5.5.2/api/org/junit/jupiter/api/extension/ParameterResolver.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-incubator/src/main/kotlin/org/http4k/testing/ServirtiumRecording.kt#L13)
 
 ### Constructors
 
@@ -14,8 +14,7 @@
 
 | Name | Summary |
 |---|---|
-| [beforeTestExecution](before-test-execution.md) | `fun beforeTestExecution(ec: `[`ExtensionContext`](https://junit.org/junit5/docs/5.5.2/api/org/junit/jupiter/api/extension/ExtensionContext.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
-| [resolveParameter](resolve-parameter.md) | `fun resolveParameter(pc: `[`ParameterContext`](https://junit.org/junit5/docs/5.5.2/api/org/junit/jupiter/api/extension/ParameterContext.html)`, ec: `[`ExtensionContext`](https://junit.org/junit5/docs/5.5.2/api/org/junit/jupiter/api/extension/ExtensionContext.html)`): `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`?` |
+| [resolveParameter](resolve-parameter.md) | `fun resolveParameter(pc: `[`ParameterContext`](https://junit.org/junit5/docs/5.5.2/api/org/junit/jupiter/api/extension/ParameterContext.html)`, ec: `[`ExtensionContext`](https://junit.org/junit5/docs/5.5.2/api/org/junit/jupiter/api/extension/ExtensionContext.html)`): `[`HttpHandler`](../../org.http4k.core/-http-handler.md) |
 | [supportsParameter](supports-parameter.md) | `fun supportsParameter(pc: `[`ParameterContext`](https://junit.org/junit5/docs/5.5.2/api/org/junit/jupiter/api/extension/ParameterContext.html)`, ec: `[`ExtensionContext`](https://junit.org/junit5/docs/5.5.2/api/org/junit/jupiter/api/extension/ExtensionContext.html)`): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
 
 ### Extension Functions

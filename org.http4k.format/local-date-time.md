@@ -1,0 +1,5 @@
+[http4k](../index.md) / [org.http4k.format](index.md) / [localDateTime](./local-date-time.md)
+
+# localDateTime
+
+`inline fun <BUILDER, reified OUT> `[`AutoMappingConfiguration`](-auto-mapping-configuration/index.md)`<`[`BUILDER`](local-date-time.md#BUILDER)`>.localDateTime(noinline inFn: (`[`LocalDateTime`](https://docs.oracle.com/javase/9/docs/api/java/time/LocalDateTime.html)`) -> `[`OUT`](local-date-time.md#OUT)`, noinline outFn: (`[`OUT`](local-date-time.md#OUT)`) -> `[`LocalDateTime`](https://docs.oracle.com/javase/9/docs/api/java/time/LocalDateTime.html)`): `[`AutoMappingConfiguration`](-auto-mapping-configuration/index.md)`<`[`BUILDER`](local-date-time.md#BUILDER)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/format/AutoMappingConfiguration.kt#L126)

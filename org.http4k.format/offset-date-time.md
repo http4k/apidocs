@@ -1,0 +1,5 @@
+[http4k](../index.md) / [org.http4k.format](index.md) / [offsetDateTime](./offset-date-time.md)
+
+# offsetDateTime
+
+`inline fun <BUILDER, reified OUT> `[`AutoMappingConfiguration`](-auto-mapping-configuration/index.md)`<`[`BUILDER`](offset-date-time.md#BUILDER)`>.offsetDateTime(noinline inFn: (`[`OffsetDateTime`](https://docs.oracle.com/javase/9/docs/api/java/time/OffsetDateTime.html)`) -> `[`OUT`](offset-date-time.md#OUT)`, noinline outFn: (`[`OUT`](offset-date-time.md#OUT)`) -> `[`OffsetDateTime`](https://docs.oracle.com/javase/9/docs/api/java/time/OffsetDateTime.html)`): `[`AutoMappingConfiguration`](-auto-mapping-configuration/index.md)`<`[`BUILDER`](offset-date-time.md#BUILDER)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/format/AutoMappingConfiguration.kt#L132)

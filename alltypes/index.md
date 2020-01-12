@@ -397,8 +397,8 @@
 | [org.http4k.server.ServerConfig](../org.http4k.server/-server-config/index.md) | Standard interface for creating a configured WebServer |
 | [org.http4k.filter.ServerFilters](../org.http4k.filter/-server-filters/index.md) |  |
 | [org.http4k.testing.ServirtiumContract](../org.http4k.testing/-servirtium-contract/index.md) | Defines a test contract which can be used to implement recording or replaying of Servirtium-formatted tests |
-| [org.http4k.testing.ServirtiumRecording](../org.http4k.testing/-servirtium-recording/index.md) |  |
-| [org.http4k.testing.ServirtiumReplay](../org.http4k.testing/-servirtium-replay/index.md) |  |
+| [org.http4k.testing.ServirtiumRecording](../org.http4k.testing/-servirtium-recording/index.md) | JUnit 5 extension for recording HTTP traffic to disk in Servirtium format. |
+| [org.http4k.testing.ServirtiumReplay](../org.http4k.testing/-servirtium-replay/index.md) | JUnit 5 extension for replaying HTTP traffic from disk in Servirtium format. |
 | [org.http4k.security.oauth.server.SimpleAuthoriseRequestValidator](../org.http4k.security.oauth.server/-simple-authorise-request-validator/index.md) |  |
 | [org.http4k.contract.SimpleJson](../org.http4k.contract/-simple-json.md) |  |
 | [org.http4k.contract.simple.SimpleJson](../org.http4k.contract.simple/-simple-json/index.md) |  |

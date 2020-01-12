@@ -2,13 +2,15 @@
 
 # ServirtiumReplay
 
-`class ServirtiumReplay : `[`ParameterResolver`](https://junit.org/junit5/docs/5.5.2/api/org/junit/jupiter/api/extension/ParameterResolver.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-incubator/src/main/kotlin/org/http4k/testing/junitExtensions.kt#L31)
+`class ServirtiumReplay : `[`ParameterResolver`](https://junit.org/junit5/docs/5.5.2/api/org/junit/jupiter/api/extension/ParameterResolver.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-incubator/src/main/kotlin/org/http4k/testing/junitExtensions.kt#L37)
+
+JUnit 5 extension for replaying HTTP traffic from disk in Servirtium format.
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `ServirtiumReplay(root: `[`File`](https://docs.oracle.com/javase/9/docs/api/java/io/File.html)` = File("."))` |
+| [&lt;init&gt;](-init-.md) | `ServirtiumReplay(root: `[`File`](https://docs.oracle.com/javase/9/docs/api/java/io/File.html)` = File("."))`<br>JUnit 5 extension for replaying HTTP traffic from disk in Servirtium format. |
 
 ### Functions
 

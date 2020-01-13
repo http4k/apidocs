@@ -2,7 +2,7 @@
 
 # ProxyProtocolMode
 
-`enum class ProxyProtocolMode` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/RequestFilters.kt#L45)
+`enum class ProxyProtocolMode` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/RequestFilters.kt#L48)
 
 ### Enum Values
 

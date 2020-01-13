@@ -18,7 +18,7 @@ This is the base package for all Filter implementations.
 | [GenerateDataClasses](-generate-data-classes/index.md) | `class GenerateDataClasses<out NODE> : `[`Filter`](../org.http4k.core/-filter/index.md)<br>This Filter is used to generate Data class definitions from a Response containing JSON. The Filter will try and reduce the number of class definitions by selecting the definition with the most fields (for cases where lists of items have different fields). |
 | [GenerateXmlDataClasses](-generate-xml-data-classes/index.md) | `class GenerateXmlDataClasses<NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`Filter`](../org.http4k.core/-filter/index.md)<br>This Filter is used to generate Data class definitions from a Response containing XML. The Filter will try and reduce the number of class definitions by selecting the definition with the most fields (for cases where lists of items have different fields). |
 | [GsonGenerateXmlDataClasses](-gson-generate-xml-data-classes/index.md) | `object GsonGenerateXmlDataClasses`<br>Provides an implementation of GenerateXmlDataClasses using GSON as an engine. |
-| [GzipCompressionMode](-gzip-compression-mode/index.md) | `enum class GzipCompressionMode` |
+| [GzipCompressionMode](-gzip-compression-mode/index.md) | `sealed class GzipCompressionMode` |
 | [JacksonXmlGenerateXmlDataClasses](-jackson-xml-generate-xml-data-classes/index.md) | `object JacksonXmlGenerateXmlDataClasses`<br>Provides an implementation of GenerateXmlDataClasses using GSON as an engine. |
 | [MaxAgeTtl](-max-age-ttl/index.md) | `data class MaxAgeTtl : `[`CacheControlHeaderPart`](-cache-control-header-part/index.md) |
 | [MetricFilters](-metric-filters/index.md) | `object MetricFilters` |

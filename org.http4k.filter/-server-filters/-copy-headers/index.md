@@ -2,7 +2,7 @@
 
 # CopyHeaders
 
-`object CopyHeaders` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ServerFilters.kt#L230)
+`object CopyHeaders` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ServerFilters.kt#L231)
 
 Copy headers from the incoming request to the outbound response.
 

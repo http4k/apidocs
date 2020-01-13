@@ -2,7 +2,7 @@
 
 # ServerFilters
 
-`object ServerFilters` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ServerFilters.kt#L41)
+`object ServerFilters` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ServerFilters.kt#L42)
 
 ### Types
 
@@ -14,8 +14,8 @@
 | [CatchLensFailure](-catch-lens-failure.md) | `object CatchLensFailure : `[`Filter`](../../org.http4k.core/-filter/index.md)<br>Converts Lens extraction failures into correct HTTP responses (Bad Requests/UnsupportedMediaType). This is required when using lenses to automatically unmarshall inbound requests. Note that LensFailures from unmarshalling upstream Response objects are NOT caught to avoid incorrect server behaviour. |
 | [CopyHeaders](-copy-headers/index.md) | `object CopyHeaders`<br>Copy headers from the incoming request to the outbound response. |
 | [Cors](-cors/index.md) | `object Cors`<br>Add Cors headers to the Response, according to the passed CorsPolicy |
-| [GZip](-g-zip/index.md) | `object GZip`<br>Basic GZip and Gunzip support of Request/Response. Does not currently support GZipping streams. Only Gunzips requests which contain "transfer-encoding" header containing 'gzip' Only Gzips responses when request contains "accept-encoding" header containing 'gzip'. |
-| [GZipContentTypes](-g-zip-content-types/index.md) | `class GZipContentTypes : `[`Filter`](../../org.http4k.core/-filter/index.md)<br>Basic GZip and Gunzip support of Request/Response where the content-type is in the allowed list. Does not currently support GZipping streams. Only Gunzips requests which contain "transfer-encoding" header containing 'gzip' Only Gzips responses when request contains "accept-encoding" header containing 'gzip' and the content-type (sans-charset) is one of the compressible types. |
+| [GZip](-g-zip/index.md) | `object GZip`<br>Basic GZip and Gunzip support of Request/Response. Only Gunzips requests which contain "transfer-encoding" header containing 'gzip' Only Gzips responses when request contains "accept-encoding" header containing 'gzip'. |
+| [GZipContentTypes](-g-zip-content-types/index.md) | `class GZipContentTypes : `[`Filter`](../../org.http4k.core/-filter/index.md)<br>Basic GZip and Gunzip support of Request/Response where the content-type is in the allowed list. Only Gunzips requests which contain "transfer-encoding" header containing 'gzip' Only Gzips responses when request contains "accept-encoding" header containing 'gzip' and the content-type (sans-charset) is one of the compressible types. |
 | [InitialiseRequestContext](-initialise-request-context/index.md) | `object InitialiseRequestContext`<br>Initialise a RequestContext for each request which passes through the Filter stack, |
 | [ReplaceResponseContentsWithStaticFile](-replace-response-contents-with-static-file/index.md) | `object ReplaceResponseContentsWithStaticFile`<br>Intercepts responses and replaces the contents with contents of the statically loaded resource. By default, this Filter replaces the contents of unsuccessful requests with the contents of a file named after the status code. |
 | [RequestTracing](-request-tracing/index.md) | `object RequestTracing`<br>Adds Zipkin request tracing headers to the incoming request and outbound response. (traceid, spanid, parentspanid) |

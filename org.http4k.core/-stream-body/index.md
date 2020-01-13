@@ -40,5 +40,7 @@ This includes calling `equals()` and `payload`
 | Name | Summary |
 |---|---|
 | [gunzipped](../../org.http4k.filter/gunzipped.md) | `fun `[`Body`](../-body/index.md)`.gunzipped(): `[`Body`](../-body/index.md) |
+| [gunzippedStream](../../org.http4k.filter/gunzipped-stream.md) | `fun `[`Body`](../-body/index.md)`.gunzippedStream(): `[`Body`](../-body/index.md) |
 | [gzipped](../../org.http4k.filter/gzipped.md) | `fun `[`Body`](../-body/index.md)`.gzipped(): `[`Body`](../-body/index.md) |
+| [gzippedStream](../../org.http4k.filter/gzipped-stream.md) | `fun `[`Body`](../-body/index.md)`.gzippedStream(): `[`Body`](../-body/index.md) |
 | [with](../with.md) | `fun <T> `[`T`](../with.md#T)`.with(vararg modifiers: (`[`T`](../with.md#T)`) -> `[`T`](../with.md#T)`): `[`T`](../with.md#T) |

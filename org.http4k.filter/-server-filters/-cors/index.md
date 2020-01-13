@@ -2,7 +2,7 @@
 
 # Cors
 
-`object Cors` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ServerFilters.kt#L46)
+`object Cors` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ServerFilters.kt#L47)
 
 Add Cors headers to the Response, according to the passed CorsPolicy
 

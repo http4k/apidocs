@@ -195,6 +195,7 @@
 | [org.http4k.format.Gson](../org.http4k.format/-gson.md) | To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called. |
 | [com.google.gson.GsonBuilder](../org.http4k.format/com.google.gson.-gson-builder/index.md) (extensions in package org.http4k.format) |  |
 | [org.http4k.filter.GsonGenerateXmlDataClasses](../org.http4k.filter/-gson-generate-xml-data-classes/index.md) | Provides an implementation of GenerateXmlDataClasses using GSON as an engine. |
+| [org.http4k.filter.GzipCompressionMode](../org.http4k.filter/-gzip-compression-mode/index.md) |  |
 | [org.http4k.template.HandlebarsTemplates](../org.http4k.template/-handlebars-templates/index.md) | Handlebars templating support. Use the function in the constructor to configure the instance. |
 | [org.http4k.contract.openapi.v3.HasSchema](../org.http4k.contract.openapi.v3/-has-schema/index.md) |  |
 | [org.http4k.lens.Header](../org.http4k.lens/-header/index.md) |  |

@@ -2,7 +2,7 @@
 
 # SetContentType
 
-`object SetContentType` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ServerFilters.kt#L279)
+`object SetContentType` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ServerFilters.kt#L282)
 
 Sets the Content Type response header on the Response.
 

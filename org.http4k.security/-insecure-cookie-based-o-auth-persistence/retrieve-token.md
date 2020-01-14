@@ -2,7 +2,7 @@
 
 # retrieveToken
 
-`fun retrieveToken(request: `[`Request`](../../org.http4k.core/-request/index.md)`): `[`AccessToken`](../-access-token/index.md)`?` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/InsecureCookieBasedOAuthPersistence.kt#L28)
+`fun retrieveToken(request: `[`Request`](../../org.http4k.core/-request/index.md)`): `[`AccessToken`](../-access-token/index.md)`?` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/InsecureCookieBasedOAuthPersistence.kt#L31)
 
 Overrides [OAuthPersistence.retrieveToken](../-o-auth-persistence/retrieve-token.md)
 

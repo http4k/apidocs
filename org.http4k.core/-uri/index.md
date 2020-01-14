@@ -50,9 +50,12 @@
 |---|---|
 | [authority](../authority.md) | `fun `[`Uri`](./index.md)`.authority(authority: `[`Authority`](../../org.http4k.cloudnative.env/-authority/index.md)`): `[`Uri`](./index.md)<br>`fun `[`Uri`](./index.md)`.authority(): `[`Authority`](../../org.http4k.cloudnative.env/-authority/index.md) |
 | [extend](../extend.md) | `fun `[`Uri`](./index.md)`.extend(uri: `[`Uri`](./index.md)`): `[`Uri`](./index.md) |
+| [fragmentParameter](../../org.http4k.security/fragment-parameter.md) | `fun `[`Uri`](./index.md)`.fragmentParameter(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`Uri`](./index.md) |
+| [fragmentParameters](../../org.http4k.security/fragment-parameters.md) | `fun `[`Uri`](./index.md)`.fragmentParameters(): `[`Parameters`](../-parameters.md) |
 | [host](../host.md) | `fun `[`Uri`](./index.md)`.host(): `[`Host`](../../org.http4k.cloudnative.env/-host/index.md)<br>`fun `[`Uri`](./index.md)`.host(host: `[`Host`](../../org.http4k.cloudnative.env/-host/index.md)`): `[`Uri`](./index.md) |
 | [port](../port.md) | `fun `[`Uri`](./index.md)`.port(port: `[`Port`](../../org.http4k.cloudnative.env/-port/index.md)`?): `[`Uri`](./index.md)<br>`fun `[`Uri`](./index.md)`.port(): `[`Port`](../../org.http4k.cloudnative.env/-port/index.md)`?` |
 | [queries](../queries.md) | `fun `[`Uri`](./index.md)`.queries(): `[`Parameters`](../-parameters.md) |
 | [query](../query.md) | `fun `[`Uri`](./index.md)`.query(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`Uri`](./index.md) |
+| [removeFragmentParameter](../../org.http4k.security/remove-fragment-parameter.md) | `fun `[`Uri`](./index.md)`.removeFragmentParameter(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Uri`](./index.md) |
 | [removeQuery](../remove-query.md) | `fun `[`Uri`](./index.md)`.removeQuery(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Uri`](./index.md) |
 | [with](../with.md) | `fun <T> `[`T`](../with.md#T)`.with(vararg modifiers: (`[`T`](../with.md#T)`) -> `[`T`](../with.md#T)`): `[`T`](../with.md#T) |

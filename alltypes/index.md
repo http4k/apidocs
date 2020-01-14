@@ -306,6 +306,8 @@
 | [org.http4k.webdriver.Navigate](../org.http4k.webdriver/-navigate.md) |  |
 | [org.http4k.server.Netty](../org.http4k.server/-netty/index.md) |  |
 | [org.http4k.contract.openapi.v3.NoFieldFound](../org.http4k.contract.openapi.v3/-no-field-found/index.md) |  |
+| [org.http4k.security.openid.Nonce](../org.http4k.security.openid/-nonce/index.md) |  |
+| [org.http4k.security.openid.NonceGenerator](../org.http4k.security.openid/-nonce-generator.md) |  |
 | [org.http4k.contract.NoRenderer](../org.http4k.contract/-no-renderer/index.md) |  |
 | [org.http4k.contract.NoSecurity](../org.http4k.contract/-no-security.md) |  |
 | [org.http4k.contract.security.NoSecurity](../org.http4k.contract.security/-no-security/index.md) | Default NoOp security filter. Filter allows all traffic through. |

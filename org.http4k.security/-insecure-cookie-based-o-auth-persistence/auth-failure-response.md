@@ -2,7 +2,7 @@
 
 # authFailureResponse
 
-`fun authFailureResponse(): `[`Response`](../../org.http4k.core/-response/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/InsecureCookieBasedOAuthPersistence.kt#L34)
+`fun authFailureResponse(): `[`Response`](../../org.http4k.core/-response/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/InsecureCookieBasedOAuthPersistence.kt#L43)
 
 Overrides [OAuthPersistence.authFailureResponse](../-o-auth-persistence/auth-failure-response.md)
 

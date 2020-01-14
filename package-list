@@ -28,6 +28,8 @@ $dokka.location:org.http4k.contract$bindContract(kotlin.String, org.http4k.core.
 $dokka.location:org.http4k.contract$div(kotlin.String, kotlin.String)org.http4k.contract/kotlin.-string/div.md
 $dokka.location:org.http4k.contract$div(kotlin.String, org.http4k.lens.PathLens((org.http4k.contract.div.A)))org.http4k.contract/kotlin.-string/div.md
 $dokka.location:org.http4k.contract$meta(kotlin.String, kotlin.Function1((org.http4k.contract.RouteMetaDsl, kotlin.Unit)))org.http4k.contract/kotlin.-string/meta.md
+$dokka.location:org.http4k.core$findMultiple(kotlin.collections.List((kotlin.Pair((kotlin.String, kotlin.String)))), kotlin.String)org.http4k.core/kotlin.collections.-list/find-multiple.md
+$dokka.location:org.http4k.core$findSingle(kotlin.collections.List((kotlin.Pair((kotlin.String, kotlin.String)))), kotlin.String)org.http4k.core/kotlin.collections.-list/find-single.md
 $dokka.location:org.http4k.core$fromPathEncoded(kotlin.String)org.http4k.core/kotlin.-string/from-path-encoded.md
 $dokka.location:org.http4k.core$getFirst(kotlin.collections.Map((org.http4k.core.getFirst.K, kotlin.collections.List((org.http4k.core.getFirst.V)))), org.http4k.core.getFirst.K)org.http4k.core/kotlin.collections.-map/get-first.md
 $dokka.location:org.http4k.core$safeLong(kotlin.String)org.http4k.core/kotlin.-string/safe-long.md

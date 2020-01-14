@@ -2,7 +2,7 @@
 
 # GunZip
 
-`object GunZip` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ResponseFilters.kt#L107)
+`object GunZip` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ResponseFilters.kt#L101)
 
 Basic UnGZipping of Response.
 

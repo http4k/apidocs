@@ -33,8 +33,8 @@ called.
 |---|---|
 | [gunzipped](../../org.http4k.filter/gunzipped.md) | `fun `[`Body`](./index.md)`.gunzipped(): `[`Body`](./index.md) |
 | [gunzippedStream](../../org.http4k.filter/gunzipped-stream.md) | `fun `[`Body`](./index.md)`.gunzippedStream(): `[`Body`](./index.md) |
-| [gzipped](../../org.http4k.filter/gzipped.md) | `fun `[`Body`](./index.md)`.gzipped(): `[`Body`](./index.md) |
-| [gzippedStream](../../org.http4k.filter/gzipped-stream.md) | `fun `[`Body`](./index.md)`.gzippedStream(): `[`Body`](./index.md) |
+| [gzipped](../../org.http4k.filter/gzipped.md) | `fun `[`Body`](./index.md)`.gzipped(): `[`CompressionResult`](../../org.http4k.filter/-compression-result/index.md) |
+| [gzippedStream](../../org.http4k.filter/gzipped-stream.md) | `fun `[`Body`](./index.md)`.gzippedStream(): `[`CompressionResult`](../../org.http4k.filter/-compression-result/index.md) |
 | [with](../with.md) | `fun <T> `[`T`](../with.md#T)`.with(vararg modifiers: (`[`T`](../with.md#T)`) -> `[`T`](../with.md#T)`): `[`T`](../with.md#T) |
 
 ### Companion Object Extension Functions

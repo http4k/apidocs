@@ -2,4 +2,4 @@
 
 # Streaming
 
-`object Streaming : `[`GzipCompressionMode`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ext.kt#L18)
+`object Streaming : `[`GzipCompressionMode`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ext.kt#L17)

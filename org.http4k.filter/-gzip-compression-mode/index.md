@@ -2,7 +2,7 @@
 
 # GzipCompressionMode
 
-`sealed class GzipCompressionMode` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ext.kt#L14)
+`sealed class GzipCompressionMode` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ext.kt#L13)
 
 ### Types
 

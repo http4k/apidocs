@@ -105,6 +105,7 @@
 | [org.http4k.cloudnative.health.Completed](../org.http4k.cloudnative.health/-completed/index.md) |  |
 | [org.http4k.contract.openapi.v3.Components](../org.http4k.contract.openapi.v3/-components/index.md) |  |
 | [org.http4k.cloudnative.health.Composite](../org.http4k.cloudnative.health/-composite/index.md) | Result of multiple checks, for which it reports an overall result (ie. any failure is fatal). |
+| [org.http4k.filter.CompressionResult](../org.http4k.filter/-compression-result/index.md) |  |
 | [org.http4k.format.ConfigurableGson](../org.http4k.format/-configurable-gson/index.md) |  |
 | [org.http4k.format.ConfigurableJackson](../org.http4k.format/-configurable-jackson/index.md) |  |
 | [org.http4k.format.ConfigurableJacksonXml](../org.http4k.format/-configurable-jackson-xml/index.md) |  |

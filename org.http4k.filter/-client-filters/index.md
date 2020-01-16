@@ -8,6 +8,7 @@
 
 | Name | Summary |
 |---|---|
+| [AcceptGZip](-accept-g-zip/index.md) | `object AcceptGZip`<br>Support for GZipped responses from clients. |
 | [BasicAuth](-basic-auth/index.md) | `object BasicAuth` |
 | [BearerAuth](-bearer-auth/index.md) | `object BearerAuth` |
 | [CleanProxy](-clean-proxy/index.md) | `object CleanProxy`<br>This Filter is used to clean the Request and Response when proxying directly to another system. The purpose of this is to remove any routing metadata that we may have attached to it before sending it onwards. |

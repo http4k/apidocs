@@ -177,7 +177,6 @@
 | [org.http4k.template.FreemarkerTemplates](../org.http4k.template/-freemarker-templates/index.md) |  |
 | [kotlin.Function1](../org.http4k.client/kotlin.-function1/index.md) (extensions in package org.http4k.client) |  |
 | [kotlin.Function1](../org.http4k.cloudnative/kotlin.-function1/index.md) (extensions in package org.http4k.cloudnative) |  |
-| [kotlin.Function1](../org.http4k.core/kotlin.-function1/index.md) (extensions in package org.http4k.core) |  |
 | [kotlin.Function1](../org.http4k.server/kotlin.-function1/index.md) (extensions in package org.http4k.server) |  |
 | [kotlin.Function1](../org.http4k.events/kotlin.-function1/index.md) (extensions in package org.http4k.events) |  |
 | [kotlin.Function1](../org.http4k.servlet/kotlin.-function1/index.md) (extensions in package org.http4k.servlet) |  |

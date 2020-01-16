@@ -23,4 +23,5 @@ Simple recording events that can be used in tests
 
 | Name | Summary |
 |---|---|
+| [then](../../org.http4k.events/kotlin.-function1/then.md) | `fun `[`Events`](../../org.http4k.events/-events.md)`.then(next: `[`Events`](../../org.http4k.events/-events.md)`): `[`Events`](../../org.http4k.events/-events.md) |
 | [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

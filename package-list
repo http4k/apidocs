@@ -33,7 +33,6 @@ $dokka.location:org.http4k.core$findSingle(kotlin.collections.List((kotlin.Pair(
 $dokka.location:org.http4k.core$fromPathEncoded(kotlin.String)org.http4k.core/kotlin.-string/from-path-encoded.md
 $dokka.location:org.http4k.core$getFirst(kotlin.collections.Map((org.http4k.core.getFirst.K, kotlin.collections.List((org.http4k.core.getFirst.V)))), org.http4k.core.getFirst.K)org.http4k.core/kotlin.collections.-map/get-first.md
 $dokka.location:org.http4k.core$safeLong(kotlin.String)org.http4k.core/kotlin.-string/safe-long.md
-$dokka.location:org.http4k.core$then(kotlin.Function1((org.http4k.events.Event, kotlin.Unit)), kotlin.Function1((org.http4k.events.Event, kotlin.Unit)))org.http4k.core/kotlin.-function1/then.md
 $dokka.location:org.http4k.core$toParameters(kotlin.String)org.http4k.core/kotlin.-string/to-parameters.md
 $dokka.location:org.http4k.core$toParametersMap(kotlin.collections.List((kotlin.Pair((kotlin.String, kotlin.String)))))org.http4k.core/kotlin.collections.-list/to-parameters-map.md
 $dokka.location:org.http4k.core$toPathEncoded(kotlin.String)org.http4k.core/kotlin.-string/to-path-encoded.md

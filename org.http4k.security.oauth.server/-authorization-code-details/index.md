@@ -2,13 +2,13 @@
 
 # AuthorizationCodeDetails
 
-`data class AuthorizationCodeDetails` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/AuthorizationCodes.kt#L28)
+`data class AuthorizationCodeDetails` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/AuthorizationCodes.kt#L29)
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `AuthorizationCodeDetails(clientId: `[`ClientId`](../-client-id/index.md)`, redirectUri: `[`Uri`](../../org.http4k.core/-uri/index.md)`, expiresAt: `[`Instant`](https://docs.oracle.com/javase/9/docs/api/java/time/Instant.html)`, state: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?, isOIDC: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`, responseType: `[`ResponseType`](../../org.http4k.security/-response-type/index.md)` = Code)` |
+| [&lt;init&gt;](-init-.md) | `AuthorizationCodeDetails(clientId: `[`ClientId`](../-client-id/index.md)`, redirectUri: `[`Uri`](../../org.http4k.core/-uri/index.md)`, expiresAt: `[`Instant`](https://docs.oracle.com/javase/9/docs/api/java/time/Instant.html)`, state: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?, isOIDC: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`, responseType: `[`ResponseType`](../../org.http4k.security/-response-type/index.md)` = Code, nonce: `[`Nonce`](../../org.http4k.security.openid/-nonce/index.md)`? = null)` |
 
 ### Properties
 
@@ -17,6 +17,7 @@
 | [clientId](client-id.md) | `val clientId: `[`ClientId`](../-client-id/index.md) |
 | [expiresAt](expires-at.md) | `val expiresAt: `[`Instant`](https://docs.oracle.com/javase/9/docs/api/java/time/Instant.html) |
 | [isOIDC](is-o-i-d-c.md) | `val isOIDC: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
+| [nonce](nonce.md) | `val nonce: `[`Nonce`](../../org.http4k.security.openid/-nonce/index.md)`?` |
 | [redirectUri](redirect-uri.md) | `val redirectUri: `[`Uri`](../../org.http4k.core/-uri/index.md) |
 | [responseType](response-type.md) | `val responseType: `[`ResponseType`](../../org.http4k.security/-response-type/index.md) |
 | [state](state.md) | `val state: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |

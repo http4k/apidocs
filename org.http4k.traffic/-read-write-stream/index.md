@@ -25,6 +25,7 @@ Combined Read/Write storage models, optimised for replay.
 
 | Name | Summary |
 |---|---|
+| [replayingMatchingContent](../../org.http4k.testing/replaying-matching-content.md) | `fun `[`ReadWriteStream`](./index.md)`.replayingMatchingContent(): `[`HttpHandler`](../../org.http4k.core/-http-handler.md) |
 | [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
 
 ### Companion Object Extension Functions

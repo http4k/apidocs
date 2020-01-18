@@ -8,7 +8,7 @@ Common code relevant to the various message format implementations (eg. JSON).
 
 | Name | Summary |
 |---|---|
-| [Argo](-argo/index.md) | `object Argo : `[`Json`](-json/index.md)`<`[`JsonNode`](http://argo.sourceforge.net/javadoc/argo/jdom/JsonNode.html)`>` |
+| [Argo](-argo/index.md) | `object Argo : `[`Json`](-json/index.md)`<JsonNode>` |
 | [AutoMappingConfiguration](-auto-mapping-configuration/index.md) | `interface AutoMappingConfiguration<BUILDER>`<br>This is the generic interface used to configure auto-mapping functionality for message format libraries. The various methods here can be used to provide custom mapping behaviour (say for domain classes). |
 | [AutoMarshallingJson](-auto-marshalling-json/index.md) | `abstract class AutoMarshallingJson` |
 | [AutoMarshallingXml](-auto-marshalling-xml/index.md) | `abstract class AutoMarshallingXml` |

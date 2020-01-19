@@ -31,7 +31,7 @@ Consumes HTTP traffic for storage.
 
 | Name | Summary |
 |---|---|
-| [Servirtium](../-servirtium.md) | `fun Sink.Companion.Servirtium(output: `[`File`](https://docs.oracle.com/javase/9/docs/api/java/io/File.html)`): `[`Sink`](./index.md)<br>Write HTTP traffic to disk in Servirtium markdown format |
+| [Servirtium](../-servirtium.md) | `fun Sink.Companion.Servirtium(target: `[`Consumer`](https://docs.oracle.com/javase/9/docs/api/java/util/function/Consumer.html)`<`[`ByteArray`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html)`>): `[`Sink`](./index.md)<br>Write HTTP traffic to disk in Servirtium markdown format |
 
 ### Inheritors
 

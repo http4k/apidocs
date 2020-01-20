@@ -11,6 +11,7 @@ Generic wrapper interface to provide data storage
 | Name | Summary |
 |---|---|
 | [Disk](-disk.md) | `fun Disk(file: `[`File`](https://docs.oracle.com/javase/9/docs/api/java/io/File.html)`, clean: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)` = false): `[`ByteStorage`](./index.md) |
+| [InMemory](-in-memory.md) | `fun InMemory(): `[`ByteStorage`](./index.md) |
 
 ### Extension Functions
 

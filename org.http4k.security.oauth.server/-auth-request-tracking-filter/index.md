@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `AuthRequestTrackingFilter(tracking: `[`AuthRequestTracking`](../-auth-request-tracking/index.md)`, extractor: `[`AuthRequestExtractor`](../-auth-request-extractor/index.md)`, errorRenderer: `[`ErrorRenderer`](../-error-renderer/index.md)`)` |
+| [&lt;init&gt;](-init-.md) | `AuthRequestTrackingFilter(tracking: `[`AuthRequestTracking`](../-auth-request-tracking/index.md)`, extractor: `[`AuthRequestExtractor`](../-auth-request-extractor/index.md)`, authoriseRequestErrorRender: `[`AuthoriseRequestErrorRender`](../-authorise-request-error-render/index.md)`)` |
 
 ### Functions
 

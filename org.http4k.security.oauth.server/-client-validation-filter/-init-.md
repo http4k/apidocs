@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`ClientValidationFilter(authoriseRequestValidator: `[`AuthoriseRequestValidator`](../-authorise-request-validator/index.md)`, errorRenderer: `[`ErrorRenderer`](../-error-renderer/index.md)`, extractor: `[`AuthRequestExtractor`](../-auth-request-extractor/index.md)`)`
+`ClientValidationFilter(authoriseRequestValidator: `[`AuthoriseRequestValidator`](../-authorise-request-validator/index.md)`, errorRenderer: `[`AuthoriseRequestErrorRender`](../-authorise-request-error-render/index.md)`, extractor: `[`AuthRequestExtractor`](../-auth-request-extractor/index.md)`)`

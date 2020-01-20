@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `AuthRequest(client: `[`ClientId`](../-client-id/index.md)`, scopes: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>, redirectUri: `[`Uri`](../../org.http4k.core/-uri/index.md)`, state: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?, responseType: `[`ResponseType`](../../org.http4k.security/-response-type/index.md)` = Code, nonce: `[`Nonce`](../../org.http4k.security.openid/-nonce/index.md)`? = null, request: `[`RequestJwtContainer`](../../org.http4k.security.openid/-request-jwt-container/index.md)`? = null, additionalProperties: `[`Map`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> = emptyMap())` |
+| [&lt;init&gt;](-init-.md) | `AuthRequest(client: `[`ClientId`](../-client-id/index.md)`, scopes: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>, redirectUri: `[`Uri`](../../org.http4k.core/-uri/index.md)`, state: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?, responseType: `[`ResponseType`](../../org.http4k.security/-response-type/index.md)` = Code, nonce: `[`Nonce`](../../org.http4k.security.openid/-nonce/index.md)`? = null, responseMode: `[`ResponseMode`](../../org.http4k.security/-response-mode/index.md)`? = null, request: `[`RequestJwtContainer`](../../org.http4k.security.openid/-request-jwt-container/index.md)`? = null, additionalProperties: `[`Map`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> = emptyMap())` |
 
 ### Properties
 
@@ -19,6 +19,7 @@
 | [nonce](nonce.md) | `val nonce: `[`Nonce`](../../org.http4k.security.openid/-nonce/index.md)`?` |
 | [redirectUri](redirect-uri.md) | `val redirectUri: `[`Uri`](../../org.http4k.core/-uri/index.md) |
 | [request](request.md) | `val request: `[`RequestJwtContainer`](../../org.http4k.security.openid/-request-jwt-container/index.md)`?` |
+| [responseMode](response-mode.md) | `val responseMode: `[`ResponseMode`](../../org.http4k.security/-response-mode/index.md)`?` |
 | [responseType](response-type.md) | `val responseType: `[`ResponseType`](../../org.http4k.security/-response-type/index.md) |
 | [scopes](scopes.md) | `val scopes: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
 | [state](state.md) | `val state: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |

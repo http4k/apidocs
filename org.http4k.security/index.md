@@ -19,6 +19,7 @@ Code relevant to interfacing with security mechanisms such as OAuth servers.
 | [OAuthProvider](-o-auth-provider/index.md) | `class OAuthProvider`<br>Provides a configured set of objects for use with an OAuth2 provider. |
 | [OAuthProviderConfig](-o-auth-provider-config/index.md) | `data class OAuthProviderConfig` |
 | [OAuthRedirectionFilter](-o-auth-redirection-filter/index.md) | `class OAuthRedirectionFilter : `[`Filter`](../org.http4k.core/-filter/index.md) |
+| [ResponseMode](-response-mode/index.md) | `enum class ResponseMode` |
 | [ResponseType](-response-type/index.md) | `enum class ResponseType` |
 
 ### Type Aliases

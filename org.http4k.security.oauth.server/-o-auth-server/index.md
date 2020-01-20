@@ -2,7 +2,7 @@
 
 # OAuthServer
 
-`class OAuthServer` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/OAuthServer.kt#L31)
+`class OAuthServer` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/OAuthServer.kt#L32)
 
 Provide help creating OAuth Authorization Server with Authorization Code Flow
 
@@ -39,6 +39,7 @@ References:
 | [redirectUriForm](redirect-uri-form.md) | `val redirectUriForm: `[`BiDiLens`](../../org.http4k.lens/-bi-di-lens/index.md)`<`[`WebForm`](../../org.http4k.lens/-web-form/index.md)`, `[`Uri`](../../org.http4k.core/-uri/index.md)`?>` |
 | [redirectUriQueryParameter](redirect-uri-query-parameter.md) | `val redirectUriQueryParameter: `[`BiDiLens`](../../org.http4k.lens/-bi-di-lens/index.md)`<`[`Request`](../../org.http4k.core/-request/index.md)`, `[`Uri`](../../org.http4k.core/-uri/index.md)`>` |
 | [request](request.md) | `val request: `[`BiDiLens`](../../org.http4k.lens/-bi-di-lens/index.md)`<`[`Request`](../../org.http4k.core/-request/index.md)`, `[`RequestJwtContainer`](../../org.http4k.security.openid/-request-jwt-container/index.md)`?>` |
+| [responseMode](response-mode.md) | `val responseMode: `[`BiDiLens`](../../org.http4k.lens/-bi-di-lens/index.md)`<`[`Request`](../../org.http4k.core/-request/index.md)`, `[`ResponseMode`](../../org.http4k.security/-response-mode/index.md)`?>` |
 | [responseType](response-type.md) | `val responseType: `[`BiDiLens`](../../org.http4k.lens/-bi-di-lens/index.md)`<`[`Request`](../../org.http4k.core/-request/index.md)`, `[`ResponseType`](../../org.http4k.security/-response-type/index.md)`>` |
 | [scopesForm](scopes-form.md) | `val scopesForm: `[`BiDiLens`](../../org.http4k.lens/-bi-di-lens/index.md)`<`[`WebForm`](../../org.http4k.lens/-web-form/index.md)`, `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>?>` |
 | [scopesQueryParameter](scopes-query-parameter.md) | `val scopesQueryParameter: `[`BiDiLens`](../../org.http4k.lens/-bi-di-lens/index.md)`<`[`Request`](../../org.http4k.core/-request/index.md)`, `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>?>` |

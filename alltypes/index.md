@@ -38,6 +38,7 @@
 | [org.http4k.client.AsyncHttpClient](../org.http4k.client/-async-http-client/index.md) |  |
 | [org.http4k.contract.security.AuthCodeOAuthSecurity](../org.http4k.contract.security/-auth-code-o-auth-security/index.md) |  |
 | [org.http4k.security.oauth.server.AuthenticationComplete](../org.http4k.security.oauth.server/-authentication-complete/index.md) |  |
+| [org.http4k.security.oauth.server.AuthoriseRequestErrorRender](../org.http4k.security.oauth.server/-authorise-request-error-render/index.md) |  |
 | [org.http4k.security.oauth.server.AuthoriseRequestValidator](../org.http4k.security.oauth.server/-authorise-request-validator/index.md) |  |
 | [org.http4k.cloudnative.env.Authority](../org.http4k.cloudnative.env/-authority/index.md) |  |
 | [org.http4k.security.oauth.server.AuthorizationCode](../org.http4k.security.oauth.server/-authorization-code/index.md) |  |
@@ -150,7 +151,6 @@
 | [org.http4k.cloudnative.env.EnvironmentKey](../org.http4k.cloudnative.env/-environment-key/index.md) | This models the key used to get a value out of the Environment using the standard Lens mechanic. Note that if your values contain commas, either use a EnvironmentKey.(mapping).multi.required()/optional()/defaulted() to retrieve the entire list, or override the comma separator in your initial Environment. |
 | [org.http4k.jsonrpc.ErrorHandler](../org.http4k.jsonrpc/-error-handler.md) |  |
 | [org.http4k.jsonrpc.ErrorMessage](../org.http4k.jsonrpc/-error-message/index.md) |  |
-| [org.http4k.security.oauth.server.ErrorRenderer](../org.http4k.security.oauth.server/-error-renderer/index.md) |  |
 | [org.http4k.contract.ErrorResponseRenderer](../org.http4k.contract/-error-response-renderer/index.md) |  |
 | [org.http4k.core.etag.ETag](../org.http4k.core.etag/-e-tag/index.md) |  |
 | [org.http4k.core.etag.ETagValidationRequestParser](../org.http4k.core.etag/-e-tag-validation-request-parser/index.md) | Implemented according to https://www.w3.org/Protocols/rfc2616/rfc2616-sec3.html#sec3.11 |
@@ -175,6 +175,7 @@
 | [org.http4k.core.body.Form](../org.http4k.core.body/-form.md) |  |
 | [org.http4k.lens.FormField](../org.http4k.lens/-form-field.md) |  |
 | [org.http4k.core.FormFile](../org.http4k.core/-form-file.md) |  |
+| [org.http4k.security.oauth.server.FragmentResponseRender](../org.http4k.security.oauth.server/-fragment-response-render/index.md) |  |
 | [org.http4k.template.FreemarkerTemplates](../org.http4k.template/-freemarker-templates/index.md) |  |
 | [kotlin.Function1](../org.http4k.client/kotlin.-function1/index.md) (extensions in package org.http4k.client) |  |
 | [kotlin.Function1](../org.http4k.cloudnative/kotlin.-function1/index.md) (extensions in package org.http4k.cloudnative) |  |
@@ -253,6 +254,7 @@
 | [org.http4k.format.JsonLibAutoMarshallingJson](../org.http4k.format/-json-lib-auto-marshalling-json/index.md) |  |
 | [com.fasterxml.jackson.databind.JsonNode](../org.http4k.chaos/com.fasterxml.jackson.databind.-json-node/index.md) (extensions in package org.http4k.chaos) |  |
 | [org.http4k.cloudnative.health.JsonReadinessCheckResultRenderer](../org.http4k.cloudnative.health/-json-readiness-check-result-renderer/index.md) | Reporting of ReadinessCheckResults in a JSON tree |
+| [org.http4k.security.oauth.server.JsonResponseErrorRenderer](../org.http4k.security.oauth.server/-json-response-error-renderer/index.md) |  |
 | [org.http4k.jsonrpc.JsonRpc](../org.http4k.jsonrpc/-json-rpc/index.md) |  |
 | [org.http4k.jsonrpc.JsonRpcHandler](../org.http4k.jsonrpc/-json-rpc-handler.md) |  |
 | [org.http4k.jsonrpc.JsonRpcMethodBinding](../org.http4k.jsonrpc/-json-rpc-method-binding/index.md) |  |
@@ -344,6 +346,7 @@
 | [org.http4k.websocket.PushPullAdaptingWebSocket](../org.http4k.websocket/-push-pull-adapting-web-socket/index.md) |  |
 | [org.http4k.lens.Query](../org.http4k.lens/-query.md) |  |
 | [org.http4k.lens.QueryLens](../org.http4k.lens/-query-lens.md) |  |
+| [org.http4k.security.oauth.server.QueryResponseRender](../org.http4k.security.oauth.server/-query-response-render/index.md) |  |
 | [org.http4k.cloudnative.health.Readiness](../org.http4k.cloudnative.health/-readiness/index.md) | The Readiness check is used to determine if an app is prepared to receive live traffic. |
 | [org.http4k.cloudnative.health.ReadinessCheck](../org.http4k.cloudnative.health/-readiness-check/index.md) | A Readiness check is used to determine if the pod is ready to receive traffic. An example is to test if the app can talk to it's database. |
 | [org.http4k.cloudnative.health.ReadinessCheckResult](../org.http4k.cloudnative.health/-readiness-check-result/index.md) | The result of a Readiness check. Checks can be combined together with `+()` to provide an overall result. |
@@ -382,6 +385,8 @@
 | [org.http4k.contract.openapi.v3.ResponseContents](../org.http4k.contract.openapi.v3/-response-contents/index.md) |  |
 | [org.http4k.filter.ResponseFilters](../org.http4k.filter/-response-filters/index.md) |  |
 | [org.http4k.contract.ResponseMeta](../org.http4k.contract/-response-meta/index.md) |  |
+| [org.http4k.security.ResponseMode](../org.http4k.security/-response-mode/index.md) |  |
+| [org.http4k.security.oauth.server.ResponseRender](../org.http4k.security.oauth.server/-response-render/index.md) |  |
 | [org.http4k.security.ResponseType](../org.http4k.security/-response-type/index.md) |  |
 | [org.http4k.security.oauth.server.RfcError](../org.http4k.security.oauth.server/-rfc-error/index.md) |  |
 | [org.http4k.contract.Root](../org.http4k.contract/-root/index.md) |  |

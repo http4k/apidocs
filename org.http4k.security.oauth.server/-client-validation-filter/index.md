@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `ClientValidationFilter(authoriseRequestValidator: `[`AuthoriseRequestValidator`](../-authorise-request-validator/index.md)`, errorRenderer: `[`ErrorRenderer`](../-error-renderer/index.md)`, extractor: `[`AuthRequestExtractor`](../-auth-request-extractor/index.md)`)` |
+| [&lt;init&gt;](-init-.md) | `ClientValidationFilter(authoriseRequestValidator: `[`AuthoriseRequestValidator`](../-authorise-request-validator/index.md)`, errorRenderer: `[`AuthoriseRequestErrorRender`](../-authorise-request-error-render/index.md)`, extractor: `[`AuthRequestExtractor`](../-auth-request-extractor/index.md)`)` |
 
 ### Functions
 

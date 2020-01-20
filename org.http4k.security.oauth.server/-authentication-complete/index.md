@@ -2,7 +2,7 @@
 
 # AuthenticationComplete
 
-`class AuthenticationComplete : `[`HttpHandler`](../../org.http4k.core/-http-handler.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/AuthenticationComplete.kt#L16)
+`class AuthenticationComplete : `[`HttpHandler`](../../org.http4k.core/-http-handler.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/AuthenticationComplete.kt#L12)
 
 ### Constructors
 

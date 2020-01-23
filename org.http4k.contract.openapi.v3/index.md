@@ -29,7 +29,7 @@
 
 | Name | Summary |
 |---|---|
-| [NoFieldFound](-no-field-found/index.md) | `class NoFieldFound : `[`Exception`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-exception/index.html) |
+| [NoFieldFound](-no-field-found/index.md) | `class NoFieldFound : `[`RuntimeException`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-runtime-exception/index.html) |
 
 ### Properties
 

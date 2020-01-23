@@ -8,7 +8,7 @@ Code for testing http4k applications with the Webdriver library.
 
 | Name | Summary |
 |---|---|
-| [FeatureNotImplementedYet](-feature-not-implemented-yet.md) | `object FeatureNotImplementedYet : `[`Exception`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-exception/index.html) |
+| [FeatureNotImplementedYet](-feature-not-implemented-yet.md) | `object FeatureNotImplementedYet : `[`RuntimeException`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-runtime-exception/index.html) |
 | [Http4KNavigation](-http4-k-navigation/index.md) | `interface Http4KNavigation : `[`Navigation`](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/WebDriver/Navigation.html) |
 | [Http4kWebDriver](-http4k-web-driver/index.md) | `class Http4kWebDriver : `[`WebDriver`](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/WebDriver.html) |
 | [JSoupWebElement](-j-soup-web-element/index.md) | `data class JSoupWebElement : `[`WebElement`](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/WebElement.html) |

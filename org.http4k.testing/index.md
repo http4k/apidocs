@@ -33,7 +33,7 @@ Useful tools for testing http4k applications.
 | Name | Summary |
 |---|---|
 | [ApprovalFailed](-approval-failed/index.md) | `class ApprovalFailed : `[`RuntimeException`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-runtime-exception/index.html) |
-| [ClosedWebsocket](-closed-websocket/index.md) | `data class ClosedWebsocket : `[`Exception`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-exception/index.html) |
+| [ClosedWebsocket](-closed-websocket/index.md) | `data class ClosedWebsocket : `[`RuntimeException`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-runtime-exception/index.html) |
 
 ### Extensions for External Classes
 

@@ -21,7 +21,7 @@ Common code relevant to templating implementations.
 
 | Name | Summary |
 |---|---|
-| [ViewNotFound](-view-not-found/index.md) | `data class ViewNotFound : `[`Exception`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-exception/index.html) |
+| [ViewNotFound](-view-not-found/index.md) | `data class ViewNotFound : `[`RuntimeException`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-runtime-exception/index.html) |
 
 ### Type Aliases
 

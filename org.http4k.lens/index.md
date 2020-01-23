@@ -56,7 +56,7 @@ Code relevant to extracting and injecting typesafe values into HTTP messages.
 | Name | Summary |
 |---|---|
 | [LensFailure](-lens-failure/index.md) | `class LensFailure : `[`Exception`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-exception/index.html) |
-| [LensFailures](-lens-failures/index.md) | `data class LensFailures : `[`Exception`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-exception/index.html) |
+| [LensFailures](-lens-failures/index.md) | `data class LensFailures : `[`RuntimeException`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-runtime-exception/index.html) |
 
 ### Type Aliases
 

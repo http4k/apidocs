@@ -2,7 +2,7 @@
 
 # InvalidJsonException
 
-`class InvalidJsonException : `[`Exception`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-exception/index.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-gson/src/main/kotlin/org/http4k/format/ConfigurableGson.kt#L104)
+`class InvalidJsonException : `[`RuntimeException`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-runtime-exception/index.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-gson/src/main/kotlin/org/http4k/format/ConfigurableGson.kt#L104)
 
 ### Constructors
 

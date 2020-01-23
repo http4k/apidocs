@@ -17,7 +17,7 @@ Presumed homeless code used across the rest of the library.
 
 | Name | Summary |
 |---|---|
-| [IllegalSchemaException](-illegal-schema-exception/index.md) | `class IllegalSchemaException : `[`Exception`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-exception/index.html) |
+| [IllegalSchemaException](-illegal-schema-exception/index.md) | `class IllegalSchemaException : `[`RuntimeException`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-runtime-exception/index.html) |
 
 ### Type Aliases
 

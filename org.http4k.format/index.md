@@ -29,7 +29,7 @@ Common code relevant to the various message format implementations (eg. JSON).
 
 | Name | Summary |
 |---|---|
-| [InvalidJsonException](-invalid-json-exception/index.md) | `class InvalidJsonException : `[`Exception`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-exception/index.html) |
+| [InvalidJsonException](-invalid-json-exception/index.md) | `class InvalidJsonException : `[`RuntimeException`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-runtime-exception/index.html) |
 
 ### Extensions for External Classes
 

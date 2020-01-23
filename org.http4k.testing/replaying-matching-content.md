@@ -2,4 +2,4 @@
 
 # replayingMatchingContent
 
-`fun `[`Replay`](../org.http4k.traffic/-replay/index.md)`.replayingMatchingContent(): `[`HttpHandler`](../org.http4k.core/-http-handler.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-incubator/src/main/kotlin/org/http4k/testing/junitExtensions.kt#L52)
+`fun `[`Replay`](../org.http4k.traffic/-replay/index.md)`.replayingMatchingContent(): `[`HttpHandler`](../org.http4k.core/-http-handler.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-incubator/src/main/kotlin/org/http4k/testing/junitExtensions.kt#L60)

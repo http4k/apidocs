@@ -21,6 +21,7 @@ Code relevant to interfacing with security mechanisms such as OAuth servers.
 | [OAuthRedirectionFilter](-o-auth-redirection-filter/index.md) | `class OAuthRedirectionFilter : `[`Filter`](../org.http4k.core/-filter/index.md) |
 | [ResponseMode](-response-mode/index.md) | `enum class ResponseMode` |
 | [ResponseType](-response-type/index.md) | `enum class ResponseType` |
+| [State](-state/index.md) | `data class State` |
 
 ### Type Aliases
 
@@ -28,7 +29,7 @@ Code relevant to interfacing with security mechanisms such as OAuth servers.
 |---|---|
 | [AccessTokenContainer](-access-token-container.md) | `typealias ~~AccessTokenContainer~~ = `[`AccessToken`](-access-token/index.md) |
 | [CsrfGenerator](-csrf-generator.md) | `typealias CsrfGenerator = () -> `[`CrossSiteRequestForgeryToken`](-cross-site-request-forgery-token/index.md) |
-| [RedirectionUriBuilder](-redirection-uri-builder.md) | `typealias RedirectionUriBuilder = (`[`Uri`](../org.http4k.core/-uri/index.md)`, `[`AuthRequest`](../org.http4k.security.oauth.server/-auth-request/index.md)`, state: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`) -> `[`Uri`](../org.http4k.core/-uri/index.md) |
+| [RedirectionUriBuilder](-redirection-uri-builder.md) | `typealias RedirectionUriBuilder = (`[`Uri`](../org.http4k.core/-uri/index.md)`, `[`AuthRequest`](../org.http4k.security.oauth.server/-auth-request/index.md)`, state: `[`State`](-state/index.md)`) -> `[`Uri`](../org.http4k.core/-uri/index.md) |
 
 ### Properties
 
@@ -44,7 +45,7 @@ Code relevant to interfacing with security mechanisms such as OAuth servers.
 | [fragmentParameter](fragment-parameter.md) | `fun `[`Uri`](../org.http4k.core/-uri/index.md)`.fragmentParameter(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`Uri`](../org.http4k.core/-uri/index.md)`fun `[`Request`](../org.http4k.core/-request/index.md)`.fragmentParameter(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?`<br>Retrieves the first fragment parameter value with this name.`fun `[`Request`](../org.http4k.core/-request/index.md)`.fragmentParameter(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`Request`](../org.http4k.core/-request/index.md)<br>(Copy &amp;) Adds a query value with this name. |
 | [fragmentParameters](fragment-parameters.md) | `fun `[`Uri`](../org.http4k.core/-uri/index.md)`.fragmentParameters(): `[`Parameters`](../org.http4k.core/-parameters.md)`fun `[`Request`](../org.http4k.core/-request/index.md)`.fragmentParameters(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?>`<br>Retrieves all fragment parameters with this name. |
 | [removeFragmentParameter](remove-fragment-parameter.md) | `fun `[`Uri`](../org.http4k.core/-uri/index.md)`.removeFragmentParameter(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Uri`](../org.http4k.core/-uri/index.md) |
-| [uriBuilderWithRequestJwt](uri-builder-with-request-jwt.md) | `fun uriBuilderWithRequestJwt(requestJwts: `[`RequestJwts`](../org.http4k.security.openid/-request-jwts/index.md)`): (`[`Uri`](../org.http4k.core/-uri/index.md)`, `[`AuthRequest`](../org.http4k.security.oauth.server/-auth-request/index.md)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`) -> `[`Uri`](../org.http4k.core/-uri/index.md) |
+| [uriBuilderWithRequestJwt](uri-builder-with-request-jwt.md) | `fun uriBuilderWithRequestJwt(requestJwts: `[`RequestJwts`](../org.http4k.security.openid/-request-jwts/index.md)`): (`[`Uri`](../org.http4k.core/-uri/index.md)`, `[`AuthRequest`](../org.http4k.security.oauth.server/-auth-request/index.md)`, `[`State`](-state/index.md)`) -> `[`Uri`](../org.http4k.core/-uri/index.md) |
 
 ### Companion Object Functions
 

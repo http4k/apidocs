@@ -54,6 +54,7 @@
 | [org.http4k.security.oauth.server.AuthRequestFromQueryParameters](../org.http4k.security.oauth.server/-auth-request-from-query-parameters/index.md) |  |
 | [org.http4k.security.oauth.server.AuthRequestTracking](../org.http4k.security.oauth.server/-auth-request-tracking/index.md) | Provides a mechanism to track OAuth authorization parameters to be used later (i.e. can be used later to generate code and/or tokens) |
 | [org.http4k.security.oauth.server.AuthRequestTrackingFilter](../org.http4k.security.oauth.server/-auth-request-tracking-filter/index.md) |  |
+| [org.http4k.security.oauth.server.AuthRequestWithRequestAuthRequestExtractor](../org.http4k.security.oauth.server/-auth-request-with-request-auth-request-extractor/index.md) |  |
 | [org.http4k.events.AutoJsonEvents](../org.http4k.events/-auto-json-events/index.md) |  |
 | [org.http4k.contract.openapi.v3.AutoJsonToJsonSchema](../org.http4k.contract.openapi.v3/-auto-json-to-json-schema/index.md) |  |
 | [org.http4k.format.AutoMappingConfiguration](../org.http4k.format/-auto-mapping-configuration/index.md) | This is the generic interface used to configure auto-mapping functionality for message format libraries. The various methods here can be used to provide custom mapping behaviour (say for domain classes). |
@@ -95,6 +96,8 @@
 | [org.http4k.chaos.ChaosEngine](../org.http4k.chaos/-chaos-engine/index.md) | Adds a set of endpoints to an application which will control the switching on/off of chaos behaviour. The added endpoints are: GET //status &lt;- check the on off/status of the injected chaos POST //activate &lt;- turn on the chaos. optionally POST a JSON body to set a list of new stages to use. POST //deactivate &lt;- turn off the chaos POST //toggle &lt;- toggle the chaos |
 | [org.http4k.chaos.ChaosStages](../org.http4k.chaos/-chaos-stages/index.md) |  |
 | [org.http4k.chaos.ChaosTriggers](../org.http4k.chaos/-chaos-triggers/index.md) |  |
+| [org.http4k.security.oauth.server.request.Claim](../org.http4k.security.oauth.server.request/-claim/index.md) |  |
+| [org.http4k.security.oauth.server.request.Claims](../org.http4k.security.oauth.server.request/-claims/index.md) |  |
 | [org.http4k.security.oauth.server.accesstoken.ClientCredentialsAccessTokenGenerator](../org.http4k.security.oauth.server.accesstoken/-client-credentials-access-token-generator/index.md) |  |
 | [org.http4k.filter.ClientFilters](../org.http4k.filter/-client-filters/index.md) |  |
 | [org.http4k.security.oauth.server.ClientId](../org.http4k.security.oauth.server/-client-id/index.md) |  |
@@ -238,6 +241,7 @@
 | [org.http4k.security.oauth.server.InvalidClientId](../org.http4k.security.oauth.server/-invalid-client-id.md) |  |
 | [org.http4k.format.InvalidJsonException](../org.http4k.format/-invalid-json-exception/index.md) |  |
 | [org.http4k.security.oauth.server.InvalidRedirectUri](../org.http4k.security.oauth.server/-invalid-redirect-uri.md) |  |
+| [org.http4k.security.oauth.server.InvalidRequestObject](../org.http4k.security.oauth.server/-invalid-request-object.md) |  |
 | [org.http4k.security.oauth.server.InvalidScopes](../org.http4k.security.oauth.server/-invalid-scopes.md) |  |
 | [org.http4k.format.Jackson](../org.http4k.format/-jackson.md) | To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called. |
 | [org.http4k.contract.openapi.v3.JacksonJsonNamingAnnotated](../org.http4k.contract.openapi.v3/-jackson-json-naming-annotated/index.md) |  |
@@ -304,6 +308,7 @@
 | [org.http4k.core.MultipartFormBody](../org.http4k.core/-multipart-form-body/index.md) | Represents a Multi-part that is backed by a stream, which should be closed after handling the content. The gotchas which apply to StreamBody also apply here.. |
 | [org.http4k.lens.MultipartFormField](../org.http4k.lens/-multipart-form-field/index.md) |  |
 | [org.http4k.lens.MultipartFormFile](../org.http4k.lens/-multipart-form-file/index.md) |  |
+| [org.http4k.security.oauth.server.MustHaveRedirectUri](../org.http4k.security.oauth.server/-must-have-redirect-uri/index.md) |  |
 | [org.http4k.testing.NamedResourceApprover](../org.http4k.testing/-named-resource-approver/index.md) |  |
 | [org.http4k.webdriver.Navigate](../org.http4k.webdriver/-navigate.md) |  |
 | [org.http4k.server.Netty](../org.http4k.server/-netty/index.md) |  |
@@ -371,7 +376,10 @@
 | [org.http4k.filter.RequestFilters](../org.http4k.filter/-request-filters/index.md) |  |
 | [org.http4k.security.openid.RequestJwtContainer](../org.http4k.security.openid/-request-jwt-container/index.md) |  |
 | [org.http4k.security.openid.RequestJwts](../org.http4k.security.openid/-request-jwts/index.md) |  |
+| [org.http4k.security.oauth.server.request.RequestJWTValidator](../org.http4k.security.oauth.server.request/-request-j-w-t-validator/index.md) |  |
 | [org.http4k.contract.RequestMeta](../org.http4k.contract/-request-meta/index.md) |  |
+| [org.http4k.security.oauth.server.request.RequestObject](../org.http4k.security.oauth.server.request/-request-object/index.md) |  |
+| [org.http4k.security.oauth.server.request.RequestObjectExtractor](../org.http4k.security.oauth.server.request/-request-object-extractor.md) |  |
 | [org.http4k.contract.openapi.v3.RequestParameter](../org.http4k.contract.openapi.v3/-request-parameter/index.md) |  |
 | [org.http4k.filter.ResilienceFilters](../org.http4k.filter/-resilience-filters/index.md) |  |
 | [org.http4k.routing.experimental.Resource](../org.http4k.routing.experimental/-resource/index.md) |  |
@@ -418,6 +426,7 @@
 | [org.http4k.chaos.Stage](../org.http4k.chaos/-stage.md) | Defines a periodic element during which a particular ChaosBehaviour is active. |
 | [org.http4k.filter.StaleIfErrorTtl](../org.http4k.filter/-stale-if-error-ttl/index.md) |  |
 | [org.http4k.filter.StaleWhenRevalidateTtl](../org.http4k.filter/-stale-when-revalidate-ttl/index.md) |  |
+| [org.http4k.security.State](../org.http4k.security/-state/index.md) |  |
 | [org.http4k.core.Status](../org.http4k.core/-status/index.md) |  |
 | [org.http4k.core.Store](../org.http4k.core/-store/index.md) |  |
 | [org.http4k.core.StreamBody](../org.http4k.core/-stream-body/index.md) | Represents a body that is backed by a (lazy) InputStream. Operating with StreamBody has a number of potential gotchas: |

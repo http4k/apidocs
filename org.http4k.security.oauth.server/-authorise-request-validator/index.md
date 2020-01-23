@@ -2,7 +2,7 @@
 
 # AuthoriseRequestValidator
 
-`interface AuthoriseRequestValidator` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/AuthoriseRequestValidator.kt#L7)
+`interface AuthoriseRequestValidator` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/AuthoriseRequestValidator.kt#L8)
 
 ### Functions
 
@@ -21,4 +21,5 @@
 
 | Name | Summary |
 |---|---|
+| [MustHaveRedirectUri](../-must-have-redirect-uri/index.md) | `class MustHaveRedirectUri : `[`AuthoriseRequestValidator`](./index.md) |
 | [SimpleAuthoriseRequestValidator](../-simple-authorise-request-validator/index.md) | `class SimpleAuthoriseRequestValidator : `[`AuthoriseRequestValidator`](./index.md) |

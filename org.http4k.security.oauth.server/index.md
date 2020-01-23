@@ -22,6 +22,7 @@
 | [AuthRequestFromQueryParameters](-auth-request-from-query-parameters/index.md) | `object AuthRequestFromQueryParameters : `[`AuthRequestExtractor`](-auth-request-extractor/index.md) |
 | [AuthRequestTracking](-auth-request-tracking/index.md) | `interface AuthRequestTracking`<br>Provides a mechanism to track OAuth authorization parameters to be used later (i.e. can be used later to generate code and/or tokens) |
 | [AuthRequestTrackingFilter](-auth-request-tracking-filter/index.md) | `class AuthRequestTrackingFilter : `[`Filter`](../org.http4k.core/-filter/index.md) |
+| [AuthRequestWithRequestAuthRequestExtractor](-auth-request-with-request-auth-request-extractor/index.md) | `class AuthRequestWithRequestAuthRequestExtractor : `[`AuthRequestExtractor`](-auth-request-extractor/index.md) |
 | [ClientId](-client-id/index.md) | `data class ClientId` |
 | [ClientIdMismatch](-client-id-mismatch.md) | `object ClientIdMismatch : `[`AccessTokenError`](-access-token-error.md) |
 | [ClientValidationFilter](-client-validation-filter/index.md) | `class ClientValidationFilter : `[`Filter`](../org.http4k.core/-filter/index.md) |
@@ -36,10 +37,12 @@
 | [InvalidClientCredentials](-invalid-client-credentials.md) | `object InvalidClientCredentials : `[`AccessTokenError`](-access-token-error.md) |
 | [InvalidClientId](-invalid-client-id.md) | `object InvalidClientId : `[`AuthorizationError`](-authorization-error.md) |
 | [InvalidRedirectUri](-invalid-redirect-uri.md) | `object InvalidRedirectUri : `[`AuthorizationError`](-authorization-error.md) |
+| [InvalidRequestObject](-invalid-request-object.md) | `object InvalidRequestObject : `[`AuthorizationError`](-authorization-error.md) |
 | [InvalidScopes](-invalid-scopes.md) | `object InvalidScopes : `[`AuthorizationError`](-authorization-error.md) |
 | [JsonResponseErrorRenderer](-json-response-error-renderer/index.md) | `class JsonResponseErrorRenderer` |
 | [MissingAuthorizationCode](-missing-authorization-code.md) | `object MissingAuthorizationCode : `[`AccessTokenError`](-access-token-error.md) |
 | [MissingRedirectUri](-missing-redirect-uri.md) | `object MissingRedirectUri : `[`AccessTokenError`](-access-token-error.md) |
+| [MustHaveRedirectUri](-must-have-redirect-uri/index.md) | `class MustHaveRedirectUri : `[`AuthoriseRequestValidator`](-authorise-request-validator/index.md) |
 | [OAuthError](-o-auth-error/index.md) | `abstract class OAuthError` |
 | [OAuthServer](-o-auth-server/index.md) | `class OAuthServer`<br>Provide help creating OAuth Authorization Server with Authorization Code Flow |
 | [QueryResponseRender](-query-response-render/index.md) | `class QueryResponseRender : `[`ResponseRender`](-response-render/index.md) |

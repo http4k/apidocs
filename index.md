@@ -33,6 +33,7 @@
 | [org.http4k.security](org.http4k.security/index.md) | Code relevant to interfacing with security mechanisms such as OAuth servers. |
 | [org.http4k.security.oauth.server](org.http4k.security.oauth.server/index.md) |  |
 | [org.http4k.security.oauth.server.accesstoken](org.http4k.security.oauth.server.accesstoken/index.md) |  |
+| [org.http4k.security.oauth.server.request](org.http4k.security.oauth.server.request/index.md) |  |
 | [org.http4k.security.openid](org.http4k.security.openid/index.md) |  |
 | [org.http4k.server](org.http4k.server/index.md) | Common code relevant to HTTP server implementations. |
 | [org.http4k.serverless](org.http4k.serverless/index.md) | Common code relevant to HTTP serverless implementations. |

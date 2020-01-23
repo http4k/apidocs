@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`AuthoriseRequestErrorRender(authoriseRequestValidator: `[`AuthoriseRequestValidator`](../-authorise-request-validator/index.md)`, fallBack: `[`JsonResponseErrorRenderer`](../-json-response-error-renderer/index.md)`, documentationUri: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`? = null)`
+`AuthoriseRequestErrorRender(authoriseRequestValidator: `[`AuthoriseRequestValidator`](../-authorise-request-validator/index.md)`, requestJWTValidator: `[`RequestJWTValidator`](../../org.http4k.security.oauth.server.request/-request-j-w-t-validator/index.md)`, fallBack: `[`JsonResponseErrorRenderer`](../-json-response-error-renderer/index.md)`, documentationUri: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`? = null)`

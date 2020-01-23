@@ -2,7 +2,7 @@
 
 # ResponseRender
 
-`interface ResponseRender` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/ResponseRender.kt#L11)
+`interface ResponseRender` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/ResponseRender.kt#L12)
 
 ### Functions
 
@@ -10,7 +10,8 @@
 |---|---|
 | [addParameter](add-parameter.md) | `abstract fun addParameter(key: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`ResponseRender`](./index.md) |
 | [complete](complete.md) | `abstract fun complete(): `[`Response`](../../org.http4k.core/-response/index.md) |
-| [withState](with-state.md) | `open fun withState(state: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`ResponseRender`](./index.md) |
+| [withDocumentationUri](with-documentation-uri.md) | `open fun withDocumentationUri(documentationUri: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`ResponseRender`](./index.md) |
+| [withState](with-state.md) | `open fun withState(state: `[`State`](../../org.http4k.security/-state/index.md)`?): `[`ResponseRender`](./index.md) |
 
 ### Companion Object Functions
 

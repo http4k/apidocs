@@ -21,3 +21,4 @@
 | Name | Summary |
 |---|---|
 | [AuthRequestFromQueryParameters](../-auth-request-from-query-parameters/index.md) | `object AuthRequestFromQueryParameters : `[`AuthRequestExtractor`](./index.md) |
+| [AuthRequestWithRequestAuthRequestExtractor](../-auth-request-with-request-auth-request-extractor/index.md) | `class AuthRequestWithRequestAuthRequestExtractor : `[`AuthRequestExtractor`](./index.md) |

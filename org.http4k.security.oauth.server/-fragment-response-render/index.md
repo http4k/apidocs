@@ -2,7 +2,7 @@
 
 # FragmentResponseRender
 
-`class FragmentResponseRender : `[`ResponseRender`](../-response-render/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/ResponseRender.kt#L45)
+`class FragmentResponseRender : `[`ResponseRender`](../-response-render/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/ResponseRender.kt#L48)
 
 ### Constructors
 
@@ -21,7 +21,8 @@
 
 | Name | Summary |
 |---|---|
-| [withState](../-response-render/with-state.md) | `open fun withState(state: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`ResponseRender`](../-response-render/index.md) |
+| [withDocumentationUri](../-response-render/with-documentation-uri.md) | `open fun withDocumentationUri(documentationUri: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`ResponseRender`](../-response-render/index.md) |
+| [withState](../-response-render/with-state.md) | `open fun withState(state: `[`State`](../../org.http4k.security/-state/index.md)`?): `[`ResponseRender`](../-response-render/index.md) |
 
 ### Extension Functions
 

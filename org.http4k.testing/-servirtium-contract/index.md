@@ -2,7 +2,7 @@
 
 # ServirtiumContract
 
-`interface ServirtiumContract` [(source)](https://github.com/http4k/http4k/blob/master/http4k-incubator/src/main/kotlin/org/http4k/testing/ServirtiumContract.kt#L9)
+`interface ServirtiumContract` [(source)](https://github.com/http4k/http4k/blob/master/http4k-incubator/src/main/kotlin/org/http4k/testing/ServirtiumContract.kt#L6)
 
 Defines a test contract which can be used to implement recording or replaying of Servirtium-formatted tests
 
@@ -10,8 +10,7 @@ Defines a test contract which can be used to implement recording or replaying of
 
 | Name | Summary |
 |---|---|
-| [manipulations](manipulations.md) | `open val manipulations: `[`Filter`](../../org.http4k.core/-filter/index.md) |
-| [name](name.md) | `abstract val name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [name](name.md) | `abstract val name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)<br>Provides the base name for this contract's test cases. |
 
 ### Extension Functions
 

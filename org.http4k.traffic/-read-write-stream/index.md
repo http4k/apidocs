@@ -27,9 +27,3 @@ Combined Read/Write storage models, optimised for replay.
 |---|---|
 | [replayingMatchingContent](../../org.http4k.testing/replaying-matching-content.md) | `fun `[`Replay`](../-replay/index.md)`.replayingMatchingContent(): `[`HttpHandler`](../../org.http4k.core/-http-handler.md) |
 | [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
-
-### Companion Object Extension Functions
-
-| Name | Summary |
-|---|---|
-| [Servirtium](../-servirtium.md) | `fun ReadWriteStream.Companion.Servirtium(baseDir: `[`File`](https://docs.oracle.com/javase/9/docs/api/java/io/File.html)`, name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`ReadWriteStream`](./index.md)<br>Read and write HTTP traffic to disk in Servirtium markdown format |

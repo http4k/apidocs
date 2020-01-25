@@ -24,14 +24,14 @@ Provides a stream of traffic for replaying purposes.
 
 | Name | Summary |
 |---|---|
-| [replayingMatchingContent](../replaying-matching-content.md) | `fun `[`Replay`](./index.md)`.replayingMatchingContent(): `[`HttpHandler`](../../org.http4k.core/-http-handler.md) |
+| [replayingMatchingContent](../replaying-matching-content.md) | `fun `[`Replay`](./index.md)`.replayingMatchingContent(manipulations: (`[`Request`](../../org.http4k.core/-request/index.md)`) -> `[`Request`](../../org.http4k.core/-request/index.md)` = { it }): `[`HttpHandler`](../../org.http4k.core/-http-handler.md) |
 | [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
 
 ### Companion Object Extension Functions
 
 | Name | Summary |
 |---|---|
-| [Servirtium](../-servirtium.md) | `fun Replay.Companion.Servirtium(output: `[`Supplier`](https://docs.oracle.com/javase/9/docs/api/java/util/function/Supplier.html)`<`[`ByteArray`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html)`>, manipulations: (`[`Response`](../../org.http4k.core/-response/index.md)`) -> `[`Response`](../../org.http4k.core/-response/index.md)` = { it }): `[`Replay`](./index.md)<br>Read HTTP traffic from disk in Servirtium markdown format |
+| [Servirtium](../-servirtium.md) | `fun Replay.Companion.Servirtium(output: `[`Supplier`](https://docs.oracle.com/javase/9/docs/api/java/util/function/Supplier.html)`<`[`ByteArray`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html)`>): `[`Replay`](./index.md)<br>Read HTTP traffic from disk in Servirtium markdown format |
 
 ### Inheritors
 

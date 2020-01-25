@@ -39,6 +39,7 @@ HttpMessages are designed to be immutable, so any mutation methods return a modi
 
 | Name | Summary |
 |---|---|
+| [alphabetiseHeaders](../alphabetise-headers.md) | `fun <T : `[`HttpMessage`](./index.md)`> `[`T`](../alphabetise-headers.md#T)`.alphabetiseHeaders(): `[`T`](../alphabetise-headers.md#T) |
 | [multipartIterator](../multipart-iterator.md) | `fun `[`HttpMessage`](./index.md)`.multipartIterator(): `[`Iterator`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterator/index.html)`<`[`MultipartEntity`](../-multipart-entity/index.md)`>` |
 | [with](../with.md) | `fun <T> `[`T`](../with.md#T)`.with(vararg modifiers: (`[`T`](../with.md#T)`) -> `[`T`](../with.md#T)`): `[`T`](../with.md#T) |
 

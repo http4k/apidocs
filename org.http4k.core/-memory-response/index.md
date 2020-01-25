@@ -42,6 +42,7 @@
 
 | Name | Summary |
 |---|---|
+| [alphabetiseHeaders](../alphabetise-headers.md) | `fun <T : `[`HttpMessage`](../-http-message/index.md)`> `[`T`](../alphabetise-headers.md#T)`.alphabetiseHeaders(): `[`T`](../alphabetise-headers.md#T) |
 | [cookie](../../org.http4k.core.cookie/cookie.md) | `fun `[`Response`](../-response/index.md)`.cookie(cookie: `[`Cookie`](../../org.http4k.core.cookie/-cookie/index.md)`): `[`Response`](../-response/index.md) |
 | [cookies](../../org.http4k.core.cookie/cookies.md) | `fun `[`Response`](../-response/index.md)`.cookies(): `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`Cookie`](../../org.http4k.core.cookie/-cookie/index.md)`>` |
 | [invalidateCookie](../../org.http4k.core.cookie/invalidate-cookie.md) | `fun `[`Response`](../-response/index.md)`.invalidateCookie(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, domain: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`? = null): `[`Response`](../-response/index.md) |

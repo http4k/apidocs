@@ -25,5 +25,5 @@ Combined Read/Write storage models, optimised for replay.
 
 | Name | Summary |
 |---|---|
-| [replayingMatchingContent](../replaying-matching-content.md) | `fun `[`Replay`](../-replay/index.md)`.replayingMatchingContent(): `[`HttpHandler`](../../org.http4k.core/-http-handler.md) |
+| [replayingMatchingContent](../replaying-matching-content.md) | `fun `[`Replay`](../-replay/index.md)`.replayingMatchingContent(manipulations: (`[`Request`](../../org.http4k.core/-request/index.md)`) -> `[`Request`](../../org.http4k.core/-request/index.md)` = { it }): `[`HttpHandler`](../../org.http4k.core/-http-handler.md) |
 | [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

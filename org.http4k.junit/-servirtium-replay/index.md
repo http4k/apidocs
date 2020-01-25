@@ -10,7 +10,7 @@ JUnit 5 extension for replaying HTTP traffic from disk in Servirtium format.
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `ServirtiumReplay(root: `[`File`](https://docs.oracle.com/javase/9/docs/api/java/io/File.html)` = File("."), responseManipulations: (`[`Response`](../../org.http4k.core/-response/index.md)`) -> `[`Response`](../../org.http4k.core/-response/index.md)` = { it })`<br>JUnit 5 extension for replaying HTTP traffic from disk in Servirtium format. |
+| [&lt;init&gt;](-init-.md) | `ServirtiumReplay(root: `[`File`](https://docs.oracle.com/javase/9/docs/api/java/io/File.html)` = File("."), requestManipulations: (`[`Request`](../../org.http4k.core/-request/index.md)`) -> `[`Request`](../../org.http4k.core/-request/index.md)` = { it })`<br>JUnit 5 extension for replaying HTTP traffic from disk in Servirtium format. |
 
 ### Functions
 

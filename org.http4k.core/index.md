@@ -56,6 +56,7 @@ The core abstractions for the http4k library.
 
 | Name | Summary |
 |---|---|
+| [alphabetiseHeaders](alphabetise-headers.md) | `fun <T : `[`HttpMessage`](-http-message/index.md)`> `[`T`](alphabetise-headers.md#T)`.alphabetiseHeaders(): `[`T`](alphabetise-headers.md#T) |
 | [authority](authority.md) | `fun `[`Uri`](-uri/index.md)`.authority(authority: `[`Authority`](../org.http4k.cloudnative.env/-authority/index.md)`): `[`Uri`](-uri/index.md)<br>`fun `[`Uri`](-uri/index.md)`.authority(): `[`Authority`](../org.http4k.cloudnative.env/-authority/index.md) |
 | [extend](extend.md) | `fun `[`Uri`](-uri/index.md)`.extend(uri: `[`Uri`](-uri/index.md)`): `[`Uri`](-uri/index.md) |
 | [host](host.md) | `fun `[`Uri`](-uri/index.md)`.host(): `[`Host`](../org.http4k.cloudnative.env/-host/index.md)<br>`fun `[`Uri`](-uri/index.md)`.host(host: `[`Host`](../org.http4k.cloudnative.env/-host/index.md)`): `[`Uri`](-uri/index.md) |

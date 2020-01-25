@@ -301,6 +301,8 @@
 | [org.http4k.lens.Missing](../org.http4k.lens/-missing/index.md) |  |
 | [org.http4k.security.oauth.server.MissingAuthorizationCode](../org.http4k.security.oauth.server/-missing-authorization-code.md) |  |
 | [org.http4k.security.oauth.server.MissingRedirectUri](../org.http4k.security.oauth.server/-missing-redirect-uri.md) |  |
+| [org.http4k.servirtium.MiTMRecorder](../org.http4k.servirtium/-mi-t-m-recorder/index.md) | MiTM recording server which will store incoming request and response traffic in the named Servirtium Markdown file. |
+| [org.http4k.servirtium.MiTMReplayer](../org.http4k.servirtium/-mi-t-m-replayer/index.md) | MiTM replay server which will match and replay recorded traffic from the named Servirtium Markdown file. Incoming requests can be manipulated to ensure that it matches the expected request. |
 | [org.http4k.format.Moshi](../org.http4k.format/-moshi.md) | To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called. |
 | [org.http4k.lens.MultiLensSpec](../org.http4k.lens/-multi-lens-spec/index.md) | Represents a uni-directional extraction of a list of entities from a target. |
 | [org.http4k.core.MultipartEntity](../org.http4k.core/-multipart-entity/index.md) |  |

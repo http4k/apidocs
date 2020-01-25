@@ -16,15 +16,15 @@ Standard Approval JUnit5 extension. Can be used to compare any HttpMessages.
 
 | Name | Summary |
 |---|---|
-| [approverFor](approver-for.md) | `fun approverFor(context: `[`ExtensionContext`](https://junit.org/junit5/docs/5.5.2/api/org/junit/jupiter/api/extension/ExtensionContext.html)`): `[`Approver`](../-approver/index.md) |
+| [approverFor](approver-for.md) | `fun approverFor(context: `[`ExtensionContext`](https://junit.org/junit5/docs/5.6.0/api/org/junit/jupiter/api/extension/ExtensionContext.html)`): `[`Approver`](../-approver/index.md) |
 
 ### Inherited Functions
 
 | Name | Summary |
 |---|---|
-| [beforeTestExecution](../-base-approval-test/before-test-execution.md) | `open fun beforeTestExecution(context: `[`ExtensionContext`](https://junit.org/junit5/docs/5.5.2/api/org/junit/jupiter/api/extension/ExtensionContext.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
-| [resolveParameter](../-base-approval-test/resolve-parameter.md) | `open fun resolveParameter(parameterContext: `[`ParameterContext`](https://junit.org/junit5/docs/5.5.2/api/org/junit/jupiter/api/extension/ParameterContext.html)`, context: `[`ExtensionContext`](https://junit.org/junit5/docs/5.5.2/api/org/junit/jupiter/api/extension/ExtensionContext.html)`): `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`?` |
-| [supportsParameter](../-base-approval-test/supports-parameter.md) | `open fun supportsParameter(parameterContext: `[`ParameterContext`](https://junit.org/junit5/docs/5.5.2/api/org/junit/jupiter/api/extension/ParameterContext.html)`, context: `[`ExtensionContext`](https://junit.org/junit5/docs/5.5.2/api/org/junit/jupiter/api/extension/ExtensionContext.html)`): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
+| [beforeTestExecution](../-base-approval-test/before-test-execution.md) | `open fun beforeTestExecution(context: `[`ExtensionContext`](https://junit.org/junit5/docs/5.6.0/api/org/junit/jupiter/api/extension/ExtensionContext.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| [resolveParameter](../-base-approval-test/resolve-parameter.md) | `open fun resolveParameter(parameterContext: `[`ParameterContext`](https://junit.org/junit5/docs/5.6.0/api/org/junit/jupiter/api/extension/ParameterContext.html)`, context: `[`ExtensionContext`](https://junit.org/junit5/docs/5.6.0/api/org/junit/jupiter/api/extension/ExtensionContext.html)`): `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`?` |
+| [supportsParameter](../-base-approval-test/supports-parameter.md) | `open fun supportsParameter(parameterContext: `[`ParameterContext`](https://junit.org/junit5/docs/5.6.0/api/org/junit/jupiter/api/extension/ParameterContext.html)`, context: `[`ExtensionContext`](https://junit.org/junit5/docs/5.6.0/api/org/junit/jupiter/api/extension/ExtensionContext.html)`): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
 
 ### Extension Functions
 

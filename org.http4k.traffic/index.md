@@ -14,6 +14,12 @@
 | [Sink](-sink/index.md) | `interface Sink`<br>Consumes HTTP traffic for storage. |
 | [Source](-source/index.md) | `interface Source`<br>Tries to retrieve a stored response for a given request. |
 
+### Functions
+
+| Name | Summary |
+|---|---|
+| [replayingMatchingContent](replaying-matching-content.md) | `fun `[`Replay`](-replay/index.md)`.replayingMatchingContent(): `[`HttpHandler`](../org.http4k.core/-http-handler.md) |
+
 ### Companion Object Functions
 
 | Name | Summary |

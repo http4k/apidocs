@@ -1,4 +1,4 @@
-[http4k](../../index.md) / [org.http4k.testing](../index.md) / [ServirtiumRecording](index.md) / [&lt;init&gt;](./-init-.md)
+[http4k](../../index.md) / [org.http4k.junit](../index.md) / [ServirtiumRecording](index.md) / [&lt;init&gt;](./-init-.md)
 
 # &lt;init&gt;
 

@@ -27,6 +27,7 @@
 | [org.http4k.format](org.http4k.format/index.md) | Common code relevant to the various message format implementations (eg. JSON). |
 | [org.http4k.hamkrest](org.http4k.hamkrest/index.md) | Matchers for use with the hamkrest matching library. |
 | [org.http4k.jsonrpc](org.http4k.jsonrpc/index.md) |  |
+| [org.http4k.junit](org.http4k.junit/index.md) |  |
 | [org.http4k.lens](org.http4k.lens/index.md) | Code relevant to extracting and injecting typesafe values into HTTP messages. |
 | [org.http4k.routing](org.http4k.routing/index.md) | Code for routing HTTP messages inside server implementations. |
 | [org.http4k.routing.experimental](org.http4k.routing.experimental/index.md) |  |
@@ -38,6 +39,7 @@
 | [org.http4k.server](org.http4k.server/index.md) | Common code relevant to HTTP server implementations. |
 | [org.http4k.serverless](org.http4k.serverless/index.md) | Common code relevant to HTTP serverless implementations. |
 | [org.http4k.serverless.lambda](org.http4k.serverless.lambda/index.md) |  |
+| [org.http4k.servirtium](org.http4k.servirtium/index.md) |  |
 | [org.http4k.servlet](org.http4k.servlet/index.md) | Code for mounting http4k applications into Servlet containers. |
 | [org.http4k.template](org.http4k.template/index.md) | Common code relevant to templating implementations. |
 | [org.http4k.template.dust](org.http4k.template.dust/index.md) |  |

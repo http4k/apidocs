@@ -1,10 +1,10 @@
-[http4k](../../index.md) / [org.http4k.servirtium](../index.md) / [MiTMReplayer](./index.md)
+[http4k](../../index.md) / [org.http4k.servirtium](../index.md) / [ServirtiumReplayServer](./index.md)
 
-# MiTMReplayer
+# ServirtiumReplayServer
 
-`object MiTMReplayer` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-servirtium/src/main/kotlin/org/http4k/servirtium/MiTMReplayer.kt#L16)
+`object ServirtiumReplayServer` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-servirtium/src/main/kotlin/org/http4k/servirtium/ServirtiumReplayServer.kt#L16)
 
-MiTM replay server which will match and replay recorded traffic from the named Servirtium Markdown file.
+MiTM replay server which will match and replay recorded traffic read from the named Servirtium Markdown file.
 Incoming requests can be manipulated to ensure that it matches the expected request.
 
 ### Functions

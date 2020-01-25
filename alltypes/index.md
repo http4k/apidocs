@@ -301,8 +301,6 @@
 | [org.http4k.lens.Missing](../org.http4k.lens/-missing/index.md) |  |
 | [org.http4k.security.oauth.server.MissingAuthorizationCode](../org.http4k.security.oauth.server/-missing-authorization-code.md) |  |
 | [org.http4k.security.oauth.server.MissingRedirectUri](../org.http4k.security.oauth.server/-missing-redirect-uri.md) |  |
-| [org.http4k.servirtium.MiTMRecorder](../org.http4k.servirtium/-mi-t-m-recorder/index.md) | MiTM recording server which will store incoming request and response traffic in the named Servirtium Markdown file. |
-| [org.http4k.servirtium.MiTMReplayer](../org.http4k.servirtium/-mi-t-m-replayer/index.md) | MiTM replay server which will match and replay recorded traffic from the named Servirtium Markdown file. Incoming requests can be manipulated to ensure that it matches the expected request. |
 | [org.http4k.format.Moshi](../org.http4k.format/-moshi.md) | To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called. |
 | [org.http4k.lens.MultiLensSpec](../org.http4k.lens/-multi-lens-spec/index.md) | Represents a uni-directional extraction of a list of entities from a target. |
 | [org.http4k.core.MultipartEntity](../org.http4k.core/-multipart-entity/index.md) |  |
@@ -418,6 +416,8 @@
 | [org.http4k.servirtium.ServirtiumContract](../org.http4k.servirtium/-servirtium-contract/index.md) | Defines a test contract which can be used to implement recording or replaying of Servirtium-formatted tests |
 | [org.http4k.junit.ServirtiumRecording](../org.http4k.junit/-servirtium-recording/index.md) | JUnit 5 extension for recording HTTP traffic to disk in Servirtium format. |
 | [org.http4k.junit.ServirtiumReplay](../org.http4k.junit/-servirtium-replay/index.md) | JUnit 5 extension for replaying HTTP traffic from disk in Servirtium format. |
+| [org.http4k.servirtium.ServirtiumReplayServer](../org.http4k.servirtium/-servirtium-replay-server/index.md) | MiTM replay server which will match and replay recorded traffic read from the named Servirtium Markdown file. Incoming requests can be manipulated to ensure that it matches the expected request. |
+| [org.http4k.servirtium.ServirtumRecordingServer](../org.http4k.servirtium/-servirtum-recording-server/index.md) | MiTM proxy server which sits inbetween the client and the target and stores traffic in the named Servirtium Markdown file. |
 | [org.http4k.security.oauth.server.SimpleAuthoriseRequestValidator](../org.http4k.security.oauth.server/-simple-authorise-request-validator/index.md) |  |
 | [org.http4k.contract.SimpleJson](../org.http4k.contract/-simple-json.md) |  |
 | [org.http4k.contract.simple.SimpleJson](../org.http4k.contract.simple/-simple-json/index.md) |  |

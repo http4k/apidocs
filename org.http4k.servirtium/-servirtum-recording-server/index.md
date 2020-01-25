@@ -1,10 +1,13 @@
-[http4k](../../index.md) / [org.http4k.servirtium](../index.md) / [MiTMRecorder](./index.md)
+[http4k](../../index.md) / [org.http4k.servirtium](../index.md) / [ServirtumRecordingServer](./index.md)
 
-# MiTMRecorder
+# ServirtumRecordingServer
 
-`object MiTMRecorder` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-servirtium/src/main/kotlin/org/http4k/servirtium/MiTMRecorder.kt#L20)
+`object ServirtumRecordingServer` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-servirtium/src/main/kotlin/org/http4k/servirtium/ServirtumRecordingServer.kt#L23)
 
-MiTM recording server which will store incoming request and response traffic in the named Servirtium Markdown file.
+MiTM proxy server which sits inbetween the client and the target and stores traffic in the
+named Servirtium Markdown file.
+
+Manipulations can be made to the requests and responses before they are stored.
 
 ### Functions
 

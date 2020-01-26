@@ -418,8 +418,7 @@
 | [org.http4k.servirtium.ServirtiumContract](../org.http4k.servirtium/-servirtium-contract/index.md) | Defines a test contract which can be used to implement recording or replaying of Servirtium-formatted tests |
 | [org.http4k.junit.ServirtiumRecording](../org.http4k.junit/-servirtium-recording/index.md) | JUnit 5 extension for recording HTTP traffic to disk in Servirtium format. |
 | [org.http4k.junit.ServirtiumReplay](../org.http4k.junit/-servirtium-replay/index.md) | JUnit 5 extension for replaying HTTP traffic from disk in Servirtium format. |
-| [org.http4k.servirtium.ServirtiumReplayServer](../org.http4k.servirtium/-servirtium-replay-server/index.md) | MiTM replay server which will match and replay recorded traffic read from the named Servirtium Markdown file. Incoming requests can be manipulated to ensure that it matches the expected request. |
-| [org.http4k.servirtium.ServirtumRecordingServer](../org.http4k.servirtium/-servirtum-recording-server/index.md) | MiTM proxy server which sits inbetween the client and the target and stores traffic in the named Servirtium Markdown file. |
+| [org.http4k.servirtium.ServirtiumServer](../org.http4k.servirtium/-servirtium-server/index.md) |  |
 | [org.http4k.security.oauth.server.SimpleAuthoriseRequestValidator](../org.http4k.security.oauth.server/-simple-authorise-request-validator/index.md) |  |
 | [org.http4k.contract.SimpleJson](../org.http4k.contract/-simple-json.md) |  |
 | [org.http4k.contract.simple.SimpleJson](../org.http4k.contract.simple/-simple-json/index.md) |  |

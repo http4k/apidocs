@@ -20,7 +20,7 @@
 
 | Name | Summary |
 |---|---|
-| [Disk](-disk.md) | `fun Disk(file: `[`File`](https://docs.oracle.com/javase/9/docs/api/java/io/File.html)`): `[`RecordingControl`](./index.md) |
+| [ByteStorage](-byte-storage.md) | `fun ByteStorage(storage: `[`ByteStorage`](../../org.http4k.traffic/-byte-storage/index.md)`): `[`RecordingControl`](./index.md) |
 
 ### Extension Functions
 
@@ -33,3 +33,4 @@
 | Name | Summary |
 |---|---|
 | [NoOp](-no-op/index.md) | `object NoOp : `[`RecordingControl`](./index.md) |
+| [ServirtiumServer](../-servirtium-server/index.md) | `interface ServirtiumServer : `[`Http4kServer`](../../org.http4k.server/-http4k-server/index.md)`, `[`RecordingControl`](./index.md) |

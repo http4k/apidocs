@@ -2,4 +2,4 @@
 
 # parse
 
-`fun parse(cookieValue: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Cookie`](index.md)`?` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/cookie/Cookie.kt#L39)
+`fun parse(cookieValue: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Cookie`](index.md)`?` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/cookie/Cookie.kt#L47)

@@ -2,5 +2,5 @@
 
 # httpOnly
 
-`fun httpOnly(): `[`Cookie`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/cookie/Cookie.kt#L24)
-`val httpOnly: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/cookie/Cookie.kt#L18)
+`fun httpOnly(): `[`Cookie`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/cookie/Cookie.kt#L26)
+`val httpOnly: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/cookie/Cookie.kt#L19)

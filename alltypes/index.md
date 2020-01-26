@@ -360,6 +360,7 @@
 | [org.http4k.traffic.ReadWriteCache](../org.http4k.traffic/-read-write-cache/index.md) | Combined Read/Write storage models, optimised for retrieval. |
 | [org.http4k.testing.ReadWriteResource](../org.http4k.testing/-read-write-resource/index.md) |  |
 | [org.http4k.traffic.ReadWriteStream](../org.http4k.traffic/-read-write-stream/index.md) | Combined Read/Write storage models, optimised for replay. |
+| [org.http4k.servirtium.RecordingControl](../org.http4k.servirtium/-recording-control/index.md) |  |
 | [org.http4k.testing.RecordingEvents](../org.http4k.testing/-recording-events/index.md) | Simple recording events that can be used in tests |
 | [org.http4k.security.RedirectionUriBuilder](../org.http4k.security/-redirection-uri-builder.md) |  |
 | [org.http4k.security.oauth.server.RedirectUriMismatch](../org.http4k.security.oauth.server/-redirect-uri-mismatch.md) |  |

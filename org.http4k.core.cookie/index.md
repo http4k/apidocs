@@ -7,6 +7,7 @@
 | Name | Summary |
 |---|---|
 | [Cookie](-cookie/index.md) | `data class Cookie` |
+| [SameSite](-same-site/index.md) | `enum class SameSite` |
 
 ### Functions
 

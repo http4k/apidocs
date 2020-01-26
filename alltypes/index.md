@@ -405,6 +405,7 @@
 | [org.http4k.routing.Router](../org.http4k.routing/-router/index.md) | Provides matching of a Request to an HttpHandler which can service it. |
 | [org.http4k.routing.RoutingHttpHandler](../org.http4k.routing/-routing-http-handler/index.md) | Composite HttpHandler which can potentially service many different URL patterns. Should return a 404 Response if it cannot service a particular Request. |
 | [org.http4k.routing.RoutingWsHandler](../org.http4k.routing/-routing-ws-handler/index.md) |  |
+| [org.http4k.core.cookie.SameSite](../org.http4k.core.cookie/-same-site/index.md) |  |
 | [org.http4k.filter.SamplingDecision](../org.http4k.filter/-sampling-decision/index.md) |  |
 | [org.http4k.contract.openapi.v3.SchemaModelNamer](../org.http4k.contract.openapi.v3/-schema-model-namer/index.md) |  |
 | [org.http4k.cloudnative.env.Secret](../org.http4k.cloudnative.env/-secret/index.md) | A secret is a value which tries very hard not to expose itself as a string, by storing it's value in a byte array. You can "use" the value only once, after which the value is destroyed |

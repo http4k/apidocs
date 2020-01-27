@@ -18,8 +18,8 @@ correctly matched during the replay process.
 
 | Name | Summary |
 |---|---|
-| [isBinary](is-binary.md) | `open fun isBinary(contentType: `[`ContentType`](../../org.http4k.core/-content-type/index.md)`): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)<br>Determine if the content type should be treated as binary. Binary messages are |
-| [modify](modify.md) | `open fun modify(request: `[`Request`](../../org.http4k.core/-request/index.md)`): `[`Request`](../../org.http4k.core/-request/index.md)<br>Modify received requests before they are stored`open fun modify(response: `[`Response`](../../org.http4k.core/-response/index.md)`): `[`Response`](../../org.http4k.core/-response/index.md)<br>Modify received responses before they are stored |
+| [isBinary](is-binary.md) | `open fun isBinary(contentType: `[`ContentType`](../../org.http4k.core/-content-type/index.md)`): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)<br>Determine if the content type should be treated as binary. |
+| [modify](modify.md) | `open fun modify(request: `[`Request`](../../org.http4k.core/-request/index.md)`): `[`Request`](../../org.http4k.core/-request/index.md)<br>Modify received requests before they are stored.`open fun modify(response: `[`Response`](../../org.http4k.core/-response/index.md)`): `[`Response`](../../org.http4k.core/-response/index.md)<br>Modify received responses before they are stored. |
 
 ### Extension Functions
 

@@ -233,8 +233,8 @@
 | [org.http4k.security.InsecureCookieBasedOAuthPersistence](../org.http4k.security/-insecure-cookie-based-o-auth-persistence/index.md) | This is an example implementation which stores CSRF and AccessToken values in an INSECURE client-side cookie. Access-tokens for end-services are fully available to the browser so do not use this in production! |
 | [org.http4k.servirtium.InteractionControl](../org.http4k.servirtium/-interaction-control/index.md) |  |
 | [org.http4k.servirtium.InteractionOptions](../org.http4k.servirtium/-interaction-options/index.md) | This controls how the Servirtium interactions are recorded to the storage format. The manipulations are used to replace/remove any dynamic parts of the request (eg. Date headers) so that the traffic can be correctly matched during the replay process. |
-| [org.http4k.servirtium.InteractionStorage](../org.http4k.servirtium/-interaction-storage.md) |  |
-| [org.http4k.servirtium.InteractionStorageLookup](../org.http4k.servirtium/-interaction-storage-lookup/index.md) | Provides a way of providing a storage layer for |
+| [org.http4k.servirtium.InteractionStorage](../org.http4k.servirtium/-interaction-storage/index.md) |  |
+| [org.http4k.servirtium.InteractionStorageLookup](../org.http4k.servirtium/-interaction-storage-lookup.md) |  |
 | [org.http4k.lens.Invalid](../org.http4k.lens/-invalid/index.md) |  |
 | [org.http4k.serverless.InvalidAppLoaderException](../org.http4k.serverless/-invalid-app-loader-exception/index.md) |  |
 | [org.http4k.security.oauth.server.InvalidAuthorizationRequest](../org.http4k.security.oauth.server/-invalid-authorization-request/index.md) |  |

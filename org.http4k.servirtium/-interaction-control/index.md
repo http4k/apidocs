@@ -20,7 +20,7 @@
 
 | Name | Summary |
 |---|---|
-| [StorageBased](-storage-based.md) | `fun StorageBased(storage: `[`InteractionStorage`](../-interaction-storage.md)`): `[`InteractionControl`](./index.md) |
+| [StorageBased](-storage-based.md) | `fun StorageBased(storage: `[`InteractionStorage`](../-interaction-storage/index.md)`): `[`InteractionControl`](./index.md) |
 
 ### Extension Functions
 

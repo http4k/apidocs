@@ -2,4 +2,7 @@
 
 # isBinary
 
-`open fun isBinary(contentType: `[`ContentType`](../../org.http4k.core/-content-type/index.md)`): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-servirtium/src/main/kotlin/org/http4k/servirtium/InteractionOptions.kt#L10)
+`open fun isBinary(contentType: `[`ContentType`](../../org.http4k.core/-content-type/index.md)`): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-servirtium/src/main/kotlin/org/http4k/servirtium/InteractionOptions.kt#L27)
+
+Determine if the content type should be treated as binary. Binary messages are
+

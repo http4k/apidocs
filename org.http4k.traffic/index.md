@@ -6,7 +6,6 @@
 
 | Name | Summary |
 |---|---|
-| [ByteStorage](-byte-storage/index.md) | `interface ByteStorage : `[`Supplier`](https://docs.oracle.com/javase/9/docs/api/java/util/function/Supplier.html)`<`[`ByteArray`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html)`>, `[`Consumer`](https://docs.oracle.com/javase/9/docs/api/java/util/function/Consumer.html)`<`[`ByteArray`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html)`>`<br>Generic wrapper interface to provide data storage |
 | [ReadWriteCache](-read-write-cache/index.md) | `interface ReadWriteCache : `[`Sink`](-sink/index.md)`, `[`Source`](-source/index.md)<br>Combined Read/Write storage models, optimised for retrieval. |
 | [ReadWriteStream](-read-write-stream/index.md) | `interface ReadWriteStream : `[`Sink`](-sink/index.md)`, `[`Replay`](-replay/index.md)<br>Combined Read/Write storage models, optimised for replay. |
 | [Replay](-replay/index.md) | `interface Replay`<br>Provides a stream of traffic for replaying purposes. |

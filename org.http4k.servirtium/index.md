@@ -6,6 +6,7 @@
 
 | Name | Summary |
 |---|---|
-| [RecordingControl](-recording-control/index.md) | `interface RecordingControl` |
-| [ServirtiumContract](-servirtium-contract/index.md) | `interface ServirtiumContract`<br>Defines a test contract which can be used to implement recording or replaying of Servirtium-formatted tests |
-| [ServirtiumServer](-servirtium-server/index.md) | `interface ServirtiumServer : `[`Http4kServer`](../org.http4k.server/-http4k-server/index.md)`, `[`RecordingControl`](-recording-control/index.md) |
+| [InteractionControl](-interaction-control/index.md) | `interface InteractionControl` |
+| [InteractionStorage](-interaction-storage.md) | `interface InteractionStorage : `[`Supplier`](https://docs.oracle.com/javase/9/docs/api/java/util/function/Supplier.html)`<`[`ByteArray`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html)`>, `[`Consumer`](https://docs.oracle.com/javase/9/docs/api/java/util/function/Consumer.html)`<`[`ByteArray`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html)`>` |
+| [InteractionStorageLookup](-interaction-storage-lookup/index.md) | `interface InteractionStorageLookup : (`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`) -> `[`InteractionStorage`](-interaction-storage.md)<br>Provides a way of providing a storage layer for |
+| [ServirtiumServer](-servirtium-server/index.md) | `interface ServirtiumServer : `[`Http4kServer`](../org.http4k.server/-http4k-server/index.md)`, `[`InteractionControl`](-interaction-control/index.md) |

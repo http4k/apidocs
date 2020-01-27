@@ -25,4 +25,4 @@
 | Name | Summary |
 |---|---|
 | [Http4kK8sServer](../../org.http4k.cloudnative/-http4k-k8s-server/index.md) | `class Http4kK8sServer : `[`Http4kServer`](./index.md)<br>A K8S server consists of a main application and a health application, running on 2 different ports. This class provides unified start/stop control. |
-| [ServirtiumServer](../../org.http4k.servirtium/-servirtium-server/index.md) | `interface ServirtiumServer : `[`Http4kServer`](./index.md)`, `[`RecordingControl`](../../org.http4k.servirtium/-recording-control/index.md) |
+| [ServirtiumServer](../../org.http4k.servirtium/-servirtium-server/index.md) | `interface ServirtiumServer : `[`Http4kServer`](./index.md)`, `[`InteractionControl`](../../org.http4k.servirtium/-interaction-control/index.md) |

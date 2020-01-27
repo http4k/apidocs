@@ -88,7 +88,6 @@
 | [org.http4k.serverless.BootstrapException](../org.http4k.serverless/-bootstrap-exception/index.md) |  |
 | [com.squareup.moshi.Moshi.Builder](../org.http4k.format/com.squareup.moshi.-moshi.-builder/index.md) (extensions in package org.http4k.format) |  |
 | [java.nio.ByteBuffer](../org.http4k/java.nio.-byte-buffer/index.md) (extensions in package org.http4k) |  |
-| [org.http4k.traffic.ByteStorage](../org.http4k.traffic/-byte-storage/index.md) | Generic wrapper interface to provide data storage |
 | [org.http4k.filter.CacheControlHeaderPart](../org.http4k.filter/-cache-control-header-part/index.md) |  |
 | [org.http4k.filter.CachingFilters](../org.http4k.filter/-caching-filters/index.md) | Useful filters for applying Cache-Controls to request/responses |
 | [org.http4k.filter.CanonicalPayload](../org.http4k.filter/-canonical-payload/index.md) |  |
@@ -232,6 +231,9 @@
 | [org.http4k.routing.experimental.InMemoryResource](../org.http4k.routing.experimental/-in-memory-resource/index.md) |  |
 | [org.http4k.security.oauth.server.InsecureCookieBasedAuthRequestTracking](../org.http4k.security.oauth.server/-insecure-cookie-based-auth-request-tracking/index.md) |  |
 | [org.http4k.security.InsecureCookieBasedOAuthPersistence](../org.http4k.security/-insecure-cookie-based-o-auth-persistence/index.md) | This is an example implementation which stores CSRF and AccessToken values in an INSECURE client-side cookie. Access-tokens for end-services are fully available to the browser so do not use this in production! |
+| [org.http4k.servirtium.InteractionControl](../org.http4k.servirtium/-interaction-control/index.md) |  |
+| [org.http4k.servirtium.InteractionStorage](../org.http4k.servirtium/-interaction-storage.md) |  |
+| [org.http4k.servirtium.InteractionStorageLookup](../org.http4k.servirtium/-interaction-storage-lookup/index.md) | Provides a way of providing a storage layer for |
 | [org.http4k.lens.Invalid](../org.http4k.lens/-invalid/index.md) |  |
 | [org.http4k.serverless.InvalidAppLoaderException](../org.http4k.serverless/-invalid-app-loader-exception/index.md) |  |
 | [org.http4k.security.oauth.server.InvalidAuthorizationRequest](../org.http4k.security.oauth.server/-invalid-authorization-request/index.md) |  |
@@ -360,7 +362,6 @@
 | [org.http4k.traffic.ReadWriteCache](../org.http4k.traffic/-read-write-cache/index.md) | Combined Read/Write storage models, optimised for retrieval. |
 | [org.http4k.testing.ReadWriteResource](../org.http4k.testing/-read-write-resource/index.md) |  |
 | [org.http4k.traffic.ReadWriteStream](../org.http4k.traffic/-read-write-stream/index.md) | Combined Read/Write storage models, optimised for replay. |
-| [org.http4k.servirtium.RecordingControl](../org.http4k.servirtium/-recording-control/index.md) |  |
 | [org.http4k.testing.RecordingEvents](../org.http4k.testing/-recording-events/index.md) | Simple recording events that can be used in tests |
 | [org.http4k.security.RedirectionUriBuilder](../org.http4k.security/-redirection-uri-builder.md) |  |
 | [org.http4k.security.oauth.server.RedirectUriMismatch](../org.http4k.security.oauth.server/-redirect-uri-mismatch.md) |  |
@@ -415,7 +416,6 @@
 | [org.http4k.contract.openapi.SecurityRenderer](../org.http4k.contract.openapi/-security-renderer/index.md) | Provides rendering of Security models in to OpenApi specs. |
 | [org.http4k.server.ServerConfig](../org.http4k.server/-server-config/index.md) | Standard interface for creating a configured WebServer |
 | [org.http4k.filter.ServerFilters](../org.http4k.filter/-server-filters/index.md) |  |
-| [org.http4k.servirtium.ServirtiumContract](../org.http4k.servirtium/-servirtium-contract/index.md) | Defines a test contract which can be used to implement recording or replaying of Servirtium-formatted tests |
 | [org.http4k.junit.ServirtiumRecording](../org.http4k.junit/-servirtium-recording/index.md) | JUnit 5 extension for recording HTTP traffic to disk in Servirtium format. |
 | [org.http4k.junit.ServirtiumReplay](../org.http4k.junit/-servirtium-replay/index.md) | JUnit 5 extension for replaying HTTP traffic from disk in Servirtium format. |
 | [org.http4k.servirtium.ServirtiumServer](../org.http4k.servirtium/-servirtium-server/index.md) |  |

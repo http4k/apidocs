@@ -31,7 +31,7 @@ Provides a stream of traffic for replaying purposes.
 
 | Name | Summary |
 |---|---|
-| [Servirtium](../-servirtium.md) | `fun Replay.Companion.Servirtium(output: `[`Supplier`](https://docs.oracle.com/javase/9/docs/api/java/util/function/Supplier.html)`<`[`ByteArray`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html)`>): `[`Replay`](./index.md)<br>Read HTTP traffic from disk in Servirtium markdown format. |
+| [Servirtium](../-servirtium.md) | `fun Replay.Companion.Servirtium(output: `[`Supplier`](https://docs.oracle.com/javase/9/docs/api/java/util/function/Supplier.html)`<`[`ByteArray`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html)`>, options: `[`InteractionOptions`](../../org.http4k.servirtium/-interaction-options/index.md)` = Defaults): `[`Replay`](./index.md)<br>Read HTTP traffic from disk in Servirtium markdown format. |
 
 ### Inheritors
 

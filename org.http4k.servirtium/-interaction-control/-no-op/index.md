@@ -2,7 +2,7 @@
 
 # NoOp
 
-`object NoOp : `[`InteractionControl`](../index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-servirtium/src/main/kotlin/org/http4k/servirtium/InteractionControl.kt#L11)
+`object NoOp : `[`InteractionControl`](../index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-servirtium/src/main/kotlin/org/http4k/servirtium/InteractionControl.kt#L14)
 
 ### Functions
 

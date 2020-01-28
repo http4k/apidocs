@@ -2,7 +2,7 @@
 
 # RequestObjectExtractor
 
-`object RequestObjectExtractor` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/request/RequestObjectExtractor.kt#L30)
+`object RequestObjectExtractor` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/request/RequestObjectExtractor.kt#L32)
 
 ### Extension Functions
 

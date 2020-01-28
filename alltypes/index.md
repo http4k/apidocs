@@ -193,6 +193,7 @@
 | [org.http4k.filter.GenerateDataClasses](../org.http4k.filter/-generate-data-classes/index.md) | This Filter is used to generate Data class definitions from a Response containing JSON. The Filter will try and reduce the number of class definitions by selecting the definition with the most fields (for cases where lists of items have different fields). |
 | [org.http4k.filter.GenerateXmlDataClasses](../org.http4k.filter/-generate-xml-data-classes/index.md) | This Filter is used to generate Data class definitions from a Response containing XML. The Filter will try and reduce the number of class definitions by selecting the definition with the most fields (for cases where lists of items have different fields). |
 | [org.http4k.webdriver.GetURL](../org.http4k.webdriver/-get-u-r-l.md) |  |
+| [org.http4k.servirtium.GithubFile](../org.http4k.servirtium/-github-file/index.md) |  |
 | [org.http4k.security.oauth.server.accesstoken.GrantType](../org.http4k.security.oauth.server.accesstoken/-grant-type/index.md) |  |
 | [org.http4k.security.oauth.server.accesstoken.GrantTypesConfiguration](../org.http4k.security.oauth.server.accesstoken/-grant-types-configuration/index.md) |  |
 | [com.google.gson.Gson](../org.http4k.format/com.google.gson.-gson/index.md) (extensions in package org.http4k.format) |  |
@@ -234,7 +235,6 @@
 | [org.http4k.servirtium.InteractionControl](../org.http4k.servirtium/-interaction-control/index.md) | Provides controls for interacting with an in-action Interaction recording. |
 | [org.http4k.servirtium.InteractionOptions](../org.http4k.servirtium/-interaction-options/index.md) | This controls how the Servirtium interactions are recorded to the storage format. The manipulations are used to replace/remove any dynamic parts of the request (eg. Date headers) so that the traffic can be correctly matched during the replay process. |
 | [org.http4k.servirtium.InteractionStorage](../org.http4k.servirtium/-interaction-storage/index.md) | Provides storage for the recorded Servirtium interaction data. |
-| [org.http4k.servirtium.InteractionStorageLookup](../org.http4k.servirtium/-interaction-storage-lookup.md) |  |
 | [org.http4k.lens.Invalid](../org.http4k.lens/-invalid/index.md) |  |
 | [org.http4k.serverless.InvalidAppLoaderException](../org.http4k.serverless/-invalid-app-loader-exception/index.md) |  |
 | [org.http4k.security.oauth.server.InvalidAuthorizationRequest](../org.http4k.security.oauth.server/-invalid-authorization-request/index.md) |  |
@@ -432,6 +432,7 @@
 | [org.http4k.filter.StaleWhenRevalidateTtl](../org.http4k.filter/-stale-when-revalidate-ttl/index.md) |  |
 | [org.http4k.security.State](../org.http4k.security/-state/index.md) |  |
 | [org.http4k.core.Status](../org.http4k.core/-status/index.md) |  |
+| [org.http4k.servirtium.StorageProvider](../org.http4k.servirtium/-storage-provider.md) |  |
 | [org.http4k.core.Store](../org.http4k.core/-store/index.md) |  |
 | [org.http4k.core.StreamBody](../org.http4k.core/-stream-body/index.md) | Represents a body that is backed by a (lazy) InputStream. Operating with StreamBody has a number of potential gotchas: |
 | [kotlin.String](../org.http4k.core/kotlin.-string/index.md) (extensions in package org.http4k.core) |  |

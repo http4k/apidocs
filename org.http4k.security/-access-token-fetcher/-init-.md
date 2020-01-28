@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`AccessTokenFetcher(api: `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`, callbackUri: `[`Uri`](../../org.http4k.core/-uri/index.md)`, providerConfig: `[`OAuthProviderConfig`](../-o-auth-provider-config/index.md)`)`
+`AccessTokenFetcher(api: `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`, callbackUri: `[`Uri`](../../org.http4k.core/-uri/index.md)`, providerConfig: `[`OAuthProviderConfig`](../-o-auth-provider-config/index.md)`, accessTokenFetcherAuthenticator: `[`AccessTokenFetcherAuthenticator`](../-access-token-fetcher-authenticator/index.md)`)`

@@ -11,7 +11,9 @@ Code relevant to interfacing with security mechanisms such as OAuth servers.
 | [AccessToken](-access-token/index.md) | `data class AccessToken` |
 | [AccessTokenDetails](-access-token-details/index.md) | `data class AccessTokenDetails` |
 | [AccessTokenFetcher](-access-token-fetcher/index.md) | `class AccessTokenFetcher` |
+| [AccessTokenFetcherAuthenticator](-access-token-fetcher-authenticator/index.md) | `interface AccessTokenFetcherAuthenticator` |
 | [AccessTokenResponse](-access-token-response/index.md) | `data class AccessTokenResponse` |
+| [ClientSecretAccessTokenFetcherAuthenticator](-client-secret-access-token-fetcher-authenticator/index.md) | `class ClientSecretAccessTokenFetcherAuthenticator : `[`AccessTokenFetcherAuthenticator`](-access-token-fetcher-authenticator/index.md) |
 | [CrossSiteRequestForgeryToken](-cross-site-request-forgery-token/index.md) | `data class CrossSiteRequestForgeryToken` |
 | [InsecureCookieBasedOAuthPersistence](-insecure-cookie-based-o-auth-persistence/index.md) | `class InsecureCookieBasedOAuthPersistence : `[`OAuthPersistence`](-o-auth-persistence/index.md)<br>This is an example implementation which stores CSRF and AccessToken values in an INSECURE client-side cookie. Access-tokens for end-services are fully available to the browser so do not use this in production! |
 | [OAuthCallback](-o-auth-callback/index.md) | `class OAuthCallback : `[`HttpHandler`](../org.http4k.core/-http-handler.md) |

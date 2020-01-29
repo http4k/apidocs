@@ -2,4 +2,4 @@
 
 # hash
 
-`val hash: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-aws/src/main/kotlin/org/http4k/filter/awsExtensions.kt#L86)
+`val hash: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-aws/src/main/kotlin/org/http4k/filter/awsExtensions.kt#L82)

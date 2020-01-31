@@ -6,6 +6,7 @@
 
 | Name | Summary |
 |---|---|
+| [Github](-github/index.md) | `class Github : `[`StorageProvider`](-storage-provider.md)<br>Read a file from a repository using the GitHub API. |
 | [GithubFile](-github-file/index.md) | `data class GithubFile` |
 | [InteractionControl](-interaction-control/index.md) | `interface InteractionControl`<br>Provides controls for interacting with an in-action Interaction recording. |
 | [InteractionOptions](-interaction-options/index.md) | `interface InteractionOptions`<br>This controls how the Servirtium interactions are recorded to the storage format. The manipulations are used to replace/remove any dynamic parts of the request (eg. Date headers) so that the traffic can be correctly matched during the replay process. |
@@ -17,9 +18,3 @@
 | Name | Summary |
 |---|---|
 | [StorageProvider](-storage-provider.md) | `typealias StorageProvider = (`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`) -> `[`InteractionStorage`](-interaction-storage/index.md) |
-
-### Companion Object Functions
-
-| Name | Summary |
-|---|---|
-| [Github](-github.md) | `fun InteractionStorage.Companion.Github(owner: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, repo: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, credentials: `[`Credentials`](../org.http4k.core/-credentials/index.md)`, basePath: `[`Path`](https://docs.oracle.com/javase/9/docs/api/java/nio/file/Path.html)` = Path.of(""), reference: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`? = null, http: `[`HttpHandler`](../org.http4k.core/-http-handler.md)` = SetBaseUriFrom(Uri.of("https://api.github.com")).then(JavaHttpClient())): `[`StorageProvider`](-storage-provider.md)<br>Read a file from a repository using the GitHub API. |

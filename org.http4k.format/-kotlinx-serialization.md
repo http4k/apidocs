@@ -2,7 +2,10 @@
 
 # KotlinxSerialization
 
-`object KotlinxSerialization : `[`ConfigurableKotlinxSerialization`](-configurable-kotlinx-serialization/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-kotlinx-serialization/src/main/kotlin/org/http4k/format/KotlinxSerialization.kt#L3)
+`object KotlinxSerialization : `[`ConfigurableKotlinxSerialization`](-configurable-kotlinx-serialization/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-kotlinx-serialization/src/main/kotlin/org/http4k/format/KotlinxSerialization.kt#L10)
+
+To implement custom JSON configuration, create your own object singleton extending
+ConfigurableKotlinxSerialization.
 
 ### Inherited Functions
 

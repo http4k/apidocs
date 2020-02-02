@@ -15,7 +15,7 @@ Common code relevant to the various message format implementations (eg. JSON).
 | [ConfigurableGson](-configurable-gson/index.md) | `open class ConfigurableGson : `[`JsonLibAutoMarshallingJson`](-json-lib-auto-marshalling-json/index.md)`<JsonElement>` |
 | [ConfigurableJackson](-configurable-jackson/index.md) | `open class ConfigurableJackson : `[`JsonLibAutoMarshallingJson`](-json-lib-auto-marshalling-json/index.md)`<`[`JsonNode`](https://fasterxml.github.io/jackson-databind/javadoc/2.10/com/fasterxml/jackson/databind/JsonNode.html)`>` |
 | [ConfigurableJacksonXml](-configurable-jackson-xml/index.md) | `open class ConfigurableJacksonXml : `[`AutoMarshallingXml`](-auto-marshalling-xml/index.md) |
-| [ConfigurableKotlinxSerialization](-configurable-kotlinx-serialization/index.md) | `open class ConfigurableKotlinxSerialization : `[`Json`](-json/index.md)`<<ERROR CLASS>>`<br>To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called. |
+| [ConfigurableKotlinxSerialization](-configurable-kotlinx-serialization/index.md) | `open class ConfigurableKotlinxSerialization : `[`Json`](-json/index.md)`<<ERROR CLASS>>` |
 | [ConfigurableMoshi](-configurable-moshi/index.md) | `open class ConfigurableMoshi : `[`AutoMarshallingJson`](-auto-marshalling-json/index.md) |
 | [Gson](-gson.md) | `object Gson : `[`ConfigurableGson`](-configurable-gson/index.md)<br>To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called. |
 | [Jackson](-jackson.md) | `object Jackson : `[`ConfigurableJackson`](-configurable-jackson/index.md)<br>To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called. |
@@ -23,7 +23,7 @@ Common code relevant to the various message format implementations (eg. JSON).
 | [Json](-json/index.md) | `interface Json<NODE>`<br>This is the contract for all JSON implementations |
 | [JsonLibAutoMarshallingJson](-json-lib-auto-marshalling-json/index.md) | `abstract class JsonLibAutoMarshallingJson<NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`AutoMarshallingJson`](-auto-marshalling-json/index.md)`, `[`Json`](-json/index.md)`<`[`NODE`](-json-lib-auto-marshalling-json/index.md#NODE)`>` |
 | [JsonType](-json-type/index.md) | `enum class JsonType` |
-| [KotlinxSerialization](-kotlinx-serialization.md) | `object KotlinxSerialization : `[`ConfigurableKotlinxSerialization`](-configurable-kotlinx-serialization/index.md) |
+| [KotlinxSerialization](-kotlinx-serialization.md) | `object KotlinxSerialization : `[`ConfigurableKotlinxSerialization`](-configurable-kotlinx-serialization/index.md)<br>To implement custom JSON configuration, create your own object singleton extending ConfigurableKotlinxSerialization. |
 | [Moshi](-moshi.md) | `object Moshi : `[`ConfigurableMoshi`](-configurable-moshi/index.md)<br>To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called. |
 | [Xml](-xml/index.md) | `object Xml : `[`AutoMarshallingXml`](-auto-marshalling-xml/index.md) |
 

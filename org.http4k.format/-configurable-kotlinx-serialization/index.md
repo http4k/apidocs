@@ -2,15 +2,13 @@
 
 # ConfigurableKotlinxSerialization
 
-`open class ConfigurableKotlinxSerialization : `[`Json`](../-json/index.md)`<<ERROR CLASS>>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-kotlinx-serialization/src/main/kotlin/org/http4k/format/ConfigurableKotlinxSerialization.kt#L13)
-
-To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called.
+`open class ConfigurableKotlinxSerialization : `[`Json`](../-json/index.md)`<<ERROR CLASS>>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-kotlinx-serialization/src/main/kotlin/org/http4k/format/ConfigurableKotlinxSerialization.kt#L19)
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `ConfigurableKotlinxSerialization(config: <ERROR CLASS> = JsonConfiguration.Stable, context: <ERROR CLASS> = EmptyModule)`<br>To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called. |
+| [&lt;init&gt;](-init-.md) | `ConfigurableKotlinxSerialization(config: <ERROR CLASS>, context: <ERROR CLASS>)` |
 
 ### Functions
 
@@ -63,4 +61,4 @@ To implement custom JSON configuration, create your own object singleton. Extra 
 
 | Name | Summary |
 |---|---|
-| [KotlinxSerialization](../-kotlinx-serialization.md) | `object KotlinxSerialization : `[`ConfigurableKotlinxSerialization`](./index.md) |
+| [KotlinxSerialization](../-kotlinx-serialization.md) | `object KotlinxSerialization : `[`ConfigurableKotlinxSerialization`](./index.md)<br>To implement custom JSON configuration, create your own object singleton extending ConfigurableKotlinxSerialization. |

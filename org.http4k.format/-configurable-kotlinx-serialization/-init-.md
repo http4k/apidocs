@@ -2,7 +2,4 @@
 
 # &lt;init&gt;
 
-`ConfigurableKotlinxSerialization(config: <ERROR CLASS> = JsonConfiguration.Stable, context: <ERROR CLASS> = EmptyModule)`
-
-To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called.
-
+`ConfigurableKotlinxSerialization(config: <ERROR CLASS>, context: <ERROR CLASS>)`

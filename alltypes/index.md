@@ -115,6 +115,7 @@
 | [org.http4k.format.ConfigurableGson](../org.http4k.format/-configurable-gson/index.md) |  |
 | [org.http4k.format.ConfigurableJackson](../org.http4k.format/-configurable-jackson/index.md) |  |
 | [org.http4k.format.ConfigurableJacksonXml](../org.http4k.format/-configurable-jackson-xml/index.md) |  |
+| [org.http4k.format.ConfigurableKotlinxSerialization](../org.http4k.format/-configurable-kotlinx-serialization/index.md) | To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called. |
 | [org.http4k.format.ConfigurableMoshi](../org.http4k.format/-configurable-moshi/index.md) |  |
 | [org.http4k.server.ConnectorBuilder](../org.http4k.server/-connector-builder.md) |  |
 | [org.http4k.lens.ContentNegotiation](../org.http4k.lens/-content-negotiation/index.md) | Modes for determining if a passed content type is acceptable. |
@@ -277,6 +278,7 @@
 | [org.http4k.format.JsonType](../org.http4k.format/-json-type/index.md) |  |
 | [org.http4k.webdriver.JSoupWebElement](../org.http4k.webdriver/-j-soup-web-element/index.md) |  |
 | [com.fasterxml.jackson.module.kotlin.KotlinModule](../org.http4k.format/com.fasterxml.jackson.module.kotlin.-kotlin-module/index.md) (extensions in package org.http4k.format) |  |
+| [org.http4k.format.KotlinxSerialization](../org.http4k.format/-kotlinx-serialization.md) |  |
 | [org.http4k.server.KtorCIO](../org.http4k.server/-ktor-c-i-o/index.md) |  |
 | [org.http4k.serverless.lambda.LambdaFunction](../org.http4k.serverless.lambda/-lambda-function/index.md) | This is the main entry point for the lambda. It uses the local environment to instantiate the Http4k handler which can be used for further invocations. |
 | [org.http4k.lens.Lens](../org.http4k.lens/-lens/index.md) | A Lens provides the uni-directional extraction of an entity from a target. |

@@ -57,4 +57,5 @@ This is the contract for all JSON implementations
 | Name | Summary |
 |---|---|
 | [Argo](../-argo/index.md) | `object Argo : `[`Json`](./index.md)`<JsonNode>` |
+| [ConfigurableKotlinxSerialization](../-configurable-kotlinx-serialization/index.md) | `open class ConfigurableKotlinxSerialization : `[`Json`](./index.md)`<<ERROR CLASS>>`<br>To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called. |
 | [JsonLibAutoMarshallingJson](../-json-lib-auto-marshalling-json/index.md) | `abstract class JsonLibAutoMarshallingJson<NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`AutoMarshallingJson`](../-auto-marshalling-json/index.md)`, `[`Json`](./index.md)`<`[`NODE`](../-json-lib-auto-marshalling-json/index.md#NODE)`>` |

@@ -196,7 +196,7 @@
 | [org.http4k.filter.GenerateDataClasses](../org.http4k.filter/-generate-data-classes/index.md) | This Filter is used to generate Data class definitions from a Response containing JSON. The Filter will try and reduce the number of class definitions by selecting the definition with the most fields (for cases where lists of items have different fields). |
 | [org.http4k.filter.GenerateXmlDataClasses](../org.http4k.filter/-generate-xml-data-classes/index.md) | This Filter is used to generate Data class definitions from a Response containing XML. The Filter will try and reduce the number of class definitions by selecting the definition with the most fields (for cases where lists of items have different fields). |
 | [org.http4k.webdriver.GetURL](../org.http4k.webdriver/-get-u-r-l.md) |  |
-| [org.http4k.servirtium.Github](../org.http4k.servirtium/-github/index.md) | Read a file from a repository using the GitHub API. |
+| [org.http4k.servirtium.GitHub](../org.http4k.servirtium/-git-hub/index.md) | Read a file from a repository using the GitHub API. |
 | [org.http4k.servirtium.GithubFile](../org.http4k.servirtium/-github-file/index.md) |  |
 | [org.http4k.security.oauth.server.accesstoken.GrantType](../org.http4k.security.oauth.server.accesstoken/-grant-type/index.md) |  |
 | [org.http4k.security.oauth.server.accesstoken.GrantTypesConfiguration](../org.http4k.security.oauth.server.accesstoken/-grant-types-configuration/index.md) |  |

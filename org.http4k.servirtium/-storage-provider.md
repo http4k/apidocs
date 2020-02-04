@@ -8,4 +8,4 @@
 
 | Name | Summary |
 |---|---|
-| [Github](-github/index.md) | `class Github : `[`StorageProvider`](./-storage-provider.md)<br>Read a file from a repository using the GitHub API. |
+| [GitHub](-git-hub/index.md) | `class GitHub : `[`StorageProvider`](./-storage-provider.md)<br>Read a file from a repository using the GitHub API. |

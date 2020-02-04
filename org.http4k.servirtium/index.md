@@ -6,7 +6,7 @@
 
 | Name | Summary |
 |---|---|
-| [Github](-github/index.md) | `class Github : `[`StorageProvider`](-storage-provider.md)<br>Read a file from a repository using the GitHub API. |
+| [GitHub](-git-hub/index.md) | `class GitHub : `[`StorageProvider`](-storage-provider.md)<br>Read a file from a repository using the GitHub API. |
 | [GithubFile](-github-file/index.md) | `data class GithubFile` |
 | [InteractionControl](-interaction-control/index.md) | `interface InteractionControl`<br>Provides controls for interacting with an in-action Interaction recording. |
 | [InteractionOptions](-interaction-options/index.md) | `interface InteractionOptions`<br>This controls how the Servirtium interactions are recorded to the storage format. The manipulations are used to replace/remove any dynamic parts of the request (eg. Date headers) so that the traffic can be correctly matched during the replay process. |

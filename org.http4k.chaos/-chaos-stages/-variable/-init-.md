@@ -2,7 +2,7 @@
 
 # &lt;init&gt;
 
-`Variable(current: `[`Stage`](../../-stage.md)` = None().appliedWhen(Always()))`
+`Variable(current: `[`Stage`](../../-stage.md)` = Wait)`
 
 Provide a means of modifying a ChaosBehaviour at runtime.
 

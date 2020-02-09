@@ -2,7 +2,7 @@
 
 # Repeat
 
-`fun Repeat(newStageFn: () -> `[`Stage`](../-stage.md)`): `[`Stage`](../-stage.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosStages.kt#L56)
+`fun Repeat(newStageFn: () -> `[`Stage`](../-stage.md)`): `[`Stage`](../-stage.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosStages.kt#L54)
 
 Repeats a stage (or composite stage in repeating pattern). Since ChaosStages are STATEFUL,
 the stage function will be fired on each iteration and expecting a NEW instance.

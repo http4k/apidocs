@@ -93,7 +93,7 @@
 | [org.http4k.filter.CachingFilters](../org.http4k.filter/-caching-filters/index.md) | Useful filters for applying Cache-Controls to request/responses |
 | [org.http4k.filter.CanonicalPayload](../org.http4k.filter/-canonical-payload/index.md) |  |
 | [org.http4k.chaos.ChaosBehaviours](../org.http4k.chaos/-chaos-behaviours/index.md) |  |
-| [org.http4k.chaos.ChaosEngine](../org.http4k.chaos/-chaos-engine/index.md) | The Chaos Engine controls the lifecycle of applying Chaotic behaviour to traffic, which is exposed as a standard Http4k Filter. Chaos can be programmatically updated and enabled/disabled. |
+| [org.http4k.chaos.ChaosEngine](../org.http4k.chaos/-chaos-engine/index.md) | The Chaos Engine controls the lifecycle of applying Chaotic behaviour to traffic, which is exposed as a standard Http4k Filter. Chaos can be programmatically updated and enabled/disabled. By default, the engine is deactivated, so activate() needs to be called to witness any change in behaviour, |
 | [org.http4k.chaos.ChaosStages](../org.http4k.chaos/-chaos-stages/index.md) |  |
 | [org.http4k.chaos.ChaosTriggers](../org.http4k.chaos/-chaos-triggers/index.md) |  |
 | [org.http4k.security.oauth.server.request.Claim](../org.http4k.security.oauth.server.request/-claim/index.md) |  |

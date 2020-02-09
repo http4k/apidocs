@@ -2,24 +2,31 @@
 
 # ChaosEngine
 
-`object ChaosEngine` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosEngine.kt#L52)
+`class ChaosEngine : `[`Filter`](../../org.http4k.core/-filter/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosEngine.kt#L14)
 
-Adds a set of endpoints to an application which will control the switching on/off of chaos behaviour. The added endpoints are:
-GET //status &lt;- check the on off/status of the injected chaos
-POST //activate &lt;- turn on the chaos. optionally POST a JSON body to set a list of new stages to use.
-POST //deactivate &lt;- turn off the chaos
-POST //toggle &lt;- toggle the chaos
+The Chaos Engine controls the lifecycle of applying Chaotic behaviour to traffic, which is exposed as a
+standard Http4k Filter. Chaos can be programmatically updated and enabled/disabled.
 
-By default, controls are mounted at the root path /chaos
+### Constructors
+
+| Name | Summary |
+|---|---|
+| [&lt;init&gt;](-init-.md) | `ChaosEngine(behaviour: `[`Behaviour`](../-behaviour.md)`, alreadyActivated: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)` = true)``ChaosEngine(initialStage: `[`Stage`](../-stage.md)` = Wait, alreadyActivated: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)` = true)`<br>The Chaos Engine controls the lifecycle of applying Chaotic behaviour to traffic, which is exposed as a standard Http4k Filter. Chaos can be programmatically updated and enabled/disabled. |
 
 ### Functions
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `operator fun invoke(trigger: `[`SwitchTrigger`](../-switch-trigger/index.md)`, variable: `[`ChaosStages.Variable`](../-chaos-stages/-variable/index.md)`, controlsPath: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = "/chaos", chaosSecurity: `[`Security`](../../org.http4k.contract.security/-security/index.md)` = NoSecurity, openApiPath: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = "", corsPolicy: `[`CorsPolicy`](../../org.http4k.filter/-cors-policy/index.md)` = UnsafeGlobalPermissive): `[`RoutingHttpHandler`](../../org.http4k.routing/-routing-http-handler/index.md) |
+| [invoke](invoke.md) | `fun invoke(p1: `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`): `[`HttpHandler`](../../org.http4k.core/-http-handler.md) |
+| [isActive](is-active.md) | `fun isActive(): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)<br>Check if the configured Chaos behaviour is currently being applied to all traffic. |
+| [toggle](toggle.md) | `fun toggle(isActive: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)<br>Toggle the behaviour on/off. |
+| [toString](to-string.md) | `fun toString(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)<br>Outputs description of the current state. |
+| [update](update.md) | `fun update(behaviour: `[`Behaviour`](../-behaviour.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)<br>Update the new simple Chaotic behaviour to be applied when the ChaosEngine is enabled.`fun update(stage: `[`Stage`](../-stage.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)<br>Update the new complex (multi-stage, triggers etc) Chaotic behaviour to be applied when the ChaosEngine is enabled. |
 
 ### Extension Functions
 
 | Name | Summary |
 |---|---|
+| [appliedWhen](../applied-when.md) | `fun `[`Behaviour`](../-behaviour.md)`.appliedWhen(trigger: `[`Trigger`](../-trigger.md)`): `[`Stage`](../-stage.md) |
+| [then](../../org.http4k.core/then.md) | `fun `[`Filter`](../../org.http4k.core/-filter/index.md)`.then(next: `[`Filter`](../../org.http4k.core/-filter/index.md)`): `[`Filter`](../../org.http4k.core/-filter/index.md)<br>`fun `[`Filter`](../../org.http4k.core/-filter/index.md)`.then(next: `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`): `[`HttpHandler`](../../org.http4k.core/-http-handler.md)<br>`fun `[`Filter`](../../org.http4k.core/-filter/index.md)`.then(routingHttpHandler: `[`RoutingHttpHandler`](../../org.http4k.routing/-routing-http-handler/index.md)`): `[`RoutingHttpHandler`](../../org.http4k.routing/-routing-http-handler/index.md) |
 | [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

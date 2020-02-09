@@ -12,12 +12,6 @@ Provide a means of modifying a ChaosBehaviour at runtime.
 |---|---|
 | [&lt;init&gt;](-init-.md) | `Variable(current: `[`Stage`](../../-stage.md)` = None().appliedWhen(Always()))`<br>Provide a means of modifying a ChaosBehaviour at runtime. |
 
-### Properties
-
-| Name | Summary |
-|---|---|
-| [current](current.md) | `var current: `[`Stage`](../../-stage.md) |
-
 ### Functions
 
 | Name | Summary |

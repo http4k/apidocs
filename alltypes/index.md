@@ -93,7 +93,7 @@
 | [org.http4k.filter.CachingFilters](../org.http4k.filter/-caching-filters/index.md) | Useful filters for applying Cache-Controls to request/responses |
 | [org.http4k.filter.CanonicalPayload](../org.http4k.filter/-canonical-payload/index.md) |  |
 | [org.http4k.chaos.ChaosBehaviours](../org.http4k.chaos/-chaos-behaviours/index.md) |  |
-| [org.http4k.chaos.ChaosEngine](../org.http4k.chaos/-chaos-engine/index.md) | Adds a set of endpoints to an application which will control the switching on/off of chaos behaviour. The added endpoints are: GET //status &lt;- check the on off/status of the injected chaos POST //activate &lt;- turn on the chaos. optionally POST a JSON body to set a list of new stages to use. POST //deactivate &lt;- turn off the chaos POST //toggle &lt;- toggle the chaos |
+| [org.http4k.chaos.ChaosEngine](../org.http4k.chaos/-chaos-engine/index.md) | The Chaos Engine controls the lifecycle of applying Chaotic behaviour to traffic, which is exposed as a standard Http4k Filter. Chaos can be programmatically updated and enabled/disabled. |
 | [org.http4k.chaos.ChaosStages](../org.http4k.chaos/-chaos-stages/index.md) |  |
 | [org.http4k.chaos.ChaosTriggers](../org.http4k.chaos/-chaos-triggers/index.md) |  |
 | [org.http4k.security.oauth.server.request.Claim](../org.http4k.security.oauth.server.request/-claim/index.md) |  |
@@ -371,6 +371,7 @@
 | [org.http4k.testing.RecordingEvents](../org.http4k.testing/-recording-events/index.md) | Simple recording events that can be used in tests |
 | [org.http4k.security.RedirectionUriBuilder](../org.http4k.security/-redirection-uri-builder.md) |  |
 | [org.http4k.security.oauth.server.RedirectUriMismatch](../org.http4k.security.oauth.server/-redirect-uri-mismatch.md) |  |
+| [org.http4k.chaos.RemoteChaosApi](../org.http4k.chaos/-remote-chaos-api/index.md) | A set of endpoints to an application which will control the setting and toggling chaos behaviour. The added endpoints are: GET //status &lt;- check the on off/status of the injected chaos POST //activate &lt;- turn on the chaos. optionally POST a JSON body to set a list of new stages to use. POST //deactivate &lt;- turn off the chaos POST //toggle &lt;- toggle the chaos |
 | [org.http4k.cloudnative.RemoteRequestFailed](../org.http4k.cloudnative/-remote-request-failed/index.md) | This hierarchy of exceptions should be used to indicate that an upstream remote system has failed with a non-successful status code which caused us to stop processing. They are designed to be used with the Server and Client filters which will allow automatic handling and propagation of erroneous responses from upstream. |
 | [org.http4k.contract.openapi.Render](../org.http4k.contract.openapi/-render.md) |  |
 | [org.http4k.contract.openapi.RenderModes](../org.http4k.contract.openapi/-render-modes/index.md) |  |
@@ -447,7 +448,6 @@
 | [org.http4k.lens.StringBiDiMappings](../org.http4k.lens/-string-bi-di-mappings/index.md) | A set of standardised String &lt;-&gt; Type conversions which are used throughout http4k |
 | [java.lang.StringBuilder](../org.http4k/java.lang.-string-builder/index.md) (extensions in package org.http4k) |  |
 | [org.http4k.server.SunHttp](../org.http4k.server/-sun-http/index.md) |  |
-| [org.http4k.chaos.SwitchTrigger](../org.http4k.chaos/-switch-trigger/index.md) | Simple toggleable trigger to turn ChaosBehaviour on/off |
 | [org.http4k.contract.Tag](../org.http4k.contract/-tag/index.md) |  |
 | [org.http4k.template.dust.TemplateExpansion](../org.http4k.template.dust/-template-expansion/index.md) |  |
 | [org.http4k.template.dust.TemplateExpansionService](../org.http4k.template.dust/-template-expansion-service.md) |  |

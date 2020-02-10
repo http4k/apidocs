@@ -2,7 +2,7 @@
 
 # Defaults
 
-`object Defaults : `[`InteractionOptions`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-servirtium/src/main/kotlin/org/http4k/servirtium/InteractionOptions.kt#L42)
+`object Defaults : `[`InteractionOptions`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-servirtium/src/main/kotlin/org/http4k/servirtium/InteractionOptions.kt#L45)
 
 By default, no modifications are made to the raw traffic before it gets output to disk. This will
 not be used very often as dynamic headers such as "Date" and "User-Agent" will almost always be present and

@@ -2,7 +2,7 @@
 
 # InteractionOptions
 
-`interface InteractionOptions` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-servirtium/src/main/kotlin/org/http4k/servirtium/InteractionOptions.kt#L12)
+`interface InteractionOptions` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-servirtium/src/main/kotlin/org/http4k/servirtium/InteractionOptions.kt#L15)
 
 General controls for the Servirtium interactions and how they are recorded to the storage format. The
 manipulations are used to replace/remove any dynamic parts of the request (eg. "Date" header) so that the

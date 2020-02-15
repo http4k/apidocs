@@ -2,7 +2,7 @@
 
 # ResponseRender
 
-`interface ResponseRender` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/ResponseRender.kt#L12)
+`interface ResponseRender` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/ResponseRender.kt#L13)
 
 ### Functions
 

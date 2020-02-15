@@ -2,13 +2,13 @@
 
 # WsClient
 
-`interface WsClient` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/websocket/WsClient.kt#L3)
+`interface WsClient` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/websocket/WsClient.kt#L5)
 
 ### Functions
 
 | Name | Summary |
 |---|---|
-| [close](close.md) | `abstract fun close(status: `[`WsStatus`](../-ws-status/index.md)` = WsStatus.NORMAL): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| [close](close.md) | `abstract fun close(status: `[`WsStatus`](../-ws-status/index.md)` = NORMAL): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 | [received](received.md) | `abstract fun received(): `[`Sequence`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.sequences/-sequence/index.html)`<`[`WsMessage`](../-ws-message/index.md)`>` |
 | [send](send.md) | `abstract fun send(message: `[`WsMessage`](../-ws-message/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 

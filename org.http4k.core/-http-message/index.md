@@ -26,6 +26,7 @@ HttpMessages are designed to be immutable, so any mutation methods return a modi
 | [headerValues](header-values.md) | `open fun headerValues(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?>`<br>Retrieves all header values with this name. |
 | [removeHeader](remove-header.md) | `abstract fun removeHeader(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`HttpMessage`](./index.md)<br>(Copy &amp;) remove headers with this name. |
 | [replaceHeader](replace-header.md) | `abstract fun replaceHeader(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`HttpMessage`](./index.md)<br>(Copy &amp;) Adds a header value with this name, replacing any previously set values. |
+| [replaceHeaders](replace-headers.md) | `abstract fun replaceHeaders(source: `[`Headers`](../-headers.md)`): `[`HttpMessage`](./index.md)<br>Replace all headers with ones passed. |
 | [toMessage](to-message.md) | `abstract fun toMessage(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)<br>Returns a formatted wire representation of this message. |
 
 ### Companion Object Properties

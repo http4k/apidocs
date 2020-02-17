@@ -2,7 +2,7 @@
 
 # MemoryRequest
 
-`data class MemoryRequest : `[`Request`](../-request/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L214)
+`data class MemoryRequest : `[`Request`](../-request/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L221)
 
 ### Constructors
 
@@ -34,6 +34,7 @@
 | [removeHeader](remove-header.md) | `fun removeHeader(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`MemoryRequest`](./index.md)<br>(Copy &amp;) remove headers with this name. |
 | [removeQuery](remove-query.md) | `fun removeQuery(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`MemoryRequest`](./index.md)<br>(Copy &amp;) remove queries with this name. |
 | [replaceHeader](replace-header.md) | `fun replaceHeader(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`MemoryRequest`](./index.md)<br>(Copy &amp;) Adds a header value with this name, replacing any previously set values. |
+| [replaceHeaders](replace-headers.md) | `fun replaceHeaders(source: `[`Headers`](../-headers.md)`): `[`MemoryRequest`](./index.md)<br>Replace all headers with ones passed. |
 | [toString](to-string.md) | `fun toString(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [uri](uri.md) | `fun uri(uri: `[`Uri`](../-uri/index.md)`): `[`MemoryRequest`](./index.md)<br>(Copy &amp;) sets the Uri. |
 

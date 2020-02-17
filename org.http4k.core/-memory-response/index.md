@@ -2,7 +2,7 @@
 
 # MemoryResponse
 
-`data class MemoryResponse : `[`Response`](../-response/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L278)
+`data class MemoryResponse : `[`Response`](../-response/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L289)
 
 ### Constructors
 
@@ -29,6 +29,7 @@
 | [headers](headers.md) | `fun headers(headers: `[`Headers`](../-headers.md)`): `[`MemoryResponse`](./index.md)<br>(Copy &amp;) Add all passed headers. |
 | [removeHeader](remove-header.md) | `fun removeHeader(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`MemoryResponse`](./index.md)<br>(Copy &amp;) remove headers with this name. |
 | [replaceHeader](replace-header.md) | `fun replaceHeader(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`MemoryResponse`](./index.md)<br>(Copy &amp;) Adds a header value with this name, replacing any previously set values. |
+| [replaceHeaders](replace-headers.md) | `fun replaceHeaders(source: `[`Headers`](../-headers.md)`): `[`MemoryResponse`](./index.md)<br>Replace all headers with ones passed. |
 | [status](status.md) | `fun status(new: `[`Status`](../-status/index.md)`): `[`MemoryResponse`](./index.md) |
 | [toString](to-string.md) | `fun toString(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 

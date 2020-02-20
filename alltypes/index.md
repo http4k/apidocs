@@ -248,6 +248,7 @@
 | [org.http4k.security.oauth.server.InvalidClientId](../org.http4k.security.oauth.server/-invalid-client-id.md) |  |
 | [org.http4k.format.InvalidJsonException](../org.http4k.format/-invalid-json-exception/index.md) |  |
 | [org.http4k.security.oauth.server.InvalidRedirectUri](../org.http4k.security.oauth.server/-invalid-redirect-uri.md) |  |
+| [org.http4k.security.oauth.server.InvalidRequest](../org.http4k.security.oauth.server/-invalid-request/index.md) |  |
 | [org.http4k.security.oauth.server.InvalidRequestObject](../org.http4k.security.oauth.server/-invalid-request-object.md) |  |
 | [org.http4k.security.oauth.server.InvalidScopes](../org.http4k.security.oauth.server/-invalid-scopes.md) |  |
 | [org.http4k.format.Jackson](../org.http4k.format/-jackson.md) | To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called. |
@@ -371,6 +372,9 @@
 | [org.http4k.testing.RecordingEvents](../org.http4k.testing/-recording-events/index.md) | Simple recording events that can be used in tests |
 | [org.http4k.security.RedirectionUriBuilder](../org.http4k.security/-redirection-uri-builder.md) |  |
 | [org.http4k.security.oauth.server.RedirectUriMismatch](../org.http4k.security.oauth.server/-redirect-uri-mismatch.md) |  |
+| [org.http4k.security.oauth.server.refreshtoken.RefreshToken](../org.http4k.security.oauth.server.refreshtoken/-refresh-token/index.md) |  |
+| [org.http4k.security.oauth.server.refreshtoken.RefreshTokenAccessTokenGenerator](../org.http4k.security.oauth.server.refreshtoken/-refresh-token-access-token-generator/index.md) |  |
+| [org.http4k.security.oauth.server.refreshtoken.RefreshTokens](../org.http4k.security.oauth.server.refreshtoken/-refresh-tokens/index.md) |  |
 | [org.http4k.chaos.RemoteChaosApi](../org.http4k.chaos/-remote-chaos-api/index.md) | A set of endpoints to an application which will control the setting and toggling chaos behaviour. The added endpoints are: GET //status &lt;- check the on off/status of the injected chaos POST //activate &lt;- turn on the chaos. optionally POST a JSON body to set a list of new stages to use. POST //deactivate &lt;- turn off the chaos POST //toggle &lt;- toggle the chaos |
 | [org.http4k.cloudnative.RemoteRequestFailed](../org.http4k.cloudnative/-remote-request-failed/index.md) | This hierarchy of exceptions should be used to indicate that an upstream remote system has failed with a non-successful status code which caused us to stop processing. They are designed to be used with the Server and Client filters which will allow automatic handling and propagation of erroneous responses from upstream. |
 | [org.http4k.contract.openapi.Render](../org.http4k.contract.openapi/-render.md) |  |

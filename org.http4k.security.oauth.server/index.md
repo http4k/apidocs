@@ -37,6 +37,7 @@
 | [InvalidClientCredentials](-invalid-client-credentials.md) | `object InvalidClientCredentials : `[`AccessTokenError`](-access-token-error.md) |
 | [InvalidClientId](-invalid-client-id.md) | `object InvalidClientId : `[`AuthorizationError`](-authorization-error.md) |
 | [InvalidRedirectUri](-invalid-redirect-uri.md) | `object InvalidRedirectUri : `[`AuthorizationError`](-authorization-error.md) |
+| [InvalidRequest](-invalid-request/index.md) | `data class InvalidRequest : `[`AccessTokenError`](-access-token-error.md) |
 | [InvalidRequestObject](-invalid-request-object.md) | `object InvalidRequestObject : `[`AuthorizationError`](-authorization-error.md) |
 | [InvalidScopes](-invalid-scopes.md) | `object InvalidScopes : `[`AuthorizationError`](-authorization-error.md) |
 | [JsonResponseErrorRenderer](-json-response-error-renderer/index.md) | `class JsonResponseErrorRenderer` |

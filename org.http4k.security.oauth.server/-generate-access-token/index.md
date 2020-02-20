@@ -2,13 +2,13 @@
 
 # GenerateAccessToken
 
-`class GenerateAccessToken : `[`HttpHandler`](../../org.http4k.core/-http-handler.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/GenerateAccessToken.kt#L17)
+`class GenerateAccessToken : `[`HttpHandler`](../../org.http4k.core/-http-handler.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/GenerateAccessToken.kt#L18)
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `GenerateAccessToken(authorizationCodes: `[`AuthorizationCodes`](../-authorization-codes/index.md)`, accessTokens: `[`AccessTokens`](../-access-tokens/index.md)`, clock: `[`Clock`](https://docs.oracle.com/javase/9/docs/api/java/time/Clock.html)`, idTokens: `[`IdTokens`](../-id-tokens/index.md)`, errorRenderer: `[`JsonResponseErrorRenderer`](../-json-response-error-renderer/index.md)`, grantTypes: `[`GrantTypesConfiguration`](../../org.http4k.security.oauth.server.accesstoken/-grant-types-configuration/index.md)`)` |
+| [&lt;init&gt;](-init-.md) | `GenerateAccessToken(authorizationCodes: `[`AuthorizationCodes`](../-authorization-codes/index.md)`, accessTokens: `[`AccessTokens`](../-access-tokens/index.md)`, clock: `[`Clock`](https://docs.oracle.com/javase/9/docs/api/java/time/Clock.html)`, idTokens: `[`IdTokens`](../-id-tokens/index.md)`, refreshTokens: `[`RefreshTokens`](../../org.http4k.security.oauth.server.refreshtoken/-refresh-tokens/index.md)`, errorRenderer: `[`JsonResponseErrorRenderer`](../-json-response-error-renderer/index.md)`, grantTypes: `[`GrantTypesConfiguration`](../../org.http4k.security.oauth.server.accesstoken/-grant-types-configuration/index.md)`)` |
 
 ### Functions
 

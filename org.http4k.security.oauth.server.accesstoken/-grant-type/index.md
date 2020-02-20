@@ -10,6 +10,7 @@
 |---|---|
 | [AuthorizationCode](-authorization-code.md) |  |
 | [ClientCredentials](-client-credentials.md) |  |
+| [RefreshToken](-refresh-token.md) |  |
 
 ### Properties
 

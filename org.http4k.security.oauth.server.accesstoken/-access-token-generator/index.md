@@ -22,3 +22,4 @@
 |---|---|
 | [AuthorizationCodeAccessTokenGenerator](../-authorization-code-access-token-generator/index.md) | `class AuthorizationCodeAccessTokenGenerator : `[`AccessTokenGenerator`](./index.md) |
 | [ClientCredentialsAccessTokenGenerator](../-client-credentials-access-token-generator/index.md) | `class ClientCredentialsAccessTokenGenerator : `[`AccessTokenGenerator`](./index.md) |
+| [RefreshTokenAccessTokenGenerator](../../org.http4k.security.oauth.server.refreshtoken/-refresh-token-access-token-generator/index.md) | `class RefreshTokenAccessTokenGenerator : `[`AccessTokenGenerator`](./index.md) |

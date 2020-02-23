@@ -2,7 +2,7 @@
 
 # GenerateAccessTokenForGrantType
 
-`class GenerateAccessTokenForGrantType` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/accesstoken/GenerateAccessTokenForGrantType.kt#L25)
+`class GenerateAccessTokenForGrantType`
 
 ### Constructors
 
@@ -22,9 +22,3 @@
 |---|---|
 | [grantType](grant-type.md) | `val grantType: `[`BiDiLens`](../../org.http4k.lens/-bi-di-lens/index.md)`<`[`WebForm`](../../org.http4k.lens/-web-form/index.md)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
 | [grantTypeForm](grant-type-form.md) | `val grantTypeForm: `[`BiDiBodyLens`](../../org.http4k.lens/-bi-di-body-lens/index.md)`<`[`WebForm`](../../org.http4k.lens/-web-form/index.md)`>` |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

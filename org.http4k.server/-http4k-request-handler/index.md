@@ -2,7 +2,7 @@
 
 # Http4kRequestHandler
 
-`class Http4kRequestHandler : `[`HttpRequestHandler`](https://hc.apache.org/httpcomponents-core-ga/httpcore/apidocs/org/apache/http/protocol/HttpRequestHandler.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-server-apache/src/main/kotlin/org/http4k/server/ApacheServer.kt#L28)
+`class Http4kRequestHandler : HttpRequestHandler`
 
 Exposed to allow for insertion into a customised Apache WebServer instance
 
@@ -10,16 +10,10 @@ Exposed to allow for insertion into a customised Apache WebServer instance
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `Http4kRequestHandler(handler: `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`)`<br>Exposed to allow for insertion into a customised Apache WebServer instance |
+| [&lt;init&gt;](-init-.md) | Exposed to allow for insertion into a customised Apache WebServer instance`Http4kRequestHandler(handler: `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`)` |
 
 ### Functions
 
 | Name | Summary |
 |---|---|
-| [handle](handle.md) | `fun handle(request: `[`HttpRequest`](https://hc.apache.org/httpcomponents-core-ga/httpcore/apidocs/org/apache/http/HttpRequest.html)`, response: `[`HttpResponse`](https://hc.apache.org/httpcomponents-core-ga/httpcore/apidocs/org/apache/http/HttpResponse.html)`, context: `[`HttpContext`](https://hc.apache.org/httpcomponents-core-ga/httpcore/apidocs/org/apache/http/protocol/HttpContext.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
+| [handle](handle.md) | `fun handle(request: HttpRequest, response: HttpResponse, context: HttpContext): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |

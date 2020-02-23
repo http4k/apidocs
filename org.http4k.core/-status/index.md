@@ -2,7 +2,7 @@
 
 # Status
 
-`class Status` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/Status.kt#L3)
+`class Status`
 
 ### Constructors
 
@@ -90,4 +90,3 @@
 | Name | Summary |
 |---|---|
 | [toClientStatus](../../org.http4k.client/to-client-status.md) | `fun `[`Status`](./index.md)`.toClientStatus(e: `[`Exception`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-exception/index.html)`): `[`Status`](./index.md) |
-| [with](../with.md) | `fun <T> `[`T`](../with.md#T)`.with(vararg modifiers: (`[`T`](../with.md#T)`) -> `[`T`](../with.md#T)`): `[`T`](../with.md#T) |

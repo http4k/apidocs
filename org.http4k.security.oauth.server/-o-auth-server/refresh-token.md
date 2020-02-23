@@ -2,4 +2,4 @@
 
 # refreshToken
 
-`val refreshToken: `[`BiDiLens`](../../org.http4k.lens/-bi-di-lens/index.md)`<`[`WebForm`](../../org.http4k.lens/-web-form/index.md)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/OAuthServer.kt#L115)
+`val refreshToken: `[`BiDiLens`](../../org.http4k.lens/-bi-di-lens/index.md)`<`[`WebForm`](../../org.http4k.lens/-web-form/index.md)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?>`

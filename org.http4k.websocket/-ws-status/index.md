@@ -2,7 +2,7 @@
 
 # WsStatus
 
-`data class WsStatus` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/websocket/WsStatus.kt#L3)
+`data class WsStatus`
 
 ### Constructors
 
@@ -45,9 +45,3 @@
 | [TLS_ERROR](-t-l-s_-e-r-r-o-r.md) | `val TLS_ERROR: `[`WsStatus`](./index.md) |
 | [TOOBIG](-t-o-o-b-i-g.md) | `val TOOBIG: `[`WsStatus`](./index.md) |
 | [UNEXPECTED_CONDITION](-u-n-e-x-p-e-c-t-e-d_-c-o-n-d-i-t-i-o-n.md) | `val UNEXPECTED_CONDITION: `[`WsStatus`](./index.md) |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

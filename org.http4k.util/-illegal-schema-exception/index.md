@@ -2,16 +2,10 @@
 
 # IllegalSchemaException
 
-`class IllegalSchemaException : `[`RuntimeException`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-runtime-exception/index.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/util/JsonSchemaCreator.kt#L9)
+`class IllegalSchemaException : `[`RuntimeException`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-runtime-exception/index.html)
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
 | [&lt;init&gt;](-init-.md) | `IllegalSchemaException(message: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`)` |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

@@ -2,7 +2,7 @@
 
 # ApiKeySecurity
 
-`class ApiKeySecurity<out T> : `[`Security`](../-security/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/security/ApiKeySecurity.kt#L17)
+`class ApiKeySecurity<out T> : `[`Security`](../-security/index.md)
 
 Checks the presence of the named Api Key parameter. Filter returns 401 if Api-Key is not found in request.
 
@@ -13,7 +13,7 @@ currently not enabled for OpenAPI.
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `ApiKeySecurity(param: `[`Lens`](../../org.http4k.lens/-lens/index.md)`<`[`Request`](../../org.http4k.core/-request/index.md)`, `[`T`](index.md#T)`>, validateKey: (`[`T`](index.md#T)`) -> `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`, authorizeOptionsRequests: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)` = true, name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = "api_key")`<br>Checks the presence of the named Api Key parameter. Filter returns 401 if Api-Key is not found in request. |
+| [&lt;init&gt;](-init-.md) | Checks the presence of the named Api Key parameter. Filter returns 401 if Api-Key is not found in request.`ApiKeySecurity(param: `[`Lens`](../../org.http4k.lens/-lens/index.md)`<`[`Request`](../../org.http4k.core/-request/index.md)`, T>, validateKey: (T) -> `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`, authorizeOptionsRequests: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)` = true, name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = "api_key")` |
 
 ### Properties
 
@@ -21,7 +21,7 @@ currently not enabled for OpenAPI.
 |---|---|
 | [filter](filter.md) | `val filter: `[`Filter`](../../org.http4k.core/-filter/index.md) |
 | [name](name.md) | `val name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
-| [param](param.md) | `val param: `[`Lens`](../../org.http4k.lens/-lens/index.md)`<`[`Request`](../../org.http4k.core/-request/index.md)`, `[`T`](index.md#T)`>` |
+| [param](param.md) | `val param: `[`Lens`](../../org.http4k.lens/-lens/index.md)`<`[`Request`](../../org.http4k.core/-request/index.md)`, T>` |
 
 ### Extension Functions
 
@@ -29,7 +29,6 @@ currently not enabled for OpenAPI.
 |---|---|
 | [and](../and.md) | `fun `[`Security`](../-security/index.md)`.and(that: `[`Security`](../-security/index.md)`): `[`Security`](../-security/index.md) |
 | [or](../or.md) | `fun `[`Security`](../-security/index.md)`.or(that: `[`Security`](../-security/index.md)`): `[`Security`](../-security/index.md) |
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
 
 ### Companion Object Extension Properties
 

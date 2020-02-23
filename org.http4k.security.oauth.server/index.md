@@ -7,7 +7,7 @@
 | Name | Summary |
 |---|---|
 | [AccessTokenError](-access-token-error.md) | `sealed class AccessTokenError : `[`OAuthError`](-o-auth-error/index.md) |
-| [AccessTokens](-access-tokens/index.md) | `interface AccessTokens`<br>Provides a consistent way to generate access tokens. |
+| [AccessTokens](-access-tokens/index.md) | Provides a consistent way to generate access tokens.`interface AccessTokens` |
 | [AuthenticationComplete](-authentication-complete/index.md) | `class AuthenticationComplete : `[`HttpHandler`](../org.http4k.core/-http-handler.md) |
 | [AuthoriseRequestErrorRender](-authorise-request-error-render/index.md) | `class AuthoriseRequestErrorRender` |
 | [AuthoriseRequestValidator](-authorise-request-validator/index.md) | `interface AuthoriseRequestValidator` |
@@ -15,18 +15,18 @@
 | [AuthorizationCodeAlreadyUsed](-authorization-code-already-used.md) | `object AuthorizationCodeAlreadyUsed : `[`AccessTokenError`](-access-token-error.md) |
 | [AuthorizationCodeDetails](-authorization-code-details/index.md) | `data class AuthorizationCodeDetails` |
 | [AuthorizationCodeExpired](-authorization-code-expired.md) | `object AuthorizationCodeExpired : `[`AccessTokenError`](-access-token-error.md) |
-| [AuthorizationCodes](-authorization-codes/index.md) | `interface AuthorizationCodes`<br>Provides a consistent way to manage authorization codes |
+| [AuthorizationCodes](-authorization-codes/index.md) | Provides a consistent way to manage authorization codes`interface AuthorizationCodes` |
 | [AuthorizationError](-authorization-error.md) | `sealed class AuthorizationError : `[`OAuthError`](-o-auth-error/index.md) |
 | [AuthRequest](-auth-request/index.md) | `data class AuthRequest` |
 | [AuthRequestExtractor](-auth-request-extractor/index.md) | `interface AuthRequestExtractor` |
 | [AuthRequestFromQueryParameters](-auth-request-from-query-parameters/index.md) | `object AuthRequestFromQueryParameters : `[`AuthRequestExtractor`](-auth-request-extractor/index.md) |
-| [AuthRequestTracking](-auth-request-tracking/index.md) | `interface AuthRequestTracking`<br>Provides a mechanism to track OAuth authorization parameters to be used later (i.e. can be used later to generate code and/or tokens) |
+| [AuthRequestTracking](-auth-request-tracking/index.md) | Provides a mechanism to track OAuth authorization parameters to be used later (i.e. can be used later to generate code and/or tokens)`interface AuthRequestTracking` |
 | [AuthRequestTrackingFilter](-auth-request-tracking-filter/index.md) | `class AuthRequestTrackingFilter : `[`Filter`](../org.http4k.core/-filter/index.md) |
 | [AuthRequestWithRequestAuthRequestExtractor](-auth-request-with-request-auth-request-extractor/index.md) | `class AuthRequestWithRequestAuthRequestExtractor : `[`AuthRequestExtractor`](-auth-request-extractor/index.md) |
 | [ClientId](-client-id/index.md) | `data class ClientId` |
 | [ClientIdMismatch](-client-id-mismatch.md) | `object ClientIdMismatch : `[`AccessTokenError`](-access-token-error.md) |
 | [ClientValidationFilter](-client-validation-filter/index.md) | `class ClientValidationFilter : `[`Filter`](../org.http4k.core/-filter/index.md) |
-| [ClientValidator](-client-validator/index.md) | `interface ClientValidator`<br>Provides a consistent way to retrieve clients attempting to use an authorization code flow |
+| [ClientValidator](-client-validator/index.md) | Provides a consistent way to retrieve clients attempting to use an authorization code flow`interface ClientValidator` |
 | [FragmentResponseRender](-fragment-response-render/index.md) | `class FragmentResponseRender : `[`ResponseRender`](-response-render/index.md) |
 | [GenerateAccessToken](-generate-access-token/index.md) | `class GenerateAccessToken : `[`HttpHandler`](../org.http4k.core/-http-handler.md) |
 | [IdTokens](-id-tokens/index.md) | `interface IdTokens` |
@@ -45,7 +45,7 @@
 | [MissingRedirectUri](-missing-redirect-uri.md) | `object MissingRedirectUri : `[`AccessTokenError`](-access-token-error.md) |
 | [MustHaveRedirectUri](-must-have-redirect-uri/index.md) | `class MustHaveRedirectUri : `[`AuthoriseRequestValidator`](-authorise-request-validator/index.md) |
 | [OAuthError](-o-auth-error/index.md) | `abstract class OAuthError` |
-| [OAuthServer](-o-auth-server/index.md) | `class OAuthServer`<br>Provide help creating OAuth Authorization Server with Authorization Code Flow |
+| [OAuthServer](-o-auth-server/index.md) | Provide help creating OAuth Authorization Server with Authorization Code Flow`class OAuthServer` |
 | [QueryResponseRender](-query-response-render/index.md) | `class QueryResponseRender : `[`ResponseRender`](-response-render/index.md) |
 | [RedirectUriMismatch](-redirect-uri-mismatch.md) | `object RedirectUriMismatch : `[`AccessTokenError`](-access-token-error.md) |
 | [ResponseRender](-response-render/index.md) | `interface ResponseRender` |

@@ -9,23 +9,18 @@ Common code relevant to HTTP server implementations.
 | Name | Summary |
 |---|---|
 | [ApacheServer](-apache-server/index.md) | `data class ApacheServer : `[`ServerConfig`](-server-config/index.md) |
-| [Http4kChannelHandler](-http4k-channel-handler/index.md) | `class Http4kChannelHandler : `[`SimpleChannelInboundHandler`](https://netty.io/4.1/api/io/netty/channel/SimpleChannelInboundHandler.html)`<`[`FullHttpRequest`](https://netty.io/4.1/api/io/netty/handler/codec/http/FullHttpRequest.html)`>`<br>Exposed to allow for insertion into a customised Netty server instance |
-| [Http4kRequestHandler](-http4k-request-handler/index.md) | `class Http4kRequestHandler : `[`HttpRequestHandler`](https://hc.apache.org/httpcomponents-core-ga/httpcore/apidocs/org/apache/http/protocol/HttpRequestHandler.html)<br>Exposed to allow for insertion into a customised Apache WebServer instance |
+| [ConnectorBuilder](-connector-builder.md) | `typealias ConnectorBuilder = (Server) -> ServerConnector` |
+| [Http4kChannelHandler](-http4k-channel-handler/index.md) | Exposed to allow for insertion into a customised Netty server instance`class Http4kChannelHandler : SimpleChannelInboundHandler<FullHttpRequest>` |
+| [Http4kRequestHandler](-http4k-request-handler/index.md) | Exposed to allow for insertion into a customised Apache WebServer instance`class Http4kRequestHandler : HttpRequestHandler` |
 | [Http4kServer](-http4k-server/index.md) | `interface Http4kServer : `[`AutoCloseable`](https://docs.oracle.com/javase/9/docs/api/java/lang/AutoCloseable.html) |
-| [HttpUndertowHandler](-http-undertow-handler/index.md) | `class HttpUndertowHandler : `[`HttpHandler`](http://undertow.io/javadoc/2.0.x/io/undertow/server/HttpHandler.html)<br>Exposed to allow for insertion into a customised Undertow server instance |
+| [HttpUndertowHandler](-http-undertow-handler/index.md) | Exposed to allow for insertion into a customised Undertow server instance`class HttpUndertowHandler : HttpHandler` |
 | [Jetty](-jetty/index.md) | `class Jetty : `[`WsServerConfig`](-ws-server-config/index.md) |
 | [KtorCIO](-ktor-c-i-o/index.md) | `data class KtorCIO : `[`ServerConfig`](-server-config/index.md) |
 | [Netty](-netty/index.md) | `data class Netty : `[`ServerConfig`](-server-config/index.md) |
-| [ServerConfig](-server-config/index.md) | `interface ServerConfig`<br>Standard interface for creating a configured WebServer |
+| [ServerConfig](-server-config/index.md) | Standard interface for creating a configured WebServer`interface ServerConfig` |
 | [SunHttp](-sun-http/index.md) | `data class SunHttp : `[`ServerConfig`](-server-config/index.md) |
 | [Undertow](-undertow/index.md) | `data class Undertow : `[`ServerConfig`](-server-config/index.md) |
-| [WsServerConfig](-ws-server-config/index.md) | `interface WsServerConfig : `[`ServerConfig`](-server-config/index.md)<br>Standard interface for creating a configured WebServer which supports Websockets |
-
-### Type Aliases
-
-| Name | Summary |
-|---|---|
-| [ConnectorBuilder](-connector-builder.md) | `typealias ConnectorBuilder = (Server) -> ServerConnector` |
+| [WsServerConfig](-ws-server-config/index.md) | Standard interface for creating a configured WebServer which supports Websockets`interface WsServerConfig : `[`ServerConfig`](-server-config/index.md) |
 
 ### Extensions for External Classes
 

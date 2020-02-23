@@ -2,7 +2,7 @@
 
 # Root
 
-`object Root : `[`PathSegments`](../-path-segments/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/PathSegments.kt#L33)
+`object Root : `[`PathSegments`](../-path-segments/index.md)
 
 ### Properties
 
@@ -17,15 +17,3 @@
 | [startsWith](starts-with.md) | `fun startsWith(other: `[`PathSegments`](../-path-segments/index.md)`): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
 | [toList](to-list.md) | `fun toList(): `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
 | [toString](to-string.md) | `fun toString(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
-
-### Inherited Functions
-
-| Name | Summary |
-|---|---|
-| [div](../-path-segments/div.md) | `operator fun div(child: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`PathSegments`](../-path-segments/index.md)<br>`operator fun div(child: `[`PathSegments`](../-path-segments/index.md)`): `[`PathSegments`](../-path-segments/index.md) |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

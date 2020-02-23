@@ -2,4 +2,4 @@
 
 # SECURE_CSRF
 
-`val SECURE_CSRF: () -> `[`CrossSiteRequestForgeryToken`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/CrossSiteRequestForgeryToken.kt#L8)
+`val SECURE_CSRF: () -> `[`CrossSiteRequestForgeryToken`](index.md)

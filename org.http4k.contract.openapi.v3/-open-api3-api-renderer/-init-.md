@@ -2,7 +2,7 @@
 
 # &lt;init&gt;
 
-`OpenApi3ApiRenderer(json: `[`Json`](../../org.http4k.format/-json/index.md)`<`[`NODE`](index.md#NODE)`>)`
+`OpenApi3ApiRenderer(json: `[`Json`](../../org.http4k.format/-json/index.md)`<NODE>)`
 
 Converts a API to OpenApi3 format JSON.
 

@@ -2,7 +2,7 @@
 
 # ContractRouteSpec
 
-`abstract class ContractRouteSpec` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/routeSpec.kt#L10)
+`abstract class ContractRouteSpec`
 
 ### Types
 
@@ -22,14 +22,8 @@
 
 | Name | Summary |
 |---|---|
-| [bindContract](bind-contract.md) | `abstract infix fun bindContract(method: `[`Method`](../../org.http4k.core/-method/index.md)`): `[`ContractRouteSpec.ContractRequestBuilder`](-contract-request-builder/index.md) |
-| [div](div.md) | `abstract infix operator fun <T> div(next: `[`PathLens`](../../org.http4k.lens/-path-lens/index.md)`<`[`T`](div.md#T)`>): `[`ContractRouteSpec`](./index.md)<br>`open infix operator fun div(next: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`ContractRouteSpec`](./index.md) |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
+| [bindContract](bind-contract.md) | `abstract infix fun bindContract(method: `[`Method`](../../org.http4k.core/-method/index.md)`): ContractRequestBuilder` |
+| [div](div.md) | `abstract infix operator fun <T> div(next: `[`PathLens`](../../org.http4k.lens/-path-lens/index.md)`<T>): `[`ContractRouteSpec`](./index.md)<br>`open infix operator fun div(next: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`ContractRouteSpec`](./index.md) |
 
 ### Inheritors
 

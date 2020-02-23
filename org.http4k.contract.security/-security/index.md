@@ -2,7 +2,7 @@
 
 # Security
 
-`interface Security` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/security/Security.kt#L12)
+`interface Security`
 
 Endpoint security. Provides filter to be applied to endpoints for all requests.
 
@@ -18,14 +18,13 @@ Endpoint security. Provides filter to be applied to endpoints for all requests.
 |---|---|
 | [and](../and.md) | `fun `[`Security`](./index.md)`.and(that: `[`Security`](./index.md)`): `[`Security`](./index.md) |
 | [or](../or.md) | `fun `[`Security`](./index.md)`.or(that: `[`Security`](./index.md)`): `[`Security`](./index.md) |
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
 
 ### Inheritors
 
 | Name | Summary |
 |---|---|
-| [ApiKeySecurity](../-api-key-security/index.md) | `class ApiKeySecurity<out T> : `[`Security`](./index.md)<br>Checks the presence of the named Api Key parameter. Filter returns 401 if Api-Key is not found in request. |
-| [BasicAuthSecurity](../-basic-auth-security/index.md) | `class BasicAuthSecurity : `[`Security`](./index.md)<br>Checks the presence of basic auth credentials. Filter returns 401 if auth fails. |
-| [BearerAuthSecurity](../-bearer-auth-security/index.md) | `class BearerAuthSecurity : `[`Security`](./index.md)<br>Checks the presence of bearer auth credentials. Filter returns 401 if auth fails. |
-| [NoSecurity](../-no-security/index.md) | `object NoSecurity : `[`Security`](./index.md)<br>Default NoOp security filter. Filter allows all traffic through. |
+| [ApiKeySecurity](../-api-key-security/index.md) | Checks the presence of the named Api Key parameter. Filter returns 401 if Api-Key is not found in request.`class ApiKeySecurity<out T> : `[`Security`](./index.md) |
+| [BasicAuthSecurity](../-basic-auth-security/index.md) | Checks the presence of basic auth credentials. Filter returns 401 if auth fails.`class BasicAuthSecurity : `[`Security`](./index.md) |
+| [BearerAuthSecurity](../-bearer-auth-security/index.md) | Checks the presence of bearer auth credentials. Filter returns 401 if auth fails.`class BearerAuthSecurity : `[`Security`](./index.md) |
+| [NoSecurity](../-no-security/index.md) | Default NoOp security filter. Filter allows all traffic through.`object NoSecurity : `[`Security`](./index.md) |
 | [OAuthSecurity](../-o-auth-security/index.md) | `sealed class OAuthSecurity : `[`Security`](./index.md) |

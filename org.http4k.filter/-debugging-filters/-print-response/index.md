@@ -2,7 +2,7 @@
 
 # PrintResponse
 
-`object PrintResponse` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/DebuggingFilters.kt#L24)
+`object PrintResponse`
 
 Print details of the response before it is returned.
 

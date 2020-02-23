@@ -2,7 +2,7 @@
 
 # &lt;init&gt;
 
-`WsMessageLens(getLens: (`[`WsMessage`](../../org.http4k.websocket/-ws-message/index.md)`) -> `[`FINAL`](index.md#FINAL)`)`
+`WsMessageLens(getLens: (`[`WsMessage`](../../org.http4k.websocket/-ws-message/index.md)`) -> FINAL)`
 
 A WsMessageLens provides the extraction of an entity from a target WsMessage.
 

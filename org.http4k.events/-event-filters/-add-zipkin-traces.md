@@ -2,7 +2,7 @@
 
 # AddZipkinTraces
 
-`fun AddZipkinTraces(): `[`EventFilter`](../-event-filter/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/events/EventFilters.kt#L22)
+`fun AddZipkinTraces(): `[`EventFilter`](../-event-filter/index.md)
 
 Adds Zipkin traces metadata to the event.
 

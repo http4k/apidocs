@@ -2,5 +2,5 @@
 
 # array
 
-`open fun <T : `[`NODE`](index.md#NODE)`> array(value: `[`T`](array.md#T)`): `[`NODE`](index.md#NODE) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/format/Json.kt#L58)
-`open fun <T : `[`NODE`](index.md#NODE)`> array(value: `[`Iterable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html)`<`[`T`](array.md#T)`>): `[`NODE`](index.md#NODE) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/format/Json.kt#L59)
+`open fun <T : NODE> array(value: T): NODE`
+`open fun <T : NODE> array(value: `[`Iterable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html)`<T>): NODE`

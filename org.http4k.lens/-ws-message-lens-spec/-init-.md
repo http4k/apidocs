@@ -2,7 +2,7 @@
 
 # &lt;init&gt;
 
-`WsMessageLensSpec(get: `[`LensGet`](../-lens-get/index.md)`<`[`WsMessage`](../../org.http4k.websocket/-ws-message/index.md)`, `[`OUT`](index.md#OUT)`>)`
+`WsMessageLensSpec(get: `[`LensGet`](../-lens-get/index.md)`<`[`WsMessage`](../../org.http4k.websocket/-ws-message/index.md)`, OUT>)`
 
 Represents a extraction of an entity from a target WsMessage.
 

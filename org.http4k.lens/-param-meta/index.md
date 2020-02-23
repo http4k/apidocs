@@ -2,7 +2,7 @@
 
 # ParamMeta
 
-`enum class ParamMeta` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/ParamMeta.kt#L3)
+`enum class ParamMeta`
 
 ### Enum Values
 
@@ -29,9 +29,3 @@
 |---|---|
 | [value](../../org.http4k.contract.openapi.v2/value.md) | `val `[`ParamMeta`](./index.md)`.value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [value](../../org.http4k.contract.openapi.v3/value.md) | `val `[`ParamMeta`](./index.md)`.value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

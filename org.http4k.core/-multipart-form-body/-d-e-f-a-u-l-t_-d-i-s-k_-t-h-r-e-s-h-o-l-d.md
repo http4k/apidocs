@@ -2,4 +2,4 @@
 
 # DEFAULT_DISK_THRESHOLD
 
-`const val DEFAULT_DISK_THRESHOLD: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-multipart/src/main/kotlin/org/http4k/core/MultipartFormBody.kt#L82)
+`const val DEFAULT_DISK_THRESHOLD: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)

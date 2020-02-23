@@ -2,7 +2,7 @@
 
 # BiDiWsMessageLens
 
-`class BiDiWsMessageLens<FINAL> : `[`WsMessageLens`](../-ws-message-lens/index.md)`<`[`FINAL`](index.md#FINAL)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/wsMessageLens.kt#L68)
+`class BiDiWsMessageLens<FINAL> : `[`WsMessageLens`](../-ws-message-lens/index.md)`<FINAL>`
 
 A BiDiWsMessageLens provides the bi-directional extraction of an entity from a target body, or the insertion of an entity
 into a target WsMessage.
@@ -11,23 +11,11 @@ into a target WsMessage.
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `BiDiWsMessageLens(get: (`[`WsMessage`](../../org.http4k.websocket/-ws-message/index.md)`) -> `[`FINAL`](index.md#FINAL)`, setLens: (`[`FINAL`](index.md#FINAL)`, `[`WsMessage`](../../org.http4k.websocket/-ws-message/index.md)`) -> `[`WsMessage`](../../org.http4k.websocket/-ws-message/index.md)`)`<br>A BiDiWsMessageLens provides the bi-directional extraction of an entity from a target body, or the insertion of an entity into a target WsMessage. |
+| [&lt;init&gt;](-init-.md) | A BiDiWsMessageLens provides the bi-directional extraction of an entity from a target body, or the insertion of an entity into a target WsMessage.`BiDiWsMessageLens(get: (`[`WsMessage`](../../org.http4k.websocket/-ws-message/index.md)`) -> FINAL, setLens: (FINAL, `[`WsMessage`](../../org.http4k.websocket/-ws-message/index.md)`) -> `[`WsMessage`](../../org.http4k.websocket/-ws-message/index.md)`)` |
 
 ### Functions
 
 | Name | Summary |
 |---|---|
-| [create](create.md) | `fun create(value: `[`FINAL`](index.md#FINAL)`): `[`WsMessage`](../../org.http4k.websocket/-ws-message/index.md) |
-| [invoke](invoke.md) | `operator fun invoke(target: `[`FINAL`](index.md#FINAL)`): `[`WsMessage`](../../org.http4k.websocket/-ws-message/index.md) |
-
-### Inherited Functions
-
-| Name | Summary |
-|---|---|
-| [invoke](../-ws-message-lens/invoke.md) | `open operator fun invoke(target: `[`WsMessage`](../../org.http4k.websocket/-ws-message/index.md)`): `[`FINAL`](../-ws-message-lens/index.md#FINAL)<br>Lens operation to get the value from the target |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
+| [create](create.md) | `fun create(value: FINAL): `[`WsMessage`](../../org.http4k.websocket/-ws-message/index.md) |
+| [invoke](invoke.md) | `operator fun invoke(target: FINAL): `[`WsMessage`](../../org.http4k.websocket/-ws-message/index.md) |

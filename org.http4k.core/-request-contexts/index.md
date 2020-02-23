@@ -2,7 +2,7 @@
 
 # RequestContexts
 
-`class RequestContexts : `[`Store`](../-store/index.md)`<`[`RequestContext`](../-request-context/index.md)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/RequestContexts.kt#L10)
+`class RequestContexts : `[`Store`](../-store/index.md)`<`[`RequestContext`](../-request-context/index.md)`>`
 
 In-memory RequestContext store.
 
@@ -10,17 +10,11 @@ In-memory RequestContext store.
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `RequestContexts()`<br>In-memory RequestContext store. |
+| [&lt;init&gt;](-init-.md) | In-memory RequestContext store.`RequestContexts()` |
 
 ### Functions
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `fun invoke(target: `[`Request`](../-request/index.md)`): `[`RequestContext`](../-request-context/index.md)<br>Lens operation to get the value from the target`fun <R : `[`Request`](../-request/index.md)`> invoke(value: `[`RequestContext`](../-request-context/index.md)`, target: `[`R`](invoke.md#R)`): `[`R`](invoke.md#R)<br>Lens operation to set the value into the target |
+| [invoke](invoke.md) | Lens operation to get the value from the target`fun invoke(target: `[`Request`](../-request/index.md)`): `[`RequestContext`](../-request-context/index.md)<br>Lens operation to set the value into the target`fun <R : `[`Request`](../-request/index.md)`> invoke(value: `[`RequestContext`](../-request-context/index.md)`, target: R): R` |
 | [remove](remove.md) | `fun remove(value: `[`RequestContext`](../-request-context/index.md)`): `[`RequestContext`](../-request-context/index.md)`?` |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../with.md) | `fun <T> `[`T`](../with.md#T)`.with(vararg modifiers: (`[`T`](../with.md#T)`) -> `[`T`](../with.md#T)`): `[`T`](../with.md#T) |

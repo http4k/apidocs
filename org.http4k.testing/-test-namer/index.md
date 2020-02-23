@@ -2,7 +2,7 @@
 
 # TestNamer
 
-`interface TestNamer` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-approval/src/main/kotlin/org/http4k/testing/TestNamer.kt#L8)
+`interface TestNamer`
 
 Provides the identification of test case.
 
@@ -18,9 +18,3 @@ Provides the identification of test case.
 |---|---|
 | [ClassAndMethod](-class-and-method.md) | `val ClassAndMethod: `[`TestNamer`](./index.md) |
 | [MethodOnly](-method-only.md) | `val MethodOnly: `[`TestNamer`](./index.md) |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

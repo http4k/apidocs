@@ -2,7 +2,4 @@
 
 # fields
 
-`open fun fields(node: <ERROR CLASS>): <ERROR CLASS>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-kotlinx-serialization/src/main/kotlin/org/http4k/format/ConfigurableKotlinxSerialization.kt#L65)
-
-Overrides [Json.fields](../-json/fields.md)
-
+`open fun fields(node: JsonElement): `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`Pair`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, JsonElement>>`

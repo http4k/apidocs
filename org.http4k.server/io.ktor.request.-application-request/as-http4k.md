@@ -2,4 +2,4 @@
 
 # asHttp4k
 
-`fun ApplicationRequest.asHttp4k(): `[`Request`](../../org.http4k.core/-request/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-server-ktorcio/src/main/kotlin/org/http4k/server/KtorCIO.kt#L50)
+`fun ApplicationRequest.asHttp4k(): `[`Request`](../../org.http4k.core/-request/index.md)

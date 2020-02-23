@@ -2,7 +2,7 @@
 
 # PathSegments
 
-`sealed class PathSegments` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/PathSegments.kt#L5)
+`sealed class PathSegments`
 
 ### Properties
 
@@ -23,12 +23,6 @@
 | Name | Summary |
 |---|---|
 | [invoke](invoke.md) | `operator fun invoke(str: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`PathSegments`](./index.md) |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
 
 ### Inheritors
 

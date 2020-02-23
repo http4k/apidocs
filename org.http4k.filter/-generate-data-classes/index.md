@@ -2,7 +2,7 @@
 
 # GenerateDataClasses
 
-`class GenerateDataClasses<out NODE> : `[`Filter`](../../org.http4k.core/-filter/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/GenerateDataClasses.kt#L18)
+`class GenerateDataClasses<out NODE> : `[`Filter`](../../org.http4k.core/-filter/index.md)
 
 This Filter is used to generate Data class definitions from a Response containing JSON. The Filter will try and reduce
 the number of class definitions by selecting the definition with the most fields (for cases where lists of items
@@ -12,16 +12,16 @@ have different fields).
 
 | Name | Summary |
 |---|---|
-| [ArrayGen](-array-gen/index.md) | `data class ArrayGen : `[`GenerateDataClasses.Gen`](-gen/index.md) |
-| [Gen](-gen/index.md) | `interface Gen : `[`Iterable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html)`<`[`GenerateDataClasses.Gen`](-gen/index.md)`>` |
-| [ObjectGen](-object-gen/index.md) | `data class ObjectGen : `[`GenerateDataClasses.Gen`](-gen/index.md) |
-| [Primitives](-primitives/index.md) | `enum class Primitives : `[`GenerateDataClasses.Gen`](-gen/index.md) |
+| [ArrayGen](-array-gen/index.md) | `data class ArrayGen : Gen` |
+| [Gen](-gen/index.md) | `interface Gen : `[`Iterable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html)`<Gen>` |
+| [ObjectGen](-object-gen/index.md) | `data class ObjectGen : Gen` |
+| [Primitives](-primitives/index.md) | `enum class Primitives : Gen` |
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `GenerateDataClasses(json: `[`Json`](../../org.http4k.format/-json/index.md)`<`[`NODE`](index.md#NODE)`>, out: `[`PrintStream`](https://docs.oracle.com/javase/9/docs/api/java/io/PrintStream.html)` = System.out, idGenerator: () -> `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)` = { Math.abs(Random.nextInt()) })`<br>This Filter is used to generate Data class definitions from a Response containing JSON. The Filter will try and reduce the number of class definitions by selecting the definition with the most fields (for cases where lists of items have different fields). |
+| [&lt;init&gt;](-init-.md) | This Filter is used to generate Data class definitions from a Response containing JSON. The Filter will try and reduce the number of class definitions by selecting the definition with the most fields (for cases where lists of items have different fields).`GenerateDataClasses(json: `[`Json`](../../org.http4k.format/-json/index.md)`<NODE>, out: `[`PrintStream`](https://docs.oracle.com/javase/9/docs/api/java/io/PrintStream.html)` = System.out, idGenerator: () -> `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)` = { Math.abs(Random.nextInt()) })` |
 
 ### Functions
 
@@ -35,4 +35,3 @@ have different fields).
 |---|---|
 | [appliedWhen](../../org.http4k.chaos/applied-when.md) | `fun `[`Behaviour`](../../org.http4k.chaos/-behaviour.md)`.appliedWhen(trigger: `[`Trigger`](../../org.http4k.chaos/-trigger.md)`): `[`Stage`](../../org.http4k.chaos/-stage.md) |
 | [then](../../org.http4k.core/then.md) | `fun `[`Filter`](../../org.http4k.core/-filter/index.md)`.then(next: `[`Filter`](../../org.http4k.core/-filter/index.md)`): `[`Filter`](../../org.http4k.core/-filter/index.md)<br>`fun `[`Filter`](../../org.http4k.core/-filter/index.md)`.then(next: `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`): `[`HttpHandler`](../../org.http4k.core/-http-handler.md)<br>`fun `[`Filter`](../../org.http4k.core/-filter/index.md)`.then(routingHttpHandler: `[`RoutingHttpHandler`](../../org.http4k.routing/-routing-http-handler/index.md)`): `[`RoutingHttpHandler`](../../org.http4k.routing/-routing-http-handler/index.md) |
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

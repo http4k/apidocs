@@ -2,7 +2,7 @@
 
 # Binder
 
-`inner class Binder : `[`ContractRouteSpec.ContractRequestBuilder`](../../-contract-route-spec/-contract-request-builder/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/routeSpec.kt#L31)
+`inner class Binder : ContractRequestBuilder`
 
 ### Constructors
 
@@ -15,9 +15,3 @@
 | Name | Summary |
 |---|---|
 | [to](to.md) | `infix fun to(fn: `[`HttpHandler`](../../../org.http4k.core/-http-handler.md)`): `[`ContractRoute`](../../-contract-route/index.md) |
-
-### Inherited Functions
-
-| Name | Summary |
-|---|---|
-| [newRequest](../../-contract-route-spec/-contract-request-builder/new-request.md) | `fun newRequest(baseUri: `[`Uri`](../../../org.http4k.core/-uri/index.md)` = Uri.of("")): `[`Request`](../../../org.http4k.core/-request/index.md) |

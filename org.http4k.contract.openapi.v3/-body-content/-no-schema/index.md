@@ -2,16 +2,16 @@
 
 # NoSchema
 
-`data class NoSchema<NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`BodyContent`](../index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/openapi/v3/model.kt#L70)
+`data class NoSchema<NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`BodyContent`](../index.md)
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `NoSchema(schema: `[`NODE`](index.md#NODE)`)` |
+| [&lt;init&gt;](-init-.md) | `NoSchema(schema: NODE)` |
 
 ### Properties
 
 | Name | Summary |
 |---|---|
-| [schema](schema.md) | `val schema: `[`NODE`](index.md#NODE) |
+| [schema](schema.md) | `val schema: NODE` |

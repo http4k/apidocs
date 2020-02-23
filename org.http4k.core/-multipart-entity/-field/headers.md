@@ -2,4 +2,4 @@
 
 # headers
 
-`val headers: `[`Headers`](../../-headers.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-multipart/src/main/kotlin/org/http4k/core/MultipartFormBody.kt#L23)
+`val headers: `[`Headers`](../../-headers.md)

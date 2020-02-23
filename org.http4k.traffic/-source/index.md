@@ -2,7 +2,7 @@
 
 # Source
 
-`interface Source` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/traffic/Source.kt#L11)
+`interface Source`
 
 Tries to retrieve a stored response for a given request.
 
@@ -16,17 +16,11 @@ Tries to retrieve a stored response for a given request.
 
 | Name | Summary |
 |---|---|
-| [DiskTree](-disk-tree.md) | `fun DiskTree(baseDir: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = "."): `[`Source`](./index.md)<br>Looks up traffic from the FS, based on tree storage format. |
-| [MemoryMap](-memory-map.md) | `fun MemoryMap(cache: `[`MutableMap`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-map/index.html)`<`[`Request`](../../org.http4k.core/-request/index.md)`, `[`Response`](../../org.http4k.core/-response/index.md)`>): `[`Source`](./index.md)<br>Looks up traffic from Memory, based on map storage format. |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
+| [DiskTree](-disk-tree.md) | Looks up traffic from the FS, based on tree storage format.`fun DiskTree(baseDir: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = "."): `[`Source`](./index.md) |
+| [MemoryMap](-memory-map.md) | Looks up traffic from Memory, based on map storage format.`fun MemoryMap(cache: `[`MutableMap`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-map/index.html)`<`[`Request`](../../org.http4k.core/-request/index.md)`, `[`Response`](../../org.http4k.core/-response/index.md)`>): `[`Source`](./index.md) |
 
 ### Inheritors
 
 | Name | Summary |
 |---|---|
-| [ReadWriteCache](../-read-write-cache/index.md) | `interface ReadWriteCache : `[`Sink`](../-sink/index.md)`, `[`Source`](./index.md)<br>Combined Read/Write storage models, optimised for retrieval. |
+| [ReadWriteCache](../-read-write-cache/index.md) | Combined Read/Write storage models, optimised for retrieval.`interface ReadWriteCache : `[`Sink`](../-sink/index.md)`, `[`Source`](./index.md) |

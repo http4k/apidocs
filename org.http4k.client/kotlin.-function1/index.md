@@ -4,4 +4,4 @@
 
 | Name | Summary |
 |---|---|
-| [withAsyncApi](with-async-api.md) | `fun `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`.withAsyncApi(): `[`AsyncHttpClient`](../-async-http-client/index.md)<br>Convert a synchronous HttpHandler API to mimic AsyncHttpClient |
+| [withAsyncApi](with-async-api.md) | Convert a synchronous HttpHandler API to mimic AsyncHttpClient`fun `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`.withAsyncApi(): `[`AsyncHttpClient`](../-async-http-client/index.md) |

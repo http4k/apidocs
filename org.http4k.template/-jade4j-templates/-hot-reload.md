@@ -2,9 +2,7 @@
 
 # HotReload
 
-`fun HotReload(baseTemplateDir: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`TemplateRenderer`](../-template-renderer.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-template-jade4j/src/main/kotlin/org/http4k/template/Jade4jTemplates.kt#L40)
-
-Overrides [Templates.HotReload](../-templates/-hot-reload.md)
+`fun HotReload(baseTemplateDir: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`TemplateRenderer`](../-template-renderer.md)
 
 Hot-reloads (no-caching) templates from a file path
 

@@ -2,38 +2,37 @@
 
 # ServerFilters
 
-`object ServerFilters` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ServerFilters.kt#L42)
+`object ServerFilters`
 
 ### Types
 
 | Name | Summary |
 |---|---|
-| [BasicAuth](-basic-auth/index.md) | `object BasicAuth`<br>Simple Basic Auth credential checking. |
-| [BearerAuth](-bearer-auth/index.md) | `object BearerAuth`<br>Bearer Auth token checking. |
-| [CatchAll](-catch-all/index.md) | `object CatchAll`<br>Last gasp filter which catches all exceptions and returns a formatted Internal Server Error. |
-| [CatchLensFailure](-catch-lens-failure.md) | `object CatchLensFailure : `[`Filter`](../../org.http4k.core/-filter/index.md)<br>Converts Lens extraction failures into correct HTTP responses (Bad Requests/UnsupportedMediaType). This is required when using lenses to automatically unmarshall inbound requests. Note that LensFailures from unmarshalling upstream Response objects are NOT caught to avoid incorrect server behaviour. |
-| [CopyHeaders](-copy-headers/index.md) | `object CopyHeaders`<br>Copy headers from the incoming request to the outbound response. |
-| [Cors](-cors/index.md) | `object Cors`<br>Add Cors headers to the Response, according to the passed CorsPolicy |
-| [GZip](-g-zip/index.md) | `object GZip`<br>Basic GZip and Gunzip support of Request/Response. Only Gunzips requests which contain "transfer-encoding" header containing 'gzip' Only Gzips responses when request contains "accept-encoding" header containing 'gzip'. |
-| [GZipContentTypes](-g-zip-content-types/index.md) | `class GZipContentTypes : `[`Filter`](../../org.http4k.core/-filter/index.md)<br>Basic GZip and Gunzip support of Request/Response where the content-type is in the allowed list. Only Gunzips requests which contain "transfer-encoding" header containing 'gzip' Only Gzips responses when request contains "accept-encoding" header containing 'gzip' and the content-type (sans-charset) is one of the compressible types. |
-| [InitialiseRequestContext](-initialise-request-context/index.md) | `object InitialiseRequestContext`<br>Initialise a RequestContext for each request which passes through the Filter stack, |
-| [ReplaceResponseContentsWithStaticFile](-replace-response-contents-with-static-file/index.md) | `object ReplaceResponseContentsWithStaticFile`<br>Intercepts responses and replaces the contents with contents of the statically loaded resource. By default, this Filter replaces the contents of unsuccessful requests with the contents of a file named after the status code. |
-| [RequestTracing](-request-tracing/index.md) | `object RequestTracing`<br>Adds Zipkin request tracing headers to the incoming request and outbound response. (traceid, spanid, parentspanid) |
-| [SetContentType](-set-content-type/index.md) | `object SetContentType`<br>Sets the Content Type response header on the Response. |
+| [BasicAuth](-basic-auth/index.md) | Simple Basic Auth credential checking.`object BasicAuth` |
+| [BearerAuth](-bearer-auth/index.md) | Bearer Auth token checking.`object BearerAuth` |
+| [CatchAll](-catch-all/index.md) | Last gasp filter which catches all exceptions and returns a formatted Internal Server Error.`object CatchAll` |
+| [CatchLensFailure](-catch-lens-failure.md) | Converts Lens extraction failures into correct HTTP responses (Bad Requests/UnsupportedMediaType). This is required when using lenses to automatically unmarshall inbound requests. Note that LensFailures from unmarshalling upstream Response objects are NOT caught to avoid incorrect server behaviour.`object CatchLensFailure : `[`Filter`](../../org.http4k.core/-filter/index.md) |
+| [CopyHeaders](-copy-headers/index.md) | Copy headers from the incoming request to the outbound response.`object CopyHeaders` |
+| [Cors](-cors/index.md) | Add Cors headers to the Response, according to the passed CorsPolicy`object Cors` |
+| [GZip](-g-zip/index.md) | Basic GZip and Gunzip support of Request/Response. Only Gunzips requests which contain "transfer-encoding" header containing 'gzip' Only Gzips responses when request contains "accept-encoding" header containing 'gzip'.`object GZip` |
+| [GZipContentTypes](-g-zip-content-types/index.md) | Basic GZip and Gunzip support of Request/Response where the content-type is in the allowed list. Only Gunzips requests which contain "transfer-encoding" header containing 'gzip' Only Gzips responses when request contains "accept-encoding" header containing 'gzip' and the content-type (sans-charset) is one of the compressible types.`class GZipContentTypes : `[`Filter`](../../org.http4k.core/-filter/index.md) |
+| [InitialiseRequestContext](-initialise-request-context/index.md) | Initialise a RequestContext for each request which passes through the Filter stack,`object InitialiseRequestContext` |
+| [ReplaceResponseContentsWithStaticFile](-replace-response-contents-with-static-file/index.md) | Intercepts responses and replaces the contents with contents of the statically loaded resource. By default, this Filter replaces the contents of unsuccessful requests with the contents of a file named after the status code.`object ReplaceResponseContentsWithStaticFile` |
+| [RequestTracing](-request-tracing/index.md) | Adds Zipkin request tracing headers to the incoming request and outbound response. (traceid, spanid, parentspanid)`object RequestTracing` |
+| [SetContentType](-set-content-type/index.md) | Sets the Content Type response header on the Response.`object SetContentType` |
 
 ### Functions
 
 | Name | Summary |
 |---|---|
-| [CatchLensFailure](-catch-lens-failure.md) | `fun CatchLensFailure(failResponseFn: (`[`LensFailure`](../../org.http4k.lens/-lens-failure/index.md)`) -> `[`Response`](../../org.http4k.core/-response/index.md)` = {
+| [CatchLensFailure](-catch-lens-failure.md) | Converts Lens extraction failures into correct HTTP responses (Bad Requests/UnsupportedMediaType). This is required when using lenses to automatically unmarshall inbound requests. Note that LensFailures from unmarshalling upstream Response objects are NOT caught to avoid incorrect server behaviour.`fun CatchLensFailure(failResponseFn: (`[`LensFailure`](../../org.http4k.lens/-lens-failure/index.md)`) -> `[`Response`](../../org.http4k.core/-response/index.md)` = {
         Response(BAD_REQUEST.description(it.failures.joinToString("; ")))
-    }): `[`Filter`](../../org.http4k.core/-filter/index.md)<br>Converts Lens extraction failures into correct HTTP responses (Bad Requests/UnsupportedMediaType). This is required when using lenses to automatically unmarshall inbound requests. Note that LensFailures from unmarshalling upstream Response objects are NOT caught to avoid incorrect server behaviour. |
+    }): `[`Filter`](../../org.http4k.core/-filter/index.md) |
 
 ### Extension Functions
 
 | Name | Summary |
 |---|---|
-| [HandleRemoteRequestFailed](../-handle-remote-request-failed.md) | `fun `[`ServerFilters`](./index.md)`.HandleRemoteRequestFailed(exceptionToBody: `[`RemoteRequestFailed`](../../org.http4k.cloudnative/-remote-request-failed/index.md)`.() -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = Throwable::getLocalizedMessage): `[`Filter`](../../org.http4k.core/-filter/index.md)<br>Handle exceptions from remote calls and convert them into sensible server-side errors. Optionally pass in a function to format the response body from the exception. |
+| [HandleRemoteRequestFailed](../-handle-remote-request-failed.md) | Handle exceptions from remote calls and convert them into sensible server-side errors. Optionally pass in a function to format the response body from the exception.`fun `[`ServerFilters`](./index.md)`.HandleRemoteRequestFailed(exceptionToBody: `[`RemoteRequestFailed`](../../org.http4k.cloudnative/-remote-request-failed/index.md)`.() -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = Throwable::getLocalizedMessage): `[`Filter`](../../org.http4k.core/-filter/index.md) |
 | [HandleUpstreamRequestFailed](../-handle-upstream-request-failed.md) | `fun `[`ServerFilters`](./index.md)`.~~HandleUpstreamRequestFailed~~(exceptionToBody: `[`RemoteRequestFailed`](../../org.http4k.cloudnative/-remote-request-failed/index.md)`.() -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = { localizedMessage }): `[`Filter`](../../org.http4k.core/-filter/index.md) |
-| [ProcessFiles](../-process-files.md) | `fun `[`ServerFilters`](./index.md)`.ProcessFiles(fileConsumer: (`[`MultipartEntity.File`](../../org.http4k.core/-multipart-entity/-file/index.md)`) -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Filter`](../../org.http4k.core/-filter/index.md)<br>Process files on upload using the passed consumer, which returns a reference. The form file is replaced in the form with this reference. |
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
+| [ProcessFiles](../-process-files.md) | Process files on upload using the passed consumer, which returns a reference. The form file is replaced in the form with this reference.`fun `[`ServerFilters`](./index.md)`.ProcessFiles(fileConsumer: (File) -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Filter`](../../org.http4k.core/-filter/index.md) |

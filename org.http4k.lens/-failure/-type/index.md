@@ -2,7 +2,7 @@
 
 # Type
 
-`enum class Type` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/lensFailure.kt#L17)
+`enum class Type`
 
 ### Enum Values
 

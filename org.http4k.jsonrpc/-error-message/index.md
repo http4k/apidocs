@@ -2,7 +2,7 @@
 
 # ErrorMessage
 
-`open class ErrorMessage` [(source)](https://github.com/http4k/http4k/blob/master/http4k-jsonrpc/src/main/kotlin/org/http4k/jsonrpc/ErrorMessage.kt#L5)
+`open class ErrorMessage`
 
 ### Constructors
 
@@ -21,8 +21,8 @@
 
 | Name | Summary |
 |---|---|
-| [data](data.md) | `open fun <NODE> data(json: `[`Json`](../../org.http4k.format/-json/index.md)`<`[`NODE`](data.md#NODE)`>): `[`NODE`](data.md#NODE)`?` |
-| [invoke](invoke.md) | `operator fun <NODE> invoke(json: `[`Json`](../../org.http4k.format/-json/index.md)`<`[`NODE`](invoke.md#NODE)`>): `[`NODE`](invoke.md#NODE) |
+| [data](data.md) | `open fun <NODE> data(json: `[`Json`](../../org.http4k.format/-json/index.md)`<NODE>): NODE?` |
+| [invoke](invoke.md) | `operator fun <NODE> invoke(json: `[`Json`](../../org.http4k.format/-json/index.md)`<NODE>): NODE` |
 
 ### Companion Object Properties
 
@@ -33,9 +33,3 @@
 | [InvalidRequest](-invalid-request.md) | `val InvalidRequest: `[`ErrorMessage`](./index.md) |
 | [MethodNotFound](-method-not-found.md) | `val MethodNotFound: `[`ErrorMessage`](./index.md) |
 | [ParseError](-parse-error.md) | `val ParseError: `[`ErrorMessage`](./index.md) |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

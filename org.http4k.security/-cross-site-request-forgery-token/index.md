@@ -2,7 +2,7 @@
 
 # CrossSiteRequestForgeryToken
 
-`data class CrossSiteRequestForgeryToken` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/CrossSiteRequestForgeryToken.kt#L6)
+`data class CrossSiteRequestForgeryToken`
 
 ### Constructors
 
@@ -21,9 +21,3 @@
 | Name | Summary |
 |---|---|
 | [SECURE_CSRF](-s-e-c-u-r-e_-c-s-r-f.md) | `val SECURE_CSRF: () -> `[`CrossSiteRequestForgeryToken`](./index.md) |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

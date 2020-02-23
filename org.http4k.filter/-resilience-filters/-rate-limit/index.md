@@ -2,7 +2,7 @@
 
 # RateLimit
 
-`object RateLimit` [(source)](https://github.com/http4k/http4k/blob/master/http4k-resilience4j/src/main/kotlin/org/http4k/filter/ResilienceFilters.kt#L71)
+`object RateLimit`
 
 Provide simple Rate Limiter functionality.
 By default, handles maximum of 50 requests per 5 seconds.

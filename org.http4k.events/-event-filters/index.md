@@ -2,7 +2,7 @@
 
 # EventFilters
 
-`object EventFilters` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/events/EventFilters.kt#L9)
+`object EventFilters`
 
 Useful EventFilters used in building event processing pipelines to add various types of metadata to the events
 
@@ -10,11 +10,5 @@ Useful EventFilters used in building event processing pipelines to add various t
 
 | Name | Summary |
 |---|---|
-| [AddTimestamp](-add-timestamp.md) | `fun AddTimestamp(clock: `[`Clock`](https://docs.oracle.com/javase/9/docs/api/java/time/Clock.html)` = Clock.systemUTC()): `[`EventFilter`](../-event-filter/index.md)<br>Adds timestamp metadata to the event. |
-| [AddZipkinTraces](-add-zipkin-traces.md) | `fun AddZipkinTraces(): `[`EventFilter`](../-event-filter/index.md)<br>Adds Zipkin traces metadata to the event. |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
+| [AddTimestamp](-add-timestamp.md) | Adds timestamp metadata to the event.`fun AddTimestamp(clock: `[`Clock`](https://docs.oracle.com/javase/9/docs/api/java/time/Clock.html)` = Clock.systemUTC()): `[`EventFilter`](../-event-filter/index.md) |
+| [AddZipkinTraces](-add-zipkin-traces.md) | Adds Zipkin traces metadata to the event.`fun AddZipkinTraces(): `[`EventFilter`](../-event-filter/index.md) |

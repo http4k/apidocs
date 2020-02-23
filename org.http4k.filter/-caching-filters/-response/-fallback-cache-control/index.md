@@ -2,7 +2,7 @@
 
 # FallbackCacheControl
 
-`object FallbackCacheControl` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/CachingFilters.kt#L121)
+`object FallbackCacheControl`
 
 Applies the passed cache timings (Cache-Control, Expires, Vary) to responses, but only if they are not there already.
 Use this for adding default cache settings.

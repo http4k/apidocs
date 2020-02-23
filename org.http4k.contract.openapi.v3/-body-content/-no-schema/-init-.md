@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`NoSchema(schema: `[`NODE`](index.md#NODE)`)`
+`NoSchema(schema: NODE)`

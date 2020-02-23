@@ -2,6 +2,6 @@
 
 # IdTokenContainer
 
-`typealias ~~IdTokenContainer~~ = `[`IdToken`](-id-token/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/openid/deprecatedOAuth.kt#L4)
+`typealias ~~IdTokenContainer~~ = `[`IdToken`](-id-token/index.md)
 **Deprecated:** use renamed version
 

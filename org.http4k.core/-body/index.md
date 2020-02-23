@@ -2,7 +2,7 @@
 
 # Body
 
-`interface Body : `[`Closeable`](https://docs.oracle.com/javase/9/docs/api/java/io/Closeable.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L17)
+`interface Body : `[`Closeable`](https://docs.oracle.com/javase/9/docs/api/java/io/Closeable.html)
 
 If this Body is NOT being returned to the caller (via a Server implementation or otherwise), close() should be
 called.
@@ -11,7 +11,7 @@ called.
 
 | Name | Summary |
 |---|---|
-| [length](length.md) | `abstract val length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`?`<br>Will be `null` for bodies where it's impossible to a priori determine - e.g. StreamBody |
+| [length](length.md) | Will be `null` for bodies where it's impossible to a priori determine - e.g. StreamBody`abstract val length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`?` |
 | [payload](payload.md) | `abstract val payload: `[`ByteBuffer`](https://docs.oracle.com/javase/9/docs/api/java/nio/ByteBuffer.html) |
 | [stream](stream.md) | `abstract val stream: `[`InputStream`](https://docs.oracle.com/javase/9/docs/api/java/io/InputStream.html) |
 
@@ -35,7 +35,6 @@ called.
 | [gunzippedStream](../../org.http4k.filter/gunzipped-stream.md) | `fun `[`Body`](./index.md)`.gunzippedStream(): `[`Body`](./index.md) |
 | [gzipped](../../org.http4k.filter/gzipped.md) | `fun `[`Body`](./index.md)`.gzipped(): `[`CompressionResult`](../../org.http4k.filter/-compression-result/index.md) |
 | [gzippedStream](../../org.http4k.filter/gzipped-stream.md) | `fun `[`Body`](./index.md)`.gzippedStream(): `[`CompressionResult`](../../org.http4k.filter/-compression-result/index.md) |
-| [with](../with.md) | `fun <T> `[`T`](../with.md#T)`.with(vararg modifiers: (`[`T`](../with.md#T)`) -> `[`T`](../with.md#T)`): `[`T`](../with.md#T) |
 
 ### Companion Object Extension Functions
 
@@ -54,6 +53,6 @@ called.
 
 | Name | Summary |
 |---|---|
-| [MemoryBody](../-memory-body/index.md) | `data class MemoryBody : `[`Body`](./index.md)<br>Represents a body that is backed by an in-memory ByteBuffer. Closing this has no effect. |
-| [MultipartFormBody](../-multipart-form-body/index.md) | `data class MultipartFormBody : `[`Body`](./index.md)`, `[`Closeable`](https://docs.oracle.com/javase/9/docs/api/java/io/Closeable.html)<br>Represents a Multi-part that is backed by a stream, which should be closed after handling the content. The gotchas which apply to StreamBody also apply here.. |
-| [StreamBody](../-stream-body/index.md) | `class StreamBody : `[`Body`](./index.md)<br>Represents a body that is backed by a (lazy) InputStream. Operating with StreamBody has a number of potential gotchas: |
+| [MemoryBody](../-memory-body/index.md) | Represents a body that is backed by an in-memory ByteBuffer. Closing this has no effect.`data class MemoryBody : `[`Body`](./index.md) |
+| [MultipartFormBody](../-multipart-form-body/index.md) | Represents a Multi-part that is backed by a stream, which should be closed after handling the content. The gotchas which apply to StreamBody also apply here..`data class MultipartFormBody : `[`Body`](./index.md)`, `[`Closeable`](https://docs.oracle.com/javase/9/docs/api/java/io/Closeable.html) |
+| [StreamBody](../-stream-body/index.md) | Represents a body that is backed by a (lazy) InputStream. Operating with StreamBody has a number of potential gotchas:`class StreamBody : `[`Body`](./index.md) |

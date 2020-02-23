@@ -2,7 +2,7 @@
 
 # &lt;init&gt;
 
-`PathLensSpec(paramMeta: `[`ParamMeta`](../-param-meta/index.md)`, get: `[`LensGet`](../-lens-get/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`OUT`](index.md#OUT)`>)`
+`PathLensSpec(paramMeta: `[`ParamMeta`](../-param-meta/index.md)`, get: `[`LensGet`](../-lens-get/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, OUT>)`
 
 Represents a uni-directional extraction of an entity from a target path segment.
 

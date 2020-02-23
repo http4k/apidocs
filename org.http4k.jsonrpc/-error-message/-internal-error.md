@@ -2,4 +2,4 @@
 
 # InternalError
 
-`val InternalError: `[`ErrorMessage`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-jsonrpc/src/main/kotlin/org/http4k/jsonrpc/ErrorMessage.kt#L18)
+`val InternalError: `[`ErrorMessage`](index.md)

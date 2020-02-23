@@ -2,7 +2,7 @@
 
 # ServirtiumRecording
 
-`class ServirtiumRecording : `[`ParameterResolver`](https://junit.org/junit5/docs/5.6.0/api/org/junit/jupiter/api/extension/ParameterResolver.html)`, `[`BeforeTestExecutionCallback`](https://junit.org/junit5/docs/5.6.0/api/org/junit/jupiter/api/extension/BeforeTestExecutionCallback.html)`, `[`AfterTestExecutionCallback`](https://junit.org/junit5/docs/5.6.0/api/org/junit/jupiter/api/extension/AfterTestExecutionCallback.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-servirtium/src/main/kotlin/org/http4k/junit/junitExtensions.kt#L28)
+`class ServirtiumRecording : ParameterResolver, BeforeTestExecutionCallback, AfterTestExecutionCallback`
 
 JUnit 5 extension for recording HTTP traffic to disk in Servirtium format.
 
@@ -10,19 +10,13 @@ JUnit 5 extension for recording HTTP traffic to disk in Servirtium format.
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `ServirtiumRecording(baseName: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, httpHandler: `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`, storageProvider: `[`StorageProvider`](../../org.http4k.servirtium/-storage-provider.md)`, options: `[`InteractionOptions`](../../org.http4k.servirtium/-interaction-options/index.md)` = Defaults)`<br>JUnit 5 extension for recording HTTP traffic to disk in Servirtium format. |
+| [&lt;init&gt;](-init-.md) | JUnit 5 extension for recording HTTP traffic to disk in Servirtium format.`ServirtiumRecording(baseName: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, httpHandler: `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`, storageProvider: `[`StorageProvider`](../../org.http4k.servirtium/-storage-provider.md)`, options: `[`InteractionOptions`](../../org.http4k.servirtium/-interaction-options/index.md)` = Defaults)` |
 
 ### Functions
 
 | Name | Summary |
 |---|---|
-| [afterTestExecution](after-test-execution.md) | `fun afterTestExecution(context: `[`ExtensionContext`](https://junit.org/junit5/docs/5.6.0/api/org/junit/jupiter/api/extension/ExtensionContext.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
-| [beforeTestExecution](before-test-execution.md) | `fun beforeTestExecution(context: `[`ExtensionContext`](https://junit.org/junit5/docs/5.6.0/api/org/junit/jupiter/api/extension/ExtensionContext.html)`?): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
-| [resolveParameter](resolve-parameter.md) | `fun resolveParameter(pc: `[`ParameterContext`](https://junit.org/junit5/docs/5.6.0/api/org/junit/jupiter/api/extension/ParameterContext.html)`, ec: `[`ExtensionContext`](https://junit.org/junit5/docs/5.6.0/api/org/junit/jupiter/api/extension/ExtensionContext.html)`): `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html) |
-| [supportsParameter](supports-parameter.md) | `fun supportsParameter(pc: `[`ParameterContext`](https://junit.org/junit5/docs/5.6.0/api/org/junit/jupiter/api/extension/ParameterContext.html)`, ec: `[`ExtensionContext`](https://junit.org/junit5/docs/5.6.0/api/org/junit/jupiter/api/extension/ExtensionContext.html)`): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
+| [afterTestExecution](after-test-execution.md) | `fun afterTestExecution(context: ExtensionContext): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| [beforeTestExecution](before-test-execution.md) | `fun beforeTestExecution(context: ExtensionContext?): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| [resolveParameter](resolve-parameter.md) | `fun resolveParameter(pc: ParameterContext, ec: ExtensionContext): `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html) |
+| [supportsParameter](supports-parameter.md) | `fun supportsParameter(pc: ParameterContext, ec: ExtensionContext): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |

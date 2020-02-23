@@ -2,4 +2,4 @@
 
 # contentType
 
-`val contentType: `[`ContentType`](../../org.http4k.core/-content-type/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-multipart/src/main/kotlin/org/http4k/lens/parts.kt#L18)
+`val contentType: `[`ContentType`](../../org.http4k.core/-content-type/index.md)

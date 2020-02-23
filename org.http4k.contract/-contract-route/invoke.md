@@ -2,7 +2,7 @@
 
 # invoke
 
-`fun invoke(p1: `[`Request`](../../org.http4k.core/-request/index.md)`): `[`Response`](../../org.http4k.core/-response/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/ContractRoute.kt#L58)
+`fun invoke(p1: `[`Request`](../../org.http4k.core/-request/index.md)`): `[`Response`](../../org.http4k.core/-response/index.md)
 
 ContractRoutes are chiefly designed to operate within a contract {} block and not directly as an HttpHandler,
 but this function exists to enable the testing of the ContractRoute logic outside of a wider contract context.

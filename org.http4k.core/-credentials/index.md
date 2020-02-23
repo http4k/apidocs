@@ -2,7 +2,7 @@
 
 # Credentials
 
-`data class Credentials` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/Credentials.kt#L3)
+`data class Credentials`
 
 ### Constructors
 
@@ -16,9 +16,3 @@
 |---|---|
 | [password](password.md) | `val password: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [user](user.md) | `val user: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../with.md) | `fun <T> `[`T`](../with.md#T)`.with(vararg modifiers: (`[`T`](../with.md#T)`) -> `[`T`](../with.md#T)`): `[`T`](../with.md#T) |

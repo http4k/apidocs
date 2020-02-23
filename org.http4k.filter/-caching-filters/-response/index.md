@@ -2,7 +2,7 @@
 
 # Response
 
-`object Response` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/CachingFilters.kt#L55)
+`object Response`
 
 These filters operate on Responses (post-flight)
 
@@ -10,7 +10,7 @@ These filters operate on Responses (post-flight)
 
 | Name | Summary |
 |---|---|
-| [AddETag](-add-e-tag/index.md) | `object AddETag`<br>Hash algo stolen from http://stackoverflow.com/questions/26423662/scalatra-response-hmac-calulation By default, only applies when the status code of the response is &lt; 400. This is overridable. |
-| [FallbackCacheControl](-fallback-cache-control/index.md) | `object FallbackCacheControl`<br>Applies the passed cache timings (Cache-Control, Expires, Vary) to responses, but only if they are not there already. Use this for adding default cache settings. By default, only applies when the status code of the response is &lt; 400. This is overridable. |
-| [MaxAge](-max-age/index.md) | `object MaxAge`<br>By default, only applies when the status code of the response is &lt; 400. This is overridable. |
-| [NoCache](-no-cache/index.md) | `object NoCache`<br>By default, only applies when the status code of the response is &lt; 400. This is overridable and useful - For example you could combine this with a MaxAge for everything &gt;= 400 |
+| [AddETag](-add-e-tag/index.md) | Hash algo stolen from http://stackoverflow.com/questions/26423662/scalatra-response-hmac-calulation By default, only applies when the status code of the response is &lt; 400. This is overridable.`object AddETag` |
+| [FallbackCacheControl](-fallback-cache-control/index.md) | Applies the passed cache timings (Cache-Control, Expires, Vary) to responses, but only if they are not there already. Use this for adding default cache settings. By default, only applies when the status code of the response is &lt; 400. This is overridable.`object FallbackCacheControl` |
+| [MaxAge](-max-age/index.md) | By default, only applies when the status code of the response is &lt; 400. This is overridable.`object MaxAge` |
+| [NoCache](-no-cache/index.md) | By default, only applies when the status code of the response is &lt; 400. This is overridable and useful - For example you could combine this with a MaxAge for everything &gt;= 400`object NoCache` |

@@ -2,7 +2,7 @@
 
 # SamplingDecision
 
-`data class SamplingDecision` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ZipkinTraces.kt#L22)
+`data class SamplingDecision`
 
 ### Constructors
 
@@ -28,9 +28,3 @@
 | Name | Summary |
 |---|---|
 | [from](from.md) | `fun from(sampledHeaderValue: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`SamplingDecision`](./index.md) |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

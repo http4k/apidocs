@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`OneOf(oneOf: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`NODE`](index.md#NODE)`>)`
+`OneOf(oneOf: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<NODE>)`

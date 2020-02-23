@@ -2,7 +2,7 @@
 
 # ServeCachedFrom
 
-`object ServeCachedFrom` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/TrafficFilters.kt#L16)
+`object ServeCachedFrom`
 
 Responds to requests with a stored Response if possible, or falls back to the next Http Handler
 

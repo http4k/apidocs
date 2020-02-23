@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`PrimitiveParameter(meta: `[`Meta`](../../../org.http4k.lens/-meta/index.md)`, schema: `[`NODE`](index.md#NODE)`)`
+`PrimitiveParameter(meta: `[`Meta`](../../../org.http4k.lens/-meta/index.md)`, schema: NODE)`

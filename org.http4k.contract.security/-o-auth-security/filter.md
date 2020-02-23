@@ -2,7 +2,4 @@
 
 # filter
 
-`open val filter: `[`Filter`](../../org.http4k.core/-filter/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/security/OAuthSecurity.kt#L7)
-
-Overrides [Security.filter](../-security/filter.md)
-
+`open val filter: `[`Filter`](../../org.http4k.core/-filter/index.md)

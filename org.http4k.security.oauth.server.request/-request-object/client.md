@@ -2,4 +2,4 @@
 
 # client
 
-`val client: `[`ClientId`](../../org.http4k.security.oauth.server/-client-id/index.md)`?` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/request/RequestObject.kt#L23)
+`val client: `[`ClientId`](../../org.http4k.security.oauth.server/-client-id/index.md)`?`

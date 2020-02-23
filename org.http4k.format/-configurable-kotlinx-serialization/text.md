@@ -2,7 +2,4 @@
 
 # text
 
-`open fun text(value: <ERROR CLASS>): <ERROR CLASS>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-kotlinx-serialization/src/main/kotlin/org/http4k/format/ConfigurableKotlinxSerialization.kt#L74)
-
-Overrides [Json.text](../-json/text.md)
-
+`open fun text(value: JsonElement): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)

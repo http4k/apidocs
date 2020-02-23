@@ -2,7 +2,7 @@
 
 # map
 
-`fun <NEXT> map(nextIn: (`[`OUT`](index.md#OUT)`) -> `[`NEXT`](map.md#NEXT)`): `[`WsMessageLensSpec`](index.md)`<`[`NEXT`](map.md#NEXT)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/wsMessageLens.kt#L23)
+`fun <NEXT> map(nextIn: (OUT) -> NEXT): `[`WsMessageLensSpec`](index.md)`<NEXT>`
 
 Create another WsMessageLensSpec which applies the uni-directional transformation to the result. Any resultant Lens can only be used to extract the final type from a WsMessage.
 

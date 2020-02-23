@@ -4,6 +4,8 @@
 
 | Name | Summary |
 |---|---|
+| [org.apache.commons.fileupload.util](org.apache.commons.fileupload.util/index.md) |  |
+| [org.apache.commons.fileupload.util.mime](org.apache.commons.fileupload.util.mime/index.md) |  |
 | [org.http4k](org.http4k/index.md) |  |
 | [org.http4k.aws](org.http4k.aws/index.md) | Code for connecting http4k applications to AWS services, including request signing. |
 | [org.http4k.chaos](org.http4k.chaos/index.md) |  |
@@ -29,6 +31,7 @@
 | [org.http4k.jsonrpc](org.http4k.jsonrpc/index.md) |  |
 | [org.http4k.junit](org.http4k.junit/index.md) |  |
 | [org.http4k.lens](org.http4k.lens/index.md) | Code relevant to extracting and injecting typesafe values into HTTP messages. |
+| [org.http4k.multipart](org.http4k.multipart/index.md) |  |
 | [org.http4k.routing](org.http4k.routing/index.md) | Code for routing HTTP messages inside server implementations. |
 | [org.http4k.routing.experimental](org.http4k.routing.experimental/index.md) |  |
 | [org.http4k.security](org.http4k.security/index.md) | Code relevant to interfacing with security mechanisms such as OAuth servers. |

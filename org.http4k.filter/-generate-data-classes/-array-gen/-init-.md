@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`ArrayGen(elements: `[`Set`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html)`<`[`GenerateDataClasses.Gen`](../-gen/index.md)`>)`
+`ArrayGen(elements: `[`Set`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html)`<Gen>)`

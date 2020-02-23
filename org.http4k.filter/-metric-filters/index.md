@@ -2,18 +2,12 @@
 
 # MetricFilters
 
-`object MetricFilters` [(source)](https://github.com/http4k/http4k/blob/master/http4k-metrics-micrometer/src/main/kotlin/org/http4k/filter/MetricFilters.kt#L9)
+`object MetricFilters`
 
 ### Types
 
 | Name | Summary |
 |---|---|
-| [Client](-client.md) | `object Client : `[`MetricFilters.FiltersTemplate`](-filters-template/index.md) |
+| [Client](-client.md) | `object Client : FiltersTemplate` |
 | [FiltersTemplate](-filters-template/index.md) | `class FiltersTemplate` |
-| [Server](-server.md) | `object Server : `[`MetricFilters.FiltersTemplate`](-filters-template/index.md) |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
+| [Server](-server.md) | `object Server : FiltersTemplate` |

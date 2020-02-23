@@ -2,7 +2,7 @@
 
 # Gen
 
-`interface Gen : `[`Iterable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html)`<`[`GenerateDataClasses.Gen`](./index.md)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/GenerateDataClasses.kt#L36)
+`interface Gen : `[`Iterable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html)`<Gen>`
 
 ### Functions
 
@@ -10,12 +10,4 @@
 |---|---|
 | [asClassName](as-class-name.md) | `abstract fun asClassName(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [asDefinitionString](as-definition-string.md) | `open fun asDefinitionString(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |
-| [iterator](iterator.md) | `open fun iterator(): `[`Iterator`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterator/index.html)`<`[`GenerateDataClasses.Gen`](./index.md)`>` |
-
-### Inheritors
-
-| Name | Summary |
-|---|---|
-| [ArrayGen](../-array-gen/index.md) | `data class ArrayGen : `[`GenerateDataClasses.Gen`](./index.md) |
-| [ObjectGen](../-object-gen/index.md) | `data class ObjectGen : `[`GenerateDataClasses.Gen`](./index.md) |
-| [Primitives](../-primitives/index.md) | `enum class Primitives : `[`GenerateDataClasses.Gen`](./index.md) |
+| [iterator](iterator.md) | `open fun iterator(): `[`Iterator`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterator/index.html)`<Gen>` |

@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`Mapping(convert: (`[`IN`](index.md#IN)`) -> `[`OUT`](index.md#OUT)`)`
+`Mapping(convert: (IN) -> OUT)`

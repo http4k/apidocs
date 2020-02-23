@@ -2,7 +2,7 @@
 
 # Primitives
 
-`enum class Primitives : `[`GenerateDataClasses.Gen`](../-gen/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/GenerateDataClasses.kt#L42)
+`enum class Primitives : Gen`
 
 ### Enum Values
 
@@ -18,10 +18,3 @@
 | Name | Summary |
 |---|---|
 | [asClassName](as-class-name.md) | `fun asClassName(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
-
-### Inherited Functions
-
-| Name | Summary |
-|---|---|
-| [asDefinitionString](../-gen/as-definition-string.md) | `open fun asDefinitionString(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |
-| [iterator](../-gen/iterator.md) | `open fun iterator(): `[`Iterator`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterator/index.html)`<`[`GenerateDataClasses.Gen`](../-gen/index.md)`>` |

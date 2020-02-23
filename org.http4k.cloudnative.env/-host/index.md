@@ -2,7 +2,7 @@
 
 # Host
 
-`data class Host` [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/env/Host.kt#L3)
+`data class Host`
 
 ### Constructors
 
@@ -27,9 +27,3 @@
 | Name | Summary |
 |---|---|
 | [localhost](localhost.md) | `val localhost: `[`Host`](./index.md) |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

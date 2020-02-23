@@ -2,7 +2,4 @@
 
 # elements
 
-`open fun elements(value: <ERROR CLASS>): <ERROR CLASS>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-kotlinx-serialization/src/main/kotlin/org/http4k/format/ConfigurableKotlinxSerialization.kt#L68)
-
-Overrides [Json.elements](../-json/elements.md)
-
+`open fun elements(value: JsonElement): `[`Collection`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-collection/index.html)`<JsonElement>`

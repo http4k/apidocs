@@ -2,7 +2,7 @@
 
 # SecurityRenderer
 
-`interface SecurityRenderer` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/openapi/SecurityRenderer.kt#L10)
+`interface SecurityRenderer`
 
 Provides rendering of Security models in to OpenApi specs.
 
@@ -10,17 +10,11 @@ Provides rendering of Security models in to OpenApi specs.
 
 | Name | Summary |
 |---|---|
-| [full](full.md) | `abstract fun <NODE> full(security: `[`Security`](../../org.http4k.contract.security/-security/index.md)`): `[`Render`](../-render.md)`<`[`NODE`](full.md#NODE)`>?` |
-| [ref](ref.md) | `abstract fun <NODE> ref(security: `[`Security`](../../org.http4k.contract.security/-security/index.md)`): `[`Render`](../-render.md)`<`[`NODE`](ref.md#NODE)`>?` |
+| [full](full.md) | `abstract fun <NODE> full(security: `[`Security`](../../org.http4k.contract.security/-security/index.md)`): `[`Render`](../-render.md)`<NODE>?` |
+| [ref](ref.md) | `abstract fun <NODE> ref(security: `[`Security`](../../org.http4k.contract.security/-security/index.md)`): `[`Render`](../-render.md)`<NODE>?` |
 
 ### Companion Object Functions
 
 | Name | Summary |
 |---|---|
 | [invoke](invoke.md) | `operator fun invoke(vararg renderers: `[`SecurityRenderer`](./index.md)`): `[`SecurityRenderer`](./index.md) |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

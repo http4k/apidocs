@@ -2,7 +2,7 @@
 
 # All
 
-`object All : `[`PreFlightExtraction`](../index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/PreFlightExtraction.kt#L24)
+`object All : `[`PreFlightExtraction`](../index.md)
 
 Check the entire contract, including extracting the body, before passing it to the underlying
 HttpHandler.

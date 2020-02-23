@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`Appendable(all: `[`MutableList`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html)`<`[`T`](index.md#T)`> = mutableListOf())`
+`Appendable(all: `[`MutableList`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html)`<T> = mutableListOf())`

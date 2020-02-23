@@ -2,7 +2,7 @@
 
 # ResponseType
 
-`enum class ResponseType` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/ResponseType.kt#L3)
+`enum class ResponseType`
 
 ### Enum Values
 
@@ -22,9 +22,3 @@
 | Name | Summary |
 |---|---|
 | [fromQueryParameterValue](from-query-parameter-value.md) | `fun fromQueryParameterValue(value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`ResponseType`](./index.md) |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

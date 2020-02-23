@@ -2,4 +2,4 @@
 
 # invoke
 
-`operator fun invoke(sink: `[`Sink`](../../../org.http4k.traffic/-sink/index.md)`): `[`Filter`](../../../org.http4k.core/-filter/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/TrafficFilters.kt#L24)
+`operator fun invoke(sink: `[`Sink`](../../../org.http4k.traffic/-sink/index.md)`): `[`Filter`](../../../org.http4k.core/-filter/index.md)

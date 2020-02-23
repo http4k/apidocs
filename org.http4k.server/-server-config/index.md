@@ -2,7 +2,7 @@
 
 # ServerConfig
 
-`interface ServerConfig` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/server/http4kServer.kt#L23)
+`interface ServerConfig`
 
 Standard interface for creating a configured WebServer
 
@@ -11,12 +11,6 @@ Standard interface for creating a configured WebServer
 | Name | Summary |
 |---|---|
 | [toServer](to-server.md) | `abstract fun toServer(httpHandler: `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`): `[`Http4kServer`](../-http4k-server/index.md) |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
 
 ### Inheritors
 
@@ -27,4 +21,4 @@ Standard interface for creating a configured WebServer
 | [Netty](../-netty/index.md) | `data class Netty : `[`ServerConfig`](./index.md) |
 | [SunHttp](../-sun-http/index.md) | `data class SunHttp : `[`ServerConfig`](./index.md) |
 | [Undertow](../-undertow/index.md) | `data class Undertow : `[`ServerConfig`](./index.md) |
-| [WsServerConfig](../-ws-server-config/index.md) | `interface WsServerConfig : `[`ServerConfig`](./index.md)<br>Standard interface for creating a configured WebServer which supports Websockets |
+| [WsServerConfig](../-ws-server-config/index.md) | Standard interface for creating a configured WebServer which supports Websockets`interface WsServerConfig : `[`ServerConfig`](./index.md) |

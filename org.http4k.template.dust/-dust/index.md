@@ -2,7 +2,7 @@
 
 # Dust
 
-`class Dust` [(source)](https://github.com/http4k/http4k/blob/master/http4k-template-dust/src/main/kotlin/org/http4k/template/dust/Dust.kt#L109)
+`class Dust`
 
 ### Constructors
 
@@ -15,10 +15,4 @@
 | Name | Summary |
 |---|---|
 | [openTemplates](open-templates.md) | `fun openTemplates(): `[`TemplateExpansionService`](../-template-expansion-service.md) |
-| [withTemplates](with-templates.md) | `fun <T> withTemplates(block: (`[`TemplateExpansion`](../-template-expansion/index.md)`) -> `[`T`](with-templates.md#T)`): `[`T`](with-templates.md#T) |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
+| [withTemplates](with-templates.md) | `fun <T> withTemplates(block: (`[`TemplateExpansion`](../-template-expansion/index.md)`) -> T): T` |

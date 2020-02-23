@@ -2,7 +2,4 @@
 
 # length
 
-`val length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`?` [(source)](https://github.com/http4k/http4k/blob/master/http4k-incubator/src/main/kotlin/org/http4k/routing/experimental/InMemoryResource.kt#L24)
-
-Overrides [Resource.length](../-resource/length.md)
-
+`val length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`?`

@@ -2,4 +2,4 @@
 
 # APPLICATION_JSON
 
-`val APPLICATION_JSON: `[`ContentType`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/ContentType.kt#L22)
+`val APPLICATION_JSON: `[`ContentType`](index.md)

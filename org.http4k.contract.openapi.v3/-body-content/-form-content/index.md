@@ -2,7 +2,7 @@
 
 # FormContent
 
-`class FormContent : `[`BodyContent`](../index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/openapi/v3/model.kt#L90)
+`class FormContent : `[`BodyContent`](../index.md)
 
 ### Types
 
@@ -14,10 +14,10 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `FormContent(schema: `[`BodyContent.FormContent.FormSchema`](-form-schema/index.md)`)` |
+| [&lt;init&gt;](-init-.md) | `FormContent(schema: FormSchema)` |
 
 ### Properties
 
 | Name | Summary |
 |---|---|
-| [schema](schema.md) | `val schema: `[`BodyContent.FormContent.FormSchema`](-form-schema/index.md) |
+| [schema](schema.md) | `val schema: FormSchema` |

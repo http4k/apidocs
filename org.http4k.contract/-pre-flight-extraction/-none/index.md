@@ -2,7 +2,7 @@
 
 # None
 
-`object None : `[`PreFlightExtraction`](../index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/PreFlightExtraction.kt#L42)
+`object None : `[`PreFlightExtraction`](../index.md)
 
 Check none the contract, relying entirely  on the HttpHandler code to raise a correct
 LensFailure if extraction fails. Use this option to fully optimise performance, at the risk

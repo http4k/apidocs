@@ -2,7 +2,7 @@
 
 # LocalCookie
 
-`data class LocalCookie` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/cookie/clientCookies.kt#L9)
+`data class LocalCookie`
 
 ### Constructors
 
@@ -21,9 +21,3 @@
 | Name | Summary |
 |---|---|
 | [isExpired](is-expired.md) | `fun isExpired(now: `[`LocalDateTime`](https://docs.oracle.com/javase/9/docs/api/java/time/LocalDateTime.html)`): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

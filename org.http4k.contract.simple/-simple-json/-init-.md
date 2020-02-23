@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`SimpleJson(json: `[`Json`](../../org.http4k.format/-json/index.md)`<`[`NODE`](index.md#NODE)`>)`
+`SimpleJson(json: `[`Json`](../../org.http4k.format/-json/index.md)`<NODE>)`

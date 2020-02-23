@@ -2,4 +2,4 @@
 
 # refreshAccessToken
 
-`abstract fun refreshAccessToken(refreshToken: `[`RefreshToken`](../-refresh-token/index.md)`): Result<`[`AccessToken`](../../org.http4k.security/-access-token/index.md)`, `[`AccessTokenError`](../../org.http4k.security.oauth.server/-access-token-error.md)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/refreshtoken/RefreshTokens.kt#L11)
+`abstract fun refreshAccessToken(refreshToken: `[`RefreshToken`](../-refresh-token/index.md)`): Result<`[`AccessToken`](../../org.http4k.security/-access-token/index.md)`, `[`AccessTokenError`](../../org.http4k.security.oauth.server/-access-token-error.md)`>`

@@ -2,7 +2,7 @@
 
 # TraceId
 
-`data class TraceId` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/ZipkinTraces.kt#L12)
+`data class TraceId`
 
 ### Constructors
 
@@ -21,9 +21,3 @@
 | Name | Summary |
 |---|---|
 | [new](new.md) | `fun new(random: `[`Random`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.random/-random/index.html)` = Random): `[`TraceId`](./index.md) |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

@@ -2,4 +2,4 @@
 
 # UNPROCESSABLE_ENTITY
 
-`val UNPROCESSABLE_ENTITY: `[`Status`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/Status.kt#L52)
+`val UNPROCESSABLE_ENTITY: `[`Status`](index.md)

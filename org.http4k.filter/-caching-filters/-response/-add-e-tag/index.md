@@ -2,7 +2,7 @@
 
 # AddETag
 
-`object AddETag` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/CachingFilters.kt#L102)
+`object AddETag`
 
 Hash algo stolen from http://stackoverflow.com/questions/26423662/scalatra-response-hmac-calulation
 By default, only applies when the status code of the response is &lt; 400. This is overridable.

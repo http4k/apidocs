@@ -2,7 +2,7 @@
 
 # Http4kWebDriver
 
-`class Http4kWebDriver : `[`WebDriver`](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/WebDriver.html) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-webdriver/src/main/kotlin/org/http4k/webdriver/Http4kWebDriver.kt#L34)
+`class Http4kWebDriver : WebDriver`
 
 ### Constructors
 
@@ -21,22 +21,21 @@
 | Name | Summary |
 |---|---|
 | [close](close.md) | `fun close(): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
-| [findElement](find-element.md) | `fun findElement(by: `[`By`](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/By.html)`): `[`WebElement`](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/WebElement.html)`?` |
-| [findElements](find-elements.md) | `fun findElements(by: `[`By`](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/By.html)`): `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`WebElement`](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/WebElement.html)`>?` |
+| [findElement](find-element.md) | `fun findElement(by: By): WebElement?` |
+| [findElements](find-elements.md) | `fun findElements(by: By): `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<WebElement>?` |
 | [get](get.md) | `fun get(url: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)<br>`fun get(uri: `[`Uri`](../../org.http4k.core/-uri/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 | [getCurrentUrl](get-current-url.md) | `fun getCurrentUrl(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |
 | [getPageSource](get-page-source.md) | `fun getPageSource(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |
 | [getTitle](get-title.md) | `fun getTitle(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |
 | [getWindowHandle](get-window-handle.md) | `fun getWindowHandle(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |
 | [getWindowHandles](get-window-handles.md) | `fun getWindowHandles(): `[`Set`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
-| [manage](manage.md) | `fun manage(): `[`Options`](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/WebDriver/Options.html) |
+| [manage](manage.md) | `fun manage(): Options` |
 | [navigate](navigate.md) | `fun navigate(): `[`Http4KNavigation`](../-http4-k-navigation/index.md) |
 | [quit](quit.md) | `fun quit(): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
-| [switchTo](switch-to.md) | `fun switchTo(): `[`TargetLocator`](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/WebDriver/TargetLocator.html) |
+| [switchTo](switch-to.md) | `fun switchTo(): TargetLocator` |
 
 ### Extension Functions
 
 | Name | Summary |
 |---|---|
-| [invoke](../invoke.md) | `operator fun `[`Http4kWebDriver`](./index.md)`.invoke(fn: `[`Http4kWebDriver`](./index.md)`.() -> `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)`): `[`Http4kWebDriver`](./index.md)<br>DSL-helper so we can use this webdriver in a lambda-with-receiver context |
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
+| [invoke](../invoke.md) | DSL-helper so we can use this webdriver in a lambda-with-receiver context`operator fun `[`Http4kWebDriver`](./index.md)`.invoke(fn: `[`Http4kWebDriver`](./index.md)`.() -> `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)`): `[`Http4kWebDriver`](./index.md) |

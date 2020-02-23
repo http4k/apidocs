@@ -2,7 +2,7 @@
 
 # JsonType
 
-`enum class JsonType` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/format/Json.kt#L87)
+`enum class JsonType`
 
 ### Enum Values
 
@@ -15,9 +15,3 @@
 | [Number](-number.md) |  |
 | [Boolean](-boolean.md) |  |
 | [Null](-null.md) |  |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

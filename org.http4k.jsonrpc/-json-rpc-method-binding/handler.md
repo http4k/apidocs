@@ -2,4 +2,4 @@
 
 # handler
 
-`val handler: `[`JsonRpcHandler`](../-json-rpc-handler.md)`<`[`IN`](index.md#IN)`, `[`OUT`](index.md#OUT)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-jsonrpc/src/main/kotlin/org/http4k/jsonrpc/JsonRpcService.kt#L109)
+`val handler: `[`JsonRpcHandler`](../-json-rpc-handler.md)`<IN, OUT>`

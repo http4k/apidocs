@@ -2,7 +2,7 @@
 
 # Router
 
-`interface Router` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/routing/routing.kt#L20)
+`interface Router`
 
 Provides matching of a Request to an HttpHandler which can service it.
 
@@ -10,17 +10,11 @@ Provides matching of a Request to an HttpHandler which can service it.
 
 | Name | Summary |
 |---|---|
-| [match](match.md) | `abstract fun match(request: `[`Request`](../../org.http4k.core/-request/index.md)`): `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`?`<br>Attempt to supply an HttpHandler which can service the passed request. |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
+| [match](match.md) | Attempt to supply an HttpHandler which can service the passed request.`abstract fun match(request: `[`Request`](../../org.http4k.core/-request/index.md)`): `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`?` |
 
 ### Inheritors
 
 | Name | Summary |
 |---|---|
-| [ResourceLoading](../../org.http4k.routing.experimental/-resource-loading/index.md) | `interface ResourceLoading : `[`Router`](./index.md)<br>A little convenience thunk to simplify implementing [Router](./index.md) for resource loaders. |
-| [RoutingHttpHandler](../-routing-http-handler/index.md) | `interface RoutingHttpHandler : `[`Router`](./index.md)`, `[`HttpHandler`](../../org.http4k.core/-http-handler.md)<br>Composite HttpHandler which can potentially service many different URL patterns. Should return a 404 Response if it cannot service a particular Request. |
+| [ResourceLoading](../../org.http4k.routing.experimental/-resource-loading/index.md) | A little convenience thunk to simplify implementing [Router](./index.md) for resource loaders.`interface ResourceLoading : `[`Router`](./index.md) |
+| [RoutingHttpHandler](../-routing-http-handler/index.md) | Composite HttpHandler which can potentially service many different URL patterns. Should return a 404 Response if it cannot service a particular Request.`interface RoutingHttpHandler : `[`Router`](./index.md)`, `[`HttpHandler`](../../org.http4k.core/-http-handler.md) |

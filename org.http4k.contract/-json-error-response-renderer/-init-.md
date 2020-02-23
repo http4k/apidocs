@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`JsonErrorResponseRenderer(json: `[`Json`](../../org.http4k.format/-json/index.md)`<`[`NODE`](index.md#NODE)`>)`
+`JsonErrorResponseRenderer(json: `[`Json`](../../org.http4k.format/-json/index.md)`<NODE>)`

@@ -2,7 +2,7 @@
 
 # None
 
-`val None: `[`ContentNegotiation`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/body.kt#L133)
+`val None: `[`ContentNegotiation`](index.md)
 
 No validation is done on the received content type at all
 

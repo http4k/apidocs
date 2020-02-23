@@ -2,7 +2,7 @@
 
 # AuthorizationCodeAccessTokenGenerator
 
-`class AuthorizationCodeAccessTokenGenerator : `[`AccessTokenGenerator`](../-access-token-generator/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/accesstoken/AuthorizationCodeAccessTokenGenerator.kt#L25)
+`class AuthorizationCodeAccessTokenGenerator : `[`AccessTokenGenerator`](../-access-token-generator/index.md)
 
 ### Constructors
 
@@ -21,9 +21,3 @@
 | Name | Summary |
 |---|---|
 | [extract](extract.md) | `fun extract(clientId: `[`ClientId`](../../org.http4k.security.oauth.server/-client-id/index.md)`, tokenRequest: `[`TokenRequest`](../../org.http4k.security.oauth.server/-token-request/index.md)`): Result<`[`AuthorizationCodeAccessTokenRequest`](../-authorization-code-access-token-request/index.md)`, `[`AccessTokenError`](../../org.http4k.security.oauth.server/-access-token-error.md)`>` |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

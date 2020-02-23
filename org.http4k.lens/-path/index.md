@@ -2,20 +2,13 @@
 
 # Path
 
-`object Path : `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/path.kt#L80)
+`object Path : `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>`
 
 ### Functions
 
 | Name | Summary |
 |---|---|
 | [fixed](fixed.md) | `fun fixed(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`PathLens`](../-path-lens/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
-
-### Inherited Functions
-
-| Name | Summary |
-|---|---|
-| [map](../-bi-di-path-lens-spec/map.md) | `fun <NEXT> map(nextIn: (`[`OUT`](../-bi-di-path-lens-spec/index.md#OUT)`) -> `[`NEXT`](../-bi-di-path-lens-spec/map.md#NEXT)`, nextOut: (`[`NEXT`](../-bi-di-path-lens-spec/map.md#NEXT)`) -> `[`OUT`](../-bi-di-path-lens-spec/index.md#OUT)`): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<`[`NEXT`](../-bi-di-path-lens-spec/map.md#NEXT)`>`<br>Create another BiDiPathLensSpec which applies the bi-directional transformations to the result. Any resultant Lens can be used to extract or insert the final type from/into a path segment. |
-| [of](../-bi-di-path-lens-spec/of.md) | `open fun of(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, description: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`BiDiPathLens`](../-bi-di-path-lens/index.md)`<`[`OUT`](../-bi-di-path-lens-spec/index.md#OUT)`>`<br>Create a lens for this Spec |
 
 ### Extension Functions
 
@@ -40,6 +33,5 @@
 | [string](../string.md) | `fun `[`Path`](./index.md)`.string(): `[`Path`](./index.md) |
 | [uri](../uri.md) | `fun `[`Path`](./index.md)`.uri(): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<`[`Uri`](../../org.http4k.core/-uri/index.md)`>` |
 | [uuid](../uuid.md) | `fun `[`Path`](./index.md)`.uuid(): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<`[`UUID`](https://docs.oracle.com/javase/9/docs/api/java/util/UUID.html)`!>` |
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
 | [yearMonth](../year-month.md) | `fun `[`Path`](./index.md)`.yearMonth(): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<`[`YearMonth`](https://docs.oracle.com/javase/9/docs/api/java/time/YearMonth.html)`!>` |
 | [zonedDateTime](../zoned-date-time.md) | `fun `[`Path`](./index.md)`.zonedDateTime(formatter: `[`DateTimeFormatter`](https://docs.oracle.com/javase/9/docs/api/java/time/format/DateTimeFormatter.html)` = ISO_ZONED_DATE_TIME): `[`BiDiPathLensSpec`](../-bi-di-path-lens-spec/index.md)`<`[`ZonedDateTime`](https://docs.oracle.com/javase/9/docs/api/java/time/ZonedDateTime.html)`!>` |

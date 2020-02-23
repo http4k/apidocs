@@ -2,7 +2,7 @@
 
 # Unsigned
 
-`object Unsigned : `[`Payload.Mode`](../index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-aws/src/main/kotlin/org/http4k/filter/awsExtensions.kt#L93)
+`object Unsigned : Mode`
 
 ### Functions
 

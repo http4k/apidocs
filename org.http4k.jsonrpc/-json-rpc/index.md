@@ -2,17 +2,11 @@
 
 # JsonRpc
 
-`object JsonRpc` [(source)](https://github.com/http4k/http4k/blob/master/http4k-jsonrpc/src/main/kotlin/org/http4k/jsonrpc/jsonRpc.kt#L8)
+`object JsonRpc`
 
 ### Functions
 
 | Name | Summary |
 |---|---|
-| [auto](auto.md) | `fun <NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> auto(json: `[`JsonLibAutoMarshallingJson`](../../org.http4k.format/-json-lib-auto-marshalling-json/index.md)`<`[`NODE`](auto.md#NODE)`>, errorHandler: `[`ErrorHandler`](../-error-handler.md)` = defaultErrorHandler, fn: `[`MethodBindings.Auto`](../-method-bindings/-auto/index.md)`<`[`NODE`](auto.md#NODE)`>.() -> `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)`): `[`JsonRpcService`](../-json-rpc-service/index.md)`<`[`NODE`](auto.md#NODE)`>` |
-| [manual](manual.md) | `fun <NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> manual(json: `[`Json`](../../org.http4k.format/-json/index.md)`<`[`NODE`](manual.md#NODE)`>, errorHandler: `[`ErrorHandler`](../-error-handler.md)` = defaultErrorHandler, fn: `[`MethodBindings.Manual`](../-method-bindings/-manual/index.md)`<`[`NODE`](manual.md#NODE)`>.() -> `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)`): `[`JsonRpcService`](../-json-rpc-service/index.md)`<`[`NODE`](manual.md#NODE)`>` |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
+| [auto](auto.md) | `fun <NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> auto(json: `[`JsonLibAutoMarshallingJson`](../../org.http4k.format/-json-lib-auto-marshalling-json/index.md)`<NODE>, errorHandler: `[`ErrorHandler`](../-error-handler.md)` = defaultErrorHandler, fn: Auto<NODE>.() -> `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)`): `[`JsonRpcService`](../-json-rpc-service/index.md)`<NODE>` |
+| [manual](manual.md) | `fun <NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> manual(json: `[`Json`](../../org.http4k.format/-json/index.md)`<NODE>, errorHandler: `[`ErrorHandler`](../-error-handler.md)` = defaultErrorHandler, fn: Manual<NODE>.() -> `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)`): `[`JsonRpcService`](../-json-rpc-service/index.md)`<NODE>` |

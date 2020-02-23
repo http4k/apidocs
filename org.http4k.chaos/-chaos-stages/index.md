@@ -2,23 +2,17 @@
 
 # ChaosStages
 
-`object ChaosStages` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosStages.kt#L49)
+`object ChaosStages`
 
 ### Types
 
 | Name | Summary |
 |---|---|
-| [Variable](-variable/index.md) | `class Variable : `[`Stage`](../-stage.md)<br>Provide a means of modifying a ChaosBehaviour at runtime. |
-| [Wait](-wait/index.md) | `object Wait : `[`Stage`](../-stage.md)<br>Does not apply any ChaosBehaviour. |
+| [Variable](-variable/index.md) | Provide a means of modifying a ChaosBehaviour at runtime.`class Variable : `[`Stage`](../-stage.md) |
+| [Wait](-wait/index.md) | Does not apply any ChaosBehaviour.`object Wait : `[`Stage`](../-stage.md) |
 
 ### Functions
 
 | Name | Summary |
 |---|---|
-| [Repeat](-repeat.md) | `fun Repeat(newStageFn: () -> `[`Stage`](../-stage.md)`): `[`Stage`](../-stage.md)<br>Repeats a stage (or composite stage in repeating pattern). Since ChaosStages are STATEFUL, the stage function will be fired on each iteration and expecting a NEW instance. |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
+| [Repeat](-repeat.md) | Repeats a stage (or composite stage in repeating pattern). Since ChaosStages are STATEFUL, the stage function will be fired on each iteration and expecting a NEW instance.`fun Repeat(newStageFn: () -> `[`Stage`](../-stage.md)`): `[`Stage`](../-stage.md) |

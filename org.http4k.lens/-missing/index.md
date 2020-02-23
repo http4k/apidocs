@@ -2,7 +2,7 @@
 
 # Missing
 
-`data class Missing : `[`Failure`](../-failure/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/lensFailure.kt#L24)
+`data class Missing : `[`Failure`](../-failure/index.md)
 
 ### Constructors
 
@@ -16,20 +16,8 @@
 |---|---|
 | [meta](meta.md) | `val meta: `[`Meta`](../-meta/index.md) |
 
-### Inherited Properties
-
-| Name | Summary |
-|---|---|
-| [type](../-failure/type.md) | `val type: `[`Failure.Type`](../-failure/-type/index.md) |
-
 ### Functions
 
 | Name | Summary |
 |---|---|
 | [toString](to-string.md) | `fun toString(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

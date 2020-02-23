@@ -2,4 +2,4 @@
 
 # parse
 
-`fun parse(headerValue: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`FieldValue`](../-field-value/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/etag/ETagValidationRequestParser.kt#L27)
+`fun parse(headerValue: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`FieldValue`](../-field-value/index.md)

@@ -2,7 +2,7 @@
 
 # AuthRequestTracking
 
-`interface AuthRequestTracking` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/AuthRequestTracking.kt#L10)
+`interface AuthRequestTracking`
 
 Provides a mechanism to track OAuth authorization parameters to be used later
 (i.e. can be used later to generate code and/or tokens)
@@ -11,14 +11,8 @@ Provides a mechanism to track OAuth authorization parameters to be used later
 
 | Name | Summary |
 |---|---|
-| [resolveAuthRequest](resolve-auth-request.md) | `abstract fun resolveAuthRequest(request: `[`Request`](../../org.http4k.core/-request/index.md)`): `[`AuthRequest`](../-auth-request/index.md)`?`<br>Resolves a particular AuthRequest related to the particular request |
-| [trackAuthRequest](track-auth-request.md) | `abstract fun trackAuthRequest(request: `[`Request`](../../org.http4k.core/-request/index.md)`, authRequest: `[`AuthRequest`](../-auth-request/index.md)`, response: `[`Response`](../../org.http4k.core/-response/index.md)`): `[`Response`](../../org.http4k.core/-response/index.md)<br>Assign a reference of AuthRequest to the response |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
+| [resolveAuthRequest](resolve-auth-request.md) | Resolves a particular AuthRequest related to the particular request`abstract fun resolveAuthRequest(request: `[`Request`](../../org.http4k.core/-request/index.md)`): `[`AuthRequest`](../-auth-request/index.md)`?` |
+| [trackAuthRequest](track-auth-request.md) | Assign a reference of AuthRequest to the response`abstract fun trackAuthRequest(request: `[`Request`](../../org.http4k.core/-request/index.md)`, authRequest: `[`AuthRequest`](../-auth-request/index.md)`, response: `[`Response`](../../org.http4k.core/-response/index.md)`): `[`Response`](../../org.http4k.core/-response/index.md) |
 
 ### Inheritors
 

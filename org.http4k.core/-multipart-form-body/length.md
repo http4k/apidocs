@@ -2,9 +2,7 @@
 
 # length
 
-`val length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`?` [(source)](https://github.com/http4k/http4k/blob/master/http4k-multipart/src/main/kotlin/org/http4k/core/MultipartFormBody.kt#L53)
-
-Overrides [Body.length](../-body/length.md)
+`val length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`?`
 
 Will be `null` for bodies where it's impossible to a priori determine - e.g. StreamBody
 

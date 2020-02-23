@@ -2,7 +2,7 @@
 
 # ContractBuilder
 
-`class ContractBuilder` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/extensions.kt#L19)
+`class ContractBuilder`
 
 ### Properties
 
@@ -16,9 +16,3 @@
 | [renderer](renderer.md) | `var renderer: `[`ContractRenderer`](../-contract-renderer/index.md) |
 | [routes](routes.md) | `var routes: `[`Appendable`](../../org.http4k.util/-appendable/index.md)`<`[`ContractRoute`](../-contract-route/index.md)`>` |
 | [security](security.md) | `var security: `[`Security`](../../org.http4k.contract.security/-security/index.md)`?` |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

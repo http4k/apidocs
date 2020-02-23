@@ -2,7 +2,7 @@
 
 # Variable
 
-`class Variable : `[`Behaviour`](../../-behaviour.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosBehaviours.kt#L206)
+`class Variable : `[`Behaviour`](../../-behaviour.md)
 
 Provide a means of modifying a ChaosBehaviour at runtime.
 
@@ -10,7 +10,7 @@ Provide a means of modifying a ChaosBehaviour at runtime.
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `Variable(current: `[`Behaviour`](../../-behaviour.md)` = None())`<br>Provide a means of modifying a ChaosBehaviour at runtime. |
+| [&lt;init&gt;](-init-.md) | Provide a means of modifying a ChaosBehaviour at runtime.`Variable(current: `[`Behaviour`](../../-behaviour.md)` = None())` |
 
 ### Properties
 

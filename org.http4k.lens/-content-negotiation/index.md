@@ -2,7 +2,7 @@
 
 # ContentNegotiation
 
-`interface ContentNegotiation` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/body.kt#L98)
+`interface ContentNegotiation`
 
 Modes for determining if a passed content type is acceptable.
 
@@ -16,13 +16,7 @@ Modes for determining if a passed content type is acceptable.
 
 | Name | Summary |
 |---|---|
-| [None](-none.md) | `val None: `[`ContentNegotiation`](./index.md)<br>No validation is done on the received content type at all |
-| [NonStrict](-non-strict.md) | `val NonStrict: `[`ContentNegotiation`](./index.md)<br>If present, the received Content-type header passed back MUST equal the expected Content-type, including directive |
-| [Strict](-strict.md) | `val Strict: `[`ContentNegotiation`](./index.md)<br>The received Content-type header passed back MUST equal the expected Content-type, including directive |
-| [StrictNoDirective](-strict-no-directive.md) | `val StrictNoDirective: `[`ContentNegotiation`](./index.md)<br>The received Content-type header passed back MUST equal the expected Content-type, not including the directive |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
+| [None](-none.md) | No validation is done on the received content type at all`val None: `[`ContentNegotiation`](./index.md) |
+| [NonStrict](-non-strict.md) | If present, the received Content-type header passed back MUST equal the expected Content-type, including directive`val NonStrict: `[`ContentNegotiation`](./index.md) |
+| [Strict](-strict.md) | The received Content-type header passed back MUST equal the expected Content-type, including directive`val Strict: `[`ContentNegotiation`](./index.md) |
+| [StrictNoDirective](-strict-no-directive.md) | The received Content-type header passed back MUST equal the expected Content-type, not including the directive`val StrictNoDirective: `[`ContentNegotiation`](./index.md) |

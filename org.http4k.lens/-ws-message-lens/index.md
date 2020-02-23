@@ -2,7 +2,7 @@
 
 # WsMessageLens
 
-`open class WsMessageLens<out FINAL> : `[`LensExtractor`](../-lens-extractor/index.md)`<`[`WsMessage`](../../org.http4k.websocket/-ws-message/index.md)`, `[`FINAL`](index.md#FINAL)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/wsMessageLens.kt#L54)
+`open class WsMessageLens<out FINAL> : `[`LensExtractor`](../-lens-extractor/index.md)`<`[`WsMessage`](../../org.http4k.websocket/-ws-message/index.md)`, FINAL>`
 
 A WsMessageLens provides the extraction of an entity from a target WsMessage.
 
@@ -10,29 +10,16 @@ A WsMessageLens provides the extraction of an entity from a target WsMessage.
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `WsMessageLens(getLens: (`[`WsMessage`](../../org.http4k.websocket/-ws-message/index.md)`) -> `[`FINAL`](index.md#FINAL)`)`<br>A WsMessageLens provides the extraction of an entity from a target WsMessage. |
+| [&lt;init&gt;](-init-.md) | A WsMessageLens provides the extraction of an entity from a target WsMessage.`WsMessageLens(getLens: (`[`WsMessage`](../../org.http4k.websocket/-ws-message/index.md)`) -> FINAL)` |
 
 ### Functions
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `open operator fun invoke(target: `[`WsMessage`](../../org.http4k.websocket/-ws-message/index.md)`): `[`FINAL`](index.md#FINAL)<br>Lens operation to get the value from the target |
-
-### Inherited Functions
-
-| Name | Summary |
-|---|---|
-| [extract](../-lens-extractor/extract.md) | `open fun extract(target: `[`IN`](../-lens-extractor/index.md#IN)`): `[`OUT`](../-lens-extractor/index.md#OUT)<br>Lens operation to get the value from the target. Synonym for invoke(IN) |
-| [get](../-lens-extractor/get.md) | `open operator fun <R : `[`IN`](../-lens-extractor/index.md#IN)`> get(target: `[`R`](../-lens-extractor/get.md#R)`): `[`OUT`](../-lens-extractor/index.md#OUT)<br>Lens operation to get the value from the target. Synonym for invoke(IN) |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
+| [invoke](invoke.md) | Lens operation to get the value from the target`open operator fun invoke(target: `[`WsMessage`](../../org.http4k.websocket/-ws-message/index.md)`): FINAL` |
 
 ### Inheritors
 
 | Name | Summary |
 |---|---|
-| [BiDiWsMessageLens](../-bi-di-ws-message-lens/index.md) | `class BiDiWsMessageLens<FINAL> : `[`WsMessageLens`](./index.md)`<`[`FINAL`](../-bi-di-ws-message-lens/index.md#FINAL)`>`<br>A BiDiWsMessageLens provides the bi-directional extraction of an entity from a target body, or the insertion of an entity into a target WsMessage. |
+| [BiDiWsMessageLens](../-bi-di-ws-message-lens/index.md) | A BiDiWsMessageLens provides the bi-directional extraction of an entity from a target body, or the insertion of an entity into a target WsMessage.`class BiDiWsMessageLens<FINAL> : `[`WsMessageLens`](./index.md)`<FINAL>` |

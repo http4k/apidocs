@@ -2,4 +2,4 @@
 
 # credentials
 
-`val credentials: `[`Credentials`](../../org.http4k.core/-credentials/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/OAuthProviderConfig.kt#L10)
+`val credentials: `[`Credentials`](../../org.http4k.core/-credentials/index.md)

@@ -2,7 +2,7 @@
 
 # AuthRequest
 
-`data class AuthRequest` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/oauth/server/AuthRequest.kt#L12)
+`data class AuthRequest`
 
 ### Constructors
 
@@ -36,9 +36,3 @@
 | Name | Summary |
 |---|---|
 | [OIDC_SCOPE](-o-i-d-c_-s-c-o-p-e.md) | `const val OIDC_SCOPE: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

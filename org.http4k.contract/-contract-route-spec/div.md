@@ -2,5 +2,5 @@
 
 # div
 
-`abstract infix operator fun <T> div(next: `[`PathLens`](../../org.http4k.lens/-path-lens/index.md)`<`[`T`](div.md#T)`>): `[`ContractRouteSpec`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/routeSpec.kt#L13)
-`open infix operator fun div(next: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`ContractRouteSpec`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/routeSpec.kt#L15)
+`abstract infix operator fun <T> div(next: `[`PathLens`](../../org.http4k.lens/-path-lens/index.md)`<T>): `[`ContractRouteSpec`](index.md)
+`open infix operator fun div(next: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`ContractRouteSpec`](index.md)

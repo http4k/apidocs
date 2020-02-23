@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`ConfigurableKotlinxSerialization(config: <ERROR CLASS>, context: <ERROR CLASS>)`
+`ConfigurableKotlinxSerialization(config: JsonConfiguration, context: SerialModule)`

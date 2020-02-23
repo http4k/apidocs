@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`SchemaParameter(meta: `[`Meta`](../../../org.http4k.lens/-meta/index.md)`, jsonSchema: `[`JsonSchema`](../../../org.http4k.util/-json-schema/index.md)`<`[`NODE`](index.md#NODE)`>?)`
+`SchemaParameter(meta: `[`Meta`](../../../org.http4k.lens/-meta/index.md)`, jsonSchema: `[`JsonSchema`](../../../org.http4k.util/-json-schema/index.md)`<NODE>?)`

@@ -2,7 +2,7 @@
 
 # CircuitBreak
 
-`object CircuitBreak` [(source)](https://github.com/http4k/http4k/blob/master/http4k-resilience4j/src/main/kotlin/org/http4k/filter/ResilienceFilters.kt#L23)
+`object CircuitBreak`
 
 Provide simple Circuit Breaker. Returns ServiceUnavailable when the circuit is open.
 By default, uses a % failure rate of 50% detection and an Circuit Open period of 1minute

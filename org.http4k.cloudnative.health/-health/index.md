@@ -2,7 +2,7 @@
 
 # Health
 
-`object Health` [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/health/Health.kt#L19)
+`object Health`
 
 Represents the set of operational endpoints to ensure that a particular app is working ok.
 By default provides Readiness and Liveness endpoints, but extra routes can be passed, as
@@ -13,9 +13,3 @@ can a different renderer implementation for the ReadinessCheck results.
 | Name | Summary |
 |---|---|
 | [invoke](invoke.md) | `operator fun invoke(vararg extraRoutes: `[`RoutingHttpHandler`](../../org.http4k.routing/-routing-http-handler/index.md)`, checks: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`ReadinessCheck`](../-readiness-check/index.md)`> = emptyList(), renderer: `[`ReadinessCheckResultRenderer`](../-readiness-check-result-renderer/index.md)` = DefaultReadinessCheckResultRenderer): `[`RoutingHttpHandler`](../../org.http4k.routing/-routing-http-handler/index.md) |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

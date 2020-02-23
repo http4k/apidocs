@@ -6,15 +6,15 @@
 
 | Name | Summary |
 |---|---|
-| [ApiKeySecurity](-api-key-security/index.md) | `class ApiKeySecurity<out T> : `[`Security`](-security/index.md)<br>Checks the presence of the named Api Key parameter. Filter returns 401 if Api-Key is not found in request. |
+| [ApiKeySecurity](-api-key-security/index.md) | Checks the presence of the named Api Key parameter. Filter returns 401 if Api-Key is not found in request.`class ApiKeySecurity<out T> : `[`Security`](-security/index.md) |
 | [AuthCodeOAuthSecurity](-auth-code-o-auth-security/index.md) | `class AuthCodeOAuthSecurity : `[`OAuthSecurity`](-o-auth-security/index.md) |
-| [BasicAuthSecurity](-basic-auth-security/index.md) | `class BasicAuthSecurity : `[`Security`](-security/index.md)<br>Checks the presence of basic auth credentials. Filter returns 401 if auth fails. |
-| [BearerAuthSecurity](-bearer-auth-security/index.md) | `class BearerAuthSecurity : `[`Security`](-security/index.md)<br>Checks the presence of bearer auth credentials. Filter returns 401 if auth fails. |
+| [BasicAuthSecurity](-basic-auth-security/index.md) | Checks the presence of basic auth credentials. Filter returns 401 if auth fails.`class BasicAuthSecurity : `[`Security`](-security/index.md) |
+| [BearerAuthSecurity](-bearer-auth-security/index.md) | Checks the presence of bearer auth credentials. Filter returns 401 if auth fails.`class BearerAuthSecurity : `[`Security`](-security/index.md) |
 | [ImplicitOAuthSecurity](-implicit-o-auth-security/index.md) | `class ImplicitOAuthSecurity : `[`OAuthSecurity`](-o-auth-security/index.md) |
-| [NoSecurity](-no-security/index.md) | `object NoSecurity : `[`Security`](-security/index.md)<br>Default NoOp security filter. Filter allows all traffic through. |
+| [NoSecurity](-no-security/index.md) | Default NoOp security filter. Filter allows all traffic through.`object NoSecurity : `[`Security`](-security/index.md) |
 | [OAuthScope](-o-auth-scope/index.md) | `data class OAuthScope` |
 | [OAuthSecurity](-o-auth-security/index.md) | `sealed class OAuthSecurity : `[`Security`](-security/index.md) |
-| [Security](-security/index.md) | `interface Security`<br>Endpoint security. Provides filter to be applied to endpoints for all requests. |
+| [Security](-security/index.md) | Endpoint security. Provides filter to be applied to endpoints for all requests.`interface Security` |
 
 ### Functions
 

@@ -2,7 +2,7 @@
 
 # Nonce
 
-`data class Nonce` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/openid/Nonce.kt#L6)
+`data class Nonce`
 
 ### Constructors
 
@@ -21,9 +21,3 @@
 | Name | Summary |
 |---|---|
 | [SECURE_NONCE](-s-e-c-u-r-e_-n-o-n-c-e.md) | `val SECURE_NONCE: () -> `[`Nonce`](./index.md) |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

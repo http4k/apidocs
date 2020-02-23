@@ -2,7 +2,7 @@
 
 # &lt;init&gt;
 
-`BiDiLens(meta: `[`Meta`](../-meta/index.md)`, get: (`[`IN`](index.md#IN)`) -> `[`FINAL`](index.md#FINAL)`, lensSet: (`[`FINAL`](index.md#FINAL)`, `[`IN`](index.md#IN)`) -> `[`IN`](index.md#IN)`)`
+`BiDiLens(meta: `[`Meta`](../-meta/index.md)`, get: (IN) -> FINAL, lensSet: (FINAL, IN) -> IN)`
 
 A BiDiLens provides the bi-directional extraction of an entity from a target, or the insertion of an entity
 into a target.

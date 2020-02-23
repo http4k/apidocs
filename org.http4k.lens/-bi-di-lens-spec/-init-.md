@@ -2,7 +2,7 @@
 
 # &lt;init&gt;
 
-`BiDiLensSpec(location: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, paramMeta: `[`ParamMeta`](../-param-meta/index.md)`, get: `[`LensGet`](../-lens-get/index.md)`<`[`IN`](index.md#IN)`, `[`OUT`](index.md#OUT)`>, set: `[`LensSet`](../-lens-set/index.md)`<`[`IN`](index.md#IN)`, `[`OUT`](index.md#OUT)`>)`
+`BiDiLensSpec(location: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, paramMeta: `[`ParamMeta`](../-param-meta/index.md)`, get: `[`LensGet`](../-lens-get/index.md)`<IN, OUT>, set: `[`LensSet`](../-lens-set/index.md)`<IN, OUT>)`
 
 Represents a bi-directional extraction of an entity from a target, or an insertion into a target.
 

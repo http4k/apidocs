@@ -2,4 +2,4 @@
 
 # paramMeta
 
-`protected val paramMeta: `[`ParamMeta`](../-param-meta/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/lensSpec.kt#L63)
+`protected val paramMeta: `[`ParamMeta`](../-param-meta/index.md)

@@ -2,7 +2,7 @@
 
 # StringBiDiMappings
 
-`object StringBiDiMappings` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/BiDiMapping.kt#L56)
+`object StringBiDiMappings`
 
 A set of standardised String &lt;-&gt; Type conversions which are used throughout http4k
 
@@ -45,4 +45,3 @@ A set of standardised String &lt;-&gt; Type conversions which are used throughou
 | [authority](../authority.md) | `fun `[`StringBiDiMappings`](./index.md)`.authority(): `[`BiDiMapping`](../-bi-di-mapping/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`Authority`](../../org.http4k.cloudnative.env/-authority/index.md)`>` |
 | [host](../host.md) | `fun `[`StringBiDiMappings`](./index.md)`.host(): `[`BiDiMapping`](../-bi-di-mapping/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`Host`](../../org.http4k.cloudnative.env/-host/index.md)`>` |
 | [port](../port.md) | `fun `[`StringBiDiMappings`](./index.md)`.port(): `[`BiDiMapping`](../-bi-di-mapping/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`Port`](../../org.http4k.cloudnative.env/-port/index.md)`>` |
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

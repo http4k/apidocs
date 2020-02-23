@@ -2,7 +2,7 @@
 
 # OAuthProviderConfig
 
-`data class OAuthProviderConfig` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/OAuthProviderConfig.kt#L6)
+`data class OAuthProviderConfig`
 
 ### Constructors
 
@@ -20,9 +20,3 @@
 | [credentials](credentials.md) | `val credentials: `[`Credentials`](../../org.http4k.core/-credentials/index.md) |
 | [tokenPath](token-path.md) | `val tokenPath: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [tokenUri](token-uri.md) | `val tokenUri: `[`Uri`](../../org.http4k.core/-uri/index.md) |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

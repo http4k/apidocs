@@ -2,7 +2,7 @@
 
 # Page
 
-`data class Page` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-webdriver/src/main/kotlin/org/http4k/webdriver/Page.kt#L9)
+`data class Page`
 
 ### Constructors
 
@@ -26,12 +26,6 @@
 
 | Name | Summary |
 |---|---|
-| [findElement](find-element.md) | `fun findElement(by: `[`By`](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/By.html)`): `[`WebElement`](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/WebElement.html)`?` |
-| [findElements](find-elements.md) | `fun findElements(by: `[`By`](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/By.html)`): `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`WebElement`](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/WebElement.html)`>` |
+| [findElement](find-element.md) | `fun findElement(by: By): WebElement?` |
+| [findElements](find-elements.md) | `fun findElements(by: By): `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<WebElement>` |
 | [firstElement](first-element.md) | `fun firstElement(): `[`JSoupWebElement`](../-j-soup-web-element/index.md)`?` |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

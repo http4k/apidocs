@@ -2,7 +2,7 @@
 
 # MatchRequest
 
-`object MatchRequest` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosTriggers.kt#L113)
+`object MatchRequest`
 
 Activates when matching attributes of a single received request are met.
 

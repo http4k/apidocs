@@ -2,7 +2,7 @@
 
 # NoCache
 
-`object NoCache` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/CachingFilters.kt#L72)
+`object NoCache`
 
 By default, only applies when the status code of the response is &lt; 400. This is overridable and useful -
 For example you could combine this with a MaxAge for everything &gt;= 400

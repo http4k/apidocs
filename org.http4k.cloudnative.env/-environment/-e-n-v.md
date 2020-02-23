@@ -2,7 +2,7 @@
 
 # ENV
 
-`val ENV: `[`Environment`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/env/Environment.kt#L47)
+`val ENV: `[`Environment`](index.md)
 
 Configuration from the runtime environment
 

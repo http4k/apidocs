@@ -2,7 +2,7 @@
 
 # StreamBody
 
-`class StreamBody : `[`Body`](../-body/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L60)
+`class StreamBody : `[`Body`](../-body/index.md)
 
 Represents a body that is backed by a (lazy) InputStream. Operating with StreamBody has a number of potential
 gotchas:
@@ -16,13 +16,13 @@ This includes calling `equals()` and `payload`
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `StreamBody(stream: `[`InputStream`](https://docs.oracle.com/javase/9/docs/api/java/io/InputStream.html)`, length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`? = null)`<br>Represents a body that is backed by a (lazy) InputStream. Operating with StreamBody has a number of potential gotchas: |
+| [&lt;init&gt;](-init-.md) | Represents a body that is backed by a (lazy) InputStream. Operating with StreamBody has a number of potential gotchas:`StreamBody(stream: `[`InputStream`](https://docs.oracle.com/javase/9/docs/api/java/io/InputStream.html)`, length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`? = null)` |
 
 ### Properties
 
 | Name | Summary |
 |---|---|
-| [length](length.md) | `val length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`?`<br>Will be `null` for bodies where it's impossible to a priori determine - e.g. StreamBody |
+| [length](length.md) | Will be `null` for bodies where it's impossible to a priori determine - e.g. StreamBody`val length: `[`Long`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html)`?` |
 | [payload](payload.md) | `val payload: `[`ByteBuffer`](https://docs.oracle.com/javase/9/docs/api/java/nio/ByteBuffer.html) |
 | [stream](stream.md) | `val stream: `[`InputStream`](https://docs.oracle.com/javase/9/docs/api/java/io/InputStream.html) |
 
@@ -43,4 +43,3 @@ This includes calling `equals()` and `payload`
 | [gunzippedStream](../../org.http4k.filter/gunzipped-stream.md) | `fun `[`Body`](../-body/index.md)`.gunzippedStream(): `[`Body`](../-body/index.md) |
 | [gzipped](../../org.http4k.filter/gzipped.md) | `fun `[`Body`](../-body/index.md)`.gzipped(): `[`CompressionResult`](../../org.http4k.filter/-compression-result/index.md) |
 | [gzippedStream](../../org.http4k.filter/gzipped-stream.md) | `fun `[`Body`](../-body/index.md)`.gzippedStream(): `[`CompressionResult`](../../org.http4k.filter/-compression-result/index.md) |
-| [with](../with.md) | `fun <T> `[`T`](../with.md#T)`.with(vararg modifiers: (`[`T`](../with.md#T)`) -> `[`T`](../with.md#T)`): `[`T`](../with.md#T) |

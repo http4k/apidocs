@@ -2,7 +2,7 @@
 
 # WsHandler
 
-`typealias WsHandler = (`[`Request`](../org.http4k.core/-request/index.md)`) -> `[`WsConsumer`](-ws-consumer.md)`?` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/websocket/websocket.kt#L24)
+`typealias WsHandler = (`[`Request`](../org.http4k.core/-request/index.md)`) -> `[`WsConsumer`](-ws-consumer.md)`?`
 
 ### Inheritors
 

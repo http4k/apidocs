@@ -2,7 +2,7 @@
 
 # StrictNoDirective
 
-`val StrictNoDirective: `[`ContentNegotiation`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/body.kt#L115)
+`val StrictNoDirective: `[`ContentNegotiation`](index.md)
 
 The received Content-type header passed back MUST equal the expected Content-type, not including the directive
 

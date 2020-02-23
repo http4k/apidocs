@@ -2,7 +2,7 @@
 
 # BearerAuthSecurity
 
-`class BearerAuthSecurity : `[`Security`](../-security/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/security/BearerAuthSecurity.kt#L10)
+`class BearerAuthSecurity : `[`Security`](../-security/index.md)
 
 Checks the presence of bearer auth credentials. Filter returns 401 if auth fails.
 
@@ -25,7 +25,6 @@ Checks the presence of bearer auth credentials. Filter returns 401 if auth fails
 |---|---|
 | [and](../and.md) | `fun `[`Security`](../-security/index.md)`.and(that: `[`Security`](../-security/index.md)`): `[`Security`](../-security/index.md) |
 | [or](../or.md) | `fun `[`Security`](../-security/index.md)`.or(that: `[`Security`](../-security/index.md)`): `[`Security`](../-security/index.md) |
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
 
 ### Companion Object Extension Properties
 

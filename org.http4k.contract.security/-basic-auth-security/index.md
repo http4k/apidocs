@@ -2,7 +2,7 @@
 
 # BasicAuthSecurity
 
-`class BasicAuthSecurity : `[`Security`](../-security/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/security/BasicAuthSecurity.kt#L10)
+`class BasicAuthSecurity : `[`Security`](../-security/index.md)
 
 Checks the presence of basic auth credentials. Filter returns 401 if auth fails.
 
@@ -10,7 +10,7 @@ Checks the presence of basic auth credentials. Filter returns 401 if auth fails.
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `BasicAuthSecurity(realm: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, credentials: `[`Credentials`](../../org.http4k.core/-credentials/index.md)`, name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = "basicAuth")`<br>Checks the presence of basic auth credentials. Filter returns 401 if auth fails. |
+| [&lt;init&gt;](-init-.md) | Checks the presence of basic auth credentials. Filter returns 401 if auth fails.`BasicAuthSecurity(realm: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, credentials: `[`Credentials`](../../org.http4k.core/-credentials/index.md)`, name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = "basicAuth")` |
 
 ### Properties
 
@@ -25,7 +25,6 @@ Checks the presence of basic auth credentials. Filter returns 401 if auth fails.
 |---|---|
 | [and](../and.md) | `fun `[`Security`](../-security/index.md)`.and(that: `[`Security`](../-security/index.md)`): `[`Security`](../-security/index.md) |
 | [or](../or.md) | `fun `[`Security`](../-security/index.md)`.or(that: `[`Security`](../-security/index.md)`): `[`Security`](../-security/index.md) |
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
 
 ### Companion Object Extension Properties
 

@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`Components(schemas: `[`NODE`](index.md#NODE)`, securitySchemes: `[`NODE`](index.md#NODE)`)`
+`Components(schemas: NODE, securitySchemes: NODE)`

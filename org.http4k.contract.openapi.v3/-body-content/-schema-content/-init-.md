@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`SchemaContent(jsonSchema: `[`JsonSchema`](../../../org.http4k.util/-json-schema/index.md)`<`[`NODE`](index.md#NODE)`>?, example: `[`NODE`](index.md#NODE)`?)`
+`SchemaContent(jsonSchema: `[`JsonSchema`](../../../org.http4k.util/-json-schema/index.md)`<NODE>?, example: NODE?)`

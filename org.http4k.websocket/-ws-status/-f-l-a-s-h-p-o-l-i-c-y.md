@@ -2,4 +2,4 @@
 
 # FLASHPOLICY
 
-`val FLASHPOLICY: `[`WsStatus`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/websocket/WsStatus.kt#L19)
+`val FLASHPOLICY: `[`WsStatus`](index.md)

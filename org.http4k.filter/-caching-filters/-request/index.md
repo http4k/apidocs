@@ -2,7 +2,7 @@
 
 # Request
 
-`object Request` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/CachingFilters.kt#L43)
+`object Request`
 
 These filters operate on Requests (pre-flight)
 

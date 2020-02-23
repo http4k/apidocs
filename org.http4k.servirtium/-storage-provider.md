@@ -2,10 +2,10 @@
 
 # StorageProvider
 
-`typealias StorageProvider = (`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`) -> `[`InteractionStorage`](-interaction-storage/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-servirtium/src/main/kotlin/org/http4k/servirtium/InteractionStorage.kt#L8)
+`typealias StorageProvider = (`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`) -> `[`InteractionStorage`](-interaction-storage/index.md)
 
 ### Inheritors
 
 | Name | Summary |
 |---|---|
-| [GitHub](-git-hub/index.md) | `class GitHub : `[`StorageProvider`](./-storage-provider.md)<br>Read a file from a repository using the GitHub API. |
+| [GitHub](-git-hub/index.md) | Read a file from a repository using the GitHub API.`class GitHub : `[`StorageProvider`](./-storage-provider.md) |

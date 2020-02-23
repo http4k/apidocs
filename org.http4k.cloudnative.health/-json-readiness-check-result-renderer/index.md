@@ -2,7 +2,7 @@
 
 # JsonReadinessCheckResultRenderer
 
-`object JsonReadinessCheckResultRenderer` [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/health/ReadinessCheckResultRenderer.kt#L33)
+`object JsonReadinessCheckResultRenderer`
 
 Reporting of ReadinessCheckResults in a JSON tree
 
@@ -10,10 +10,4 @@ Reporting of ReadinessCheckResults in a JSON tree
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `operator fun <NODE> invoke(json: `[`Json`](../../org.http4k.format/-json/index.md)`<`[`NODE`](invoke.md#NODE)`>): `[`ReadinessCheckResultRenderer`](../-readiness-check-result-renderer/index.md) |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
+| [invoke](invoke.md) | `operator fun <NODE> invoke(json: `[`Json`](../../org.http4k.format/-json/index.md)`<NODE>): `[`ReadinessCheckResultRenderer`](../-readiness-check-result-renderer/index.md) |

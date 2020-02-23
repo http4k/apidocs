@@ -7,18 +7,13 @@
 | Name | Summary |
 |---|---|
 | [AutoJsonEvents](-auto-json-events/index.md) | `object AutoJsonEvents` |
-| [Event](-event/index.md) | `interface Event`<br>Represents a meaningful "happening" in an app. |
+| [Event](-event/index.md) | Represents a meaningful "happening" in an app.`interface Event` |
 | [EventCategory](-event-category/index.md) | `data class EventCategory` |
-| [EventFilter](-event-filter/index.md) | `interface EventFilter : (`[`Events`](-events.md)`) -> `[`Events`](-events.md)<br>An EventFilter is used to create pipelines for Event processing. |
-| [EventFilters](-event-filters/index.md) | `object EventFilters`<br>Useful EventFilters used in building event processing pipelines to add various types of metadata to the events |
-| [MetadataEvent](-metadata-event/index.md) | `class MetadataEvent : `[`Event`](-event/index.md) |
-
-### Type Aliases
-
-| Name | Summary |
-|---|---|
+| [EventFilter](-event-filter/index.md) | An EventFilter is used to create pipelines for Event processing.`interface EventFilter : (`[`Events`](-events.md)`) -> `[`Events`](-events.md) |
+| [EventFilters](-event-filters/index.md) | Useful EventFilters used in building event processing pipelines to add various types of metadata to the events`object EventFilters` |
 | [Events](-events.md) | `typealias Events = (`[`Event`](-event/index.md)`) -> `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 | [EventsFilter](-events-filter.md) | `typealias ~~EventsFilter~~ = `[`EventFilter`](-event-filter/index.md) |
+| [MetadataEvent](-metadata-event/index.md) | `class MetadataEvent : `[`Event`](-event/index.md) |
 
 ### Extensions for External Classes
 
@@ -30,5 +25,5 @@
 
 | Name | Summary |
 |---|---|
-| [plus](plus.md) | `operator fun `[`Event`](-event/index.md)`.plus(that: `[`Pair`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`>): `[`Event`](-event/index.md)<br>Attach some metadata to this event |
+| [plus](plus.md) | Attach some metadata to this event`operator fun `[`Event`](-event/index.md)`.plus(that: `[`Pair`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`>): `[`Event`](-event/index.md) |
 | [then](then.md) | `fun `[`EventFilter`](-event-filter/index.md)`.then(next: `[`EventFilter`](-event-filter/index.md)`): `[`EventFilter`](-event-filter/index.md)<br>`fun `[`EventFilter`](-event-filter/index.md)`.then(next: `[`Events`](-events.md)`): `[`Events`](-events.md) |

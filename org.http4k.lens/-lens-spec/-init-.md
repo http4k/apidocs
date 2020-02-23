@@ -2,7 +2,7 @@
 
 # &lt;init&gt;
 
-`LensSpec(location: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, paramMeta: `[`ParamMeta`](../-param-meta/index.md)`, get: `[`LensGet`](../-lens-get/index.md)`<`[`IN`](index.md#IN)`, `[`OUT`](index.md#OUT)`>)`
+`LensSpec(location: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, paramMeta: `[`ParamMeta`](../-param-meta/index.md)`, get: `[`LensGet`](../-lens-get/index.md)`<IN, OUT>)`
 
 Represents a uni-directional extraction of an entity from a target.
 

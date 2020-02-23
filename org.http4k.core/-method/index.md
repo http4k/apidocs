@@ -2,7 +2,7 @@
 
 # Method
 
-`enum class Method` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/http.kt#L159)
+`enum class Method`
 
 ### Enum Values
 
@@ -17,9 +17,3 @@
 | [PATCH](-p-a-t-c-h.md) |  |
 | [PURGE](-p-u-r-g-e.md) |  |
 | [HEAD](-h-e-a-d.md) |  |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../with.md) | `fun <T> `[`T`](../with.md#T)`.with(vararg modifiers: (`[`T`](../with.md#T)`) -> `[`T`](../with.md#T)`): `[`T`](../with.md#T) |

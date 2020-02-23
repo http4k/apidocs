@@ -2,6 +2,6 @@
 
 # OpenApi
 
-`typealias ~~OpenApi~~<NODE> = `[`OpenApi2`](../org.http4k.contract.openapi.v2/-open-api2/index.md)`<`[`NODE`](-open-api.md#NODE)`>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/contract/deprecatedContract.kt#L18)
+`typealias ~~OpenApi~~<NODE> = `[`OpenApi2`](../org.http4k.contract.openapi.v2/-open-api2/index.md)`<NODE>`
 **Deprecated:** use repackaged version
 

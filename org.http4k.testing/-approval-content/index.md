@@ -2,7 +2,7 @@
 
 # ApprovalContent
 
-`interface ApprovalContent` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-approval/src/main/kotlin/org/http4k/testing/ApprovalContent.kt#L9)
+`interface ApprovalContent`
 
 Determines which parts of the HttpMessage will be compared.
 
@@ -18,9 +18,3 @@ Determines which parts of the HttpMessage will be compared.
 |---|---|
 | [EntireHttpMessage](-entire-http-message.md) | `fun EntireHttpMessage(): `[`ApprovalContent`](./index.md) |
 | [HttpBodyOnly](-http-body-only.md) | `fun HttpBodyOnly(formatter: (`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`) -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = { it }): `[`ApprovalContent`](./index.md) |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

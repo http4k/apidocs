@@ -2,7 +2,4 @@
 
 # bool
 
-`open fun bool(value: <ERROR CLASS>): <ERROR CLASS>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-format-kotlinx-serialization/src/main/kotlin/org/http4k/format/ConfigurableKotlinxSerialization.kt#L76)
-
-Overrides [Json.bool](../-json/bool.md)
-
+`open fun bool(value: JsonElement): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)

@@ -2,4 +2,4 @@
 
 # staleWhenRevalidateTtl
 
-`val staleWhenRevalidateTtl: `[`StaleWhenRevalidateTtl`](../-stale-when-revalidate-ttl/index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/filter/CachingFilters.kt#L33)
+`val staleWhenRevalidateTtl: `[`StaleWhenRevalidateTtl`](../-stale-when-revalidate-ttl/index.md)

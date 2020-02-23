@@ -2,22 +2,16 @@
 
 # ChaosTriggers
 
-`object ChaosTriggers` [(source)](https://github.com/http4k/http4k/blob/master/http4k-testing-chaos/src/main/kotlin/org/http4k/chaos/ChaosTriggers.kt#L46)
+`object ChaosTriggers`
 
 ### Types
 
 | Name | Summary |
 |---|---|
-| [Always](-always/index.md) | `object Always`<br>Applies to every transaction. |
-| [Countdown](-countdown/index.md) | `object Countdown`<br>Activates for a maximum number of calls. |
-| [Deadline](-deadline/index.md) | `object Deadline`<br>Activates after a particular instant in time. |
-| [Delay](-delay/index.md) | `object Delay`<br>Activates after a particular delay (compared to instantiation). |
-| [MatchRequest](-match-request/index.md) | `object MatchRequest`<br>Activates when matching attributes of a single received request are met. |
-| [Once](-once/index.md) | `object Once`<br>Single application predicated on the ChaosTrigger. Further matches don't apply |
-| [PercentageBased](-percentage-based/index.md) | `object PercentageBased`<br>Applies n% of the time, based on result of a Random. |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
+| [Always](-always/index.md) | Applies to every transaction.`object Always` |
+| [Countdown](-countdown/index.md) | Activates for a maximum number of calls.`object Countdown` |
+| [Deadline](-deadline/index.md) | Activates after a particular instant in time.`object Deadline` |
+| [Delay](-delay/index.md) | Activates after a particular delay (compared to instantiation).`object Delay` |
+| [MatchRequest](-match-request/index.md) | Activates when matching attributes of a single received request are met.`object MatchRequest` |
+| [Once](-once/index.md) | Single application predicated on the ChaosTrigger. Further matches don't apply`object Once` |
+| [PercentageBased](-percentage-based/index.md) | Applies n% of the time, based on result of a Random.`object PercentageBased` |

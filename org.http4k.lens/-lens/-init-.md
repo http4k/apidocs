@@ -2,7 +2,7 @@
 
 # &lt;init&gt;
 
-`Lens(meta: `[`Meta`](../-meta/index.md)`, lensGet: (`[`IN`](index.md#IN)`) -> `[`FINAL`](index.md#FINAL)`)`
+`Lens(meta: `[`Meta`](../-meta/index.md)`, lensGet: (IN) -> FINAL)`
 
 A Lens provides the uni-directional extraction of an entity from a target.
 

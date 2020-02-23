@@ -2,25 +2,19 @@
 
 # JsonSchemaCreator
 
-`interface JsonSchemaCreator<IN, OUT>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-contract/src/main/kotlin/org/http4k/util/JsonSchemaCreator.kt#L3)
+`interface JsonSchemaCreator<IN, OUT>`
 
 ### Functions
 
 | Name | Summary |
 |---|---|
-| [toSchema](to-schema.md) | `abstract fun toSchema(obj: `[`IN`](index.md#IN)`, overrideDefinitionId: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`? = null): `[`JsonSchema`](../-json-schema/index.md)`<`[`OUT`](index.md#OUT)`>` |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |
+| [toSchema](to-schema.md) | `abstract fun toSchema(obj: IN, overrideDefinitionId: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`? = null): `[`JsonSchema`](../-json-schema/index.md)`<OUT>` |
 
 ### Inheritors
 
 | Name | Summary |
 |---|---|
-| [ApiRenderer](../../org.http4k.contract.openapi/-api-renderer/index.md) | `interface ApiRenderer<API, NODE> : `[`JsonSchemaCreator`](./index.md)`<`[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`, `[`NODE`](../../org.http4k.contract.openapi/-api-renderer/index.md#NODE)`>`<br>Renders the contract contents in OpenApi JSON format. |
-| [AutoJsonToJsonSchema](../../org.http4k.contract.openapi.v3/-auto-json-to-json-schema/index.md) | `class AutoJsonToJsonSchema<NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`JsonSchemaCreator`](./index.md)`<`[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`, `[`NODE`](../../org.http4k.contract.openapi.v3/-auto-json-to-json-schema/index.md#NODE)`>` |
-| [JsonToJsonSchema](../../org.http4k.contract.openapi.v2/-json-to-json-schema/index.md) | `class JsonToJsonSchema<NODE> : `[`JsonSchemaCreator`](./index.md)`<`[`NODE`](../../org.http4k.contract.openapi.v2/-json-to-json-schema/index.md#NODE)`, `[`NODE`](../../org.http4k.contract.openapi.v2/-json-to-json-schema/index.md#NODE)`>` |
-| [JsonToJsonSchema](../../org.http4k.contract.openapi.v3/-json-to-json-schema/index.md) | `class JsonToJsonSchema<NODE> : `[`JsonSchemaCreator`](./index.md)`<`[`NODE`](../../org.http4k.contract.openapi.v3/-json-to-json-schema/index.md#NODE)`, `[`NODE`](../../org.http4k.contract.openapi.v3/-json-to-json-schema/index.md#NODE)`>` |
+| [ApiRenderer](../../org.http4k.contract.openapi/-api-renderer/index.md) | Renders the contract contents in OpenApi JSON format.`interface ApiRenderer<API, NODE> : `[`JsonSchemaCreator`](./index.md)`<`[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`, NODE>` |
+| [AutoJsonToJsonSchema](../../org.http4k.contract.openapi.v3/-auto-json-to-json-schema/index.md) | `class AutoJsonToJsonSchema<NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`JsonSchemaCreator`](./index.md)`<`[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`, NODE>` |
+| [JsonToJsonSchema](../../org.http4k.contract.openapi.v2/-json-to-json-schema/index.md) | `class JsonToJsonSchema<NODE> : `[`JsonSchemaCreator`](./index.md)`<NODE, NODE>` |
+| [JsonToJsonSchema](../../org.http4k.contract.openapi.v3/-json-to-json-schema/index.md) | `class JsonToJsonSchema<NODE> : `[`JsonSchemaCreator`](./index.md)`<NODE, NODE>` |

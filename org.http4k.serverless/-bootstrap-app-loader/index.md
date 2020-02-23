@@ -2,7 +2,7 @@
 
 # BootstrapAppLoader
 
-`object BootstrapAppLoader : `[`AppLoaderWithContexts`](../-app-loader-with-contexts.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-serverless-lambda/src/main/kotlin/org/http4k/serverless/BootstrapAppLoader.kt#L6)
+`object BootstrapAppLoader : `[`AppLoaderWithContexts`](../-app-loader-with-contexts.md)
 
 ### Properties
 
@@ -15,9 +15,3 @@
 | Name | Summary |
 |---|---|
 | [invoke](invoke.md) | `fun invoke(environment: `[`Map`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>, contexts: `[`RequestContexts`](../../org.http4k.core/-request-contexts/index.md)`): `[`HttpHandler`](../../org.http4k.core/-http-handler.md) |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../../org.http4k.core/with.md) | `fun <T> `[`T`](../../org.http4k.core/with.md#T)`.with(vararg modifiers: (`[`T`](../../org.http4k.core/with.md#T)`) -> `[`T`](../../org.http4k.core/with.md#T)`): `[`T`](../../org.http4k.core/with.md#T) |

@@ -2,4 +2,4 @@
 
 # nonceFromIdToken
 
-`abstract fun nonceFromIdToken(idToken: `[`IdToken`](../-id-token/index.md)`): `[`Nonce`](../-nonce/index.md)`?` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/openid/IdTokenConsumer.kt#L4)
+`abstract fun nonceFromIdToken(idToken: `[`IdToken`](../-id-token/index.md)`): `[`Nonce`](../-nonce/index.md)`?`

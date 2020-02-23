@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`FormContent(schema: `[`BodyContent.FormContent.FormSchema`](-form-schema/index.md)`)`
+`FormContent(schema: FormSchema)`

@@ -2,5 +2,5 @@
 
 # yearMonth
 
-`fun <IN : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> `[`BiDiLensSpec`](-bi-di-lens-spec/index.md)`<`[`IN`](year-month.md#IN)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>.yearMonth(): `[`BiDiLensSpec`](-bi-di-lens-spec/index.md)`<`[`IN`](year-month.md#IN)`, `[`YearMonth`](https://docs.oracle.com/javase/9/docs/api/java/time/YearMonth.html)`!>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/lensSpec.kt#L233)
-`fun `[`Path`](-path/index.md)`.yearMonth(): `[`BiDiPathLensSpec`](-bi-di-path-lens-spec/index.md)`<`[`YearMonth`](https://docs.oracle.com/javase/9/docs/api/java/time/YearMonth.html)`!>` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/lens/path.kt#L112)
+`fun <IN : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> `[`BiDiLensSpec`](-bi-di-lens-spec/index.md)`<IN, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>.yearMonth(): `[`BiDiLensSpec`](-bi-di-lens-spec/index.md)`<IN, `[`YearMonth`](https://docs.oracle.com/javase/9/docs/api/java/time/YearMonth.html)`!>`
+`fun `[`Path`](-path/index.md)`.yearMonth(): `[`BiDiPathLensSpec`](-bi-di-path-lens-spec/index.md)`<`[`YearMonth`](https://docs.oracle.com/javase/9/docs/api/java/time/YearMonth.html)`!>`

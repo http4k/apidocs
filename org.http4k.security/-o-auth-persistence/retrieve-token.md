@@ -2,7 +2,7 @@
 
 # retrieveToken
 
-`abstract fun retrieveToken(request: `[`Request`](../../org.http4k.core/-request/index.md)`): `[`AccessToken`](../-access-token/index.md)`?` [(source)](https://github.com/http4k/http4k/blob/master/http4k-security-oauth/src/main/kotlin/org/http4k/security/OAuthPersistence.kt#L46)
+`abstract fun retrieveToken(request: `[`Request`](../../org.http4k.core/-request/index.md)`): `[`AccessToken`](../-access-token/index.md)`?`
 
 Retrieve the stored AccessToken token for this user request
 

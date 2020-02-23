@@ -2,7 +2,7 @@
 
 # UriTemplate
 
-`data class UriTemplate` [(source)](https://github.com/http4k/http4k/blob/master/http4k-core/src/main/kotlin/org/http4k/core/UriTemplate.kt#L8)
+`data class UriTemplate`
 
 ### Functions
 
@@ -19,9 +19,3 @@
 |---|---|
 | [from](from.md) | `fun from(template: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`UriTemplate`](./index.md) |
 | [trimSlashes](trim-slashes.md) | `fun `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`.trimSlashes(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
-
-### Extension Functions
-
-| Name | Summary |
-|---|---|
-| [with](../with.md) | `fun <T> `[`T`](../with.md#T)`.with(vararg modifiers: (`[`T`](../with.md#T)`) -> `[`T`](../with.md#T)`): `[`T`](../with.md#T) |

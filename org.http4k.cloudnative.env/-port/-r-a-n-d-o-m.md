@@ -2,4 +2,4 @@
 
 # RANDOM
 
-`val RANDOM: `[`Port`](index.md) [(source)](https://github.com/http4k/http4k/blob/master/http4k-cloudnative/src/main/kotlin/org/http4k/cloudnative/env/Port.kt#L9)
+`val RANDOM: `[`Port`](index.md)

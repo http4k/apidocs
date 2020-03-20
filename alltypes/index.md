@@ -1220,6 +1220,16 @@ Exposed to allow for insertion into a customised Apache WebServer instance
 
 |
 
+##### [org.http4k.server.Http4kWebSocketAdapter](../org.http4k.server/-http4k-web-socket-adapter/index.md)
+
+
+|
+
+##### [org.http4k.server.Http4kWebSocketListener](../org.http4k.server/-http4k-web-socket-listener/index.md)
+
+
+|
+
 ##### [org.http4k.core.HttpHandler](../org.http4k.core/-http-handler.md)
 
 

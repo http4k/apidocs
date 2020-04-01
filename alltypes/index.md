@@ -2349,6 +2349,11 @@ Provides matching of a Request to an HttpHandler which can service it.
 
 |
 
+##### [org.http4k.routing.RouterMatch](../org.http4k.routing/-router-match/index.md)
+
+
+|
+
 ##### [org.http4k.routing.RoutingHttpHandler](../org.http4k.routing/-routing-http-handler/index.md)
 
 Composite HttpHandler which can potentially service many different URL patterns. Should

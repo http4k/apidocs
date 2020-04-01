@@ -2,7 +2,7 @@
 
 # match
 
-`fun match(request: `[`Request`](../../org.http4k.core/-request/index.md)`): `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`?`
+`fun match(request: `[`Request`](../../org.http4k.core/-request/index.md)`): `[`RouterMatch`](../../org.http4k.routing/-router-match/index.md)
 
 Attempt to supply an HttpHandler which can service the passed request.
 

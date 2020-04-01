@@ -10,7 +10,7 @@ Provides matching of a Request to an HttpHandler which can service it.
 
 | Name | Summary |
 |---|---|
-| [match](match.md) | Attempt to supply an HttpHandler which can service the passed request.`abstract fun match(request: `[`Request`](../../org.http4k.core/-request/index.md)`): `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`?` |
+| [match](match.md) | Attempt to supply an HttpHandler which can service the passed request.`abstract fun match(request: `[`Request`](../../org.http4k.core/-request/index.md)`): `[`RouterMatch`](../-router-match/index.md) |
 
 ### Inheritors
 

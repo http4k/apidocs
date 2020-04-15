@@ -4,11 +4,17 @@
 
 `class AuthRequestWithRequestAuthRequestExtractor : `[`AuthRequestExtractor`](../-auth-request-extractor/index.md)
 
+### Types
+
+| Name | Summary |
+|---|---|
+| [CombineAuthRequestRequestStrategy](-combine-auth-request-request-strategy/index.md) | `sealed class CombineAuthRequestRequestStrategy` |
+
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `AuthRequestWithRequestAuthRequestExtractor(requestJWTValidator: `[`RequestJWTValidator`](../../org.http4k.security.oauth.server.request/-request-j-w-t-validator/index.md)`)` |
+| [&lt;init&gt;](-init-.md) | `AuthRequestWithRequestAuthRequestExtractor(requestJWTValidator: `[`RequestJWTValidator`](../../org.http4k.security.oauth.server.request/-request-j-w-t-validator/index.md)`, combineAuthRequestRequestStrategy: CombineAuthRequestRequestStrategy)` |
 
 ### Functions
 

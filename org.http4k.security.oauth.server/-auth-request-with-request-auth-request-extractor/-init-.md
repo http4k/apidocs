@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`AuthRequestWithRequestAuthRequestExtractor(requestJWTValidator: `[`RequestJWTValidator`](../../org.http4k.security.oauth.server.request/-request-j-w-t-validator/index.md)`)`
+`AuthRequestWithRequestAuthRequestExtractor(requestJWTValidator: `[`RequestJWTValidator`](../../org.http4k.security.oauth.server.request/-request-j-w-t-validator/index.md)`, combineAuthRequestRequestStrategy: CombineAuthRequestRequestStrategy)`

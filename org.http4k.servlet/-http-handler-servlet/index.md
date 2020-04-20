@@ -4,11 +4,13 @@
 
 `class HttpHandlerServlet : HttpServlet`
 
+Simple servlet which wraps an http4k HttpHandler
+
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `HttpHandlerServlet(handler: `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`)` |
+| [&lt;init&gt;](-init-.md) | Simple servlet which wraps an http4k HttpHandler`HttpHandlerServlet(handler: `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`)` |
 
 ### Functions
 

@@ -8,7 +8,8 @@ Code for mounting http4k applications into Servlet containers.
 
 | Name | Summary |
 |---|---|
-| [HttpHandlerServlet](-http-handler-servlet/index.md) | `class HttpHandlerServlet : HttpServlet` |
+| [Http4kServletAdapter](-http4k-servlet-adapter/index.md) | Adapts between the Servlet and http4k APIs`class Http4kServletAdapter` |
+| [HttpHandlerServlet](-http-handler-servlet/index.md) | Simple servlet which wraps an http4k HttpHandler`class HttpHandlerServlet : HttpServlet` |
 
 ### Extensions for External Classes
 

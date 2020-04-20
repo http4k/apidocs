@@ -1215,6 +1215,13 @@ Exposed to allow for insertion into a customised Apache WebServer instance
 
 |
 
+##### [org.http4k.servlet.Http4kServletAdapter](../org.http4k.servlet/-http4k-servlet-adapter/index.md)
+
+Adapts between the Servlet and http4k APIs
+
+
+|
+
 ##### [org.http4k.webdriver.Http4kWebDriver](../org.http4k.webdriver/-http4k-web-driver/index.md)
 
 
@@ -1236,6 +1243,8 @@ Exposed to allow for insertion into a customised Apache WebServer instance
 |
 
 ##### [org.http4k.servlet.HttpHandlerServlet](../org.http4k.servlet/-http-handler-servlet/index.md)
+
+Simple servlet which wraps an http4k HttpHandler
 
 
 |

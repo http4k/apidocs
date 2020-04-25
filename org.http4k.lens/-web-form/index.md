@@ -23,3 +23,9 @@
 |---|---|
 | [minus](minus.md) | `operator fun minus(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`WebForm`](./index.md) |
 | [plus](plus.md) | `operator fun plus(kv: `[`Pair`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>): `[`WebForm`](./index.md) |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun `[`WebForm`](./index.md)`.with(vararg modifiers: (`[`WebForm`](./index.md)`) -> `[`WebForm`](./index.md)`): `[`WebForm`](./index.md) |

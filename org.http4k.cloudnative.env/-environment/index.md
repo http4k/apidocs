@@ -40,6 +40,12 @@ which contain commas, otherwise singular environment keys will just retrieve the
 | [from](from.md) | Load configuration from standard Properties file format on disk`fun from(file: `[`File`](https://docs.oracle.com/javase/9/docs/api/java/io/File.html)`): `[`Environment`](./index.md)`fun from(vararg pairs: `[`Pair`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>): `[`Environment`](./index.md) |
 | [fromResource](from-resource.md) | Load configuration from standard Properties file format on classpath`fun fromResource(resource: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Environment`](./index.md) |
 
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun `[`Environment`](./index.md)`.with(vararg modifiers: (`[`Environment`](./index.md)`) -> `[`Environment`](./index.md)`): `[`Environment`](./index.md) |
+
 ### Inheritors
 
 | Name | Summary |

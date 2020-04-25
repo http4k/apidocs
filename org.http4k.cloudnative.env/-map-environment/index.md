@@ -24,3 +24,9 @@
 | Name | Summary |
 |---|---|
 | [from](from.md) | `fun from(properties: `[`Properties`](https://docs.oracle.com/javase/9/docs/api/java/util/Properties.html)`, separator: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = ","): `[`Environment`](../-environment/index.md)<br>`fun from(reader: `[`Reader`](https://docs.oracle.com/javase/9/docs/api/java/io/Reader.html)`, separator: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = ","): `[`Environment`](../-environment/index.md) |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun `[`Environment`](../-environment/index.md)`.with(vararg modifiers: (`[`Environment`](../-environment/index.md)`) -> `[`Environment`](../-environment/index.md)`): `[`Environment`](../-environment/index.md) |

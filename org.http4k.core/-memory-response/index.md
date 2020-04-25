@@ -53,3 +53,4 @@
 | [replaceCookie](../../org.http4k.core.cookie/replace-cookie.md) | `fun `[`Response`](../-response/index.md)`.replaceCookie(cookie: `[`Cookie`](../../org.http4k.core.cookie/-cookie/index.md)`): `[`Response`](../-response/index.md) |
 | [staleIfError](../stale-if-error.md) | `fun `[`Response`](../-response/index.md)`.staleIfError(duration: `[`Duration`](https://docs.oracle.com/javase/9/docs/api/java/time/Duration.html)`): `[`Response`](../-response/index.md) |
 | [staleWhileRevalidate](../stale-while-revalidate.md) | `fun `[`Response`](../-response/index.md)`.staleWhileRevalidate(duration: `[`Duration`](https://docs.oracle.com/javase/9/docs/api/java/time/Duration.html)`): `[`Response`](../-response/index.md) |
+| [with](../with.md) | `fun <T : `[`HttpMessage`](../-http-message/index.md)`> T.with(vararg modifiers: (T) -> T): T` |

@@ -53,3 +53,4 @@
 | [path](../../org.http4k.routing/path.md) | `fun `[`Request`](../-request/index.md)`.path(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |
 | [removeCookie](../../org.http4k.core.cookie/remove-cookie.md) | `fun `[`Request`](../-request/index.md)`.removeCookie(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Request`](../-request/index.md) |
 | [toCurl](../to-curl.md) | `fun `[`Request`](../-request/index.md)`.toCurl(truncateBodyLength: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)` = 256): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [with](../with.md) | `fun <T : `[`HttpMessage`](../-http-message/index.md)`> T.with(vararg modifiers: (T) -> T): T` |

@@ -26,3 +26,9 @@
 | [minusField](minus-field.md) | `fun minusField(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`MultipartForm`](./index.md) |
 | [minusFile](minus-file.md) | `fun minusFile(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`MultipartForm`](./index.md) |
 | [plus](plus.md) | `operator fun plus(kv: `[`Pair`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>): `[`MultipartForm`](./index.md)<br>`operator fun plus(kv: `[`Pair`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`MultipartFormField`](../-multipart-form-field/index.md)`>): `[`MultipartForm`](./index.md)<br>`operator fun plus(kv: `[`Pair`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`MultipartFormFile`](../-multipart-form-file/index.md)`>): `[`MultipartForm`](./index.md) |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [with](../../org.http4k.core/with.md) | `fun `[`MultipartForm`](./index.md)`.with(vararg modifiers: (`[`MultipartForm`](./index.md)`) -> `[`MultipartForm`](./index.md)`): `[`MultipartForm`](./index.md) |

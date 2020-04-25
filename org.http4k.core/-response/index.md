@@ -49,6 +49,7 @@
 | [replaceCookie](../../org.http4k.core.cookie/replace-cookie.md) | `fun `[`Response`](./index.md)`.replaceCookie(cookie: `[`Cookie`](../../org.http4k.core.cookie/-cookie/index.md)`): `[`Response`](./index.md) |
 | [staleIfError](../stale-if-error.md) | `fun `[`Response`](./index.md)`.staleIfError(duration: `[`Duration`](https://docs.oracle.com/javase/9/docs/api/java/time/Duration.html)`): `[`Response`](./index.md) |
 | [staleWhileRevalidate](../stale-while-revalidate.md) | `fun `[`Response`](./index.md)`.staleWhileRevalidate(duration: `[`Duration`](https://docs.oracle.com/javase/9/docs/api/java/time/Duration.html)`): `[`Response`](./index.md) |
+| [with](../with.md) | `fun <T : `[`HttpMessage`](../-http-message/index.md)`> T.with(vararg modifiers: (T) -> T): T` |
 
 ### Companion Object Extension Functions
 

@@ -2,7 +2,13 @@
 
 # JacksonJsonNamingAnnotated
 
-`object JacksonJsonNamingAnnotated : `[`FieldRetrieval`](../-field-retrieval/index.md)
+`class JacksonJsonNamingAnnotated : `[`FieldRetrieval`](../-field-retrieval/index.md)
+
+### Constructors
+
+| Name | Summary |
+|---|---|
+| [&lt;init&gt;](-init-.md) | `JacksonJsonNamingAnnotated(json: `[`ConfigurableJackson`](../../org.http4k.format/-configurable-jackson/index.md)` = Jackson)` |
 
 ### Functions
 

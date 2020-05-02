@@ -2,7 +2,13 @@
 
 # SimpleLookup
 
-`object SimpleLookup : `[`FieldRetrieval`](../-field-retrieval/index.md)
+`class SimpleLookup : `[`FieldRetrieval`](../-field-retrieval/index.md)
+
+### Constructors
+
+| Name | Summary |
+|---|---|
+| [&lt;init&gt;](-init-.md) | `SimpleLookup(renamingStrategy: (`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`) -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = { it })` |
 
 ### Functions
 

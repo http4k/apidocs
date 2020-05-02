@@ -14,7 +14,7 @@
 | [Field](-field/index.md) | `data class Field` |
 | [FieldRetrieval](-field-retrieval/index.md) | `interface FieldRetrieval : (`[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`) -> `[`Field`](-field/index.md) |
 | [HasSchema](-has-schema/index.md) | `interface HasSchema<NODE>` |
-| [JacksonJsonNamingAnnotated](-jackson-json-naming-annotated/index.md) | `object JacksonJsonNamingAnnotated : `[`FieldRetrieval`](-field-retrieval/index.md) |
+| [JacksonJsonNamingAnnotated](-jackson-json-naming-annotated/index.md) | `class JacksonJsonNamingAnnotated : `[`FieldRetrieval`](-field-retrieval/index.md) |
 | [JacksonJsonPropertyAnnotated](-jackson-json-property-annotated/index.md) | `object JacksonJsonPropertyAnnotated : `[`FieldRetrieval`](-field-retrieval/index.md) |
 | [JsonToJsonSchema](-json-to-json-schema/index.md) | `class JsonToJsonSchema<NODE> : `[`JsonSchemaCreator`](../org.http4k.util/-json-schema-creator/index.md)`<NODE, NODE>` |
 | [OpenApi3](-open-api3/index.md) | Contract renderer for OpenApi3 format JSON. For the JSON schema generation, naming of object models will default to either reflective or hashcode based depending on if a Auto Json is passed.`class OpenApi3<NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`ContractRenderer`](../org.http4k.contract/-contract-renderer/index.md)`, `[`ErrorResponseRenderer`](../org.http4k.contract/-error-response-renderer/index.md) |
@@ -23,7 +23,7 @@
 | [RequestParameter](-request-parameter/index.md) | `sealed class RequestParameter<NODE>` |
 | [ResponseContents](-response-contents/index.md) | `class ResponseContents<NODE> : `[`HasSchema`](-has-schema/index.md)`<NODE>` |
 | [SchemaModelNamer](-schema-model-namer/index.md) | `interface SchemaModelNamer : (`[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`) -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
-| [SimpleLookup](-simple-lookup/index.md) | `object SimpleLookup : `[`FieldRetrieval`](-field-retrieval/index.md) |
+| [SimpleLookup](-simple-lookup/index.md) | `class SimpleLookup : `[`FieldRetrieval`](-field-retrieval/index.md) |
 
 ### Exceptions
 
@@ -35,7 +35,6 @@
 
 | Name | Summary |
 |---|---|
-| [JacksonAnnotated](-jackson-annotated.md) | Composite strategies for handling Jackson annotations in field retreival`val JacksonAnnotated: `[`FieldRetrieval`](-field-retrieval/index.md) |
 | [OpenApi3SecurityRenderer](-open-api3-security-renderer.md) | Compose the supported Security models`val OpenApi3SecurityRenderer: `[`SecurityRenderer`](../org.http4k.contract.openapi/-security-renderer/index.md) |
 | [value](value.md) | `val `[`ParamMeta`](../org.http4k.lens/-param-meta/index.md)`.value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 

@@ -47,6 +47,9 @@ $dokka.location:org.http4k.format$asConfigurableXml(com.fasterxml.jackson.module
 $dokka.location:org.http4k.format$read(com.fasterxml.jackson.databind.ObjectMapper)org.http4k.format/com.fasterxml.jackson.databind.-object-mapper/read.md
 $dokka.location:org.http4k.format$read(com.google.gson.Gson)org.http4k.format/com.google.gson.-gson/read.md
 $dokka.location:org.http4k.format$write(com.fasterxml.jackson.databind.ObjectMapper)org.http4k.format/com.fasterxml.jackson.databind.-object-mapper/write.md
+$dokka.location:org.http4k.poet$addCodeBlocks(com.squareup.kotlinpoet.FunSpec.Builder, kotlin.collections.List((com.squareup.kotlinpoet.CodeBlock)))org.http4k.poet/com.squareup.kotlinpoet.-fun-spec.-builder/add-code-blocks.md
+$dokka.location:org.http4k.poet$buildFormatted(com.squareup.kotlinpoet.FileSpec.Builder)org.http4k.poet/com.squareup.kotlinpoet.-file-spec.-builder/build-formatted.md
+$dokka.location:org.http4k.poet$packageMember(kotlin.reflect.KClass((kotlin.Any)), kotlin.String)org.http4k.poet/kotlin.reflect.-k-class/package-member.md
 $dokka.location:org.http4k.routing$bind(kotlin.String, kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)))org.http4k.routing/kotlin.-string/bind.md
 $dokka.location:org.http4k.routing$bind(kotlin.String, kotlin.Function1((org.http4k.websocket.Websocket, kotlin.Unit)))org.http4k.routing/kotlin.-string/bind.md
 $dokka.location:org.http4k.routing$bind(kotlin.String, org.http4k.core.Method)org.http4k.routing/kotlin.-string/bind.md
@@ -92,6 +95,11 @@ org.http4k.jsonrpc
 org.http4k.junit
 org.http4k.lens
 org.http4k.multipart
+org.http4k.openapi
+org.http4k.openapi.client
+org.http4k.openapi.models
+org.http4k.openapi.server
+org.http4k.poet
 org.http4k.routing
 org.http4k.routing.experimental
 org.http4k.security

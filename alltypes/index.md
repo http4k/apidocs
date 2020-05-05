@@ -78,6 +78,11 @@ Provides a consistent way to generate access tokens.
 
 |
 
+##### [org.http4k.openapi.ApiGenerator](../org.http4k.openapi/-api-generator.md)
+
+
+|
+
 ##### [org.http4k.contract.ApiInfo](../org.http4k.contract/-api-info.md)
 
 
@@ -497,6 +502,16 @@ BodyMode represents a choice between working lazily with streams or eagerly stor
 ##### [com.squareup.moshi.Moshi.Builder](../org.http4k.format/com.squareup.moshi.-moshi.-builder/index.md)
 
 
+| (extensions in package org.http4k.poet)
+
+##### [com.squareup.kotlinpoet.FileSpec.Builder](../org.http4k.poet/com.squareup.kotlinpoet.-file-spec.-builder/index.md)
+
+
+| (extensions in package org.http4k.poet)
+
+##### [com.squareup.kotlinpoet.FunSpec.Builder](../org.http4k.poet/com.squareup.kotlinpoet.-fun-spec.-builder/index.md)
+
+
 | (extensions in package org.http4k)
 
 ##### [java.nio.ByteBuffer](../org.http4k/java.nio.-byte-buffer/index.md)
@@ -551,6 +566,11 @@ is deactivated, so activate() needs to be called to witness any change in behavi
 |
 
 ##### [org.http4k.security.oauth.server.request.Claims](../org.http4k.security.oauth.server.request/-claims/index.md)
+
+
+|
+
+##### [org.http4k.openapi.client.ClientApiGenerator](../org.http4k.openapi.client/-client-api-generator/index.md)
 
 
 |
@@ -613,6 +633,11 @@ Provides a consistent way to retrieve clients attempting to use an authorization
 |
 
 ##### [org.http4k.contract.openapi.v3.Components](../org.http4k.contract.openapi.v3/-components/index.md)
+
+
+|
+
+##### [org.http4k.openapi.ComponentsSpec](../org.http4k.openapi/-components-spec/index.md)
 
 
 |
@@ -1074,6 +1099,11 @@ have different fields).
 
 |
 
+##### [org.http4k.openapi.GenerationOptions](../org.http4k.openapi/-generation-options/index.md)
+
+
+|
+
 ##### [org.http4k.webdriver.GetURL](../org.http4k.webdriver/-get-u-r-l.md)
 
 
@@ -1304,6 +1334,11 @@ Exposed to allow for insertion into a customised Undertow server instance
 |
 
 ##### [org.http4k.contract.security.ImplicitOAuthSecurity](../org.http4k.contract.security/-implicit-o-auth-security/index.md)
+
+
+|
+
+##### [org.http4k.openapi.InfoSpec](../org.http4k.openapi/-info-spec/index.md)
 
 
 |
@@ -1556,6 +1591,11 @@ Reporting of ReadinessCheckResults in a JSON tree
 ##### [org.http4k.webdriver.JSoupWebElement](../org.http4k.webdriver/-j-soup-web-element/index.md)
 
 
+| (extensions in package org.http4k.poet)
+
+##### [kotlin.reflect.KClass](../org.http4k.poet/kotlin.reflect.-k-class/index.md)
+
+
 | (extensions in package org.http4k.format)
 
 ##### [com.fasterxml.jackson.module.kotlin.KotlinModule](../org.http4k.format/com.fasterxml.jackson.module.kotlin.-kotlin-module/index.md)
@@ -1735,6 +1775,11 @@ Utility class to decode MIME texts.
 |
 
 ##### [org.http4k.security.oauth.server.MissingRedirectUri](../org.http4k.security.oauth.server/-missing-redirect-uri.md)
+
+
+|
+
+##### [org.http4k.openapi.models.ModelApiGenerator](../org.http4k.openapi.models/-model-api-generator/index.md)
 
 
 |
@@ -1928,9 +1973,19 @@ Converts a API to OpenApi3 format JSON.
 
 |
 
+##### [org.http4k.openapi.OpenApi3Spec](../org.http4k.openapi/-open-api3-spec/index.md)
+
+
+|
+
 ##### [org.http4k.contract.openapi.OpenApiExtension](../org.http4k.contract.openapi/-open-api-extension/index.md)
 
 Provides a way to apply extensions to the OpenAPI JSON document.
+
+
+|
+
+##### [org.http4k.openapi.OpenApiJson](../org.http4k.openapi/-open-api-json.md)
 
 
 |
@@ -1948,6 +2003,11 @@ A simple parser intended to parse sequences of name/value pairs.
 |
 
 ##### [org.http4k.core.Parameters](../org.http4k.core/-parameters.md)
+
+
+|
+
+##### [org.http4k.openapi.ParameterSpec](../org.http4k.openapi/-parameter-spec/index.md)
 
 
 |
@@ -1989,6 +2049,11 @@ Represents a uni-directional extraction of an entity from a target path segment.
 
 |
 
+##### [org.http4k.openapi.PathSpec](../org.http4k.openapi/-path-spec/index.md)
+
+
+|
+
 ##### [org.http4k.filter.Payload](../org.http4k.filter/-payload/index.md)
 
 
@@ -2016,6 +2081,11 @@ ws:// and http:// protocol calls are passed relevantly.
 
 Determines which parts of the request should be pre-extracted to check for presence before being passed to the ultimate
 HttpHandler for this route. Choice will be determined by two competing scenarios:
+
+
+|
+
+##### [org.http4k.poet.Property](../org.http4k.poet/-property/index.md)
 
 
 |
@@ -2316,6 +2386,11 @@ Provides HTTP Handlers which respond using pre-stored Requests.
 
 |
 
+##### [org.http4k.openapi.ResponseSpec](../org.http4k.openapi/-response-spec/index.md)
+
+
+|
+
 ##### [org.http4k.security.ResponseType](../org.http4k.security/-response-type/index.md)
 
 
@@ -2391,6 +2466,11 @@ return a 404 Response if it cannot service a particular Request.
 
 |
 
+##### [org.http4k.openapi.SchemaSpec](../org.http4k.openapi/-schema-spec/index.md)
+
+
+|
+
 ##### [org.http4k.cloudnative.env.Secret](../org.http4k.cloudnative.env/-secret/index.md)
 
 A secret is a value which tries very hard not to expose itself as a string, by storing it's value in a byte array.
@@ -2414,6 +2494,11 @@ Endpoint security. Provides filter to be applied to endpoints for all requests.
 ##### [org.http4k.contract.openapi.SecurityRenderer](../org.http4k.contract.openapi/-security-renderer/index.md)
 
 Provides rendering of Security models in to OpenApi specs.
+
+
+|
+
+##### [org.http4k.openapi.server.ServerApiGenerator](../org.http4k.openapi.server/-server-api-generator/index.md)
 
 
 |

@@ -32,10 +32,10 @@
 | [org.http4k.junit](org.http4k.junit/index.md) |  |
 | [org.http4k.lens](org.http4k.lens/index.md) | Code relevant to extracting and injecting typesafe values into HTTP messages. |
 | [org.http4k.multipart](org.http4k.multipart/index.md) |  |
-| [org.http4k.openapi](org.http4k.openapi/index.md) |  |
-| [org.http4k.openapi.client](org.http4k.openapi.client/index.md) |  |
-| [org.http4k.openapi.models](org.http4k.openapi.models/index.md) |  |
-| [org.http4k.openapi.server](org.http4k.openapi.server/index.md) |  |
+| [org.http4k.openapi.v3](org.http4k.openapi.v3/index.md) |  |
+| [org.http4k.openapi.v3.client](org.http4k.openapi.v3.client/index.md) |  |
+| [org.http4k.openapi.v3.models](org.http4k.openapi.v3.models/index.md) |  |
+| [org.http4k.openapi.v3.server](org.http4k.openapi.v3.server/index.md) |  |
 | [org.http4k.poet](org.http4k.poet/index.md) |  |
 | [org.http4k.routing](org.http4k.routing/index.md) | Code for routing HTTP messages inside server implementations. |
 | [org.http4k.routing.experimental](org.http4k.routing.experimental/index.md) |  |

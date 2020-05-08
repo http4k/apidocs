@@ -2,4 +2,4 @@
 
 # lensConstruct
 
-`fun `[`ParameterSpec`](../org.http4k.openapi/-parameter-spec/index.md)`.lensConstruct(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)
+`fun `[`ParameterSpec`](../org.http4k.openapi.v3/-parameter-spec/index.md)`.lensConstruct(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)

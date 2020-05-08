@@ -56,4 +56,4 @@
 | Name | Summary |
 |---|---|
 | [Jackson](../-jackson.md) | To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called.`object Jackson : `[`ConfigurableJackson`](./index.md) |
-| [OpenApiJson](../../org.http4k.openapi/-open-api-json.md) | `object OpenApiJson : `[`ConfigurableJackson`](./index.md) |
+| [OpenApiJson](../../org.http4k.openapi.v3/-open-api-json.md) | `object OpenApiJson : `[`ConfigurableJackson`](./index.md) |

@@ -78,7 +78,7 @@ Provides a consistent way to generate access tokens.
 
 |
 
-##### [org.http4k.openapi.ApiGenerator](../org.http4k.openapi/-api-generator.md)
+##### [org.http4k.openapi.v3.ApiGenerator](../org.http4k.openapi.v3/-api-generator.md)
 
 
 |
@@ -570,7 +570,7 @@ is deactivated, so activate() needs to be called to witness any change in behavi
 
 |
 
-##### [org.http4k.openapi.client.ClientApiGenerator](../org.http4k.openapi.client/-client-api-generator/index.md)
+##### [org.http4k.openapi.v3.client.ClientApiGenerator](../org.http4k.openapi.v3.client/-client-api-generator/index.md)
 
 
 |
@@ -637,7 +637,7 @@ Provides a consistent way to retrieve clients attempting to use an authorization
 
 |
 
-##### [org.http4k.openapi.ComponentsSpec](../org.http4k.openapi/-components-spec/index.md)
+##### [org.http4k.openapi.v3.ComponentsSpec](../org.http4k.openapi.v3/-components-spec/index.md)
 
 
 |
@@ -1099,7 +1099,7 @@ have different fields).
 
 |
 
-##### [org.http4k.openapi.GenerationOptions](../org.http4k.openapi/-generation-options/index.md)
+##### [org.http4k.openapi.v3.GenerationOptions](../org.http4k.openapi.v3/-generation-options/index.md)
 
 
 |
@@ -1338,7 +1338,7 @@ Exposed to allow for insertion into a customised Undertow server instance
 
 |
 
-##### [org.http4k.openapi.InfoSpec](../org.http4k.openapi/-info-spec/index.md)
+##### [org.http4k.openapi.v3.InfoSpec](../org.http4k.openapi.v3/-info-spec/index.md)
 
 
 |
@@ -1727,6 +1727,11 @@ Represents a body that is backed by an in-memory ByteBuffer. Closing this has no
 
 |
 
+##### [org.http4k.openapi.v3.MessageBodySpec](../org.http4k.openapi.v3/-message-body-spec/index.md)
+
+
+|
+
 ##### [org.http4k.lens.Meta](../org.http4k.lens/-meta/index.md)
 
 
@@ -1779,7 +1784,7 @@ Utility class to decode MIME texts.
 
 |
 
-##### [org.http4k.openapi.models.ModelApiGenerator](../org.http4k.openapi.models/-model-api-generator/index.md)
+##### [org.http4k.openapi.v3.models.ModelApiGenerator](../org.http4k.openapi.v3.models/-model-api-generator/index.md)
 
 
 |
@@ -1973,7 +1978,7 @@ Converts a API to OpenApi3 format JSON.
 
 |
 
-##### [org.http4k.openapi.OpenApi3Spec](../org.http4k.openapi/-open-api3-spec/index.md)
+##### [org.http4k.openapi.v3.OpenApi3Spec](../org.http4k.openapi.v3/-open-api3-spec/index.md)
 
 
 |
@@ -1985,7 +1990,7 @@ Provides a way to apply extensions to the OpenAPI JSON document.
 
 |
 
-##### [org.http4k.openapi.OpenApiJson](../org.http4k.openapi/-open-api-json.md)
+##### [org.http4k.openapi.v3.OpenApiJson](../org.http4k.openapi.v3/-open-api-json.md)
 
 
 |
@@ -2007,7 +2012,7 @@ A simple parser intended to parse sequences of name/value pairs.
 
 |
 
-##### [org.http4k.openapi.ParameterSpec](../org.http4k.openapi/-parameter-spec/index.md)
+##### [org.http4k.openapi.v3.ParameterSpec](../org.http4k.openapi.v3/-parameter-spec/index.md)
 
 
 |
@@ -2049,7 +2054,7 @@ Represents a uni-directional extraction of an entity from a target path segment.
 
 |
 
-##### [org.http4k.openapi.PathSpec](../org.http4k.openapi/-path-spec/index.md)
+##### [org.http4k.openapi.v3.PathSpec](../org.http4k.openapi.v3/-path-spec/index.md)
 
 
 |
@@ -2243,6 +2248,11 @@ Provides a stream of traffic for replaying purposes.
 
 |
 
+##### [org.http4k.openapi.v3.RequestBodySpec](../org.http4k.openapi.v3/-request-body-spec/index.md)
+
+
+|
+
 ##### [org.http4k.contract.openapi.v3.RequestContents](../org.http4k.contract.openapi.v3/-request-contents/index.md)
 
 
@@ -2386,11 +2396,6 @@ Provides HTTP Handlers which respond using pre-stored Requests.
 
 |
 
-##### [org.http4k.openapi.ResponseSpec](../org.http4k.openapi/-response-spec/index.md)
-
-
-|
-
 ##### [org.http4k.security.ResponseType](../org.http4k.security/-response-type/index.md)
 
 
@@ -2466,7 +2471,7 @@ return a 404 Response if it cannot service a particular Request.
 
 |
 
-##### [org.http4k.openapi.SchemaSpec](../org.http4k.openapi/-schema-spec/index.md)
+##### [org.http4k.openapi.v3.SchemaSpec](../org.http4k.openapi.v3/-schema-spec/index.md)
 
 
 |
@@ -2498,7 +2503,7 @@ Provides rendering of Security models in to OpenApi specs.
 
 |
 
-##### [org.http4k.openapi.server.ServerApiGenerator](../org.http4k.openapi.server/-server-api-generator/index.md)
+##### [org.http4k.openapi.v3.server.ServerApiGenerator](../org.http4k.openapi.v3.server/-server-api-generator/index.md)
 
 
 |

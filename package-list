@@ -95,10 +95,10 @@ org.http4k.jsonrpc
 org.http4k.junit
 org.http4k.lens
 org.http4k.multipart
-org.http4k.openapi
-org.http4k.openapi.client
-org.http4k.openapi.models
-org.http4k.openapi.server
+org.http4k.openapi.v3
+org.http4k.openapi.v3.client
+org.http4k.openapi.v3.models
+org.http4k.openapi.v3.server
 org.http4k.poet
 org.http4k.routing
 org.http4k.routing.experimental

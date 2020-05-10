@@ -18,6 +18,7 @@ Common code relevant to HTTP server implementations.
 | [HttpUndertowHandler](-http-undertow-handler/index.md) | Exposed to allow for insertion into a customised Undertow server instance`class HttpUndertowHandler : HttpHandler` |
 | [Jetty](-jetty/index.md) | `class Jetty : `[`WsServerConfig`](-ws-server-config/index.md) |
 | [KtorCIO](-ktor-c-i-o/index.md) | `data class KtorCIO : `[`ServerConfig`](-server-config/index.md) |
+| [KtorNetty](-ktor-netty/index.md) | `data class KtorNetty : `[`ServerConfig`](-server-config/index.md) |
 | [Netty](-netty/index.md) | `data class Netty : `[`ServerConfig`](-server-config/index.md) |
 | [ServerConfig](-server-config/index.md) | Standard interface for creating a configured WebServer`interface ServerConfig` |
 | [SunHttp](-sun-http/index.md) | `data class SunHttp : `[`ServerConfig`](-server-config/index.md) |

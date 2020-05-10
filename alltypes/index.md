@@ -1616,6 +1616,11 @@ ConfigurableKotlinxSerialization.
 
 |
 
+##### [org.http4k.server.KtorNetty](../org.http4k.server/-ktor-netty/index.md)
+
+
+|
+
 ##### [org.http4k.serverless.lambda.LambdaFunction](../org.http4k.serverless.lambda/-lambda-function/index.md)
 
 This is the main entry point for the lambda. It uses the local environment

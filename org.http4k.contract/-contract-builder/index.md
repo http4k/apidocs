@@ -9,6 +9,7 @@
 | Name | Summary |
 |---|---|
 | [descriptionPath](description-path.md) | `var descriptionPath: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [descriptionSecurity](description-security.md) | `var descriptionSecurity: `[`Security`](../../org.http4k.contract.security/-security/index.md)`?` |
 | [includeDescriptionRoute](include-description-route.md) | `var includeDescriptionRoute: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
 | [postSecurityFilter](post-security-filter.md) | `var postSecurityFilter: `[`Filter`](../../org.http4k.core/-filter/index.md) |
 | [preFlightExtraction](pre-flight-extraction.md) | `var preFlightExtraction: `[`PreFlightExtraction`](../-pre-flight-extraction/index.md) |

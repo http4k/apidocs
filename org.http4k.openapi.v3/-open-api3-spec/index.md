@@ -22,10 +22,7 @@
 
 | Name | Summary |
 |---|---|
+| [apiName](../api-name.md) | `fun `[`OpenApi3Spec`](./index.md)`.apiName(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [buildApi](../../org.http4k.openapi.v3.server/build-api.md) | `fun `[`OpenApi3Spec`](./index.md)`.buildApi(endpoints: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<FunSpec>): CodeBlock` |
-| [buildEndpoint](../../org.http4k.openapi.v3.server/build-endpoint.md) | `fun `[`OpenApi3Spec`](./index.md)`.buildEndpoint(path: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, method: `[`Method`](../../org.http4k.core/-method/index.md)`, pathSpec: `[`PathSpec`](../-path-spec/index.md)`): FunSpec` |
-| [buildEndpoints](../../org.http4k.openapi.v3.server/build-endpoints.md) | `fun `[`OpenApi3Spec`](./index.md)`.buildEndpoints(): `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<FunSpec>` |
 | [buildServer](../../org.http4k.openapi.v3.server/build-server.md) | `fun `[`OpenApi3Spec`](./index.md)`.buildServer(endpoints: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<FunSpec>): TypeSpec` |
-| [function](../../org.http4k.openapi.v3.client/function.md) | `fun `[`OpenApi3Spec`](./index.md)`.function(path: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, method: `[`Method`](../../org.http4k.core/-method/index.md)`, pathSpec: `[`PathSpec`](../-path-spec/index.md)`): FunSpec` |
-| [functions](../../org.http4k.openapi.v3.client/functions.md) | `fun `[`OpenApi3Spec`](./index.md)`.functions(): `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<FunSpec>` |
-| [lensDeclarations](../../org.http4k.poet/lens-declarations.md) | `fun `[`OpenApi3Spec`](./index.md)`.lensDeclarations(pathSpec: `[`PathSpec`](../-path-spec/index.md)`): `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<CodeBlock>` |
+| [flattenedPaths](../flattened-paths.md) | `fun `[`OpenApi3Spec`](./index.md)`.flattenedPaths(): `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`Path`](../-path/index.md)`>` |

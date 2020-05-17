@@ -28,7 +28,8 @@
 |---|---|
 | [asTypeName](as-type-name.md) | `fun `[`ParameterSpec`](../org.http4k.openapi.v3/-parameter-spec/index.md)`.asTypeName(): TypeName?` |
 | [lensConstruct](lens-construct.md) | `fun `[`ParameterSpec`](../org.http4k.openapi.v3/-parameter-spec/index.md)`.lensConstruct(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
-| [lensDeclarations](lens-declarations.md) | `fun `[`OpenApi3Spec`](../org.http4k.openapi.v3/-open-api3-spec/index.md)`.lensDeclarations(pathSpec: `[`PathSpec`](../org.http4k.openapi.v3/-path-spec/index.md)`): `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<CodeBlock>` |
+| [lensDeclaration](lens-declaration.md) | `fun `[`NamedSchema`](../org.http4k.openapi.v3/-named-schema/index.md)`.lensDeclaration(): CodeBlock?` |
+| [lensDeclarations](lens-declarations.md) | `fun `[`Path`](../org.http4k.openapi.v3/-path/index.md)`.lensDeclarations(): `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<CodeBlock>` |
 | [member](member.md) | `fun <T : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> member(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): MemberName` |
 | [packageMember](package-member.md) | `fun <T : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> packageMember(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): MemberName` |
 | [quotedName](quoted-name.md) | `fun `[`ParameterSpec`](../org.http4k.openapi.v3/-parameter-spec/index.md)`.quotedName(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |

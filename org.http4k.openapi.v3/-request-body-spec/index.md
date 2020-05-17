@@ -15,9 +15,3 @@
 | Name | Summary |
 |---|---|
 | [content](content.md) | `val content: `[`Map`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`MessageBodySpec`](../-message-body-spec/index.md)`>` |
-
-### Functions
-
-| Name | Summary |
-|---|---|
-| [contentFor](content-for.md) | `fun contentFor(type: `[`ContentType`](../../org.http4k.core/-content-type/index.md)`): `[`MessageBodySpec`](../-message-body-spec/index.md)`?` |

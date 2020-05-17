@@ -1846,6 +1846,11 @@ which apply to StreamBody also apply here..
 
 |
 
+##### [org.http4k.openapi.v3.NamedSchema](../org.http4k.openapi.v3/-named-schema/index.md)
+
+
+|
+
 ##### [org.http4k.webdriver.Navigate](../org.http4k.webdriver/-navigate.md)
 
 
@@ -2033,6 +2038,13 @@ A simple parser intended to parse sequences of name/value pairs.
 |
 
 ##### [org.http4k.lens.Path](../org.http4k.lens/-path/index.md)
+
+
+|
+
+##### [org.http4k.openapi.v3.Path](../org.http4k.openapi.v3/-path/index.md)
+
+Convenience type for working with generated code
 
 
 |
@@ -2397,6 +2409,11 @@ Provides HTTP Handlers which respond using pre-stored Requests.
 |
 
 ##### [org.http4k.security.oauth.server.ResponseRender](../org.http4k.security.oauth.server/-response-render/index.md)
+
+
+|
+
+##### [org.http4k.openapi.v3.ResponseSpec](../org.http4k.openapi.v3/-response-spec/index.md)
 
 
 |

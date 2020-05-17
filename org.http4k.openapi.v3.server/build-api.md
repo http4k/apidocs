@@ -2,4 +2,4 @@
 
 # buildApi
 
-`fun `[`OpenApi3Spec`](../org.http4k.openapi.v3/-open-api3-spec/index.md)`.buildApi(endpoints: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<FunSpec>): CodeBlock`
+`fun buildApi(endpoints: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<FunSpec>): CodeBlock`

@@ -568,6 +568,11 @@ is deactivated, so activate() needs to be called to witness any change in behavi
 ##### [org.http4k.security.oauth.server.request.Claims](../org.http4k.security.oauth.server.request/-claims/index.md)
 
 
+| (extensions in package org.http4k.poet)
+
+##### [com.squareup.kotlinpoet.ClassName](../org.http4k.poet/com.squareup.kotlinpoet.-class-name/index.md)
+
+
 |
 
 ##### [org.http4k.openapi.v3.client.ClientApiGenerator](../org.http4k.openapi.v3.client/-client-api-generator/index.md)
@@ -2661,6 +2666,16 @@ gotchas:
 | (extensions in package org.http4k.routing)
 
 ##### [kotlin.String](../org.http4k.routing/kotlin.-string/index.md)
+
+
+| (extensions in package org.http4k.openapi.v3)
+
+##### [kotlin.String](../org.http4k.openapi.v3/kotlin.-string/index.md)
+
+
+| (extensions in package org.http4k.poet)
+
+##### [kotlin.String](../org.http4k.poet/kotlin.-string/index.md)
 
 
 |

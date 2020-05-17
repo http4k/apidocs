@@ -12,4 +12,4 @@
 
 | Name | Summary |
 |---|---|
-| [function](function.md) | `fun `[`Path`](../org.http4k.openapi.v3/-path/index.md)`.function(): FunSpec` |
+| [function](function.md) | `fun `[`Path`](../org.http4k.openapi.v3/-path/index.md)`.function(modelPackageName: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): FunSpec` |

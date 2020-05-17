@@ -33,6 +33,6 @@ Convenience type for working with generated code
 
 | Name | Summary |
 |---|---|
-| [buildEndpoint](../../org.http4k.openapi.v3.server/build-endpoint.md) | `fun `[`Path`](./index.md)`.buildEndpoint(): FunSpec` |
-| [function](../../org.http4k.openapi.v3.client/function.md) | `fun `[`Path`](./index.md)`.function(): FunSpec` |
-| [lensDeclarations](../../org.http4k.poet/lens-declarations.md) | `fun `[`Path`](./index.md)`.lensDeclarations(): `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<CodeBlock>` |
+| [buildEndpoint](../../org.http4k.openapi.v3.server/build-endpoint.md) | `fun `[`Path`](./index.md)`.buildEndpoint(modelPackageName: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): FunSpec` |
+| [function](../../org.http4k.openapi.v3.client/function.md) | `fun `[`Path`](./index.md)`.function(modelPackageName: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): FunSpec` |
+| [lensDeclarations](../../org.http4k.poet/lens-declarations.md) | `fun `[`Path`](./index.md)`.lensDeclarations(modelPackageName: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<CodeBlock>` |

@@ -11,7 +11,7 @@
 | [GenerationOptions](-generation-options/index.md) | `data class GenerationOptions` |
 | [InfoSpec](-info-spec/index.md) | `data class InfoSpec` |
 | [MessageBodySpec](-message-body-spec/index.md) | `data class MessageBodySpec` |
-| [NamedSchema](-named-schema/index.md) | `data class NamedSchema` |
+| [NamedSchema](-named-schema/index.md) | `sealed class NamedSchema` |
 | [OpenApi3Spec](-open-api3-spec/index.md) | `data class OpenApi3Spec` |
 | [OpenApiJson](-open-api-json.md) | `object OpenApiJson : `[`ConfigurableJackson`](../org.http4k.format/-configurable-jackson/index.md) |
 | [ParameterSpec](-parameter-spec/index.md) | `sealed class ParameterSpec` |
@@ -20,6 +20,12 @@
 | [RequestBodySpec](-request-body-spec/index.md) | `data class RequestBodySpec` |
 | [ResponseSpec](-response-spec/index.md) | `data class ResponseSpec` |
 | [SchemaSpec](-schema-spec/index.md) | `sealed class SchemaSpec` |
+
+### Extensions for External Classes
+
+| Name | Summary |
+|---|---|
+| [kotlin.String](kotlin.-string/index.md) |  |
 
 ### Functions
 

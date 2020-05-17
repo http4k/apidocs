@@ -2,23 +2,23 @@
 
 # NamedSchema
 
-`data class NamedSchema`
+`sealed class NamedSchema`
 
-### Constructors
+### Types
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `NamedSchema(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, schema: `[`SchemaSpec`](../-schema-spec/index.md)`)` |
+| [Existing](-existing/index.md) | `data class Existing : `[`NamedSchema`](./index.md) |
+| [Generated](-generated/index.md) | `data class Generated : `[`NamedSchema`](./index.md) |
 
 ### Properties
 
 | Name | Summary |
 |---|---|
-| [name](name.md) | `val name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
-| [schema](schema.md) | `val schema: `[`SchemaSpec`](../-schema-spec/index.md) |
+| [fieldName](field-name.md) | `val fieldName: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 
 ### Extension Functions
 
 | Name | Summary |
 |---|---|
-| [lensDeclaration](../../org.http4k.poet/lens-declaration.md) | `fun `[`NamedSchema`](./index.md)`.lensDeclaration(): CodeBlock?` |
+| [lensDeclaration](../../org.http4k.poet/lens-declaration.md) | `fun `[`NamedSchema`](./index.md)`.lensDeclaration(modelPackageName: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): CodeBlock?` |

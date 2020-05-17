@@ -2,4 +2,4 @@
 
 # lensDeclaration
 
-`fun `[`NamedSchema`](../org.http4k.openapi.v3/-named-schema/index.md)`.lensDeclaration(): CodeBlock?`
+`fun `[`NamedSchema`](../org.http4k.openapi.v3/-named-schema/index.md)`.lensDeclaration(modelPackageName: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): CodeBlock?`

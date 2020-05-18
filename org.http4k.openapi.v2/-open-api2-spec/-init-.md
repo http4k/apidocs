@@ -1,0 +1,5 @@
+[http4k](../../index.md) / [org.http4k.openapi.v2](../index.md) / [OpenApi2Spec](index.md) / [&lt;init&gt;](./-init-.md)
+
+# &lt;init&gt;
+
+`OpenApi2Spec(info: `[`InfoSpec`](../../org.http4k.openapi/-info-spec/index.md)`, paths: `[`Map`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`Map`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`PathV2Spec`](../-path-v2-spec/index.md)`>>, definitions: `[`Map`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`SchemaSpec`](../../org.http4k.openapi/-schema-spec/index.md)`>?)`

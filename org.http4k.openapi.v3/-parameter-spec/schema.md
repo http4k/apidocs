@@ -2,4 +2,4 @@
 
 # schema
 
-`val schema: `[`SchemaSpec`](../-schema-spec/index.md)
+`val schema: `[`SchemaSpec`](../../org.http4k.openapi/-schema-spec/index.md)

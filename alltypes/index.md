@@ -78,7 +78,7 @@ Provides a consistent way to generate access tokens.
 
 |
 
-##### [org.http4k.openapi.v3.ApiGenerator](../org.http4k.openapi.v3/-api-generator.md)
+##### [org.http4k.openapi.ApiGenerator](../org.http4k.openapi/-api-generator.md)
 
 
 |
@@ -642,7 +642,7 @@ Provides a consistent way to retrieve clients attempting to use an authorization
 
 |
 
-##### [org.http4k.openapi.v3.ComponentsSpec](../org.http4k.openapi.v3/-components-spec/index.md)
+##### [org.http4k.openapi.v3.ComponentsV3Spec](../org.http4k.openapi.v3/-components-v3-spec/index.md)
 
 
 |
@@ -1104,7 +1104,7 @@ have different fields).
 
 |
 
-##### [org.http4k.openapi.v3.GenerationOptions](../org.http4k.openapi.v3/-generation-options/index.md)
+##### [org.http4k.openapi.GenerationOptions](../org.http4k.openapi/-generation-options/index.md)
 
 
 |
@@ -1343,7 +1343,7 @@ Exposed to allow for insertion into a customised Undertow server instance
 
 |
 
-##### [org.http4k.openapi.v3.InfoSpec](../org.http4k.openapi.v3/-info-spec/index.md)
+##### [org.http4k.openapi.InfoSpec](../org.http4k.openapi/-info-spec/index.md)
 
 
 |
@@ -1737,7 +1737,7 @@ Represents a body that is backed by an in-memory ByteBuffer. Closing this has no
 
 |
 
-##### [org.http4k.openapi.v3.MessageBodySpec](../org.http4k.openapi.v3/-message-body-spec/index.md)
+##### [org.http4k.openapi.v3.MessageBodyV3Spec](../org.http4k.openapi.v3/-message-body-v3-spec/index.md)
 
 
 |
@@ -1790,6 +1790,11 @@ Utility class to decode MIME texts.
 |
 
 ##### [org.http4k.security.oauth.server.MissingRedirectUri](../org.http4k.security.oauth.server/-missing-redirect-uri.md)
+
+
+|
+
+##### [org.http4k.openapi.v2.models.ModelApiGenerator](../org.http4k.openapi.v2.models/-model-api-generator/index.md)
 
 
 |
@@ -1851,7 +1856,7 @@ which apply to StreamBody also apply here..
 
 |
 
-##### [org.http4k.openapi.v3.NamedSchema](../org.http4k.openapi.v3/-named-schema/index.md)
+##### [org.http4k.openapi.NamedSchema](../org.http4k.openapi/-named-schema/index.md)
 
 
 |
@@ -1977,6 +1982,11 @@ object models is used as the input relies on JSON objects and not JVM classees.
 
 |
 
+##### [org.http4k.openapi.v2.OpenApi2Spec](../org.http4k.openapi.v2/-open-api2-spec/index.md)
+
+
+|
+
 ##### [org.http4k.contract.openapi.v3.OpenApi3](../org.http4k.contract.openapi.v3/-open-api3/index.md)
 
 Contract renderer for OpenApi3 format JSON. For the JSON schema generation, naming of
@@ -2005,7 +2015,7 @@ Provides a way to apply extensions to the OpenAPI JSON document.
 
 |
 
-##### [org.http4k.openapi.v3.OpenApiJson](../org.http4k.openapi.v3/-open-api-json.md)
+##### [org.http4k.openapi.OpenApiJson](../org.http4k.openapi/-open-api-json.md)
 
 
 |
@@ -2027,6 +2037,11 @@ A simple parser intended to parse sequences of name/value pairs.
 
 |
 
+##### [org.http4k.openapi.v2.ParameterSpec](../org.http4k.openapi.v2/-parameter-spec/index.md)
+
+
+|
+
 ##### [org.http4k.openapi.v3.ParameterSpec](../org.http4k.openapi.v3/-parameter-spec/index.md)
 
 
@@ -2043,13 +2058,6 @@ A simple parser intended to parse sequences of name/value pairs.
 |
 
 ##### [org.http4k.lens.Path](../org.http4k.lens/-path/index.md)
-
-
-|
-
-##### [org.http4k.openapi.v3.Path](../org.http4k.openapi.v3/-path/index.md)
-
-Convenience type for working with generated code
 
 
 |
@@ -2076,7 +2084,22 @@ Represents a uni-directional extraction of an entity from a target path segment.
 
 |
 
-##### [org.http4k.openapi.v3.PathSpec](../org.http4k.openapi.v3/-path-spec/index.md)
+##### [org.http4k.openapi.v2.PathV2](../org.http4k.openapi.v2/-path-v2/index.md)
+
+
+|
+
+##### [org.http4k.openapi.v2.PathV2Spec](../org.http4k.openapi.v2/-path-v2-spec/index.md)
+
+
+|
+
+##### [org.http4k.openapi.v3.PathV3](../org.http4k.openapi.v3/-path-v3/index.md)
+
+
+|
+
+##### [org.http4k.openapi.v3.PathV3Spec](../org.http4k.openapi.v3/-path-v3-spec/index.md)
 
 
 |
@@ -2270,7 +2293,7 @@ Provides a stream of traffic for replaying purposes.
 
 |
 
-##### [org.http4k.openapi.v3.RequestBodySpec](../org.http4k.openapi.v3/-request-body-spec/index.md)
+##### [org.http4k.openapi.v3.RequestBodyV3Spec](../org.http4k.openapi.v3/-request-body-v3-spec/index.md)
 
 
 |
@@ -2418,12 +2441,12 @@ Provides HTTP Handlers which respond using pre-stored Requests.
 
 |
 
-##### [org.http4k.openapi.v3.ResponseSpec](../org.http4k.openapi.v3/-response-spec/index.md)
+##### [org.http4k.security.ResponseType](../org.http4k.security/-response-type/index.md)
 
 
 |
 
-##### [org.http4k.security.ResponseType](../org.http4k.security/-response-type/index.md)
+##### [org.http4k.openapi.v3.ResponseV3Spec](../org.http4k.openapi.v3/-response-v3-spec/index.md)
 
 
 |
@@ -2498,7 +2521,7 @@ return a 404 Response if it cannot service a particular Request.
 
 |
 
-##### [org.http4k.openapi.v3.SchemaSpec](../org.http4k.openapi.v3/-schema-spec/index.md)
+##### [org.http4k.openapi.SchemaSpec](../org.http4k.openapi/-schema-spec/index.md)
 
 
 |
@@ -2668,9 +2691,9 @@ gotchas:
 ##### [kotlin.String](../org.http4k.routing/kotlin.-string/index.md)
 
 
-| (extensions in package org.http4k.openapi.v3)
+| (extensions in package org.http4k.openapi)
 
-##### [kotlin.String](../org.http4k.openapi.v3/kotlin.-string/index.md)
+##### [kotlin.String](../org.http4k.openapi/kotlin.-string/index.md)
 
 
 | (extensions in package org.http4k.poet)

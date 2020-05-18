@@ -47,7 +47,7 @@ $dokka.location:org.http4k.format$asConfigurableXml(com.fasterxml.jackson.module
 $dokka.location:org.http4k.format$read(com.fasterxml.jackson.databind.ObjectMapper)org.http4k.format/com.fasterxml.jackson.databind.-object-mapper/read.md
 $dokka.location:org.http4k.format$read(com.google.gson.Gson)org.http4k.format/com.google.gson.-gson/read.md
 $dokka.location:org.http4k.format$write(com.fasterxml.jackson.databind.ObjectMapper)org.http4k.format/com.fasterxml.jackson.databind.-object-mapper/write.md
-$dokka.location:org.http4k.openapi.v3$clean(kotlin.String)org.http4k.openapi.v3/kotlin.-string/clean.md
+$dokka.location:org.http4k.openapi$clean(kotlin.String)org.http4k.openapi/kotlin.-string/clean.md
 $dokka.location:org.http4k.poet$addCodeBlocks(com.squareup.kotlinpoet.FunSpec.Builder, kotlin.collections.List((com.squareup.kotlinpoet.CodeBlock)))org.http4k.poet/com.squareup.kotlinpoet.-fun-spec.-builder/add-code-blocks.md
 $dokka.location:org.http4k.poet$buildFormatted(com.squareup.kotlinpoet.FileSpec.Builder)org.http4k.poet/com.squareup.kotlinpoet.-file-spec.-builder/build-formatted.md
 $dokka.location:org.http4k.poet$childClassName(kotlin.String, kotlin.String)org.http4k.poet/kotlin.-string/child-class-name.md
@@ -98,6 +98,9 @@ org.http4k.jsonrpc
 org.http4k.junit
 org.http4k.lens
 org.http4k.multipart
+org.http4k.openapi
+org.http4k.openapi.v2
+org.http4k.openapi.v2.models
 org.http4k.openapi.v3
 org.http4k.openapi.v3.client
 org.http4k.openapi.v3.models

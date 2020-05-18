@@ -20,7 +20,7 @@
 | [description](description.md) | `val description: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |
 | [name](name.md) | `val name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [required](required.md) | `val required: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
-| [schema](schema.md) | `val schema: `[`SchemaSpec`](../-schema-spec/index.md) |
+| [schema](schema.md) | `val schema: `[`SchemaSpec`](../../org.http4k.openapi/-schema-spec/index.md) |
 
 ### Extension Properties
 

@@ -2,4 +2,4 @@
 
 # components
 
-`val components: `[`ComponentsSpec`](../-components-spec/index.md)
+`val components: `[`ComponentsV3Spec`](../-components-v3-spec/index.md)

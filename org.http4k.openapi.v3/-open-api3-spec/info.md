@@ -2,4 +2,4 @@
 
 # info
 
-`val info: `[`InfoSpec`](../-info-spec/index.md)
+`val info: `[`InfoSpec`](../../org.http4k.openapi/-info-spec/index.md)

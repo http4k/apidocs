@@ -2,4 +2,4 @@
 
 # function
 
-`fun `[`Path`](../org.http4k.openapi.v3/-path/index.md)`.function(modelPackageName: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): FunSpec`
+`fun `[`PathV3`](../org.http4k.openapi.v3/-path-v3/index.md)`.function(modelPackageName: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): FunSpec`

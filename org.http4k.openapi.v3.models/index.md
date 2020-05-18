@@ -6,10 +6,4 @@
 
 | Name | Summary |
 |---|---|
-| [ModelApiGenerator](-model-api-generator/index.md) | `object ModelApiGenerator : `[`ApiGenerator`](../org.http4k.openapi.v3/-api-generator.md) |
-
-### Functions
-
-| Name | Summary |
-|---|---|
-| [buildModelClass](build-model-class.md) | `fun `[`SchemaSpec`](../org.http4k.openapi.v3/-schema-spec/index.md)`.buildModelClass(className: ClassName, allSchemas: `[`Map`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`SchemaSpec`](../org.http4k.openapi.v3/-schema-spec/index.md)`>, generated: `[`MutableMap`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-map/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, TypeSpec>): TypeSpec` |
+| [ModelApiGenerator](-model-api-generator/index.md) | `object ModelApiGenerator : `[`ApiGenerator`](../org.http4k.openapi/-api-generator.md)`<`[`OpenApi3Spec`](../org.http4k.openapi.v3/-open-api3-spec/index.md)`>` |

@@ -1,0 +1,5 @@
+[http4k](../../index.md) / [org.http4k.openapi.v3](../index.md) / [PathV3Spec](index.md) / [&lt;init&gt;](./-init-.md)
+
+# &lt;init&gt;
+
+`PathV3Spec(operationId: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?, summary: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?, description: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?, tags: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`> = emptyList(), responses: `[`Map`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)`<`[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`, `[`ResponseV3Spec`](../-response-v3-spec/index.md)`> = emptyMap(), requestBody: `[`RequestBodyV3Spec`](../-request-body-v3-spec/index.md)`?, parameters: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`ParameterSpec`](../-parameter-spec/index.md)`> = emptyList())`

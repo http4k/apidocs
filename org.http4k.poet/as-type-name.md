@@ -2,4 +2,4 @@
 
 # asTypeName
 
-`fun `[`ParameterSpec`](../org.http4k.openapi.v3/-parameter-spec/index.md)`.asTypeName(): TypeName?`
+`fun `[`OpenApi3ParameterSpec`](../org.http4k.openapi.v3/-open-api3-parameter-spec/index.md)`.asTypeName(): TypeName`

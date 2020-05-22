@@ -48,6 +48,9 @@ $dokka.location:org.http4k.format$read(com.fasterxml.jackson.databind.ObjectMapp
 $dokka.location:org.http4k.format$read(com.google.gson.Gson)org.http4k.format/com.google.gson.-gson/read.md
 $dokka.location:org.http4k.format$write(com.fasterxml.jackson.databind.ObjectMapper)org.http4k.format/com.fasterxml.jackson.databind.-object-mapper/write.md
 $dokka.location:org.http4k.openapi$clean(kotlin.String)org.http4k.openapi/kotlin.-string/clean.md
+$dokka.location:org.http4k.openapi$cleanSchemaName(kotlin.String)org.http4k.openapi/kotlin.-string/clean-schema-name.md
+$dokka.location:org.http4k.openapi$cleanValueName(kotlin.String)org.http4k.openapi/kotlin.-string/clean-value-name.md
+$dokka.location:org.http4k.openapi.v3.client$bindFirstToHttpMessage(kotlin.collections.List((org.http4k.openapi.NamedSchema)), kotlin.String)org.http4k.openapi.v3.client/kotlin.collections.-list/bind-first-to-http-message.md
 $dokka.location:org.http4k.poet$addCodeBlocks(com.squareup.kotlinpoet.FunSpec.Builder, kotlin.collections.List((com.squareup.kotlinpoet.CodeBlock)))org.http4k.poet/com.squareup.kotlinpoet.-fun-spec.-builder/add-code-blocks.md
 $dokka.location:org.http4k.poet$buildFormatted(com.squareup.kotlinpoet.FileSpec.Builder)org.http4k.poet/com.squareup.kotlinpoet.-file-spec.-builder/build-formatted.md
 $dokka.location:org.http4k.poet$childClassName(kotlin.String, kotlin.String)org.http4k.poet/kotlin.-string/child-class-name.md
@@ -100,7 +103,6 @@ org.http4k.lens
 org.http4k.multipart
 org.http4k.openapi
 org.http4k.openapi.v2
-org.http4k.openapi.v2.models
 org.http4k.openapi.v3
 org.http4k.openapi.v3.client
 org.http4k.openapi.v3.models

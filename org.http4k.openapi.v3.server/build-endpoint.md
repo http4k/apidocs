@@ -2,4 +2,4 @@
 
 # buildEndpoint
 
-`fun `[`PathV3`](../org.http4k.openapi.v3/-path-v3/index.md)`.buildEndpoint(modelPackageName: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): FunSpec`
+`fun `[`Path`](../org.http4k.openapi.v3/-path/index.md)`.buildEndpoint(modelPackageName: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): FunSpec`

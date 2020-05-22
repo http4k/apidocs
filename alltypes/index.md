@@ -575,6 +575,11 @@ is deactivated, so activate() needs to be called to witness any change in behavi
 
 |
 
+##### [org.http4k.openapi.v2.ClientApiGenerator](../org.http4k.openapi.v2/-client-api-generator/index.md)
+
+
+|
+
 ##### [org.http4k.openapi.v3.client.ClientApiGenerator](../org.http4k.openapi.v3.client/-client-api-generator/index.md)
 
 
@@ -638,11 +643,6 @@ Provides a consistent way to retrieve clients attempting to use an authorization
 |
 
 ##### [org.http4k.contract.openapi.v3.Components](../org.http4k.contract.openapi.v3/-components/index.md)
-
-
-|
-
-##### [org.http4k.openapi.v3.ComponentsV3Spec](../org.http4k.openapi.v3/-components-v3-spec/index.md)
 
 
 |
@@ -1091,6 +1091,11 @@ Useful EventFilters used in building event processing pipelines to add various t
 This Filter is used to generate Data class definitions from a Response containing JSON. The Filter will try and reduce
 the number of class definitions by selecting the definition with the most fields (for cases where lists of items
 have different fields).
+
+
+|
+
+##### [org.http4k.openapi.GeneratedType](../org.http4k.openapi/-generated-type/index.md)
 
 
 |
@@ -1686,6 +1691,11 @@ Represents a uni-directional extraction of an entity from a target.
 ##### [kotlin.collections.List](../org.http4k.core.body/kotlin.collections.-list/index.md)
 
 
+| (extensions in package org.http4k.openapi.v3.client)
+
+##### [kotlin.collections.List](../org.http4k.openapi.v3.client/kotlin.collections.-list/index.md)
+
+
 |
 
 ##### [org.http4k.cloudnative.health.Liveness](../org.http4k.cloudnative.health/-liveness.md)
@@ -1737,7 +1747,7 @@ Represents a body that is backed by an in-memory ByteBuffer. Closing this has no
 
 |
 
-##### [org.http4k.openapi.v3.MessageBodyV3Spec](../org.http4k.openapi.v3/-message-body-v3-spec/index.md)
+##### [org.http4k.openapi.MessageBodySpec](../org.http4k.openapi/-message-body-spec/index.md)
 
 
 |
@@ -1794,7 +1804,7 @@ Utility class to decode MIME texts.
 
 |
 
-##### [org.http4k.openapi.v2.models.ModelApiGenerator](../org.http4k.openapi.v2.models/-model-api-generator/index.md)
+##### [org.http4k.openapi.v2.ModelApiGenerator](../org.http4k.openapi.v2/-model-api-generator/index.md)
 
 
 |
@@ -1982,6 +1992,16 @@ object models is used as the input relies on JSON objects and not JVM classees.
 
 |
 
+##### [org.http4k.openapi.v2.OpenApi2ParameterSpec](../org.http4k.openapi.v2/-open-api2-parameter-spec/index.md)
+
+
+|
+
+##### [org.http4k.openapi.v2.OpenApi2PathSpec](../org.http4k.openapi.v2/-open-api2-path-spec/index.md)
+
+
+|
+
 ##### [org.http4k.openapi.v2.OpenApi2Spec](../org.http4k.openapi.v2/-open-api2-spec/index.md)
 
 
@@ -1999,6 +2019,26 @@ is passed.
 ##### [org.http4k.contract.openapi.v3.OpenApi3ApiRenderer](../org.http4k.contract.openapi.v3/-open-api3-api-renderer/index.md)
 
 Converts a API to OpenApi3 format JSON.
+
+
+|
+
+##### [org.http4k.openapi.v3.OpenApi3ComponentsSpec](../org.http4k.openapi.v3/-open-api3-components-spec/index.md)
+
+
+|
+
+##### [org.http4k.openapi.v3.OpenApi3ParameterSpec](../org.http4k.openapi.v3/-open-api3-parameter-spec/index.md)
+
+
+|
+
+##### [org.http4k.openapi.v3.OpenApi3PathSpec](../org.http4k.openapi.v3/-open-api3-path-spec/index.md)
+
+
+|
+
+##### [org.http4k.openapi.v3.OpenApi3RequestBodySpec](../org.http4k.openapi.v3/-open-api3-request-body-spec/index.md)
 
 
 |
@@ -2037,16 +2077,6 @@ A simple parser intended to parse sequences of name/value pairs.
 
 |
 
-##### [org.http4k.openapi.v2.ParameterSpec](../org.http4k.openapi.v2/-parameter-spec/index.md)
-
-
-|
-
-##### [org.http4k.openapi.v3.ParameterSpec](../org.http4k.openapi.v3/-parameter-spec/index.md)
-
-
-|
-
 ##### [org.http4k.lens.ParamMeta](../org.http4k.lens/-param-meta/index.md)
 
 
@@ -2058,6 +2088,11 @@ A simple parser intended to parse sequences of name/value pairs.
 |
 
 ##### [org.http4k.lens.Path](../org.http4k.lens/-path/index.md)
+
+
+|
+
+##### [org.http4k.openapi.v3.Path](../org.http4k.openapi.v3/-path/index.md)
 
 
 |
@@ -2080,26 +2115,6 @@ Represents a uni-directional extraction of an entity from a target path segment.
 |
 
 ##### [org.http4k.contract.PathSegments](../org.http4k.contract/-path-segments/index.md)
-
-
-|
-
-##### [org.http4k.openapi.v2.PathV2](../org.http4k.openapi.v2/-path-v2/index.md)
-
-
-|
-
-##### [org.http4k.openapi.v2.PathV2Spec](../org.http4k.openapi.v2/-path-v2-spec/index.md)
-
-
-|
-
-##### [org.http4k.openapi.v3.PathV3](../org.http4k.openapi.v3/-path-v3/index.md)
-
-
-|
-
-##### [org.http4k.openapi.v3.PathV3Spec](../org.http4k.openapi.v3/-path-v3-spec/index.md)
 
 
 |
@@ -2293,11 +2308,6 @@ Provides a stream of traffic for replaying purposes.
 
 |
 
-##### [org.http4k.openapi.v3.RequestBodyV3Spec](../org.http4k.openapi.v3/-request-body-v3-spec/index.md)
-
-
-|
-
 ##### [org.http4k.contract.openapi.v3.RequestContents](../org.http4k.contract.openapi.v3/-request-contents/index.md)
 
 
@@ -2441,12 +2451,12 @@ Provides HTTP Handlers which respond using pre-stored Requests.
 
 |
 
-##### [org.http4k.security.ResponseType](../org.http4k.security/-response-type/index.md)
+##### [org.http4k.openapi.ResponseSpec](../org.http4k.openapi/-response-spec/index.md)
 
 
 |
 
-##### [org.http4k.openapi.v3.ResponseV3Spec](../org.http4k.openapi.v3/-response-v3-spec/index.md)
+##### [org.http4k.security.ResponseType](../org.http4k.security/-response-type/index.md)
 
 
 |
@@ -2549,6 +2559,11 @@ Endpoint security. Provides filter to be applied to endpoints for all requests.
 ##### [org.http4k.contract.openapi.SecurityRenderer](../org.http4k.contract.openapi/-security-renderer/index.md)
 
 Provides rendering of Security models in to OpenApi specs.
+
+
+|
+
+##### [org.http4k.openapi.v2.ServerApiGenerator](../org.http4k.openapi.v2/-server-api-generator/index.md)
 
 
 |

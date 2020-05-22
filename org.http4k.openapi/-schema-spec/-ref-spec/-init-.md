@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`RefSpec($ref: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`)`
+`RefSpec($ref: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?)`

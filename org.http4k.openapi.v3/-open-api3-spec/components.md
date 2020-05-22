@@ -2,4 +2,4 @@
 
 # components
 
-`val components: `[`ComponentsV3Spec`](../-components-v3-spec/index.md)
+`val components: `[`OpenApi3ComponentsSpec`](../-open-api3-components-spec/index.md)

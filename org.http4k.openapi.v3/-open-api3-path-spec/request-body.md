@@ -2,4 +2,4 @@
 
 # requestBody
 
-`val requestBody: `[`OpenApi3RequestBodySpec`](../-open-api3-request-body-spec/index.md)`?`
+`val requestBody: `[`OpenApi3RequestBodySpec`](../-open-api3-request-body-spec/index.md)

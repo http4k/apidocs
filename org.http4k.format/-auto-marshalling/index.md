@@ -4,11 +4,13 @@
 
 `abstract class AutoMarshalling`
 
+Common base type for all format libraries which can convert directly from String -&gt; Classes
+
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `AutoMarshalling()` |
+| [&lt;init&gt;](-init-.md) | Common base type for all format libraries which can convert directly from String -&gt; Classes`AutoMarshalling()` |
 
 ### Functions
 
@@ -24,3 +26,4 @@
 |---|---|
 | [AutoMarshallingJson](../-auto-marshalling-json/index.md) | `abstract class AutoMarshallingJson : `[`AutoMarshalling`](./index.md) |
 | [AutoMarshallingXml](../-auto-marshalling-xml/index.md) | `abstract class AutoMarshallingXml : `[`AutoMarshalling`](./index.md) |
+| [ConfigurableJacksonYaml](../-configurable-jackson-yaml/index.md) | `open class ConfigurableJacksonYaml : `[`AutoMarshalling`](./index.md) |

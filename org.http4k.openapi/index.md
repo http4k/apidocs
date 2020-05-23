@@ -12,7 +12,6 @@
 | [InfoSpec](-info-spec/index.md) | `data class InfoSpec` |
 | [MessageBodySpec](-message-body-spec/index.md) | `data class MessageBodySpec` |
 | [NamedSchema](-named-schema/index.md) | `sealed class NamedSchema` |
-| [OpenApiJson](-open-api-json.md) | `object OpenApiJson : `[`ConfigurableJackson`](../org.http4k.format/-configurable-jackson/index.md) |
 | [ResponseSpec](-response-spec/index.md) | `data class ResponseSpec` |
 | [SchemaSpec](-schema-spec/index.md) | `sealed class SchemaSpec` |
 

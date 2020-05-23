@@ -9,6 +9,7 @@
 | Name | Summary |
 |---|---|
 | [CookieSpec](-cookie-spec/index.md) | `class CookieSpec : `[`OpenApi3ParameterSpec`](./index.md) |
+| [FormFieldSpec](-form-field-spec/index.md) | `class FormFieldSpec : `[`OpenApi3ParameterSpec`](./index.md) |
 | [HeaderSpec](-header-spec/index.md) | `class HeaderSpec : `[`OpenApi3ParameterSpec`](./index.md) |
 | [PathSpec](-path-spec/index.md) | `class PathSpec : `[`OpenApi3ParameterSpec`](./index.md) |
 | [QuerySpec](-query-spec/index.md) | `class QuerySpec : `[`OpenApi3ParameterSpec`](./index.md) |

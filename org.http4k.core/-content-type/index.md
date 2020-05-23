@@ -38,6 +38,7 @@
 | [TEXT_HTML](-t-e-x-t_-h-t-m-l.md) | `val TEXT_HTML: `[`ContentType`](./index.md) |
 | [TEXT_PLAIN](-t-e-x-t_-p-l-a-i-n.md) | `val TEXT_PLAIN: `[`ContentType`](./index.md) |
 | [TEXT_XML](-t-e-x-t_-x-m-l.md) | `val TEXT_XML: `[`ContentType`](./index.md) |
+| [TEXT_YAML](-t-e-x-t_-y-a-m-l.md) | `val TEXT_YAML: `[`ContentType`](./index.md) |
 
 ### Companion Object Functions
 

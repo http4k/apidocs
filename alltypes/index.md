@@ -314,6 +314,8 @@ The various methods here can be used to provide custom mapping behaviour (say fo
 
 ##### [org.http4k.format.AutoMarshalling](../org.http4k.format/-auto-marshalling/index.md)
 
+Common base type for all format libraries which can convert directly from String -&gt; Classes
+
 
 |
 
@@ -675,6 +677,11 @@ Result of multiple checks, for which it reports an overall result (ie. any failu
 |
 
 ##### [org.http4k.format.ConfigurableJacksonXml](../org.http4k.format/-configurable-jackson-xml/index.md)
+
+
+|
+
+##### [org.http4k.format.ConfigurableJacksonYaml](../org.http4k.format/-configurable-jackson-yaml/index.md)
 
 
 |
@@ -1490,6 +1497,11 @@ Provides an implementation of GenerateXmlDataClasses using GSON as an engine.
 
 |
 
+##### [org.http4k.format.JacksonYaml](../org.http4k.format/-jackson-yaml.md)
+
+
+|
+
 ##### [org.http4k.template.Jade4jTemplates](../org.http4k.template/-jade4j-templates/index.md)
 
 Jade4j templating support. Use the function in the constructor to configure the instance.
@@ -2056,11 +2068,6 @@ Converts a API to OpenApi3 format JSON.
 ##### [org.http4k.contract.openapi.OpenApiExtension](../org.http4k.contract.openapi/-open-api-extension/index.md)
 
 Provides a way to apply extensions to the OpenAPI JSON document.
-
-
-|
-
-##### [org.http4k.openapi.OpenApiJson](../org.http4k.openapi/-open-api-json.md)
 
 
 |

@@ -18,4 +18,4 @@
 | Name | Summary |
 |---|---|
 | [asV3](as-v3.md) | `fun `[`OpenApi2Spec`](-open-api2-spec/index.md)`.asV3(): `[`OpenApi3Spec`](../org.http4k.openapi.v3/-open-api3-spec/index.md) |
-| [flatten](flatten.md) | `fun `[`OpenApi2Spec`](-open-api2-spec/index.md)`.flatten(): `[`OpenApi2Spec`](-open-api2-spec/index.md) |
+| [flatten](flatten.md) | For all parameters which are common (and represented in the paths as Refs), inline the content into the path so we can tell the type without looking up from the "global" list`fun `[`OpenApi2Spec`](-open-api2-spec/index.md)`.flatten(): `[`OpenApi2Spec`](-open-api2-spec/index.md) |

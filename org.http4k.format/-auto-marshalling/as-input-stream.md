@@ -1,4 +1,4 @@
-[http4k](../../index.md) / [org.http4k.format](../index.md) / [AutoMarshallingJson](index.md) / [asInputStream](./as-input-stream.md)
+[http4k](../../index.md) / [org.http4k.format](../index.md) / [AutoMarshalling](index.md) / [asInputStream](./as-input-stream.md)
 
 # asInputStream
 

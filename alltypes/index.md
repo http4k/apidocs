@@ -312,6 +312,11 @@ The various methods here can be used to provide custom mapping behaviour (say fo
 
 |
 
+##### [org.http4k.format.AutoMarshalling](../org.http4k.format/-auto-marshalling/index.md)
+
+
+|
+
 ##### [org.http4k.format.AutoMarshallingJson](../org.http4k.format/-auto-marshalling-json/index.md)
 
 

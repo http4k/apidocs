@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`MessageBodySpec(schema: `[`SchemaSpec`](../-schema-spec/index.md)`?)`
+`MessageBodySpec(description: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?, schema: `[`SchemaSpec`](../-schema-spec/index.md)`?)`

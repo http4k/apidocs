@@ -8,10 +8,11 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `BodySpec(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, required: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`, schema: `[`SchemaSpec`](../../../org.http4k.openapi/-schema-spec/index.md)`)` |
+| [&lt;init&gt;](-init-.md) | `BodySpec(description: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?, name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, required: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`, schema: `[`SchemaSpec`](../../../org.http4k.openapi/-schema-spec/index.md)`)` |
 
 ### Properties
 
 | Name | Summary |
 |---|---|
+| [description](description.md) | `val description: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |
 | [schema](schema.md) | `val schema: `[`SchemaSpec`](../../../org.http4k.openapi/-schema-spec/index.md) |

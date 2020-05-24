@@ -8,10 +8,11 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `OpenApi3RequestBodySpec(content: `[`Map`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`MessageBodySpec`](../../org.http4k.openapi/-message-body-spec/index.md)`> = emptyMap())` |
+| [&lt;init&gt;](-init-.md) | `OpenApi3RequestBodySpec(description: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`? = null, content: `[`Map`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`MessageBodySpec`](../../org.http4k.openapi/-message-body-spec/index.md)`> = emptyMap())` |
 
 ### Properties
 
 | Name | Summary |
 |---|---|
 | [content](content.md) | `val content: `[`Map`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`MessageBodySpec`](../../org.http4k.openapi/-message-body-spec/index.md)`>` |
+| [description](description.md) | `val description: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |

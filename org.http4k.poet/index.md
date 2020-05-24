@@ -29,6 +29,7 @@
 | Name | Summary |
 |---|---|
 | [asTypeName](as-type-name.md) | `fun `[`OpenApi3ParameterSpec`](../org.http4k.openapi.v3/-open-api3-parameter-spec/index.md)`.asTypeName(): TypeName` |
+| [buildWebForm](build-web-form.md) | `fun `[`Path`](../org.http4k.openapi.v3/-path/index.md)`.buildWebForm(): `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<CodeBlock>` |
 | [lensConstruct](lens-construct.md) | `fun `[`OpenApi3ParameterSpec`](../org.http4k.openapi.v3/-open-api3-parameter-spec/index.md)`.lensConstruct(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [lensDeclaration](lens-declaration.md) | `fun `[`NamedSchema`](../org.http4k.openapi/-named-schema/index.md)`.lensDeclaration(modelPackageName: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): CodeBlock?` |
 | [member](member.md) | `fun <T : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> member(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): MemberName` |
@@ -37,3 +38,5 @@
 | [quotedName](quoted-name.md) | `fun `[`OpenApi3ParameterSpec`](../org.http4k.openapi.v3/-open-api3-parameter-spec/index.md)`.quotedName(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [requestLensDeclarations](request-lens-declarations.md) | `fun `[`Path`](../org.http4k.openapi.v3/-path/index.md)`.requestLensDeclarations(modelPackageName: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<CodeBlock>` |
 | [responseLensDeclarations](response-lens-declarations.md) | `fun `[`Path`](../org.http4k.openapi.v3/-path/index.md)`.responseLensDeclarations(modelPackageName: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<CodeBlock>` |
+| [supportsFormContent](supports-form-content.md) | `fun `[`Path`](../org.http4k.openapi.v3/-path/index.md)`.supportsFormContent(): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
+| [webFormLensDeclaration](web-form-lens-declaration.md) | `fun `[`Path`](../org.http4k.openapi.v3/-path/index.md)`.webFormLensDeclaration(): `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<CodeBlock>` |

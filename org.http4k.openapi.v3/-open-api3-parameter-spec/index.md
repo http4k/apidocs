@@ -13,7 +13,7 @@
 | [HeaderSpec](-header-spec/index.md) | `class HeaderSpec : `[`OpenApi3ParameterSpec`](./index.md) |
 | [PathSpec](-path-spec/index.md) | `class PathSpec : `[`OpenApi3ParameterSpec`](./index.md) |
 | [QuerySpec](-query-spec/index.md) | `class QuerySpec : `[`OpenApi3ParameterSpec`](./index.md) |
-| [RefSpec](-ref-spec/index.md) | `class RefSpec : `[`OpenApi3ParameterSpec`](./index.md) |
+| [RefOrNoSchemaSpec](-ref-or-no-schema-spec/index.md) | `class RefOrNoSchemaSpec : `[`OpenApi3ParameterSpec`](./index.md) |
 
 ### Properties
 

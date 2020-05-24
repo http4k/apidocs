@@ -11,6 +11,7 @@
 | [ArraySpec](-array-spec/index.md) | `data class ArraySpec : `[`SchemaSpec`](./index.md) |
 | [BooleanSpec](-boolean-spec/index.md) | `data class BooleanSpec : `[`SchemaSpec`](./index.md) |
 | [IntegerSpec](-integer-spec/index.md) | `data class IntegerSpec : `[`SchemaSpec`](./index.md) |
+| [NoSchema](-no-schema.md) | `object NoSchema : `[`SchemaSpec`](./index.md) |
 | [NumberSpec](-number-spec/index.md) | `data class NumberSpec : `[`SchemaSpec`](./index.md) |
 | [ObjectSpec](-object-spec/index.md) | `data class ObjectSpec : `[`SchemaSpec`](./index.md) |
 | [RefSpec](-ref-spec/index.md) | `data class RefSpec : `[`SchemaSpec`](./index.md) |

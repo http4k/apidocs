@@ -2192,6 +2192,16 @@ HttpHandler for this route. Choice will be determined by two competing scenarios
 
 |
 
+##### [org.http4k.server.Ratpack](../org.http4k.server/-ratpack/index.md)
+
+
+|
+
+##### [org.http4k.server.RatpackHttp4kHandler](../org.http4k.server/-ratpack-http4k-handler/index.md)
+
+
+|
+
 ##### [org.http4k.cloudnative.health.Readiness](../org.http4k.cloudnative.health/-readiness/index.md)
 
 The Readiness check is used to determine if an app is prepared to receive live traffic.

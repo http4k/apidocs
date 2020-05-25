@@ -3,5 +3,5 @@
 # asJsonString
 
 `fun ~~asJsonString~~(input: `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)
-**Deprecated:** Use asString instead
+**Deprecated:** Use asFormatString instead
 

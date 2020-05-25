@@ -1,5 +1,0 @@
-[http4k](../../../index.md) / [org.http4k.openapi](../../index.md) / [SchemaSpec](../index.md) / [NumberSpec](index.md) / [&lt;init&gt;](./-init-.md)
-
-# &lt;init&gt;
-
-`NumberSpec(minimum: `[`Number`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-number/index.html)`? = null, maximum: `[`Number`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-number/index.html)`? = null, format: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`? = null, exclusiveMinimum: `[`Number`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-number/index.html)`? = null, exclusiveMaximum: `[`Number`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-number/index.html)`? = null, multipleOf: `[`Number`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-number/index.html)`? = null, nullable: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`? = null)`

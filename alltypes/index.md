@@ -78,11 +78,6 @@ Provides a consistent way to generate access tokens.
 
 |
 
-##### [org.http4k.openapi.ApiGenerator](../org.http4k.openapi/-api-generator.md)
-
-
-|
-
 ##### [org.http4k.contract.ApiInfo](../org.http4k.contract/-api-info.md)
 
 
@@ -509,16 +504,6 @@ BodyMode represents a choice between working lazily with streams or eagerly stor
 ##### [com.squareup.moshi.Moshi.Builder](../org.http4k.format/com.squareup.moshi.-moshi.-builder/index.md)
 
 
-| (extensions in package org.http4k.poet)
-
-##### [com.squareup.kotlinpoet.FileSpec.Builder](../org.http4k.poet/com.squareup.kotlinpoet.-file-spec.-builder/index.md)
-
-
-| (extensions in package org.http4k.poet)
-
-##### [com.squareup.kotlinpoet.FunSpec.Builder](../org.http4k.poet/com.squareup.kotlinpoet.-fun-spec.-builder/index.md)
-
-
 | (extensions in package org.http4k)
 
 ##### [java.nio.ByteBuffer](../org.http4k/java.nio.-byte-buffer/index.md)
@@ -573,21 +558,6 @@ is deactivated, so activate() needs to be called to witness any change in behavi
 |
 
 ##### [org.http4k.security.oauth.server.request.Claims](../org.http4k.security.oauth.server.request/-claims/index.md)
-
-
-| (extensions in package org.http4k.poet)
-
-##### [com.squareup.kotlinpoet.ClassName](../org.http4k.poet/com.squareup.kotlinpoet.-class-name/index.md)
-
-
-|
-
-##### [org.http4k.openapi.v2.ClientApiGenerator](../org.http4k.openapi.v2/-client-api-generator/index.md)
-
-
-|
-
-##### [org.http4k.openapi.v3.client.ClientApiGenerator](../org.http4k.openapi.v3.client/-client-api-generator/index.md)
 
 
 |
@@ -1107,21 +1077,11 @@ have different fields).
 
 |
 
-##### [org.http4k.openapi.GeneratedType](../org.http4k.openapi/-generated-type/index.md)
-
-
-|
-
 ##### [org.http4k.filter.GenerateXmlDataClasses](../org.http4k.filter/-generate-xml-data-classes/index.md)
 
 This Filter is used to generate Data class definitions from a Response containing XML. The Filter will try and reduce
 the number of class definitions by selecting the definition with the most fields (for cases where lists of items
 have different fields).
-
-
-|
-
-##### [org.http4k.openapi.GenerationOptions](../org.http4k.openapi/-generation-options/index.md)
 
 
 |
@@ -1356,11 +1316,6 @@ Exposed to allow for insertion into a customised Undertow server instance
 |
 
 ##### [org.http4k.contract.security.ImplicitOAuthSecurity](../org.http4k.contract.security/-implicit-o-auth-security/index.md)
-
-
-|
-
-##### [org.http4k.openapi.InfoSpec](../org.http4k.openapi/-info-spec/index.md)
 
 
 |
@@ -1618,11 +1573,6 @@ Reporting of ReadinessCheckResults in a JSON tree
 ##### [org.http4k.webdriver.JSoupWebElement](../org.http4k.webdriver/-j-soup-web-element/index.md)
 
 
-| (extensions in package org.http4k.poet)
-
-##### [kotlin.reflect.KClass](../org.http4k.poet/kotlin.reflect.-k-class/index.md)
-
-
 | (extensions in package org.http4k.format)
 
 ##### [com.fasterxml.jackson.module.kotlin.KotlinModule](../org.http4k.format/com.fasterxml.jackson.module.kotlin.-kotlin-module/index.md)
@@ -1708,11 +1658,6 @@ Represents a uni-directional extraction of an entity from a target.
 ##### [kotlin.collections.List](../org.http4k.core.body/kotlin.collections.-list/index.md)
 
 
-| (extensions in package org.http4k.openapi.v3.client)
-
-##### [kotlin.collections.List](../org.http4k.openapi.v3.client/kotlin.collections.-list/index.md)
-
-
 |
 
 ##### [org.http4k.cloudnative.health.Liveness](../org.http4k.cloudnative.health/-liveness.md)
@@ -1760,11 +1705,6 @@ Represents a body that is backed by an in-memory ByteBuffer. Closing this has no
 |
 
 ##### [org.http4k.core.MemoryResponse](../org.http4k.core/-memory-response/index.md)
-
-
-|
-
-##### [org.http4k.openapi.MessageBodySpec](../org.http4k.openapi/-message-body-spec/index.md)
 
 
 |
@@ -1821,16 +1761,6 @@ Utility class to decode MIME texts.
 
 |
 
-##### [org.http4k.openapi.v2.ModelApiGenerator](../org.http4k.openapi.v2/-model-api-generator/index.md)
-
-
-|
-
-##### [org.http4k.openapi.v3.models.ModelApiGenerator](../org.http4k.openapi.v3.models/-model-api-generator/index.md)
-
-
-|
-
 ##### [org.http4k.format.Moshi](../org.http4k.format/-moshi.md)
 
 To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called.
@@ -1879,11 +1809,6 @@ which apply to StreamBody also apply here..
 |
 
 ##### [org.http4k.testing.NamedResourceApprover](../org.http4k.testing/-named-resource-approver/index.md)
-
-
-|
-
-##### [org.http4k.openapi.NamedSchema](../org.http4k.openapi/-named-schema/index.md)
 
 
 |
@@ -2009,21 +1934,6 @@ object models is used as the input relies on JSON objects and not JVM classees.
 
 |
 
-##### [org.http4k.openapi.v2.OpenApi2ParameterSpec](../org.http4k.openapi.v2/-open-api2-parameter-spec/index.md)
-
-
-|
-
-##### [org.http4k.openapi.v2.OpenApi2PathSpec](../org.http4k.openapi.v2/-open-api2-path-spec/index.md)
-
-
-|
-
-##### [org.http4k.openapi.v2.OpenApi2Spec](../org.http4k.openapi.v2/-open-api2-spec/index.md)
-
-
-|
-
 ##### [org.http4k.contract.openapi.v3.OpenApi3](../org.http4k.contract.openapi.v3/-open-api3/index.md)
 
 Contract renderer for OpenApi3 format JSON. For the JSON schema generation, naming of
@@ -2036,31 +1946,6 @@ is passed.
 ##### [org.http4k.contract.openapi.v3.OpenApi3ApiRenderer](../org.http4k.contract.openapi.v3/-open-api3-api-renderer/index.md)
 
 Converts a API to OpenApi3 format JSON.
-
-
-|
-
-##### [org.http4k.openapi.v3.OpenApi3ComponentsSpec](../org.http4k.openapi.v3/-open-api3-components-spec/index.md)
-
-
-|
-
-##### [org.http4k.openapi.v3.OpenApi3ParameterSpec](../org.http4k.openapi.v3/-open-api3-parameter-spec/index.md)
-
-
-|
-
-##### [org.http4k.openapi.v3.OpenApi3PathSpec](../org.http4k.openapi.v3/-open-api3-path-spec/index.md)
-
-
-|
-
-##### [org.http4k.openapi.v3.OpenApi3RequestBodySpec](../org.http4k.openapi.v3/-open-api3-request-body-spec/index.md)
-
-
-|
-
-##### [org.http4k.openapi.v3.OpenApi3Spec](../org.http4k.openapi.v3/-open-api3-spec/index.md)
 
 
 |
@@ -2100,11 +1985,6 @@ A simple parser intended to parse sequences of name/value pairs.
 |
 
 ##### [org.http4k.lens.Path](../org.http4k.lens/-path/index.md)
-
-
-|
-
-##### [org.http4k.openapi.v3.Path](../org.http4k.openapi.v3/-path/index.md)
 
 
 |
@@ -2158,11 +2038,6 @@ ws:// and http:// protocol calls are passed relevantly.
 
 Determines which parts of the request should be pre-extracted to check for presence before being passed to the ultimate
 HttpHandler for this route. Choice will be determined by two competing scenarios:
-
-
-|
-
-##### [org.http4k.poet.Property](../org.http4k.poet/-property/index.md)
 
 
 |
@@ -2473,11 +2348,6 @@ Provides HTTP Handlers which respond using pre-stored Requests.
 
 |
 
-##### [org.http4k.openapi.ResponseSpec](../org.http4k.openapi/-response-spec/index.md)
-
-
-|
-
 ##### [org.http4k.security.ResponseType](../org.http4k.security/-response-type/index.md)
 
 
@@ -2553,11 +2423,6 @@ return a 404 Response if it cannot service a particular Request.
 
 |
 
-##### [org.http4k.openapi.SchemaSpec](../org.http4k.openapi/-schema-spec/index.md)
-
-
-|
-
 ##### [org.http4k.cloudnative.env.Secret](../org.http4k.cloudnative.env/-secret/index.md)
 
 A secret is a value which tries very hard not to expose itself as a string, by storing it's value in a byte array.
@@ -2581,16 +2446,6 @@ Endpoint security. Provides filter to be applied to endpoints for all requests.
 ##### [org.http4k.contract.openapi.SecurityRenderer](../org.http4k.contract.openapi/-security-renderer/index.md)
 
 Provides rendering of Security models in to OpenApi specs.
-
-
-|
-
-##### [org.http4k.openapi.v2.ServerApiGenerator](../org.http4k.openapi.v2/-server-api-generator/index.md)
-
-
-|
-
-##### [org.http4k.openapi.v3.server.ServerApiGenerator](../org.http4k.openapi.v3.server/-server-api-generator/index.md)
 
 
 |
@@ -2726,16 +2581,6 @@ gotchas:
 | (extensions in package org.http4k.routing)
 
 ##### [kotlin.String](../org.http4k.routing/kotlin.-string/index.md)
-
-
-| (extensions in package org.http4k.openapi)
-
-##### [kotlin.String](../org.http4k.openapi/kotlin.-string/index.md)
-
-
-| (extensions in package org.http4k.poet)
-
-##### [kotlin.String](../org.http4k.poet/kotlin.-string/index.md)
 
 
 |

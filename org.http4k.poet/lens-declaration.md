@@ -1,5 +1,0 @@
-[http4k](../index.md) / [org.http4k.poet](index.md) / [lensDeclaration](./lens-declaration.md)
-
-# lensDeclaration
-
-`fun `[`NamedSchema`](../org.http4k.openapi/-named-schema/index.md)`.lensDeclaration(modelPackageName: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): CodeBlock?`

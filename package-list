@@ -102,7 +102,7 @@ org.http4k.security.oauth.server.request
 org.http4k.security.openid
 org.http4k.server
 org.http4k.serverless
-org.http4k.serverless.gcp
+org.http4k.serverless.gcf
 org.http4k.serverless.lambda
 org.http4k.servirtium
 org.http4k.servlet

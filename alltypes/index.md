@@ -1103,6 +1103,11 @@ Read a file from a repository using the GitHub API.
 
 |
 
+##### [org.http4k.serverless.gcf.GoogleCloudFunction](../org.http4k.serverless.gcf/-google-cloud-function/index.md)
+
+
+|
+
 ##### [org.http4k.security.oauth.server.accesstoken.GrantType](../org.http4k.security.oauth.server.accesstoken/-grant-type/index.md)
 
 
@@ -1198,11 +1203,6 @@ Approval JUnit5 extension configured to compare prettified-HTML messages. Note t
 ##### [org.http4k.server.Http4kChannelHandler](../org.http4k.server/-http4k-channel-handler/index.md)
 
 Exposed to allow for insertion into a customised Netty server instance
-
-
-|
-
-##### [org.http4k.serverless.gcp.Http4kGCFAdapter](../org.http4k.serverless.gcp/-http4k-g-c-f-adapter/index.md)
 
 
 |

@@ -1202,6 +1202,11 @@ Exposed to allow for insertion into a customised Netty server instance
 
 |
 
+##### [org.http4k.serverless.gcp.Http4kGCFAdapter](../org.http4k.serverless.gcp/-http4k-g-c-f-adapter/index.md)
+
+
+|
+
 ##### [org.http4k.cloudnative.Http4kK8sServer](../org.http4k.cloudnative/-http4k-k8s-server/index.md)
 
 A K8S server consists of a main application and a health application, running on 2 different ports.

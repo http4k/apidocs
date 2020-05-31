@@ -2,4 +2,5 @@
 
 # &lt;init&gt;
 
-`GoogleCloudFunction(handler: `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`)`
+`GoogleCloudFunction(input: `[`AppLoader`](../../org.http4k.serverless/-app-loader.md)`)`
+`GoogleCloudFunction(appLoader: `[`AppLoaderWithContexts`](../../org.http4k.serverless/-app-loader-with-contexts.md)`)`

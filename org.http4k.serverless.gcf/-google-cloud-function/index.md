@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `GoogleCloudFunction(handler: `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`)` |
+| [&lt;init&gt;](-init-.md) | `GoogleCloudFunction(input: `[`AppLoader`](../../org.http4k.serverless/-app-loader.md)`)`<br>`GoogleCloudFunction(appLoader: `[`AppLoaderWithContexts`](../../org.http4k.serverless/-app-loader-with-contexts.md)`)` |
 
 ### Functions
 

@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `MemoryRequest(method: `[`Method`](../-method/index.md)`, uri: `[`Uri`](../-uri/index.md)`, headers: `[`Headers`](../-headers.md)` = listOf(), body: `[`Body`](../-body/index.md)` = EMPTY, version: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = HTTP_1_1)` |
+| [&lt;init&gt;](-init-.md) | `MemoryRequest(method: `[`Method`](../-method/index.md)`, uri: `[`Uri`](../-uri/index.md)`, headers: `[`Headers`](../-headers.md)` = listOf(), body: `[`Body`](../-body/index.md)` = EMPTY, version: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = HTTP_1_1, source: `[`RequestSource`](../-request-source/index.md)`? = null)` |
 
 ### Properties
 
@@ -17,6 +17,7 @@
 | [body](body.md) | `val body: `[`Body`](../-body/index.md) |
 | [headers](headers.md) | `val headers: `[`Headers`](../-headers.md) |
 | [method](method.md) | `val method: `[`Method`](../-method/index.md) |
+| [source](source.md) | `val source: `[`RequestSource`](../-request-source/index.md)`?` |
 | [uri](uri.md) | `val uri: `[`Uri`](../-uri/index.md) |
 | [version](version.md) | `val version: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 
@@ -35,6 +36,7 @@
 | [removeQuery](remove-query.md) | (Copy &amp;) remove queries with this name.`fun removeQuery(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`MemoryRequest`](./index.md) |
 | [replaceHeader](replace-header.md) | (Copy &amp;) Adds a header value with this name, replacing any previously set values.`fun replaceHeader(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`MemoryRequest`](./index.md) |
 | [replaceHeaders](replace-headers.md) | Replace all headers with ones passed.`fun replaceHeaders(source: `[`Headers`](../-headers.md)`): `[`MemoryRequest`](./index.md) |
+| [source](source.md) | (Copy &amp;) sets request source.`fun source(source: `[`RequestSource`](../-request-source/index.md)`): `[`MemoryRequest`](./index.md) |
 | [toString](to-string.md) | `fun toString(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [uri](uri.md) | (Copy &amp;) sets the Uri.`fun uri(uri: `[`Uri`](../-uri/index.md)`): `[`MemoryRequest`](./index.md) |
 

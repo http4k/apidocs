@@ -32,6 +32,7 @@ The core abstractions for the http4k library.
 | [Request](-request/index.md) | `interface Request : `[`HttpMessage`](-http-message/index.md) |
 | [RequestContext](-request-context/index.md) | `class RequestContext` |
 | [RequestContexts](-request-contexts/index.md) | In-memory RequestContext store.`class RequestContexts : `[`Store`](-store/index.md)`<`[`RequestContext`](-request-context/index.md)`>` |
+| [RequestSource](-request-source/index.md) | `data class RequestSource` |
 | [Response](-response/index.md) | `interface Response : `[`HttpMessage`](-http-message/index.md) |
 | [Status](-status/index.md) | `class Status` |
 | [Store](-store/index.md) | `interface Store<OUT> : `[`LensInjector`](../org.http4k.lens/-lens-injector/index.md)`<OUT, `[`Request`](-request/index.md)`>, `[`LensExtractor`](../org.http4k.lens/-lens-extractor/index.md)`<`[`Request`](-request/index.md)`, OUT>` |

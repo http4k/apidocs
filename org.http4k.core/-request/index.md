@@ -9,6 +9,7 @@
 | Name | Summary |
 |---|---|
 | [method](method.md) | `abstract val method: `[`Method`](../-method/index.md) |
+| [source](source.md) | `abstract val source: `[`RequestSource`](../-request-source/index.md)`?` |
 | [uri](uri.md) | `abstract val uri: `[`Uri`](../-uri/index.md) |
 
 ### Functions
@@ -25,6 +26,7 @@
 | [removeQuery](remove-query.md) | (Copy &amp;) remove queries with this name.`abstract fun removeQuery(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Request`](./index.md) |
 | [replaceHeader](replace-header.md) | (Copy &amp;) Adds a header value with this name, replacing any previously set values.`abstract fun replaceHeader(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`Request`](./index.md) |
 | [replaceHeaders](replace-headers.md) | Replace all headers with ones passed.`abstract fun replaceHeaders(source: `[`Headers`](../-headers.md)`): `[`Request`](./index.md) |
+| [source](source.md) | (Copy &amp;) sets request source.`abstract fun source(source: `[`RequestSource`](../-request-source/index.md)`): `[`Request`](./index.md) |
 | [toMessage](to-message.md) | Returns a formatted wire representation of this message.`open fun toMessage(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [uri](uri.md) | (Copy &amp;) sets the Uri.`abstract fun uri(uri: `[`Uri`](../-uri/index.md)`): `[`Request`](./index.md) |
 

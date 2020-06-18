@@ -2644,6 +2644,11 @@ Supported template implementations for templating engine implementations
 
 |
 
+##### [org.http4k.testing.lambda.TestApp](../org.http4k.testing.lambda/-test-app/index.md)
+
+
+|
+
 ##### [org.http4k.testing.TestNamer](../org.http4k.testing/-test-namer/index.md)
 
 Provides the identification of test case.

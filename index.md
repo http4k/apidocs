@@ -49,6 +49,7 @@
 | [org.http4k.template](org.http4k.template/index.md) | Common code relevant to templating implementations. |
 | [org.http4k.template.dust](org.http4k.template.dust/index.md) |  |
 | [org.http4k.testing](org.http4k.testing/index.md) | Useful tools for testing http4k applications. |
+| [org.http4k.testing.lambda](org.http4k.testing.lambda/index.md) |  |
 | [org.http4k.traffic](org.http4k.traffic/index.md) |  |
 | [org.http4k.util](org.http4k.util/index.md) | Presumed homeless code used across the rest of the library. |
 | [org.http4k.webdriver](org.http4k.webdriver/index.md) | Code for testing http4k applications with the Webdriver library. |

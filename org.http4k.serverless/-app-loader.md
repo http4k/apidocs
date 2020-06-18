@@ -6,3 +6,8 @@
 
 Http4k app loader - instantiate the application from the environment config
 
+### Inheritors
+
+| Name | Summary |
+|---|---|
+| [TestApp](../org.http4k.testing.lambda/-test-app/index.md) | `object TestApp : `[`AppLoader`](./-app-loader.md) |

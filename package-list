@@ -109,6 +109,7 @@ org.http4k.servlet
 org.http4k.template
 org.http4k.template.dust
 org.http4k.testing
+org.http4k.testing.lambda
 org.http4k.traffic
 org.http4k.util
 org.http4k.webdriver

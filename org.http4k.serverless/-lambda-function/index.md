@@ -1,4 +1,4 @@
-[http4k](../../index.md) / [org.http4k.serverless.lambda](../index.md) / [LambdaFunction](./index.md)
+[http4k](../../index.md) / [org.http4k.serverless](../index.md) / [LambdaFunction](./index.md)
 
 # LambdaFunction
 

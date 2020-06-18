@@ -1,4 +1,4 @@
-[http4k](../../index.md) / [org.http4k.serverless.gcf](../index.md) / [GoogleCloudFunction](index.md) / [service](./service.md)
+[http4k](../../index.md) / [org.http4k.serverless](../index.md) / [GoogleCloudFunction](index.md) / [service](./service.md)
 
 # service
 

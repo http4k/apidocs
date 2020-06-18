@@ -1103,7 +1103,7 @@ Read a file from a repository using the GitHub API.
 
 |
 
-##### [org.http4k.serverless.gcf.GoogleCloudFunction](../org.http4k.serverless.gcf/-google-cloud-function/index.md)
+##### [org.http4k.serverless.GoogleCloudFunction](../org.http4k.serverless/-google-cloud-function/index.md)
 
 
 |
@@ -1603,7 +1603,7 @@ ConfigurableKotlinxSerialization.
 
 |
 
-##### [org.http4k.serverless.lambda.LambdaFunction](../org.http4k.serverless.lambda/-lambda-function/index.md)
+##### [org.http4k.serverless.LambdaFunction](../org.http4k.serverless/-lambda-function/index.md)
 
 This is the main entry point for the lambda. It uses the local environment
 to instantiate the Http4k handler which can be used for further invocations.
@@ -1958,6 +1958,11 @@ Converts a API to OpenApi3 format JSON.
 ##### [org.http4k.contract.openapi.OpenApiExtension](../org.http4k.contract.openapi/-open-api-extension/index.md)
 
 Provides a way to apply extensions to the OpenAPI JSON document.
+
+
+|
+
+##### [org.http4k.serverless.OpenWhiskFunction](../org.http4k.serverless/-open-whisk-function/index.md)
 
 
 |

@@ -1,4 +1,4 @@
-[http4k](../index.md) / [org.http4k.serverless.lambda](index.md) / [LAMBDA_CONTEXT_KEY](./-l-a-m-b-d-a_-c-o-n-t-e-x-t_-k-e-y.md)
+[http4k](../index.md) / [org.http4k.serverless](index.md) / [LAMBDA_CONTEXT_KEY](./-l-a-m-b-d-a_-c-o-n-t-e-x-t_-k-e-y.md)
 
 # LAMBDA_CONTEXT_KEY
 

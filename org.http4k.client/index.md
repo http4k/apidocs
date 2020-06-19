@@ -15,6 +15,7 @@ Common code relevant to HTTP client implementations.
 | [JavaHttpClient](-java-http-client/index.md) | `object JavaHttpClient` |
 | [JettyClient](-jetty-client/index.md) | `object JettyClient` |
 | [OkHttp](-ok-http/index.md) | `object OkHttp` |
+| [PreCannedApacheHttpClients](-pre-canned-apache-http-clients/index.md) | `object PreCannedApacheHttpClients` |
 | [WebsocketClient](-websocket-client/index.md) | `object WebsocketClient` |
 
 ### Extensions for External Classes

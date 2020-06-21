@@ -8,6 +8,7 @@
 
 | Name | Summary |
 |---|---|
+| [ApiKeyAuth](-api-key-auth/index.md) | ApiKey token checking.`object ApiKeyAuth` |
 | [BasicAuth](-basic-auth/index.md) | Simple Basic Auth credential checking.`object BasicAuth` |
 | [BearerAuth](-bearer-auth/index.md) | Bearer Auth token checking.`object BearerAuth` |
 | [CatchAll](-catch-all/index.md) | Last gasp filter which catches all exceptions and returns a formatted Internal Server Error.`object CatchAll` |

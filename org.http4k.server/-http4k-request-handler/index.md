@@ -16,4 +16,4 @@ Exposed to allow for insertion into a customised Apache WebServer instance
 
 | Name | Summary |
 |---|---|
-| [handle](handle.md) | `fun handle(request: HttpRequest, response: HttpResponse, context: HttpContext): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| [handle](handle.md) | `fun handle(request: ClassicHttpRequest, response: ClassicHttpResponse, context: HttpContext): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |

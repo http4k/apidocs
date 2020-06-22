@@ -8,5 +8,5 @@
 
 | Name | Summary |
 |---|---|
-| [defaultApacheHttpClient](default-apache-http-client.md) | Standard non-redirecting, no Cookies HTTP client`fun defaultApacheHttpClient(): CloseableHttpClient!` |
-| [insecureApacheHttpClient](insecure-apache-http-client.md) | Do not use this in production! This is useful for testing locally and debugging HTTPS traffic`fun insecureApacheHttpClient(): CloseableHttpClient!` |
+| [defaultApacheHttpClient](default-apache-http-client.md) | Standard non-redirecting, no Cookies HTTP client`fun defaultApacheHttpClient(): CloseableHttpClient` |
+| [insecureApacheHttpClient](insecure-apache-http-client.md) | Do not use this in production! This is useful for testing locally and debugging HTTPS traffic`fun insecureApacheHttpClient(): CloseableHttpClient` |

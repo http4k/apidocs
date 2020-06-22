@@ -2,4 +2,4 @@
 
 # handle
 
-`fun handle(request: HttpRequest, response: HttpResponse, context: HttpContext): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)
+`fun handle(request: ClassicHttpRequest, response: ClassicHttpResponse, context: HttpContext): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)

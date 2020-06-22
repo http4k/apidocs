@@ -2,7 +2,7 @@
 
 # insecureApacheHttpClient
 
-`fun insecureApacheHttpClient(): CloseableHttpClient!`
+`fun insecureApacheHttpClient(): CloseableHttpClient`
 
 Do not use this in production! This is useful for testing locally and debugging HTTPS traffic
 

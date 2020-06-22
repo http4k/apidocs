@@ -8,8 +8,10 @@ Common code relevant to HTTP server implementations.
 
 | Name | Summary |
 |---|---|
+| [Apache4Server](-apache4-server/index.md) | `data class Apache4Server : `[`ServerConfig`](-server-config/index.md) |
 | [ApacheServer](-apache-server/index.md) | `data class ApacheServer : `[`ServerConfig`](-server-config/index.md) |
 | [ConnectorBuilder](-connector-builder.md) | `typealias ConnectorBuilder = (Server) -> ServerConnector` |
+| [Http4kApache4RequestHandler](-http4k-apache4-request-handler/index.md) | Exposed to allow for insertion into a customised Apache WebServer instance`class Http4kApache4RequestHandler : HttpRequestHandler` |
 | [Http4kChannelHandler](-http4k-channel-handler/index.md) | Exposed to allow for insertion into a customised Netty server instance`class Http4kChannelHandler : SimpleChannelInboundHandler<FullHttpRequest>` |
 | [Http4kRequestHandler](-http4k-request-handler/index.md) | Exposed to allow for insertion into a customised Apache WebServer instance`class Http4kRequestHandler : HttpRequestHandler` |
 | [Http4kServer](-http4k-server/index.md) | `interface Http4kServer : `[`AutoCloseable`](https://docs.oracle.com/javase/9/docs/api/java/lang/AutoCloseable.html) |

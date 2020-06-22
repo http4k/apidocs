@@ -2,7 +2,7 @@
 
 # defaultApacheHttpClient
 
-`fun defaultApacheHttpClient(): CloseableHttpClient!`
+`fun defaultApacheHttpClient(): CloseableHttpClient`
 
 Standard non-redirecting, no Cookies HTTP client
 

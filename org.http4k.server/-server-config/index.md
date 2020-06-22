@@ -16,6 +16,7 @@ Standard interface for creating a configured WebServer
 
 | Name | Summary |
 |---|---|
+| [Apache4Server](../-apache4-server/index.md) | `data class Apache4Server : `[`ServerConfig`](./index.md) |
 | [ApacheServer](../-apache-server/index.md) | `data class ApacheServer : `[`ServerConfig`](./index.md) |
 | [KtorCIO](../-ktor-c-i-o/index.md) | `data class KtorCIO : `[`ServerConfig`](./index.md) |
 | [KtorNetty](../-ktor-netty/index.md) | `data class KtorNetty : `[`ServerConfig`](./index.md) |

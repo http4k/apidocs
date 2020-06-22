@@ -1,14 +1,14 @@
-[http4k](../../index.md) / [org.http4k.server](../index.md) / [ApacheServer](./index.md)
+[http4k](../../index.md) / [org.http4k.server](../index.md) / [Apache4Server](./index.md)
 
-# ApacheServer
+# Apache4Server
 
-`data class ApacheServer : `[`ServerConfig`](../-server-config/index.md)
+`data class Apache4Server : `[`ServerConfig`](../-server-config/index.md)
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `ApacheServer(port: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)` = 8000, address: `[`InetAddress`](https://docs.oracle.com/javase/9/docs/api/java/net/InetAddress.html)`? = null, canonicalHostname: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`? = null)` |
+| [&lt;init&gt;](-init-.md) | `Apache4Server(port: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)` = 8000)`<br>`Apache4Server(port: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)` = 8000, address: `[`InetAddress`](https://docs.oracle.com/javase/9/docs/api/java/net/InetAddress.html)`?)` |
 
 ### Properties
 

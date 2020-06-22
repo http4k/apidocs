@@ -8,4 +8,4 @@
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `operator fun invoke(client: CloseableHttpClient = defaultApacheHttpClient(), responseBodyMode: `[`BodyMode`](../../org.http4k.core/-body-mode/index.md)` = Memory, requestBodyMode: `[`BodyMode`](../../org.http4k.core/-body-mode/index.md)` = Memory): `[`HttpHandler`](../../org.http4k.core/-http-handler.md) |
+| [invoke](invoke.md) | `operator fun invoke(client: CloseableHttpClient = PreCannedApacheHttpClients.defaultApacheHttpClient(), responseBodyMode: `[`BodyMode`](../../org.http4k.core/-body-mode/index.md)` = Memory, requestBodyMode: `[`BodyMode`](../../org.http4k.core/-body-mode/index.md)` = Memory): `[`HttpHandler`](../../org.http4k.core/-http-handler.md) |

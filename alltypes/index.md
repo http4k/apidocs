@@ -58,6 +58,21 @@ Provides a consistent way to generate access tokens.
 
 |
 
+##### [org.http4k.client.Apache4AsyncClient](../org.http4k.client/-apache4-async-client/index.md)
+
+
+|
+
+##### [org.http4k.client.Apache4Client](../org.http4k.client/-apache4-client/index.md)
+
+
+|
+
+##### [org.http4k.server.Apache4Server](../org.http4k.server/-apache4-server/index.md)
+
+
+|
+
 ##### [org.http4k.client.ApacheAsyncClient](../org.http4k.client/-apache-async-client/index.md)
 
 
@@ -1200,6 +1215,13 @@ Approval JUnit5 extension configured to compare prettified-HTML messages. Note t
 
 |
 
+##### [org.http4k.server.Http4kApache4RequestHandler](../org.http4k.server/-http4k-apache4-request-handler/index.md)
+
+Exposed to allow for insertion into a customised Apache WebServer instance
+
+
+|
+
 ##### [org.http4k.server.Http4kChannelHandler](../org.http4k.server/-http4k-channel-handler/index.md)
 
 Exposed to allow for insertion into a customised Netty server instance
@@ -2040,6 +2062,11 @@ ws:// and http:// protocol calls are passed relevantly.
 |
 
 ##### [org.http4k.cloudnative.env.Port](../org.http4k.cloudnative.env/-port/index.md)
+
+
+|
+
+##### [org.http4k.client.PreCannedApache4HttpClients](../org.http4k.client/-pre-canned-apache4-http-clients/index.md)
 
 
 |

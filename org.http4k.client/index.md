@@ -8,6 +8,8 @@ Common code relevant to HTTP client implementations.
 
 | Name | Summary |
 |---|---|
+| [Apache4AsyncClient](-apache4-async-client/index.md) | `object Apache4AsyncClient` |
+| [Apache4Client](-apache4-client/index.md) | `object Apache4Client` |
 | [ApacheAsyncClient](-apache-async-client/index.md) | `object ApacheAsyncClient` |
 | [ApacheClient](-apache-client/index.md) | `object ApacheClient` |
 | [AsyncHttpClient](-async-http-client/index.md) | `interface AsyncHttpClient : `[`Closeable`](https://docs.oracle.com/javase/9/docs/api/java/io/Closeable.html) |
@@ -15,6 +17,7 @@ Common code relevant to HTTP client implementations.
 | [JavaHttpClient](-java-http-client/index.md) | `object JavaHttpClient` |
 | [JettyClient](-jetty-client/index.md) | `object JettyClient` |
 | [OkHttp](-ok-http/index.md) | `object OkHttp` |
+| [PreCannedApache4HttpClients](-pre-canned-apache4-http-clients/index.md) | `object PreCannedApache4HttpClients` |
 | [PreCannedApacheHttpClients](-pre-canned-apache-http-clients/index.md) | `object PreCannedApacheHttpClients` |
 | [WebsocketClient](-websocket-client/index.md) | `object WebsocketClient` |
 

@@ -1,8 +1,8 @@
-[http4k](../../index.md) / [org.http4k.testing.lambda](../index.md) / [TestApp](./index.md)
+[http4k](../../index.md) / [org.http4k.serverless.openwhisk](../index.md) / [TestServerlessFunction](./index.md)
 
-# TestApp
+# TestServerlessFunction
 
-`object TestApp : `[`AppLoader`](../../org.http4k.serverless/-app-loader.md)
+`object TestServerlessFunction : `[`AppLoader`](../../org.http4k.serverless/-app-loader.md)
 
 ### Functions
 

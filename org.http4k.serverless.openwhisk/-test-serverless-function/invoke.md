@@ -1,4 +1,4 @@
-[http4k](../../index.md) / [org.http4k.testing.lambda](../index.md) / [TestApp](index.md) / [invoke](./invoke.md)
+[http4k](../../index.md) / [org.http4k.serverless.openwhisk](../index.md) / [TestServerlessFunction](index.md) / [invoke](./invoke.md)
 
 # invoke
 

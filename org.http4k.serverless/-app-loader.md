@@ -10,4 +10,5 @@ Http4k app loader - instantiate the application from the environment config
 
 | Name | Summary |
 |---|---|
-| [TestApp](../org.http4k.testing.lambda/-test-app/index.md) | `object TestApp : `[`AppLoader`](./-app-loader.md) |
+| [TestServerlessFunction](../org.http4k.serverless.lambda/-test-serverless-function/index.md) | `object TestServerlessFunction : `[`AppLoader`](./-app-loader.md) |
+| [TestServerlessFunction](../org.http4k.serverless.openwhisk/-test-serverless-function/index.md) | `object TestServerlessFunction : `[`AppLoader`](./-app-loader.md) |

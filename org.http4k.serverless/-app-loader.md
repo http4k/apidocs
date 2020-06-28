@@ -6,9 +6,3 @@
 
 Http4k app loader - instantiate the application from the environment config
 
-### Inheritors
-
-| Name | Summary |
-|---|---|
-| [TestServerlessFunction](../org.http4k.serverless.lambda/-test-serverless-function/index.md) | `object TestServerlessFunction : `[`AppLoader`](./-app-loader.md) |
-| [TestServerlessFunction](../org.http4k.serverless.openwhisk/-test-serverless-function/index.md) | `object TestServerlessFunction : `[`AppLoader`](./-app-loader.md) |

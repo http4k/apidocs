@@ -1697,11 +1697,6 @@ The Liveness check is used to determine if an app is alive.
 ##### [org.http4k.filter.cookie.LocalCookie](../org.http4k.filter.cookie/-local-cookie/index.md)
 
 
-|
-
-##### [org.http4k.serverless.openwhisk.Main](../org.http4k.serverless.openwhisk/-main/index.md)
-
-
 | (extensions in package org.http4k.core)
 
 ##### [kotlin.collections.Map](../org.http4k.core/kotlin.collections.-map/index.md)
@@ -1985,6 +1980,11 @@ Converts a API to OpenApi3 format JSON.
 ##### [org.http4k.contract.openapi.OpenApiExtension](../org.http4k.contract.openapi/-open-api-extension/index.md)
 
 Provides a way to apply extensions to the OpenAPI JSON document.
+
+
+|
+
+##### [org.http4k.serverless.openwhisk.OpenWhiskAction](../org.http4k.serverless.openwhisk/-open-whisk-action/index.md)
 
 
 |
@@ -2689,16 +2689,6 @@ Supported template implementations for templating engine implementations
 ##### [org.http4k.testing.TestNamer](../org.http4k.testing/-test-namer/index.md)
 
 Provides the identification of test case.
-
-
-|
-
-##### [org.http4k.serverless.lambda.TestServerlessFunction](../org.http4k.serverless.lambda/-test-serverless-function/index.md)
-
-
-|
-
-##### [org.http4k.serverless.openwhisk.TestServerlessFunction](../org.http4k.serverless.openwhisk/-test-serverless-function/index.md)
 
 
 |

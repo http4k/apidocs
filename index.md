@@ -42,7 +42,6 @@
 | [org.http4k.security.openid](org.http4k.security.openid/index.md) |  |
 | [org.http4k.server](org.http4k.server/index.md) | Common code relevant to HTTP server implementations. |
 | [org.http4k.serverless](org.http4k.serverless/index.md) | Common code relevant to HTTP serverless implementations. |
-| [org.http4k.serverless.lambda](org.http4k.serverless.lambda/index.md) |  |
 | [org.http4k.serverless.openwhisk](org.http4k.serverless.openwhisk/index.md) |  |
 | [org.http4k.servirtium](org.http4k.servirtium/index.md) |  |
 | [org.http4k.servlet](org.http4k.servlet/index.md) | Code for mounting http4k applications into Servlet containers. |

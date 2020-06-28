@@ -6,4 +6,5 @@
 
 | Name | Summary |
 |---|---|
+| [Main](-main/index.md) | `object Main` |
 | [TestServerlessFunction](-test-serverless-function/index.md) | `object TestServerlessFunction : `[`AppLoader`](../org.http4k.serverless/-app-loader.md) |

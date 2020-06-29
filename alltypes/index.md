@@ -1984,11 +1984,6 @@ Provides a way to apply extensions to the OpenAPI JSON document.
 
 |
 
-##### [org.http4k.serverless.openwhisk.OpenWhiskAction](../org.http4k.serverless.openwhisk/-open-whisk-action/index.md)
-
-
-|
-
 ##### [org.http4k.serverless.OpenWhiskFunction](../org.http4k.serverless/-open-whisk-function/index.md)
 
 
@@ -2682,6 +2677,11 @@ A set of standardised String &lt;-&gt; Type conversions which are used throughou
 ##### [org.http4k.template.Templates](../org.http4k.template/-templates/index.md)
 
 Supported template implementations for templating engine implementations
+
+
+|
+
+##### [org.http4k.serverless.openwhisk.TestAction](../org.http4k.serverless.openwhisk/-test-action/index.md)
 
 
 |

@@ -6,4 +6,4 @@
 
 | Name | Summary |
 |---|---|
-| [OpenWhiskAction](-open-whisk-action/index.md) | `object OpenWhiskAction` |
+| [TestAction](-test-action/index.md) | `object TestAction` |

@@ -2076,6 +2076,11 @@ ws:// and http:// protocol calls are passed relevantly.
 
 |
 
+##### [org.http4k.client.PreCannedOkHttpClients](../org.http4k.client/-pre-canned-ok-http-clients/index.md)
+
+
+|
+
 ##### [org.http4k.contract.PreFlightExtraction](../org.http4k.contract/-pre-flight-extraction/index.md)
 
 Determines which parts of the request should be pre-extracted to check for presence before being passed to the ultimate

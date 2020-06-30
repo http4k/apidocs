@@ -19,6 +19,7 @@ Common code relevant to HTTP client implementations.
 | [OkHttp](-ok-http/index.md) | `object OkHttp` |
 | [PreCannedApache4HttpClients](-pre-canned-apache4-http-clients/index.md) | `object PreCannedApache4HttpClients` |
 | [PreCannedApacheHttpClients](-pre-canned-apache-http-clients/index.md) | `object PreCannedApacheHttpClients` |
+| [PreCannedOkHttpClients](-pre-canned-ok-http-clients/index.md) | `object PreCannedOkHttpClients` |
 | [WebsocketClient](-websocket-client/index.md) | `object WebsocketClient` |
 
 ### Extensions for External Classes

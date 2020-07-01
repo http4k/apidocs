@@ -2,7 +2,7 @@
 
 # MimeTypes
 
-`data class MimeTypes`
+`class MimeTypes`
 
 ### Functions
 

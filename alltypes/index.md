@@ -156,7 +156,7 @@ Http4k app loader - instantiate the application from the environment config
 
 ##### [org.http4k.serverless.AppLoaderWithContexts](../org.http4k.serverless/-app-loader-with-contexts.md)
 
-Http4k app loader - instantiate the application from the environment config and request contexts object
+Http4k app loader - instantiate the application from the environment config and RequestContexts
 
 
 |

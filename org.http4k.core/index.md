@@ -25,7 +25,7 @@ The core abstractions for the http4k library.
 | [MemoryRequest](-memory-request/index.md) | `data class MemoryRequest : `[`Request`](-request/index.md) |
 | [MemoryResponse](-memory-response/index.md) | `data class MemoryResponse : `[`Response`](-response/index.md) |
 | [Method](-method/index.md) | `enum class Method` |
-| [MimeTypes](-mime-types/index.md) | `data class MimeTypes` |
+| [MimeTypes](-mime-types/index.md) | `class MimeTypes` |
 | [MultipartEntity](-multipart-entity/index.md) | `sealed class MultipartEntity : `[`Closeable`](https://docs.oracle.com/javase/9/docs/api/java/io/Closeable.html) |
 | [MultipartFormBody](-multipart-form-body/index.md) | Represents a Multi-part that is backed by a stream, which should be closed after handling the content. The gotchas which apply to StreamBody also apply here..`data class MultipartFormBody : `[`Body`](-body/index.md)`, `[`Closeable`](https://docs.oracle.com/javase/9/docs/api/java/io/Closeable.html) |
 | [Parameters](-parameters.md) | `typealias Parameters = `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<Parameter>` |

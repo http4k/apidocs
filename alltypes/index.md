@@ -842,6 +842,16 @@ Basic reporting of ReadinessCheckResults
 
 |
 
+##### [org.http4k.serverless.DetectBinaryBody](../org.http4k.serverless/-detect-binary-body/index.md)
+
+OpenWhisk Base64 encodes Binary requests and responses when they are sent to
+the deployed Function. This interface allows for custom implementations of that logic,
+which might be required if your function supports more than one endpoint (with mixed
+request/response types).
+
+
+|
+
 ##### [org.http4k.routing.experimental.DirectoryRenderer](../org.http4k.routing.experimental/-directory-renderer.md)
 
 

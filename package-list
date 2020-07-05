@@ -70,6 +70,7 @@ org.http4k
 org.http4k.aws
 org.http4k.chaos
 org.http4k.client
+org.http4k.client.internal
 org.http4k.cloudnative
 org.http4k.cloudnative.env
 org.http4k.cloudnative.health

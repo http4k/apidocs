@@ -16,4 +16,5 @@
 
 | Name | Summary |
 |---|---|
+| [BlockingWsClient](../../org.http4k.client.internal/-blocking-ws-client/index.md) | `class BlockingWsClient : `[`WsClient`](./index.md) |
 | [TestWsClient](../../org.http4k.testing/-test-ws-client/index.md) | A class that is used for *offline* testing of a routed Websocket, without starting up a Server. Calls are routed synchronously to the receiving Websocket, and error are propagated to the caller.`class TestWsClient : `[`WsClient`](./index.md) |

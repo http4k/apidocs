@@ -10,6 +10,7 @@
 | [org.http4k.aws](org.http4k.aws/index.md) | Code for connecting http4k applications to AWS services, including request signing. |
 | [org.http4k.chaos](org.http4k.chaos/index.md) |  |
 | [org.http4k.client](org.http4k.client/index.md) | Common code relevant to HTTP client implementations. |
+| [org.http4k.client.internal](org.http4k.client.internal/index.md) |  |
 | [org.http4k.cloudnative](org.http4k.cloudnative/index.md) |  |
 | [org.http4k.cloudnative.env](org.http4k.cloudnative.env/index.md) |  |
 | [org.http4k.cloudnative.health](org.http4k.cloudnative.health/index.md) |  |

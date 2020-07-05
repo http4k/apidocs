@@ -26,3 +26,9 @@
 | [triggerClose](trigger-close.md) | `fun triggerClose(status: `[`WsStatus`](../-ws-status/index.md)` = NORMAL): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 | [triggerError](trigger-error.md) | `fun triggerError(throwable: `[`Throwable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 | [triggerMessage](trigger-message.md) | `fun triggerMessage(message: `[`WsMessage`](../-ws-message/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+
+### Inheritors
+
+| Name | Summary |
+|---|---|
+| [AdaptingWebSocket](../../org.http4k.client.internal/-adapting-web-socket/index.md) | `class AdaptingWebSocket : `[`PushPullAdaptingWebSocket`](./index.md) |

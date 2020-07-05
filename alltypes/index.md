@@ -58,6 +58,11 @@ Provides a consistent way to generate access tokens.
 
 |
 
+##### [org.http4k.client.internal.AdaptingWebSocket](../org.http4k.client.internal/-adapting-web-socket/index.md)
+
+
+|
+
 ##### [org.http4k.client.Apache4AsyncClient](../org.http4k.client/-apache4-async-client/index.md)
 
 
@@ -468,6 +473,16 @@ Represents a bi-directional extraction of an entity from a target Body, or an in
 |
 
 ##### [org.http4k.multipart.BitFiddling](../org.http4k.multipart/-bit-fiddling/index.md)
+
+
+|
+
+##### [org.http4k.client.internal.BlockingQueueClient](../org.http4k.client.internal/-blocking-queue-client/index.md)
+
+
+|
+
+##### [org.http4k.client.internal.BlockingWsClient](../org.http4k.client.internal/-blocking-ws-client/index.md)
 
 
 |
@@ -1861,6 +1876,11 @@ which apply to StreamBody also apply here..
 |
 
 ##### [org.http4k.contract.openapi.v3.NoFieldFound](../org.http4k.contract.openapi.v3/-no-field-found/index.md)
+
+
+|
+
+##### [org.http4k.client.internal.NonBlockingClient](../org.http4k.client.internal/-non-blocking-client/index.md)
 
 
 |

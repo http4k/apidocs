@@ -1516,7 +1516,16 @@ Jade4j templating support. Use the function in the constructor to configure the 
 
 |
 
+##### [org.http4k.client.Java8HttpClient](../org.http4k.client/-java8-http-client/index.md)
+
+Use this legacy Java client when you're not yet on Java 11.
+
+
+|
+
 ##### [org.http4k.client.JavaHttpClient](../org.http4k.client/-java-http-client/index.md)
+
+Basic JDK-based Client.
 
 
 |
@@ -2102,6 +2111,11 @@ ws:// and http:// protocol calls are passed relevantly.
 |
 
 ##### [org.http4k.client.PreCannedApacheHttpClients](../org.http4k.client/-pre-canned-apache-http-clients/index.md)
+
+
+|
+
+##### [org.http4k.client.PreCannedJavaHttpClients](../org.http4k.client/-pre-canned-java-http-clients/index.md)
 
 
 |

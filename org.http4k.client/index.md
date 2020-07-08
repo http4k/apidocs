@@ -14,13 +14,11 @@ Common code relevant to HTTP client implementations.
 | [ApacheClient](-apache-client/index.md) | `object ApacheClient` |
 | [AsyncHttpClient](-async-http-client/index.md) | `interface AsyncHttpClient : `[`Closeable`](https://docs.oracle.com/javase/9/docs/api/java/io/Closeable.html) |
 | [DualSyncAsyncHttpHandler](-dual-sync-async-http-handler.md) | `interface DualSyncAsyncHttpHandler : `[`HttpHandler`](../org.http4k.core/-http-handler.md)`, `[`AsyncHttpClient`](-async-http-client/index.md) |
-| [Java8HttpClient](-java8-http-client/index.md) | Use this legacy Java client when you're not yet on Java 11.`object Java8HttpClient` |
-| [JavaHttpClient](-java-http-client/index.md) | Basic JDK-based Client.`class JavaHttpClient : `[`HttpHandler`](../org.http4k.core/-http-handler.md) |
+| [JavaHttpClient](-java-http-client/index.md) | `object JavaHttpClient` |
 | [JettyClient](-jetty-client/index.md) | `object JettyClient` |
 | [OkHttp](-ok-http/index.md) | `object OkHttp` |
 | [PreCannedApache4HttpClients](-pre-canned-apache4-http-clients/index.md) | `object PreCannedApache4HttpClients` |
 | [PreCannedApacheHttpClients](-pre-canned-apache-http-clients/index.md) | `object PreCannedApacheHttpClients` |
-| [PreCannedJavaHttpClients](-pre-canned-java-http-clients/index.md) | `object PreCannedJavaHttpClients` |
 | [PreCannedOkHttpClients](-pre-canned-ok-http-clients/index.md) | `object PreCannedOkHttpClients` |
 | [WebsocketClient](-websocket-client/index.md) | `object WebsocketClient` |
 

@@ -2,4 +2,4 @@
 
 # invoke
 
-`fun invoke(request: `[`Request`](../../org.http4k.core/-request/index.md)`): `[`Response`](../../org.http4k.core/-response/index.md)
+`operator fun invoke(): `[`HttpHandler`](../../org.http4k.core/-http-handler.md)

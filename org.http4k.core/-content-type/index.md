@@ -34,6 +34,7 @@
 | [APPLICATION_PDF](-a-p-p-l-i-c-a-t-i-o-n_-p-d-f.md) | `val APPLICATION_PDF: `[`ContentType`](./index.md) |
 | [APPLICATION_XML](-a-p-p-l-i-c-a-t-i-o-n_-x-m-l.md) | `val APPLICATION_XML: `[`ContentType`](./index.md) |
 | [MULTIPART_FORM_DATA](-m-u-l-t-i-p-a-r-t_-f-o-r-m_-d-a-t-a.md) | `val MULTIPART_FORM_DATA: `[`ContentType`](./index.md) |
+| [MULTIPART_MIXED](-m-u-l-t-i-p-a-r-t_-m-i-x-e-d.md) | `val MULTIPART_MIXED: `[`ContentType`](./index.md) |
 | [OCTET_STREAM](-o-c-t-e-t_-s-t-r-e-a-m.md) | `val OCTET_STREAM: `[`ContentType`](./index.md) |
 | [TEXT_HTML](-t-e-x-t_-h-t-m-l.md) | `val TEXT_HTML: `[`ContentType`](./index.md) |
 | [TEXT_PLAIN](-t-e-x-t_-p-l-a-i-n.md) | `val TEXT_PLAIN: `[`ContentType`](./index.md) |

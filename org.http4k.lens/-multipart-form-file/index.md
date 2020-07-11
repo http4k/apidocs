@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [Companion](-companion.md) | `companion object Companion : `[`BiDiLensSpec`](../-bi-di-lens-spec/index.md)`<`[`MultipartForm`](../-multipart-form/index.md)`, `[`MultipartFormFile`](./index.md)`>` |
+| [Companion](-companion/index.md) | `companion object Companion : `[`BiDiLensSpec`](../-bi-di-lens-spec/index.md)`<`[`MultipartForm`](../-multipart-form/index.md)`, `[`MultipartFormFile`](./index.md)`>` |
 
 ### Constructors
 
@@ -32,3 +32,9 @@
 | [equals](equals.md) | `fun equals(other: `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`?): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
 | [hashCode](hash-code.md) | `fun hashCode(): `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
 | [toString](to-string.md) | `fun toString(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+
+### Companion Object Functions
+
+| Name | Summary |
+|---|---|
+| [inputStream](input-stream.md) | Use this when it doesn't matter about the name or content type of the file uploaded.`fun inputStream(): `[`BiDiLensSpec`](../-bi-di-lens-spec/index.md)`<`[`MultipartForm`](../-multipart-form/index.md)`, `[`InputStream`](https://docs.oracle.com/javase/9/docs/api/java/io/InputStream.html)`>` |

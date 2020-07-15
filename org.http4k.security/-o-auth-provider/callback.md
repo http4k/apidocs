@@ -2,4 +2,4 @@
 
 # callback
 
-`val callback: `[`HttpHandler`](../../org.http4k.core/-http-handler.md)
+`val callback: `[`OAuthCallback`](../-o-auth-callback/index.md)

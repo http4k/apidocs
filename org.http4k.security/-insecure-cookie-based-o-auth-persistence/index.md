@@ -11,7 +11,7 @@ Access-tokens for end-services are fully available to the browser so do not use 
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | This is an example implementation which stores CSRF and AccessToken values in an INSECURE client-side cookie. Access-tokens for end-services are fully available to the browser so do not use this in production!`InsecureCookieBasedOAuthPersistence(cookieNamePrefix: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, cookieValidity: `[`Duration`](https://docs.oracle.com/javase/9/docs/api/java/time/Duration.html)` = Duration.ofHours(1), clock: `[`Clock`](https://docs.oracle.com/javase/9/docs/api/java/time/Clock.html)` = Clock.systemUTC())` |
+| [&lt;init&gt;](-init-.md) | This is an example implementation which stores CSRF and AccessToken values in an INSECURE client-side cookie. Access-tokens for end-services are fully available to the browser so do not use this in production!`InsecureCookieBasedOAuthPersistence(cookieNamePrefix: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, cookieValidity: `[`Duration`](https://docs.oracle.com/javase/9/docs/api/java/time/Duration.html)` = Duration.ofHours(3), clock: `[`Clock`](https://docs.oracle.com/javase/9/docs/api/java/time/Clock.html)` = Clock.systemDefaultZone())` |
 
 ### Functions
 

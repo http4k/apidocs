@@ -2,5 +2,5 @@
 
 # authFilter
 
-`val authFilter: `[`Filter`](../../org.http4k.core/-filter/index.md)
+`val authFilter: `[`OAuthRedirectionFilter`](../-o-auth-redirection-filter/index.md)
 `fun authFilter(requestJwts: `[`RequestJwts`](../../org.http4k.security.openid/-request-jwts/index.md)`): `[`Filter`](../../org.http4k.core/-filter/index.md)

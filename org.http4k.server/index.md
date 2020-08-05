@@ -17,6 +17,7 @@ Common code relevant to HTTP server implementations.
 | [Http4kServer](-http4k-server/index.md) | `interface Http4kServer : `[`AutoCloseable`](https://docs.oracle.com/javase/9/docs/api/java/lang/AutoCloseable.html) |
 | [Http4kWebSocketAdapter](-http4k-web-socket-adapter/index.md) | `class Http4kWebSocketAdapter` |
 | [Http4kWebSocketListener](-http4k-web-socket-listener/index.md) | `class Http4kWebSocketListener : WebSocketListener` |
+| [HttpExchangeHandler](-http-exchange-handler/index.md) | `class HttpExchangeHandler : `[`HttpHandler`](https://docs.oracle.com/javase/9/docs/api/com/sun/net/httpserver/HttpHandler.html) |
 | [HttpUndertowHandler](-http-undertow-handler/index.md) | Exposed to allow for insertion into a customised Undertow server instance`class HttpUndertowHandler : HttpHandler` |
 | [Jetty](-jetty/index.md) | `class Jetty : `[`WsServerConfig`](-ws-server-config/index.md) |
 | [KtorCIO](-ktor-c-i-o/index.md) | `data class KtorCIO : `[`ServerConfig`](-server-config/index.md) |

@@ -1301,6 +1301,11 @@ Adapts between the Servlet and http4k APIs
 
 |
 
+##### [org.http4k.server.HttpExchangeHandler](../org.http4k.server/-http-exchange-handler/index.md)
+
+
+|
+
 ##### [org.http4k.core.HttpHandler](../org.http4k.core/-http-handler.md)
 
 

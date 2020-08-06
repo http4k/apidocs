@@ -12,11 +12,15 @@
 | [BodyContent](-body-content/index.md) | `sealed class BodyContent` |
 | [Components](-components/index.md) | `data class Components<NODE>` |
 | [Field](-field/index.md) | `data class Field` |
+| [FieldMetadata](-field-metadata/index.md) | `data class FieldMetadata` |
+| [FieldMetadataRetrievalStrategy](-field-metadata-retrieval-strategy.md) | `interface FieldMetadataRetrievalStrategy : (`[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`) -> `[`FieldMetadata`](-field-metadata/index.md) |
 | [FieldRetrieval](-field-retrieval/index.md) | `interface FieldRetrieval : (`[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`) -> `[`Field`](-field/index.md) |
 | [HasSchema](-has-schema/index.md) | `interface HasSchema<NODE>` |
+| [JacksonFieldMetadataRetrievalStrategy](-jackson-field-metadata-retrieval-strategy/index.md) | `object JacksonFieldMetadataRetrievalStrategy : `[`FieldMetadataRetrievalStrategy`](-field-metadata-retrieval-strategy.md) |
 | [JacksonJsonNamingAnnotated](-jackson-json-naming-annotated/index.md) | `class JacksonJsonNamingAnnotated : `[`FieldRetrieval`](-field-retrieval/index.md) |
 | [JacksonJsonPropertyAnnotated](-jackson-json-property-annotated/index.md) | `object JacksonJsonPropertyAnnotated : `[`FieldRetrieval`](-field-retrieval/index.md) |
 | [JsonToJsonSchema](-json-to-json-schema/index.md) | `class JsonToJsonSchema<NODE> : `[`JsonSchemaCreator`](../org.http4k.util/-json-schema-creator/index.md)`<NODE, NODE>` |
+| [NoOpFieldMetadataRetrievalStrategy](-no-op-field-metadata-retrieval-strategy/index.md) | `class NoOpFieldMetadataRetrievalStrategy : `[`FieldMetadataRetrievalStrategy`](-field-metadata-retrieval-strategy.md) |
 | [OpenApi3](-open-api3/index.md) | Contract renderer for OpenApi3 format JSON. For the JSON schema generation, naming of object models will default to either reflective or hashcode based depending on if a Auto Json is passed.`class OpenApi3<NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`ContractRenderer`](../org.http4k.contract/-contract-renderer/index.md)`, `[`ErrorResponseRenderer`](../org.http4k.contract/-error-response-renderer/index.md) |
 | [OpenApi3ApiRenderer](-open-api3-api-renderer/index.md) | Converts a API to OpenApi3 format JSON.`class OpenApi3ApiRenderer<NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`ApiRenderer`](../org.http4k.contract.openapi/-api-renderer/index.md)`<`[`Api`](-api/index.md)`<NODE>, NODE>` |
 | [RequestContents](-request-contents/index.md) | `class RequestContents<NODE> : `[`HasSchema`](-has-schema/index.md)`<NODE>` |

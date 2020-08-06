@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`SimpleLookup(renamingStrategy: (`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`) -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = { it })`
+`SimpleLookup(renamingStrategy: (`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`) -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = { it }, metadataRetrievalStrategy: `[`FieldMetadataRetrievalStrategy`](../-field-metadata-retrieval-strategy.md)` = NoOpFieldMetadataRetrievalStrategy())`

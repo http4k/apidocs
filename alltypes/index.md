@@ -1003,6 +1003,16 @@ Useful EventFilters used in building event processing pipelines to add various t
 
 |
 
+##### [org.http4k.contract.openapi.v3.FieldMetadata](../org.http4k.contract.openapi.v3/-field-metadata/index.md)
+
+
+|
+
+##### [org.http4k.contract.openapi.v3.FieldMetadataRetrievalStrategy](../org.http4k.contract.openapi.v3/-field-metadata-retrieval-strategy.md)
+
+
+|
+
 ##### [org.http4k.contract.openapi.v3.FieldRetrieval](../org.http4k.contract.openapi.v3/-field-retrieval/index.md)
 
 
@@ -1485,6 +1495,11 @@ To implement custom JSON configuration, create your own object singleton. Extra 
 
 |
 
+##### [org.http4k.contract.openapi.v3.JacksonFieldMetadataRetrievalStrategy](../org.http4k.contract.openapi.v3/-jackson-field-metadata-retrieval-strategy/index.md)
+
+
+|
+
 ##### [org.http4k.contract.openapi.v3.JacksonJsonNamingAnnotated](../org.http4k.contract.openapi.v3/-jackson-json-naming-annotated/index.md)
 
 
@@ -1905,6 +1920,11 @@ which apply to StreamBody also apply here..
 |
 
 ##### [org.http4k.security.openid.NonceGenerator](../org.http4k.security.openid/-nonce-generator.md)
+
+
+|
+
+##### [org.http4k.contract.openapi.v3.NoOpFieldMetadataRetrievalStrategy](../org.http4k.contract.openapi.v3/-no-op-field-metadata-retrieval-strategy/index.md)
 
 
 |

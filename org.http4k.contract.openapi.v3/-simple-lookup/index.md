@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `SimpleLookup(renamingStrategy: (`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`) -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = { it })` |
+| [&lt;init&gt;](-init-.md) | `SimpleLookup(renamingStrategy: (`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`) -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = { it }, metadataRetrievalStrategy: `[`FieldMetadataRetrievalStrategy`](../-field-metadata-retrieval-strategy.md)` = NoOpFieldMetadataRetrievalStrategy())` |
 
 ### Functions
 

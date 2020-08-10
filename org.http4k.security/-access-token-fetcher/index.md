@@ -4,6 +4,12 @@
 
 `class AccessTokenFetcher`
 
+### Types
+
+| Name | Summary |
+|---|---|
+| [Forms](-forms/index.md) | `object Forms` |
+
 ### Constructors
 
 | Name | Summary |
@@ -14,4 +20,4 @@
 
 | Name | Summary |
 |---|---|
-| [fetch](fetch.md) | `fun fetch(code: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`AccessTokenDetails`](../-access-token-details/index.md)`?` |
+| [fetch](fetch.md) | `fun fetch(theCode: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`AccessTokenDetails`](../-access-token-details/index.md)`?` |

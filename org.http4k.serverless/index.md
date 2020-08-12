@@ -13,7 +13,7 @@ Common code relevant to HTTP serverless implementations.
 | [BootstrapAppLoader](-bootstrap-app-loader/index.md) | `object BootstrapAppLoader : `[`AppLoaderWithContexts`](-app-loader-with-contexts.md) |
 | [DetectBinaryBody](-detect-binary-body/index.md) | OpenWhisk Base64 encodes Binary requests and responses when they are sent to the deployed Function. This interface allows for custom implementations of that logic, which might be required if your function supports more than one endpoint (with mixed request/response types).`interface DetectBinaryBody` |
 | [GoogleCloudFunction](-google-cloud-function/index.md) | `open class GoogleCloudFunction : HttpFunction` |
-| [LambdaFunction](-lambda-function/index.md) | This is the main entry point for the lambda. It uses the local environment to instantiate the Http4k handler which can be used for further invocations.`class LambdaFunction` |
+| [LambdaFunction](-lambda-function/index.md) | This is the main entry point for the lambda. It uses the local environment to instantiate the Http4k handler which can be used for further invocations.`open class LambdaFunction` |
 | [OpenWhiskFunction](-open-whisk-function/index.md) | `class OpenWhiskFunction : (JsonObject) -> JsonObject` |
 
 ### Exceptions

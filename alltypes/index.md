@@ -2760,6 +2760,11 @@ Supported template implementations for templating engine implementations
 
 |
 
+##### [org.http4k.serverless.lambda.TestFunction](../org.http4k.serverless.lambda/-test-function/index.md)
+
+
+|
+
 ##### [org.http4k.testing.TestNamer](../org.http4k.testing/-test-namer/index.md)
 
 Provides the identification of test case.

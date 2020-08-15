@@ -2,7 +2,8 @@
 
 # BootstrapAppLoader
 
-`object BootstrapAppLoader : `[`AppLoaderWithContexts`](../-app-loader-with-contexts.md)
+`object ~~BootstrapAppLoader~~ : `[`AppLoaderWithContexts`](../-app-loader-with-contexts.md)
+**Deprecated:** Extend LambdaFunction instead of this reflection-based approach.
 
 ### Properties
 

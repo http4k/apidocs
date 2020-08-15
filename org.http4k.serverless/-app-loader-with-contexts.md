@@ -10,4 +10,4 @@ Http4k app loader - instantiate the application from the environment config and 
 
 | Name | Summary |
 |---|---|
-| [BootstrapAppLoader](-bootstrap-app-loader/index.md) | `object BootstrapAppLoader : `[`AppLoaderWithContexts`](./-app-loader-with-contexts.md) |
+| [BootstrapAppLoader](-bootstrap-app-loader/index.md) | `object ~~BootstrapAppLoader~~ : `[`AppLoaderWithContexts`](./-app-loader-with-contexts.md) |

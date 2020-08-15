@@ -10,3 +10,11 @@ Perform an assertThat on the incoming Request as a Filter operation
 
 Perform an assertThat on the outgoing Response as a Filter operation
 
+`fun `[`RequestFilters`](-request-filters/index.md)`.Assert(match: Matcher<`[`HttpMessage`](../org.http4k.core/-http-message/index.md)`>): `[`Filter`](../org.http4k.core/-filter/index.md)
+
+Perform an assertion on the incoming Request as a Filter operation
+
+`fun `[`ResponseFilters`](-response-filters/index.md)`.Assert(match: Matcher<`[`HttpMessage`](../org.http4k.core/-http-message/index.md)`>): `[`Filter`](../org.http4k.core/-filter/index.md)
+
+Perform an assertion on the outgoing Response as a Filter operation
+

@@ -91,6 +91,7 @@ org.http4k.format
 org.http4k.hamkrest
 org.http4k.jsonrpc
 org.http4k.junit
+org.http4k.kotest
 org.http4k.lens
 org.http4k.multipart
 org.http4k.routing

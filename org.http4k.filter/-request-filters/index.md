@@ -24,4 +24,4 @@
 
 | Name | Summary |
 |---|---|
-| [Assert](../-assert.md) | Perform an assertThat on the incoming Request as a Filter operation`fun `[`RequestFilters`](./index.md)`.Assert(matcher: Matcher<`[`Request`](../../org.http4k.core/-request/index.md)`>): `[`Filter`](../../org.http4k.core/-filter/index.md) |
+| [Assert](../-assert.md) | Perform an assertThat on the incoming Request as a Filter operation`fun `[`RequestFilters`](./index.md)`.Assert(matcher: Matcher<`[`Request`](../../org.http4k.core/-request/index.md)`>): `[`Filter`](../../org.http4k.core/-filter/index.md)<br>Perform an assertion on the incoming Request as a Filter operation`fun `[`RequestFilters`](./index.md)`.Assert(match: Matcher<`[`HttpMessage`](../../org.http4k.core/-http-message/index.md)`>): `[`Filter`](../../org.http4k.core/-filter/index.md) |

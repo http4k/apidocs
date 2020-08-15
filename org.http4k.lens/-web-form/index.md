@@ -28,4 +28,6 @@
 
 | Name | Summary |
 |---|---|
+| [shouldHaveFormField](../../org.http4k.kotest/should-have-form-field.md) | `fun <T> `[`WebForm`](./index.md)`.shouldHaveFormField(field: `[`Lens`](../-lens/index.md)`<`[`WebForm`](./index.md)`, T>, matcher: Matcher<T>): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| [shouldNotHaveFormField](../../org.http4k.kotest/should-not-have-form-field.md) | `fun <T> `[`WebForm`](./index.md)`.shouldNotHaveFormField(field: `[`Lens`](../-lens/index.md)`<`[`WebForm`](./index.md)`, T>, matcher: Matcher<T>): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 | [with](../../org.http4k.core/with.md) | `fun `[`WebForm`](./index.md)`.with(vararg modifiers: (`[`WebForm`](./index.md)`) -> `[`WebForm`](./index.md)`): `[`WebForm`](./index.md) |

@@ -2,6 +2,8 @@
 
 ## Package org.http4k.kotest
 
+Matchers for use with the kotest matching library.
+
 ### Functions
 
 | Name | Summary |

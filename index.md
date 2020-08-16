@@ -31,7 +31,7 @@
 | [org.http4k.hamkrest](org.http4k.hamkrest/index.md) | Matchers for use with the hamkrest matching library. |
 | [org.http4k.jsonrpc](org.http4k.jsonrpc/index.md) |  |
 | [org.http4k.junit](org.http4k.junit/index.md) |  |
-| [org.http4k.kotest](org.http4k.kotest/index.md) |  |
+| [org.http4k.kotest](org.http4k.kotest/index.md) | Matchers for use with the kotest matching library. |
 | [org.http4k.lens](org.http4k.lens/index.md) | Code relevant to extracting and injecting typesafe values into HTTP messages. |
 | [org.http4k.multipart](org.http4k.multipart/index.md) |  |
 | [org.http4k.routing](org.http4k.routing/index.md) | Code for routing HTTP messages inside server implementations. |

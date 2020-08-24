@@ -45,3 +45,4 @@ Common code relevant to HTTP server implementations.
 | [asServer](as-server.md) | `fun `[`PolyHandler`](../org.http4k.websocket/-poly-handler/index.md)`.asServer(config: `[`WsServerConfig`](-ws-server-config/index.md)`): `[`Http4kServer`](-http4k-server/index.md) |
 | [http](http.md) | `fun http(httpPort: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`): `[`ConnectorBuilder`](-connector-builder.md) |
 | [http2](http2.md) | `fun http2(http2Port: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`, keystorePath: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, keystorePassword: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`ConnectorBuilder`](-connector-builder.md) |
+| [main](main.md) | `fun main(): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |

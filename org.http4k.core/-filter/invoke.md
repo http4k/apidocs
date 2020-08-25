@@ -2,4 +2,4 @@
 
 # invoke
 
-`operator fun invoke(fn: (`[`HttpHandler`](../-http-handler.md)`) -> `[`HttpHandler`](../-http-handler.md)`): `[`Filter`](index.md)
+`@JvmStatic @JvmName("create") operator fun invoke(fn: (`[`HttpHandler`](../-http-handler.md)`) -> `[`HttpHandler`](../-http-handler.md)`): `[`Filter`](index.md)

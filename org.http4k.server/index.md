@@ -28,6 +28,14 @@ Common code relevant to HTTP server implementations.
 | [ServerConfig](-server-config/index.md) | Standard interface for creating a configured WebServer`interface ServerConfig` |
 | [SunHttp](-sun-http/index.md) | `data class SunHttp : `[`ServerConfig`](-server-config/index.md) |
 | [Undertow](-undertow/index.md) | `data class Undertow : `[`ServerConfig`](-server-config/index.md) |
+| [UsageFromJava_apache](-usage-from-java_apache/index.md) | `interface UsageFromJava_apache` |
+| [UsageFromJava_apache4](-usage-from-java_apache4/index.md) | `interface UsageFromJava_apache4` |
+| [UsageFromJava_jetty](-usage-from-java_jetty/index.md) | `interface UsageFromJava_jetty` |
+| [UsageFromJava_ktorcio](-usage-from-java_ktorcio/index.md) | `interface UsageFromJava_ktorcio` |
+| [UsageFromJava_ktornetty](-usage-from-java_ktornetty/index.md) | `interface UsageFromJava_ktornetty` |
+| [UsageFromJava_netty](-usage-from-java_netty/index.md) | `interface UsageFromJava_netty` |
+| [UsageFromJava_ratpack](-usage-from-java_ratpack/index.md) | `interface UsageFromJava_ratpack` |
+| [UsageFromJava_undertow](-usage-from-java_undertow/index.md) | `interface UsageFromJava_undertow` |
 | [WsServerConfig](-ws-server-config/index.md) | Standard interface for creating a configured WebServer which supports Websockets`interface WsServerConfig : `[`ServerConfig`](-server-config/index.md) |
 
 ### Extensions for External Classes

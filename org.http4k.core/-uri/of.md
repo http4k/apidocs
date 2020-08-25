@@ -2,4 +2,4 @@
 
 # of
 
-`fun of(value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Uri`](index.md)
+`@JvmStatic fun of(value: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Uri`](index.md)

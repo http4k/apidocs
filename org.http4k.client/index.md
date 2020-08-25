@@ -22,6 +22,10 @@ Common code relevant to HTTP client implementations.
 | [PreCannedApacheHttpClients](-pre-canned-apache-http-clients/index.md) | `object PreCannedApacheHttpClients` |
 | [PreCannedJavaHttpClients](-pre-canned-java-http-clients/index.md) | `object PreCannedJavaHttpClients` |
 | [PreCannedOkHttpClients](-pre-canned-ok-http-clients/index.md) | `object PreCannedOkHttpClients` |
+| [UsageFromJava_apache](-usage-from-java_apache/index.md) | `interface UsageFromJava_apache` |
+| [UsageFromJava_apache4](-usage-from-java_apache4/index.md) | `interface UsageFromJava_apache4` |
+| [UsageFromJava_jetty](-usage-from-java_jetty/index.md) | `interface UsageFromJava_jetty` |
+| [UsageFromJava_okhttp](-usage-from-java_okhttp/index.md) | `interface UsageFromJava_okhttp` |
 | [WebsocketClient](-websocket-client/index.md) | `object WebsocketClient` |
 
 ### Extensions for External Classes

@@ -2855,6 +2855,76 @@ are routed synchronously to the receiving Websocket, and error are propagated to
 
 |
 
+##### [org.http4k.client.UsageFromJava_apache](../org.http4k.client/-usage-from-java_apache/index.md)
+
+
+|
+
+##### [org.http4k.server.UsageFromJava_apache](../org.http4k.server/-usage-from-java_apache/index.md)
+
+
+|
+
+##### [org.http4k.client.UsageFromJava_apache4](../org.http4k.client/-usage-from-java_apache4/index.md)
+
+
+|
+
+##### [org.http4k.server.UsageFromJava_apache4](../org.http4k.server/-usage-from-java_apache4/index.md)
+
+
+|
+
+##### [org.http4k.client.UsageFromJava_jetty](../org.http4k.client/-usage-from-java_jetty/index.md)
+
+
+|
+
+##### [org.http4k.server.UsageFromJava_jetty](../org.http4k.server/-usage-from-java_jetty/index.md)
+
+
+|
+
+##### [org.http4k.server.UsageFromJava_ktorcio](../org.http4k.server/-usage-from-java_ktorcio/index.md)
+
+
+|
+
+##### [org.http4k.server.UsageFromJava_ktornetty](../org.http4k.server/-usage-from-java_ktornetty/index.md)
+
+
+|
+
+##### [org.http4k.server.UsageFromJava_netty](../org.http4k.server/-usage-from-java_netty/index.md)
+
+
+|
+
+##### [org.http4k.client.UsageFromJava_okhttp](../org.http4k.client/-usage-from-java_okhttp/index.md)
+
+
+|
+
+##### [org.http4k.server.UsageFromJava_ratpack](../org.http4k.server/-usage-from-java_ratpack/index.md)
+
+
+|
+
+##### [org.http4k.junit.UsageFromJava_servirtium](../org.http4k.junit/-usage-from-java_servirtium/index.md)
+
+
+|
+
+##### [org.http4k.servirtium.UsageFromJava_servirtium](../org.http4k.servirtium/-usage-from-java_servirtium/index.md)
+
+
+|
+
+##### [org.http4k.server.UsageFromJava_undertow](../org.http4k.server/-usage-from-java_undertow/index.md)
+
+
+|
+
 ##### [org.http4k.security.oauth.server.UserRejectedRequest](../org.http4k.security.oauth.server/-user-rejected-request.md)
 
 

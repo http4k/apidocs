@@ -1033,11 +1033,6 @@ Useful EventFilters used in building event processing pipelines to add various t
 
 |
 
-##### [org.http4k.routing.experimental.Foo](../org.http4k.routing.experimental/-foo/index.md)
-
-
-|
-
 ##### [org.http4k.cloudnative.Forbidden](../org.http4k.cloudnative/-forbidden/index.md)
 
 

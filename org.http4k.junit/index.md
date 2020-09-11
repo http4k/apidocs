@@ -8,4 +8,3 @@
 |---|---|
 | [ServirtiumRecording](-servirtium-recording/index.md) | JUnit 5 extension for recording HTTP traffic to disk in Servirtium format.`class ServirtiumRecording : ParameterResolver, BeforeTestExecutionCallback, AfterTestExecutionCallback` |
 | [ServirtiumReplay](-servirtium-replay/index.md) | JUnit 5 extension for replaying HTTP traffic from disk in Servirtium format.`class ServirtiumReplay : ParameterResolver` |
-| [UsageFromJava_servirtium](-usage-from-java_servirtium/index.md) | `interface UsageFromJava_servirtium` |

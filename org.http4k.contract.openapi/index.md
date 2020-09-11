@@ -2,6 +2,8 @@
 
 ## Package org.http4k.contract.openapi
 
+Rendering for OpenAPI specifications
+
 ### Types
 
 | Name | Summary |

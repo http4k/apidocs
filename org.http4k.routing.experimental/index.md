@@ -7,6 +7,7 @@
 | Name | Summary |
 |---|---|
 | [DirectoryRenderer](-directory-renderer.md) | `typealias DirectoryRenderer = (uri: `[`Uri`](../org.http4k.core/-uri/index.md)`, dir: `[`ResourceSummary`](-resource-summary/index.md)`, resources: `[`Iterable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html)`<`[`ResourceSummary`](-resource-summary/index.md)`>) -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [Foo](-foo/index.md) | `class Foo` |
 | [InMemoryResource](-in-memory-resource/index.md) | `class InMemoryResource : `[`Resource`](-resource/index.md) |
 | [Resource](-resource/index.md) | `interface Resource : `[`HttpHandler`](../org.http4k.core/-http-handler.md) |
 | [ResourceListingHandler](-resource-listing-handler/index.md) | `class ResourceListingHandler : `[`HttpHandler`](../org.http4k.core/-http-handler.md) |

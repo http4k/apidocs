@@ -8,4 +8,4 @@
 
 | Name | Summary |
 |---|---|
-| [main](main.md) | `fun main(request: JsonObject): JsonObject` |
+| [main](main.md) | `fun main(request: JsonObject): <ERROR CLASS>` |

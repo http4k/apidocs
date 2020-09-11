@@ -2,4 +2,4 @@
 
 # main
 
-`@JvmStatic fun main(request: JsonObject): JsonObject`
+`@JvmStatic fun main(request: JsonObject): <ERROR CLASS>`

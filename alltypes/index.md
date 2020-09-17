@@ -359,6 +359,11 @@ Common base type for all format libraries which can convert directly from String
 
 |
 
+##### [org.http4k.aws.AwsSdkClient](../org.http4k.aws/-aws-sdk-client/index.md)
+
+
+|
+
 ##### [org.apache.commons.fileupload.util.mime.Base64Decoder](../org.apache.commons.fileupload.util.mime/-base64-decoder/index.md)
 
 

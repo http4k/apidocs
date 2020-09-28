@@ -154,14 +154,10 @@ Renders the contract contents in OpenApi JSON format.
 
 ##### [org.http4k.serverless.AppLoader](../org.http4k.serverless/-app-loader.md)
 
-Http4k app loader - instantiate the application from the environment config
-
 
 |
 
 ##### [org.http4k.serverless.AppLoaderWithContexts](../org.http4k.serverless/-app-loader-with-contexts.md)
-
-Http4k app loader - instantiate the application from the environment config and RequestContexts
 
 
 |
@@ -708,8 +704,6 @@ Result of multiple checks, for which it reports an overall result (ie. any failu
 
 ##### [org.http4k.lens.ContentNegotiation](../org.http4k.lens/-content-negotiation/index.md)
 
-Modes for determining if a passed content type is acceptable.
-
 
 |
 
@@ -961,8 +955,6 @@ Represents a meaningful "happening" in an app.
 
 ##### [org.http4k.events.EventFilter](../org.http4k.events/-event-filter/index.md)
 
-An EventFilter is used to create pipelines for Event processing.
-
 
 |
 
@@ -1033,7 +1025,7 @@ Useful EventFilters used in building event processing pipelines to add various t
 
 |
 
-##### [org.http4k.core.Filter](../org.http4k.core/-filter/index.md)
+##### [org.http4k.core.Filter](../org.http4k.core/-filter.md)
 
 
 |
@@ -1412,8 +1404,6 @@ Access-tokens for end-services are fully available to the browser so do not use 
 
 ##### [org.http4k.servirtium.InteractionControl](../org.http4k.servirtium/-interaction-control/index.md)
 
-Provides controls for interacting with an in-action Interaction recording.
-
 
 |
 
@@ -1669,7 +1659,7 @@ Reporting of ReadinessCheckResults in a JSON tree
 ##### [org.http4k.format.KotlinxSerialization](../org.http4k.format/-kotlinx-serialization.md)
 
 To implement custom JSON configuration, create your own object singleton extending
-ConfigurableKotlinxSerialization.
+ConfigurableKotlinxSerialization, passing in the JSON configuration block
 
 
 |
@@ -2157,9 +2147,6 @@ ws:// and http:// protocol calls are passed relevantly.
 
 ##### [org.http4k.contract.PreFlightExtraction](../org.http4k.contract/-pre-flight-extraction/index.md)
 
-Determines which parts of the request should be pre-extracted to check for presence before being passed to the ultimate
-HttpHandler for this route. Choice will be determined by two competing scenarios:
-
 
 |
 
@@ -2415,8 +2402,6 @@ In-memory RequestContext store.
 
 ##### [org.http4k.routing.ResourceLoader](../org.http4k.routing/-resource-loader/index.md)
 
-Looks up contents of a resource path.
-
 
 |
 
@@ -2511,8 +2496,6 @@ Provides HTTP Handlers which respond using pre-stored Requests.
 
 ##### [org.http4k.routing.Router](../org.http4k.routing/-router/index.md)
 
-Provides matching of a Request to an HttpHandler which can service it.
-
 
 |
 
@@ -2578,8 +2561,6 @@ Provides rendering of Security models in to OpenApi specs.
 
 ##### [org.http4k.server.ServerConfig](../org.http4k.server/-server-config/index.md)
 
-Standard interface for creating a configured WebServer
-
 
 |
 
@@ -2629,8 +2610,6 @@ JUnit 5 extension for replaying HTTP traffic from disk in Servirtium format.
 
 ##### [org.http4k.traffic.Sink](../org.http4k.traffic/-sink/index.md)
 
-Consumes HTTP traffic for storage.
-
 
 |
 
@@ -2640,8 +2619,6 @@ Consumes HTTP traffic for storage.
 |
 
 ##### [org.http4k.traffic.Source](../org.http4k.traffic/-source/index.md)
-
-Tries to retrieve a stored response for a given request.
 
 
 |
@@ -2771,8 +2748,6 @@ Supported template implementations for templating engine implementations
 |
 
 ##### [org.http4k.testing.TestNamer](../org.http4k.testing/-test-namer/index.md)
-
-Provides the identification of test case.
 
 
 |

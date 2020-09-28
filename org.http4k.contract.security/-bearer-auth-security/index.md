@@ -16,7 +16,7 @@ Checks the presence of bearer auth credentials. Filter returns 401 if auth fails
 
 | Name | Summary |
 |---|---|
-| [filter](filter.md) | `val filter: `[`Filter`](../../org.http4k.core/-filter/index.md) |
+| [filter](filter.md) | `val filter: `[`Filter`](../../org.http4k.core/-filter.md) |
 | [name](name.md) | `val name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 
 ### Extension Functions

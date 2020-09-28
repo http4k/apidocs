@@ -5,7 +5,7 @@
 | Name | Summary |
 |---|---|
 | [and](and.md) | `infix fun `[`Trigger`](../-trigger.md)`.and(that: `[`Trigger`](../-trigger.md)`): `[`Trigger`](../-trigger.md) |
-| [asFilter](as-filter.md) | Converts this chaos stage to a standard http4k Filter.`fun `[`Stage`](../-stage.md)`.asFilter(): `[`Filter`](../../org.http4k.core/-filter/index.md) |
+| [asFilter](as-filter.md) | Converts this chaos stage to a standard http4k Filter.`fun `[`Stage`](../-stage.md)`.asFilter(): `[`Filter`](../../org.http4k.core/-filter.md) |
 | [not](not.md) | `operator fun `[`Trigger`](../-trigger.md)`.not(): (`[`Request`](../../org.http4k.core/-request/index.md)`) -> `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
 | [or](or.md) | `infix fun `[`Trigger`](../-trigger.md)`.or(that: `[`Trigger`](../-trigger.md)`): `[`Trigger`](../-trigger.md) |
 | [then](then.md) | Chain the next ChaosBehaviour to apply when this stage is finished.`fun `[`Stage`](../-stage.md)`.then(nextStage: `[`Stage`](../-stage.md)`): `[`Stage`](../-stage.md) |

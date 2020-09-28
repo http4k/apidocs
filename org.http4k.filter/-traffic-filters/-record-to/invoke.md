@@ -2,4 +2,4 @@
 
 # invoke
 
-`operator fun invoke(sink: `[`Sink`](../../../org.http4k.traffic/-sink/index.md)`): `[`Filter`](../../../org.http4k.core/-filter/index.md)
+`operator fun invoke(sink: `[`Sink`](../../../org.http4k.traffic/-sink/index.md)`): `[`Filter`](../../../org.http4k.core/-filter.md)

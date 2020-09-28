@@ -2,7 +2,7 @@
 
 # DiskTree
 
-`fun DiskTree(baseDir: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = "."): `[`Source`](index.md)
+`fun DiskTree(baseDir: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = "."): <ERROR CLASS>`
 
 Looks up traffic from the FS, based on tree storage format.
 

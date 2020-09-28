@@ -2,4 +2,4 @@
 
 # withPostSecurityFilter
 
-`fun withPostSecurityFilter(new: `[`Filter`](../../org.http4k.core/-filter/index.md)`): `[`ContractRoutingHttpHandler`](index.md)
+`fun withPostSecurityFilter(new: `[`Filter`](../../org.http4k.core/-filter.md)`): `[`ContractRoutingHttpHandler`](index.md)

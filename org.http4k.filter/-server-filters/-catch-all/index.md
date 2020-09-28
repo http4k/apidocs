@@ -10,4 +10,4 @@ Last gasp filter which catches all exceptions and returns a formatted Internal S
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `operator fun invoke(errorStatus: `[`Status`](../../../org.http4k.core/-status/index.md)` = INTERNAL_SERVER_ERROR): `[`Filter`](../../../org.http4k.core/-filter/index.md) |
+| [invoke](invoke.md) | `operator fun invoke(errorStatus: `[`Status`](../../../org.http4k.core/-status/index.md)` = INTERNAL_SERVER_ERROR): `[`Filter`](../../../org.http4k.core/-filter.md) |

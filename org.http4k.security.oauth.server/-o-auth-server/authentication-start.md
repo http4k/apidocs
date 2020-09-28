@@ -2,4 +2,4 @@
 
 # authenticationStart
 
-`val authenticationStart: `[`Filter`](../../org.http4k.core/-filter/index.md)
+`val authenticationStart: `[`Filter`](../../org.http4k.core/-filter.md)

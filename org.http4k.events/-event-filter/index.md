@@ -4,13 +4,11 @@
 
 `interface EventFilter : (`[`Events`](../-events.md)`) -> `[`Events`](../-events.md)
 
-An EventFilter is used to create pipelines for Event processing.
-
 ### Companion Object Functions
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `operator fun invoke(fn: (`[`Events`](../-events.md)`) -> `[`Events`](../-events.md)`): `[`EventFilter`](./index.md) |
+| [invoke](invoke.md) | `operator fun invoke(fn: (`[`Events`](../-events.md)`) -> `[`Events`](../-events.md)`): <ERROR CLASS>` |
 
 ### Extension Functions
 

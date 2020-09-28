@@ -11,4 +11,4 @@ Only Gunzip responses when the response contains "transfer-encoding" header cont
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `operator fun invoke(compressionMode: `[`GzipCompressionMode`](../../-gzip-compression-mode/index.md)` = Memory): `[`Filter`](../../../org.http4k.core/-filter/index.md) |
+| [invoke](invoke.md) | `operator fun invoke(compressionMode: `[`GzipCompressionMode`](../../-gzip-compression-mode/index.md)` = Memory): `[`Filter`](../../../org.http4k.core/-filter.md) |

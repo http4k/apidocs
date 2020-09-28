@@ -2,7 +2,7 @@
 
 # StrictNoDirective
 
-`val StrictNoDirective: `[`ContentNegotiation`](index.md)
+`val StrictNoDirective: <ERROR CLASS>`
 
 The received Content-type header passed back MUST equal the expected Content-type, not including the directive
 

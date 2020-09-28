@@ -21,7 +21,7 @@ Useful tools for testing http4k applications.
 | [ReadResource](-read-resource/index.md) | `interface ReadResource` |
 | [ReadWriteResource](-read-write-resource/index.md) | `interface ReadWriteResource : `[`ReadResource`](-read-resource/index.md) |
 | [RecordingEvents](-recording-events/index.md) | Simple recording events that can be used in tests`class RecordingEvents : `[`Events`](../org.http4k.events/-events.md)`, `[`Iterable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html)`<`[`Event`](../org.http4k.events/-event/index.md)`>` |
-| [TestNamer](-test-namer/index.md) | Provides the identification of test case.`interface TestNamer` |
+| [TestNamer](-test-namer/index.md) | `interface TestNamer` |
 | [TestWsClient](-test-ws-client/index.md) | A class that is used for *offline* testing of a routed Websocket, without starting up a Server. Calls are routed synchronously to the receiving Websocket, and error are propagated to the caller.`class TestWsClient : `[`WsClient`](../org.http4k.websocket/-ws-client/index.md) |
 | [XmlApprovalTest](-xml-approval-test/index.md) | Approval JUnit5 extension configured to compare prettified-XML messages.`class XmlApprovalTest : `[`ContentTypeAwareApprovalTest`](-content-type-aware-approval-test/index.md) |
 
@@ -42,6 +42,7 @@ Useful tools for testing http4k applications.
 
 | Name | Summary |
 |---|---|
+| [&lt;no name provided&gt;](-no name provided-.md) | Provides the identification of test case.`fun <no name provided>(): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 | [assertApproved](assert-approved.md) | `fun `[`Approver`](-approver/index.md)`.assertApproved(response: `[`Response`](../org.http4k.core/-response/index.md)`, expectedStatus: `[`Status`](../org.http4k.core/-status/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)<br>`fun `[`Approver`](-approver/index.md)`.assertApproved(content: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)<br>`fun `[`Approver`](-approver/index.md)`.assertApproved(content: `[`InputStream`](https://docs.oracle.com/javase/9/docs/api/java/io/InputStream.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 | [hasApprovedContent](has-approved-content.md) | Create a Hamkrest Matcher for this message that can be combined with other Matchers`fun <T : `[`HttpMessage`](../org.http4k.core/-http-message/index.md)`> `[`Approver`](-approver/index.md)`.hasApprovedContent(): Matcher<T>` |
 | [testWsClient](test-ws-client.md) | `fun `[`PolyHandler`](../org.http4k.websocket/-poly-handler/index.md)`.testWsClient(request: `[`Request`](../org.http4k.core/-request/index.md)`): `[`TestWsClient`](-test-ws-client/index.md)`?` |

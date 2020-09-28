@@ -10,4 +10,4 @@ Add Cors headers to the Response, according to the passed CorsPolicy
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `operator fun invoke(policy: `[`CorsPolicy`](../../-cors-policy/index.md)`): `[`Filter`](../../../org.http4k.core/-filter/index.md) |
+| [invoke](invoke.md) | `operator fun invoke(policy: `[`CorsPolicy`](../../-cors-policy/index.md)`): <ERROR CLASS>` |

@@ -2,4 +2,4 @@
 
 # postSecurityFilter
 
-`var postSecurityFilter: `[`Filter`](../../org.http4k.core/-filter/index.md)
+`var postSecurityFilter: `[`Filter`](../../org.http4k.core/-filter.md)

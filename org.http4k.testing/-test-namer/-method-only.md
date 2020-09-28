@@ -2,4 +2,4 @@
 
 # MethodOnly
 
-`val MethodOnly: `[`TestNamer`](index.md)
+`val MethodOnly: <ERROR CLASS>`

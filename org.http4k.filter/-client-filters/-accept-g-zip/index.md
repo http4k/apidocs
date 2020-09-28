@@ -10,4 +10,4 @@ Support for GZipped responses from clients.
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `operator fun invoke(compressionMode: `[`GzipCompressionMode`](../../-gzip-compression-mode/index.md)` = Memory): `[`Filter`](../../../org.http4k.core/-filter/index.md) |
+| [invoke](invoke.md) | `operator fun invoke(compressionMode: `[`GzipCompressionMode`](../../-gzip-compression-mode/index.md)` = Memory): `[`Filter`](../../../org.http4k.core/-filter.md) |

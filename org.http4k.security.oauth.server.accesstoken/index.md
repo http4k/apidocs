@@ -15,3 +15,9 @@
 | [GenerateAccessTokenForGrantType](-generate-access-token-for-grant-type/index.md) | `class GenerateAccessTokenForGrantType` |
 | [GrantType](-grant-type/index.md) | `enum class GrantType` |
 | [GrantTypesConfiguration](-grant-types-configuration/index.md) | `data class GrantTypesConfiguration` |
+
+### Functions
+
+| Name | Summary |
+|---|---|
+| [&lt;no name provided&gt;](-no name provided-.md) | `fun <no name provided>(): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |

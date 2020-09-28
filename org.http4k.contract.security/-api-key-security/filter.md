@@ -2,4 +2,4 @@
 
 # filter
 
-`val filter: `[`Filter`](../../org.http4k.core/-filter/index.md)
+`val filter: <ERROR CLASS>`

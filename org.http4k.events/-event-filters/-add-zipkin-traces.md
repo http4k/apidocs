@@ -2,7 +2,7 @@
 
 # AddZipkinTraces
 
-`fun AddZipkinTraces(): `[`EventFilter`](../-event-filter/index.md)
+`fun AddZipkinTraces(): <ERROR CLASS>`
 
 Adds Zipkin traces metadata to the event.
 

@@ -2,7 +2,7 @@
 
 # GZipContentTypes
 
-`class GZipContentTypes : `[`Filter`](../../../org.http4k.core/-filter/index.md)
+`class GZipContentTypes : `[`Filter`](../../../org.http4k.core/-filter.md)
 
 GZipping of the response where the content-type (sans-charset) matches an allowed list of compressible types.
 

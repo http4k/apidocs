@@ -2,7 +2,7 @@
 
 # NonStrict
 
-`val NonStrict: `[`ContentNegotiation`](index.md)
+`val NonStrict: <ERROR CLASS>`
 
 If present, the received Content-type header passed back MUST equal the expected Content-type, including directive
 

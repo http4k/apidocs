@@ -10,7 +10,7 @@ Endpoint security. Provides filter to be applied to endpoints for all requests.
 
 | Name | Summary |
 |---|---|
-| [filter](filter.md) | `abstract val filter: `[`Filter`](../../org.http4k.core/-filter/index.md) |
+| [filter](filter.md) | `abstract val filter: `[`Filter`](../../org.http4k.core/-filter.md) |
 
 ### Extension Functions
 

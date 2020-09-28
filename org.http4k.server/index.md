@@ -25,7 +25,7 @@ Common code relevant to HTTP server implementations.
 | [Netty](-netty/index.md) | `data class Netty : `[`ServerConfig`](-server-config/index.md) |
 | [Ratpack](-ratpack/index.md) | `class Ratpack : `[`ServerConfig`](-server-config/index.md) |
 | [RatpackHttp4kHandler](-ratpack-http4k-handler/index.md) | `class RatpackHttp4kHandler : Handler` |
-| [ServerConfig](-server-config/index.md) | Standard interface for creating a configured WebServer`interface ServerConfig` |
+| [ServerConfig](-server-config/index.md) | `interface ServerConfig` |
 | [SunHttp](-sun-http/index.md) | `data class SunHttp : `[`ServerConfig`](-server-config/index.md) |
 | [Undertow](-undertow/index.md) | `data class Undertow : `[`ServerConfig`](-server-config/index.md) |
 | [WsServerConfig](-ws-server-config/index.md) | Standard interface for creating a configured WebServer which supports Websockets`interface WsServerConfig : `[`ServerConfig`](-server-config/index.md) |
@@ -42,6 +42,7 @@ Common code relevant to HTTP server implementations.
 
 | Name | Summary |
 |---|---|
+| [&lt;no name provided&gt;](-no name provided-.md) | Standard interface for creating a configured WebServer`fun <no name provided>(): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 | [asServer](as-server.md) | `fun `[`PolyHandler`](../org.http4k.websocket/-poly-handler/index.md)`.asServer(config: `[`WsServerConfig`](-ws-server-config/index.md)`): `[`Http4kServer`](-http4k-server/index.md) |
 | [http](http.md) | `fun http(httpPort: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`): `[`ConnectorBuilder`](-connector-builder.md) |
 | [http2](http2.md) | `fun http2(http2Port: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`, keystorePath: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, keystorePassword: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`ConnectorBuilder`](-connector-builder.md) |

@@ -21,11 +21,11 @@
 | [AuthRequestExtractor](-auth-request-extractor/index.md) | `interface AuthRequestExtractor` |
 | [AuthRequestFromQueryParameters](-auth-request-from-query-parameters/index.md) | `object AuthRequestFromQueryParameters : `[`AuthRequestExtractor`](-auth-request-extractor/index.md) |
 | [AuthRequestTracking](-auth-request-tracking/index.md) | Provides a mechanism to track OAuth authorization parameters to be used later (i.e. can be used later to generate code and/or tokens)`interface AuthRequestTracking` |
-| [AuthRequestTrackingFilter](-auth-request-tracking-filter/index.md) | `class AuthRequestTrackingFilter : `[`Filter`](../org.http4k.core/-filter/index.md) |
+| [AuthRequestTrackingFilter](-auth-request-tracking-filter/index.md) | `class AuthRequestTrackingFilter : `[`Filter`](../org.http4k.core/-filter.md) |
 | [AuthRequestWithRequestAuthRequestExtractor](-auth-request-with-request-auth-request-extractor/index.md) | `class AuthRequestWithRequestAuthRequestExtractor : `[`AuthRequestExtractor`](-auth-request-extractor/index.md) |
 | [ClientId](-client-id/index.md) | `data class ClientId` |
 | [ClientIdMismatch](-client-id-mismatch.md) | `object ClientIdMismatch : `[`AccessTokenError`](-access-token-error.md) |
-| [ClientValidationFilter](-client-validation-filter/index.md) | `class ClientValidationFilter : `[`Filter`](../org.http4k.core/-filter/index.md) |
+| [ClientValidationFilter](-client-validation-filter/index.md) | `class ClientValidationFilter : `[`Filter`](../org.http4k.core/-filter.md) |
 | [ClientValidator](-client-validator/index.md) | Provides a consistent way to retrieve clients attempting to use an authorization code flow`interface ClientValidator` |
 | [FragmentResponseRender](-fragment-response-render/index.md) | `class FragmentResponseRender : `[`ResponseRender`](-response-render/index.md) |
 | [GenerateAccessToken](-generate-access-token/index.md) | `class GenerateAccessToken : `[`HttpHandler`](../org.http4k.core/-http-handler.md) |
@@ -55,3 +55,9 @@
 | [UnsupportedGrantType](-unsupported-grant-type/index.md) | `data class UnsupportedGrantType : `[`AccessTokenError`](-access-token-error.md) |
 | [UnsupportedResponseType](-unsupported-response-type/index.md) | `data class UnsupportedResponseType : `[`AuthorizationError`](-authorization-error.md) |
 | [UserRejectedRequest](-user-rejected-request.md) | `object UserRejectedRequest : `[`AuthorizationError`](-authorization-error.md) |
+
+### Functions
+
+| Name | Summary |
+|---|---|
+| [&lt;no name provided&gt;](-no name provided-.md) | `fun <no name provided>(): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |

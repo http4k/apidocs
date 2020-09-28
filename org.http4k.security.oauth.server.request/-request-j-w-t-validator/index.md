@@ -14,4 +14,4 @@
 
 | Name | Summary |
 |---|---|
-| [Unsupported](-unsupported.md) | `val Unsupported: `[`RequestJWTValidator`](./index.md) |
+| [Unsupported](-unsupported.md) | `val Unsupported: <ERROR CLASS>` |

@@ -2,4 +2,4 @@
 
 # compose
 
-`fun compose(vararg retrieval: `[`FieldRetrieval`](index.md)`): `[`FieldRetrieval`](index.md)
+`fun compose(vararg retrieval: `[`FieldRetrieval`](index.md)`): <ERROR CLASS>`

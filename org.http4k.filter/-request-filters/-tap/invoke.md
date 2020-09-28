@@ -2,4 +2,4 @@
 
 # invoke
 
-`operator fun invoke(fn: (`[`Request`](../../../org.http4k.core/-request/index.md)`) -> `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)`): `[`Filter`](../../../org.http4k.core/-filter/index.md)
+`operator fun invoke(fn: (`[`Request`](../../../org.http4k.core/-request/index.md)`) -> `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)`): <ERROR CLASS>`

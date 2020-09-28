@@ -4,8 +4,6 @@
 
 `interface ServerConfig`
 
-Standard interface for creating a configured WebServer
-
 ### Functions
 
 | Name | Summary |

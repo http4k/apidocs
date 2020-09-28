@@ -2,4 +2,4 @@
 
 # Unsupported
 
-`val Unsupported: `[`RequestJWTValidator`](index.md)
+`val Unsupported: <ERROR CLASS>`

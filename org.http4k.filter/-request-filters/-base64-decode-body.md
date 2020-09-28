@@ -2,7 +2,7 @@
 
 # Base64DecodeBody
 
-`fun Base64DecodeBody(): `[`Filter`](../../org.http4k.core/-filter/index.md)
+`fun Base64DecodeBody(): <ERROR CLASS>`
 
 Some platforms deliver bodies as Base64 encoded strings.
 

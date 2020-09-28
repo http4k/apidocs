@@ -2,4 +2,4 @@
 
 # NoOp
 
-`val Filter.Companion.NoOp: `[`Filter`](-filter/index.md)
+`val Filter.Companion.NoOp: `[`Filter`](-filter.md)

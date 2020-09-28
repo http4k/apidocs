@@ -8,4 +8,4 @@
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `operator fun invoke(set: (`[`Request`](../../../org.http4k.core/-request/index.md)`) -> `[`Request`](../../../org.http4k.core/-request/index.md)`): `[`Filter`](../../../org.http4k.core/-filter/index.md) |
+| [invoke](invoke.md) | `operator fun invoke(set: (`[`Request`](../../../org.http4k.core/-request/index.md)`) -> `[`Request`](../../../org.http4k.core/-request/index.md)`): `[`Filter`](../../../org.http4k.core/-filter.md) |

@@ -4,8 +4,6 @@
 
 `interface ContentNegotiation`
 
-Modes for determining if a passed content type is acceptable.
-
 ### Functions
 
 | Name | Summary |
@@ -16,7 +14,7 @@ Modes for determining if a passed content type is acceptable.
 
 | Name | Summary |
 |---|---|
-| [None](-none.md) | No validation is done on the received content type at all`val None: `[`ContentNegotiation`](./index.md) |
-| [NonStrict](-non-strict.md) | If present, the received Content-type header passed back MUST equal the expected Content-type, including directive`val NonStrict: `[`ContentNegotiation`](./index.md) |
-| [Strict](-strict.md) | The received Content-type header passed back MUST equal the expected Content-type, including directive`val Strict: `[`ContentNegotiation`](./index.md) |
-| [StrictNoDirective](-strict-no-directive.md) | The received Content-type header passed back MUST equal the expected Content-type, not including the directive`val StrictNoDirective: `[`ContentNegotiation`](./index.md) |
+| [None](-none.md) | No validation is done on the received content type at all`val None: <ERROR CLASS>` |
+| [NonStrict](-non-strict.md) | If present, the received Content-type header passed back MUST equal the expected Content-type, including directive`val NonStrict: <ERROR CLASS>` |
+| [Strict](-strict.md) | The received Content-type header passed back MUST equal the expected Content-type, including directive`val Strict: <ERROR CLASS>` |
+| [StrictNoDirective](-strict-no-directive.md) | The received Content-type header passed back MUST equal the expected Content-type, not including the directive`val StrictNoDirective: <ERROR CLASS>` |

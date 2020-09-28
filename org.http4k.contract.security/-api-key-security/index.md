@@ -19,7 +19,7 @@ currently not enabled for OpenAPI.
 
 | Name | Summary |
 |---|---|
-| [filter](filter.md) | `val filter: `[`Filter`](../../org.http4k.core/-filter/index.md) |
+| [filter](filter.md) | `val filter: <ERROR CLASS>` |
 | [name](name.md) | `val name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [param](param.md) | `val param: `[`Lens`](../../org.http4k.lens/-lens/index.md)`<`[`Request`](../../org.http4k.core/-request/index.md)`, T>` |
 

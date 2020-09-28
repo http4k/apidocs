@@ -22,7 +22,7 @@ References:
 | Name | Summary |
 |---|---|
 | [authenticationComplete](authentication-complete.md) | `val authenticationComplete: `[`AuthenticationComplete`](../-authentication-complete/index.md) |
-| [authenticationStart](authentication-start.md) | `val authenticationStart: `[`Filter`](../../org.http4k.core/-filter/index.md) |
+| [authenticationStart](authentication-start.md) | `val authenticationStart: `[`Filter`](../../org.http4k.core/-filter.md) |
 | [tokenRoute](token-route.md) | `val tokenRoute: `[`RoutingHttpHandler`](../../org.http4k.routing/-routing-http-handler/index.md) |
 
 ### Companion Object Properties

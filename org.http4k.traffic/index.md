@@ -10,13 +10,14 @@
 | [ReadWriteStream](-read-write-stream/index.md) | Combined Read/Write storage models, optimised for replay.`interface ReadWriteStream : `[`Sink`](-sink/index.md)`, `[`Replay`](-replay/index.md) |
 | [Replay](-replay/index.md) | Provides a stream of traffic for replaying purposes.`interface Replay` |
 | [Responder](-responder/index.md) | Provides HTTP Handlers which respond using pre-stored Requests.`object Responder` |
-| [Sink](-sink/index.md) | Consumes HTTP traffic for storage.`interface Sink` |
-| [Source](-source/index.md) | Tries to retrieve a stored response for a given request.`interface Source` |
+| [Sink](-sink/index.md) | `interface Sink` |
+| [Source](-source/index.md) | `interface Source` |
 
 ### Functions
 
 | Name | Summary |
 |---|---|
+| [&lt;no name provided&gt;](-no name provided-.md) | Consumes HTTP traffic for storage.`fun <no name provided>(): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 | [replayingMatchingContent](replaying-matching-content.md) | `fun `[`Replay`](-replay/index.md)`.replayingMatchingContent(manipulations: (`[`Request`](../org.http4k.core/-request/index.md)`) -> `[`Request`](../org.http4k.core/-request/index.md)` = { it }): `[`HttpHandler`](../org.http4k.core/-http-handler.md) |
 
 ### Companion Object Functions

@@ -2,4 +2,4 @@
 
 # invoke
 
-`operator fun invoke(fn: (`[`Events`](../-events.md)`) -> `[`Events`](../-events.md)`): `[`EventFilter`](index.md)
+`operator fun invoke(fn: (`[`Events`](../-events.md)`) -> `[`Events`](../-events.md)`): <ERROR CLASS>`

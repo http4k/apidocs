@@ -4,11 +4,6 @@
 
 `interface ResourceLoader`
 
-Looks up contents of a resource path.
-
-WARNING: A ResourceLoader serves ANY resource it finds within it's structure. This means that you should be
-VERY careful to limit what resources it has access to.
-
 ### Functions
 
 | Name | Summary |

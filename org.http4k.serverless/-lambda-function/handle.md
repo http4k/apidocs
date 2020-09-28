@@ -2,4 +2,4 @@
 
 # handle
 
-`fun handle(request: APIGatewayProxyRequestEvent, lambdaContext: Context? = null): APIGatewayProxyResponseEvent`
+`fun handle(request: APIGatewayProxyRequestEvent, lambdaContext: Context? = null): <ERROR CLASS>`

@@ -11,4 +11,4 @@ Note the use of the ProxyProtocolMode to set the outbound scheme
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `operator fun invoke(mode: ProxyProtocolMode = ProxyProtocolMode.Http): `[`Filter`](../../../org.http4k.core/-filter/index.md) |
+| [invoke](invoke.md) | `operator fun invoke(mode: ProxyProtocolMode = ProxyProtocolMode.Http): `[`Filter`](../../../org.http4k.core/-filter.md) |

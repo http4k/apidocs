@@ -2,4 +2,4 @@
 
 # preSecurityFilter
 
-`var preSecurityFilter: `[`Filter`](../../org.http4k.core/-filter/index.md)
+`var preSecurityFilter: `[`Filter`](../../org.http4k.core/-filter.md)

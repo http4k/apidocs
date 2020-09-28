@@ -15,7 +15,7 @@ The core abstractions for the http4k library.
 | [Event](-event.md) | `typealias ~~Event~~ = `[`Event`](../org.http4k.events/-event/index.md) |
 | [EventCategory](-event-category.md) | `typealias ~~EventCategory~~ = `[`EventCategory`](../org.http4k.events/-event-category/index.md) |
 | [Events](-events.md) | `typealias ~~Events~~ = `[`Events`](../org.http4k.events/-events.md) |
-| [Filter](-filter/index.md) | `interface Filter : (`[`HttpHandler`](-http-handler.md)`) -> `[`HttpHandler`](-http-handler.md) |
+| [Filter](-filter.md) | `interface Filter : (`[`HttpHandler`](-http-handler.md)`) -> `[`HttpHandler`](-http-handler.md) |
 | [FormFile](-form-file.md) | `typealias ~~FormFile~~ = `[`MultipartFormFile`](../org.http4k.lens/-multipart-form-file/index.md) |
 | [Headers](-headers.md) | `typealias Headers = `[`Parameters`](-parameters.md) |
 | [HttpHandler](-http-handler.md) | `typealias HttpHandler = (`[`Request`](-request/index.md)`) -> `[`Response`](-response/index.md) |
@@ -52,6 +52,7 @@ The core abstractions for the http4k library.
 
 | Name | Summary |
 |---|---|
+| [&lt;no name provided&gt;](-no name provided-.md) | `fun <no name provided>(): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 | [alphabetiseHeaders](alphabetise-headers.md) | `fun <T : `[`HttpMessage`](-http-message/index.md)`> T.alphabetiseHeaders(): T` |
 | [authority](authority.md) | `fun `[`Uri`](-uri/index.md)`.authority(authority: `[`Authority`](../org.http4k.cloudnative.env/-authority/index.md)`): `[`Uri`](-uri/index.md)<br>`fun `[`Uri`](-uri/index.md)`.authority(): `[`Authority`](../org.http4k.cloudnative.env/-authority/index.md) |
 | [extend](extend.md) | `fun `[`Uri`](-uri/index.md)`.extend(uri: `[`Uri`](-uri/index.md)`): `[`Uri`](-uri/index.md) |
@@ -70,7 +71,7 @@ The core abstractions for the http4k library.
 | [removeQuery](remove-query.md) | `fun `[`Uri`](-uri/index.md)`.removeQuery(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Uri`](-uri/index.md) |
 | [staleIfError](stale-if-error.md) | `fun `[`Response`](-response/index.md)`.staleIfError(duration: `[`Duration`](https://docs.oracle.com/javase/9/docs/api/java/time/Duration.html)`): `[`Response`](-response/index.md) |
 | [staleWhileRevalidate](stale-while-revalidate.md) | `fun `[`Response`](-response/index.md)`.staleWhileRevalidate(duration: `[`Duration`](https://docs.oracle.com/javase/9/docs/api/java/time/Duration.html)`): `[`Response`](-response/index.md) |
-| [then](then.md) | `fun `[`Filter`](-filter/index.md)`.then(next: `[`Filter`](-filter/index.md)`): `[`Filter`](-filter/index.md)<br>`fun `[`Filter`](-filter/index.md)`.then(next: `[`HttpHandler`](-http-handler.md)`): `[`HttpHandler`](-http-handler.md)<br>`fun `[`Filter`](-filter/index.md)`.then(routingHttpHandler: `[`RoutingHttpHandler`](../org.http4k.routing/-routing-http-handler/index.md)`): `[`RoutingHttpHandler`](../org.http4k.routing/-routing-http-handler/index.md) |
+| [then](then.md) | `fun `[`Filter`](-filter.md)`.then(next: `[`Filter`](-filter.md)`): `[`Filter`](-filter.md)<br>`fun `[`Filter`](-filter.md)`.then(next: `[`HttpHandler`](-http-handler.md)`): `[`HttpHandler`](-http-handler.md)<br>`fun `[`Filter`](-filter.md)`.then(routingHttpHandler: `[`RoutingHttpHandler`](../org.http4k.routing/-routing-http-handler/index.md)`): `[`RoutingHttpHandler`](../org.http4k.routing/-routing-http-handler/index.md) |
 | [toCurl](to-curl.md) | `fun `[`Request`](-request/index.md)`.toCurl(truncateBodyLength: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)` = 256): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [with](with.md) | `fun `[`Environment`](../org.http4k.cloudnative.env/-environment/index.md)`.with(vararg modifiers: (`[`Environment`](../org.http4k.cloudnative.env/-environment/index.md)`) -> `[`Environment`](../org.http4k.cloudnative.env/-environment/index.md)`): `[`Environment`](../org.http4k.cloudnative.env/-environment/index.md)<br>`fun <T : `[`HttpMessage`](-http-message/index.md)`> T.with(vararg modifiers: (T) -> T): T`<br>`fun `[`WebForm`](../org.http4k.lens/-web-form/index.md)`.with(vararg modifiers: (`[`WebForm`](../org.http4k.lens/-web-form/index.md)`) -> `[`WebForm`](../org.http4k.lens/-web-form/index.md)`): `[`WebForm`](../org.http4k.lens/-web-form/index.md)<br>`fun `[`MultipartForm`](../org.http4k.lens/-multipart-form/index.md)`.with(vararg modifiers: (`[`MultipartForm`](../org.http4k.lens/-multipart-form/index.md)`) -> `[`MultipartForm`](../org.http4k.lens/-multipart-form/index.md)`): `[`MultipartForm`](../org.http4k.lens/-multipart-form/index.md) |
 
@@ -78,7 +79,7 @@ The core abstractions for the http4k library.
 
 | Name | Summary |
 |---|---|
-| [NoOp](-no-op.md) | `val Filter.Companion.NoOp: `[`Filter`](-filter/index.md) |
+| [NoOp](-no-op.md) | `val Filter.Companion.NoOp: `[`Filter`](-filter.md) |
 
 ### Companion Object Functions
 

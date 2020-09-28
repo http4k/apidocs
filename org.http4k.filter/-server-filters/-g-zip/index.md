@@ -12,4 +12,4 @@ Only Gzips responses when request contains "accept-encoding" header containing '
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `operator fun invoke(compressionMode: `[`GzipCompressionMode`](../../-gzip-compression-mode/index.md)` = Memory): `[`Filter`](../../../org.http4k.core/-filter/index.md) |
+| [invoke](invoke.md) | `operator fun invoke(compressionMode: `[`GzipCompressionMode`](../../-gzip-compression-mode/index.md)` = Memory): `[`Filter`](../../../org.http4k.core/-filter.md) |

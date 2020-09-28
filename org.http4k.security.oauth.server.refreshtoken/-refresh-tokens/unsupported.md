@@ -2,4 +2,4 @@
 
 # unsupported
 
-`val unsupported: `[`RefreshTokens`](index.md)
+`val unsupported: <ERROR CLASS>`

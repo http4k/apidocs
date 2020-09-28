@@ -2,7 +2,7 @@
 
 # Strict
 
-`val Strict: `[`ContentNegotiation`](index.md)
+`val Strict: <ERROR CLASS>`
 
 The received Content-type header passed back MUST equal the expected Content-type, including directive
 

@@ -2,7 +2,7 @@
 
 # ProcessFiles
 
-`fun `[`ServerFilters`](-server-filters/index.md)`.ProcessFiles(fileConsumer: (File) -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Filter`](../org.http4k.core/-filter/index.md)
+`fun `[`ServerFilters`](-server-filters/index.md)`.ProcessFiles(fileConsumer: (File) -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): <ERROR CLASS>`
 
 Process files on upload using the passed consumer, which returns a reference.
 The form file is replaced in the form with this reference.

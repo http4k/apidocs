@@ -11,4 +11,4 @@ For example you could combine this with a MaxAge for everything &gt;= 400
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `operator fun invoke(predicate: (`[`Response`](../../../../org.http4k.core/-response/index.md)`) -> `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)` = { it.status.code < 400 }): `[`Filter`](../../../../org.http4k.core/-filter/index.md) |
+| [invoke](invoke.md) | `operator fun invoke(predicate: (`[`Response`](../../../../org.http4k.core/-response/index.md)`) -> `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)` = { it.status.code < 400 }): `[`Filter`](../../../../org.http4k.core/-filter.md) |

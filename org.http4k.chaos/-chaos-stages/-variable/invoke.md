@@ -2,4 +2,4 @@
 
 # invoke
 
-`fun invoke(request: `[`Request`](../../../org.http4k.core/-request/index.md)`): `[`Filter`](../../../org.http4k.core/-filter/index.md)`?`
+`fun invoke(request: `[`Request`](../../../org.http4k.core/-request/index.md)`): `[`Filter`](../../../org.http4k.core/-filter.md)`?`

@@ -14,4 +14,4 @@
 
 | Name | Summary |
 |---|---|
-| [unsupported](unsupported.md) | `val unsupported: `[`RefreshTokens`](./index.md) |
+| [unsupported](unsupported.md) | `val unsupported: <ERROR CLASS>` |

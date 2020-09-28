@@ -27,7 +27,7 @@ Provides a configured set of objects for use with an OAuth2 provider.
 
 | Name | Summary |
 |---|---|
-| [authFilter](auth-filter.md) | `fun authFilter(requestJwts: `[`RequestJwts`](../../org.http4k.security.openid/-request-jwts/index.md)`): `[`Filter`](../../org.http4k.core/-filter/index.md) |
+| [authFilter](auth-filter.md) | `fun authFilter(requestJwts: `[`RequestJwts`](../../org.http4k.security.openid/-request-jwts/index.md)`): `[`Filter`](../../org.http4k.core/-filter.md) |
 
 ### Companion Object Extension Functions
 

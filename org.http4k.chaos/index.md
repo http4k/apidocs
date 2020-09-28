@@ -6,13 +6,13 @@
 
 | Name | Summary |
 |---|---|
-| [Behaviour](-behaviour.md) | Encapsulates the type of bad behaviour to apply to the response.`typealias Behaviour = `[`Filter`](../org.http4k.core/-filter/index.md) |
+| [Behaviour](-behaviour.md) | Encapsulates the type of bad behaviour to apply to the response.`typealias Behaviour = `[`Filter`](../org.http4k.core/-filter.md) |
 | [ChaosBehaviours](-chaos-behaviours/index.md) | `object ChaosBehaviours` |
-| [ChaosEngine](-chaos-engine/index.md) | The Chaos Engine controls the lifecycle of applying Chaotic behaviour to traffic, which is exposed as a standard Http4k Filter. Chaos can be programmatically updated and enabled/disabled. By default, the engine is deactivated, so activate() needs to be called to witness any change in behaviour,`class ChaosEngine : `[`Filter`](../org.http4k.core/-filter/index.md) |
+| [ChaosEngine](-chaos-engine/index.md) | The Chaos Engine controls the lifecycle of applying Chaotic behaviour to traffic, which is exposed as a standard Http4k Filter. Chaos can be programmatically updated and enabled/disabled. By default, the engine is deactivated, so activate() needs to be called to witness any change in behaviour,`class ChaosEngine : `[`Filter`](../org.http4k.core/-filter.md) |
 | [ChaosStages](-chaos-stages/index.md) | `object ChaosStages` |
 | [ChaosTriggers](-chaos-triggers/index.md) | `object ChaosTriggers` |
 | [RemoteChaosApi](-remote-chaos-api/index.md) | A set of endpoints to an application which will control the setting and toggling chaos behaviour. The added endpoints are: GET //status &lt;- check the on off/status of the injected chaos POST //activate &lt;- turn on the chaos. optionally POST a JSON body to set a list of new stages to use. POST //deactivate &lt;- turn off the chaos POST //toggle &lt;- toggle the chaos`object RemoteChaosApi` |
-| [Stage](-stage.md) | Defines a periodic element during which a particular ChaosBehaviour is active.`typealias Stage = (`[`Request`](../org.http4k.core/-request/index.md)`) -> `[`Filter`](../org.http4k.core/-filter/index.md)`?` |
+| [Stage](-stage.md) | Defines a periodic element during which a particular ChaosBehaviour is active.`typealias Stage = (`[`Request`](../org.http4k.core/-request/index.md)`) -> `[`Filter`](../org.http4k.core/-filter.md)`?` |
 | [Trigger](-trigger.md) | `typealias Trigger = (req: `[`Request`](../org.http4k.core/-request/index.md)`) -> `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
 
 ### Extensions for External Classes

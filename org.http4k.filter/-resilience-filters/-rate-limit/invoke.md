@@ -2,4 +2,4 @@
 
 # invoke
 
-`operator fun invoke(rateLimit: RateLimiter = RateLimiter.ofDefaults("RateLimit"), onError: () -> `[`Response`](../../../org.http4k.core/-response/index.md)` = { Response(TOO_MANY_REQUESTS.description("Rate limit exceeded")) }): `[`Filter`](../../../org.http4k.core/-filter/index.md)
+`operator fun invoke(rateLimit: RateLimiter = RateLimiter.ofDefaults("RateLimit"), onError: () -> `[`Response`](../../../org.http4k.core/-response/index.md)` = { Response(TOO_MANY_REQUESTS.description("Rate limit exceeded")) }): <ERROR CLASS>`

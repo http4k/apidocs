@@ -2,4 +2,4 @@
 
 # invoke
 
-`operator fun invoke(contentType: `[`ContentType`](../../../org.http4k.core/-content-type/index.md)`): `[`Filter`](../../../org.http4k.core/-filter/index.md)
+`operator fun invoke(contentType: `[`ContentType`](../../../org.http4k.core/-content-type/index.md)`): `[`Filter`](../../../org.http4k.core/-filter.md)

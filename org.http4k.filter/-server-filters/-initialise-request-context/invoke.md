@@ -2,4 +2,4 @@
 
 # invoke
 
-`operator fun invoke(contexts: `[`Store`](../../../org.http4k.core/-store/index.md)`<`[`RequestContext`](../../../org.http4k.core/-request-context/index.md)`>): `[`Filter`](../../../org.http4k.core/-filter/index.md)
+`operator fun invoke(contexts: `[`Store`](../../../org.http4k.core/-store/index.md)`<`[`RequestContext`](../../../org.http4k.core/-request-context/index.md)`>): `[`Filter`](../../../org.http4k.core/-filter.md)

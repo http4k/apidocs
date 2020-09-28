@@ -4,8 +4,6 @@
 
 `interface Router`
 
-Provides matching of a Request to an HttpHandler which can service it.
-
 ### Functions
 
 | Name | Summary |

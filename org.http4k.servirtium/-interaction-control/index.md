@@ -4,25 +4,23 @@
 
 `interface InteractionControl`
 
-Provides controls for interacting with an in-action Interaction recording.
-
-### Types
-
-| Name | Summary |
-|---|---|
-| [NoOp](-no-op/index.md) | `object NoOp : `[`InteractionControl`](./index.md) |
-
 ### Functions
 
 | Name | Summary |
 |---|---|
 | [addNote](add-note.md) | `abstract fun addNote(note: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 
+### Companion Object Properties
+
+| Name | Summary |
+|---|---|
+| [NoOp](-no-op.md) | `val NoOp: <ERROR CLASS>` |
+
 ### Companion Object Functions
 
 | Name | Summary |
 |---|---|
-| [StorageBased](-storage-based.md) | `fun StorageBased(storage: `[`InteractionStorage`](../-interaction-storage/index.md)`): `[`InteractionControl`](./index.md) |
+| [StorageBased](-storage-based.md) | `fun StorageBased(storage: `[`InteractionStorage`](../-interaction-storage/index.md)`): <ERROR CLASS>` |
 
 ### Inheritors
 

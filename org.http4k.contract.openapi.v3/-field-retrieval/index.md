@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [compose](compose.md) | `fun compose(vararg retrieval: `[`FieldRetrieval`](./index.md)`): `[`FieldRetrieval`](./index.md) |
+| [compose](compose.md) | `fun compose(vararg retrieval: `[`FieldRetrieval`](./index.md)`): <ERROR CLASS>` |
 
 ### Inheritors
 

@@ -46,6 +46,7 @@
 
 | Name | Summary |
 |---|---|
+| [&lt;no name provided&gt;](-no name provided-.md) | `fun <no name provided>(): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 | [AutoJsonToJsonSchema](-auto-json-to-json-schema.md) | `fun AutoJsonToJsonSchema(json: `[`Jackson`](../org.http4k.format/-jackson.md)`): `[`AutoJsonToJsonSchema`](-auto-json-to-json-schema/index.md)`<JsonNode>` |
 | [OpenApi3](-open-api3.md) | Defaults for configuring OpenApi3 with Jackson`fun OpenApi3(apiInfo: `[`ApiInfo`](../org.http4k.contract.openapi/-api-info/index.md)`, json: `[`Jackson`](../org.http4k.format/-jackson.md)` = Jackson, extensions: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`OpenApiExtension`](../org.http4k.contract.openapi/-open-api-extension/index.md)`> = emptyList()): `[`OpenApi3`](-open-api3/index.md)`<JsonNode>` |
 

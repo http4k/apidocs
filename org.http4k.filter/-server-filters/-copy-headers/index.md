@@ -10,4 +10,4 @@ Copy headers from the incoming request to the outbound response.
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `operator fun invoke(vararg headers: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Filter`](../../../org.http4k.core/-filter/index.md) |
+| [invoke](invoke.md) | `operator fun invoke(vararg headers: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Filter`](../../../org.http4k.core/-filter.md) |

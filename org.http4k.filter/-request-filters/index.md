@@ -18,10 +18,10 @@
 
 | Name | Summary |
 |---|---|
-| [Base64DecodeBody](-base64-decode-body.md) | Some platforms deliver bodies as Base64 encoded strings.`fun Base64DecodeBody(): `[`Filter`](../../org.http4k.core/-filter/index.md) |
+| [Base64DecodeBody](-base64-decode-body.md) | Some platforms deliver bodies as Base64 encoded strings.`fun Base64DecodeBody(): <ERROR CLASS>` |
 
 ### Extension Functions
 
 | Name | Summary |
 |---|---|
-| [Assert](../-assert.md) | Perform an assertThat on the incoming Request as a Filter operation`fun `[`RequestFilters`](./index.md)`.Assert(matcher: Matcher<`[`Request`](../../org.http4k.core/-request/index.md)`>): `[`Filter`](../../org.http4k.core/-filter/index.md)<br>Perform an assertion on the incoming Request as a Filter operation`fun `[`RequestFilters`](./index.md)`.Assert(match: Matcher<`[`HttpMessage`](../../org.http4k.core/-http-message/index.md)`>): `[`Filter`](../../org.http4k.core/-filter/index.md) |
+| [Assert](../-assert.md) | Perform an assertThat on the incoming Request as a Filter operation`fun `[`RequestFilters`](./index.md)`.Assert(matcher: Matcher<`[`Request`](../../org.http4k.core/-request/index.md)`>): <ERROR CLASS>`<br>Perform an assertion on the incoming Request as a Filter operation`fun `[`RequestFilters`](./index.md)`.Assert(match: Matcher<`[`HttpMessage`](../../org.http4k.core/-http-message/index.md)`>): <ERROR CLASS>` |

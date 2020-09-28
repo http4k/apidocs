@@ -2,4 +2,4 @@
 
 # StorageBased
 
-`@JvmStatic fun StorageBased(storage: `[`InteractionStorage`](../-interaction-storage/index.md)`): `[`InteractionControl`](index.md)
+`@JvmStatic fun StorageBased(storage: `[`InteractionStorage`](../-interaction-storage/index.md)`): <ERROR CLASS>`

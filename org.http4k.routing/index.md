@@ -9,10 +9,10 @@ Code for routing HTTP messages inside server implementations.
 | Name | Summary |
 |---|---|
 | [PathMethod](-path-method/index.md) | `data class PathMethod` |
-| [ResourceLoader](-resource-loader/index.md) | Looks up contents of a resource path.`interface ResourceLoader` |
+| [ResourceLoader](-resource-loader/index.md) | `interface ResourceLoader` |
 | [RoutedRequest](-routed-request/index.md) | `data class RoutedRequest : `[`Request`](../org.http4k.core/-request/index.md) |
 | [RoutedResponse](-routed-response/index.md) | `class RoutedResponse : `[`Response`](../org.http4k.core/-response/index.md) |
-| [Router](-router/index.md) | Provides matching of a Request to an HttpHandler which can service it.`interface Router` |
+| [Router](-router/index.md) | `interface Router` |
 | [RouterMatch](-router-match/index.md) | `sealed class RouterMatch : `[`Comparable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-comparable/index.html)`<`[`RouterMatch`](-router-match/index.md)`>` |
 | [RoutingHttpHandler](-routing-http-handler/index.md) | Composite HttpHandler which can potentially service many different URL patterns. Should return a 404 Response if it cannot service a particular Request.`interface RoutingHttpHandler : `[`Router`](-router/index.md)`, `[`HttpHandler`](../org.http4k.core/-http-handler.md) |
 | [RoutingWsHandler](-routing-ws-handler/index.md) | `interface RoutingWsHandler : `[`WsHandler`](../org.http4k.websocket/-ws-handler.md) |
@@ -27,6 +27,7 @@ Code for routing HTTP messages inside server implementations.
 
 | Name | Summary |
 |---|---|
+| [&lt;no name provided&gt;](-no name provided-.md) | Looks up contents of a resource path.`fun <no name provided>(): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 | [hostDemux](host-demux.md) | Matches the Host header to a matching Handler.`fun hostDemux(vararg hosts: `[`Pair`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`RoutingHttpHandler`](-routing-http-handler/index.md)`>): `[`RoutingHttpHandler`](-routing-http-handler/index.md) |
 | [path](path.md) | `fun `[`Request`](../org.http4k.core/-request/index.md)`.path(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?` |
 | [routes](routes.md) | `fun routes(vararg list: `[`Pair`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html)`<`[`Method`](../org.http4k.core/-method/index.md)`, `[`HttpHandler`](../org.http4k.core/-http-handler.md)`>): `[`RoutingHttpHandler`](-routing-http-handler/index.md)<br>`fun routes(vararg list: `[`RoutingHttpHandler`](-routing-http-handler/index.md)`): `[`RoutingHttpHandler`](-routing-http-handler/index.md) |

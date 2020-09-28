@@ -2,4 +2,4 @@
 
 # invoke
 
-`operator fun invoke(bulkhead: Bulkhead = Bulkhead.ofDefaults("Bulkhead"), onError: () -> `[`Response`](../../../org.http4k.core/-response/index.md)` = { Response(TOO_MANY_REQUESTS.description("Bulkhead limit exceeded")) }): `[`Filter`](../../../org.http4k.core/-filter/index.md)
+`operator fun invoke(bulkhead: Bulkhead = Bulkhead.ofDefaults("Bulkhead"), onError: () -> `[`Response`](../../../org.http4k.core/-response/index.md)` = { Response(TOO_MANY_REQUESTS.description("Bulkhead limit exceeded")) }): <ERROR CLASS>`

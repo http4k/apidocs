@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`ConfigurableKotlinxSerialization(config: JsonConfiguration, context: SerialModule)`
+`ConfigurableKotlinxSerialization(json: JsonBuilder.() -> `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)`)`

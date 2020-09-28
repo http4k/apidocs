@@ -17,7 +17,7 @@ to instantiate the Http4k handler which can be used for further invocations.
 
 | Name | Summary |
 |---|---|
-| [handle](handle.md) | `fun handle(request: APIGatewayProxyRequestEvent, lambdaContext: Context? = null): APIGatewayProxyResponseEvent` |
+| [handle](handle.md) | `fun handle(request: APIGatewayProxyRequestEvent, lambdaContext: Context? = null): <ERROR CLASS>` |
 
 ### Inheritors
 

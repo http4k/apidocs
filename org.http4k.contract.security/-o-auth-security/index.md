@@ -9,7 +9,7 @@
 | Name | Summary |
 |---|---|
 | [extraFields](extra-fields.md) | `val extraFields: `[`Map`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
-| [filter](filter.md) | `open val filter: `[`Filter`](../../org.http4k.core/-filter/index.md) |
+| [filter](filter.md) | `open val filter: `[`Filter`](../../org.http4k.core/-filter.md) |
 | [name](name.md) | `val name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [refreshUrl](refresh-url.md) | `val refreshUrl: `[`Uri`](../../org.http4k.core/-uri/index.md)`?` |
 | [scopes](scopes.md) | `val scopes: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`OAuthScope`](../-o-auth-scope/index.md)`>` |

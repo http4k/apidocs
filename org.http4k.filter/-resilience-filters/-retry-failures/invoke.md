@@ -2,4 +2,4 @@
 
 # invoke
 
-`operator fun invoke(retry: Retry = ofDefaults("Retrying"), isError: (`[`Response`](../../../org.http4k.core/-response/index.md)`) -> `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)` = { it.status.serverError }): `[`Filter`](../../../org.http4k.core/-filter/index.md)
+`operator fun invoke(retry: Retry = ofDefaults("Retrying"), isError: (`[`Response`](../../../org.http4k.core/-response/index.md)`) -> `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)` = { it.status.serverError }): <ERROR CLASS>`

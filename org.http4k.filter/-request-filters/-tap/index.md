@@ -10,4 +10,4 @@ Intercept the request before it is sent to the next service.
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `operator fun invoke(fn: (`[`Request`](../../../org.http4k.core/-request/index.md)`) -> `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)`): `[`Filter`](../../../org.http4k.core/-filter/index.md) |
+| [invoke](invoke.md) | `operator fun invoke(fn: (`[`Request`](../../../org.http4k.core/-request/index.md)`) -> `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)`): <ERROR CLASS>` |

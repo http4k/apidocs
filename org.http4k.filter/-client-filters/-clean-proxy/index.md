@@ -11,4 +11,4 @@ of this is to remove any routing metadata that we may have attached to it before
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `operator fun invoke(): `[`Filter`](../../../org.http4k.core/-filter/index.md) |
+| [invoke](invoke.md) | `operator fun invoke(): <ERROR CLASS>` |

@@ -16,7 +16,7 @@ the API user in an API-consistent manner.
 | Name | Summary |
 |---|---|
 | [withBasePath](with-base-path.md) | Returns a RoutingHttpHandler which prepends the passed base path to the logic determining the match() To follow the trend of immutability, this will generally be a new instance.`abstract fun withBasePath(new: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`RoutingHttpHandler`](./index.md) |
-| [withFilter](with-filter.md) | Returns a RoutingHttpHandler which applies the passed Filter to all received requests before servicing them. To follow the trend of immutability, this will generally be a new instance.`abstract fun withFilter(new: `[`Filter`](../../org.http4k.core/-filter/index.md)`): `[`RoutingHttpHandler`](./index.md) |
+| [withFilter](with-filter.md) | Returns a RoutingHttpHandler which applies the passed Filter to all received requests before servicing them. To follow the trend of immutability, this will generally be a new instance.`abstract fun withFilter(new: `[`Filter`](../../org.http4k.core/-filter.md)`): `[`RoutingHttpHandler`](./index.md) |
 
 ### Extension Functions
 

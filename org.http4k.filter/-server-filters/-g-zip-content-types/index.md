@@ -2,7 +2,7 @@
 
 # GZipContentTypes
 
-`class GZipContentTypes : `[`Filter`](../../../org.http4k.core/-filter/index.md)
+`class GZipContentTypes : `[`Filter`](../../../org.http4k.core/-filter.md)
 
 Basic GZip and Gunzip support of Request/Response where the content-type is in the allowed list.
 Only Gunzips requests which contain "transfer-encoding" header containing 'gzip'
@@ -18,4 +18,4 @@ Only Gzips responses when request contains "accept-encoding" header containing '
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `fun invoke(next: `[`HttpHandler`](../../../org.http4k.core/-http-handler.md)`): `[`HttpHandler`](../../../org.http4k.core/-http-handler.md) |
+| [invoke](invoke.md) | `fun invoke(next: `[`HttpHandler`](../../../org.http4k.core/-http-handler.md)`): <ERROR CLASS>` |

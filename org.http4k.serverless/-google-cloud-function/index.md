@@ -14,4 +14,4 @@
 
 | Name | Summary |
 |---|---|
-| [service](service.md) | `open fun service(request: HttpRequest, response: HttpResponse): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| [service](service.md) | `open fun service(request: HttpRequest, response: HttpResponse): <ERROR CLASS>` |

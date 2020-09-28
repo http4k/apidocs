@@ -10,7 +10,7 @@ Default NoOp security filter. Filter allows all traffic through.
 
 | Name | Summary |
 |---|---|
-| [filter](filter.md) | `val filter: `[`Filter`](../../org.http4k.core/-filter/index.md) |
+| [filter](filter.md) | `val filter: <ERROR CLASS>` |
 
 ### Extension Functions
 

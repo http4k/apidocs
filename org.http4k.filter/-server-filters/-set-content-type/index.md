@@ -10,4 +10,4 @@ Sets the Content Type response header on the Response.
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `operator fun invoke(contentType: `[`ContentType`](../../../org.http4k.core/-content-type/index.md)`): `[`Filter`](../../../org.http4k.core/-filter/index.md) |
+| [invoke](invoke.md) | `operator fun invoke(contentType: `[`ContentType`](../../../org.http4k.core/-content-type/index.md)`): `[`Filter`](../../../org.http4k.core/-filter.md) |

@@ -10,4 +10,4 @@ Responds to requests with a stored Response if possible, or falls back to the ne
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | `operator fun invoke(source: `[`Source`](../../../org.http4k.traffic/-source/index.md)`): `[`Filter`](../../../org.http4k.core/-filter/index.md) |
+| [invoke](invoke.md) | `operator fun invoke(source: `[`Source`](../../../org.http4k.traffic/-source/index.md)`): `[`Filter`](../../../org.http4k.core/-filter.md) |

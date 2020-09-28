@@ -2,7 +2,7 @@
 
 # None
 
-`val None: `[`ContentNegotiation`](index.md)
+`val None: <ERROR CLASS>`
 
 No validation is done on the received content type at all
 

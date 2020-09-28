@@ -2,7 +2,7 @@
 
 # asFilter
 
-`fun `[`Stage`](../-stage.md)`.asFilter(): `[`Filter`](../../org.http4k.core/-filter/index.md)
+`fun `[`Stage`](../-stage.md)`.asFilter(): `[`Filter`](../../org.http4k.core/-filter.md)
 
 Converts this chaos stage to a standard http4k Filter.
 

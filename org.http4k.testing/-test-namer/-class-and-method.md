@@ -2,4 +2,4 @@
 
 # ClassAndMethod
 
-`val ClassAndMethod: `[`TestNamer`](index.md)
+`val ClassAndMethod: <ERROR CLASS>`

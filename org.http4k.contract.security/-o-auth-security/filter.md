@@ -2,4 +2,4 @@
 
 # filter
 
-`open val filter: `[`Filter`](../../org.http4k.core/-filter/index.md)
+`open val filter: `[`Filter`](../../org.http4k.core/-filter.md)

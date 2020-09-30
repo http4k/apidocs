@@ -14,3 +14,10 @@
 | [Port](-port/index.md) | `data class Port` |
 | [Secret](-secret/index.md) | A secret is a value which tries very hard not to expose itself as a string, by storing it's value in a byte array. You can "use" the value only once, after which the value is destroyed`class Secret : `[`Closeable`](https://docs.oracle.com/javase/9/docs/api/java/io/Closeable.html) |
 | [Timeout](-timeout/index.md) | `data class Timeout` |
+
+### Companion Object Functions
+
+| Name | Summary |
+|---|---|
+| [fromConfigFile](from-config-file.md) | `fun Environment.Companion.fromConfigFile(file: `[`File`](https://docs.oracle.com/javase/9/docs/api/java/io/File.html)`): `[`Environment`](-environment/index.md) |
+| [fromYaml](from-yaml.md) | Read a YAML file into environments, prepending all of the nested levels into the property names`fun Environment.Companion.fromYaml(file: `[`File`](https://docs.oracle.com/javase/9/docs/api/java/io/File.html)`): `[`Environment`](-environment/index.md) |

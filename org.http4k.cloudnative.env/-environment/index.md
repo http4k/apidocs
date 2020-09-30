@@ -46,6 +46,13 @@ which contain commas, otherwise singular environment keys will just retrieve the
 |---|---|
 | [with](../../org.http4k.core/with.md) | `fun `[`Environment`](./index.md)`.with(vararg modifiers: (`[`Environment`](./index.md)`) -> `[`Environment`](./index.md)`): `[`Environment`](./index.md) |
 
+### Companion Object Extension Functions
+
+| Name | Summary |
+|---|---|
+| [fromConfigFile](../from-config-file.md) | `fun Environment.Companion.fromConfigFile(file: `[`File`](https://docs.oracle.com/javase/9/docs/api/java/io/File.html)`): `[`Environment`](./index.md) |
+| [fromYaml](../from-yaml.md) | Read a YAML file into environments, prepending all of the nested levels into the property names`fun Environment.Companion.fromYaml(file: `[`File`](https://docs.oracle.com/javase/9/docs/api/java/io/File.html)`): `[`Environment`](./index.md) |
+
 ### Inheritors
 
 | Name | Summary |

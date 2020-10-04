@@ -3,7 +3,7 @@
 # BootstrapAppLoader
 
 `object ~~BootstrapAppLoader~~ : `[`AppLoaderWithContexts`](../-app-loader-with-contexts.md)
-**Deprecated:** Extend LambdaFunction instead of this reflection-based approach.
+**Deprecated:** Extend one of the AwsLambdaFunction subclasses instead of this reflection-based approach.
 
 ### Properties
 

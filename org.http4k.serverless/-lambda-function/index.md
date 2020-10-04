@@ -2,22 +2,18 @@
 
 # LambdaFunction
 
-`open class LambdaFunction`
+`open class ~~LambdaFunction~~ : `[`ApiGatewayV1LambdaFunction`](../-api-gateway-v1-lambda-function/index.md)
+**Deprecated:** Extend one of the specific AwsLambdaFunction subclasses instead.
 
-This is the main entry point for the lambda. It uses the local environment
-to instantiate the Http4k handler which can be used for further invocations.
+This is the main entry point for lambda invocations using the V1 payload format.
+It uses the local environment to instantiate the HttpHandler which can be used
+for further invocations.
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `LambdaFunction(input: `[`AppLoader`](../-app-loader.md)`)`<br>`LambdaFunction(input: `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`)`<br>`LambdaFunction(env: `[`Map`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`> = System.getenv())`<br>This is the main entry point for the lambda. It uses the local environment to instantiate the Http4k handler which can be used for further invocations.`LambdaFunction(appLoader: `[`AppLoaderWithContexts`](../-app-loader-with-contexts.md)`)` |
-
-### Functions
-
-| Name | Summary |
-|---|---|
-| [handle](handle.md) | `fun handle(request: APIGatewayProxyRequestEvent, lambdaContext: Context? = null): <ERROR CLASS>` |
+| [&lt;init&gt;](-init-.md) | `LambdaFunction(input: `[`AppLoader`](../-app-loader.md)`)`<br>`LambdaFunction(input: `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`)`<br>`LambdaFunction(env: `[`Map`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`> = System.getenv())`<br>This is the main entry point for lambda invocations using the V1 payload format. It uses the local environment to instantiate the HttpHandler which can be used for further invocations.`LambdaFunction(appLoader: `[`AppLoaderWithContexts`](../-app-loader-with-contexts.md)`)` |
 
 ### Inheritors
 

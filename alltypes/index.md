@@ -98,6 +98,24 @@ Provides a consistent way to generate access tokens.
 
 |
 
+##### [org.http4k.serverless.ApiGatewayV1LambdaFunction](../org.http4k.serverless/-api-gateway-v1-lambda-function/index.md)
+
+This is the main entry point for lambda invocations using the V1 payload format.
+It uses the local environment to instantiate the HttpHandler which can be used
+for further invocations.
+
+
+|
+
+##### [org.http4k.serverless.ApiGatewayV2LambdaFunction](../org.http4k.serverless/-api-gateway-v2-lambda-function/index.md)
+
+This is the main entry point for lambda invocations using the V2 payload format.
+It uses the local environment to instantiate the HttpHandler which can be used
+for further invocations.
+
+
+|
+
 ##### [org.http4k.contract.ApiInfo](../org.http4k.contract/-api-info.md)
 
 
@@ -138,6 +156,15 @@ Renders the contract contents in OpenApi JSON format.
 |
 
 ##### [org.http4k.util.Appendable](../org.http4k.util/-appendable/index.md)
+
+
+|
+
+##### [org.http4k.serverless.ApplicationLoadBalancerLambdaFunction](../org.http4k.serverless/-application-load-balancer-lambda-function/index.md)
+
+This is the main entry point for lambda invocations coming from an Application LoadBalancer.
+It uses the local environment to instantiate the HttpHandler which can be used
+for further invocations.
 
 
 | (extensions in package org.http4k.server)
@@ -351,6 +378,11 @@ Common base type for all format libraries which can convert directly from String
 |
 
 ##### [org.http4k.aws.AwsHmacSha256](../org.http4k.aws/-aws-hmac-sha256/index.md)
+
+
+|
+
+##### [org.http4k.serverless.AwsLambdaFunction](../org.http4k.serverless/-aws-lambda-function.md)
 
 
 |
@@ -1676,8 +1708,9 @@ ConfigurableKotlinxSerialization, passing in the JSON configuration block
 
 ##### [org.http4k.serverless.LambdaFunction](../org.http4k.serverless/-lambda-function/index.md)
 
-This is the main entry point for the lambda. It uses the local environment
-to instantiate the Http4k handler which can be used for further invocations.
+This is the main entry point for lambda invocations using the V1 payload format.
+It uses the local environment to instantiate the HttpHandler which can be used
+for further invocations.
 
 
 |

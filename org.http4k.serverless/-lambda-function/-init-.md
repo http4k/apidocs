@@ -6,6 +6,7 @@
 `LambdaFunction(input: `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`)`
 `LambdaFunction(env: `[`Map`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`> = System.getenv())``LambdaFunction(appLoader: `[`AppLoaderWithContexts`](../-app-loader-with-contexts.md)`)`
 
-This is the main entry point for the lambda. It uses the local environment
-to instantiate the Http4k handler which can be used for further invocations.
+This is the main entry point for lambda invocations using the V1 payload format.
+It uses the local environment to instantiate the HttpHandler which can be used
+for further invocations.
 

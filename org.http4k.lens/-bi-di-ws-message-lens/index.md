@@ -19,3 +19,9 @@ into a target WsMessage.
 |---|---|
 | [create](create.md) | `fun create(value: FINAL): `[`WsMessage`](../../org.http4k.websocket/-ws-message/index.md) |
 | [invoke](invoke.md) | `operator fun invoke(target: FINAL): `[`WsMessage`](../../org.http4k.websocket/-ws-message/index.md) |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [asResult](../as-result.md) | Convert the result of a lens extraction to a Result4k type which`fun <IN, OUT> `[`LensExtractor`](../-lens-extractor/index.md)`<IN, OUT>.asResult(): `[`LensExtractor`](../-lens-extractor/index.md)`<IN, Result<OUT, `[`LensFailure`](../-lens-failure/index.md)`>>` |

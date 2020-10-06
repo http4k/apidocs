@@ -10,6 +10,12 @@
 |---|---|
 | [remove](remove.md) | `abstract fun remove(value: OUT): OUT?` |
 
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [asResult](../../org.http4k.lens/as-result.md) | Convert the result of a lens extraction to a Result4k type which`fun <IN, OUT> `[`LensExtractor`](../../org.http4k.lens/-lens-extractor/index.md)`<IN, OUT>.asResult(): `[`LensExtractor`](../../org.http4k.lens/-lens-extractor/index.md)`<IN, Result<OUT, `[`LensFailure`](../../org.http4k.lens/-lens-failure/index.md)`>>` |
+
 ### Inheritors
 
 | Name | Summary |

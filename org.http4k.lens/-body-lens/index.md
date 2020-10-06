@@ -25,6 +25,12 @@ A BodyLens provides the uni-directional extraction of an entity from a target bo
 |---|---|
 | [invoke](invoke.md) | Lens operation to get the value from the target`open operator fun invoke(target: `[`HttpMessage`](../../org.http4k.core/-http-message/index.md)`): FINAL` |
 
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [asResult](../as-result.md) | Convert the result of a lens extraction to a Result4k type which`fun <IN, OUT> `[`LensExtractor`](../-lens-extractor/index.md)`<IN, OUT>.asResult(): `[`LensExtractor`](../-lens-extractor/index.md)`<IN, Result<OUT, `[`LensFailure`](../-lens-failure/index.md)`>>` |
+
 ### Inheritors
 
 | Name | Summary |

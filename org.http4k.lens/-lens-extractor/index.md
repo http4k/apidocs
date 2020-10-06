@@ -11,6 +11,13 @@
 | [extract](extract.md) | Lens operation to get the value from the target. Synonym for invoke(IN)`open fun extract(target: IN): OUT` |
 | [get](get.md) | Lens operation to get the value from the target. Synonym for invoke(IN)`open operator fun <R : IN> get(target: R): OUT` |
 | [invoke](invoke.md) | Lens operation to get the value from the target`abstract operator fun invoke(target: IN): OUT` |
+| [restrictFrom](restrict-from.md) | Restrict the type that this Lens can extract from`open fun <NEXT : IN> restrictFrom(): `[`LensExtractor`](./index.md)`<NEXT, OUT>` |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [asResult](../as-result.md) | Convert the result of a lens extraction to a Result4k type which`fun <IN, OUT> `[`LensExtractor`](./index.md)`<IN, OUT>.asResult(): `[`LensExtractor`](./index.md)`<IN, Result<OUT, `[`LensFailure`](../-lens-failure/index.md)`>>` |
 
 ### Inheritors
 

@@ -19,3 +19,9 @@ for further invocations.
 | Name | Summary |
 |---|---|
 | [handleRequest](handle-request.md) | `open fun handleRequest(req: APIGatewayV2HTTPEvent, ctx: Context): APIGatewayV2HTTPResponse` |
+
+### Inheritors
+
+| Name | Summary |
+|---|---|
+| [TestFunctionV2](../../org.http4k.serverless.lambda/-test-function-v2/index.md) | `class TestFunctionV2 : `[`ApiGatewayV2LambdaFunction`](./index.md) |

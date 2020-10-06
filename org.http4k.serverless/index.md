@@ -19,6 +19,7 @@ Common code relevant to HTTP serverless implementations.
 | [GoogleCloudFunction](-google-cloud-function/index.md) | `open class GoogleCloudFunction : HttpFunction` |
 | [LambdaFunction](-lambda-function/index.md) | This is the main entry point for lambda invocations using the V1 payload format. It uses the local environment to instantiate the HttpHandler which can be used for further invocations.`open class ~~LambdaFunction~~ : `[`ApiGatewayV1LambdaFunction`](-api-gateway-v1-lambda-function/index.md) |
 | [OpenWhiskFunction](-open-whisk-function/index.md) | `class OpenWhiskFunction : (JsonObject) -> JsonObject` |
+| [RequestContent](-request-content/index.md) | `class RequestContent` |
 
 ### Exceptions
 

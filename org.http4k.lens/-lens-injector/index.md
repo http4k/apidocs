@@ -11,6 +11,7 @@
 | [inject](inject.md) | Lens operation to set the value into the target. Synomym for invoke(IN, OUT)`open fun <R : OUT> inject(value: IN, target: R): R` |
 | [invoke](invoke.md) | Lens operation to set the value into the target`abstract operator fun <R : OUT> invoke(value: IN, target: R): R` |
 | [of](of.md) | Bind this Lens to a value, so we can set it into a target`open infix fun <R : OUT> of(value: IN): (R) -> R` |
+| [restrictInto](restrict-into.md) | Restrict the type that this Lens can inject into`open fun <NEXT : OUT> restrictInto(): `[`LensInjector`](./index.md)`<IN, NEXT>` |
 | [set](set.md) | Lens operation to set the value into the target. Synomym for invoke(IN, OUT)`open operator fun <R : OUT> set(target: R, value: IN): R` |
 
 ### Inheritors

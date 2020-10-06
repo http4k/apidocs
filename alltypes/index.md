@@ -2346,6 +2346,11 @@ Provides a stream of traffic for replaying purposes.
 
 |
 
+##### [org.http4k.serverless.RequestContent](../org.http4k.serverless/-request-content/index.md)
+
+
+|
+
 ##### [org.http4k.contract.openapi.v3.RequestContents](../org.http4k.contract.openapi.v3/-request-contents/index.md)
 
 
@@ -2775,7 +2780,12 @@ Supported template implementations for templating engine implementations
 
 |
 
-##### [org.http4k.serverless.lambda.TestFunction](../org.http4k.serverless.lambda/-test-function/index.md)
+##### [org.http4k.serverless.lambda.TestFunctionV1](../org.http4k.serverless.lambda/-test-function-v1/index.md)
+
+
+|
+
+##### [org.http4k.serverless.lambda.TestFunctionV2](../org.http4k.serverless.lambda/-test-function-v2/index.md)
 
 
 |

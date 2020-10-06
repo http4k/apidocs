@@ -17,8 +17,14 @@
 | [FollowRedirects](-follow-redirects/index.md) | `object FollowRedirects` |
 | [GZip](-g-zip/index.md) | Basic GZip and Gunzip support of Request/Response. Only Gunzip responses when the response contains "transfer-encoding" header containing 'gzip'`object GZip` |
 | [RequestTracing](-request-tracing/index.md) | Adds Zipkin request tracing headers to the outbound request. (traceid, spanid, parentspanid)`object RequestTracing` |
+| [SetAuthorityFrom](-set-authority-from/index.md) | Sets the base uri only (base path) on an outbound request. This is useful to override the destination server of a request without affecting the rest of the request.`object SetAuthorityFrom` |
 | [SetBaseUriFrom](-set-base-uri-from/index.md) | Sets the base uri (host + base path) on an outbound request. This is useful to separate configuration of remote endpoints from the logic required to construct the rest of the request.`object SetBaseUriFrom` |
-| [SetHostFrom](-set-host-from/index.md) | Sets the host on an outbound request. This is useful to separate configuration of remote endpoints from the logic required to construct the rest of the request.`object SetHostFrom` |
+
+### Functions
+
+| Name | Summary |
+|---|---|
+| [SetHostFrom](-set-host-from.md) | Sets the host on an outbound request. This is useful to separate configuration of remote endpoints from the logic required to construct the rest of the request.`fun SetHostFrom(uri: `[`Uri`](../../org.http4k.core/-uri/index.md)`): `[`Filter`](../../org.http4k.core/-filter.md) |
 
 ### Extension Functions
 

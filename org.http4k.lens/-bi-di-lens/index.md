@@ -18,3 +18,9 @@ into a target.
 | Name | Summary |
 |---|---|
 | [invoke](invoke.md) | Lens operation to set the value into the target`operator fun <R : IN> invoke(value: FINAL, target: R): R` |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [asResult](../as-result.md) | Convert the result of a lens extraction to a Result4k type which`fun <IN, OUT> `[`LensExtractor`](../-lens-extractor/index.md)`<IN, OUT>.asResult(): `[`LensExtractor`](../-lens-extractor/index.md)`<IN, Result<OUT, `[`LensFailure`](../-lens-failure/index.md)`>>` |

@@ -19,3 +19,9 @@ for further invocations.
 | Name | Summary |
 |---|---|
 | [handleRequest](handle-request.md) | `open fun handleRequest(req: ApplicationLoadBalancerRequestEvent, ctx: Context): ApplicationLoadBalancerResponseEvent` |
+
+### Inheritors
+
+| Name | Summary |
+|---|---|
+| [TestFunctionAlb](../../org.http4k.serverless.lambda/-test-function-alb/index.md) | `class TestFunctionAlb : `[`ApplicationLoadBalancerLambdaFunction`](./index.md) |

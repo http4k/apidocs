@@ -8,23 +8,25 @@
 
 | Name | Summary |
 |---|---|
-| [AcceptGZip](-accept-g-zip/index.md) | Support for GZipped responses from clients.`object AcceptGZip` |
-| [ApiKeyAuth](-api-key-auth/index.md) | `object ApiKeyAuth` |
 | [BasicAuth](-basic-auth/index.md) | `object BasicAuth` |
 | [BearerAuth](-bearer-auth/index.md) | `object BearerAuth` |
-| [CleanProxy](-clean-proxy/index.md) | This Filter is used to clean the Request and Response when proxying directly to another system. The purpose of this is to remove any routing metadata that we may have attached to it before sending it onwards.`object CleanProxy` |
 | [Cookies](-cookies/index.md) | `object Cookies` |
+| [CustomBasicAuth](-custom-basic-auth/index.md) | `object CustomBasicAuth` |
 | [FollowRedirects](-follow-redirects/index.md) | `object FollowRedirects` |
-| [GZip](-g-zip/index.md) | Basic GZip and Gunzip support of Request/Response. Only Gunzip responses when the response contains "transfer-encoding" header containing 'gzip'`object GZip` |
-| [RequestTracing](-request-tracing/index.md) | Adds Zipkin request tracing headers to the outbound request. (traceid, spanid, parentspanid)`object RequestTracing` |
-| [SetAuthorityFrom](-set-authority-from/index.md) | Sets the base uri only (base path) on an outbound request. This is useful to override the destination server of a request without affecting the rest of the request.`object SetAuthorityFrom` |
-| [SetBaseUriFrom](-set-base-uri-from/index.md) | Sets the base uri (host + base path) on an outbound request. This is useful to separate configuration of remote endpoints from the logic required to construct the rest of the request.`object SetBaseUriFrom` |
+| [ProxyBasicAuth](-proxy-basic-auth/index.md) | `object ProxyBasicAuth` |
 
 ### Functions
 
 | Name | Summary |
 |---|---|
+| [AcceptGZip](-accept-g-zip.md) | Support for GZipped responses from clients.`fun AcceptGZip(compressionMode: `[`GzipCompressionMode`](../-gzip-compression-mode/index.md)` = Memory): `[`Filter`](../../org.http4k.core/-filter.md) |
+| [ApiKeyAuth](-api-key-auth.md) | `fun ApiKeyAuth(set: (`[`Request`](../../org.http4k.core/-request/index.md)`) -> `[`Request`](../../org.http4k.core/-request/index.md)`): `[`Filter`](../../org.http4k.core/-filter.md) |
+| [CleanProxy](-clean-proxy.md) | This Filter is used to clean the Request and Response when proxying directly to another system. The purpose of this is to remove any routing metadata that we may have attached to it before sending it onwards.`fun CleanProxy(): <ERROR CLASS>` |
+| [GZip](-g-zip.md) | Basic GZip and Gunzip support of Request/Response. Only Gunzip responses when the response contains "transfer-encoding" header containing 'gzip'`fun GZip(compressionMode: `[`GzipCompressionMode`](../-gzip-compression-mode/index.md)` = Memory): `[`Filter`](../../org.http4k.core/-filter.md) |
+| [RequestTracing](-request-tracing.md) | Adds Zipkin request tracing headers to the outbound request. (traceid, spanid, parentspanid)`fun RequestTracing(startReportFn: (`[`Request`](../../org.http4k.core/-request/index.md)`, `[`ZipkinTraces`](../-zipkin-traces/index.md)`) -> `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)` = { _, _ -> }, endReportFn: (`[`Request`](../../org.http4k.core/-request/index.md)`, `[`Response`](../../org.http4k.core/-response/index.md)`, `[`ZipkinTraces`](../-zipkin-traces/index.md)`) -> `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)` = { _, _, _ -> }): `[`Filter`](../../org.http4k.core/-filter.md) |
+| [SetBaseUriFrom](-set-base-uri-from.md) | Sets the base uri (host + base path) on an outbound request. This is useful to separate configuration of remote endpoints from the logic required to construct the rest of the request.`fun SetBaseUriFrom(uri: `[`Uri`](../../org.http4k.core/-uri/index.md)`): `[`Filter`](../../org.http4k.core/-filter.md) |
 | [SetHostFrom](-set-host-from.md) | Sets the host on an outbound request. This is useful to separate configuration of remote endpoints from the logic required to construct the rest of the request.`fun SetHostFrom(uri: `[`Uri`](../../org.http4k.core/-uri/index.md)`): `[`Filter`](../../org.http4k.core/-filter.md) |
+| [SetXForwardedHost](-set-x-forwarded-host.md) | Copy the Host header into the x-forwarded-host header of a request. Used when we are using proxies to divert traffic to another server.`fun SetXForwardedHost(): <ERROR CLASS>` |
 
 ### Extension Functions
 

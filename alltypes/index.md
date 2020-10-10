@@ -63,6 +63,11 @@ Provides a consistent way to generate access tokens.
 
 |
 
+##### [org.http4k.filter.AllowAllOriginPolicy](../org.http4k.filter/-allow-all-origin-policy/index.md)
+
+
+|
+
 ##### [org.http4k.client.Apache4AsyncClient](../org.http4k.client/-apache4-async-client/index.md)
 
 
@@ -1330,12 +1335,17 @@ Adapts between the Servlet and http4k APIs
 
 |
 
-##### [org.http4k.server.Http4kWebSocketAdapter](../org.http4k.server/-http4k-web-socket-adapter/index.md)
+##### [org.http4k.websocket.Http4kWebSocketAdapter](../org.http4k.websocket/-http4k-web-socket-adapter/index.md)
 
 
 |
 
 ##### [org.http4k.server.Http4kWebSocketListener](../org.http4k.server/-http4k-web-socket-listener/index.md)
+
+
+|
+
+##### [org.http4k.server.Http4kWsChannelHandler](../org.http4k.server/-http4k-ws-channel-handler/index.md)
 
 
 |
@@ -2081,6 +2091,13 @@ Provides a way to apply extensions to the OpenAPI JSON document.
 
 |
 
+##### [org.http4k.filter.OriginPolicy](../org.http4k.filter/-origin-policy.md)
+
+For creating custom origin policy for allowing CORS
+
+
+|
+
 ##### [org.http4k.webdriver.Page](../org.http4k.webdriver/-page/index.md)
 
 
@@ -2780,6 +2797,11 @@ Supported template implementations for templating engine implementations
 
 |
 
+##### [org.http4k.serverless.lambda.TestFunctionAlb](../org.http4k.serverless.lambda/-test-function-alb/index.md)
+
+
+|
+
 ##### [org.http4k.serverless.lambda.TestFunctionV1](../org.http4k.serverless.lambda/-test-function-v1/index.md)
 
 
@@ -2914,6 +2936,11 @@ to react to events on the WS event stream by attaching listeners.
 |
 
 ##### [org.http4k.client.WebsocketClient](../org.http4k.client/-websocket-client/index.md)
+
+
+|
+
+##### [org.http4k.server.WebSocketServerHandler](../org.http4k.server/-web-socket-server-handler/index.md)
 
 
 |

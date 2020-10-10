@@ -18,3 +18,4 @@ Standard interface for creating a configured WebServer which supports Websockets
 | Name | Summary |
 |---|---|
 | [Jetty](../-jetty/index.md) | `class Jetty : `[`WsServerConfig`](./index.md) |
+| [Netty](../-netty/index.md) | `data class Netty : `[`WsServerConfig`](./index.md) |

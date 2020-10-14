@@ -2,4 +2,4 @@
 
 # method
 
-`val method: `[`Method`](../../org.http4k.core/-method/index.md)
+`val method: `[`Method`](../../org.http4k.core/-method/index.md)`?`

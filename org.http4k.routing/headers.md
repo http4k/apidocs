@@ -1,0 +1,8 @@
+[http4k](../index.md) / [org.http4k.routing](index.md) / [headers](./headers.md)
+
+# headers
+
+`fun headers(vararg names: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`ParameterMatch`](-parameter-match/index.md)
+
+For routes where certain headers are required for correct operation. ParameterMatch is composable.
+

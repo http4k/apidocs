@@ -15,4 +15,11 @@ Code for mounting http4k applications into Servlet containers.
 
 | Name | Summary |
 |---|---|
+| [javax.servlet.http.HttpServletRequest](javax.servlet.http.-http-servlet-request/index.md) |  |
 | [kotlin.Function1](kotlin.-function1/index.md) |  |
+
+### Functions
+
+| Name | Summary |
+|---|---|
+| [transferTo](transfer-to.md) | `fun `[`Response`](../org.http4k.core/-response/index.md)`.transferTo(destination: HttpServletResponse): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |

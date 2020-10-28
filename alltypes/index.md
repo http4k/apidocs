@@ -63,6 +63,11 @@ Provides a consistent way to generate access tokens.
 
 |
 
+##### [org.http4k.serverless.AlibabaCloudFunction](../org.http4k.serverless/-alibaba-cloud-function/index.md)
+
+
+|
+
 ##### [org.http4k.filter.AllowAllOriginPolicy](../org.http4k.filter/-allow-all-origin-policy/index.md)
 
 
@@ -393,6 +398,11 @@ Common base type for all format libraries which can convert directly from String
 |
 
 ##### [org.http4k.aws.AwsSdkClient](../org.http4k.aws/-aws-sdk-client/index.md)
+
+
+|
+
+##### [org.http4k.serverless.AzureFunction](../org.http4k.serverless/-azure-function/index.md)
 
 
 |
@@ -1375,6 +1385,16 @@ HttpMessages are designed to be immutable, so any mutation methods return a modi
 |
 
 ##### [org.http4k.contract.HttpMessageMeta](../org.http4k.contract/-http-message-meta/index.md)
+
+
+| (extensions in package org.http4k.serverless)
+
+##### [com.microsoft.azure.functions.HttpRequestMessage](../org.http4k.serverless/com.microsoft.azure.functions.-http-request-message/index.md)
+
+
+| (extensions in package org.http4k.servlet)
+
+##### [javax.servlet.http.HttpServletRequest](../org.http4k.servlet/javax.servlet.http.-http-servlet-request/index.md)
 
 
 |
@@ -2797,7 +2817,32 @@ Supported template implementations for templating engine implementations
 
 |
 
+##### [org.http4k.serverless.TencentCloudFunction](../org.http4k.serverless/-tencent-cloud-function/index.md)
+
+
+|
+
 ##### [org.http4k.serverless.openwhisk.TestAction](../org.http4k.serverless.openwhisk/-test-action/index.md)
+
+
+|
+
+##### [org.http4k.serverless.alibaba.TestFunction](../org.http4k.serverless.alibaba/-test-function/index.md)
+
+
+|
+
+##### [org.http4k.serverless.azure.TestFunction](../org.http4k.serverless.azure/-test-function/index.md)
+
+
+|
+
+##### [org.http4k.serverless.gcf.TestFunction](../org.http4k.serverless.gcf/-test-function/index.md)
+
+
+|
+
+##### [tencent.TestFunction](../tencent/-test-function/index.md)
 
 
 |

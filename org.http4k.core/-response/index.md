@@ -34,6 +34,7 @@
 | Name | Summary |
 |---|---|
 | [alphabetiseHeaders](../alphabetise-headers.md) | `fun <T : `[`HttpMessage`](../-http-message/index.md)`> T.alphabetiseHeaders(): T` |
+| [asAzure](../../org.http4k.serverless/as-azure.md) | `fun `[`Response`](./index.md)`.asAzure(request: HttpRequestMessage<`[`Optional`](https://docs.oracle.com/javase/9/docs/api/java/util/Optional.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>>): HttpResponseMessage!` |
 | [cookie](../../org.http4k.core.cookie/cookie.md) | `fun `[`Response`](./index.md)`.cookie(cookie: `[`Cookie`](../../org.http4k.core.cookie/-cookie/index.md)`): `[`Response`](./index.md) |
 | [cookies](../../org.http4k.core.cookie/cookies.md) | `fun `[`Response`](./index.md)`.cookies(): `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`Cookie`](../../org.http4k.core.cookie/-cookie/index.md)`>` |
 | [invalidateCookie](../../org.http4k.core.cookie/invalidate-cookie.md) | `fun `[`Response`](./index.md)`.invalidateCookie(name: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, domain: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`? = null): `[`Response`](./index.md) |
@@ -59,6 +60,7 @@
 | [shouldNotHaveStatus](../../org.http4k.kotest/should-not-have-status.md) | `infix fun `[`Response`](./index.md)`.shouldNotHaveStatus(expected: `[`Status`](../-status/index.md)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 | [staleIfError](../stale-if-error.md) | `fun `[`Response`](./index.md)`.staleIfError(duration: `[`Duration`](https://docs.oracle.com/javase/9/docs/api/java/time/Duration.html)`): `[`Response`](./index.md) |
 | [staleWhileRevalidate](../stale-while-revalidate.md) | `fun `[`Response`](./index.md)`.staleWhileRevalidate(duration: `[`Duration`](https://docs.oracle.com/javase/9/docs/api/java/time/Duration.html)`): `[`Response`](./index.md) |
+| [transferTo](../../org.http4k.servlet/transfer-to.md) | `fun `[`Response`](./index.md)`.transferTo(destination: HttpServletResponse): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 | [with](../with.md) | `fun <T : `[`HttpMessage`](../-http-message/index.md)`> T.with(vararg modifiers: (T) -> T): T` |
 
 ### Companion Object Extension Functions

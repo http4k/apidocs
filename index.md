@@ -44,6 +44,9 @@
 | [org.http4k.security.openid](org.http4k.security.openid/index.md) |  |
 | [org.http4k.server](org.http4k.server/index.md) | Common code relevant to HTTP server implementations. |
 | [org.http4k.serverless](org.http4k.serverless/index.md) | Common code relevant to HTTP serverless implementations. |
+| [org.http4k.serverless.alibaba](org.http4k.serverless.alibaba/index.md) |  |
+| [org.http4k.serverless.azure](org.http4k.serverless.azure/index.md) |  |
+| [org.http4k.serverless.gcf](org.http4k.serverless.gcf/index.md) |  |
 | [org.http4k.serverless.lambda](org.http4k.serverless.lambda/index.md) |  |
 | [org.http4k.serverless.openwhisk](org.http4k.serverless.openwhisk/index.md) |  |
 | [org.http4k.servirtium](org.http4k.servirtium/index.md) |  |
@@ -55,6 +58,7 @@
 | [org.http4k.util](org.http4k.util/index.md) | Presumed homeless code used across the rest of the library. |
 | [org.http4k.webdriver](org.http4k.webdriver/index.md) | Code for testing http4k applications with the Webdriver library. |
 | [org.http4k.websocket](org.http4k.websocket/index.md) | Common code relevant to websocket implementations. |
+| [tencent](tencent/index.md) |  |
 
 ### Index
 

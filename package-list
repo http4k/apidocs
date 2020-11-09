@@ -39,14 +39,19 @@ $dokka.location:org.http4k.core$toPathEncoded(kotlin.String)org.http4k.core/kot
 $dokka.location:org.http4k.core$toUrlFormEncoded(kotlin.collections.List((kotlin.Pair((kotlin.String, kotlin.String)))))org.http4k.core/kotlin.collections.-list/to-url-form-encoded.md
 $dokka.location:org.http4k.core.body$toBody(kotlin.collections.List((kotlin.Pair((kotlin.String, kotlin.String)))))org.http4k.core.body/kotlin.collections.-list/to-body.md
 $dokka.location:org.http4k.events$then(kotlin.Function1((org.http4k.events.Event, kotlin.Unit)), kotlin.Function1((org.http4k.events.Event, kotlin.Unit)))org.http4k.events/kotlin.-function1/then.md
+$dokka.location:org.http4k.filter$labels(kotlin.Function1((org.http4k.core.HttpTransaction, )), org.http4k.core.HttpTransaction)org.http4k.filter/kotlin.-function1/labels.md
 $dokka.location:org.http4k.format$asConfigurable(com.fasterxml.jackson.module.kotlin.KotlinModule)org.http4k.format/com.fasterxml.jackson.module.kotlin.-kotlin-module/as-configurable.md
 $dokka.location:org.http4k.format$asConfigurable(com.fasterxml.jackson.module.kotlin.KotlinModule, org.http4k.format.asConfigurable.T)org.http4k.format/com.fasterxml.jackson.module.kotlin.-kotlin-module/as-configurable.md
 $dokka.location:org.http4k.format$asConfigurable(com.google.gson.GsonBuilder)org.http4k.format/com.google.gson.-gson-builder/as-configurable.md
 $dokka.location:org.http4k.format$asConfigurable(com.squareup.moshi.Moshi.Builder)org.http4k.format/com.squareup.moshi.-moshi.-builder/as-configurable.md
+$dokka.location:org.http4k.format$asConfigurable(kotlinx.serialization.json.JsonBuilder)org.http4k.format/kotlinx.serialization.json.-json-builder/as-configurable.md
 $dokka.location:org.http4k.format$asConfigurableXml(com.fasterxml.jackson.module.kotlin.KotlinModule)org.http4k.format/com.fasterxml.jackson.module.kotlin.-kotlin-module/as-configurable-xml.md
 $dokka.location:org.http4k.format$read(com.fasterxml.jackson.databind.ObjectMapper)org.http4k.format/com.fasterxml.jackson.databind.-object-mapper/read.md
 $dokka.location:org.http4k.format$read(com.google.gson.Gson)org.http4k.format/com.google.gson.-gson/read.md
 $dokka.location:org.http4k.format$write(com.fasterxml.jackson.databind.ObjectMapper)org.http4k.format/com.fasterxml.jackson.databind.-object-mapper/write.md
+$dokka.location:org.http4k.routing$and(kotlin.Function1((org.http4k.core.Request, kotlin.Boolean)), kotlin.Function1((org.http4k.core.Request, kotlin.Boolean)))org.http4k.routing/kotlin.-function1/and.md
+$dokka.location:org.http4k.routing$bind(kotlin.Function1((org.http4k.core.Request, kotlin.Boolean)), kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)))org.http4k.routing/kotlin.-function1/bind.md
+$dokka.location:org.http4k.routing$bind(kotlin.Function1((org.http4k.core.Request, kotlin.Boolean)), org.http4k.routing.RoutingHttpHandler)org.http4k.routing/kotlin.-function1/bind.md
 $dokka.location:org.http4k.routing$bind(kotlin.String, kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)))org.http4k.routing/kotlin.-string/bind.md
 $dokka.location:org.http4k.routing$bind(kotlin.String, kotlin.Function1((org.http4k.websocket.Websocket, kotlin.Unit)))org.http4k.routing/kotlin.-string/bind.md
 $dokka.location:org.http4k.routing$bind(kotlin.String, org.http4k.core.Method)org.http4k.routing/kotlin.-string/bind.md
@@ -95,6 +100,7 @@ org.http4k.jsonrpc
 org.http4k.junit
 org.http4k.kotest
 org.http4k.lens
+org.http4k.metrics
 org.http4k.multipart
 org.http4k.routing
 org.http4k.routing.experimental

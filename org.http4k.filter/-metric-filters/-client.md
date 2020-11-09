@@ -2,4 +2,6 @@
 
 # Client
 
-`object Client : FiltersTemplate`
+`val ~~Client~~: `[`MicrometerMetrics`](../-micrometer-metrics/index.md)
+**Deprecated:** Moved to ClientFilters extension
+

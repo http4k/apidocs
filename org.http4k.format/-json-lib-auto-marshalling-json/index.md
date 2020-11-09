@@ -31,3 +31,4 @@
 |---|---|
 | [ConfigurableGson](../-configurable-gson/index.md) | `open class ConfigurableGson : `[`JsonLibAutoMarshallingJson`](./index.md)`<JsonElement>` |
 | [ConfigurableJackson](../-configurable-jackson/index.md) | `open class ConfigurableJackson : `[`JsonLibAutoMarshallingJson`](./index.md)`<JsonNode>` |
+| [ConfigurableKotlinxSerialization](../-configurable-kotlinx-serialization/index.md) | `open class ConfigurableKotlinxSerialization : `[`JsonLibAutoMarshallingJson`](./index.md)`<JsonElement>` |

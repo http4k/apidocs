@@ -27,5 +27,5 @@
 
 | Name | Summary |
 |---|---|
-| [binary](../../org.http4k.lens/binary.md) | `fun WsMessage.Companion.binary(): `[`BiDiWsMessageLensSpec`](../../org.http4k.lens/-bi-di-ws-message-lens-spec/index.md)`<`[`ByteBuffer`](https://docs.oracle.com/javase/9/docs/api/java/nio/ByteBuffer.html)`>` |
-| [string](../../org.http4k.lens/string.md) | `fun WsMessage.Companion.string(): `[`BiDiWsMessageLensSpec`](../../org.http4k.lens/-bi-di-ws-message-lens-spec/index.md)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>` |
+| [binary](../../org.http4k.lens/binary.md) | `fun WsMessage.Companion.binary(): <ERROR CLASS>` |
+| [string](../../org.http4k.lens/string.md) | `fun WsMessage.Companion.string(): <ERROR CLASS>` |

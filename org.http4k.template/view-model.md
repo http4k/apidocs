@@ -2,4 +2,4 @@
 
 # viewModel
 
-`fun Body.Companion.viewModel(renderer: `[`TemplateRenderer`](-template-renderer.md)`, contentType: `[`ContentType`](../org.http4k.core/-content-type/index.md)`): `[`BiDiBodyLensSpec`](../org.http4k.lens/-bi-di-body-lens-spec/index.md)`<`[`ViewModel`](-view-model/index.md)`>`
+`fun Body.Companion.viewModel(renderer: `[`TemplateRenderer`](-template-renderer.md)`, contentType: `[`ContentType`](../org.http4k.core/-content-type/index.md)`): <ERROR CLASS>`

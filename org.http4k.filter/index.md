@@ -21,10 +21,13 @@ This is the base package for all Filter implementations.
 | [GenerateXmlDataClasses](-generate-xml-data-classes/index.md) | This Filter is used to generate Data class definitions from a Response containing XML. The Filter will try and reduce the number of class definitions by selecting the definition with the most fields (for cases where lists of items have different fields).`class GenerateXmlDataClasses<NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`Filter`](../org.http4k.core/-filter.md) |
 | [GsonGenerateXmlDataClasses](-gson-generate-xml-data-classes/index.md) | Provides an implementation of GenerateXmlDataClasses using GSON as an engine.`object GsonGenerateXmlDataClasses` |
 | [GzipCompressionMode](-gzip-compression-mode/index.md) | `sealed class GzipCompressionMode` |
-| [HttpTransactionLabeller](-http-transaction-labeller.md) | `typealias HttpTransactionLabeller = (`[`HttpTransaction`](../org.http4k.core/-http-transaction/index.md)`) -> `[`HttpTransaction`](../org.http4k.core/-http-transaction/index.md) |
+| [HttpTransactionLabeler](-http-transaction-labeler.md) | `typealias HttpTransactionLabeler = (`[`HttpTransaction`](../org.http4k.core/-http-transaction/index.md)`) -> `[`HttpTransaction`](../org.http4k.core/-http-transaction/index.md) |
+| [HttpTransactionLabeller](-http-transaction-labeller.md) | `typealias ~~HttpTransactionLabeller~~ = `[`HttpTransactionLabeler`](-http-transaction-labeler.md) |
 | [JacksonXmlGenerateXmlDataClasses](-jackson-xml-generate-xml-data-classes/index.md) | Provides an implementation of GenerateXmlDataClasses using GSON as an engine.`object JacksonXmlGenerateXmlDataClasses` |
 | [MaxAgeTtl](-max-age-ttl/index.md) | `data class MaxAgeTtl : `[`CacheControlHeaderPart`](-cache-control-header-part/index.md) |
-| [MetricFilters](-metric-filters/index.md) | `object MetricFilters` |
+| [MetricFilters](-metric-filters/index.md) | `object ~~MetricFilters~~` |
+| [MicrometerMetrics](-micrometer-metrics/index.md) | `class MicrometerMetrics` |
+| [OpenTelemetryMetrics](-open-telemetry-metrics/index.md) | `class OpenTelemetryMetrics` |
 | [OriginPolicy](-origin-policy.md) | For creating custom origin policy for allowing CORS`interface OriginPolicy : (`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`) -> `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
 | [Payload](-payload/index.md) | `object Payload` |
 | [RequestFilters](-request-filters/index.md) | `object RequestFilters` |
@@ -38,6 +41,19 @@ This is the base package for all Filter implementations.
 | [TrafficFilters](-traffic-filters/index.md) | `object TrafficFilters` |
 | [ZipkinTraces](-zipkin-traces/index.md) | `data class ZipkinTraces` |
 
+### Extensions for External Classes
+
+| Name | Summary |
+|---|---|
+| [kotlin.Function1](kotlin.-function1/index.md) |  |
+
+### Properties
+
+| Name | Summary |
+|---|---|
+| [MicrometerMetrics](-micrometer-metrics.md) | `val `[`ClientFilters`](-client-filters/index.md)`.MicrometerMetrics: `[`MicrometerMetrics`](-micrometer-metrics/index.md)<br>`val `[`ServerFilters`](-server-filters/index.md)`.MicrometerMetrics: `[`MicrometerMetrics`](-micrometer-metrics/index.md) |
+| [OpenTelemetryMetrics](-open-telemetry-metrics.md) | `val `[`ClientFilters`](-client-filters/index.md)`.OpenTelemetryMetrics: `[`OpenTelemetryMetrics`](-open-telemetry-metrics/index.md)<br>`val `[`ServerFilters`](-server-filters/index.md)`.OpenTelemetryMetrics: `[`OpenTelemetryMetrics`](-open-telemetry-metrics/index.md) |
+
 ### Functions
 
 | Name | Summary |
@@ -50,6 +66,7 @@ This is the base package for all Filter implementations.
 | [gzippedStream](gzipped-stream.md) | `fun `[`Body`](../org.http4k.core/-body/index.md)`.gzippedStream(): `[`CompressionResult`](-compression-result/index.md) |
 | [HandleRemoteRequestFailed](-handle-remote-request-failed.md) | Handle exceptions from remote calls and convert them into sensible server-side errors. Optionally pass in a function to format the response body from the exception.`fun `[`ServerFilters`](-server-filters/index.md)`.HandleRemoteRequestFailed(exceptionToBody: `[`RemoteRequestFailed`](../org.http4k.cloudnative/-remote-request-failed/index.md)`.() -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = Throwable::getLocalizedMessage): `[`Filter`](../org.http4k.core/-filter.md)<br>Convert errors from remote calls into exceptions which can be handled at a higher level. Optionally pass in:`fun `[`ClientFilters`](-client-filters/index.md)`.HandleRemoteRequestFailed(responseWasSuccessful: `[`Response`](../org.http4k.core/-response/index.md)`.() -> `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)` = { status.successful }, responseToMessage: `[`Response`](../org.http4k.core/-response/index.md)`.() -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = Response::bodyString): <ERROR CLASS>` |
 | [HandleUpstreamRequestFailed](-handle-upstream-request-failed.md) | `fun `[`ServerFilters`](-server-filters/index.md)`.~~HandleUpstreamRequestFailed~~(exceptionToBody: `[`RemoteRequestFailed`](../org.http4k.cloudnative/-remote-request-failed/index.md)`.() -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = { localizedMessage }): `[`Filter`](../org.http4k.core/-filter.md)<br>`fun `[`ClientFilters`](-client-filters/index.md)`.~~HandleUpstreamRequestFailed~~(responseWasSuccessful: `[`Response`](../org.http4k.core/-response/index.md)`.() -> `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)` = { status.successful }, responseToMessage: `[`Response`](../org.http4k.core/-response/index.md)`.() -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = Response::bodyString): <ERROR CLASS>` |
+| [OpenTelemetryTracing](-open-telemetry-tracing.md) | `fun `[`ClientFilters`](-client-filters/index.md)`.OpenTelemetryTracing(tracer: Tracer = Http4kOpenTelemetry.tracer, spanNamer: (`[`Request`](../org.http4k.core/-request/index.md)`) -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = { it.uri.toString() }, error: (`[`Request`](../org.http4k.core/-request/index.md)`, `[`Throwable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)`) -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = { _, t -> t.localizedMessage }): `[`Filter`](../org.http4k.core/-filter.md)<br>`fun `[`ServerFilters`](-server-filters/index.md)`.OpenTelemetryTracing(tracer: Tracer = Http4kOpenTelemetry.tracer, spanNamer: (`[`Request`](../org.http4k.core/-request/index.md)`) -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = { it.uri.toString() }, error: (`[`Request`](../org.http4k.core/-request/index.md)`, `[`Throwable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)`) -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = { _, t -> t.localizedMessage }): `[`Filter`](../org.http4k.core/-filter.md) |
 | [ProcessFiles](-process-files.md) | Process files on upload using the passed consumer, which returns a reference. The form file is replaced in the form with this reference.`fun `[`ServerFilters`](-server-filters/index.md)`.ProcessFiles(fileConsumer: (File) -> `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): <ERROR CLASS>` |
 
 ### Companion Object Functions

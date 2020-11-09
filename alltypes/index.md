@@ -1105,6 +1105,11 @@ Useful EventFilters used in building event processing pipelines to add various t
 ##### [org.http4k.template.FreemarkerTemplates](../org.http4k.template/-freemarker-templates/index.md)
 
 
+| (extensions in package org.http4k.filter)
+
+##### [kotlin.Function1](../org.http4k.filter/kotlin.-function1/index.md)
+
+
 | (extensions in package org.http4k.client)
 
 ##### [kotlin.Function1](../org.http4k.client/kotlin.-function1/index.md)
@@ -1123,6 +1128,11 @@ Useful EventFilters used in building event processing pipelines to add various t
 | (extensions in package org.http4k.events)
 
 ##### [kotlin.Function1](../org.http4k.events/kotlin.-function1/index.md)
+
+
+| (extensions in package org.http4k.routing)
+
+##### [kotlin.Function1](../org.http4k.routing/kotlin.-function1/index.md)
 
 
 | (extensions in package org.http4k.servlet)
@@ -1321,6 +1331,14 @@ This class provides unified start/stop control.
 
 |
 
+##### [org.http4k.metrics.Http4kOpenTelemetry](../org.http4k.metrics/-http4k-open-telemetry/index.md)
+
+OpenTracing works using a set of named Singletons. We use the the constant name here to
+make it simple to get the instances of the required objects.
+
+
+|
+
 ##### [org.http4k.server.Http4kRequestHandler](../org.http4k.server/-http4k-request-handler/index.md)
 
 Exposed to allow for insertion into a customised Apache WebServer instance
@@ -1400,6 +1418,11 @@ HttpMessages are designed to be immutable, so any mutation methods return a modi
 |
 
 ##### [org.http4k.core.HttpTransaction](../org.http4k.core/-http-transaction/index.md)
+
+
+|
+
+##### [org.http4k.filter.HttpTransactionLabeler](../org.http4k.filter/-http-transaction-labeler.md)
 
 
 |
@@ -1627,6 +1650,11 @@ This is the contract for all JSON implementations
 ##### [org.http4k.testing.JsonApprovalTest](../org.http4k.testing/-json-approval-test/index.md)
 
 Approval JUnit5 extension configured to compare prettified-JSON messages.
+
+
+| (extensions in package org.http4k.format)
+
+##### [kotlinx.serialization.json.JsonBuilder](../org.http4k.format/kotlinx.serialization.json.-json-builder/index.md)
 
 
 |
@@ -1873,6 +1901,16 @@ Represents a body that is backed by an in-memory ByteBuffer. Closing this has no
 
 |
 
+##### [org.http4k.metrics.MetricsDefaults](../org.http4k.metrics/-metrics-defaults/index.md)
+
+
+|
+
+##### [org.http4k.filter.MicrometerMetrics](../org.http4k.filter/-micrometer-metrics/index.md)
+
+
+|
+
 ##### [org.http4k.core.MimeTypes](../org.http4k.core/-mime-types/index.md)
 
 
@@ -2106,6 +2144,11 @@ Provides a way to apply extensions to the OpenAPI JSON document.
 
 |
 
+##### [org.http4k.filter.OpenTelemetryMetrics](../org.http4k.filter/-open-telemetry-metrics/index.md)
+
+
+|
+
 ##### [org.http4k.serverless.OpenWhiskFunction](../org.http4k.serverless/-open-whisk-function/index.md)
 
 
@@ -2119,11 +2162,6 @@ For creating custom origin policy for allowing CORS
 |
 
 ##### [org.http4k.webdriver.Page](../org.http4k.webdriver/-page/index.md)
-
-
-|
-
-##### [org.http4k.routing.ParameterMatch](../org.http4k.routing/-parameter-match/index.md)
 
 
 |
@@ -2436,6 +2474,11 @@ In-memory RequestContext store.
 |
 
 ##### [org.http4k.security.oauth.server.request.RequestJWTValidator](../org.http4k.security.oauth.server.request/-request-j-w-t-validator/index.md)
+
+
+|
+
+##### [org.http4k.routing.RequestMatch](../org.http4k.routing/-request-match.md)
 
 
 |

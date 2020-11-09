@@ -2,4 +2,6 @@
 
 # Server
 
-`object Server : FiltersTemplate`
+`val ~~Server~~: `[`MicrometerMetrics`](../-micrometer-metrics/index.md)
+**Deprecated:** Moved to ServerFilters extension
+

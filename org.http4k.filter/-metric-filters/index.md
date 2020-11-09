@@ -2,12 +2,12 @@
 
 # MetricFilters
 
-`object MetricFilters`
+`object ~~MetricFilters~~`
+**Deprecated:** Moved filters onto ClientFilters and ServerFilters
 
-### Types
+### Properties
 
 | Name | Summary |
 |---|---|
-| [Client](-client.md) | `object Client : FiltersTemplate` |
-| [FiltersTemplate](-filters-template/index.md) | `class FiltersTemplate` |
-| [Server](-server.md) | `object Server : FiltersTemplate` |
+| [Client](-client.md) | `val ~~Client~~: `[`MicrometerMetrics`](../-micrometer-metrics/index.md) |
+| [Server](-server.md) | `val ~~Server~~: `[`MicrometerMetrics`](../-micrometer-metrics/index.md) |

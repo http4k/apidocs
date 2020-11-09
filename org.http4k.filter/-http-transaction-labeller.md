@@ -2,4 +2,6 @@
 
 # HttpTransactionLabeller
 
-`typealias HttpTransactionLabeller = (`[`HttpTransaction`](../org.http4k.core/-http-transaction/index.md)`) -> `[`HttpTransaction`](../org.http4k.core/-http-transaction/index.md)
+`typealias ~~HttpTransactionLabeller~~ = `[`HttpTransactionLabeler`](-http-transaction-labeler.md)
+**Deprecated:** Renamed
+

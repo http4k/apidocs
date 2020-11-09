@@ -16,4 +16,4 @@ Approval JUnit5 extension configured to compare prettified-HTML messages. Note t
 
 | Name | Summary |
 |---|---|
-| [format](format.md) | `fun format(input: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`!` |
+| [format](format.md) | `fun format(input: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |

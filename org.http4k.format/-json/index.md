@@ -57,5 +57,4 @@ This is the contract for all JSON implementations
 | Name | Summary |
 |---|---|
 | [Argo](../-argo/index.md) | `object Argo : `[`Json`](./index.md)`<JsonNode>` |
-| [ConfigurableKotlinxSerialization](../-configurable-kotlinx-serialization/index.md) | `open class ConfigurableKotlinxSerialization : `[`Json`](./index.md)`<JsonElement>` |
 | [JsonLibAutoMarshallingJson](../-json-lib-auto-marshalling-json/index.md) | `abstract class JsonLibAutoMarshallingJson<NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`AutoMarshallingJson`](../-auto-marshalling-json/index.md)`, `[`Json`](./index.md)`<NODE>` |

@@ -2,7 +2,7 @@
 
 # headers
 
-`fun headers(vararg names: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`RequestMatch`](-request-match.md)
+`fun headers(vararg names: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Router`](-router/index.md)
 
-For routes where certain headers are required for correct operation. RequestMatch is composable.
+Ensure all headers are present
 

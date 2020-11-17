@@ -2,20 +2,13 @@
 
 # PathMethod
 
-`data class PathMethod`
+`class PathMethod`
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `PathMethod(path: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, method: `[`Method`](../../org.http4k.core/-method/index.md)`?)` |
-
-### Properties
-
-| Name | Summary |
-|---|---|
-| [method](method.md) | `val method: `[`Method`](../../org.http4k.core/-method/index.md)`?` |
-| [path](path.md) | `val path: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [&lt;init&gt;](-init-.md) | `PathMethod(path: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, method: `[`Method`](../../org.http4k.core/-method/index.md)`)` |
 
 ### Functions
 

@@ -1140,14 +1140,14 @@ Useful EventFilters used in building event processing pipelines to add various t
 ##### [kotlin.Function1](../org.http4k.servlet/kotlin.-function1/index.md)
 
 
-| (extensions in package org.http4k.template)
-
-##### [kotlin.Function1](../org.http4k.template/kotlin.-function1/index.md)
-
-
 | (extensions in package org.http4k.testing)
 
 ##### [kotlin.Function1](../org.http4k.testing/kotlin.-function1/index.md)
+
+
+| (extensions in package org.http4k.template)
+
+##### [kotlin.Function1](../org.http4k.template/kotlin.-function1/index.md)
 
 
 | (extensions in package org.http4k.chaos)
@@ -1168,24 +1168,6 @@ Useful EventFilters used in building event processing pipelines to add various t
 |
 
 ##### [org.http4k.security.oauth.server.accesstoken.GenerateAccessTokenForGrantType](../org.http4k.security.oauth.server.accesstoken/-generate-access-token-for-grant-type/index.md)
-
-
-|
-
-##### [org.http4k.filter.GenerateDataClasses](../org.http4k.filter/-generate-data-classes/index.md)
-
-This Filter is used to generate Data class definitions from a Response containing JSON. The Filter will try and reduce
-the number of class definitions by selecting the definition with the most fields (for cases where lists of items
-have different fields).
-
-
-|
-
-##### [org.http4k.filter.GenerateXmlDataClasses](../org.http4k.filter/-generate-xml-data-classes/index.md)
-
-This Filter is used to generate Data class definitions from a Response containing XML. The Filter will try and reduce
-the number of class definitions by selecting the definition with the most fields (for cases where lists of items
-have different fields).
 
 
 |
@@ -1220,6 +1202,26 @@ Read a file from a repository using the GitHub API.
 ##### [org.http4k.security.oauth.server.accesstoken.GrantTypesConfiguration](../org.http4k.security.oauth.server.accesstoken/-grant-types-configuration/index.md)
 
 
+|
+
+##### [org.http4k.graphql.GraphQLHandler](../org.http4k.graphql/-graph-q-l-handler.md)
+
+
+|
+
+##### [org.http4k.graphql.GraphQLRequest](../org.http4k.graphql/-graph-q-l-request/index.md)
+
+
+|
+
+##### [org.http4k.graphql.GraphQLResponse](../org.http4k.graphql/-graph-q-l-response/index.md)
+
+
+|
+
+##### [org.http4k.graphql.GraphQLWithContextHandler](../org.http4k.graphql/-graph-q-l-with-context-handler.md)
+
+
 | (extensions in package org.http4k.format)
 
 ##### [com.google.gson.Gson](../org.http4k.format/com.google.gson.-gson/index.md)
@@ -1235,13 +1237,6 @@ To implement custom JSON configuration, create your own object singleton. Extra 
 | (extensions in package org.http4k.format)
 
 ##### [com.google.gson.GsonBuilder](../org.http4k.format/com.google.gson.-gson-builder/index.md)
-
-
-|
-
-##### [org.http4k.filter.GsonGenerateXmlDataClasses](../org.http4k.filter/-gson-generate-xml-data-classes/index.md)
-
-Provides an implementation of GenerateXmlDataClasses using GSON as an engine.
 
 
 |
@@ -1593,13 +1588,6 @@ To implement custom JSON configuration, create your own object singleton. Extra 
 ##### [org.http4k.format.JacksonXml](../org.http4k.format/-jackson-xml.md)
 
 To implement custom XML configuration, create your own object singleton. Extra mappings can be added before done() is called.
-
-
-|
-
-##### [org.http4k.filter.JacksonXmlGenerateXmlDataClasses](../org.http4k.filter/-jackson-xml-generate-xml-data-classes/index.md)
-
-Provides an implementation of GenerateXmlDataClasses using GSON as an engine.
 
 
 |
@@ -2478,11 +2466,6 @@ In-memory RequestContext store.
 
 |
 
-##### [org.http4k.routing.RequestMatch](../org.http4k.routing/-request-match.md)
-
-
-|
-
 ##### [org.http4k.contract.RequestMeta](../org.http4k.contract/-request-meta/index.md)
 
 
@@ -2623,6 +2606,8 @@ Provides HTTP Handlers which respond using pre-stored Requests.
 |
 
 ##### [org.http4k.routing.RouterMatch](../org.http4k.routing/-router-match/index.md)
+
+The result of a matching operation. May or may not contain a matched HttpHandler.
 
 
 |

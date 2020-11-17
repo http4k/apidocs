@@ -28,6 +28,7 @@
 | [org.http4k.filter](org.http4k.filter/index.md) | This is the base package for all Filter implementations. |
 | [org.http4k.filter.cookie](org.http4k.filter.cookie/index.md) |  |
 | [org.http4k.format](org.http4k.format/index.md) | Common code relevant to the various message format implementations (eg. JSON). |
+| [org.http4k.graphql](org.http4k.graphql/index.md) |  |
 | [org.http4k.hamkrest](org.http4k.hamkrest/index.md) | Matchers for use with the hamkrest matching library. |
 | [org.http4k.jsonrpc](org.http4k.jsonrpc/index.md) |  |
 | [org.http4k.junit](org.http4k.junit/index.md) |  |

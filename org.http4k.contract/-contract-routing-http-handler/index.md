@@ -17,6 +17,13 @@
 | [invoke](invoke.md) | `fun invoke(request: `[`Request`](../../org.http4k.core/-request/index.md)`): `[`Response`](../../org.http4k.core/-response/index.md) |
 | [match](match.md) | Attempt to supply an HttpHandler which can service the passed request.`fun match(request: `[`Request`](../../org.http4k.core/-request/index.md)`): `[`RouterMatch`](../../org.http4k.routing/-router-match/index.md) |
 | [toString](to-string.md) | `fun toString(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
-| [withBasePath](with-base-path.md) | Returns a RoutingHttpHandler which prepends the passed base path to the logic determining the match() To follow the trend of immutability, this will generally be a new instance.`fun withBasePath(new: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`ContractRoutingHttpHandler`](./index.md) |
+| [withBasePath](with-base-path.md) | Returns a Router which prepends the passed base path to the logic determining the match().`fun withBasePath(new: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`ContractRoutingHttpHandler`](./index.md) |
 | [withFilter](with-filter.md) | NOTE: By default, filters for Contracts are applied *before* the Security filter. Use withPostSecurityFilter() to achieve population of filters after security.`fun withFilter(new: `[`Filter`](../../org.http4k.core/-filter.md)`): `[`ContractRoutingHttpHandler`](./index.md) |
 | [withPostSecurityFilter](with-post-security-filter.md) | `fun withPostSecurityFilter(new: `[`Filter`](../../org.http4k.core/-filter.md)`): `[`ContractRoutingHttpHandler`](./index.md) |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [and](../../org.http4k.routing/and.md) | `infix fun `[`Router`](../../org.http4k.routing/-router/index.md)`.and(that: `[`Router`](../../org.http4k.routing/-router/index.md)`): `[`Router`](../../org.http4k.routing/-router/index.md) |
+| [bind](../../org.http4k.routing/bind.md) | `infix fun `[`Router`](../../org.http4k.routing/-router/index.md)`.bind(handler: `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`): `[`RoutingHttpHandler`](../../org.http4k.routing/-routing-http-handler/index.md)<br>`infix fun `[`Router`](../../org.http4k.routing/-router/index.md)`.bind(handler: `[`RoutingHttpHandler`](../../org.http4k.routing/-routing-http-handler/index.md)`): `[`RoutingHttpHandler`](../../org.http4k.routing/-routing-http-handler/index.md) |

@@ -31,6 +31,7 @@ A Lens provides the uni-directional extraction of an entity from a target.
 | Name | Summary |
 |---|---|
 | [asResult](../as-result.md) | Convert the result of a lens extraction to a Result4k type which`fun <IN, OUT> `[`LensExtractor`](../-lens-extractor/index.md)`<IN, OUT>.asResult(): `[`LensExtractor`](../-lens-extractor/index.md)`<IN, Result<OUT, `[`LensFailure`](../-lens-failure/index.md)`>>` |
+| [matches](../matches.md) | Check the content of any lens on a request for routing purposes.`fun <T> `[`Lens`](./index.md)`<`[`Request`](../../org.http4k.core/-request/index.md)`, T>.matches(fn: (T) -> `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`): `[`Router`](../../org.http4k.routing/-router/index.md) |
 
 ### Inheritors
 

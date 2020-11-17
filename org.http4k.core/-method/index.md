@@ -17,3 +17,10 @@
 | [PATCH](-p-a-t-c-h.md) |  |
 | [PURGE](-p-u-r-g-e.md) |  |
 | [HEAD](-h-e-a-d.md) |  |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [and](../../org.http4k.routing/and.md) | `fun `[`Method`](./index.md)`.and(that: `[`Router`](../../org.http4k.routing/-router/index.md)`): <ERROR CLASS>` |
+| [asRouter](../../org.http4k.routing/as-router.md) | `fun `[`Method`](./index.md)`.asRouter(): <ERROR CLASS>` |

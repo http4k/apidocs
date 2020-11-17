@@ -17,13 +17,9 @@ This is the base package for all Filter implementations.
 | [CorsPolicy](-cors-policy/index.md) | `data class CorsPolicy` |
 | [DebuggingFilters](-debugging-filters/index.md) | `object DebuggingFilters` |
 | [DefaultCacheTimings](-default-cache-timings/index.md) | `data class DefaultCacheTimings` |
-| [GenerateDataClasses](-generate-data-classes/index.md) | This Filter is used to generate Data class definitions from a Response containing JSON. The Filter will try and reduce the number of class definitions by selecting the definition with the most fields (for cases where lists of items have different fields).`class GenerateDataClasses<out NODE> : `[`Filter`](../org.http4k.core/-filter.md) |
-| [GenerateXmlDataClasses](-generate-xml-data-classes/index.md) | This Filter is used to generate Data class definitions from a Response containing XML. The Filter will try and reduce the number of class definitions by selecting the definition with the most fields (for cases where lists of items have different fields).`class GenerateXmlDataClasses<NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`Filter`](../org.http4k.core/-filter.md) |
-| [GsonGenerateXmlDataClasses](-gson-generate-xml-data-classes/index.md) | Provides an implementation of GenerateXmlDataClasses using GSON as an engine.`object GsonGenerateXmlDataClasses` |
 | [GzipCompressionMode](-gzip-compression-mode/index.md) | `sealed class GzipCompressionMode` |
 | [HttpTransactionLabeler](-http-transaction-labeler.md) | `typealias HttpTransactionLabeler = (`[`HttpTransaction`](../org.http4k.core/-http-transaction/index.md)`) -> `[`HttpTransaction`](../org.http4k.core/-http-transaction/index.md) |
 | [HttpTransactionLabeller](-http-transaction-labeller.md) | `typealias ~~HttpTransactionLabeller~~ = `[`HttpTransactionLabeler`](-http-transaction-labeler.md) |
-| [JacksonXmlGenerateXmlDataClasses](-jackson-xml-generate-xml-data-classes/index.md) | Provides an implementation of GenerateXmlDataClasses using GSON as an engine.`object JacksonXmlGenerateXmlDataClasses` |
 | [MaxAgeTtl](-max-age-ttl/index.md) | `data class MaxAgeTtl : `[`CacheControlHeaderPart`](-cache-control-header-part/index.md) |
 | [MetricFilters](-metric-filters/index.md) | `object ~~MetricFilters~~` |
 | [MicrometerMetrics](-micrometer-metrics/index.md) | `class MicrometerMetrics` |

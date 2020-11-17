@@ -2,7 +2,7 @@
 
 # queries
 
-`fun queries(vararg names: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`RequestMatch`](-request-match.md)
+`fun queries(vararg names: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Router`](-router/index.md)
 
-For routes where certain queries are required for correct operation. RequestMatch is composable.
+Ensure all queries are present
 

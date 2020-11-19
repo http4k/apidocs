@@ -4,6 +4,14 @@
 
 `interface Router`
 
+Matches requests for routing purposes.
+
+### Properties
+
+| Name | Summary |
+|---|---|
+| [description](description.md) | `open val description: `[`RouterDescription`](../-router-description/index.md) |
+
 ### Functions
 
 | Name | Summary |

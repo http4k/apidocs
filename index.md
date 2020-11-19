@@ -38,6 +38,7 @@
 | [org.http4k.multipart](org.http4k.multipart/index.md) |  |
 | [org.http4k.routing](org.http4k.routing/index.md) | Code for routing HTTP messages inside server implementations. |
 | [org.http4k.routing.experimental](org.http4k.routing.experimental/index.md) |  |
+| [org.http4k.routing.inspect](org.http4k.routing.inspect/index.md) |  |
 | [org.http4k.security](org.http4k.security/index.md) | Code relevant to interfacing with security mechanisms such as OAuth servers. |
 | [org.http4k.security.oauth.server](org.http4k.security.oauth.server/index.md) |  |
 | [org.http4k.security.oauth.server.accesstoken](org.http4k.security.oauth.server.accesstoken/index.md) |  |

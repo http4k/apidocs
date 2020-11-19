@@ -12,7 +12,8 @@ Code for routing HTTP messages inside server implementations.
 | [ResourceLoader](-resource-loader/index.md) | `interface ResourceLoader` |
 | [RoutedRequest](-routed-request/index.md) | `data class RoutedRequest : `[`Request`](../org.http4k.core/-request/index.md) |
 | [RoutedResponse](-routed-response/index.md) | `class RoutedResponse : `[`Response`](../org.http4k.core/-response/index.md) |
-| [Router](-router/index.md) | `interface Router` |
+| [Router](-router/index.md) | Matches requests for routing purposes.`interface Router` |
+| [RouterDescription](-router-description/index.md) | `data class RouterDescription` |
 | [RouterMatch](-router-match/index.md) | The result of a matching operation. May or may not contain a matched HttpHandler.`sealed class RouterMatch : `[`Comparable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-comparable/index.html)`<`[`RouterMatch`](-router-match/index.md)`>` |
 | [RoutingHttpHandler](-routing-http-handler/index.md) | Composite HttpHandler which can potentially service many different URL patterns. Should return a 404 Response if it cannot service a particular Request.`interface RoutingHttpHandler : `[`Router`](-router/index.md)`, `[`HttpHandler`](../org.http4k.core/-http-handler.md) |
 | [RoutingWsHandler](-routing-ws-handler/index.md) | `interface RoutingWsHandler : `[`WsHandler`](../org.http4k.websocket/-ws-handler.md) |
@@ -29,8 +30,7 @@ Code for routing HTTP messages inside server implementations.
 | Name | Summary |
 |---|---|
 | [&lt;no name provided&gt;](-no name provided-.md) | Looks up contents of a resource path.`fun <no name provided>(): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
-| [and](and.md) | `fun `[`Method`](../org.http4k.core/-method/index.md)`.and(that: `[`Router`](-router/index.md)`): <ERROR CLASS>`<br>`infix fun `[`Router`](-router/index.md)`.and(that: `[`Router`](-router/index.md)`): `[`Router`](-router/index.md) |
-| [asRouter](as-router.md) | `fun `[`Method`](../org.http4k.core/-method/index.md)`.asRouter(): <ERROR CLASS>` |
+| [and](and.md) | `infix fun `[`Router`](-router/index.md)`.and(that: `[`Router`](-router/index.md)`): `[`Router`](-router/index.md) |
 | [bind](bind.md) | `infix fun `[`Router`](-router/index.md)`.bind(handler: `[`HttpHandler`](../org.http4k.core/-http-handler.md)`): `[`RoutingHttpHandler`](-routing-http-handler/index.md)<br>`infix fun `[`Router`](-router/index.md)`.bind(handler: `[`RoutingHttpHandler`](-routing-http-handler/index.md)`): `[`RoutingHttpHandler`](-routing-http-handler/index.md) |
 | [body](body.md) | Ensure body matches predicate`fun body(predicate: (`[`Body`](../org.http4k.core/-body/index.md)`) -> `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`): `[`Router`](-router/index.md)<br>Ensure body string matches predicate`fun body(predicate: (`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`) -> `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`): `[`Router`](-router/index.md) |
 | [graphQL](graph-q-l.md) | Routing plugin for GraphQL handling.`fun graphQL(handler: `[`GraphQLHandler`](../org.http4k.graphql/-graph-q-l-handler.md)`, badRequestFn: (`[`LensFailure`](../org.http4k.lens/-lens-failure/index.md)`) -> `[`Response`](../org.http4k.core/-response/index.md)` = { Response(BAD_REQUEST) }): `[`RoutingHttpHandler`](-routing-http-handler/index.md)<br>Routing plugin for GraphQL handling with contextual data.`fun <T> graphQL(handler: `[`GraphQLWithContextHandler`](../org.http4k.graphql/-graph-q-l-with-context-handler.md)`<T>, getContext: (`[`Request`](../org.http4k.core/-request/index.md)`) -> T, badRequestFn: (`[`LensFailure`](../org.http4k.lens/-lens-failure/index.md)`) -> `[`Response`](../org.http4k.core/-response/index.md)` = { Response(BAD_REQUEST) }): `[`RoutingHttpHandler`](-routing-http-handler/index.md) |

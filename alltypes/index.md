@@ -407,6 +407,11 @@ Common base type for all format libraries which can convert directly from String
 
 |
 
+##### [org.http4k.routing.inspect.BackgroundColour](../org.http4k.routing.inspect/-background-colour/index.md)
+
+
+|
+
 ##### [org.apache.commons.fileupload.util.mime.Base64Decoder](../org.apache.commons.fileupload.util.mime/-base64-decoder/index.md)
 
 
@@ -966,6 +971,11 @@ entire list, or override the comma separator in your initial Environment.
 
 |
 
+##### [org.http4k.routing.inspect.EscapeMode](../org.http4k.routing.inspect/-escape-mode/index.md)
+
+
+|
+
 ##### [org.http4k.core.etag.ETag](../org.http4k.core.etag/-e-tag/index.md)
 
 
@@ -1078,6 +1088,11 @@ Useful EventFilters used in building event processing pipelines to add various t
 |
 
 ##### [org.http4k.cloudnative.Forbidden](../org.http4k.cloudnative/-forbidden/index.md)
+
+
+|
+
+##### [org.http4k.routing.inspect.ForegroundColour](../org.http4k.routing.inspect/-foreground-colour/index.md)
 
 
 |
@@ -2602,6 +2617,13 @@ Provides HTTP Handlers which respond using pre-stored Requests.
 
 ##### [org.http4k.routing.Router](../org.http4k.routing/-router/index.md)
 
+Matches requests for routing purposes.
+
+
+|
+
+##### [org.http4k.routing.RouterDescription](../org.http4k.routing/-router-description/index.md)
+
 
 |
 
@@ -2794,6 +2816,11 @@ gotchas:
 ##### [kotlin.String](../org.http4k.routing/kotlin.-string/index.md)
 
 
+| (extensions in package org.http4k.routing.inspect)
+
+##### [kotlin.String](../org.http4k.routing.inspect/kotlin.-string/index.md)
+
+
 |
 
 ##### [org.http4k.lens.StringBiDiMappings](../org.http4k.lens/-string-bi-di-mappings/index.md)
@@ -2903,6 +2930,11 @@ are routed synchronously to the receiving Websocket, and error are propagated to
 
 |
 
+##### [org.http4k.routing.inspect.TextStyle](../org.http4k.routing.inspect/-text-style/index.md)
+
+
+|
+
 ##### [org.http4k.template.ThymeleafTemplates](../org.http4k.template/-thymeleaf-templates/index.md)
 
 
@@ -2986,6 +3018,11 @@ are routed synchronously to the receiving Websocket, and error are propagated to
 ##### [org.http4k.lens.Validator](../org.http4k.lens/-validator/index.md)
 
 Runs through a list of lenses and extracts the values from each one, collecting the errors
+
+
+|
+
+##### [org.http4k.routing.inspect.Variation](../org.http4k.routing.inspect/-variation/index.md)
 
 
 |

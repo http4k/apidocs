@@ -57,6 +57,7 @@ $dokka.location:org.http4k.routing$bind(kotlin.String, kotlin.Function1((org.htt
 $dokka.location:org.http4k.routing$bind(kotlin.String, org.http4k.core.Method)org.http4k.routing/kotlin.-string/bind.md
 $dokka.location:org.http4k.routing$bind(kotlin.String, org.http4k.routing.RoutingHttpHandler)org.http4k.routing/kotlin.-string/bind.md
 $dokka.location:org.http4k.routing$bind(kotlin.String, org.http4k.routing.RoutingWsHandler)org.http4k.routing/kotlin.-string/bind.md
+$dokka.location:org.http4k.routing.inspect$styled(kotlin.String, org.http4k.routing.inspect.TextStyle, org.http4k.routing.inspect.EscapeMode)org.http4k.routing.inspect/kotlin.-string/styled.md
 $dokka.location:org.http4k.server$asHttp4k(io.ktor.request.ApplicationRequest)org.http4k.server/io.ktor.request.-application-request/as-http4k.md
 $dokka.location:org.http4k.server$asServer(kotlin.Function1((org.http4k.core.Request, kotlin.Function1((org.http4k.websocket.Websocket, kotlin.Unit)))), org.http4k.server.WsServerConfig)org.http4k.server/kotlin.-function1/as-server.md
 $dokka.location:org.http4k.server$asServer(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)), kotlin.Function1((kotlin.Int, org.http4k.server.ServerConfig)), org.http4k.cloudnative.env.Port)org.http4k.server/kotlin.-function1/as-server.md
@@ -105,6 +106,7 @@ org.http4k.metrics
 org.http4k.multipart
 org.http4k.routing
 org.http4k.routing.experimental
+org.http4k.routing.inspect
 org.http4k.security
 org.http4k.security.oauth.server
 org.http4k.security.oauth.server.accesstoken

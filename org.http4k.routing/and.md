@@ -2,5 +2,4 @@
 
 # and
 
-`fun `[`Method`](../org.http4k.core/-method/index.md)`.and(that: `[`Router`](-router/index.md)`): <ERROR CLASS>`
 `infix fun `[`Router`](-router/index.md)`.and(that: `[`Router`](-router/index.md)`): `[`Router`](-router/index.md)

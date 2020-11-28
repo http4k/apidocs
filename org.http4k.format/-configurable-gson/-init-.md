@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`ConfigurableGson(builder: GsonBuilder)`
+`ConfigurableGson(builder: GsonBuilder, defaultContentType: `[`ContentType`](../../org.http4k.core/-content-type/index.md)` = APPLICATION_JSON)`

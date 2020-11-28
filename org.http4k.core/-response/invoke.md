@@ -2,4 +2,4 @@
 
 # invoke
 
-`@JvmOverloads @JvmName("create") operator fun invoke(status: `[`Status`](../-status/index.md)`, version: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = HTTP_1_1): `[`Response`](index.md)
+`@JvmStatic @JvmOverloads @JvmName("create") operator fun invoke(status: `[`Status`](../-status/index.md)`, version: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)` = HTTP_1_1): `[`Response`](index.md)

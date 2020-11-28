@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`ConfigurableMoshi(builder: Builder)`
+`ConfigurableMoshi(builder: Builder, defaultContentType: `[`ContentType`](../../org.http4k.core/-content-type/index.md)` = APPLICATION_JSON)`

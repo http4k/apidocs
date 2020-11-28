@@ -33,4 +33,4 @@ The result of a matching operation. May or may not contain a matched HttpHandler
 
 | Name | Summary |
 |---|---|
-| [prettify](../../org.http4k.routing.inspect/prettify.md) | `fun `[`RouterMatch`](./index.md)`.prettify(depth: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)` = 0, escapeMode: `[`EscapeMode`](../../org.http4k.routing.inspect/-escape-mode/index.md)` = EscapeMode.Ansi): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [prettify](../../org.http4k.routing.inspect/prettify.md) | `fun `[`RouterMatch`](./index.md)`.prettify(depth: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)` = 0, escape: `[`EscapeMode`](../../org.http4k.routing.inspect/-escape-mode/index.md)` = Ansi): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |

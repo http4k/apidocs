@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`ConfigurableJackson(mapper: ObjectMapper)`
+`ConfigurableJackson(mapper: ObjectMapper, defaultContentType: `[`ContentType`](../../org.http4k.core/-content-type/index.md)` = APPLICATION_JSON)`

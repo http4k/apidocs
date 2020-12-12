@@ -25,6 +25,12 @@ Code for routing HTTP messages inside server implementations.
 | [kotlin.Function1](kotlin.-function1/index.md) |  |
 | [kotlin.String](kotlin.-string/index.md) |  |
 
+### Properties
+
+| Name | Summary |
+|---|---|
+| [Fallback](-fallback.md) | `val Fallback: `[`Router`](-router/index.md) |
+
 ### Functions
 
 | Name | Summary |

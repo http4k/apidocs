@@ -2,7 +2,7 @@
 
 # &lt;init&gt;
 
-`RequestContexts()`
+`RequestContexts(storeId: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`? = null)`
 
-In-memory RequestContext store.
+In-memory RequestContext store. Override the storeId to use multiple stores in one app.
 

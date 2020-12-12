@@ -2,7 +2,7 @@
 
 # AddOpenTelemetryTraces
 
-`fun `[`EventFilters`](-event-filters/index.md)`.AddOpenTelemetryTraces(tracer: Tracer = Http4kOpenTelemetry.tracer): <ERROR CLASS>`
+`fun `[`EventFilters`](-event-filters/index.md)`.AddOpenTelemetryTraces(): <ERROR CLASS>`
 
 Adds OpenTelemetry traces metadata to the event.
 

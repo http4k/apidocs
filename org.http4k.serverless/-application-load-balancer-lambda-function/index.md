@@ -2,7 +2,7 @@
 
 # ApplicationLoadBalancerLambdaFunction
 
-`abstract class ApplicationLoadBalancerLambdaFunction : `[`AwsLambdaFunction`](../-aws-lambda-function.md)`<ApplicationLoadBalancerRequestEvent, ApplicationLoadBalancerResponseEvent>`
+`abstract class ApplicationLoadBalancerLambdaFunction : `[`AwsLambdaFunction`](../-aws-lambda-function/index.md)`<ApplicationLoadBalancerRequestEvent, `[`Map`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`>>, RequestHandler<ApplicationLoadBalancerRequestEvent, `[`Map`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`>>`
 
 This is the main entry point for lambda invocations coming from an Application LoadBalancer.
 It uses the local environment to instantiate the HttpHandler which can be used
@@ -18,7 +18,7 @@ for further invocations.
 
 | Name | Summary |
 |---|---|
-| [handleRequest](handle-request.md) | `open fun handleRequest(req: ApplicationLoadBalancerRequestEvent, ctx: Context): ApplicationLoadBalancerResponseEvent` |
+| [handleRequest](handle-request.md) | `open fun handleRequest(req: ApplicationLoadBalancerRequestEvent, ctx: Context): `[`Map`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`>` |
 
 ### Inheritors
 

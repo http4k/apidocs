@@ -31,7 +31,7 @@ The core abstractions for the http4k library.
 | [Parameters](-parameters.md) | `typealias Parameters = `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<Parameter>` |
 | [Request](-request/index.md) | `interface Request : `[`HttpMessage`](-http-message/index.md) |
 | [RequestContext](-request-context/index.md) | `class RequestContext` |
-| [RequestContexts](-request-contexts/index.md) | In-memory RequestContext store.`class RequestContexts : `[`Store`](-store/index.md)`<`[`RequestContext`](-request-context/index.md)`>` |
+| [RequestContexts](-request-contexts/index.md) | In-memory RequestContext store. Override the storeId to use multiple stores in one app.`class RequestContexts : `[`Store`](-store/index.md)`<`[`RequestContext`](-request-context/index.md)`>` |
 | [RequestSource](-request-source/index.md) | `data class RequestSource` |
 | [Response](-response/index.md) | `interface Response : `[`HttpMessage`](-http-message/index.md) |
 | [Status](-status/index.md) | `class Status` |

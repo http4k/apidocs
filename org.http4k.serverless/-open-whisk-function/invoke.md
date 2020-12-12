@@ -2,4 +2,4 @@
 
 # invoke
 
-`fun invoke(request: JsonObject): JsonObject`
+`fun invoke(request: JsonObject): <ERROR CLASS>`

@@ -17,4 +17,4 @@ Useful EventFilters used in building event processing pipelines to add various t
 
 | Name | Summary |
 |---|---|
-| [AddOpenTelemetryTraces](../-add-open-telemetry-traces.md) | Adds OpenTelemetry traces metadata to the event.`fun `[`EventFilters`](./index.md)`.AddOpenTelemetryTraces(tracer: Tracer = Http4kOpenTelemetry.tracer): <ERROR CLASS>` |
+| [AddOpenTelemetryTraces](../-add-open-telemetry-traces.md) | Adds OpenTelemetry traces metadata to the event.`fun `[`EventFilters`](./index.md)`.AddOpenTelemetryTraces(): <ERROR CLASS>` |

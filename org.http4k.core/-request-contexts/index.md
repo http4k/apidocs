@@ -4,13 +4,13 @@
 
 `class RequestContexts : `[`Store`](../-store/index.md)`<`[`RequestContext`](../-request-context/index.md)`>`
 
-In-memory RequestContext store.
+In-memory RequestContext store. Override the storeId to use multiple stores in one app.
 
 ### Constructors
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | In-memory RequestContext store.`RequestContexts()` |
+| [&lt;init&gt;](-init-.md) | In-memory RequestContext store. Override the storeId to use multiple stores in one app.`RequestContexts(storeId: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`? = null)` |
 
 ### Functions
 

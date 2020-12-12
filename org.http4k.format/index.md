@@ -17,6 +17,7 @@ Common code relevant to the various message format implementations (eg. JSON).
 | [ConfigurableJackson](-configurable-jackson/index.md) | `open class ConfigurableJackson : `[`JsonLibAutoMarshallingJson`](-json-lib-auto-marshalling-json/index.md)`<JsonNode>` |
 | [ConfigurableJacksonXml](-configurable-jackson-xml/index.md) | `open class ConfigurableJacksonXml : `[`AutoMarshallingXml`](-auto-marshalling-xml/index.md) |
 | [ConfigurableJacksonYaml](-configurable-jackson-yaml/index.md) | `open class ConfigurableJacksonYaml : `[`AutoMarshalling`](-auto-marshalling/index.md) |
+| [ConfigurableKlaxon](-configurable-klaxon/index.md) | `open class ConfigurableKlaxon : `[`AutoMarshallingJson`](-auto-marshalling-json/index.md) |
 | [ConfigurableKotlinxSerialization](-configurable-kotlinx-serialization/index.md) | `open class ConfigurableKotlinxSerialization : `[`JsonLibAutoMarshallingJson`](-json-lib-auto-marshalling-json/index.md)`<JsonElement>` |
 | [ConfigurableMoshi](-configurable-moshi/index.md) | `open class ConfigurableMoshi : `[`AutoMarshallingJson`](-auto-marshalling-json/index.md) |
 | [Gson](-gson.md) | To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called.`object Gson : `[`ConfigurableGson`](-configurable-gson/index.md) |
@@ -26,6 +27,7 @@ Common code relevant to the various message format implementations (eg. JSON).
 | [Json](-json/index.md) | This is the contract for all JSON implementations`interface Json<NODE>` |
 | [JsonLibAutoMarshallingJson](-json-lib-auto-marshalling-json/index.md) | `abstract class JsonLibAutoMarshallingJson<NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`AutoMarshallingJson`](-auto-marshalling-json/index.md)`, `[`Json`](-json/index.md)`<NODE>` |
 | [JsonType](-json-type/index.md) | `enum class JsonType` |
+| [Klaxon](-klaxon.md) | To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called.`object Klaxon : `[`ConfigurableKlaxon`](-configurable-klaxon/index.md) |
 | [KotlinxSerialization](-kotlinx-serialization.md) | To implement custom JSON configuration, create your own object singleton extending ConfigurableKotlinxSerialization, passing in the JSON configuration block`object KotlinxSerialization : `[`ConfigurableKotlinxSerialization`](-configurable-kotlinx-serialization/index.md) |
 | [Moshi](-moshi.md) | To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called.`object Moshi : `[`ConfigurableMoshi`](-configurable-moshi/index.md) |
 | [Xml](-xml/index.md) | `object Xml : `[`AutoMarshallingXml`](-auto-marshalling-xml/index.md) |
@@ -40,6 +42,7 @@ Common code relevant to the various message format implementations (eg. JSON).
 
 | Name | Summary |
 |---|---|
+| [com.beust.klaxon.Klaxon](com.beust.klaxon.-klaxon/index.md) |  |
 | [com.fasterxml.jackson.databind.ObjectMapper](com.fasterxml.jackson.databind.-object-mapper/index.md) |  |
 | [com.fasterxml.jackson.module.kotlin.KotlinModule](com.fasterxml.jackson.module.kotlin.-kotlin-module/index.md) |  |
 | [com.google.gson.Gson](com.google.gson.-gson/index.md) |  |

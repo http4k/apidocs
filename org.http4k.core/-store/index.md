@@ -20,4 +20,4 @@
 
 | Name | Summary |
 |---|---|
-| [RequestContexts](../-request-contexts/index.md) | In-memory RequestContext store.`class RequestContexts : `[`Store`](./index.md)`<`[`RequestContext`](../-request-context/index.md)`>` |
+| [RequestContexts](../-request-contexts/index.md) | In-memory RequestContext store. Override the storeId to use multiple stores in one app.`class RequestContexts : `[`Store`](./index.md)`<`[`RequestContext`](../-request-context/index.md)`>` |

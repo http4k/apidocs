@@ -31,6 +31,7 @@ Code relevant to extracting and injecting typesafe values into HTTP messages.
 | [LensExtractor](-lens-extractor/index.md) | `interface LensExtractor<in IN, out OUT> : (IN) -> OUT` |
 | [LensGet](-lens-get/index.md) | `class LensGet<in IN, out OUT>` |
 | [LensInjector](-lens-injector/index.md) | `interface LensInjector<in IN, in OUT>` |
+| [LensInjectorExtractor](-lens-injector-extractor.md) | `interface LensInjectorExtractor<IN, OUT> : `[`LensExtractor`](-lens-extractor/index.md)`<IN, OUT>, `[`LensInjector`](-lens-injector/index.md)`<OUT, IN>` |
 | [LensSet](-lens-set/index.md) | `class LensSet<IN, in OUT>` |
 | [LensSpec](-lens-spec/index.md) | Represents a uni-directional extraction of an entity from a target.`open class LensSpec<IN : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`, OUT>` |
 | [Meta](-meta/index.md) | `data class Meta` |

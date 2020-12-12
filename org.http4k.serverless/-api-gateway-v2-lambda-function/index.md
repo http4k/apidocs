@@ -2,7 +2,7 @@
 
 # ApiGatewayV2LambdaFunction
 
-`abstract class ApiGatewayV2LambdaFunction : `[`AwsLambdaFunction`](../-aws-lambda-function.md)`<APIGatewayV2HTTPEvent, APIGatewayV2HTTPResponse>`
+`abstract class ApiGatewayV2LambdaFunction : `[`AwsLambdaFunction`](../-aws-lambda-function/index.md)`<`[`Map`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`>, `[`Map`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`>>, RequestHandler<`[`Map`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`>, `[`Map`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`>>`
 
 This is the main entry point for lambda invocations using the V2 payload format.
 It uses the local environment to instantiate the HttpHandler which can be used
@@ -18,7 +18,7 @@ for further invocations.
 
 | Name | Summary |
 |---|---|
-| [handleRequest](handle-request.md) | `open fun handleRequest(req: APIGatewayV2HTTPEvent, ctx: Context): APIGatewayV2HTTPResponse` |
+| [handleRequest](handle-request.md) | `open fun handleRequest(req: `[`Map`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`>, ctx: Context): `[`Map`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`>` |
 
 ### Inheritors
 

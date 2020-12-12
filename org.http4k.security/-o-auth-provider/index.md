@@ -10,7 +10,7 @@ Provides a configured set of objects for use with an OAuth2 provider.
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | Provides a configured set of objects for use with an OAuth2 provider.`OAuthProvider(providerConfig: `[`OAuthProviderConfig`](../-o-auth-provider-config/index.md)`, client: `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`, callbackUri: `[`Uri`](../../org.http4k.core/-uri/index.md)`, scopes: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>, oAuthPersistence: `[`OAuthPersistence`](../-o-auth-persistence/index.md)`, modifyAuthState: (`[`Uri`](../../org.http4k.core/-uri/index.md)`) -> `[`Uri`](../../org.http4k.core/-uri/index.md)` = { it }, generateCrsf: `[`CsrfGenerator`](../-csrf-generator.md)` = SECURE_CSRF, nonceGenerator: `[`NonceGenerator`](../../org.http4k.security.openid/-nonce-generator.md)` = SECURE_NONCE, responseType: `[`ResponseType`](../-response-type/index.md)` = ResponseType.Code, idTokenConsumer: `[`IdTokenConsumer`](../../org.http4k.security.openid/-id-token-consumer/index.md)` = IdTokenConsumer.NoOp, accessTokenFetcherAuthenticator: `[`AccessTokenFetcherAuthenticator`](../-access-token-fetcher-authenticator/index.md)` = ClientSecretAccessTokenFetcherAuthenticator(providerConfig))` |
+| [&lt;init&gt;](-init-.md) | Provides a configured set of objects for use with an OAuth2 provider.`OAuthProvider(providerConfig: `[`OAuthProviderConfig`](../-o-auth-provider-config/index.md)`, client: `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`, callbackUri: `[`Uri`](../../org.http4k.core/-uri/index.md)`, scopes: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`>, oAuthPersistence: `[`OAuthPersistence`](../-o-auth-persistence/index.md)`, modifyAuthState: (`[`Uri`](../../org.http4k.core/-uri/index.md)`) -> `[`Uri`](../../org.http4k.core/-uri/index.md)` = { it }, generateCrsf: `[`CsrfGenerator`](../-csrf-generator.md)` = SECURE_CSRF, nonceGenerator: `[`NonceGenerator`](../../org.http4k.security.openid/-nonce-generator.md)` = SECURE_NONCE, responseType: `[`ResponseType`](../-response-type/index.md)` = ResponseType.Code, idTokenConsumer: `[`IdTokenConsumer`](../../org.http4k.security.openid/-id-token-consumer/index.md)` = IdTokenConsumer.NoOp, accessTokenFetcherAuthenticator: `[`AccessTokenFetcherAuthenticator`](../-access-token-fetcher-authenticator/index.md)` = ClientSecretAccessTokenFetcherAuthenticator(providerConfig), jwtRedirectionUriBuilder: (`[`RequestJwts`](../../org.http4k.security.openid/-request-jwts/index.md)`) -> `[`RedirectionUriBuilder`](../-redirection-uri-builder.md)` = ::uriBuilderWithRequestJwt, standardRedirectionUrlBuilder: `[`RedirectionUriBuilder`](../-redirection-uri-builder.md)` = defaultUriBuilder)` |
 
 ### Properties
 
@@ -27,7 +27,7 @@ Provides a configured set of objects for use with an OAuth2 provider.
 
 | Name | Summary |
 |---|---|
-| [authFilter](auth-filter.md) | `fun authFilter(requestJwts: `[`RequestJwts`](../../org.http4k.security.openid/-request-jwts/index.md)`): `[`Filter`](../../org.http4k.core/-filter.md) |
+| [authFilter](auth-filter.md) | `fun authFilter(requestJwts: `[`RequestJwts`](../../org.http4k.security.openid/-request-jwts/index.md)`): `[`OAuthRedirectionFilter`](../-o-auth-redirection-filter/index.md) |
 
 ### Companion Object Extension Functions
 

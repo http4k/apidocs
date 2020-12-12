@@ -2,5 +2,5 @@
 
 # &lt;init&gt;
 
-`OpenWhiskFunction(input: `[`AppLoader`](../-app-loader.md)`, env: `[`Map`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`> = System.getenv(), detectBinaryBody: `[`DetectBinaryBody`](../-detect-binary-body/index.md)` = NonBinary)`
-`OpenWhiskFunction(appLoader: `[`AppLoaderWithContexts`](../-app-loader-with-contexts.md)`, env: `[`Map`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html)`<`[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`> = System.getenv(), detectBinaryBody: `[`DetectBinaryBody`](../-detect-binary-body/index.md)` = NonBinary)`
+`OpenWhiskFunction(input: `[`AppLoader`](../-app-loader.md)`, detectBinaryBody: `[`DetectBinaryBody`](../-detect-binary-body/index.md)` = NonBinary)`
+`OpenWhiskFunction(appLoader: `[`AppLoaderWithContexts`](../-app-loader-with-contexts.md)`, detectBinaryBody: `[`DetectBinaryBody`](../-detect-binary-body/index.md)` = NonBinary)`

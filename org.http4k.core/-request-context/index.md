@@ -4,12 +4,6 @@
 
 `class RequestContext`
 
-### Types
-
-| Name | Summary |
-|---|---|
-| [Companion](-companion/index.md) | `companion object Companion : `[`LensExtractor`](../../org.http4k.lens/-lens-extractor/index.md)`<`[`Request`](../-request/index.md)`, `[`UUID`](https://docs.oracle.com/javase/9/docs/api/java/util/UUID.html)`>, `[`LensInjector`](../../org.http4k.lens/-lens-injector/index.md)`<`[`UUID`](https://docs.oracle.com/javase/9/docs/api/java/util/UUID.html)`, `[`Request`](../-request/index.md)`>` |
-
 ### Properties
 
 | Name | Summary |
@@ -27,4 +21,4 @@
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | Lens operation to set the value into the target`fun <R : `[`Request`](../-request/index.md)`> invoke(value: `[`UUID`](https://docs.oracle.com/javase/9/docs/api/java/util/UUID.html)`, target: R): R`<br>Lens operation to get the value from the target`fun invoke(target: `[`Request`](../-request/index.md)`): `[`UUID`](https://docs.oracle.com/javase/9/docs/api/java/util/UUID.html) |
+| [lensForStore](lens-for-store.md) | `fun lensForStore(storeId: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?): `[`LensInjectorExtractor`](../../org.http4k.lens/-lens-injector-extractor.md)`<`[`Request`](../-request/index.md)`, `[`UUID`](https://docs.oracle.com/javase/9/docs/api/java/util/UUID.html)`>` |

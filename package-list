@@ -18,7 +18,7 @@ $dokka.location:org.http4k.chaos$not(kotlin.Function1((org.http4k.core.Request, 
 $dokka.location:org.http4k.chaos$or(kotlin.Function1((org.http4k.core.Request, kotlin.Boolean)), kotlin.Function1((org.http4k.core.Request, kotlin.Boolean)))org.http4k.chaos/kotlin.-function1/or.md
 $dokka.location:org.http4k.chaos$then(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Filter)), kotlin.Function1((org.http4k.core.Request, org.http4k.core.Filter)))org.http4k.chaos/kotlin.-function1/then.md
 $dokka.location:org.http4k.chaos$until(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Filter)), kotlin.Function1((org.http4k.core.Request, kotlin.Boolean)))org.http4k.chaos/kotlin.-function1/until.md
-$dokka.location:org.http4k.chaos$withChaosApi(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)), org.http4k.chaos.ChaosEngine, org.http4k.contract.security.Security, kotlin.String, kotlin.String, org.http4k.filter.CorsPolicy, java.time.Clock)org.http4k.chaos/kotlin.-function1/with-chaos-api.md
+$dokka.location:org.http4k.chaos$withChaosApi(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)), org.http4k.chaos.ChaosEngine, org.http4k.contract.security.Security, kotlin.String, kotlin.String, org.http4k.filter.CorsPolicy, java.time.Clock, kotlin.String)org.http4k.chaos/kotlin.-function1/with-chaos-api.md
 $dokka.location:org.http4k.chaos$withChaosControls(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)), kotlin.Function1((org.http4k.core.Request, org.http4k.core.Filter)), org.http4k.contract.security.Security, kotlin.String, kotlin.String, org.http4k.filter.CorsPolicy)org.http4k.chaos/kotlin.-function1/with-chaos-controls.md
 $dokka.location:org.http4k.client$asGraphQLHandler(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)), kotlin.String)org.http4k.client/kotlin.-function1/as-graph-q-l-handler.md
 $dokka.location:org.http4k.client$asGraphQLHandler(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)), org.http4k.core.Uri)org.http4k.client/kotlin.-function1/as-graph-q-l-handler.md
@@ -32,7 +32,6 @@ $dokka.location:org.http4k.contract$div(kotlin.String, org.http4k.lens.PathLens(
 $dokka.location:org.http4k.contract$meta(kotlin.String, kotlin.Function1((org.http4k.contract.RouteMetaDsl, kotlin.Unit)))org.http4k.contract/kotlin.-string/meta.md
 $dokka.location:org.http4k.core$findMultiple(kotlin.collections.List((kotlin.Pair((kotlin.String, kotlin.String)))), kotlin.String)org.http4k.core/kotlin.collections.-list/find-multiple.md
 $dokka.location:org.http4k.core$findSingle(kotlin.collections.List((kotlin.Pair((kotlin.String, kotlin.String)))), kotlin.String)org.http4k.core/kotlin.collections.-list/find-single.md
-$dokka.location:org.http4k.core$fromPathEncoded(kotlin.String)org.http4k.core/kotlin.-string/from-path-encoded.md
 $dokka.location:org.http4k.core$getFirst(kotlin.collections.Map((org.http4k.core.getFirst.K, kotlin.collections.List((org.http4k.core.getFirst.V)))), org.http4k.core.getFirst.K)org.http4k.core/kotlin.collections.-map/get-first.md
 $dokka.location:org.http4k.core$safeLong(kotlin.String)org.http4k.core/kotlin.-string/safe-long.md
 $dokka.location:org.http4k.core$toParameters(kotlin.String)org.http4k.core/kotlin.-string/to-parameters.md
@@ -41,7 +40,10 @@ $dokka.location:org.http4k.core$toPathEncoded(kotlin.String)org.http4k.core/kot
 $dokka.location:org.http4k.core$toUrlFormEncoded(kotlin.collections.List((kotlin.Pair((kotlin.String, kotlin.String)))))org.http4k.core/kotlin.collections.-list/to-url-form-encoded.md
 $dokka.location:org.http4k.core.body$toBody(kotlin.collections.List((kotlin.Pair((kotlin.String, kotlin.String)))))org.http4k.core.body/kotlin.collections.-list/to-body.md
 $dokka.location:org.http4k.events$then(kotlin.Function1((org.http4k.events.Event, kotlin.Unit)), kotlin.Function1((org.http4k.events.Event, kotlin.Unit)))org.http4k.events/kotlin.-function1/then.md
+$dokka.location:org.http4k.filter$debug(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)), java.io.PrintStream, kotlin.Boolean)org.http4k.filter/kotlin.-function1/debug.md
 $dokka.location:org.http4k.filter$labels(kotlin.Function1((org.http4k.core.HttpTransaction, )), org.http4k.core.HttpTransaction)org.http4k.filter/kotlin.-function1/labels.md
+$dokka.location:org.http4k.format$asConfigurable(com.beust.klaxon.Klaxon)org.http4k.format/com.beust.klaxon.-klaxon/as-configurable.md
+$dokka.location:org.http4k.format$asConfigurable(com.beust.klaxon.Klaxon, com.beust.klaxon.Klaxon)org.http4k.format/com.beust.klaxon.-klaxon/as-configurable.md
 $dokka.location:org.http4k.format$asConfigurable(com.fasterxml.jackson.module.kotlin.KotlinModule)org.http4k.format/com.fasterxml.jackson.module.kotlin.-kotlin-module/as-configurable.md
 $dokka.location:org.http4k.format$asConfigurable(com.fasterxml.jackson.module.kotlin.KotlinModule, org.http4k.format.asConfigurable.T)org.http4k.format/com.fasterxml.jackson.module.kotlin.-kotlin-module/as-configurable.md
 $dokka.location:org.http4k.format$asConfigurable(com.google.gson.GsonBuilder)org.http4k.format/com.google.gson.-gson-builder/as-configurable.md

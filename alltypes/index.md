@@ -108,11 +108,21 @@ Provides a consistent way to generate access tokens.
 
 |
 
+##### [org.http4k.serverless.ApiGatewayV1AwsHttpAdapter](../org.http4k.serverless/-api-gateway-v1-aws-http-adapter/index.md)
+
+
+|
+
 ##### [org.http4k.serverless.ApiGatewayV1LambdaFunction](../org.http4k.serverless/-api-gateway-v1-lambda-function/index.md)
 
 This is the main entry point for lambda invocations using the V1 payload format.
 It uses the local environment to instantiate the HttpHandler which can be used
 for further invocations.
+
+
+|
+
+##### [org.http4k.serverless.ApiGatewayV2AwsHttpAdapter](../org.http4k.serverless/-api-gateway-v2-aws-http-adapter/index.md)
 
 
 |
@@ -166,6 +176,11 @@ Renders the contract contents in OpenApi JSON format.
 |
 
 ##### [org.http4k.util.Appendable](../org.http4k.util/-appendable/index.md)
+
+
+|
+
+##### [org.http4k.serverless.ApplicationLoadBalancerAwsHttpAdapter](../org.http4k.serverless/-application-load-balancer-aws-http-adapter/index.md)
 
 
 |
@@ -392,7 +407,12 @@ Common base type for all format libraries which can convert directly from String
 
 |
 
-##### [org.http4k.serverless.AwsLambdaFunction](../org.http4k.serverless/-aws-lambda-function.md)
+##### [org.http4k.serverless.AwsHttpAdapter](../org.http4k.serverless/-aws-http-adapter/index.md)
+
+
+|
+
+##### [org.http4k.serverless.AwsLambdaFunction](../org.http4k.serverless/-aws-lambda-function/index.md)
 
 
 |
@@ -735,6 +755,11 @@ Result of multiple checks, for which it reports an overall result (ie. any failu
 |
 
 ##### [org.http4k.format.ConfigurableJacksonYaml](../org.http4k.format/-configurable-jackson-yaml/index.md)
+
+
+|
+
+##### [org.http4k.format.ConfigurableKlaxon](../org.http4k.format/-configurable-klaxon/index.md)
 
 
 |
@@ -1578,6 +1603,20 @@ Provides storage for the recorded Servirtium interaction data.
 
 |
 
+##### [org.http4k.serverless.InvocationLambdaAwsHttpAdapter](../org.http4k.serverless/-invocation-lambda-aws-http-adapter/index.md)
+
+
+|
+
+##### [org.http4k.serverless.InvocationLambdaFunction](../org.http4k.serverless/-invocation-lambda-function/index.md)
+
+This is the main entry point for lambda invocations using the direct invocations.
+It uses the local environment to instantiate the HttpHandler which can be used
+for further invocations.
+
+
+|
+
 ##### [org.http4k.format.Jackson](../org.http4k.format/-jackson.md)
 
 To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called.
@@ -1739,7 +1778,24 @@ Reporting of ReadinessCheckResults in a JSON tree
 
 |
 
+##### [org.http4k.webdriver.JSoupElementFinder](../org.http4k.webdriver/-j-soup-element-finder/index.md)
+
+
+|
+
 ##### [org.http4k.webdriver.JSoupWebElement](../org.http4k.webdriver/-j-soup-web-element/index.md)
+
+
+| (extensions in package org.http4k.format)
+
+##### [com.beust.klaxon.Klaxon](../org.http4k.format/com.beust.klaxon.-klaxon/index.md)
+
+
+|
+
+##### [org.http4k.format.Klaxon](../org.http4k.format/-klaxon.md)
+
+To implement custom JSON configuration, create your own object singleton. Extra mappings can be added before done() is called.
 
 
 | (extensions in package org.http4k.format)
@@ -1804,6 +1860,11 @@ A Lens provides the uni-directional extraction of an entity from a target.
 |
 
 ##### [org.http4k.lens.LensInjector](../org.http4k.lens/-lens-injector/index.md)
+
+
+|
+
+##### [org.http4k.lens.LensInjectorExtractor](../org.http4k.lens/-lens-injector-extractor.md)
 
 
 |
@@ -2456,7 +2517,7 @@ Provides a stream of traffic for replaying purposes.
 
 ##### [org.http4k.core.RequestContexts](../org.http4k.core/-request-contexts/index.md)
 
-In-memory RequestContext store.
+In-memory RequestContext store. Override the storeId to use multiple stores in one app.
 
 
 |
@@ -2903,6 +2964,11 @@ Supported template implementations for templating engine implementations
 |
 
 ##### [org.http4k.serverless.lambda.TestFunctionAlb](../org.http4k.serverless.lambda/-test-function-alb/index.md)
+
+
+|
+
+##### [org.http4k.serverless.lambda.TestFunctionInvocation](../org.http4k.serverless.lambda/-test-function-invocation/index.md)
 
 
 |

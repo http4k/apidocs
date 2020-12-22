@@ -19,3 +19,4 @@
 | Name | Summary |
 |---|---|
 | [&lt;no name provided&gt;](-no name provided-.md) | Provides controls for interacting with an in-action Interaction recording.`fun <no name provided>(): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| [trafficPrinter](traffic-printer.md) | `fun `[`InteractionOptions`](-interaction-options/index.md)`.trafficPrinter(): `[`Filter`](../org.http4k.core/-filter.md) |

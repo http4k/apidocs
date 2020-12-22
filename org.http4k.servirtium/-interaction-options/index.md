@@ -21,3 +21,9 @@ traffic can be correctly matched during the replay process.
 | Name | Summary |
 |---|---|
 | [Defaults](-defaults.md) | By default, no modifications are made to the raw traffic before it gets output to disk. This will not be used very often as dynamic headers such as "Date" and "User-Agent" will almost always be present and need to be stripped out.`val Defaults: `[`InteractionOptions`](./index.md) |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [trafficPrinter](../traffic-printer.md) | `fun `[`InteractionOptions`](./index.md)`.trafficPrinter(): `[`Filter`](../../org.http4k.core/-filter.md) |

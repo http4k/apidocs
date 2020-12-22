@@ -2,4 +2,4 @@
 
 # SetAwsServiceUrl
 
-`fun `[`ClientFilters`](-client-filters/index.md)`.SetAwsServiceUrl(serviceNsme: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, region: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Filter`](../org.http4k.core/-filter.md)
+`fun `[`ClientFilters`](-client-filters/index.md)`.SetAwsServiceUrl(serviceName: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, region: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`): `[`Filter`](../org.http4k.core/-filter.md)

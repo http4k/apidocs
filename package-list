@@ -67,8 +67,8 @@ $dokka.location:org.http4k.server$asServer(kotlin.Function1((org.http4k.core.Req
 $dokka.location:org.http4k.server$asServer(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)), org.http4k.server.ServerConfig)org.http4k.server/kotlin.-function1/as-server.md
 $dokka.location:org.http4k.server$asServer(kotlin.Function1((org.http4k.websocket.Websocket, kotlin.Unit)), org.http4k.server.WsServerConfig)org.http4k.server/kotlin.-function1/as-server.md
 $dokka.location:org.http4k.server$fromHttp4K(io.ktor.response.ApplicationResponse, org.http4k.core.Response)org.http4k.server/io.ktor.response.-application-response/from-http4-k.md
-$dokka.location:org.http4k.server$toJettyHandler(kotlin.Function1((org.http4k.core.Request, kotlin.Function1((org.http4k.websocket.Websocket, kotlin.Unit)))))org.http4k.server/kotlin.-function1/to-jetty-handler.md
 $dokka.location:org.http4k.server$toJettyHandler(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)))org.http4k.server/kotlin.-function1/to-jetty-handler.md
+$dokka.location:org.http4k.server$toJettyNegotiator(kotlin.Function1((org.http4k.core.Request, kotlin.Function1((org.http4k.websocket.Websocket, kotlin.Unit)))))org.http4k.server/kotlin.-function1/to-jetty-negotiator.md
 $dokka.location:org.http4k.serverless$asHttp4k(com.microsoft.azure.functions.HttpRequestMessage((java.util.Optional((kotlin.String)))))org.http4k.serverless/com.microsoft.azure.functions.-http-request-message/as-http4k.md
 $dokka.location:org.http4k.servlet$asHttp4kRequest(javax.servlet.http.HttpServletRequest)org.http4k.servlet/javax.servlet.http.-http-servlet-request/as-http4k-request.md
 $dokka.location:org.http4k.servlet$asServlet(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)))org.http4k.servlet/kotlin.-function1/as-servlet.md

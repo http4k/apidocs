@@ -357,7 +357,7 @@ Provides a mechanism to track OAuth authorization parameters to be used later
 
 |
 
-##### [org.http4k.events.AutoJsonEvents](../org.http4k.events/-auto-json-events/index.md)
+##### [org.http4k.events.AutoJsonEvents](../org.http4k.events/-auto-json-events.md)
 
 
 |
@@ -378,6 +378,11 @@ The various methods here can be used to provide custom mapping behaviour (say fo
 ##### [org.http4k.format.AutoMarshalling](../org.http4k.format/-auto-marshalling/index.md)
 
 Common base type for all format libraries which can convert directly from String -&gt; Classes
+
+
+|
+
+##### [org.http4k.events.AutoMarshallingEvents](../org.http4k.events/-auto-marshalling-events/index.md)
 
 
 |
@@ -1398,12 +1403,7 @@ Adapts between the Servlet and http4k APIs
 
 |
 
-##### [org.http4k.websocket.Http4kWebSocketAdapter](../org.http4k.websocket/-http4k-web-socket-adapter/index.md)
-
-
-|
-
-##### [org.http4k.server.Http4kWebSocketListener](../org.http4k.server/-http4k-web-socket-listener/index.md)
+##### [org.http4k.server.Http4kWebSocketFrameHandler](../org.http4k.server/-http4k-web-socket-frame-handler/index.md)
 
 
 |

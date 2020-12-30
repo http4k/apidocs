@@ -8,7 +8,6 @@ Common code relevant to websocket implementations.
 
 | Name | Summary |
 |---|---|
-| [Http4kWebSocketAdapter](-http4k-web-socket-adapter/index.md) | `class Http4kWebSocketAdapter` |
 | [PolyHandler](-poly-handler/index.md) | A PolyHandler represents the combined routing logic of an Http handler and a Websocket handler. ws:// and http:// protocol calls are passed relevantly.`class PolyHandler` |
 | [PushPullAdaptingWebSocket](-push-pull-adapting-web-socket/index.md) | `abstract class PushPullAdaptingWebSocket : `[`Websocket`](-websocket/index.md) |
 | [Websocket](-websocket/index.md) | Represents a connected Websocket instance, and can be passed around an application. This is configured to react to events on the WS event stream by attaching listeners.`interface Websocket` |

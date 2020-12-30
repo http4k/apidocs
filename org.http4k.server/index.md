@@ -15,7 +15,7 @@ Common code relevant to HTTP server implementations.
 | [Http4kChannelHandler](-http4k-channel-handler/index.md) | Exposed to allow for insertion into a customised Netty server instance`class Http4kChannelHandler : SimpleChannelInboundHandler<FullHttpRequest>` |
 | [Http4kRequestHandler](-http4k-request-handler/index.md) | Exposed to allow for insertion into a customised Apache WebServer instance`class Http4kRequestHandler : HttpRequestHandler` |
 | [Http4kServer](-http4k-server/index.md) | `interface Http4kServer : `[`AutoCloseable`](https://docs.oracle.com/javase/9/docs/api/java/lang/AutoCloseable.html) |
-| [Http4kWebSocketListener](-http4k-web-socket-listener/index.md) | `class Http4kWebSocketListener : WebSocketListener` |
+| [Http4kWebSocketFrameHandler](-http4k-web-socket-frame-handler/index.md) | `class Http4kWebSocketFrameHandler : FrameHandler` |
 | [Http4kWsChannelHandler](-http4k-ws-channel-handler/index.md) | `class Http4kWsChannelHandler : SimpleChannelInboundHandler<WebSocketFrame>` |
 | [HttpExchangeHandler](-http-exchange-handler/index.md) | `class HttpExchangeHandler : `[`HttpHandler`](https://docs.oracle.com/javase/9/docs/api/com/sun/net/httpserver/HttpHandler.html) |
 | [HttpUndertowHandler](-http-undertow-handler/index.md) | Exposed to allow for insertion into a customised Undertow server instance`class HttpUndertowHandler : HttpHandler` |

@@ -2,4 +2,4 @@
 
 # &lt;init&gt;
 
-`Auto(json: `[`JsonLibAutoMarshallingJson`](../../../org.http4k.format/-json-lib-auto-marshalling-json/index.md)`<NODE>)`
+`Auto(json: `[`AutoMarshallingJson`](../../../org.http4k.format/-auto-marshalling-json/index.md)`<NODE>)`

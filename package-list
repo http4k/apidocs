@@ -19,7 +19,6 @@ $dokka.location:org.http4k.chaos$or(kotlin.Function1((org.http4k.core.Request, k
 $dokka.location:org.http4k.chaos$then(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Filter)), kotlin.Function1((org.http4k.core.Request, org.http4k.core.Filter)))org.http4k.chaos/kotlin.-function1/then.md
 $dokka.location:org.http4k.chaos$until(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Filter)), kotlin.Function1((org.http4k.core.Request, kotlin.Boolean)))org.http4k.chaos/kotlin.-function1/until.md
 $dokka.location:org.http4k.chaos$withChaosApi(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)), org.http4k.chaos.ChaosEngine, org.http4k.contract.security.Security, kotlin.String, kotlin.String, org.http4k.filter.CorsPolicy, java.time.Clock, kotlin.String)org.http4k.chaos/kotlin.-function1/with-chaos-api.md
-$dokka.location:org.http4k.chaos$withChaosControls(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)), kotlin.Function1((org.http4k.core.Request, org.http4k.core.Filter)), org.http4k.contract.security.Security, kotlin.String, kotlin.String, org.http4k.filter.CorsPolicy)org.http4k.chaos/kotlin.-function1/with-chaos-controls.md
 $dokka.location:org.http4k.client$asGraphQLHandler(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)), kotlin.String)org.http4k.client/kotlin.-function1/as-graph-q-l-handler.md
 $dokka.location:org.http4k.client$asGraphQLHandler(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)), org.http4k.core.Uri)org.http4k.client/kotlin.-function1/as-graph-q-l-handler.md
 $dokka.location:org.http4k.client$withAsyncApi(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)))org.http4k.client/kotlin.-function1/with-async-api.md
@@ -51,6 +50,7 @@ $dokka.location:org.http4k.format$asConfigurable(com.google.gson.GsonBuilder)or
 $dokka.location:org.http4k.format$asConfigurable(com.squareup.moshi.Moshi.Builder)org.http4k.format/com.squareup.moshi.-moshi.-builder/as-configurable.md
 $dokka.location:org.http4k.format$asConfigurable(kotlinx.serialization.json.JsonBuilder)org.http4k.format/kotlinx.serialization.json.-json-builder/as-configurable.md
 $dokka.location:org.http4k.format$asConfigurableXml(com.fasterxml.jackson.module.kotlin.KotlinModule)org.http4k.format/com.fasterxml.jackson.module.kotlin.-kotlin-module/as-configurable-xml.md
+$dokka.location:org.http4k.format$asFactory(com.squareup.moshi.JsonAdapter((org.http4k.format.asFactory.K)))org.http4k.format/com.squareup.moshi.-json-adapter/as-factory.md
 $dokka.location:org.http4k.format$read(com.fasterxml.jackson.databind.ObjectMapper)org.http4k.format/com.fasterxml.jackson.databind.-object-mapper/read.md
 $dokka.location:org.http4k.format$read(com.google.gson.Gson)org.http4k.format/com.google.gson.-gson/read.md
 $dokka.location:org.http4k.format$write(com.fasterxml.jackson.databind.ObjectMapper)org.http4k.format/com.fasterxml.jackson.databind.-object-mapper/write.md

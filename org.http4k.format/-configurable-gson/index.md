@@ -2,7 +2,7 @@
 
 # ConfigurableGson
 
-`open class ConfigurableGson : `[`JsonLibAutoMarshallingJson`](../-json-lib-auto-marshalling-json/index.md)`<JsonElement>`
+`open class ConfigurableGson : `[`AutoMarshallingJson`](../-auto-marshalling-json/index.md)`<JsonElement>`
 
 ### Constructors
 

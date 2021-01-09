@@ -9,7 +9,6 @@ Code relevant to interfacing with security mechanisms such as OAuth servers.
 | Name | Summary |
 |---|---|
 | [AccessToken](-access-token/index.md) | `data class AccessToken` |
-| [AccessTokenContainer](-access-token-container.md) | `typealias ~~AccessTokenContainer~~ = `[`AccessToken`](-access-token/index.md) |
 | [AccessTokenDetails](-access-token-details/index.md) | `data class AccessTokenDetails` |
 | [AccessTokenFetcher](-access-token-fetcher/index.md) | `class AccessTokenFetcher` |
 | [AccessTokenFetcherAuthenticator](-access-token-fetcher-authenticator/index.md) | `interface AccessTokenFetcherAuthenticator` |

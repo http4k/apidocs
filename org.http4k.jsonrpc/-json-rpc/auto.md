@@ -2,4 +2,4 @@
 
 # auto
 
-`fun <NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> auto(json: `[`JsonLibAutoMarshallingJson`](../../org.http4k.format/-json-lib-auto-marshalling-json/index.md)`<NODE>, errorHandler: `[`ErrorHandler`](../-error-handler.md)` = defaultErrorHandler, fn: Auto<NODE>.() -> `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)`): `[`JsonRpcService`](../-json-rpc-service/index.md)`<NODE>`
+`fun <NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> auto(json: `[`AutoMarshallingJson`](../../org.http4k.format/-auto-marshalling-json/index.md)`<NODE>, errorHandler: `[`ErrorHandler`](../-error-handler.md)` = defaultErrorHandler, fn: Auto<NODE>.() -> `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)`): `[`JsonRpcService`](../-json-rpc-service/index.md)`<NODE>`

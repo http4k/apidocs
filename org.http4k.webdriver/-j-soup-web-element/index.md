@@ -10,6 +10,12 @@
 |---|---|
 | [&lt;init&gt;](-init-.md) | `JSoupWebElement(navigate: `[`Navigate`](../-navigate.md)`, getURL: `[`GetURL`](../-get-u-r-l.md)`, element: Element)` |
 
+### Properties
+
+| Name | Summary |
+|---|---|
+| [element](element.md) | `val element: Element` |
+
 ### Functions
 
 | Name | Summary |
@@ -33,3 +39,4 @@
 | [isSelected](is-selected.md) | `fun isSelected(): `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
 | [sendKeys](send-keys.md) | `fun sendKeys(vararg keysToSend: `[`CharSequence`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
 | [submit](submit.md) | `fun submit(): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+| [toString](to-string.md) | `fun toString(): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |

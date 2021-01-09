@@ -24,6 +24,8 @@ Common base type for all format libraries which can convert directly from String
 
 | Name | Summary |
 |---|---|
-| [AutoMarshallingJson](../-auto-marshalling-json/index.md) | `abstract class AutoMarshallingJson : `[`AutoMarshalling`](./index.md) |
+| [AutoMarshallingJson](../-auto-marshalling-json/index.md) | `abstract class AutoMarshallingJson<NODE : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`> : `[`AutoMarshalling`](./index.md)`, `[`Json`](../-json/index.md)`<NODE>` |
 | [AutoMarshallingXml](../-auto-marshalling-xml/index.md) | `abstract class AutoMarshallingXml : `[`AutoMarshalling`](./index.md) |
 | [ConfigurableJacksonYaml](../-configurable-jackson-yaml/index.md) | `open class ConfigurableJacksonYaml : `[`AutoMarshalling`](./index.md) |
+| [ConfigurableKlaxon](../-configurable-klaxon/index.md) | `open class ConfigurableKlaxon : `[`AutoMarshalling`](./index.md) |
+| [ConfigurableMoshi](../-configurable-moshi/index.md) | `open class ConfigurableMoshi : `[`AutoMarshalling`](./index.md) |

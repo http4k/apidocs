@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `JsonResponseErrorRenderer(json: `[`AutoMarshallingJson`](../../org.http4k.format/-auto-marshalling-json/index.md)`, documentationUri: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`? = null)` |
+| [&lt;init&gt;](-init-.md) | `JsonResponseErrorRenderer(json: `[`AutoMarshallingJson`](../../org.http4k.format/-auto-marshalling-json/index.md)`<*>, documentationUri: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`? = null)` |
 
 ### Functions
 

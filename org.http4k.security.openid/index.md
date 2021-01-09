@@ -8,7 +8,6 @@
 |---|---|
 | [IdToken](-id-token/index.md) | `data class IdToken` |
 | [IdTokenConsumer](-id-token-consumer/index.md) | `interface IdTokenConsumer` |
-| [IdTokenContainer](-id-token-container.md) | `typealias ~~IdTokenContainer~~ = `[`IdToken`](-id-token/index.md) |
 | [Nonce](-nonce/index.md) | `data class Nonce` |
 | [NonceGenerator](-nonce-generator.md) | `typealias NonceGenerator = () -> `[`Nonce`](-nonce/index.md) |
 | [RequestJwtContainer](-request-jwt-container/index.md) | `data class RequestJwtContainer` |

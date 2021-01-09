@@ -7,7 +7,6 @@
 | Name | Summary |
 |---|---|
 | [Http4kK8sServer](-http4k-k8s-server/index.md) | A K8S server consists of a main application and a health application, running on 2 different ports. This class provides unified start/stop control.`class Http4kK8sServer : `[`Http4kServer`](../org.http4k.server/-http4k-server/index.md) |
-| [UpstreamRequestFailed](-upstream-request-failed.md) | `typealias ~~UpstreamRequestFailed~~ = `[`RemoteRequestFailed`](-remote-request-failed/index.md) |
 
 ### Exceptions
 

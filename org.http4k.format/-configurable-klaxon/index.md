@@ -2,7 +2,7 @@
 
 # ConfigurableKlaxon
 
-`open class ConfigurableKlaxon : `[`AutoMarshallingJson`](../-auto-marshalling-json/index.md)
+`open class ConfigurableKlaxon : `[`AutoMarshalling`](../-auto-marshalling/index.md)
 
 ### Constructors
 

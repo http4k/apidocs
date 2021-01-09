@@ -20,23 +20,13 @@ Common code relevant to HTTP serverless implementations.
 | [AwsHttpAdapter](-aws-http-adapter/index.md) | `interface AwsHttpAdapter<Req, Resp>` |
 | [AwsLambdaFunction](-aws-lambda-function/index.md) | `abstract class AwsLambdaFunction<Req : `[`Any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html)`, Resp>` |
 | [AzureFunction](-azure-function/index.md) | `abstract class AzureFunction` |
-| [BootstrapAppLoader](-bootstrap-app-loader/index.md) | `object ~~BootstrapAppLoader~~ : `[`AppLoaderWithContexts`](-app-loader-with-contexts.md) |
 | [DetectBinaryBody](-detect-binary-body/index.md) | OpenWhisk Base64 encodes Binary requests and responses when they are sent to the deployed Function. This interface allows for custom implementations of that logic, which might be required if your function supports more than one endpoint (with mixed request/response types).`interface DetectBinaryBody` |
 | [GoogleCloudFunction](-google-cloud-function/index.md) | `open class GoogleCloudFunction : HttpFunction` |
 | [InvocationLambdaAwsHttpAdapter](-invocation-lambda-aws-http-adapter/index.md) | `object InvocationLambdaAwsHttpAdapter : `[`AwsHttpAdapter`](-aws-http-adapter/index.md)`<`[`InputStream`](https://docs.oracle.com/javase/9/docs/api/java/io/InputStream.html)`, `[`InputStream`](https://docs.oracle.com/javase/9/docs/api/java/io/InputStream.html)`>` |
 | [InvocationLambdaFunction](-invocation-lambda-function/index.md) | This is the main entry point for lambda invocations using the direct invocations. It uses the local environment to instantiate the HttpHandler which can be used for further invocations.`abstract class InvocationLambdaFunction : `[`AwsLambdaFunction`](-aws-lambda-function/index.md)`<`[`InputStream`](https://docs.oracle.com/javase/9/docs/api/java/io/InputStream.html)`, `[`InputStream`](https://docs.oracle.com/javase/9/docs/api/java/io/InputStream.html)`>, RequestStreamHandler` |
-| [LambdaFunction](-lambda-function/index.md) | This is the main entry point for lambda invocations using the V1 payload format. It uses the local environment to instantiate the HttpHandler which can be used for further invocations.`open class ~~LambdaFunction~~ : `[`ApiGatewayV1LambdaFunction`](-api-gateway-v1-lambda-function/index.md) |
 | [OpenWhiskFunction](-open-whisk-function/index.md) | `class OpenWhiskFunction : (JsonObject) -> JsonObject` |
 | [RequestContent](-request-content/index.md) | `class RequestContent` |
 | [TencentCloudFunction](-tencent-cloud-function/index.md) | `abstract class TencentCloudFunction` |
-
-### Exceptions
-
-| Name | Summary |
-|---|---|
-| [BootstrapException](-bootstrap-exception/index.md) | `open class BootstrapException : `[`RuntimeException`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-runtime-exception/index.html) |
-| [CouldNotFindAppLoaderException](-could-not-find-app-loader-exception/index.md) | `class CouldNotFindAppLoaderException : `[`BootstrapException`](-bootstrap-exception/index.md) |
-| [InvalidAppLoaderException](-invalid-app-loader-exception/index.md) | `class InvalidAppLoaderException : `[`BootstrapException`](-bootstrap-exception/index.md) |
 
 ### Extensions for External Classes
 

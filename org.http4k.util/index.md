@@ -12,7 +12,6 @@ Presumed homeless code used across the rest of the library.
 | [Hex](-hex/index.md) | `object Hex` |
 | [JsonSchema](-json-schema/index.md) | `data class JsonSchema<out NODE>` |
 | [JsonSchemaCreator](-json-schema-creator/index.md) | `interface JsonSchemaCreator<IN, OUT>` |
-| [JsonToJsonSchema](-json-to-json-schema.md) | `typealias ~~JsonToJsonSchema~~<NODE> = `[`JsonToJsonSchema`](../org.http4k.contract.openapi.v2/-json-to-json-schema/index.md)`<NODE>` |
 
 ### Exceptions
 

@@ -2,7 +2,7 @@
 
 # ConfigurableKotlinxSerialization
 
-`open class ConfigurableKotlinxSerialization : `[`JsonLibAutoMarshallingJson`](../-json-lib-auto-marshalling-json/index.md)`<JsonElement>`
+`open class ConfigurableKotlinxSerialization : `[`AutoMarshallingJson`](../-auto-marshalling-json/index.md)`<JsonElement>`
 
 ### Constructors
 

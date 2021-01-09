@@ -2,7 +2,7 @@
 
 # ConfigurableJackson
 
-`open class ConfigurableJackson : `[`JsonLibAutoMarshallingJson`](../-json-lib-auto-marshalling-json/index.md)`<JsonNode>`
+`open class ConfigurableJackson : `[`AutoMarshallingJson`](../-auto-marshalling-json/index.md)`<JsonNode>`
 
 ### Constructors
 

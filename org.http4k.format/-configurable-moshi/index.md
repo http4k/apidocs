@@ -2,7 +2,7 @@
 
 # ConfigurableMoshi
 
-`open class ConfigurableMoshi : `[`AutoMarshallingJson`](../-auto-marshalling-json/index.md)
+`open class ConfigurableMoshi : `[`AutoMarshalling`](../-auto-marshalling/index.md)
 
 ### Constructors
 

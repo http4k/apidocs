@@ -8,13 +8,13 @@
 
 | Name | Summary |
 |---|---|
-| [&lt;init&gt;](-init-.md) | `Auto(json: `[`JsonLibAutoMarshallingJson`](../../../org.http4k.format/-json-lib-auto-marshalling-json/index.md)`<NODE>)` |
+| [&lt;init&gt;](-init-.md) | `Auto(json: `[`AutoMarshallingJson`](../../../org.http4k.format/-auto-marshalling-json/index.md)`<NODE>)` |
 
 ### Properties
 
 | Name | Summary |
 |---|---|
-| [json](json.md) | `val json: `[`JsonLibAutoMarshallingJson`](../../../org.http4k.format/-json-lib-auto-marshalling-json/index.md)`<NODE>` |
+| [json](json.md) | `val json: `[`AutoMarshallingJson`](../../../org.http4k.format/-auto-marshalling-json/index.md)`<NODE>` |
 
 ### Functions
 

@@ -2,4 +2,4 @@
 
 # json
 
-`val json: `[`JsonLibAutoMarshallingJson`](../../../org.http4k.format/-json-lib-auto-marshalling-json/index.md)`<NODE>`
+`val json: `[`AutoMarshallingJson`](../../../org.http4k.format/-auto-marshalling-json/index.md)`<NODE>`

@@ -13,7 +13,6 @@
 | [EventFilter](-event-filter/index.md) | `interface EventFilter : (`[`Events`](-events.md)`) -> `[`Events`](-events.md) |
 | [EventFilters](-event-filters/index.md) | Useful EventFilters used in building event processing pipelines to add various types of metadata to the events`object EventFilters` |
 | [Events](-events.md) | `typealias Events = (`[`Event`](-event/index.md)`) -> `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
-| [EventsFilter](-events-filter.md) | `typealias ~~EventsFilter~~ = `[`EventFilter`](-event-filter/index.md) |
 | [MetadataEvent](-metadata-event/index.md) | `class MetadataEvent : `[`Event`](-event/index.md) |
 
 ### Extensions for External Classes

@@ -11,11 +11,6 @@
 
 |
 
-##### [org.http4k.security.AccessTokenContainer](../org.http4k.security/-access-token-container.md)
-
-
-|
-
 ##### [org.http4k.security.AccessTokenDetails](../org.http4k.security/-access-token-details/index.md)
 
 
@@ -136,22 +131,7 @@ for further invocations.
 
 |
 
-##### [org.http4k.contract.ApiInfo](../org.http4k.contract/-api-info.md)
-
-
-|
-
 ##### [org.http4k.contract.openapi.ApiInfo](../org.http4k.contract.openapi/-api-info/index.md)
-
-
-|
-
-##### [org.http4k.contract.ApiKey](../org.http4k.contract/-api-key.md)
-
-
-|
-
-##### [org.http4k.contract.ApiKeySecurity](../org.http4k.contract/-api-key-security.md)
 
 
 |
@@ -450,11 +430,6 @@ to provide custom approval behaviours, or
 
 |
 
-##### [org.http4k.contract.BasicAuthSecurity](../org.http4k.contract/-basic-auth-security.md)
-
-
-|
-
 ##### [org.http4k.contract.security.BasicAuthSecurity](../org.http4k.contract.security/-basic-auth-security/index.md)
 
 Checks the presence of basic auth credentials. Filter returns 401 if auth fails.
@@ -597,19 +572,17 @@ Represents a uni-directional extraction of an entity from a target Body.
 BodyMode represents a choice between working lazily with streams or eagerly storing the body contents in memory.
 
 
-|
-
-##### [org.http4k.serverless.BootstrapAppLoader](../org.http4k.serverless/-bootstrap-app-loader/index.md)
-
-
-|
-
-##### [org.http4k.serverless.BootstrapException](../org.http4k.serverless/-bootstrap-exception/index.md)
-
-
 | (extensions in package org.http4k.format)
 
 ##### [com.squareup.moshi.Moshi.Builder](../org.http4k.format/com.squareup.moshi.-moshi.-builder/index.md)
+
+
+|
+
+##### [org.http4k.webdriver.By](../org.http4k.webdriver/-by/index.md)
+
+Custom set of By implementations for testing http4k applications. As the backing store is JSoup we are limited
+to implementing selectors which are supported by that.
 
 
 | (extensions in package org.http4k)
@@ -901,11 +874,6 @@ Approval testing JUnit5 extension that checks the expected content type is prese
 
 |
 
-##### [org.http4k.serverless.CouldNotFindAppLoaderException](../org.http4k.serverless/-could-not-find-app-loader-exception/index.md)
-
-
-|
-
 ##### [org.http4k.core.Credentials](../org.http4k.core/-credentials/index.md)
 
 
@@ -1018,19 +986,9 @@ Implemented according to https://www.w3.org/Protocols/rfc2616/rfc2616-sec3.html#
 
 |
 
-##### [org.http4k.core.Event](../org.http4k.core/-event.md)
-
-
-|
-
 ##### [org.http4k.events.Event](../org.http4k.events/-event/index.md)
 
 Represents a meaningful "happening" in an app.
-
-
-|
-
-##### [org.http4k.core.EventCategory](../org.http4k.core/-event-category.md)
 
 
 |
@@ -1052,17 +1010,7 @@ Useful EventFilters used in building event processing pipelines to add various t
 
 |
 
-##### [org.http4k.core.Events](../org.http4k.core/-events.md)
-
-
-|
-
 ##### [org.http4k.events.Events](../org.http4k.events/-events.md)
-
-
-|
-
-##### [org.http4k.events.EventsFilter](../org.http4k.events/-events-filter.md)
 
 
 |
@@ -1133,11 +1081,6 @@ Useful EventFilters used in building event processing pipelines to add various t
 |
 
 ##### [org.http4k.lens.FormField](../org.http4k.lens/-form-field.md)
-
-
-|
-
-##### [org.http4k.core.FormFile](../org.http4k.core/-form-file.md)
 
 
 |
@@ -1462,11 +1405,6 @@ HttpMessages are designed to be immutable, so any mutation methods return a modi
 
 |
 
-##### [org.http4k.filter.HttpTransactionLabeller](../org.http4k.filter/-http-transaction-labeller.md)
-
-
-|
-
 ##### [org.http4k.server.HttpUndertowHandler](../org.http4k.server/-http-undertow-handler/index.md)
 
 Exposed to allow for insertion into a customised Undertow server instance
@@ -1480,11 +1418,6 @@ Exposed to allow for insertion into a customised Undertow server instance
 |
 
 ##### [org.http4k.security.openid.IdTokenConsumer](../org.http4k.security.openid/-id-token-consumer/index.md)
-
-
-|
-
-##### [org.http4k.security.openid.IdTokenContainer](../org.http4k.security.openid/-id-token-container.md)
 
 
 |
@@ -1544,11 +1477,6 @@ Provides storage for the recorded Servirtium interaction data.
 |
 
 ##### [org.http4k.lens.Invalid](../org.http4k.lens/-invalid/index.md)
-
-
-|
-
-##### [org.http4k.serverless.InvalidAppLoaderException](../org.http4k.serverless/-invalid-app-loader-exception/index.md)
 
 
 |
@@ -1687,6 +1615,11 @@ Basic JDK-based Client.
 This is the contract for all JSON implementations
 
 
+| (extensions in package org.http4k.format)
+
+##### [com.squareup.moshi.JsonAdapter](../org.http4k.format/com.squareup.moshi.-json-adapter/index.md)
+
+
 |
 
 ##### [org.http4k.testing.JsonApprovalTest](../org.http4k.testing/-json-approval-test/index.md)
@@ -1702,11 +1635,6 @@ Approval JUnit5 extension configured to compare prettified-JSON messages.
 |
 
 ##### [org.http4k.contract.JsonErrorResponseRenderer](../org.http4k.contract/-json-error-response-renderer/index.md)
-
-
-|
-
-##### [org.http4k.format.JsonLibAutoMarshallingJson](../org.http4k.format/-json-lib-auto-marshalling-json/index.md)
 
 
 | (extensions in package org.http4k.chaos)
@@ -1768,11 +1696,6 @@ Reporting of ReadinessCheckResults in a JSON tree
 
 |
 
-##### [org.http4k.util.JsonToJsonSchema](../org.http4k.util/-json-to-json-schema.md)
-
-
-|
-
 ##### [org.http4k.format.JsonType](../org.http4k.format/-json-type/index.md)
 
 
@@ -1819,15 +1742,6 @@ ConfigurableKotlinxSerialization, passing in the JSON configuration block
 |
 
 ##### [org.http4k.server.KtorNetty](../org.http4k.server/-ktor-netty/index.md)
-
-
-|
-
-##### [org.http4k.serverless.LambdaFunction](../org.http4k.serverless/-lambda-function/index.md)
-
-This is the main entry point for lambda invocations using the V1 payload format.
-It uses the local environment to instantiate the HttpHandler which can be used
-for further invocations.
 
 
 |
@@ -1956,11 +1870,6 @@ Represents a body that is backed by an in-memory ByteBuffer. Closing this has no
 |
 
 ##### [org.http4k.jsonrpc.MethodBindings](../org.http4k.jsonrpc/-method-bindings/index.md)
-
-
-|
-
-##### [org.http4k.filter.MetricFilters](../org.http4k.filter/-metric-filters/index.md)
 
 
 |
@@ -2094,11 +2003,6 @@ which apply to StreamBody also apply here..
 
 |
 
-##### [org.http4k.contract.NoSecurity](../org.http4k.contract/-no-security.md)
-
-
-|
-
 ##### [org.http4k.contract.security.NoSecurity](../org.http4k.contract.security/-no-security/index.md)
 
 Default NoOp security filter. Filter allows all traffic through.
@@ -2168,11 +2072,6 @@ Provide help creating OAuth Authorization Server with Authorization Code Flow
 |
 
 ##### [org.http4k.client.OkHttp](../org.http4k.client/-ok-http/index.md)
-
-
-|
-
-##### [org.http4k.contract.OpenApi](../org.http4k.contract/-open-api.md)
 
 
 |
@@ -2731,11 +2630,6 @@ You can "use" the value only once, after which the value is destroyed
 
 |
 
-##### [org.http4k.contract.Security](../org.http4k.contract/-security.md)
-
-
-|
-
 ##### [org.http4k.contract.security.Security](../org.http4k.contract.security/-security/index.md)
 
 Endpoint security. Provides filter to be applied to endpoints for all requests.
@@ -2784,17 +2678,19 @@ JUnit 5 extension for replaying HTTP traffic from disk in Servirtium format.
 
 |
 
-##### [org.http4k.contract.SimpleJson](../org.http4k.contract/-simple-json.md)
-
-
-|
-
 ##### [org.http4k.contract.simple.SimpleJson](../org.http4k.contract.simple/-simple-json/index.md)
 
 
 |
 
 ##### [org.http4k.contract.openapi.v3.SimpleLookup](../org.http4k.contract.openapi.v3/-simple-lookup/index.md)
+
+
+|
+
+##### [org.http4k.format.SimpleMoshiAdapterFactory](../org.http4k.format/-simple-moshi-adapter-factory/index.md)
+
+Convenience class to create Moshi Adapter Factory
 
 
 |
@@ -3052,11 +2948,6 @@ are routed synchronously to the receiving Websocket, and error are propagated to
 |
 
 ##### [org.http4k.security.oauth.server.UnsupportedResponseType](../org.http4k.security.oauth.server/-unsupported-response-type/index.md)
-
-
-|
-
-##### [org.http4k.cloudnative.UpstreamRequestFailed](../org.http4k.cloudnative/-upstream-request-failed.md)
 
 
 |

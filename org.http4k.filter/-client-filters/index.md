@@ -12,7 +12,7 @@
 | [BearerAuth](-bearer-auth/index.md) | `object BearerAuth` |
 | [Cookies](-cookies/index.md) | `object Cookies` |
 | [CustomBasicAuth](-custom-basic-auth/index.md) | `object CustomBasicAuth` |
-| [FollowRedirects](-follow-redirects/index.md) | `object FollowRedirects` |
+| [FollowRedirects](-follow-redirects/index.md) | `class FollowRedirects : `[`Filter`](../../org.http4k.core/-filter.md) |
 | [ProxyBasicAuth](-proxy-basic-auth/index.md) | `object ProxyBasicAuth` |
 
 ### Functions

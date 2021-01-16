@@ -6,7 +6,6 @@
 
 | Name | Summary |
 |---|---|
-| [AutoJsonEvents](-auto-json-events.md) | `typealias ~~AutoJsonEvents~~ = `[`AutoMarshallingEvents`](-auto-marshalling-events/index.md) |
 | [AutoMarshallingEvents](-auto-marshalling-events/index.md) | `object AutoMarshallingEvents` |
 | [Event](-event/index.md) | Represents a meaningful "happening" in an app.`interface Event` |
 | [EventCategory](-event-category/index.md) | `data class EventCategory` |

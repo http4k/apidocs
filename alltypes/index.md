@@ -337,11 +337,6 @@ Provides a mechanism to track OAuth authorization parameters to be used later
 
 |
 
-##### [org.http4k.events.AutoJsonEvents](../org.http4k.events/-auto-json-events.md)
-
-
-|
-
 ##### [org.http4k.contract.openapi.v3.AutoJsonToJsonSchema](../org.http4k.contract.openapi.v3/-auto-json-to-json-schema/index.md)
 
 

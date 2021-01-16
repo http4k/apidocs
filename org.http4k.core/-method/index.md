@@ -17,3 +17,11 @@
 | [PATCH](-p-a-t-c-h.md) |  |
 | [PURGE](-p-u-r-g-e.md) |  |
 | [HEAD](-h-e-a-d.md) |  |
+
+### Extension Functions
+
+| Name | Summary |
+|---|---|
+| [and](../../org.http4k.routing/and.md) | `fun `[`Method`](./index.md)`.and(that: `[`Router`](../../org.http4k.routing/-router/index.md)`): `[`Router`](../../org.http4k.routing/-router/index.md) |
+| [asRouter](../../org.http4k.routing/as-router.md) | `fun `[`Method`](./index.md)`.asRouter(): `[`Router`](../../org.http4k.routing/-router/index.md) |
+| [bind](../../org.http4k.routing/bind.md) | `infix fun `[`Method`](./index.md)`.bind(routingHandler: `[`RoutingHttpHandler`](../../org.http4k.routing/-routing-http-handler/index.md)`): `[`RoutingHttpHandler`](../../org.http4k.routing/-routing-http-handler/index.md)<br>`infix fun `[`Method`](./index.md)`.bind(httpHandler: `[`HttpHandler`](../-http-handler.md)`): `[`RoutingHttpHandler`](../../org.http4k.routing/-routing-http-handler/index.md) |

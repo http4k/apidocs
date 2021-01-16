@@ -2,4 +2,4 @@
 
 # asRouter
 
-`fun `[`Method`](../org.http4k.core/-method/index.md)`.asRouter(): <ERROR CLASS>`
+`fun `[`Method`](../org.http4k.core/-method/index.md)`.asRouter(): `[`Router`](-router/index.md)

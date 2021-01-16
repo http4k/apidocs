@@ -2,4 +2,4 @@
 
 # invoke
 
-`operator fun invoke(): `[`Filter`](../../../org.http4k.core/-filter.md)
+`fun invoke(next: `[`HttpHandler`](../../../org.http4k.core/-http-handler.md)`): `[`HttpHandler`](../../../org.http4k.core/-http-handler.md)

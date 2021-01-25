@@ -1020,6 +1020,13 @@ Useful EventFilters used in building event processing pipelines to add various t
 
 |
 
+##### [org.http4k.security.oauth.testing.FakeOAuthServer](../org.http4k.security.oauth.testing/-fake-o-auth-server/index.md)
+
+This Server provides auto-login functionality without the need for user action.
+
+
+|
+
 ##### [org.http4k.webdriver.FeatureNotImplementedYet](../org.http4k.webdriver/-feature-not-implemented-yet.md)
 
 

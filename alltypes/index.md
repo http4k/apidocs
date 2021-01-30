@@ -6,6 +6,11 @@
 |---|---|
 |
 
+##### [org.http4k.core.Accept](../org.http4k.core/-accept/index.md)
+
+
+|
+
 ##### [org.http4k.security.AccessToken](../org.http4k.security/-access-token/index.md)
 
 

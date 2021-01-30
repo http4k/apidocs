@@ -29,3 +29,4 @@
 |---|---|
 | [binary](../../org.http4k.lens/binary.md) | `fun WsMessage.Companion.binary(): <ERROR CLASS>` |
 | [string](../../org.http4k.lens/string.md) | `fun WsMessage.Companion.string(): <ERROR CLASS>` |
+| [viewModel](../../org.http4k.template/view-model.md) | `fun WsMessage.Companion.viewModel(renderer: `[`TemplateRenderer`](../../org.http4k.template/-template-renderer.md)`): <ERROR CLASS>` |

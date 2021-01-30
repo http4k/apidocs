@@ -34,4 +34,4 @@ Common code relevant to templating implementations.
 
 | Name | Summary |
 |---|---|
-| [viewModel](view-model.md) | `fun Body.Companion.viewModel(renderer: `[`TemplateRenderer`](-template-renderer.md)`, contentType: `[`ContentType`](../org.http4k.core/-content-type/index.md)`): <ERROR CLASS>` |
+| [viewModel](view-model.md) | `fun Body.Companion.viewModel(renderer: `[`TemplateRenderer`](-template-renderer.md)`, contentType: `[`ContentType`](../org.http4k.core/-content-type/index.md)`): <ERROR CLASS>`<br>`fun WsMessage.Companion.viewModel(renderer: `[`TemplateRenderer`](-template-renderer.md)`): <ERROR CLASS>` |

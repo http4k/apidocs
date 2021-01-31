@@ -2,4 +2,4 @@
 
 # asServer
 
-`fun `[`PolyHandler`](../org.http4k.websocket/-poly-handler/index.md)`.asServer(config: `[`WsServerConfig`](-ws-server-config/index.md)`): `[`Http4kServer`](-http4k-server/index.md)
+`fun `[`PolyHandler`](-poly-handler/index.md)`.asServer(config: `[`PolyServerConfig`](-poly-server-config/index.md)`): `[`Http4kServer`](-http4k-server/index.md)

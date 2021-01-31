@@ -7,3 +7,5 @@
 `infix fun `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`.bind(action: `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`): `[`RoutingHttpHandler`](../-routing-http-handler/index.md)
 `infix fun `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`.bind(consumer: `[`WsConsumer`](../../org.http4k.websocket/-ws-consumer.md)`): `[`RoutingWsHandler`](../-routing-ws-handler/index.md)
 `infix fun `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`.bind(wsHandler: `[`RoutingWsHandler`](../-routing-ws-handler/index.md)`): `[`RoutingWsHandler`](../-routing-ws-handler/index.md)
+`infix fun `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`.bind(consumer: `[`SseConsumer`](../../org.http4k.sse/-sse-consumer.md)`): `[`RoutingSseHandler`](../-routing-sse-handler/index.md)
+`infix fun `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`.bind(sseHandler: `[`RoutingSseHandler`](../-routing-sse-handler/index.md)`): `[`RoutingSseHandler`](../-routing-sse-handler/index.md)

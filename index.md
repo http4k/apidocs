@@ -55,6 +55,7 @@
 | [org.http4k.serverless.openwhisk](org.http4k.serverless.openwhisk/index.md) |  |
 | [org.http4k.servirtium](org.http4k.servirtium/index.md) |  |
 | [org.http4k.servlet](org.http4k.servlet/index.md) | Code for mounting http4k applications into Servlet containers. |
+| [org.http4k.sse](org.http4k.sse/index.md) |  |
 | [org.http4k.template](org.http4k.template/index.md) | Common code relevant to templating implementations. |
 | [org.http4k.template.dust](org.http4k.template.dust/index.md) |  |
 | [org.http4k.testing](org.http4k.testing/index.md) | Useful tools for testing http4k applications. |

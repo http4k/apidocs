@@ -1348,7 +1348,24 @@ Adapts between the Servlet and http4k APIs
 
 |
 
+##### [org.http4k.server.Http4kSseCallback](../org.http4k.server/-http4k-sse-callback/index.md)
+
+
+|
+
+##### [org.http4k.server.Http4kUndertowHttpHandler](../org.http4k.server/-http4k-undertow-http-handler/index.md)
+
+Exposed to allow for insertion into a customised Undertow server instance
+
+
+|
+
 ##### [org.http4k.webdriver.Http4kWebDriver](../org.http4k.webdriver/-http4k-web-driver/index.md)
+
+
+|
+
+##### [org.http4k.server.Http4kWebSocketCallback](../org.http4k.server/-http4k-web-socket-callback/index.md)
 
 
 |
@@ -1412,9 +1429,7 @@ HttpMessages are designed to be immutable, so any mutation methods return a modi
 
 |
 
-##### [org.http4k.server.HttpUndertowHandler](../org.http4k.server/-http-undertow-handler/index.md)
-
-Exposed to allow for insertion into a customised Undertow server instance
+##### [org.http4k.server.HttpUndertowHandler](../org.http4k.server/-http-undertow-handler.md)
 
 
 |
@@ -2195,10 +2210,21 @@ Represents a uni-directional extraction of an entity from a target path segment.
 
 |
 
-##### [org.http4k.websocket.PolyHandler](../org.http4k.websocket/-poly-handler/index.md)
+##### [org.http4k.server.PolyHandler](../org.http4k.server/-poly-handler/index.md)
 
-A PolyHandler represents the combined routing logic of an Http handler and a Websocket handler.
-ws:// and http:// protocol calls are passed relevantly.
+A PolyHandler represents the combined routing logic of an multiple protocol handlers
+
+
+|
+
+##### [org.http4k.websocket.PolyHandler](../org.http4k.websocket/-poly-handler.md)
+
+
+|
+
+##### [org.http4k.server.PolyServerConfig](../org.http4k.server/-poly-server-config/index.md)
+
+Standard interface for creating a configured WebServer which supports Websockets
 
 
 |
@@ -2229,6 +2255,11 @@ ws:// and http:// protocol calls are passed relevantly.
 |
 
 ##### [org.http4k.contract.PreFlightExtraction](../org.http4k.contract/-pre-flight-extraction/index.md)
+
+
+|
+
+##### [org.http4k.sse.PushAdaptingSse](../org.http4k.sse/-push-adapting-sse/index.md)
 
 
 |
@@ -2609,6 +2640,11 @@ return a 404 Response if it cannot service a particular Request.
 
 |
 
+##### [org.http4k.routing.RoutingSseHandler](../org.http4k.routing/-routing-sse-handler/index.md)
+
+
+|
+
 ##### [org.http4k.routing.RoutingWsHandler](../org.http4k.routing/-routing-ws-handler/index.md)
 
 
@@ -2713,6 +2749,31 @@ Convenience class to create Moshi Adapter Factory
 |
 
 ##### [org.http4k.traffic.Source](../org.http4k.traffic/-source/index.md)
+
+
+|
+
+##### [org.http4k.sse.Sse](../org.http4k.sse/-sse/index.md)
+
+
+|
+
+##### [org.http4k.sse.SseClient](../org.http4k.sse/-sse-client/index.md)
+
+
+|
+
+##### [org.http4k.sse.SseConsumer](../org.http4k.sse/-sse-consumer.md)
+
+
+|
+
+##### [org.http4k.sse.SseHandler](../org.http4k.sse/-sse-handler.md)
+
+
+|
+
+##### [org.http4k.sse.SseMessage](../org.http4k.sse/-sse-message/index.md)
 
 
 |
@@ -3058,9 +3119,7 @@ Represents a extraction of an entity from a target WsMessage.
 
 |
 
-##### [org.http4k.server.WsServerConfig](../org.http4k.server/-ws-server-config/index.md)
-
-Standard interface for creating a configured WebServer which supports Websockets
+##### [org.http4k.server.WsServerConfig](../org.http4k.server/-ws-server-config.md)
 
 
 |

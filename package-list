@@ -56,16 +56,20 @@ $dokka.location:org.http4k.format$read(com.google.gson.Gson)org.http4k.format/c
 $dokka.location:org.http4k.format$write(com.fasterxml.jackson.databind.ObjectMapper)org.http4k.format/com.fasterxml.jackson.databind.-object-mapper/write.md
 $dokka.location:org.http4k.routing$asRouter(kotlin.Function1((org.http4k.core.Request, kotlin.Boolean)))org.http4k.routing/kotlin.-function1/as-router.md
 $dokka.location:org.http4k.routing$bind(kotlin.String, kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)))org.http4k.routing/kotlin.-string/bind.md
+$dokka.location:org.http4k.routing$bind(kotlin.String, kotlin.Function1((org.http4k.sse.Sse, kotlin.Unit)))org.http4k.routing/kotlin.-string/bind.md
 $dokka.location:org.http4k.routing$bind(kotlin.String, kotlin.Function1((org.http4k.websocket.Websocket, kotlin.Unit)))org.http4k.routing/kotlin.-string/bind.md
 $dokka.location:org.http4k.routing$bind(kotlin.String, org.http4k.core.Method)org.http4k.routing/kotlin.-string/bind.md
 $dokka.location:org.http4k.routing$bind(kotlin.String, org.http4k.routing.RoutingHttpHandler)org.http4k.routing/kotlin.-string/bind.md
+$dokka.location:org.http4k.routing$bind(kotlin.String, org.http4k.routing.RoutingSseHandler)org.http4k.routing/kotlin.-string/bind.md
 $dokka.location:org.http4k.routing$bind(kotlin.String, org.http4k.routing.RoutingWsHandler)org.http4k.routing/kotlin.-string/bind.md
 $dokka.location:org.http4k.routing.inspect$styled(kotlin.String, org.http4k.routing.inspect.TextStyle, org.http4k.routing.inspect.EscapeMode)org.http4k.routing.inspect/kotlin.-string/styled.md
 $dokka.location:org.http4k.server$asHttp4k(io.ktor.request.ApplicationRequest)org.http4k.server/io.ktor.request.-application-request/as-http4k.md
-$dokka.location:org.http4k.server$asServer(kotlin.Function1((org.http4k.core.Request, kotlin.Function1((org.http4k.websocket.Websocket, kotlin.Unit)))), org.http4k.server.WsServerConfig)org.http4k.server/kotlin.-function1/as-server.md
+$dokka.location:org.http4k.server$asServer(kotlin.Function1((org.http4k.core.Request, kotlin.Function1((org.http4k.sse.Sse, kotlin.Unit)))), org.http4k.server.PolyServerConfig)org.http4k.server/kotlin.-function1/as-server.md
+$dokka.location:org.http4k.server$asServer(kotlin.Function1((org.http4k.core.Request, kotlin.Function1((org.http4k.websocket.Websocket, kotlin.Unit)))), org.http4k.server.PolyServerConfig)org.http4k.server/kotlin.-function1/as-server.md
 $dokka.location:org.http4k.server$asServer(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)), kotlin.Function1((kotlin.Int, org.http4k.server.ServerConfig)), org.http4k.cloudnative.env.Port)org.http4k.server/kotlin.-function1/as-server.md
 $dokka.location:org.http4k.server$asServer(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)), org.http4k.server.ServerConfig)org.http4k.server/kotlin.-function1/as-server.md
-$dokka.location:org.http4k.server$asServer(kotlin.Function1((org.http4k.websocket.Websocket, kotlin.Unit)), org.http4k.server.WsServerConfig)org.http4k.server/kotlin.-function1/as-server.md
+$dokka.location:org.http4k.server$asServer(kotlin.Function1((org.http4k.sse.Sse, kotlin.Unit)), org.http4k.server.PolyServerConfig)org.http4k.server/kotlin.-function1/as-server.md
+$dokka.location:org.http4k.server$asServer(kotlin.Function1((org.http4k.websocket.Websocket, kotlin.Unit)), org.http4k.server.PolyServerConfig)org.http4k.server/kotlin.-function1/as-server.md
 $dokka.location:org.http4k.server$fromHttp4K(io.ktor.response.ApplicationResponse, org.http4k.core.Response)org.http4k.server/io.ktor.response.-application-response/from-http4-k.md
 $dokka.location:org.http4k.server$toJettyHandler(kotlin.Function1((org.http4k.core.Request, org.http4k.core.Response)))org.http4k.server/kotlin.-function1/to-jetty-handler.md
 $dokka.location:org.http4k.server$toJettyNegotiator(kotlin.Function1((org.http4k.core.Request, kotlin.Function1((org.http4k.websocket.Websocket, kotlin.Unit)))))org.http4k.server/kotlin.-function1/to-jetty-negotiator.md
@@ -126,6 +130,7 @@ org.http4k.serverless.lambda
 org.http4k.serverless.openwhisk
 org.http4k.servirtium
 org.http4k.servlet
+org.http4k.sse
 org.http4k.template
 org.http4k.template.dust
 org.http4k.testing

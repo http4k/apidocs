@@ -2,4 +2,4 @@
 
 # toServer
 
-`fun toServer(httpHandler: `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`?, wsHandler: `[`WsHandler`](../../org.http4k.websocket/-ws-handler.md)`?): `[`Http4kServer`](../-http4k-server/index.md)
+`fun toServer(httpHandler: `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`?, wsHandler: `[`WsHandler`](../../org.http4k.websocket/-ws-handler.md)`?, sse: `[`SseHandler`](../../org.http4k.sse/-sse-handler.md)`?): `[`Http4kServer`](../-http4k-server/index.md)

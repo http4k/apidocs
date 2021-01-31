@@ -2,7 +2,7 @@
 
 # Undertow
 
-`data class Undertow : `[`ServerConfig`](../-server-config/index.md)
+`data class Undertow : `[`PolyServerConfig`](../-poly-server-config/index.md)
 
 ### Constructors
 
@@ -21,4 +21,4 @@
 
 | Name | Summary |
 |---|---|
-| [toServer](to-server.md) | `fun toServer(httpHandler: `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`): `[`Http4kServer`](../-http4k-server/index.md) |
+| [toServer](to-server.md) | `fun toServer(http: `[`HttpHandler`](../../org.http4k.core/-http-handler.md)`?, ws: `[`WsHandler`](../../org.http4k.websocket/-ws-handler.md)`?, sse: `[`SseHandler`](../../org.http4k.sse/-sse-handler.md)`?): `[`Http4kServer`](../-http4k-server/index.md) |

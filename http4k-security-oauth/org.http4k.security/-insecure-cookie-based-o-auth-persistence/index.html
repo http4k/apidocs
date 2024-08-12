@@ -1,0 +1,239 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>InsecureCookieBasedOAuthPersistence</title>
+<link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer></script></head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+<a class="library-name--link" href="../../../index.html">
+                            http4k
+                    </a>            </div>
+            <div class="library-version">LOCAL
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":http4k-security-oauth:dokkaHtmlPartial/main">jvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageids="http4k-security-oauth::org.http4k.security/InsecureCookieBasedOAuthPersistence///PointingToDeclaration//1137287618">
+  <div class="breadcrumbs"><a href="../../index.html">http4k-security-oauth</a><span class="delimiter">/</span><a href="../index.html">org.http4k.security</a><span class="delimiter">/</span><span class="current">InsecureCookieBasedOAuthPersistence</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Insecure</span><wbr><span>Cookie</span><wbr><span>Based</span><wbr><span>OAuth</span><wbr><span><span>Persistence</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-security-oauth:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">InsecureCookieBasedOAuthPersistence</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">cookieNamePrefix<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">cookieValidity<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html">Duration</a><span class="token operator"> = </span>Duration.ofDays(1)<span class="token punctuation">, </span></span><span class="parameter ">clock<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/time/Clock.html">Clock</a><span class="token operator"> = </span>Clock.systemUTC()</span></span><span class="token punctuation">)</span> : <a href="../-o-auth-persistence/index.html">OAuthPersistence</a></div><p class="paragraph">This is an example implementation which stores CSRF and AccessToken values in an INSECURE client-side cookie. Access-tokens for end-services are fully available to the browser so do not use this in production!</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="1829855388%2FConstructors%2F1137287618" anchor-label="InsecureCookieBasedOAuthPersistence" id="1829855388%2FConstructors%2F1137287618" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":http4k-security-oauth:dokkaHtmlPartial/main" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-insecure-cookie-based-o-auth-persistence.html"><span>Insecure</span><wbr><span>Cookie</span><wbr><span>Based</span><wbr><span>OAuth</span><wbr><span><span>Persistence</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1829855388%2FConstructors%2F1137287618"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-security-oauth:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">cookieNamePrefix<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">cookieValidity<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html">Duration</a><span class="token operator"> = </span>Duration.ofDays(1)<span class="token punctuation">, </span></span><span class="parameter ">clock<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/time/Clock.html">Clock</a><span class="token operator"> = </span>Clock.systemUTC()</span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="-1406685150%2FFunctions%2F1137287618" anchor-label="assignCsrf" id="-1406685150%2FFunctions%2F1137287618" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-security-oauth:dokkaHtmlPartial/main" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="assign-csrf.html"><span>assign</span><wbr><span><span>Csrf</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1406685150%2FFunctions%2F1137287618"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-security-oauth:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="assign-csrf.html"><span class="token function">assignCsrf</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">redirect<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-response/index.html">Response</a><span class="token punctuation">, </span></span><span class="parameter ">csrf<span class="token operator">: </span><a href="../-cross-site-request-forgery-token/index.html">CrossSiteRequestForgeryToken</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-response/index.html">Response</a></div><div class="brief "><p class="paragraph">Assign a CSRF token to this OAuth auth redirection (to the end-service) response. Opportunity here to modify the response returned to the user when the redirection happens.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="691678381%2FFunctions%2F1137287618" anchor-label="assignNonce" id="691678381%2FFunctions%2F1137287618" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-security-oauth:dokkaHtmlPartial/main" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="assign-nonce.html"><span>assign</span><wbr><span><span>Nonce</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="691678381%2FFunctions%2F1137287618"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-security-oauth:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="assign-nonce.html"><span class="token function">assignNonce</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">redirect<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-response/index.html">Response</a><span class="token punctuation">, </span></span><span class="parameter ">nonce<span class="token operator">: </span><a href="../../../http4k-security-core/org.http4k.security/-nonce/index.html">Nonce</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-response/index.html">Response</a></div><div class="brief "><p class="paragraph">Assign a nonce to this OIDC auth redirection (to the end-service) response. Opportunity here to modify the response returned to the user when the redirection happens.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-699038747%2FFunctions%2F1137287618" anchor-label="assignOriginalUri" id="-699038747%2FFunctions%2F1137287618" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-security-oauth:dokkaHtmlPartial/main" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="assign-original-uri.html"><span>assign</span><wbr><span>Original</span><wbr><span><span>Uri</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-699038747%2FFunctions%2F1137287618"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-security-oauth:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="assign-original-uri.html"><span class="token function">assignOriginalUri</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">redirect<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-response/index.html">Response</a><span class="token punctuation">, </span></span><span class="parameter ">originalUri<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-response/index.html">Response</a></div><div class="brief "><p class="paragraph">opportunity to store the uri that the request was made before authentication this will then be redirected back to after auth</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="537244545%2FFunctions%2F1137287618" anchor-label="assignToken" id="537244545%2FFunctions%2F1137287618" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-security-oauth:dokkaHtmlPartial/main" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="assign-token.html"><span>assign</span><wbr><span><span>Token</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="537244545%2FFunctions%2F1137287618"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-security-oauth:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="assign-token.html"><span class="token function">assignToken</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">request<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-request/index.html">Request</a><span class="token punctuation">, </span></span><span class="parameter ">redirect<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-response/index.html">Response</a><span class="token punctuation">, </span></span><span class="parameter ">accessToken<span class="token operator">: </span><a href="../-access-token/index.html">AccessToken</a><span class="token punctuation">, </span></span><span class="parameter ">idToken<span class="token operator">: </span><a href="../../org.http4k.security.openid/-id-token/index.html">IdToken</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-response/index.html">Response</a></div><div class="brief "><p class="paragraph">Assign the swapped AccessToken (and optional IdToken) returned by the end-service. Opportunity here to modify the response returned to the user when the redirection happens.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="320465635%2FFunctions%2F1137287618" anchor-label="authFailureResponse" id="320465635%2FFunctions%2F1137287618" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-security-oauth:dokkaHtmlPartial/main" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="auth-failure-response.html"><span>auth</span><wbr><span>Failure</span><wbr><span><span>Response</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="320465635%2FFunctions%2F1137287618"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-security-oauth:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="auth-failure-response.html"><span class="token function">authFailureResponse</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">reason<span class="token operator">: </span><a href="../-o-auth-callback-error/index.html">OAuthCallbackError</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-response/index.html">Response</a></div><div class="brief "><p class="paragraph">Build the default failure response which occurs when a failure occurs during the callback process (eg. a mismatch/missing CSRF or failure occurring when calling into the end-service for the access-token.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="145506462%2FFunctions%2F1137287618" anchor-label="retrieveCsrf" id="145506462%2FFunctions%2F1137287618" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-security-oauth:dokkaHtmlPartial/main" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="retrieve-csrf.html"><span>retrieve</span><wbr><span><span>Csrf</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="145506462%2FFunctions%2F1137287618"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-security-oauth:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="retrieve-csrf.html"><span class="token function">retrieveCsrf</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">request<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-request/index.html">Request</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../-cross-site-request-forgery-token/index.html">CrossSiteRequestForgeryToken</a><span class="token operator">?</span></div><div class="brief "><p class="paragraph">Retrieve the stored CSRF token for this user request</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-795289867%2FFunctions%2F1137287618" anchor-label="retrieveNonce" id="-795289867%2FFunctions%2F1137287618" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-security-oauth:dokkaHtmlPartial/main" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="retrieve-nonce.html"><span>retrieve</span><wbr><span><span>Nonce</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-795289867%2FFunctions%2F1137287618"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-security-oauth:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="retrieve-nonce.html"><span class="token function">retrieveNonce</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">request<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-request/index.html">Request</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-security-core/org.http4k.security/-nonce/index.html">Nonce</a><span class="token operator">?</span></div><div class="brief "><p class="paragraph">Retrieve the stored nonce token for this user request</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="916965473%2FFunctions%2F1137287618" anchor-label="retrieveOriginalUri" id="916965473%2FFunctions%2F1137287618" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-security-oauth:dokkaHtmlPartial/main" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="retrieve-original-uri.html"><span>retrieve</span><wbr><span>Original</span><wbr><span><span>Uri</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="916965473%2FFunctions%2F1137287618"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-security-oauth:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="retrieve-original-uri.html"><span class="token function">retrieveOriginalUri</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">request<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-request/index.html">Request</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a><span class="token operator">?</span></div><div class="brief "><p class="paragraph">Retrieve the stored original uri for this user request</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="880893183%2FFunctions%2F1137287618" anchor-label="retrieveToken" id="880893183%2FFunctions%2F1137287618" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-security-oauth:dokkaHtmlPartial/main" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="retrieve-token.html"><span>retrieve</span><wbr><span><span>Token</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="880893183%2FFunctions%2F1137287618"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-security-oauth:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="retrieve-token.html"><span class="token function">retrieveToken</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">request<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-request/index.html">Request</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../-access-token/index.html">AccessToken</a><span class="token operator">?</span></div><div class="brief "><p class="paragraph">Retrieve the stored AccessToken token for this user request</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

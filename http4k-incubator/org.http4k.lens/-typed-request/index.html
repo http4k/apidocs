@@ -1,0 +1,498 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>TypedRequest</title>
+<link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer></script></head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+<a class="library-name--link" href="../../../index.html">
+                            http4k
+                    </a>            </div>
+            <div class="library-version">LOCAL
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":http4k-incubator:dokkaHtmlPartial/main">jvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageids="http4k-incubator::org.http4k.lens/TypedRequest///PointingToDeclaration//1050737973">
+  <div class="breadcrumbs"><a href="../../index.html">http4k-incubator</a><span class="delimiter">/</span><a href="../index.html">org.http4k.lens</a><span class="delimiter">/</span><span class="current">TypedRequest</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Typed</span><wbr><span><span>Request</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-incubator:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">class </span><a href="index.html">TypedRequest</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">request<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-request/index.html">Request</a></span></span><span class="token punctuation">)</span> : <a href="../-typed-http-message/index.html">TypedHttpMessage</a>, <a href="../../../http4k-core/org.http4k.routing/-request-with-route/index.html">RequestWithRoute</a></div></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="1515513059%2FConstructors%2F1050737973" anchor-label="TypedRequest" id="1515513059%2FConstructors%2F1050737973" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":http4k-incubator:dokkaHtmlPartial/main" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-typed-request.html"><span>Typed</span><wbr><span><span>Request</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1515513059%2FConstructors%2F1050737973"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-incubator:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">request<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-request/index.html">Request</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="119135008%2FProperties%2F1050737973" anchor-label="body" id="119135008%2FProperties%2F1050737973" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-incubator:dokkaHtmlPartial/main" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../-typed-response/index.html#119135008%2FProperties%2F1050737973"><span><span>body</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="119135008%2FProperties%2F1050737973"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-incubator:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="../-typed-response/index.html#119135008%2FProperties%2F1050737973">body</a><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-body/index.html">Body</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="237678098%2FProperties%2F1050737973" anchor-label="headers" id="237678098%2FProperties%2F1050737973" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-incubator:dokkaHtmlPartial/main" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../-typed-response/index.html#237678098%2FProperties%2F1050737973"><span><span>headers</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="237678098%2FProperties%2F1050737973"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-incubator:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="../-typed-response/index.html#237678098%2FProperties%2F1050737973">headers</a><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-headers/index.html">Headers</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1434932687%2FProperties%2F1050737973" anchor-label="method" id="-1434932687%2FProperties%2F1050737973" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-incubator:dokkaHtmlPartial/main" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-1434932687%2FProperties%2F1050737973"><span><span>method</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1434932687%2FProperties%2F1050737973"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-incubator:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="index.html#-1434932687%2FProperties%2F1050737973">method</a><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-method/index.html">Method</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="305317943%2FProperties%2F1050737973" anchor-label="source" id="305317943%2FProperties%2F1050737973" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-incubator:dokkaHtmlPartial/main" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#305317943%2FProperties%2F1050737973"><span><span>source</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="305317943%2FProperties%2F1050737973"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-incubator:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="index.html#305317943%2FProperties%2F1050737973">source</a><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-request-source/index.html">RequestSource</a><span class="token operator">?</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-153568324%2FProperties%2F1050737973" anchor-label="uri" id="-153568324%2FProperties%2F1050737973" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-incubator:dokkaHtmlPartial/main" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-153568324%2FProperties%2F1050737973"><span><span>uri</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-153568324%2FProperties%2F1050737973"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-incubator:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="index.html#-153568324%2FProperties%2F1050737973">uri</a><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="101073152%2FProperties%2F1050737973" anchor-label="version" id="101073152%2FProperties%2F1050737973" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-incubator:dokkaHtmlPartial/main" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../-typed-response/index.html#101073152%2FProperties%2F1050737973"><span><span>version</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="101073152%2FProperties%2F1050737973"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-incubator:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="../-typed-response/index.html#101073152%2FProperties%2F1050737973">version</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1968490786%2FProperties%2F1050737973" anchor-label="xUriTemplate" id="1968490786%2FProperties%2F1050737973" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-incubator:dokkaHtmlPartial/main" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#1968490786%2FProperties%2F1050737973"><span>x</span><wbr><span>Uri</span><wbr><span><span>Template</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1968490786%2FProperties%2F1050737973"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-incubator:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="index.html#1968490786%2FProperties%2F1050737973">xUriTemplate</a><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri-template/index.html">UriTemplate</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="382948003%2FFunctions%2F1050737973" anchor-label="body" id="382948003%2FFunctions%2F1050737973" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-incubator:dokkaHtmlPartial/main" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-1248162508%2FFunctions%2F1050737973"><span><span>body</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="382948003%2FFunctions%2F1050737973"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-incubator:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#-1248162508%2FFunctions%2F1050737973"><span class="token function">body</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">body<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-request/index.html">Request</a></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#602105924%2FFunctions%2F1050737973"><span class="token function">body</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">body<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-body/index.html">Body</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-request/index.html">Request</a></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#1379929445%2FFunctions%2F1050737973"><span class="token function">body</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">body<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/InputStream.html">InputStream</a><span class="token punctuation">, </span></span><span class="parameter ">length<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html">Long</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-request/index.html">Request</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="430547407%2FFunctions%2F1050737973" anchor-label="bodyString" id="430547407%2FFunctions%2F1050737973" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-incubator:dokkaHtmlPartial/main" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../-typed-response/index.html#430547407%2FFunctions%2F1050737973"><span>body</span><wbr><span><span>String</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="430547407%2FFunctions%2F1050737973"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-incubator:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../-typed-response/index.html#430547407%2FFunctions%2F1050737973"><span class="token function">bodyString</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1519645024%2FFunctions%2F1050737973" anchor-label="close" id="-1519645024%2FFunctions%2F1050737973" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-incubator:dokkaHtmlPartial/main" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../-typed-response/index.html#-1519645024%2FFunctions%2F1050737973"><span><span>close</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1519645024%2FFunctions%2F1050737973"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-incubator:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../-typed-response/index.html#-1519645024%2FFunctions%2F1050737973"><span class="token function">close</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-653328580%2FFunctions%2F1050737973" anchor-label="header" id="-653328580%2FFunctions%2F1050737973" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-incubator:dokkaHtmlPartial/main" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../-typed-response/index.html#-2109997105%2FFunctions%2F1050737973"><span><span>header</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-653328580%2FFunctions%2F1050737973"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-incubator:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../-typed-response/index.html#-2109997105%2FFunctions%2F1050737973"><span class="token function">header</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">name<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#890904991%2FFunctions%2F1050737973"><span class="token function">header</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">name<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">value<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-request/index.html">Request</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-173559736%2FFunctions%2F1050737973" anchor-label="headers" id="-173559736%2FFunctions%2F1050737973" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-incubator:dokkaHtmlPartial/main" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-173559736%2FFunctions%2F1050737973"><span><span>headers</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-173559736%2FFunctions%2F1050737973"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-incubator:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#-173559736%2FFunctions%2F1050737973"><span class="token function">headers</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">headers<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-headers/index.html">Headers</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-request/index.html">Request</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1222793617%2FFunctions%2F1050737973" anchor-label="headerValues" id="1222793617%2FFunctions%2F1050737973" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-incubator:dokkaHtmlPartial/main" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../-typed-response/index.html#1222793617%2FFunctions%2F1050737973"><span>header</span><wbr><span><span>Values</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1222793617%2FFunctions%2F1050737973"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-incubator:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../-typed-response/index.html#1222793617%2FFunctions%2F1050737973"><span class="token function">headerValues</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">name<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-421155194%2FFunctions%2F1050737973" anchor-label="method" id="-421155194%2FFunctions%2F1050737973" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-incubator:dokkaHtmlPartial/main" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-421155194%2FFunctions%2F1050737973"><span><span>method</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-421155194%2FFunctions%2F1050737973"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-incubator:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#-421155194%2FFunctions%2F1050737973"><span class="token function">method</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">method<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-method/index.html">Method</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-request/index.html">Request</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-457045310%2FFunctions%2F1050737973" anchor-label="queries" id="-457045310%2FFunctions%2F1050737973" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-incubator:dokkaHtmlPartial/main" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-457045310%2FFunctions%2F1050737973"><span><span>queries</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-457045310%2FFunctions%2F1050737973"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-incubator:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#-457045310%2FFunctions%2F1050737973"><span class="token function">queries</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">name<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1881826294%2FFunctions%2F1050737973" anchor-label="query" id="1881826294%2FFunctions%2F1050737973" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-incubator:dokkaHtmlPartial/main" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-1303344156%2FFunctions%2F1050737973"><span><span>query</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1881826294%2FFunctions%2F1050737973"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-incubator:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#-1303344156%2FFunctions%2F1050737973"><span class="token function">query</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">name<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#1148289594%2FFunctions%2F1050737973"><span class="token function">query</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">name<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">value<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-request/index.html">Request</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1448503683%2FFunctions%2F1050737973" anchor-label="removeHeader" id="1448503683%2FFunctions%2F1050737973" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-incubator:dokkaHtmlPartial/main" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#1448503683%2FFunctions%2F1050737973"><span>remove</span><wbr><span><span>Header</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1448503683%2FFunctions%2F1050737973"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-incubator:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#1448503683%2FFunctions%2F1050737973"><span class="token function">removeHeader</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">name<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-request/index.html">Request</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1392042754%2FFunctions%2F1050737973" anchor-label="removeHeaders" id="-1392042754%2FFunctions%2F1050737973" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-incubator:dokkaHtmlPartial/main" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-1392042754%2FFunctions%2F1050737973"><span>remove</span><wbr><span><span>Headers</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1392042754%2FFunctions%2F1050737973"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-incubator:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#-1392042754%2FFunctions%2F1050737973"><span class="token function">removeHeaders</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">prefix<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-request/index.html">Request</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="234790110%2FFunctions%2F1050737973" anchor-label="removeQueries" id="234790110%2FFunctions%2F1050737973" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-incubator:dokkaHtmlPartial/main" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#234790110%2FFunctions%2F1050737973"><span>remove</span><wbr><span><span>Queries</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="234790110%2FFunctions%2F1050737973"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-incubator:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#234790110%2FFunctions%2F1050737973"><span class="token function">removeQueries</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">prefix<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-request/index.html">Request</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="511898880%2FFunctions%2F1050737973" anchor-label="removeQuery" id="511898880%2FFunctions%2F1050737973" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-incubator:dokkaHtmlPartial/main" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#511898880%2FFunctions%2F1050737973"><span>remove</span><wbr><span><span>Query</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="511898880%2FFunctions%2F1050737973"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-incubator:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#511898880%2FFunctions%2F1050737973"><span class="token function">removeQuery</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">name<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-request/index.html">Request</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1458216127%2FFunctions%2F1050737973" anchor-label="replaceHeader" id="-1458216127%2FFunctions%2F1050737973" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-incubator:dokkaHtmlPartial/main" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-1458216127%2FFunctions%2F1050737973"><span>replace</span><wbr><span><span>Header</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1458216127%2FFunctions%2F1050737973"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-incubator:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#-1458216127%2FFunctions%2F1050737973"><span class="token function">replaceHeader</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">name<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">value<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-request/index.html">Request</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="141016166%2FFunctions%2F1050737973" anchor-label="replaceHeaders" id="141016166%2FFunctions%2F1050737973" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-incubator:dokkaHtmlPartial/main" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#141016166%2FFunctions%2F1050737973"><span>replace</span><wbr><span><span>Headers</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="141016166%2FFunctions%2F1050737973"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-incubator:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#141016166%2FFunctions%2F1050737973"><span class="token function">replaceHeaders</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">source<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-headers/index.html">Headers</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-request/index.html">Request</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1571282997%2FFunctions%2F1050737973" anchor-label="source" id="-1571282997%2FFunctions%2F1050737973" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-incubator:dokkaHtmlPartial/main" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-1571282997%2FFunctions%2F1050737973"><span><span>source</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1571282997%2FFunctions%2F1050737973"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-incubator:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#-1571282997%2FFunctions%2F1050737973"><span class="token function">source</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">source<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-request-source/index.html">RequestSource</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-request/index.html">Request</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1554882524%2FFunctions%2F1050737973" anchor-label="toMessage" id="1554882524%2FFunctions%2F1050737973" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-incubator:dokkaHtmlPartial/main" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#1554882524%2FFunctions%2F1050737973"><span>to</span><wbr><span><span>Message</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1554882524%2FFunctions%2F1050737973"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-incubator:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#1554882524%2FFunctions%2F1050737973"><span class="token function">toMessage</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1888370035%2FFunctions%2F1050737973" anchor-label="toString" id="1888370035%2FFunctions%2F1050737973" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-incubator:dokkaHtmlPartial/main" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="to-string.html"><span>to</span><wbr><span><span>String</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1888370035%2FFunctions%2F1050737973"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-incubator:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="to-string.html"><span class="token function">toString</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1248928508%2FFunctions%2F1050737973" anchor-label="uri" id="-1248928508%2FFunctions%2F1050737973" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-incubator:dokkaHtmlPartial/main" data-filterable-set=":http4k-incubator:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-1248928508%2FFunctions%2F1050737973"><span><span>uri</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1248928508%2FFunctions%2F1050737973"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-incubator:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#-1248928508%2FFunctions%2F1050737973"><span class="token function">uri</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">uri<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-request/index.html">Request</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

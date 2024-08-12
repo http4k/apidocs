@@ -1,0 +1,1008 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>NonBlockingClient</title>
+<link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer></script></head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+<a class="library-name--link" href="../../../index.html">
+                            http4k
+                    </a>            </div>
+            <div class="library-version">LOCAL
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":http4k-client-websocket:dokkaHtmlPartial/main">jvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageids="http4k-client-websocket::org.http4k.client.internal/NonBlockingClient///PointingToDeclaration//-186948121">
+  <div class="breadcrumbs"><a href="../../index.html">http4k-client-websocket</a><span class="delimiter">/</span><a href="../index.html">org.http4k.client.internal</a><span class="delimiter">/</span><span class="current">NonBlockingClient</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Non</span><wbr><span>Blocking</span><wbr><span><span>Client</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">NonBlockingClient</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">uri<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a><span class="token punctuation">, </span></span><span class="parameter ">headers<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-headers/index.html">Headers</a><span class="token punctuation">, </span></span><span class="parameter ">timeout<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html">Duration</a><span class="token punctuation">, </span></span><span class="parameter ">onConnect<span class="token operator">: </span><a href="../../../http4k-realtime-core/org.http4k.websocket/-ws-consumer/index.html">WsConsumer</a><span class="token punctuation">, </span></span><span class="parameter ">draft<span class="token operator">: </span><span data-unresolved-link="org.java_websocket.drafts/Draft///PointingToDeclaration/">Draft</span><span class="token punctuation">, </span></span><span class="parameter ">socket<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/atomic/AtomicReference.html">AtomicReference</a><span class="token operator">&lt;</span><a href="../../../http4k-realtime-core/org.http4k.websocket/-push-pull-adapting-web-socket/index.html">PushPullAdaptingWebSocket</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span> : <span data-unresolved-link="org.java_websocket.client/WebSocketClient///PointingToDeclaration/">WebSocketClient</span></div></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="924407251%2FConstructors%2F-186948121" anchor-label="NonBlockingClient" id="924407251%2FConstructors%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-non-blocking-client.html"><span>Non</span><wbr><span>Blocking</span><wbr><span><span>Client</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="924407251%2FConstructors%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">uri<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a><span class="token punctuation">, </span></span><span class="parameter ">headers<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-headers/index.html">Headers</a><span class="token punctuation">, </span></span><span class="parameter ">timeout<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html">Duration</a><span class="token punctuation">, </span></span><span class="parameter ">onConnect<span class="token operator">: </span><a href="../../../http4k-realtime-core/org.http4k.websocket/-ws-consumer/index.html">WsConsumer</a><span class="token punctuation">, </span></span><span class="parameter ">draft<span class="token operator">: </span><span data-unresolved-link="org.java_websocket.drafts/Draft///PointingToDeclaration/">Draft</span><span class="token punctuation">, </span></span><span class="parameter ">socket<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/atomic/AtomicReference.html">AtomicReference</a><span class="token operator">&lt;</span><a href="../../../http4k-realtime-core/org.http4k.websocket/-push-pull-adapting-web-socket/index.html">PushPullAdaptingWebSocket</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="-1247126956%2FProperties%2F-186948121" anchor-label="daemon" id="-1247126956%2FProperties%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-1247126956%2FProperties%2F-186948121"><span><span>daemon</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1247126956%2FProperties%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">var </span><a href="index.html#-1247126956%2FProperties%2F-186948121">daemon</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1689195267%2FProperties%2F-186948121" anchor-label="draft" id="1689195267%2FProperties%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#1689195267%2FProperties%2F-186948121"><span><span>draft</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1689195267%2FProperties%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="index.html#1689195267%2FProperties%2F-186948121">draft</a><span class="token operator">: </span><span data-unresolved-link="org.java_websocket.drafts/Draft///PointingToDeclaration/">Draft</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1168686173%2FProperties%2F-186948121" anchor-label="reuseAddr" id="1168686173%2FProperties%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#1168686173%2FProperties%2F-186948121"><span>reuse</span><wbr><span><span>Addr</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1168686173%2FProperties%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">var </span><a href="index.html#1168686173%2FProperties%2F-186948121">reuseAddr</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1929016003%2FProperties%2F-186948121" anchor-label="socket" id="1929016003%2FProperties%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#1929016003%2FProperties%2F-186948121"><span><span>socket</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1929016003%2FProperties%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">var </span><a href="index.html#1929016003%2FProperties%2F-186948121">socket</a><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/net/Socket.html">Socket</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1145581353%2FProperties%2F-186948121" anchor-label="tcpNoDelay" id="-1145581353%2FProperties%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-1145581353%2FProperties%2F-186948121"><span>tcp</span><wbr><span>No</span><wbr><span><span>Delay</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1145581353%2FProperties%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">var </span><a href="index.html#-1145581353%2FProperties%2F-186948121">tcpNoDelay</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="-536916493%2FFunctions%2F-186948121" anchor-label="addHeader" id="-536916493%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-536916493%2FFunctions%2F-186948121"><span>add</span><wbr><span><span>Header</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-536916493%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="index.html#-536916493%2FFunctions%2F-186948121"><span class="token function">addHeader</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">p1<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-917103171%2FFunctions%2F-186948121" anchor-label="clearHeaders" id="-917103171%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-917103171%2FFunctions%2F-186948121"><span>clear</span><wbr><span><span>Headers</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-917103171%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="index.html#-917103171%2FFunctions%2F-186948121"><span class="token function">clearHeaders</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1698987437%2FFunctions%2F-186948121" anchor-label="close" id="1698987437%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#1693675148%2FFunctions%2F-186948121"><span><span>close</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1698987437%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#1693675148%2FFunctions%2F-186948121"><span class="token function">close</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#-2110150358%2FFunctions%2F-186948121"><span class="token function">close</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#-764233585%2FFunctions%2F-186948121"><span class="token function">close</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">p1<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1611401001%2FFunctions%2F-186948121" anchor-label="closeBlocking" id="-1611401001%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-1611401001%2FFunctions%2F-186948121"><span>close</span><wbr><span><span>Blocking</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1611401001%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="index.html#-1611401001%2FFunctions%2F-186948121"><span class="token function">closeBlocking</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-698959215%2FFunctions%2F-186948121" anchor-label="closeConnection" id="-698959215%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-698959215%2FFunctions%2F-186948121"><span>close</span><wbr><span><span>Connection</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-698959215%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#-698959215%2FFunctions%2F-186948121"><span class="token function">closeConnection</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">p1<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2105365018%2FFunctions%2F-186948121" anchor-label="connect" id="2105365018%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#2105365018%2FFunctions%2F-186948121"><span><span>connect</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2105365018%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="index.html#2105365018%2FFunctions%2F-186948121"><span class="token function">connect</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="498941718%2FFunctions%2F-186948121" anchor-label="connectBlocking" id="498941718%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#199257701%2FFunctions%2F-186948121"><span>connect</span><wbr><span><span>Blocking</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="498941718%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="index.html#199257701%2FFunctions%2F-186948121"><span class="token function">connectBlocking</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="index.html#1239783759%2FFunctions%2F-186948121"><span class="token function">connectBlocking</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html">Long</a><span class="token punctuation">, </span></span><span class="parameter ">p1<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/TimeUnit.html">TimeUnit</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-917136501%2FFunctions%2F-186948121" anchor-label="getAttachment" id="-917136501%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-917136501%2FFunctions%2F-186948121"><span>get</span><wbr><span><span>Attachment</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-917136501%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="index.html#-917136501%2FFunctions%2F-186948121">T</a><span class="token operator"> : </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a><span class="token operator">&gt; </span><a href="index.html#-917136501%2FFunctions%2F-186948121"><span class="token function">getAttachment</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html#-917136501%2FFunctions%2F-186948121">T</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1779708368%2FFunctions%2F-186948121" anchor-label="getConnection" id="-1779708368%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-1779708368%2FFunctions%2F-186948121"><span>get</span><wbr><span><span>Connection</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1779708368%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="index.html#-1779708368%2FFunctions%2F-186948121"><span class="token function">getConnection</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="org.java_websocket/WebSocket///PointingToDeclaration/">WebSocket</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="832856463%2FFunctions%2F-186948121" anchor-label="getConnectionLostTimeout" id="832856463%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#832856463%2FFunctions%2F-186948121"><span>get</span><wbr><span>Connection</span><wbr><span>Lost</span><wbr><span><span>Timeout</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="832856463%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="index.html#832856463%2FFunctions%2F-186948121"><span class="token function">getConnectionLostTimeout</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1403884233%2FFunctions%2F-186948121" anchor-label="getLocalSocketAddress" id="-1403884233%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#1071140792%2FFunctions%2F-186948121"><span>get</span><wbr><span>Local</span><wbr><span>Socket</span><wbr><span><span>Address</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1403884233%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#1071140792%2FFunctions%2F-186948121"><span class="token function">getLocalSocketAddress</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/net/InetSocketAddress.html">InetSocketAddress</a></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#-1990360053%2FFunctions%2F-186948121"><span class="token function">getLocalSocketAddress</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><span data-unresolved-link="org.java_websocket/WebSocket///PointingToDeclaration/">WebSocket</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/net/InetSocketAddress.html">InetSocketAddress</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-910380042%2FFunctions%2F-186948121" anchor-label="getProtocol" id="-910380042%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-910380042%2FFunctions%2F-186948121"><span>get</span><wbr><span><span>Protocol</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-910380042%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#-910380042%2FFunctions%2F-186948121"><span class="token function">getProtocol</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="org.java_websocket.protocols/IProtocol///PointingToDeclaration/">IProtocol</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1571262880%2FFunctions%2F-186948121" anchor-label="getReadyState" id="-1571262880%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-1571262880%2FFunctions%2F-186948121"><span>get</span><wbr><span>Ready</span><wbr><span><span>State</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1571262880%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#-1571262880%2FFunctions%2F-186948121"><span class="token function">getReadyState</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="org.java_websocket.enums/ReadyState///PointingToDeclaration/">ReadyState</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-701923137%2FFunctions%2F-186948121" anchor-label="getRemoteSocketAddress" id="-701923137%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#1541658961%2FFunctions%2F-186948121"><span>get</span><wbr><span>Remote</span><wbr><span>Socket</span><wbr><span><span>Address</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-701923137%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#1541658961%2FFunctions%2F-186948121"><span class="token function">getRemoteSocketAddress</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/net/InetSocketAddress.html">InetSocketAddress</a></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#-386851292%2FFunctions%2F-186948121"><span class="token function">getRemoteSocketAddress</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><span data-unresolved-link="org.java_websocket/WebSocket///PointingToDeclaration/">WebSocket</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/net/InetSocketAddress.html">InetSocketAddress</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1310406959%2FFunctions%2F-186948121" anchor-label="getResourceDescriptor" id="-1310406959%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-1310406959%2FFunctions%2F-186948121"><span>get</span><wbr><span>Resource</span><wbr><span><span>Descriptor</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1310406959%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#-1310406959%2FFunctions%2F-186948121"><span class="token function">getResourceDescriptor</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="565933988%2FFunctions%2F-186948121" anchor-label="getSSLSession" id="565933988%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#565933988%2FFunctions%2F-186948121"><span>get</span><wbr><span><span>SSLSession</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="565933988%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#565933988%2FFunctions%2F-186948121"><span class="token function">getSSLSession</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/javax/net/ssl/SSLSession.html">SSLSession</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-316362400%2FFunctions%2F-186948121" anchor-label="getURI" id="-316362400%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-316362400%2FFunctions%2F-186948121"><span>get</span><wbr><span><span>URI</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-316362400%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="index.html#-316362400%2FFunctions%2F-186948121"><span class="token function">getURI</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/net/URI.html">URI</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2017317185%2FFunctions%2F-186948121" anchor-label="hasBufferedData" id="2017317185%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#2017317185%2FFunctions%2F-186948121"><span>has</span><wbr><span>Buffered</span><wbr><span><span>Data</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2017317185%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#2017317185%2FFunctions%2F-186948121"><span class="token function">hasBufferedData</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-323505465%2FFunctions%2F-186948121" anchor-label="hasSSLSupport" id="-323505465%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-323505465%2FFunctions%2F-186948121"><span>has</span><wbr><span><span>SSLSupport</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-323505465%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#-323505465%2FFunctions%2F-186948121"><span class="token function">hasSSLSupport</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1368919584%2FFunctions%2F-186948121" anchor-label="isClosed" id="1368919584%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#1368919584%2FFunctions%2F-186948121"><span>is</span><wbr><span><span>Closed</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1368919584%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#1368919584%2FFunctions%2F-186948121"><span class="token function">isClosed</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="688110649%2FFunctions%2F-186948121" anchor-label="isClosing" id="688110649%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#688110649%2FFunctions%2F-186948121"><span>is</span><wbr><span><span>Closing</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="688110649%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#688110649%2FFunctions%2F-186948121"><span class="token function">isClosing</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="846042281%2FFunctions%2F-186948121" anchor-label="isFlushAndClose" id="846042281%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#846042281%2FFunctions%2F-186948121"><span>is</span><wbr><span>Flush</span><wbr><span>And</span><wbr><span><span>Close</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="846042281%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#846042281%2FFunctions%2F-186948121"><span class="token function">isFlushAndClose</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="324314818%2FFunctions%2F-186948121" anchor-label="isOpen" id="324314818%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#324314818%2FFunctions%2F-186948121"><span>is</span><wbr><span><span>Open</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="324314818%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#324314818%2FFunctions%2F-186948121"><span class="token function">isOpen</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="928911495%2FFunctions%2F-186948121" anchor-label="onClose" id="928911495%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-close.html"><span>on</span><wbr><span><span>Close</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="928911495%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-close.html"><span class="token function">onClose</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">code<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">reason<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">remote<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2045814713%2FFunctions%2F-186948121" anchor-label="onCloseInitiated" id="-2045814713%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-2045814713%2FFunctions%2F-186948121"><span>on</span><wbr><span>Close</span><wbr><span><span>Initiated</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2045814713%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="index.html#-2045814713%2FFunctions%2F-186948121"><span class="token function">onCloseInitiated</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">p1<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1041139315%2FFunctions%2F-186948121" anchor-label="onClosing" id="1041139315%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#1041139315%2FFunctions%2F-186948121"><span>on</span><wbr><span><span>Closing</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1041139315%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="index.html#1041139315%2FFunctions%2F-186948121"><span class="token function">onClosing</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">p1<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">p2<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="19262557%2FFunctions%2F-186948121" anchor-label="onError" id="19262557%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-error.html"><span>on</span><wbr><span><span>Error</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="19262557%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-error.html"><span class="token function">onError</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">e<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-exception/index.html">Exception</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-61649930%2FFunctions%2F-186948121" anchor-label="onMessage" id="-61649930%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-message.html"><span>on</span><wbr><span><span>Message</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-61649930%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-message.html"><span class="token function">onMessage</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">bytes<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/nio/ByteBuffer.html">ByteBuffer</a></span></span><span class="token punctuation">)</span></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-message.html"><span class="token function">onMessage</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">message<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-494812088%2FFunctions%2F-186948121" anchor-label="onOpen" id="-494812088%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-open.html"><span>on</span><wbr><span><span>Open</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-494812088%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-open.html"><span class="token function">onOpen</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">handshakedata<span class="token operator">: </span><span data-unresolved-link="org.java_websocket.handshake/ServerHandshake///PointingToDeclaration/">ServerHandshake</span><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1941346142%2FFunctions%2F-186948121" anchor-label="onPreparePing" id="-1941346142%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-1941346142%2FFunctions%2F-186948121"><span>on</span><wbr><span>Prepare</span><wbr><span><span>Ping</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1941346142%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#-1941346142%2FFunctions%2F-186948121"><span class="token function">onPreparePing</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><span data-unresolved-link="org.java_websocket/WebSocket///PointingToDeclaration/">WebSocket</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="org.java_websocket.framing/PingFrame///PointingToDeclaration/">PingFrame</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="468665723%2FFunctions%2F-186948121" anchor-label="onWebsocketClose" id="468665723%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#468665723%2FFunctions%2F-186948121"><span>on</span><wbr><span>Websocket</span><wbr><span><span>Close</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="468665723%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#468665723%2FFunctions%2F-186948121"><span class="token function">onWebsocketClose</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><span data-unresolved-link="org.java_websocket/WebSocket///PointingToDeclaration/">WebSocket</span><span class="token punctuation">, </span></span><span class="parameter ">p1<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">p2<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">p3<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-492738970%2FFunctions%2F-186948121" anchor-label="onWebsocketCloseInitiated" id="-492738970%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-492738970%2FFunctions%2F-186948121"><span>on</span><wbr><span>Websocket</span><wbr><span>Close</span><wbr><span><span>Initiated</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-492738970%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#-492738970%2FFunctions%2F-186948121"><span class="token function">onWebsocketCloseInitiated</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><span data-unresolved-link="org.java_websocket/WebSocket///PointingToDeclaration/">WebSocket</span><span class="token punctuation">, </span></span><span class="parameter ">p1<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">p2<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1864867742%2FFunctions%2F-186948121" anchor-label="onWebsocketClosing" id="1864867742%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#1864867742%2FFunctions%2F-186948121"><span>on</span><wbr><span>Websocket</span><wbr><span><span>Closing</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1864867742%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#1864867742%2FFunctions%2F-186948121"><span class="token function">onWebsocketClosing</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><span data-unresolved-link="org.java_websocket/WebSocket///PointingToDeclaration/">WebSocket</span><span class="token punctuation">, </span></span><span class="parameter ">p1<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">p2<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">p3<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1656366385%2FFunctions%2F-186948121" anchor-label="onWebsocketError" id="1656366385%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#1656366385%2FFunctions%2F-186948121"><span>on</span><wbr><span>Websocket</span><wbr><span><span>Error</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1656366385%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#1656366385%2FFunctions%2F-186948121"><span class="token function">onWebsocketError</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><span data-unresolved-link="org.java_websocket/WebSocket///PointingToDeclaration/">WebSocket</span><span class="token punctuation">, </span></span><span class="parameter ">p1<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Exception.html">Exception</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1029655825%2FFunctions%2F-186948121" anchor-label="onWebsocketHandshakeReceivedAsClient" id="-1029655825%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-1029655825%2FFunctions%2F-186948121"><span>on</span><wbr><span>Websocket</span><wbr><span>Handshake</span><wbr><span>Received</span><wbr><span>As</span><wbr><span><span>Client</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1029655825%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#-1029655825%2FFunctions%2F-186948121"><span class="token function">onWebsocketHandshakeReceivedAsClient</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><span data-unresolved-link="org.java_websocket/WebSocket///PointingToDeclaration/">WebSocket</span><span class="token punctuation">, </span></span><span class="parameter ">p1<span class="token operator">: </span><span data-unresolved-link="org.java_websocket.handshake/ClientHandshake///PointingToDeclaration/">ClientHandshake</span><span class="token punctuation">, </span></span><span class="parameter ">p2<span class="token operator">: </span><span data-unresolved-link="org.java_websocket.handshake/ServerHandshake///PointingToDeclaration/">ServerHandshake</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-923499615%2FFunctions%2F-186948121" anchor-label="onWebsocketHandshakeReceivedAsServer" id="-923499615%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-923499615%2FFunctions%2F-186948121"><span>on</span><wbr><span>Websocket</span><wbr><span>Handshake</span><wbr><span>Received</span><wbr><span>As</span><wbr><span><span>Server</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-923499615%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#-923499615%2FFunctions%2F-186948121"><span class="token function">onWebsocketHandshakeReceivedAsServer</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><span data-unresolved-link="org.java_websocket/WebSocket///PointingToDeclaration/">WebSocket</span><span class="token punctuation">, </span></span><span class="parameter ">p1<span class="token operator">: </span><span data-unresolved-link="org.java_websocket.drafts/Draft///PointingToDeclaration/">Draft</span><span class="token punctuation">, </span></span><span class="parameter ">p2<span class="token operator">: </span><span data-unresolved-link="org.java_websocket.handshake/ClientHandshake///PointingToDeclaration/">ClientHandshake</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="org.java_websocket.handshake/ServerHandshakeBuilder///PointingToDeclaration/">ServerHandshakeBuilder</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1512341980%2FFunctions%2F-186948121" anchor-label="onWebsocketHandshakeSentAsClient" id="-1512341980%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-1512341980%2FFunctions%2F-186948121"><span>on</span><wbr><span>Websocket</span><wbr><span>Handshake</span><wbr><span>Sent</span><wbr><span>As</span><wbr><span><span>Client</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1512341980%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#-1512341980%2FFunctions%2F-186948121"><span class="token function">onWebsocketHandshakeSentAsClient</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><span data-unresolved-link="org.java_websocket/WebSocket///PointingToDeclaration/">WebSocket</span><span class="token punctuation">, </span></span><span class="parameter ">p1<span class="token operator">: </span><span data-unresolved-link="org.java_websocket.handshake/ClientHandshake///PointingToDeclaration/">ClientHandshake</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1885962724%2FFunctions%2F-186948121" anchor-label="onWebsocketMessage" id="-1885962724%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#382907647%2FFunctions%2F-186948121"><span>on</span><wbr><span>Websocket</span><wbr><span><span>Message</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1885962724%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#382907647%2FFunctions%2F-186948121"><span class="token function">onWebsocketMessage</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><span data-unresolved-link="org.java_websocket/WebSocket///PointingToDeclaration/">WebSocket</span><span class="token punctuation">, </span></span><span class="parameter ">p1<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/nio/ByteBuffer.html">ByteBuffer</a></span></span><span class="token punctuation">)</span></div><div class="symbol monospace"><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#1388242735%2FFunctions%2F-186948121"><span class="token function">onWebsocketMessage</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><span data-unresolved-link="org.java_websocket/WebSocket///PointingToDeclaration/">WebSocket</span><span class="token punctuation">, </span></span><span class="parameter ">p1<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-52792822%2FFunctions%2F-186948121" anchor-label="onWebsocketOpen" id="-52792822%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-52792822%2FFunctions%2F-186948121"><span>on</span><wbr><span>Websocket</span><wbr><span><span>Open</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-52792822%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#-52792822%2FFunctions%2F-186948121"><span class="token function">onWebsocketOpen</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><span data-unresolved-link="org.java_websocket/WebSocket///PointingToDeclaration/">WebSocket</span><span class="token punctuation">, </span></span><span class="parameter ">p1<span class="token operator">: </span><span data-unresolved-link="org.java_websocket.handshake/Handshakedata///PointingToDeclaration/">Handshakedata</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="377383492%2FFunctions%2F-186948121" anchor-label="onWebsocketPing" id="377383492%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#377383492%2FFunctions%2F-186948121"><span>on</span><wbr><span>Websocket</span><wbr><span><span>Ping</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="377383492%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#377383492%2FFunctions%2F-186948121"><span class="token function">onWebsocketPing</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><span data-unresolved-link="org.java_websocket/WebSocket///PointingToDeclaration/">WebSocket</span><span class="token punctuation">, </span></span><span class="parameter ">p1<span class="token operator">: </span><span data-unresolved-link="org.java_websocket.framing/Framedata///PointingToDeclaration/">Framedata</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2021823818%2FFunctions%2F-186948121" anchor-label="onWebsocketPong" id="2021823818%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#2021823818%2FFunctions%2F-186948121"><span>on</span><wbr><span>Websocket</span><wbr><span><span>Pong</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2021823818%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#2021823818%2FFunctions%2F-186948121"><span class="token function">onWebsocketPong</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><span data-unresolved-link="org.java_websocket/WebSocket///PointingToDeclaration/">WebSocket</span><span class="token punctuation">, </span></span><span class="parameter ">p1<span class="token operator">: </span><span data-unresolved-link="org.java_websocket.framing/Framedata///PointingToDeclaration/">Framedata</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1524374028%2FFunctions%2F-186948121" anchor-label="onWriteDemand" id="1524374028%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#1524374028%2FFunctions%2F-186948121"><span>on</span><wbr><span>Write</span><wbr><span><span>Demand</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1524374028%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#1524374028%2FFunctions%2F-186948121"><span class="token function">onWriteDemand</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><span data-unresolved-link="org.java_websocket/WebSocket///PointingToDeclaration/">WebSocket</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1054544243%2FFunctions%2F-186948121" anchor-label="reconnect" id="-1054544243%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-1054544243%2FFunctions%2F-186948121"><span><span>reconnect</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1054544243%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="index.html#-1054544243%2FFunctions%2F-186948121"><span class="token function">reconnect</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="115992536%2FFunctions%2F-186948121" anchor-label="reconnectBlocking" id="115992536%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#115992536%2FFunctions%2F-186948121"><span>reconnect</span><wbr><span><span>Blocking</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="115992536%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="index.html#115992536%2FFunctions%2F-186948121"><span class="token function">reconnectBlocking</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2092455905%2FFunctions%2F-186948121" anchor-label="removeHeader" id="-2092455905%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-2092455905%2FFunctions%2F-186948121"><span>remove</span><wbr><span><span>Header</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2092455905%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="index.html#-2092455905%2FFunctions%2F-186948121"><span class="token function">removeHeader</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1280994535%2FFunctions%2F-186948121" anchor-label="run" id="-1280994535%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-1280994535%2FFunctions%2F-186948121"><span><span>run</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1280994535%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#-1280994535%2FFunctions%2F-186948121"><span class="token function">run</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1387053990%2FFunctions%2F-186948121" anchor-label="send" id="-1387053990%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-508817978%2FFunctions%2F-186948121"><span><span>send</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1387053990%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#-508817978%2FFunctions%2F-186948121"><span class="token function">send</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/nio/ByteBuffer.html">ByteBuffer</a></span></span><span class="token punctuation">)</span></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#-310798678%2FFunctions%2F-186948121"><span class="token function">send</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html">ByteArray</a></span></span><span class="token punctuation">)</span></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#-1365237450%2FFunctions%2F-186948121"><span class="token function">send</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-256419745%2FFunctions%2F-186948121" anchor-label="sendFragmentedFrame" id="-256419745%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-256419745%2FFunctions%2F-186948121"><span>send</span><wbr><span>Fragmented</span><wbr><span><span>Frame</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-256419745%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#-256419745%2FFunctions%2F-186948121"><span class="token function">sendFragmentedFrame</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><span data-unresolved-link="org.java_websocket.enums/Opcode///PointingToDeclaration/">Opcode</span><span class="token punctuation">, </span></span><span class="parameter ">p1<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/nio/ByteBuffer.html">ByteBuffer</a><span class="token punctuation">, </span></span><span class="parameter ">p2<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1266862386%2FFunctions%2F-186948121" anchor-label="sendFrame" id="1266862386%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-673217224%2FFunctions%2F-186948121"><span>send</span><wbr><span><span>Frame</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1266862386%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#-673217224%2FFunctions%2F-186948121"><span class="token function">sendFrame</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-collection/index.html">MutableCollection</a><span class="token operator">&lt;</span><span data-unresolved-link="org.java_websocket.framing/Framedata///PointingToDeclaration/">Framedata</span><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#-1004563322%2FFunctions%2F-186948121"><span class="token function">sendFrame</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><span data-unresolved-link="org.java_websocket.framing/Framedata///PointingToDeclaration/">Framedata</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-408631108%2FFunctions%2F-186948121" anchor-label="sendPing" id="-408631108%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-408631108%2FFunctions%2F-186948121"><span>send</span><wbr><span><span>Ping</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-408631108%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#-408631108%2FFunctions%2F-186948121"><span class="token function">sendPing</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1050230956%2FFunctions%2F-186948121" anchor-label="setAttachment" id="1050230956%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#1050230956%2FFunctions%2F-186948121"><span>set</span><wbr><span><span>Attachment</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1050230956%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="index.html#1050230956%2FFunctions%2F-186948121">T</a><span class="token operator"> : </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a><span class="token operator">&gt; </span><a href="index.html#1050230956%2FFunctions%2F-186948121"><span class="token function">setAttachment</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><a href="index.html#1050230956%2FFunctions%2F-186948121">T</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-808809095%2FFunctions%2F-186948121" anchor-label="setConnectionLostTimeout" id="-808809095%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-808809095%2FFunctions%2F-186948121"><span>set</span><wbr><span>Connection</span><wbr><span>Lost</span><wbr><span><span>Timeout</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-808809095%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="index.html#-808809095%2FFunctions%2F-186948121"><span class="token function">setConnectionLostTimeout</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1534536691%2FFunctions%2F-186948121" anchor-label="setDnsResolver" id="1534536691%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#1534536691%2FFunctions%2F-186948121"><span>set</span><wbr><span>Dns</span><wbr><span><span>Resolver</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1534536691%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="index.html#1534536691%2FFunctions%2F-186948121"><span class="token function">setDnsResolver</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><span data-unresolved-link="org.java_websocket.client/DnsResolver///PointingToDeclaration/">DnsResolver</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1021036057%2FFunctions%2F-186948121" anchor-label="setProxy" id="1021036057%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#1021036057%2FFunctions%2F-186948121"><span>set</span><wbr><span><span>Proxy</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1021036057%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="index.html#1021036057%2FFunctions%2F-186948121"><span class="token function">setProxy</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/net/Proxy.html">Proxy</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1220440077%2FFunctions%2F-186948121" anchor-label="setSocketFactory" id="-1220440077%2FFunctions%2F-186948121" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-client-websocket:dokkaHtmlPartial/main" data-filterable-set=":http4k-client-websocket:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-1220440077%2FFunctions%2F-186948121"><span>set</span><wbr><span>Socket</span><wbr><span><span>Factory</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1220440077%2FFunctions%2F-186948121"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-client-websocket:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="index.html#-1220440077%2FFunctions%2F-186948121"><span class="token function">setSocketFactory</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/javax/net/SocketFactory.html">SocketFactory</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

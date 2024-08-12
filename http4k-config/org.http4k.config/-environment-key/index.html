@@ -1,0 +1,303 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>EnvironmentKey</title>
+<link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer></script></head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+<a class="library-name--link" href="../../../index.html">
+                            http4k
+                    </a>            </div>
+            <div class="library-version">LOCAL
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":http4k-config:dokkaHtmlPartial/main">jvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageids="http4k-config::org.http4k.config/EnvironmentKey///PointingToDeclaration//642794058">
+  <div class="breadcrumbs"><a href="../../index.html">http4k-config</a><span class="delimiter">/</span><a href="../index.html">org.http4k.config</a><span class="delimiter">/</span><span class="current">EnvironmentKey</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Environment</span><wbr><span><span>Key</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-config:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">object </span><a href="index.html">EnvironmentKey</a> : <a href="../../../http4k-core/org.http4k.lens/-bi-di-lens-spec/index.html">BiDiLensSpec</a><span class="token operator">&lt;</span><a href="../-environment/index.html">Environment</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt; </span></div><p class="paragraph">This models the key used to get a value out of the Environment using the standard Lens mechanic. Note that if your values contain commas, either use a EnvironmentKey.(mapping).multi.required()/optional()/defaulted() to retrieve the entire list, or override the comma separator in your initial Environment.</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button><button class="section-tab" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION,EXTENSION_PROPERTY,EXTENSION_FUNCTION">Members &amp; Extensions</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="TYPE">
+        <h2 class="">Types</h2>
+        <div class="table"><a data-name="-1593247099%2FClasslikes%2F642794058" anchor-label="k8s" id="-1593247099%2FClasslikes%2F642794058" data-filterable-set=":http4k-config:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-config:dokkaHtmlPartial/main" data-filterable-set=":http4k-config:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="k8s/index.html"><span><span>k8s</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1593247099%2FClasslikes%2F642794058"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-config:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">object </span><a href="k8s/index.html">k8s</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="870952030%2FProperties%2F642794058" anchor-label="location" id="870952030%2FProperties%2F642794058" data-filterable-set=":http4k-config:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-config:dokkaHtmlPartial/main" data-filterable-set=":http4k-config:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#870952030%2FProperties%2F642794058"><span><span>location</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="870952030%2FProperties%2F642794058"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-config:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="index.html#870952030%2FProperties%2F642794058">location</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1720921826%2FProperties%2F642794058" anchor-label="multi" id="1720921826%2FProperties%2F642794058" data-filterable-set=":http4k-config:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-config:dokkaHtmlPartial/main" data-filterable-set=":http4k-config:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#1720921826%2FProperties%2F642794058"><span><span>multi</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1720921826%2FProperties%2F642794058"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-config:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="index.html#1720921826%2FProperties%2F642794058">multi</a><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.lens/-bi-di-multi-lens-spec/index.html">BiDiMultiLensSpec</a><span class="token operator">&lt;</span><a href="../-environment/index.html">Environment</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="1062330890%2FFunctions%2F642794058" anchor-label="authority" id="1062330890%2FFunctions%2F642794058" data-filterable-set=":http4k-config:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-config:dokkaHtmlPartial/main" data-filterable-set=":http4k-config:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../../org.http4k.lens/authority.html"><span><span>authority</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1062330890%2FFunctions%2F642794058"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-config:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="../../org.http4k.lens/authority.html">IN</a><span class="token operator"> : </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a><span class="token operator">&gt; </span><a href="../../../http4k-core/org.http4k.lens/-bi-di-lens-spec/index.html">BiDiLensSpec</a><span class="token operator">&lt;</span><a href="../../org.http4k.lens/authority.html">IN</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="../../org.http4k.lens/authority.html"><span class="token function">authority</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.lens/-bi-di-lens-spec/index.html">BiDiLensSpec</a><span class="token operator">&lt;</span><a href="../../org.http4k.lens/authority.html">IN</a><span class="token punctuation">, </span><a href="../-authority/index.html">Authority</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1573859605%2FFunctions%2F642794058" anchor-label="defaulted" id="1573859605%2FFunctions%2F642794058" data-filterable-set=":http4k-config:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-config:dokkaHtmlPartial/main" data-filterable-set=":http4k-config:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#1299374084%2FFunctions%2F642794058"><span><span>defaulted</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1573859605%2FFunctions%2F642794058"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-config:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#1299374084%2FFunctions%2F642794058"><span class="token function">defaulted</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">name<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">default<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">description<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">metadata<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.lens/-bi-di-lens/index.html">BiDiLens</a><span class="token operator">&lt;</span><a href="../-environment/index.html">Environment</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#429550733%2FFunctions%2F642794058"><span class="token function">defaulted</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">name<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">default<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.lens/-lens-extractor/index.html">LensExtractor</a><span class="token operator">&lt;</span><a href="../-environment/index.html">Environment</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span><span class="token punctuation">, </span></span><span class="parameter ">description<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">metadata<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.lens/-bi-di-lens/index.html">BiDiLens</a><span class="token operator">&lt;</span><a href="../-environment/index.html">Environment</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1850653427%2FFunctions%2F642794058" anchor-label="enum" id="-1850653427%2FFunctions%2F642794058" data-filterable-set=":http4k-config:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-config:dokkaHtmlPartial/main" data-filterable-set=":http4k-config:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../enum.html"><span><span>enum</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1850653427%2FFunctions%2F642794058"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-config:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">inline </span><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="../enum.html">T</a><span class="token operator"> : </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-enum/index.html">Enum</a><span class="token operator">&lt;</span><a href="../enum.html">T</a><span class="token operator">&gt;</span><span class="token operator">&gt; </span><a href="index.html">EnvironmentKey</a><span class="token punctuation">.</span><a href="../enum.html"><span class="token function">enum</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">caseSensitive<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator"> = </span><span class="token boolean">true</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.lens/-bi-di-lens-spec/index.html">BiDiLensSpec</a><span class="token operator">&lt;</span><a href="../-environment/index.html">Environment</a><span class="token punctuation">, </span><a href="../enum.html">T</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1617478177%2FFunctions%2F642794058" anchor-label="host" id="-1617478177%2FFunctions%2F642794058" data-filterable-set=":http4k-config:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-config:dokkaHtmlPartial/main" data-filterable-set=":http4k-config:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../../org.http4k.lens/host.html"><span><span>host</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1617478177%2FFunctions%2F642794058"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-config:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="../../org.http4k.lens/host.html">IN</a><span class="token operator"> : </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a><span class="token operator">&gt; </span><a href="../../../http4k-core/org.http4k.lens/-bi-di-lens-spec/index.html">BiDiLensSpec</a><span class="token operator">&lt;</span><a href="../../org.http4k.lens/host.html">IN</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="../../org.http4k.lens/host.html"><span class="token function">host</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.lens/-bi-di-lens-spec/index.html">BiDiLensSpec</a><span class="token operator">&lt;</span><a href="../../org.http4k.lens/host.html">IN</a><span class="token punctuation">, </span><a href="../-host/index.html">Host</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1244589263%2FFunctions%2F642794058" anchor-label="map" id="1244589263%2FFunctions%2F642794058" data-filterable-set=":http4k-config:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-config:dokkaHtmlPartial/main" data-filterable-set=":http4k-config:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-1984261510%2FFunctions%2F642794058"><span><span>map</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1244589263%2FFunctions%2F642794058"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-config:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="index.html#-1984261510%2FFunctions%2F642794058">NEXT</a><span class="token operator">&gt; </span><a href="index.html#-1984261510%2FFunctions%2F642794058"><span class="token function">map</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">nextIn<span class="token operator">: </span><span class="token punctuation">(</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="index.html#-1984261510%2FFunctions%2F642794058">NEXT</a><span class="token punctuation">, </span></span><span class="parameter ">nextOut<span class="token operator">: </span><span class="token punctuation">(</span><a href="index.html#-1984261510%2FFunctions%2F642794058">NEXT</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.lens/-bi-di-lens-spec/index.html">BiDiLensSpec</a><span class="token operator">&lt;</span><a href="../-environment/index.html">Environment</a><span class="token punctuation">, </span><a href="index.html#-1984261510%2FFunctions%2F642794058">NEXT</a><span class="token operator">&gt;</span></div><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="index.html#1493153377%2FFunctions%2F642794058">NEXT</a><span class="token operator">&gt; </span><a href="index.html#1493153377%2FFunctions%2F642794058"><span class="token function">map</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">nextIn<span class="token operator">: </span><span class="token punctuation">(</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="index.html#1493153377%2FFunctions%2F642794058">NEXT</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.lens/-lens-spec/index.html">LensSpec</a><span class="token operator">&lt;</span><a href="../-environment/index.html">Environment</a><span class="token punctuation">, </span><a href="index.html#1493153377%2FFunctions%2F642794058">NEXT</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="852063769%2FFunctions%2F642794058" anchor-label="mapWithNewMeta" id="852063769%2FFunctions%2F642794058" data-filterable-set=":http4k-config:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-config:dokkaHtmlPartial/main" data-filterable-set=":http4k-config:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#852063769%2FFunctions%2F642794058"><span>map</span><wbr><span>With</span><wbr><span>New</span><wbr><span><span>Meta</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="852063769%2FFunctions%2F642794058"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-config:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="index.html#852063769%2FFunctions%2F642794058">NEXT</a><span class="token operator">&gt; </span><a href="index.html#852063769%2FFunctions%2F642794058"><span class="token function">mapWithNewMeta</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">nextIn<span class="token operator">: </span><span class="token punctuation">(</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="index.html#852063769%2FFunctions%2F642794058">NEXT</a><span class="token punctuation">, </span></span><span class="parameter ">nextOut<span class="token operator">: </span><span class="token punctuation">(</span><a href="index.html#852063769%2FFunctions%2F642794058">NEXT</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">paramMeta<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.lens/-param-meta/index.html">ParamMeta</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.lens/-bi-di-lens-spec/index.html">BiDiLensSpec</a><span class="token operator">&lt;</span><a href="../-environment/index.html">Environment</a><span class="token punctuation">, </span><a href="index.html#852063769%2FFunctions%2F642794058">NEXT</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="837258331%2FFunctions%2F642794058" anchor-label="optional" id="837258331%2FFunctions%2F642794058" data-filterable-set=":http4k-config:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-config:dokkaHtmlPartial/main" data-filterable-set=":http4k-config:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#837258331%2FFunctions%2F642794058"><span><span>optional</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="837258331%2FFunctions%2F642794058"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-config:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#837258331%2FFunctions%2F642794058"><span class="token function">optional</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">name<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">description<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">metadata<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.lens/-bi-di-lens/index.html">BiDiLens</a><span class="token operator">&lt;</span><a href="../-environment/index.html">Environment</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1639935078%2FFunctions%2F642794058" anchor-label="port" id="1639935078%2FFunctions%2F642794058" data-filterable-set=":http4k-config:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-config:dokkaHtmlPartial/main" data-filterable-set=":http4k-config:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../../org.http4k.lens/port.html"><span><span>port</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1639935078%2FFunctions%2F642794058"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-config:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="../../org.http4k.lens/port.html">IN</a><span class="token operator"> : </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a><span class="token operator">&gt; </span><a href="../../../http4k-core/org.http4k.lens/-bi-di-lens-spec/index.html">BiDiLensSpec</a><span class="token operator">&lt;</span><a href="../../org.http4k.lens/port.html">IN</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="../../org.http4k.lens/port.html"><span class="token function">port</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.lens/-bi-di-lens-spec/index.html">BiDiLensSpec</a><span class="token operator">&lt;</span><a href="../../org.http4k.lens/port.html">IN</a><span class="token punctuation">, </span><a href="../-port/index.html">Port</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="37473626%2FFunctions%2F642794058" anchor-label="required" id="37473626%2FFunctions%2F642794058" data-filterable-set=":http4k-config:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-config:dokkaHtmlPartial/main" data-filterable-set=":http4k-config:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#37473626%2FFunctions%2F642794058"><span><span>required</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="37473626%2FFunctions%2F642794058"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-config:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="index.html#37473626%2FFunctions%2F642794058"><span class="token function">required</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">name<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">description<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">metadata<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.lens/-bi-di-lens/index.html">BiDiLens</a><span class="token operator">&lt;</span><a href="../-environment/index.html">Environment</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1750274921%2FFunctions%2F642794058" anchor-label="secret" id="-1750274921%2FFunctions%2F642794058" data-filterable-set=":http4k-config:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-config:dokkaHtmlPartial/main" data-filterable-set=":http4k-config:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../../org.http4k.lens/secret.html"><span><span>secret</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1750274921%2FFunctions%2F642794058"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-config:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="../../org.http4k.lens/secret.html">IN</a><span class="token operator"> : </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a><span class="token operator">&gt; </span><a href="../../../http4k-core/org.http4k.lens/-bi-di-lens-spec/index.html">BiDiLensSpec</a><span class="token operator">&lt;</span><a href="../../org.http4k.lens/secret.html">IN</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="../../org.http4k.lens/secret.html"><span class="token function">secret</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.lens/-bi-di-lens-spec/index.html">BiDiLensSpec</a><span class="token operator">&lt;</span><a href="../../org.http4k.lens/secret.html">IN</a><span class="token punctuation">, </span><a href="../-secret/index.html">Secret</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1883028500%2FFunctions%2F642794058" anchor-label="timeout" id="-1883028500%2FFunctions%2F642794058" data-filterable-set=":http4k-config:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-config:dokkaHtmlPartial/main" data-filterable-set=":http4k-config:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../../org.http4k.lens/timeout.html"><span><span>timeout</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1883028500%2FFunctions%2F642794058"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-config:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="../../org.http4k.lens/timeout.html">IN</a><span class="token operator"> : </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a><span class="token operator">&gt; </span><a href="../../../http4k-core/org.http4k.lens/-bi-di-lens-spec/index.html">BiDiLensSpec</a><span class="token operator">&lt;</span><a href="../../org.http4k.lens/timeout.html">IN</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="../../org.http4k.lens/timeout.html"><span class="token function">timeout</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.lens/-bi-di-lens-spec/index.html">BiDiLensSpec</a><span class="token operator">&lt;</span><a href="../../org.http4k.lens/timeout.html">IN</a><span class="token punctuation">, </span><a href="../-timeout/index.html">Timeout</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

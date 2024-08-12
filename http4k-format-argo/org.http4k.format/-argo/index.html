@@ -1,0 +1,505 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>Argo</title>
+<link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer></script></head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+<a class="library-name--link" href="../../../index.html">
+                            http4k
+                    </a>            </div>
+            <div class="library-version">LOCAL
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":http4k-format-argo:dokkaHtmlPartial/main">jvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageids="http4k-format-argo::org.http4k.format/Argo///PointingToDeclaration//1349815175">
+  <div class="breadcrumbs"><a href="../../index.html">http4k-format-argo</a><span class="delimiter">/</span><a href="../index.html">org.http4k.format</a><span class="delimiter">/</span><span class="current">Argo</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Argo</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-format-argo:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">object </span><a href="index.html">Argo</a> : <a href="../../../http4k-format-core/org.http4k.format/-json/index.html">Json</a><span class="token operator">&lt;</span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span><span class="token operator">&gt; </span></div></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="1241127260%2FFunctions%2F1349815175" anchor-label="array" id="1241127260%2FFunctions%2F1349815175" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-format-argo:dokkaHtmlPartial/main" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-624581319%2FFunctions%2F1349815175"><span><span>array</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1241127260%2FFunctions%2F1349815175"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-format-argo:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="index.html#-624581319%2FFunctions%2F1349815175">T</a><span class="token operator"> : </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span><span class="token operator">&gt; </span><a href="index.html#-624581319%2FFunctions%2F1349815175"><span class="token function">array</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="index.html#-624581319%2FFunctions%2F1349815175">T</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="index.html#123923439%2FFunctions%2F1349815175">T</a><span class="token operator"> : </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span><span class="token operator">&gt; </span><a href="index.html#123923439%2FFunctions%2F1349815175"><span class="token function">array</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html">Iterable</a><span class="token operator">&lt;</span><a href="index.html#123923439%2FFunctions%2F1349815175">T</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-22320415%2FFunctions%2F1349815175" anchor-label="asCompactJsonString" id="-22320415%2FFunctions%2F1349815175" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-format-argo:dokkaHtmlPartial/main" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="as-compact-json-string.html"><span>as</span><wbr><span>Compact</span><wbr><span>Json</span><wbr><span><span>String</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-22320415%2FFunctions%2F1349815175"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-format-argo:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span><span class="token punctuation">.</span><a href="as-compact-json-string.html"><span class="token function">asCompactJsonString</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1538807090%2FFunctions%2F1349815175" anchor-label="asJsonArray" id="-1538807090%2FFunctions%2F1349815175" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-format-argo:dokkaHtmlPartial/main" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="as-json-array.html"><span>as</span><wbr><span>Json</span><wbr><span><span>Array</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1538807090%2FFunctions%2F1349815175"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-format-argo:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="as-json-array.html">T</a><span class="token operator"> : </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html">Iterable</a><span class="token operator">&lt;</span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span><span class="token operator">&gt;</span><span class="token operator">&gt; </span><a href="as-json-array.html">T</a><span class="token punctuation">.</span><a href="as-json-array.html"><span class="token function">asJsonArray</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1828196704%2FFunctions%2F1349815175" anchor-label="asJsonObject" id="1828196704%2FFunctions%2F1349815175" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-format-argo:dokkaHtmlPartial/main" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="as-json-object.html"><span>as</span><wbr><span>Json</span><wbr><span><span>Object</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1828196704%2FFunctions%2F1349815175"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-format-argo:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="as-json-object.html">LIST</a><span class="token operator"> : </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html">Iterable</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html">Pair</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span><span class="token operator">&gt;</span><span class="token operator">&gt;</span><span class="token operator">&gt; </span><a href="as-json-object.html">LIST</a><span class="token punctuation">.</span><a href="as-json-object.html"><span class="token function">asJsonObject</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">.</span><a href="as-json-object.html"><span class="token function">asJsonObject</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="422760997%2FFunctions%2F1349815175" anchor-label="asJsonValue" id="422760997%2FFunctions%2F1349815175" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-format-argo:dokkaHtmlPartial/main" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="as-json-value.html"><span>as</span><wbr><span>Json</span><wbr><span><span>Value</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="422760997%2FFunctions%2F1349815175"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-format-argo:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="https://docs.oracle.com/javase/8/docs/api/java/math/BigDecimal.html">BigDecimal</a><span class="token operator">?</span><span class="token punctuation">.</span><a href="as-json-value.html"><span class="token function">asJsonValue</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="https://docs.oracle.com/javase/8/docs/api/java/math/BigInteger.html">BigInteger</a><span class="token operator">?</span><span class="token punctuation">.</span><a href="as-json-value.html"><span class="token function">asJsonValue</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator">?</span><span class="token punctuation">.</span><a href="as-json-value.html"><span class="token function">asJsonValue</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html">Double</a><span class="token operator">?</span><span class="token punctuation">.</span><a href="as-json-value.html"><span class="token function">asJsonValue</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator">?</span><span class="token punctuation">.</span><a href="as-json-value.html"><span class="token function">asJsonValue</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html">Long</a><span class="token operator">?</span><span class="token punctuation">.</span><a href="as-json-value.html"><span class="token function">asJsonValue</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token punctuation">.</span><a href="as-json-value.html"><span class="token function">asJsonValue</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2130278492%2FFunctions%2F1349815175" anchor-label="asPrettyJsonString" id="-2130278492%2FFunctions%2F1349815175" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-format-argo:dokkaHtmlPartial/main" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="as-pretty-json-string.html"><span>as</span><wbr><span>Pretty</span><wbr><span>Json</span><wbr><span><span>String</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2130278492%2FFunctions%2F1349815175"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-format-argo:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span><span class="token punctuation">.</span><a href="as-pretty-json-string.html"><span class="token function">asPrettyJsonString</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-736476698%2FFunctions%2F1349815175" anchor-label="body" id="-736476698%2FFunctions%2F1349815175" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-format-argo:dokkaHtmlPartial/main" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-736476698%2FFunctions%2F1349815175"><span><span>body</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-736476698%2FFunctions%2F1349815175"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-format-argo:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="index.html#-736476698%2FFunctions%2F1349815175"><span class="token function">body</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">description<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">contentNegotiation<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.lens/-content-negotiation/index.html">ContentNegotiation</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.lens/-bi-di-body-lens-spec/index.html">BiDiBodyLensSpec</a><span class="token operator">&lt;</span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1318250267%2FFunctions%2F1349815175" anchor-label="bool" id="-1318250267%2FFunctions%2F1349815175" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-format-argo:dokkaHtmlPartial/main" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="bool.html"><span><span>bool</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1318250267%2FFunctions%2F1349815175"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-format-argo:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="bool.html"><span class="token function">bool</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-481517970%2FFunctions%2F1349815175" anchor-label="boolean" id="-481517970%2FFunctions%2F1349815175" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-format-argo:dokkaHtmlPartial/main" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-481517970%2FFunctions%2F1349815175"><span><span>boolean</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-481517970%2FFunctions%2F1349815175"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-format-argo:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="index.html#-481517970%2FFunctions%2F1349815175"><span class="token function">boolean</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1441213629%2FFunctions%2F1349815175" anchor-label="compact" id="-1441213629%2FFunctions%2F1349815175" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-format-argo:dokkaHtmlPartial/main" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-1441213629%2FFunctions%2F1349815175"><span><span>compact</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1441213629%2FFunctions%2F1349815175"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-format-argo:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="index.html#-1441213629%2FFunctions%2F1349815175"><span class="token function">compact</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">node<span class="token operator">: </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="81506548%2FFunctions%2F1349815175" anchor-label="compactify" id="81506548%2FFunctions%2F1349815175" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-format-argo:dokkaHtmlPartial/main" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#81506548%2FFunctions%2F1349815175"><span><span>compactify</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="81506548%2FFunctions%2F1349815175"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-format-argo:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="index.html#81506548%2FFunctions%2F1349815175"><span class="token function">compactify</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">input<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1022919996%2FFunctions%2F1349815175" anchor-label="decimal" id="-1022919996%2FFunctions%2F1349815175" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-format-argo:dokkaHtmlPartial/main" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="decimal.html"><span><span>decimal</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1022919996%2FFunctions%2F1349815175"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-format-argo:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="decimal.html"><span class="token function">decimal</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/math/BigDecimal.html">BigDecimal</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2017044936%2FFunctions%2F1349815175" anchor-label="elements" id="-2017044936%2FFunctions%2F1349815175" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-format-argo:dokkaHtmlPartial/main" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="elements.html"><span><span>elements</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2017044936%2FFunctions%2F1349815175"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-format-argo:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="elements.html"><span class="token function">elements</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html">Iterable</a><span class="token operator">&lt;</span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="220223094%2FFunctions%2F1349815175" anchor-label="fields" id="220223094%2FFunctions%2F1349815175" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-format-argo:dokkaHtmlPartial/main" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="fields.html"><span><span>fields</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="220223094%2FFunctions%2F1349815175"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-format-argo:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="fields.html"><span class="token function">fields</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">node<span class="token operator">: </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html">Pair</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span><span class="token operator">&gt;</span><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="452623031%2FFunctions%2F1349815175" anchor-label="integer" id="452623031%2FFunctions%2F1349815175" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-format-argo:dokkaHtmlPartial/main" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="integer.html"><span><span>integer</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="452623031%2FFunctions%2F1349815175"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-format-argo:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="integer.html"><span class="token function">integer</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html">Long</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1163433452%2FFunctions%2F1349815175" anchor-label="invoke" id="1163433452%2FFunctions%2F1349815175" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-format-argo:dokkaHtmlPartial/main" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#1163433452%2FFunctions%2F1349815175"><span><span>invoke</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1163433452%2FFunctions%2F1349815175"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-format-argo:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">operator </span><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="index.html#1163433452%2FFunctions%2F1349815175">T</a><span class="token operator">&gt; </span><a href="index.html#1163433452%2FFunctions%2F1349815175"><span class="token function">invoke</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">fn<span class="token operator">: </span><a href="../../../http4k-format-core/org.http4k.format/-json/index.html">Json</a><span class="token operator">&lt;</span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span><span class="token operator">&gt;</span><span class="token punctuation">.</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="index.html#1163433452%2FFunctions%2F1349815175">T</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html#1163433452%2FFunctions%2F1349815175">T</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1516197750%2FFunctions%2F1349815175" anchor-label="json" id="1516197750%2FFunctions%2F1349815175" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-format-argo:dokkaHtmlPartial/main" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-1072883570%2FFunctions%2F1349815175"><span><span>json</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1516197750%2FFunctions%2F1349815175"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-format-argo:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="index.html#-1072883570%2FFunctions%2F1349815175">IN</a><span class="token operator"> : </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a><span class="token operator">&gt; </span><a href="../../../http4k-core/org.http4k.lens/-bi-di-lens-spec/index.html">BiDiLensSpec</a><span class="token operator">&lt;</span><a href="index.html#-1072883570%2FFunctions%2F1349815175">IN</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="index.html#-1072883570%2FFunctions%2F1349815175"><span class="token function">json</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.lens/-bi-di-lens-spec/index.html">BiDiLensSpec</a><span class="token operator">&lt;</span><a href="index.html#-1072883570%2FFunctions%2F1349815175">IN</a><span class="token punctuation">, </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span><span class="token operator">&gt;</span></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="../../../http4k-realtime-core/org.http4k.websocket/-ws-message/-companion/index.html">WsMessage.Companion</a><span class="token punctuation">.</span><a href="index.html#1707049438%2FFunctions%2F1349815175"><span class="token function">json</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-realtime-core/org.http4k.lens/-bi-di-ws-message-lens-spec/index.html">BiDiWsMessageLensSpec</a><span class="token operator">&lt;</span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span><span class="token operator">&gt;</span></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="../../../http4k-core/org.http4k.core/-body/-companion/index.html">Body.Companion</a><span class="token punctuation">.</span><a href="index.html#-215313886%2FFunctions%2F1349815175"><span class="token function">json</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">description<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">contentNegotiation<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.lens/-content-negotiation/index.html">ContentNegotiation</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.lens/-bi-di-body-lens-spec/index.html">BiDiBodyLensSpec</a><span class="token operator">&lt;</span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="129909302%2FFunctions%2F1349815175" anchor-label="jsonLens" id="129909302%2FFunctions%2F1349815175" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-format-argo:dokkaHtmlPartial/main" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#129909302%2FFunctions%2F1349815175"><span>json</span><wbr><span><span>Lens</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="129909302%2FFunctions%2F1349815175"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-format-argo:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="index.html#129909302%2FFunctions%2F1349815175">IN</a><span class="token operator"> : </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a><span class="token operator">&gt; </span><a href="index.html#129909302%2FFunctions%2F1349815175"><span class="token function">jsonLens</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">spec<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.lens/-bi-di-lens-spec/index.html">BiDiLensSpec</a><span class="token operator">&lt;</span><a href="index.html#129909302%2FFunctions%2F1349815175">IN</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.lens/-bi-di-lens-spec/index.html">BiDiLensSpec</a><span class="token operator">&lt;</span><a href="index.html#129909302%2FFunctions%2F1349815175">IN</a><span class="token punctuation">, </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1047176160%2FFunctions%2F1349815175" anchor-label="nullNode" id="1047176160%2FFunctions%2F1349815175" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-format-argo:dokkaHtmlPartial/main" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#1047176160%2FFunctions%2F1349815175"><span>null</span><wbr><span><span>Node</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1047176160%2FFunctions%2F1349815175"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-format-argo:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="index.html#1047176160%2FFunctions%2F1349815175"><span class="token function">nullNode</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2025401204%2FFunctions%2F1349815175" anchor-label="number" id="2025401204%2FFunctions%2F1349815175" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-format-argo:dokkaHtmlPartial/main" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-39660363%2FFunctions%2F1349815175"><span><span>number</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2025401204%2FFunctions%2F1349815175"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-format-argo:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="index.html#-39660363%2FFunctions%2F1349815175"><span class="token function">number</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/math/BigDecimal.html">BigDecimal</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="index.html#2065763368%2FFunctions%2F1349815175"><span class="token function">number</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/math/BigInteger.html">BigInteger</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="index.html#986702212%2FFunctions%2F1349815175"><span class="token function">number</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html">Double</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="index.html#1010384222%2FFunctions%2F1349815175"><span class="token function">number</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="index.html#2103480185%2FFunctions%2F1349815175"><span class="token function">number</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html">Long</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="577934748%2FFunctions%2F1349815175" anchor-label="obj" id="577934748%2FFunctions%2F1349815175" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-format-argo:dokkaHtmlPartial/main" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-1795112198%2FFunctions%2F1349815175"><span><span>obj</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="577934748%2FFunctions%2F1349815175"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-format-argo:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="index.html#-1795112198%2FFunctions%2F1349815175"><span class="token function">obj</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="index.html#-193024776%2FFunctions%2F1349815175">T</a><span class="token operator"> : </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span><span class="token operator">&gt; </span><a href="index.html#-193024776%2FFunctions%2F1349815175"><span class="token function">obj</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">vararg </span>fields<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html">Pair</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><a href="index.html#-193024776%2FFunctions%2F1349815175">T</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="index.html#2096584118%2FFunctions%2F1349815175">T</a><span class="token operator"> : </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span><span class="token operator">&gt; </span><a href="index.html#2096584118%2FFunctions%2F1349815175"><span class="token function">obj</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/index.html">Iterable</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html">Pair</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><a href="index.html#2096584118%2FFunctions%2F1349815175">T</a><span class="token operator">&gt;</span><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="885807622%2FFunctions%2F1349815175" anchor-label="parse" id="885807622%2FFunctions%2F1349815175" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-format-argo:dokkaHtmlPartial/main" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#885807622%2FFunctions%2F1349815175"><span><span>parse</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="885807622%2FFunctions%2F1349815175"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-format-argo:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="index.html#885807622%2FFunctions%2F1349815175"><span class="token function">parse</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">input<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="379073716%2FFunctions%2F1349815175" anchor-label="prettify" id="379073716%2FFunctions%2F1349815175" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-format-argo:dokkaHtmlPartial/main" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#379073716%2FFunctions%2F1349815175"><span><span>prettify</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="379073716%2FFunctions%2F1349815175"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-format-argo:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="index.html#379073716%2FFunctions%2F1349815175"><span class="token function">prettify</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">input<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1151405336%2FFunctions%2F1349815175" anchor-label="pretty" id="-1151405336%2FFunctions%2F1349815175" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-format-argo:dokkaHtmlPartial/main" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-1151405336%2FFunctions%2F1349815175"><span><span>pretty</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1151405336%2FFunctions%2F1349815175"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-format-argo:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="index.html#-1151405336%2FFunctions%2F1349815175"><span class="token function">pretty</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">node<span class="token operator">: </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="263185420%2FFunctions%2F1349815175" anchor-label="string" id="263185420%2FFunctions%2F1349815175" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-format-argo:dokkaHtmlPartial/main" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#263185420%2FFunctions%2F1349815175"><span><span>string</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="263185420%2FFunctions%2F1349815175"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-format-argo:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="index.html#263185420%2FFunctions%2F1349815175"><span class="token function">string</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1013080770%2FFunctions%2F1349815175" anchor-label="text" id="1013080770%2FFunctions%2F1349815175" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-format-argo:dokkaHtmlPartial/main" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="text.html"><span><span>text</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1013080770%2FFunctions%2F1349815175"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-format-argo:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="text.html"><span class="token function">text</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1832060801%2FFunctions%2F1349815175" anchor-label="textValueOf" id="-1832060801%2FFunctions%2F1349815175" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-format-argo:dokkaHtmlPartial/main" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="text-value-of.html"><span>text</span><wbr><span>Value</span><wbr><span><span>Of</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1832060801%2FFunctions%2F1349815175"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-format-argo:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="text-value-of.html"><span class="token function">textValueOf</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">node<span class="token operator">: </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span><span class="token punctuation">, </span></span><span class="parameter ">name<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="135944062%2FFunctions%2F1349815175" anchor-label="typeOf" id="135944062%2FFunctions%2F1349815175" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-format-argo:dokkaHtmlPartial/main" data-filterable-set=":http4k-format-argo:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="type-of.html"><span>type</span><wbr><span><span>Of</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="135944062%2FFunctions%2F1349815175"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-format-argo:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="type-of.html"><span class="token function">typeOf</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><span data-unresolved-link="argo.jdom/JsonNode///PointingToDeclaration/">JsonNode</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-format-core/org.http4k.format/-json-type/index.html">JsonType</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

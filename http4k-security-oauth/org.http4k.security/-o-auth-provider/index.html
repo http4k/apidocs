@@ -1,0 +1,236 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>OAuthProvider</title>
+<link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer></script></head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+<a class="library-name--link" href="../../../index.html">
+                            http4k
+                    </a>            </div>
+            <div class="library-version">LOCAL
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":http4k-security-oauth:dokkaHtmlPartial/main">jvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageids="http4k-security-oauth::org.http4k.security/OAuthProvider///PointingToDeclaration//1137287618">
+  <div class="breadcrumbs"><a href="../../index.html">http4k-security-oauth</a><span class="delimiter">/</span><a href="../index.html">org.http4k.security</a><span class="delimiter">/</span><span class="current">OAuthProvider</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>OAuth</span><wbr><span><span>Provider</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-security-oauth:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">OAuthProvider</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>providerConfig<span class="token operator">: </span><a href="../-o-auth-provider-config/index.html">OAuthProviderConfig</a><span class="token punctuation">, </span></span><span class="parameter ">client<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-http-handler/index.html">HttpHandler</a><span class="token punctuation">, </span></span><span class="parameter ">callbackUri<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>scopes<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span><span class="token punctuation">, </span></span><span class="parameter ">oAuthPersistence<span class="token operator">: </span><a href="../-o-auth-persistence/index.html">OAuthPersistence</a><span class="token punctuation">, </span></span><span class="parameter ">modifyAuthState<span class="token operator">: </span><span class="token punctuation">(</span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a><span class="token operator"> = </span>{ it }<span class="token punctuation">, </span></span><span class="parameter ">generateCrsf<span class="token operator">: </span><a href="../-csrf-generator/index.html">CsrfGenerator</a><span class="token operator"> = </span>SECURE_CSRF<span class="token punctuation">, </span></span><span class="parameter ">nonceGenerator<span class="token operator">: </span><a href="../../../http4k-security-core/org.http4k.security/-nonce-generator/index.html">NonceGenerator</a><span class="token operator"> = </span>SECURE_NONCE<span class="token punctuation">, </span></span><span class="parameter ">responseType<span class="token operator">: </span><a href="../-response-type/index.html">ResponseType</a><span class="token operator"> = </span>Code<span class="token punctuation">, </span></span><span class="parameter ">idTokenConsumer<span class="token operator">: </span><a href="../../org.http4k.security.openid/-id-token-consumer/index.html">IdTokenConsumer</a><span class="token operator"> = </span>NoOp<span class="token punctuation">, </span></span><span class="parameter ">accessTokenFetcherAuthenticator<span class="token operator">: </span><a href="../-access-token-fetcher-authenticator/index.html">AccessTokenFetcherAuthenticator</a><span class="token operator"> = </span>ClientSecretAccessTokenFetcherAuthenticator(
+        providerConfig
+    )<span class="token punctuation">, </span></span><span class="parameter ">jwtRedirectionUriBuilder<span class="token operator">: </span><span class="token punctuation">(</span><a href="../../org.http4k.security.openid/-request-jwts/index.html">RequestJwts</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="../-redirection-uri-builder/index.html">RedirectionUriBuilder</a><span class="token operator"> = </span>::uriBuilderWithRequestJwt<span class="token punctuation">, </span></span><span class="parameter ">redirectionUrlBuilder<span class="token operator">: </span><a href="../-redirection-uri-builder/index.html">RedirectionUriBuilder</a><span class="token operator"> = </span>defaultUriBuilder<span class="token punctuation">, </span></span><span class="parameter ">accessTokenExtractor<span class="token operator">: </span><a href="../-access-token-extractor/index.html">AccessTokenExtractor</a><span class="token operator"> = </span>ContentTypeJsonOrForm()<span class="token punctuation">, </span></span><span class="parameter ">responseMode<span class="token operator">: </span><a href="../-response-mode/index.html">ResponseMode</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">originalUri<span class="token operator">: </span><span class="token punctuation">(</span><a href="../../../http4k-core/org.http4k.core/-request/index.html">Request</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a><span class="token operator"> = </span>Request::uri</span></span><span class="token punctuation">)</span></div><p class="paragraph">Provides a configured set of objects for use with an OAuth2 provider.</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="490932405%2FConstructors%2F1137287618" anchor-label="OAuthProvider" id="490932405%2FConstructors%2F1137287618" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":http4k-security-oauth:dokkaHtmlPartial/main" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-o-auth-provider.html"><span>OAuth</span><wbr><span><span>Provider</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="490932405%2FConstructors%2F1137287618"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-security-oauth:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">providerConfig<span class="token operator">: </span><a href="../-o-auth-provider-config/index.html">OAuthProviderConfig</a><span class="token punctuation">, </span></span><span class="parameter ">client<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-http-handler/index.html">HttpHandler</a><span class="token punctuation">, </span></span><span class="parameter ">callbackUri<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a><span class="token punctuation">, </span></span><span class="parameter ">scopes<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span><span class="token punctuation">, </span></span><span class="parameter ">oAuthPersistence<span class="token operator">: </span><a href="../-o-auth-persistence/index.html">OAuthPersistence</a><span class="token punctuation">, </span></span><span class="parameter ">modifyAuthState<span class="token operator">: </span><span class="token punctuation">(</span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a><span class="token operator"> = </span>{ it }<span class="token punctuation">, </span></span><span class="parameter ">generateCrsf<span class="token operator">: </span><a href="../-csrf-generator/index.html">CsrfGenerator</a><span class="token operator"> = </span>SECURE_CSRF<span class="token punctuation">, </span></span><span class="parameter ">nonceGenerator<span class="token operator">: </span><a href="../../../http4k-security-core/org.http4k.security/-nonce-generator/index.html">NonceGenerator</a><span class="token operator"> = </span>SECURE_NONCE<span class="token punctuation">, </span></span><span class="parameter ">responseType<span class="token operator">: </span><a href="../-response-type/index.html">ResponseType</a><span class="token operator"> = </span>Code<span class="token punctuation">, </span></span><span class="parameter ">idTokenConsumer<span class="token operator">: </span><a href="../../org.http4k.security.openid/-id-token-consumer/index.html">IdTokenConsumer</a><span class="token operator"> = </span>NoOp<span class="token punctuation">, </span></span><span class="parameter ">accessTokenFetcherAuthenticator<span class="token operator">: </span><a href="../-access-token-fetcher-authenticator/index.html">AccessTokenFetcherAuthenticator</a><span class="token operator"> = </span>ClientSecretAccessTokenFetcherAuthenticator(
+        providerConfig
+    )<span class="token punctuation">, </span></span><span class="parameter ">jwtRedirectionUriBuilder<span class="token operator">: </span><span class="token punctuation">(</span><a href="../../org.http4k.security.openid/-request-jwts/index.html">RequestJwts</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="../-redirection-uri-builder/index.html">RedirectionUriBuilder</a><span class="token operator"> = </span>::uriBuilderWithRequestJwt<span class="token punctuation">, </span></span><span class="parameter ">redirectionUrlBuilder<span class="token operator">: </span><a href="../-redirection-uri-builder/index.html">RedirectionUriBuilder</a><span class="token operator"> = </span>defaultUriBuilder<span class="token punctuation">, </span></span><span class="parameter ">accessTokenExtractor<span class="token operator">: </span><a href="../-access-token-extractor/index.html">AccessTokenExtractor</a><span class="token operator"> = </span>ContentTypeJsonOrForm()<span class="token punctuation">, </span></span><span class="parameter ">responseMode<span class="token operator">: </span><a href="../-response-mode/index.html">ResponseMode</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">originalUri<span class="token operator">: </span><span class="token punctuation">(</span><a href="../../../http4k-core/org.http4k.core/-request/index.html">Request</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a><span class="token operator"> = </span>Request::uri</span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="TYPE">
+        <h2 class="">Types</h2>
+        <div class="table"><a data-name="-1719631979%2FClasslikes%2F1137287618" anchor-label="Companion" id="-1719631979%2FClasslikes%2F1137287618" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-security-oauth:dokkaHtmlPartial/main" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-companion/index.html"><span><span>Companion</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1719631979%2FClasslikes%2F1137287618"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-security-oauth:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">object </span><a href="-companion/index.html">Companion</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="1343055412%2FProperties%2F1137287618" anchor-label="api" id="1343055412%2FProperties%2F1137287618" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-security-oauth:dokkaHtmlPartial/main" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="api.html"><span><span>api</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1343055412%2FProperties%2F1137287618"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-security-oauth:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="api.html">api</a><span class="token operator">: </span><span class="token punctuation">(</span>request<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-request/index.html">Request</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="../../../http4k-core/org.http4k.core/-response/index.html">Response</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-741024756%2FProperties%2F1137287618" anchor-label="authFilter" id="-741024756%2FProperties%2F1137287618" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-security-oauth:dokkaHtmlPartial/main" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="auth-filter.html"><span>auth</span><wbr><span><span>Filter</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-741024756%2FProperties%2F1137287618"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-security-oauth:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="auth-filter.html">authFilter</a><span class="token operator">: </span><a href="../-o-auth-redirection-filter/index.html">OAuthRedirectionFilter</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1818413671%2FProperties%2F1137287618" anchor-label="callback" id="1818413671%2FProperties%2F1137287618" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-security-oauth:dokkaHtmlPartial/main" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="callback.html"><span><span>callback</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1818413671%2FProperties%2F1137287618"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-security-oauth:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="callback.html">callback</a><span class="token operator">: </span><a href="../-o-auth-callback/index.html">OAuthCallback</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1549263954%2FProperties%2F1137287618" anchor-label="callbackEndpoint" id="1549263954%2FProperties%2F1137287618" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-security-oauth:dokkaHtmlPartial/main" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="callback-endpoint.html"><span>callback</span><wbr><span><span>Endpoint</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1549263954%2FProperties%2F1137287618"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-security-oauth:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="callback-endpoint.html">callbackEndpoint</a><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.routing/-routing-http-handler/index.html">RoutingHttpHandler</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-886027623%2FProperties%2F1137287618" anchor-label="providerConfig" id="-886027623%2FProperties%2F1137287618" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-security-oauth:dokkaHtmlPartial/main" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="provider-config.html"><span>provider</span><wbr><span><span>Config</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-886027623%2FProperties%2F1137287618"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-security-oauth:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="provider-config.html">providerConfig</a><span class="token operator">: </span><a href="../-o-auth-provider-config/index.html">OAuthProviderConfig</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1483775757%2FProperties%2F1137287618" anchor-label="scopes" id="1483775757%2FProperties%2F1137287618" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-security-oauth:dokkaHtmlPartial/main" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="scopes.html"><span><span>scopes</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1483775757%2FProperties%2F1137287618"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-security-oauth:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="scopes.html">scopes</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="1843913937%2FFunctions%2F1137287618" anchor-label="authFilter" id="1843913937%2FFunctions%2F1137287618" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-security-oauth:dokkaHtmlPartial/main" data-filterable-set=":http4k-security-oauth:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="auth-filter.html"><span>auth</span><wbr><span><span>Filter</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1843913937%2FFunctions%2F1137287618"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-security-oauth:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">fun </span><a href="auth-filter.html"><span class="token function">authFilter</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">requestJwts<span class="token operator">: </span><a href="../../org.http4k.security.openid/-request-jwts/index.html">RequestJwts</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../-o-auth-redirection-filter/index.html">OAuthRedirectionFilter</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

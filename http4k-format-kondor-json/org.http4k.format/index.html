@@ -1,0 +1,178 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>org.http4k.format</title>
+<link href="../../images/logo-icon.svg" rel="icon" type="image/svg">    <script>var pathToRoot = "../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async></script>
+<script type="text/javascript" src="../../scripts/sourceset_dependencies.js" async></script>
+<link href="../../styles/style.css" rel="Stylesheet">
+<link href="../../styles/main.css" rel="Stylesheet">
+<link href="../../styles/prism.css" rel="Stylesheet">
+<link href="../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../scripts/clipboard.js" async></script>
+<script type="text/javascript" src="../../scripts/navigation-loader.js" async></script>
+<script type="text/javascript" src="../../scripts/platform-content-handler.js" async></script>
+<script type="text/javascript" src="../../scripts/main.js" defer></script>
+<script type="text/javascript" src="../../scripts/prism.js" async></script>
+<script type="text/javascript" src="../../scripts/symbol-parameters-wrapper_deferred.js" defer></script></head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+<a class="library-name--link" href="../../index.html">
+                            http4k
+                    </a>            </div>
+            <div class="library-version">LOCAL
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":http4k-format-kondor-json:dokkaHtmlPartial/main">jvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="package" id="content" pageids="http4k-format-kondor-json::org.http4k.format////PointingToDeclaration//-176091478">
+  <div class="breadcrumbs"><a href="../index.html">http4k-format-kondor-json</a><span class="delimiter">/</span><span class="current">org.http4k.format</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Package-level</span></span> <span><span>declarations</span></span></h1>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="TYPE">Types</button><button class="section-tab" data-togglable="FUNCTION,EXTENSION_FUNCTION">Functions</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="TYPE">
+        <h2 class="">Types</h2>
+        <div class="table"><a data-name="1535374105%2FClasslikes%2F-176091478" anchor-label="KondorJson" id="1535374105%2FClasslikes%2F-176091478" data-filterable-set=":http4k-format-kondor-json:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-format-kondor-json:dokkaHtmlPartial/main" data-filterable-set=":http4k-format-kondor-json:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-kondor-json/index.html"><span>Kondor</span><wbr><span><span>Json</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1535374105%2FClasslikes%2F-176091478"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-format-kondor-json:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">class </span><a href="-kondor-json/index.html">KondorJson</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>defaultContentType<span class="token operator">: </span><a href="../../http4k-core/org.http4k.core/-content-type/index.html">ContentType</a><span class="token operator"> = </span>APPLICATION_JSON<span class="token punctuation">, </span></span><span class="parameter ">compactJsonStyle<span class="token operator">: </span><span data-unresolved-link="com.ubertob.kondor.json/JsonStyle///PointingToDeclaration/">JsonStyle</span><span class="token operator"> = </span>JsonStyle.compactWithNulls<span class="token punctuation">, </span></span><span class="parameter ">prettyJsonStyle<span class="token operator">: </span><span data-unresolved-link="com.ubertob.kondor.json/JsonStyle///PointingToDeclaration/">JsonStyle</span><span class="token operator"> = </span>JsonStyle.prettyWithNulls<span class="token punctuation">, </span></span><span class="parameter ">init<span class="token operator">: </span><a href="-kondor-json/-init-context/index.html">KondorJson.InitContext</a><span class="token punctuation">.</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator"> = </span>{}</span></span><span class="token punctuation">)</span> : <a href="../../http4k-format-core/org.http4k.format/-auto-marshalling-json/index.html">AutoMarshallingJson</a><span class="token operator">&lt;</span><span data-unresolved-link="com.ubertob.kondor.json.jsonnode/JsonNode///PointingToDeclaration/">JsonNode</span><span class="token operator">&gt; </span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="EXTENSION_FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="-120706959%2FFunctions%2F-176091478" anchor-label="asJConverter" id="-120706959%2FFunctions%2F-176091478" data-filterable-set=":http4k-format-kondor-json:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-format-kondor-json:dokkaHtmlPartial/main" data-filterable-set=":http4k-format-kondor-json:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="as-j-converter.html"><span>as</span><wbr><span><span>JConverter</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-120706959%2FFunctions%2F-176091478"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-format-kondor-json:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="as-j-converter.html">OUT</a><span class="token operator">&gt; </span><a href="../../http4k-core/org.http4k.lens/-bi-di-mapping/index.html">BiDiMapping</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token punctuation">, </span><a href="as-j-converter.html">OUT</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="as-j-converter.html"><span class="token function">asJConverter</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="com.ubertob.kondor.json/JsonConverter///PointingToDeclaration/">JsonConverter</span><span class="token operator">&lt;</span><a href="as-j-converter.html">OUT</a><span class="token punctuation">, </span><span data-unresolved-link="com.ubertob.kondor.json.jsonnode/JsonNodeBoolean///PointingToDeclaration/">JsonNodeBoolean</span><span class="token operator">&gt;</span></div><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="as-j-converter.html">OUT</a><span class="token operator">&gt; </span><a href="../../http4k-core/org.http4k.lens/-bi-di-mapping/index.html">BiDiMapping</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><a href="as-j-converter.html">OUT</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="as-j-converter.html"><span class="token function">asJConverter</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="com.ubertob.kondor.json/JStringRepresentable///PointingToDeclaration/">JStringRepresentable</span><span class="token operator">&lt;</span><a href="as-j-converter.html">OUT</a><span class="token operator">&gt;</span></div><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="as-j-converter.html">IN</a><span class="token operator"> : </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-number/index.html">Number</a><span class="token punctuation">, </span><a href="as-j-converter.html">OUT</a><span class="token operator"> : </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a><span class="token operator">&gt; </span><a href="../../http4k-core/org.http4k.lens/-bi-di-mapping/index.html">BiDiMapping</a><span class="token operator">&lt;</span><a href="as-j-converter.html">IN</a><span class="token punctuation">, </span><a href="as-j-converter.html">OUT</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="as-j-converter.html"><span class="token function">asJConverter</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">valueConverter<span class="token operator">: </span><span data-unresolved-link="com.ubertob.kondor.json/JNumRepresentable///PointingToDeclaration/">JNumRepresentable</span><span class="token operator">&lt;</span><a href="as-j-converter.html">IN</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="com.ubertob.kondor.json/JNumRepresentable///PointingToDeclaration/">JNumRepresentable</span><span class="token operator">&lt;</span><a href="as-j-converter.html">OUT</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="507471090%2FFunctions%2F-176091478" anchor-label="autoBody" id="507471090%2FFunctions%2F-176091478" data-filterable-set=":http4k-format-kondor-json:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-format-kondor-json:dokkaHtmlPartial/main" data-filterable-set=":http4k-format-kondor-json:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="auto-body.html"><span>auto</span><wbr><span><span>Body</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="507471090%2FFunctions%2F-176091478"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-format-kondor-json:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="auto-body.html">T</a><span class="token operator"> : </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a><span class="token operator">&gt; </span><span data-unresolved-link="com.ubertob.kondor.json/JsonConverter///PointingToDeclaration/">JsonConverter</span><span class="token operator">&lt;</span><a href="auto-body.html">T</a><span class="token punctuation">, </span><span class="token operator">*</span><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="auto-body.html"><span class="token function">autoBody</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">description<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">contentNegotiation<span class="token operator">: </span><a href="../../http4k-core/org.http4k.lens/-content-negotiation/index.html">ContentNegotiation</a><span class="token operator"> = </span>ContentNegotiation.None<span class="token punctuation">, </span></span><span class="parameter ">contentType<span class="token operator">: </span><a href="../../http4k-core/org.http4k.core/-content-type/index.html">ContentType</a><span class="token operator"> = </span>APPLICATION_JSON<span class="token punctuation">, </span></span><span class="parameter ">renderStyle<span class="token operator">: </span><span data-unresolved-link="com.ubertob.kondor.json/JsonStyle///PointingToDeclaration/">JsonStyle</span><span class="token operator"> = </span>JsonStyle.compactWithNulls</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../http4k-core/org.http4k.lens/-bi-di-body-lens-spec/index.html">BiDiBodyLensSpec</a><span class="token operator">&lt;</span><a href="auto-body.html">T</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2098647444%2FFunctions%2F-176091478" anchor-label="invoke" id="-2098647444%2FFunctions%2F-176091478" data-filterable-set=":http4k-format-kondor-json:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-format-kondor-json:dokkaHtmlPartial/main" data-filterable-set=":http4k-format-kondor-json:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="invoke.html"><span><span>invoke</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2098647444%2FFunctions%2F-176091478"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-format-kondor-json:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">inline operator </span><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="invoke.html">T</a><span class="token operator"> : </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a><span class="token punctuation">, </span><a href="invoke.html">R</a><span class="token operator"> : </span><a href="../../http4k-core/org.http4k.core/-http-message/index.html">HttpMessage</a><span class="token operator">&gt; </span><a href="-kondor-json/index.html">KondorJson</a><span class="token punctuation">.</span><a href="invoke.html"><span class="token function">invoke</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">item<span class="token operator">: </span><a href="invoke.html">T</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span class="token punctuation">(</span><a href="invoke.html">R</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="invoke.html">R</a></div><div class="symbol monospace"><span class="token keyword">inline operator </span><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="invoke.html">T</a><span class="token operator"> : </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a><span class="token operator">&gt; </span><a href="-kondor-json/index.html">KondorJson</a><span class="token punctuation">.</span><a href="invoke.html"><span class="token function">invoke</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">msg<span class="token operator">: </span><a href="../../http4k-core/org.http4k.core/-http-message/index.html">HttpMessage</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="invoke.html">T</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-720116197%2FFunctions%2F-176091478" anchor-label="register" id="-720116197%2FFunctions%2F-176091478" data-filterable-set=":http4k-format-kondor-json:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-format-kondor-json:dokkaHtmlPartial/main" data-filterable-set=":http4k-format-kondor-json:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="register.html"><span><span>register</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-720116197%2FFunctions%2F-176091478"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-format-kondor-json:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">inline </span><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="register.html">T</a><span class="token operator"> : </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a><span class="token punctuation">, </span><a href="register.html">JN</a><span class="token operator"> : </span><span data-unresolved-link="com.ubertob.kondor.json.jsonnode/JsonNode///PointingToDeclaration/">JsonNode</span><span class="token operator">&gt; </span><a href="-kondor-json/-init-context/index.html">KondorJson.InitContext</a><span class="token punctuation">.</span><a href="register.html"><span class="token function">register</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">converter<span class="token operator">: </span><span data-unresolved-link="com.ubertob.kondor.json/JsonConverter///PointingToDeclaration/">JsonConverter</span><span class="token operator">&lt;</span><a href="register.html">T</a><span class="token punctuation">, </span><a href="register.html">JN</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-kondor-json/-init-context/index.html">KondorJson.InitContext</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1946507694%2FFunctions%2F-176091478" anchor-label="wsAutoBody" id="1946507694%2FFunctions%2F-176091478" data-filterable-set=":http4k-format-kondor-json:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-format-kondor-json:dokkaHtmlPartial/main" data-filterable-set=":http4k-format-kondor-json:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="ws-auto-body.html"><span>ws</span><wbr><span>Auto</span><wbr><span><span>Body</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1946507694%2FFunctions%2F-176091478"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-format-kondor-json:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="ws-auto-body.html">T</a><span class="token operator"> : </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a><span class="token operator">&gt; </span><span data-unresolved-link="com.ubertob.kondor.json/JsonConverter///PointingToDeclaration/">JsonConverter</span><span class="token operator">&lt;</span><a href="ws-auto-body.html">T</a><span class="token punctuation">, </span><span class="token operator">*</span><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="ws-auto-body.html"><span class="token function">wsAutoBody</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">renderStyle<span class="token operator">: </span><span data-unresolved-link="com.ubertob.kondor.json/JsonStyle///PointingToDeclaration/">JsonStyle</span><span class="token operator"> = </span>JsonStyle.compactWithNulls</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../http4k-realtime-core/org.http4k.lens/-bi-di-ws-message-lens-spec/index.html">BiDiWsMessageLensSpec</a><span class="token operator">&lt;</span><a href="ws-auto-body.html">T</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

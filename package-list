@@ -4,6 +4,8 @@ $dokka.linkExtension:html
 module:http4k-aws
 org.http4k.aws
 org.http4k.filter
+module:http4k-azure
+org.http4k.azure
 module:http4k-client-apache
 org.http4k.client
 module:http4k-client-apache-async

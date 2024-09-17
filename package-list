@@ -24,7 +24,6 @@ module:http4k-client-okhttp
 org.http4k.client
 module:http4k-client-websocket
 org.http4k.client
-org.http4k.client.internal
 module:http4k-cloudevents
 io.cloudevents
 io.cloudevents.core.builder

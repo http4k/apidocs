@@ -1,0 +1,691 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>GitHubUser</title>
+<link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer></script>
+<link href="../../../styles/dokka.css" rel="Stylesheet"></head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+<a class="library-name--link" href="../../../index.html">
+                            http4k
+                    </a>            </div>
+            <div class="library-version">5.35.0.0
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":http4k-connect-github:dokkaHtmlPartial/main">jvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+            <a class="navigation-controls--btn navigation-controls--homepage" id="homepage-link" href="https://http4k.org"></a>
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageids="http4k-connect-github::org.http4k.connect.github.api.action/GitHubUser///PointingToDeclaration//-1397920538">
+  <div class="breadcrumbs"><a href="../../index.html">http4k-connect-github</a><span class="delimiter">/</span><a href="../index.html">org.http4k.connect.github.api.action</a><span class="delimiter">/</span><span class="current">GitHubUser</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Git</span><wbr><span>Hub</span><wbr><span><span>User</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="se.ansman.kotshi/JsonSerializable///PointingToDeclaration/"><span class="token annotation builtin">JsonSerializable</span></span></div></div><span class="token keyword">data </span><span class="token keyword">class </span><a href="index.html">GitHubUser</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>login<span class="token operator">: </span><a href="../../org.http4k.connect.github.model/-owner/index.html">Owner</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>id<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>node_id<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>avatar_url<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>gravatar_id<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>url<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>html_url<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>followers_url<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>following_url<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>gists_url<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>starred_url<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>subscriptions_url<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>organizations_url<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>repos_url<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>events_url<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>received_events_url<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>type<span class="token operator">: </span><a href="../-account-type/index.html">AccountType</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>site_admin<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>name<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>company<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>blog<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>location<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>email<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>hireable<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>bio<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>twitter_username<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>public_repos<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>public_gists<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>followers<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>following<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>created_at<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>updated_at<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>private_gists<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>total_private_repos<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>owned_private_repos<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>disk_usage<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>collaborators<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>two_factor_authentication<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>plan<span class="token operator">: </span><a href="../-plan/index.html">Plan</a></span></span><span class="token punctuation">)</span></div></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="286607590%2FConstructors%2F-1397920538" anchor-label="GitHubUser" id="286607590%2FConstructors%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-git-hub-user.html"><span>Git</span><wbr><span>Hub</span><wbr><span><span>User</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="286607590%2FConstructors%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">login<span class="token operator">: </span><a href="../../org.http4k.connect.github.model/-owner/index.html">Owner</a><span class="token punctuation">, </span></span><span class="parameter ">id<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">node_id<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">avatar_url<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a><span class="token punctuation">, </span></span><span class="parameter ">gravatar_id<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">url<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a><span class="token punctuation">, </span></span><span class="parameter ">html_url<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a><span class="token punctuation">, </span></span><span class="parameter ">followers_url<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a><span class="token punctuation">, </span></span><span class="parameter ">following_url<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a><span class="token punctuation">, </span></span><span class="parameter ">gists_url<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a><span class="token punctuation">, </span></span><span class="parameter ">starred_url<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a><span class="token punctuation">, </span></span><span class="parameter ">subscriptions_url<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a><span class="token punctuation">, </span></span><span class="parameter ">organizations_url<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a><span class="token punctuation">, </span></span><span class="parameter ">repos_url<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a><span class="token punctuation">, </span></span><span class="parameter ">events_url<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a><span class="token punctuation">, </span></span><span class="parameter ">received_events_url<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a><span class="token punctuation">, </span></span><span class="parameter ">type<span class="token operator">: </span><a href="../-account-type/index.html">AccountType</a><span class="token punctuation">, </span></span><span class="parameter ">site_admin<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token punctuation">, </span></span><span class="parameter ">name<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">company<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">blog<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">location<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">email<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">hireable<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token punctuation">, </span></span><span class="parameter ">bio<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">twitter_username<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">public_repos<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">public_gists<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">followers<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">following<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">created_at<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">updated_at<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">private_gists<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">total_private_repos<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">owned_private_repos<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">disk_usage<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">collaborators<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">two_factor_authentication<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token punctuation">, </span></span><span class="parameter ">plan<span class="token operator">: </span><a href="../-plan/index.html">Plan</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="1664601654%2FProperties%2F-1397920538" anchor-label="avatar_url" id="1664601654%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="avatar_url.html"><span><span>avatar_url</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1664601654%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="avatar_url.html">avatar_url</a><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="256748051%2FProperties%2F-1397920538" anchor-label="bio" id="256748051%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="bio.html"><span><span>bio</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="256748051%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="bio.html">bio</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-200937539%2FProperties%2F-1397920538" anchor-label="blog" id="-200937539%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="blog.html"><span><span>blog</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-200937539%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="blog.html">blog</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-470303730%2FProperties%2F-1397920538" anchor-label="collaborators" id="-470303730%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="collaborators.html"><span><span>collaborators</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-470303730%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="collaborators.html">collaborators</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1802016450%2FProperties%2F-1397920538" anchor-label="company" id="-1802016450%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="company.html"><span><span>company</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1802016450%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="company.html">company</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-105388555%2FProperties%2F-1397920538" anchor-label="created_at" id="-105388555%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="created_at.html"><span><span>created_at</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-105388555%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="created_at.html">created_at</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1263455232%2FProperties%2F-1397920538" anchor-label="disk_usage" id="1263455232%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="disk_usage.html"><span><span>disk_usage</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1263455232%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="disk_usage.html">disk_usage</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1336642175%2FProperties%2F-1397920538" anchor-label="email" id="1336642175%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="email.html"><span><span>email</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1336642175%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="email.html">email</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1389086326%2FProperties%2F-1397920538" anchor-label="events_url" id="1389086326%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="events_url.html"><span><span>events_url</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1389086326%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="events_url.html">events_url</a><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-957506266%2FProperties%2F-1397920538" anchor-label="followers" id="-957506266%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="followers.html"><span><span>followers</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-957506266%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="followers.html">followers</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1593347594%2FProperties%2F-1397920538" anchor-label="followers_url" id="-1593347594%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="followers_url.html"><span><span>followers_url</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1593347594%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="followers_url.html">followers_url</a><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1900178902%2FProperties%2F-1397920538" anchor-label="following" id="-1900178902%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="following.html"><span><span>following</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1900178902%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="following.html">following</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1712145658%2FProperties%2F-1397920538" anchor-label="following_url" id="1712145658%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="following_url.html"><span><span>following_url</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1712145658%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="following_url.html">following_url</a><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1796510501%2FProperties%2F-1397920538" anchor-label="gists_url" id="-1796510501%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="gists_url.html"><span><span>gists_url</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1796510501%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="gists_url.html">gists_url</a><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2098362459%2FProperties%2F-1397920538" anchor-label="gravatar_id" id="-2098362459%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="gravatar_id.html"><span><span>gravatar_id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2098362459%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="gravatar_id.html">gravatar_id</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1273373295%2FProperties%2F-1397920538" anchor-label="hireable" id="-1273373295%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="hireable.html"><span><span>hireable</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1273373295%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="hireable.html">hireable</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="471126436%2FProperties%2F-1397920538" anchor-label="html_url" id="471126436%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="html_url.html"><span><span>html_url</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="471126436%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="html_url.html">html_url</a><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-805049116%2FProperties%2F-1397920538" anchor-label="id" id="-805049116%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="id.html"><span><span>id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-805049116%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="id.html">id</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="58731018%2FProperties%2F-1397920538" anchor-label="location" id="58731018%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="location.html"><span><span>location</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="58731018%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="location.html">location</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1335678802%2FProperties%2F-1397920538" anchor-label="login" id="1335678802%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="login.html"><span><span>login</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1335678802%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="login.html">login</a><span class="token operator">: </span><a href="../../org.http4k.connect.github.model/-owner/index.html">Owner</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="343182580%2FProperties%2F-1397920538" anchor-label="name" id="343182580%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="name.html"><span><span>name</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="343182580%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="name.html">name</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2065570211%2FProperties%2F-1397920538" anchor-label="node_id" id="2065570211%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="node_id.html"><span><span>node_id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2065570211%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="node_id.html">node_id</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-148550325%2FProperties%2F-1397920538" anchor-label="organizations_url" id="-148550325%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="organizations_url.html"><span><span>organizations_url</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-148550325%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="organizations_url.html">organizations_url</a><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1265507568%2FProperties%2F-1397920538" anchor-label="owned_private_repos" id="-1265507568%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="owned_private_repos.html"><span><span>owned_private_repos</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1265507568%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="owned_private_repos.html">owned_private_repos</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="551995926%2FProperties%2F-1397920538" anchor-label="plan" id="551995926%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="plan.html"><span><span>plan</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="551995926%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="plan.html">plan</a><span class="token operator">: </span><a href="../-plan/index.html">Plan</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="627068615%2FProperties%2F-1397920538" anchor-label="private_gists" id="627068615%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="private_gists.html"><span><span>private_gists</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="627068615%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="private_gists.html">private_gists</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1778075739%2FProperties%2F-1397920538" anchor-label="public_gists" id="-1778075739%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="public_gists.html"><span><span>public_gists</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1778075739%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="public_gists.html">public_gists</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="120069012%2FProperties%2F-1397920538" anchor-label="public_repos" id="120069012%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="public_repos.html"><span><span>public_repos</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="120069012%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="public_repos.html">public_repos</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="807329172%2FProperties%2F-1397920538" anchor-label="received_events_url" id="807329172%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="received_events_url.html"><span><span>received_events_url</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="807329172%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="received_events_url.html">received_events_url</a><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1020084554%2FProperties%2F-1397920538" anchor-label="repos_url" id="1020084554%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="repos_url.html"><span><span>repos_url</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1020084554%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="repos_url.html">repos_url</a><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-224469208%2FProperties%2F-1397920538" anchor-label="site_admin" id="-224469208%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="site_admin.html"><span><span>site_admin</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-224469208%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="site_admin.html">site_admin</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1400511692%2FProperties%2F-1397920538" anchor-label="starred_url" id="1400511692%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="starred_url.html"><span><span>starred_url</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1400511692%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="starred_url.html">starred_url</a><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-101678155%2FProperties%2F-1397920538" anchor-label="subscriptions_url" id="-101678155%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="subscriptions_url.html"><span><span>subscriptions_url</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-101678155%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="subscriptions_url.html">subscriptions_url</a><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="200447377%2FProperties%2F-1397920538" anchor-label="total_private_repos" id="200447377%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="total_private_repos.html"><span><span>total_private_repos</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="200447377%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="total_private_repos.html">total_private_repos</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2117883075%2FProperties%2F-1397920538" anchor-label="twitter_username" id="-2117883075%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="twitter_username.html"><span><span>twitter_username</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2117883075%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="twitter_username.html">twitter_username</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2051073926%2FProperties%2F-1397920538" anchor-label="two_factor_authentication" id="2051073926%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="two_factor_authentication.html"><span><span>two_factor_authentication</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2051073926%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="two_factor_authentication.html">two_factor_authentication</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1272957733%2FProperties%2F-1397920538" anchor-label="type" id="1272957733%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="type.html"><span><span>type</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1272957733%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="type.html">type</a><span class="token operator">: </span><a href="../-account-type/index.html">AccountType</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1021189448%2FProperties%2F-1397920538" anchor-label="updated_at" id="1021189448%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="updated_at.html"><span><span>updated_at</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1021189448%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="updated_at.html">updated_at</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-316746868%2FProperties%2F-1397920538" anchor-label="url" id="-316746868%2FProperties%2F-1397920538" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-github:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-github:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="url.html"><span><span>url</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-316746868%2FProperties%2F-1397920538"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-github:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="url.html">url</a><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.core/-uri/index.html">Uri</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>(c) 2024 http4k</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

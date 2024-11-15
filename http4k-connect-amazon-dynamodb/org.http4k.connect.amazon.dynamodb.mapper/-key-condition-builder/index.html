@@ -1,0 +1,275 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>KeyConditionBuilder</title>
+<link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer></script>
+<link href="../../../styles/dokka.css" rel="Stylesheet"></head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+<a class="library-name--link" href="../../../index.html">
+                            http4k
+                    </a>            </div>
+            <div class="library-version">5.35.0.0
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main">jvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+            <a class="navigation-controls--btn navigation-controls--homepage" id="homepage-link" href="https://http4k.org"></a>
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageids="http4k-connect-amazon-dynamodb::org.http4k.connect.amazon.dynamodb.mapper/KeyConditionBuilder///PointingToDeclaration//251999592">
+  <div class="breadcrumbs"><a href="../../index.html">http4k-connect-amazon-dynamodb</a><span class="delimiter">/</span><a href="../index.html">org.http4k.connect.amazon.dynamodb.mapper</a><span class="delimiter">/</span><span class="current">KeyConditionBuilder</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Key</span><wbr><span>Condition</span><wbr><span><span>Builder</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">KeyConditionBuilder</a><span class="token operator">&lt;</span><a href="index.html">HashKey</a><span class="token operator"> : </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a><span class="token punctuation">, </span><a href="index.html">SortKey</a><span class="token operator"> : </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a><span class="token operator">&gt;</span></div><p class="paragraph">See https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Query.KeyConditionExpressions.html</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="TYPE">
+        <h2 class="">Types</h2>
+        <div class="table"><a data-name="2005986302%2FClasslikes%2F251999592" anchor-label="HashKeySubstitute" id="2005986302%2FClasslikes%2F251999592" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-hash-key-substitute/index.html"><span>Hash</span><wbr><span>Key</span><wbr><span><span>Substitute</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2005986302%2FClasslikes%2F251999592"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">inner </span><span class="token keyword">class </span><a href="-hash-key-substitute/index.html">HashKeySubstitute</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>attribute<span class="token operator">: </span><a href="../../org.http4k.connect.amazon.dynamodb.model/-attribute/index.html">Attribute</a><span class="token operator">&lt;</span><a href="index.html">HashKey</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1902496626%2FClasslikes%2F251999592" anchor-label="SortKeySubstitute" id="-1902496626%2FClasslikes%2F251999592" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-sort-key-substitute/index.html"><span>Sort</span><wbr><span>Key</span><wbr><span><span>Substitute</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1902496626%2FClasslikes%2F251999592"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">inner </span><span class="token keyword">class </span><a href="-sort-key-substitute/index.html">SortKeySubstitute</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>attribute<span class="token operator">: </span><a href="../../org.http4k.connect.amazon.dynamodb.model/-attribute/index.html">Attribute</a><span class="token operator">&lt;</span><a href="index.html">SortKey</a><span class="token operator">&gt;</span><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="1742121381%2FProperties%2F251999592" anchor-label="hashKey" id="1742121381%2FProperties%2F251999592" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="hash-key.html"><span>hash</span><wbr><span><span>Key</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1742121381%2FProperties%2F251999592"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="hash-key.html">hashKey</a><span class="token operator">: </span><a href="-hash-key-substitute/index.html">KeyConditionBuilder.HashKeySubstitute</a><span class="token operator">&lt;</span><a href="index.html">HashKey</a><span class="token punctuation">, </span><a href="index.html">SortKey</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1438017077%2FProperties%2F251999592" anchor-label="sortKey" id="1438017077%2FProperties%2F251999592" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="sort-key.html"><span>sort</span><wbr><span><span>Key</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1438017077%2FProperties%2F251999592"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="sort-key.html">sortKey</a><span class="token operator">: </span><a href="-sort-key-substitute/index.html">KeyConditionBuilder.SortKeySubstitute</a><span class="token operator">&lt;</span><a href="index.html">HashKey</a><span class="token punctuation">, </span><a href="index.html">SortKey</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="1221100344%2FFunctions%2F251999592" anchor-label="and" id="1221100344%2FFunctions%2F251999592" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="and.html"><span><span>and</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1221100344%2FFunctions%2F251999592"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">infix </span><span class="token keyword">fun </span><a href="../-partition-key-condition/index.html">PartitionKeyCondition</a><span class="token operator">&lt;</span><a href="index.html">HashKey</a><span class="token punctuation">, </span><a href="index.html">SortKey</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="and.html"><span class="token function">and</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">secondary<span class="token operator">: </span><a href="../-sort-key-condition/index.html">SortKeyCondition</a><span class="token operator">&lt;</span><a href="index.html">HashKey</a><span class="token punctuation">, </span><a href="index.html">SortKey</a><span class="token operator">&gt;</span><span class="token operator">?</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../-combined-key-condition/index.html">CombinedKeyCondition</a><span class="token operator">&lt;</span><a href="index.html">HashKey</a><span class="token punctuation">, </span><a href="index.html">SortKey</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1788367077%2FFunctions%2F251999592" anchor-label="beginsWith" id="1788367077%2FFunctions%2F251999592" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="begins-with.html"><span>begins</span><wbr><span><span>With</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1788367077%2FFunctions%2F251999592"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">infix </span><span class="token keyword">fun </span><a href="-sort-key-substitute/index.html">KeyConditionBuilder.SortKeySubstitute</a><span class="token operator">&lt;</span><a href="index.html">HashKey</a><span class="token punctuation">, </span><a href="index.html">SortKey</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="begins-with.html"><span class="token function">beginsWith</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="index.html">SortKey</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../-sort-key-condition/index.html">SortKeyCondition</a><span class="token operator">&lt;</span><a href="index.html">HashKey</a><span class="token punctuation">, </span><a href="index.html">SortKey</a><span class="token operator">&gt;</span><span class="token operator">?</span></div><div class="symbol monospace"><span class="token keyword">infix </span><span class="token keyword">fun </span><a href="../../org.http4k.connect.amazon.dynamodb.model/-attribute/index.html">Attribute</a><span class="token operator">&lt;</span><a href="index.html">SortKey</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="begins-with.html"><span class="token function"><strike>beginsWith</strike></span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="index.html">SortKey</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../-sort-key-condition/index.html">SortKeyCondition</a><span class="token operator">&lt;</span><a href="index.html">HashKey</a><span class="token punctuation">, </span><a href="index.html">SortKey</a><span class="token operator">&gt;</span><span class="token operator">?</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="342421064%2FFunctions%2F251999592" anchor-label="between" id="342421064%2FFunctions%2F251999592" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="between.html"><span><span>between</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="342421064%2FFunctions%2F251999592"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">fun </span><a href="-sort-key-substitute/index.html">KeyConditionBuilder.SortKeySubstitute</a><span class="token operator">&lt;</span><a href="index.html">HashKey</a><span class="token punctuation">, </span><a href="index.html">SortKey</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="between.html"><span class="token function">between</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value1<span class="token operator">: </span><a href="index.html">SortKey</a><span class="token punctuation">, </span></span><span class="parameter ">value2<span class="token operator">: </span><a href="index.html">SortKey</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../-sort-key-condition/index.html">SortKeyCondition</a><span class="token operator">&lt;</span><a href="index.html">HashKey</a><span class="token punctuation">, </span><a href="index.html">SortKey</a><span class="token operator">&gt;</span><span class="token operator">?</span></div><div class="symbol monospace"><span class="token keyword">fun </span><a href="between.html"><span class="token function"><strike>between</strike></span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">attr<span class="token operator">: </span><a href="../../org.http4k.connect.amazon.dynamodb.model/-attribute/index.html">Attribute</a><span class="token operator">&lt;</span><a href="index.html">SortKey</a><span class="token operator">&gt;</span><span class="token punctuation">, </span></span><span class="parameter ">value1<span class="token operator">: </span><a href="index.html">SortKey</a><span class="token punctuation">, </span></span><span class="parameter ">value2<span class="token operator">: </span><a href="index.html">SortKey</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../-sort-key-condition/index.html">SortKeyCondition</a><span class="token operator">&lt;</span><a href="index.html">HashKey</a><span class="token punctuation">, </span><a href="index.html">SortKey</a><span class="token operator">&gt;</span><span class="token operator">?</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-590100874%2FFunctions%2F251999592" anchor-label="eq" id="-590100874%2FFunctions%2F251999592" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="eq.html"><span><span>eq</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-590100874%2FFunctions%2F251999592"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">infix </span><span class="token keyword">fun </span><a href="-hash-key-substitute/index.html">KeyConditionBuilder.HashKeySubstitute</a><span class="token operator">&lt;</span><a href="index.html">HashKey</a><span class="token punctuation">, </span><a href="index.html">SortKey</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="eq.html"><span class="token function">eq</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="index.html">HashKey</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../-partition-key-condition/index.html">PartitionKeyCondition</a><span class="token operator">&lt;</span><a href="index.html">HashKey</a><span class="token punctuation">, </span><a href="index.html">SortKey</a><span class="token operator">&gt;</span></div><div class="symbol monospace"><span class="token keyword">infix </span><span class="token keyword">fun </span><a href="-sort-key-substitute/index.html">KeyConditionBuilder.SortKeySubstitute</a><span class="token operator">&lt;</span><a href="index.html">HashKey</a><span class="token punctuation">, </span><a href="index.html">SortKey</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="eq.html"><span class="token function">eq</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="index.html">SortKey</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../-sort-key-condition/index.html">SortKeyCondition</a><span class="token operator">&lt;</span><a href="index.html">HashKey</a><span class="token punctuation">, </span><a href="index.html">SortKey</a><span class="token operator">&gt;</span><span class="token operator">?</span></div><div class="symbol monospace"><span class="token keyword">infix </span><span class="token keyword">fun </span><a href="../../org.http4k.connect.amazon.dynamodb.model/-attribute/index.html">Attribute</a><span class="token operator">&lt;</span><a href="index.html">HashKey</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="eq.html"><span class="token function"><strike>eq</strike></span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="index.html">HashKey</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../-partition-key-condition/index.html">PartitionKeyCondition</a><span class="token operator">&lt;</span><a href="index.html">HashKey</a><span class="token punctuation">, </span><a href="index.html">SortKey</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2017568859%2FFunctions%2F251999592" anchor-label="ge" id="-2017568859%2FFunctions%2F251999592" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="ge.html"><span><span>ge</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2017568859%2FFunctions%2F251999592"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">infix </span><span class="token keyword">fun </span><a href="-sort-key-substitute/index.html">KeyConditionBuilder.SortKeySubstitute</a><span class="token operator">&lt;</span><a href="index.html">HashKey</a><span class="token punctuation">, </span><a href="index.html">SortKey</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="ge.html"><span class="token function">ge</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="index.html">SortKey</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../-sort-key-condition/index.html">SortKeyCondition</a><span class="token operator">&lt;</span><a href="index.html">HashKey</a><span class="token punctuation">, </span><a href="index.html">SortKey</a><span class="token operator">&gt;</span><span class="token operator">?</span></div><div class="symbol monospace"><span class="token keyword">infix </span><span class="token keyword">fun </span><a href="../../org.http4k.connect.amazon.dynamodb.model/-attribute/index.html">Attribute</a><span class="token operator">&lt;</span><a href="index.html">SortKey</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="ge.html"><span class="token function"><strike>ge</strike></span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="index.html">SortKey</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../-sort-key-condition/index.html">SortKeyCondition</a><span class="token operator">&lt;</span><a href="index.html">HashKey</a><span class="token punctuation">, </span><a href="index.html">SortKey</a><span class="token operator">&gt;</span><span class="token operator">?</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1777198459%2FFunctions%2F251999592" anchor-label="gt" id="-1777198459%2FFunctions%2F251999592" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="gt.html"><span><span>gt</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1777198459%2FFunctions%2F251999592"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">infix </span><span class="token keyword">fun </span><a href="-sort-key-substitute/index.html">KeyConditionBuilder.SortKeySubstitute</a><span class="token operator">&lt;</span><a href="index.html">HashKey</a><span class="token punctuation">, </span><a href="index.html">SortKey</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="gt.html"><span class="token function">gt</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="index.html">SortKey</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../-sort-key-condition/index.html">SortKeyCondition</a><span class="token operator">&lt;</span><a href="index.html">HashKey</a><span class="token punctuation">, </span><a href="index.html">SortKey</a><span class="token operator">&gt;</span><span class="token operator">?</span></div><div class="symbol monospace"><span class="token keyword">infix </span><span class="token keyword">fun </span><a href="../../org.http4k.connect.amazon.dynamodb.model/-attribute/index.html">Attribute</a><span class="token operator">&lt;</span><a href="index.html">SortKey</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="gt.html"><span class="token function"><strike>gt</strike></span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="index.html">SortKey</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../-sort-key-condition/index.html">SortKeyCondition</a><span class="token operator">&lt;</span><a href="index.html">HashKey</a><span class="token punctuation">, </span><a href="index.html">SortKey</a><span class="token operator">&gt;</span><span class="token operator">?</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1897914373%2FFunctions%2F251999592" anchor-label="le" id="1897914373%2FFunctions%2F251999592" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="le.html"><span><span>le</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1897914373%2FFunctions%2F251999592"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">infix </span><span class="token keyword">fun </span><a href="-sort-key-substitute/index.html">KeyConditionBuilder.SortKeySubstitute</a><span class="token operator">&lt;</span><a href="index.html">HashKey</a><span class="token punctuation">, </span><a href="index.html">SortKey</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="le.html"><span class="token function">le</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="index.html">SortKey</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../-sort-key-condition/index.html">SortKeyCondition</a><span class="token operator">&lt;</span><a href="index.html">HashKey</a><span class="token punctuation">, </span><a href="index.html">SortKey</a><span class="token operator">&gt;</span><span class="token operator">?</span></div><div class="symbol monospace"><span class="token keyword">infix </span><span class="token keyword">fun </span><a href="../../org.http4k.connect.amazon.dynamodb.model/-attribute/index.html">Attribute</a><span class="token operator">&lt;</span><a href="index.html">SortKey</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="le.html"><span class="token function"><strike>le</strike></span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="index.html">SortKey</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../-sort-key-condition/index.html">SortKeyCondition</a><span class="token operator">&lt;</span><a href="index.html">HashKey</a><span class="token punctuation">, </span><a href="index.html">SortKey</a><span class="token operator">&gt;</span><span class="token operator">?</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2138284773%2FFunctions%2F251999592" anchor-label="lt" id="2138284773%2FFunctions%2F251999592" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="lt.html"><span><span>lt</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2138284773%2FFunctions%2F251999592"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">infix </span><span class="token keyword">fun </span><a href="-sort-key-substitute/index.html">KeyConditionBuilder.SortKeySubstitute</a><span class="token operator">&lt;</span><a href="index.html">HashKey</a><span class="token punctuation">, </span><a href="index.html">SortKey</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="lt.html"><span class="token function">lt</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="index.html">SortKey</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../-sort-key-condition/index.html">SortKeyCondition</a><span class="token operator">&lt;</span><a href="index.html">HashKey</a><span class="token punctuation">, </span><a href="index.html">SortKey</a><span class="token operator">&gt;</span><span class="token operator">?</span></div><div class="symbol monospace"><span class="token keyword">infix </span><span class="token keyword">fun </span><a href="../../org.http4k.connect.amazon.dynamodb.model/-attribute/index.html">Attribute</a><span class="token operator">&lt;</span><a href="index.html">SortKey</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="lt.html"><span class="token function"><strike>lt</strike></span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="index.html">SortKey</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../-sort-key-condition/index.html">SortKeyCondition</a><span class="token operator">&lt;</span><a href="index.html">HashKey</a><span class="token punctuation">, </span><a href="index.html">SortKey</a><span class="token operator">&gt;</span><span class="token operator">?</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>(c) 2024 http4k</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

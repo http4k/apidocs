@@ -1,0 +1,241 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>ExistingUser</title>
+<link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer></script>
+<link href="../../../styles/dokka.css" rel="Stylesheet"></head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+<a class="library-name--link" href="../../../index.html">
+                            http4k
+                    </a>            </div>
+            <div class="library-version">5.35.0.0
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main">jvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+            <a class="navigation-controls--btn navigation-controls--homepage" id="homepage-link" href="https://http4k.org"></a>
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageids="http4k-connect-amazon-cognito::org.http4k.connect.amazon.cognito.action/ExistingUser///PointingToDeclaration//-1799410495">
+  <div class="breadcrumbs"><a href="../../index.html">http4k-connect-amazon-cognito</a><span class="delimiter">/</span><a href="../index.html">org.http4k.connect.amazon.cognito.action</a><span class="delimiter">/</span><span class="current">ExistingUser</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Existing</span><wbr><span><span>User</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="se.ansman.kotshi/JsonSerializable///PointingToDeclaration/"><span class="token annotation builtin">JsonSerializable</span></span></div></div><span class="token keyword">data </span><span class="token keyword">class </span><a href="index.html">ExistingUser</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>Username<span class="token operator">: </span><a href="../../../http4k-connect-amazon-core/org.http4k.connect.amazon.core.model/-username/index.html">Username</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>Enabled<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>PreferredMfaSetting<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>UserCreateDate<span class="token operator">: </span><a href="../../../http4k-connect-core/org.http4k.connect.model/-timestamp/index.html">Timestamp</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>UserLastModifiedDate<span class="token operator">: </span><a href="../../../http4k-connect-core/org.http4k.connect.model/-timestamp/index.html">Timestamp</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>UserStatus<span class="token operator">: </span><a href="../../org.http4k.connect.amazon.cognito.model/-user-status/index.html">UserStatus</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>UserAttributes<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><a href="../../org.http4k.connect.amazon.cognito.model/-attribute-type/index.html">AttributeType</a><span class="token operator">&gt;</span><span class="token operator"> = </span>emptyList()<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>MFAOptions<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><a href="../../org.http4k.connect.amazon.cognito.model/-m-f-a-options/index.html">MFAOptions</a><span class="token operator">&gt;</span><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>UserMFASettingList<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><a href="../../org.http4k.connect.amazon.cognito.model/-user-m-f-a-setting/index.html">UserMFASetting</a><span class="token operator">&gt;</span><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span></div></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="265133644%2FConstructors%2F-1799410495" anchor-label="ExistingUser" id="265133644%2FConstructors%2F-1799410495" data-filterable-set=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-existing-user.html"><span>Existing</span><wbr><span><span>User</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="265133644%2FConstructors%2F-1799410495"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">Username<span class="token operator">: </span><a href="../../../http4k-connect-amazon-core/org.http4k.connect.amazon.core.model/-username/index.html">Username</a><span class="token punctuation">, </span></span><span class="parameter ">Enabled<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token punctuation">, </span></span><span class="parameter ">PreferredMfaSetting<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">UserCreateDate<span class="token operator">: </span><a href="../../../http4k-connect-core/org.http4k.connect.model/-timestamp/index.html">Timestamp</a><span class="token punctuation">, </span></span><span class="parameter ">UserLastModifiedDate<span class="token operator">: </span><a href="../../../http4k-connect-core/org.http4k.connect.model/-timestamp/index.html">Timestamp</a><span class="token punctuation">, </span></span><span class="parameter ">UserStatus<span class="token operator">: </span><a href="../../org.http4k.connect.amazon.cognito.model/-user-status/index.html">UserStatus</a><span class="token punctuation">, </span></span><span class="parameter ">UserAttributes<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><a href="../../org.http4k.connect.amazon.cognito.model/-attribute-type/index.html">AttributeType</a><span class="token operator">&gt;</span><span class="token operator"> = </span>emptyList()<span class="token punctuation">, </span></span><span class="parameter ">MFAOptions<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><a href="../../org.http4k.connect.amazon.cognito.model/-m-f-a-options/index.html">MFAOptions</a><span class="token operator">&gt;</span><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">UserMFASettingList<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><a href="../../org.http4k.connect.amazon.cognito.model/-user-m-f-a-setting/index.html">UserMFASetting</a><span class="token operator">&gt;</span><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="-1358741350%2FProperties%2F-1799410495" anchor-label="Enabled" id="-1358741350%2FProperties%2F-1799410495" data-filterable-set=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-enabled.html"><span><span>Enabled</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1358741350%2FProperties%2F-1799410495"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="-enabled.html">Enabled</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1480164567%2FProperties%2F-1799410495" anchor-label="MFAOptions" id="-1480164567%2FProperties%2F-1799410495" data-filterable-set=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-m-f-a-options.html"><span><span>MFAOptions</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1480164567%2FProperties%2F-1799410495"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="-m-f-a-options.html">MFAOptions</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><a href="../../org.http4k.connect.amazon.cognito.model/-m-f-a-options/index.html">MFAOptions</a><span class="token operator">&gt;</span><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="638082354%2FProperties%2F-1799410495" anchor-label="PreferredMfaSetting" id="638082354%2FProperties%2F-1799410495" data-filterable-set=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-preferred-mfa-setting.html"><span>Preferred</span><wbr><span>Mfa</span><wbr><span><span>Setting</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="638082354%2FProperties%2F-1799410495"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="-preferred-mfa-setting.html">PreferredMfaSetting</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="85894077%2FProperties%2F-1799410495" anchor-label="UserAttributes" id="85894077%2FProperties%2F-1799410495" data-filterable-set=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-user-attributes.html"><span>User</span><wbr><span><span>Attributes</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="85894077%2FProperties%2F-1799410495"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="-user-attributes.html">UserAttributes</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><a href="../../org.http4k.connect.amazon.cognito.model/-attribute-type/index.html">AttributeType</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1338908074%2FProperties%2F-1799410495" anchor-label="UserCreateDate" id="1338908074%2FProperties%2F-1799410495" data-filterable-set=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-user-create-date.html"><span>User</span><wbr><span>Create</span><wbr><span><span>Date</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1338908074%2FProperties%2F-1799410495"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="-user-create-date.html">UserCreateDate</a><span class="token operator">: </span><a href="../../../http4k-connect-core/org.http4k.connect.model/-timestamp/index.html">Timestamp</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1469474617%2FProperties%2F-1799410495" anchor-label="UserLastModifiedDate" id="-1469474617%2FProperties%2F-1799410495" data-filterable-set=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-user-last-modified-date.html"><span>User</span><wbr><span>Last</span><wbr><span>Modified</span><wbr><span><span>Date</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1469474617%2FProperties%2F-1799410495"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="-user-last-modified-date.html">UserLastModifiedDate</a><span class="token operator">: </span><a href="../../../http4k-connect-core/org.http4k.connect.model/-timestamp/index.html">Timestamp</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1491567506%2FProperties%2F-1799410495" anchor-label="UserMFASettingList" id="-1491567506%2FProperties%2F-1799410495" data-filterable-set=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-user-m-f-a-setting-list.html"><span>User</span><wbr><span>MFASetting</span><wbr><span><span>List</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1491567506%2FProperties%2F-1799410495"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="-user-m-f-a-setting-list.html">UserMFASettingList</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><a href="../../org.http4k.connect.amazon.cognito.model/-user-m-f-a-setting/index.html">UserMFASetting</a><span class="token operator">&gt;</span><span class="token operator">?</span><span class="token operator"> = </span>null</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-319976855%2FProperties%2F-1799410495" anchor-label="Username" id="-319976855%2FProperties%2F-1799410495" data-filterable-set=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-username.html"><span><span>Username</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-319976855%2FProperties%2F-1799410495"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="-username.html">Username</a><span class="token operator">: </span><a href="../../../http4k-connect-amazon-core/org.http4k.connect.amazon.core.model/-username/index.html">Username</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1971329790%2FProperties%2F-1799410495" anchor-label="UserStatus" id="-1971329790%2FProperties%2F-1799410495" data-filterable-set=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-user-status.html"><span>User</span><wbr><span><span>Status</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1971329790%2FProperties%2F-1799410495"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-cognito:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="-user-status.html">UserStatus</a><span class="token operator">: </span><a href="../../org.http4k.connect.amazon.cognito.model/-user-status/index.html">UserStatus</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>(c) 2024 http4k</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

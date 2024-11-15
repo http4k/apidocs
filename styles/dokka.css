@@ -1,5 +1,5 @@
 :root {
-    --dokka-logo-image-url: url('../images/favicon-mono.png');
+    --dokka-logo-image-url: url('/images/favicon-mono.png');
 }
 
 .navigation {

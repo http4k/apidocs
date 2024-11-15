@@ -1,0 +1,529 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>org.http4k.connect.amazon</title>
+<link href="../../images/logo-icon.svg" rel="icon" type="image/svg">    <script>var pathToRoot = "../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async></script>
+<script type="text/javascript" src="../../scripts/sourceset_dependencies.js" async></script>
+<link href="../../styles/style.css" rel="Stylesheet">
+<link href="../../styles/main.css" rel="Stylesheet">
+<link href="../../styles/prism.css" rel="Stylesheet">
+<link href="../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../scripts/clipboard.js" async></script>
+<script type="text/javascript" src="../../scripts/navigation-loader.js" async></script>
+<script type="text/javascript" src="../../scripts/platform-content-handler.js" async></script>
+<script type="text/javascript" src="../../scripts/main.js" defer></script>
+<script type="text/javascript" src="../../scripts/prism.js" async></script>
+<script type="text/javascript" src="../../scripts/symbol-parameters-wrapper_deferred.js" defer></script>
+<link href="../../styles/dokka.css" rel="Stylesheet"></head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+<a class="library-name--link" href="../../index.html">
+                            http4k
+                    </a>            </div>
+            <div class="library-version">5.35.0.0
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":http4k-connect-amazon-core:dokkaHtmlPartial/main">jvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+            <a class="navigation-controls--btn navigation-controls--homepage" id="homepage-link" href="https://http4k.org"></a>
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="package" id="content" pageids="http4k-connect-amazon-core::org.http4k.connect.amazon////PointingToDeclaration//-753423151">
+  <div class="breadcrumbs"><a href="../index.html">http4k-connect-amazon-core</a><span class="delimiter">/</span><span class="current">org.http4k.connect.amazon</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Package-level</span></span> <span><span>declarations</span></span></h1>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="TYPE">Types</button><button class="section-tab" data-togglable="FUNCTION,EXTENSION_FUNCTION">Functions</button><button class="section-tab" data-togglable="PROPERTY,EXTENSION_PROPERTY">Properties</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="TYPE">
+        <h2 class="">Types</h2>
+        <div class="table"><a data-name="-993312978%2FClasslikes%2F-753423151" anchor-label="AmazonJsonFake" id="-993312978%2FClasslikes%2F-753423151" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-amazon-json-fake/index.html"><span>Amazon</span><wbr><span>Json</span><wbr><span><span>Fake</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-993312978%2FClasslikes%2F-753423151"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">class </span><a href="-amazon-json-fake/index.html">AmazonJsonFake</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>autoMarshalling<span class="token operator">: </span><a href="../../http4k-format-core/org.http4k.format/-auto-marshalling/index.html">AutoMarshalling</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>awsService<span class="token operator">: </span><a href="../org.http4k.connect.amazon.core.model/-aws-service/index.html">AwsService</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="497772249%2FClasslikes%2F-753423151" anchor-label="AmazonRestfulFake" id="497772249%2FClasslikes%2F-753423151" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-amazon-restful-fake/index.html"><span>Amazon</span><wbr><span>Restful</span><wbr><span><span>Fake</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="497772249%2FClasslikes%2F-753423151"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">class </span><a href="-amazon-restful-fake/index.html">AmazonRestfulFake</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>autoMarshalling<span class="token operator">: </span><a href="../../http4k-format-core/org.http4k.format/-auto-marshalling/index.html">AutoMarshalling</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>awsService<span class="token operator">: </span><a href="../org.http4k.connect.amazon.core.model/-aws-service/index.html">AwsService</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>region<span class="token operator">: </span><a href="../org.http4k.connect.amazon.core.model/-region/index.html">Region</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>accountId<span class="token operator">: </span><a href="../org.http4k.connect.amazon.core.model/-aws-account/index.html">AwsAccount</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1975083432%2FClasslikes%2F-753423151" anchor-label="AwsJsonAction" id="-1975083432%2FClasslikes%2F-753423151" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-aws-json-action/index.html"><span>Aws</span><wbr><span>Json</span><wbr><span><span>Action</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1975083432%2FClasslikes%2F-753423151"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">class </span><a href="-aws-json-action/index.html">AwsJsonAction</a><span class="token operator">&lt;</span><a href="-aws-json-action/index.html">R</a><span class="token operator"> : </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a><span class="token operator">&gt;</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">service<span class="token operator">: </span><a href="../org.http4k.connect.amazon.core.model/-aws-service/index.html">AwsService</a><span class="token punctuation">, </span></span><span class="parameter ">clazz<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.reflect/-k-class/index.html">KClass</a><span class="token operator">&lt;</span><a href="-aws-json-action/index.html">R</a><span class="token operator">&gt;</span><span class="token punctuation">, </span></span><span class="parameter ">autoMarshalling<span class="token operator">: </span><a href="../../http4k-format-core/org.http4k.format/-auto-marshalling/index.html">AutoMarshalling</a><span class="token punctuation">, </span></span><span class="parameter ">contentType<span class="token operator">: </span><a href="../../http4k-core/org.http4k.core/-content-type/index.html">ContentType</a><span class="token operator"> = </span>ContentType("application/x-amz-json-1.1")</span></span><span class="token punctuation">)</span> : <a href="../../http4k-connect-core/org.http4k.connect/-action/index.html">Action</a><span class="token operator">&lt;</span><span data-unresolved-link="dev.forkhandles.result4k/Result///PointingToDeclaration/">Result</span><span class="token operator">&lt;</span><a href="-aws-json-action/index.html">R</a><span class="token punctuation">, </span><a href="../../http4k-connect-core/org.http4k.connect/-remote-failure/index.html">RemoteFailure</a><span class="token operator">&gt;</span><span class="token operator">&gt; </span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1008012831%2FClasslikes%2F-753423151" anchor-label="AwsServiceCompanion" id="1008012831%2FClasslikes%2F-753423151" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-aws-service-companion/index.html"><span>Aws</span><wbr><span>Service</span><wbr><span><span>Companion</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1008012831%2FClasslikes%2F-753423151"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">class </span><a href="-aws-service-companion/index.html">AwsServiceCompanion</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">awsServiceName<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Shared infra for all AWS services.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="743029269%2FClasslikes%2F-753423151" anchor-label="CliCachedCredentials" id="743029269%2FClasslikes%2F-753423151" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-cli-cached-credentials/index.html"><span>Cli</span><wbr><span>Cached</span><wbr><span><span>Credentials</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="743029269%2FClasslikes%2F-753423151"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-core:dokkaHtmlPartial/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="se.ansman.kotshi/JsonSerializable///PointingToDeclaration/"><span class="token annotation builtin">JsonSerializable</span></span></div></div><span class="token keyword">data </span><span class="token keyword">class </span><a href="-cli-cached-credentials/index.html">CliCachedCredentials</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>AccessKeyId<span class="token operator">: </span><a href="../org.http4k.connect.amazon.core.model/-access-key-id/index.html">AccessKeyId</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>SecretAccessKey<span class="token operator">: </span><a href="../org.http4k.connect.amazon.core.model/-secret-access-key/index.html">SecretAccessKey</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>SessionToken<span class="token operator">: </span><a href="../org.http4k.connect.amazon.core.model/-session-token/index.html">SessionToken</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>Expiration<span class="token operator">: </span><a href="../org.http4k.connect.amazon.core.model/-expiration/index.html">Expiration</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1592952313%2FClasslikes%2F-753423151" anchor-label="CliCachedCredentialsFile" id="1592952313%2FClasslikes%2F-753423151" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-cli-cached-credentials-file/index.html"><span>Cli</span><wbr><span>Cached</span><wbr><span>Credentials</span><wbr><span><span>File</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1592952313%2FClasslikes%2F-753423151"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-core:dokkaHtmlPartial/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="se.ansman.kotshi/JsonSerializable///PointingToDeclaration/"><span class="token annotation builtin">JsonSerializable</span></span></div></div><span class="token keyword">data </span><span class="token keyword">class </span><a href="-cli-cached-credentials-file/index.html">CliCachedCredentialsFile</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>Credentials<span class="token operator">: </span><a href="-cli-cached-credentials/index.html">CliCachedCredentials</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>ProviderType<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1867970166%2FClasslikes%2F-753423151" anchor-label="CredentialsChain" id="-1867970166%2FClasslikes%2F-753423151" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-credentials-chain/index.html"><span>Credentials</span><wbr><span><span>Chain</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1867970166%2FClasslikes%2F-753423151"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">fun </span><span class="token keyword">interface </span><a href="-credentials-chain/index.html">CredentialsChain</a> : <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-function0/index.html">Function0</a><span class="token operator">&lt;</span><a href="../../http4k-aws/org.http4k.aws/-aws-credentials/index.html">AwsCredentials</a><span class="token operator">?</span><span class="token operator">&gt; </span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1512306726%2FClasslikes%2F-753423151" anchor-label="CredentialsProvider" id="1512306726%2FClasslikes%2F-753423151" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-credentials-provider/index.html"><span>Credentials</span><wbr><span><span>Provider</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1512306726%2FClasslikes%2F-753423151"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">fun </span><span class="token keyword">interface </span><a href="-credentials-provider/index.html">CredentialsProvider</a> : <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-function0/index.html">Function0</a><span class="token operator">&lt;</span><a href="../../http4k-aws/org.http4k.aws/-aws-credentials/index.html">AwsCredentials</a><span class="token operator">&gt; </span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="641506579%2FClasslikes%2F-753423151" anchor-label="JsonError" id="641506579%2FClasslikes%2F-753423151" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-json-error/index.html"><span>Json</span><wbr><span><span>Error</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="641506579%2FClasslikes%2F-753423151"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-core:dokkaHtmlPartial/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="se.ansman.kotshi/JsonSerializable///PointingToDeclaration/"><span class="token annotation builtin">JsonSerializable</span></span></div></div><span class="token keyword">data </span><span class="token keyword">class </span><a href="-json-error/index.html">JsonError</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>__type<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>Message<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2043193642%2FClasslikes%2F-753423151" anchor-label="RegionProvider" id="2043193642%2FClasslikes%2F-753423151" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-region-provider/index.html"><span>Region</span><wbr><span><span>Provider</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2043193642%2FClasslikes%2F-753423151"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">fun </span><span class="token keyword">interface </span><a href="-region-provider/index.html">RegionProvider</a> : <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-function0/index.html">Function0</a><span class="token operator">&lt;</span><a href="../org.http4k.connect.amazon.core.model/-region/index.html">Region</a><span class="token operator">?</span><span class="token operator">&gt; </span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1844061040%2FClasslikes%2F-753423151" anchor-label="RestfulError" id="-1844061040%2FClasslikes%2F-753423151" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-restful-error/index.html"><span>Restful</span><wbr><span><span>Error</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1844061040%2FClasslikes%2F-753423151"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-restful-error/index.html">RestfulError</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>status<span class="token operator">: </span><a href="../../http4k-core/org.http4k.core/-status/index.html">Status</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>message<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>resourceId<span class="token operator">: </span><a href="../org.http4k.connect.amazon.core.model/-a-r-n/index.html">ARN</a><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>resourceType<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="239573174%2FProperties%2F-753423151" anchor-label="AWS_ACCESS_KEY_ID" id="239573174%2FProperties%2F-753423151" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-a-w-s_-a-c-c-e-s-s_-k-e-y_-i-d.html"><span><span>AWS_ACCESS_KEY_ID</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="239573174%2FProperties%2F-753423151"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="-a-w-s_-a-c-c-e-s-s_-k-e-y_-i-d.html">AWS_ACCESS_KEY_ID</a><span class="token operator">: </span><a href="../../http4k-core/org.http4k.lens/-bi-di-lens/index.html">BiDiLens</a><span class="token operator">&lt;</span><a href="../../http4k-config/org.http4k.config/-environment/index.html">Environment</a><span class="token punctuation">, </span><a href="../org.http4k.connect.amazon.core.model/-access-key-id/index.html">AccessKeyId</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="940199685%2FProperties%2F-753423151" anchor-label="AWS_ACCESS_KEY_ID_OPTIONAL" id="940199685%2FProperties%2F-753423151" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-a-w-s_-a-c-c-e-s-s_-k-e-y_-i-d_-o-p-t-i-o-n-a-l.html"><span><span>AWS_ACCESS_KEY_ID_OPTIONAL</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="940199685%2FProperties%2F-753423151"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="-a-w-s_-a-c-c-e-s-s_-k-e-y_-i-d_-o-p-t-i-o-n-a-l.html">AWS_ACCESS_KEY_ID_OPTIONAL</a><span class="token operator">: </span><a href="../../http4k-core/org.http4k.lens/-bi-di-lens/index.html">BiDiLens</a><span class="token operator">&lt;</span><a href="../../http4k-config/org.http4k.config/-environment/index.html">Environment</a><span class="token punctuation">, </span><a href="../org.http4k.connect.amazon.core.model/-access-key-id/index.html">AccessKeyId</a><span class="token operator">?</span><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1020192549%2FProperties%2F-753423151" anchor-label="AWS_CREDENTIAL_PROFILES_FILE" id="1020192549%2FProperties%2F-753423151" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-a-w-s_-c-r-e-d-e-n-t-i-a-l_-p-r-o-f-i-l-e-s_-f-i-l-e.html"><span><span>AWS_CREDENTIAL_PROFILES_FILE</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1020192549%2FProperties%2F-753423151"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="-a-w-s_-c-r-e-d-e-n-t-i-a-l_-p-r-o-f-i-l-e-s_-f-i-l-e.html">AWS_CREDENTIAL_PROFILES_FILE</a><span class="token operator">: </span><a href="../../http4k-core/org.http4k.lens/-bi-di-lens/index.html">BiDiLens</a><span class="token operator">&lt;</span><a href="../../http4k-config/org.http4k.config/-environment/index.html">Environment</a><span class="token punctuation">, </span><a href="https://docs.oracle.com/javase/8/docs/api/java/nio/file/Path.html">Path</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1625315664%2FProperties%2F-753423151" anchor-label="AWS_CREDENTIALS" id="-1625315664%2FProperties%2F-753423151" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-a-w-s_-c-r-e-d-e-n-t-i-a-l-s.html"><span><span>AWS_CREDENTIALS</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1625315664%2FProperties%2F-753423151"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="-a-w-s_-c-r-e-d-e-n-t-i-a-l-s.html">AWS_CREDENTIALS</a><span class="token operator">: </span><a href="../../http4k-core/org.http4k.lens/-lens/index.html">Lens</a><span class="token operator">&lt;</span><a href="../../http4k-config/org.http4k.config/-environment/index.html">Environment</a><span class="token punctuation">, </span><a href="../../http4k-aws/org.http4k.aws/-aws-credentials/index.html">AwsCredentials</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1961053149%2FProperties%2F-753423151" anchor-label="AWS_PROFILE" id="-1961053149%2FProperties%2F-753423151" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-a-w-s_-p-r-o-f-i-l-e.html"><span><span>AWS_PROFILE</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1961053149%2FProperties%2F-753423151"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="-a-w-s_-p-r-o-f-i-l-e.html">AWS_PROFILE</a><span class="token operator">: </span><a href="../../http4k-core/org.http4k.lens/-bi-di-lens/index.html">BiDiLens</a><span class="token operator">&lt;</span><a href="../../http4k-config/org.http4k.config/-environment/index.html">Environment</a><span class="token punctuation">, </span><a href="../org.http4k.connect.amazon.core.model/-profile-name/index.html">ProfileName</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2068773990%2FProperties%2F-753423151" anchor-label="AWS_REGION" id="-2068773990%2FProperties%2F-753423151" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-a-w-s_-r-e-g-i-o-n.html"><span><span>AWS_REGION</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2068773990%2FProperties%2F-753423151"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="-a-w-s_-r-e-g-i-o-n.html">AWS_REGION</a><span class="token operator">: </span><a href="../../http4k-core/org.http4k.lens/-bi-di-lens/index.html">BiDiLens</a><span class="token operator">&lt;</span><a href="../../http4k-config/org.http4k.config/-environment/index.html">Environment</a><span class="token punctuation">, </span><a href="../org.http4k.connect.amazon.core.model/-region/index.html">Region</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-503257951%2FProperties%2F-753423151" anchor-label="AWS_REGION_OPTIONAL" id="-503257951%2FProperties%2F-753423151" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-a-w-s_-r-e-g-i-o-n_-o-p-t-i-o-n-a-l.html"><span><span>AWS_REGION_OPTIONAL</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-503257951%2FProperties%2F-753423151"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="-a-w-s_-r-e-g-i-o-n_-o-p-t-i-o-n-a-l.html">AWS_REGION_OPTIONAL</a><span class="token operator">: </span><a href="../../http4k-core/org.http4k.lens/-bi-di-lens/index.html">BiDiLens</a><span class="token operator">&lt;</span><a href="../../http4k-config/org.http4k.config/-environment/index.html">Environment</a><span class="token punctuation">, </span><a href="../org.http4k.connect.amazon.core.model/-region/index.html">Region</a><span class="token operator">?</span><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="841208666%2FProperties%2F-753423151" anchor-label="AWS_ROLE_ARN" id="841208666%2FProperties%2F-753423151" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-a-w-s_-r-o-l-e_-a-r-n.html"><span><span>AWS_ROLE_ARN</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="841208666%2FProperties%2F-753423151"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="-a-w-s_-r-o-l-e_-a-r-n.html">AWS_ROLE_ARN</a><span class="token operator">: </span><a href="../../http4k-core/org.http4k.lens/-bi-di-lens/index.html">BiDiLens</a><span class="token operator">&lt;</span><a href="../../http4k-config/org.http4k.config/-environment/index.html">Environment</a><span class="token punctuation">, </span><a href="../org.http4k.connect.amazon.core.model/-a-r-n/index.html">ARN</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1027407473%2FProperties%2F-753423151" anchor-label="AWS_ROLE_SESSION_NAME" id="-1027407473%2FProperties%2F-753423151" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-a-w-s_-r-o-l-e_-s-e-s-s-i-o-n_-n-a-m-e.html"><span><span>AWS_ROLE_SESSION_NAME</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1027407473%2FProperties%2F-753423151"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="-a-w-s_-r-o-l-e_-s-e-s-s-i-o-n_-n-a-m-e.html">AWS_ROLE_SESSION_NAME</a><span class="token operator">: </span><a href="../../http4k-core/org.http4k.lens/-bi-di-lens/index.html">BiDiLens</a><span class="token operator">&lt;</span><a href="../../http4k-config/org.http4k.config/-environment/index.html">Environment</a><span class="token punctuation">, </span><a href="../org.http4k.connect.amazon.core.model/-role-session-name/index.html">RoleSessionName</a><span class="token operator">?</span><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-3609511%2FProperties%2F-753423151" anchor-label="AWS_SECRET_ACCESS_KEY" id="-3609511%2FProperties%2F-753423151" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-a-w-s_-s-e-c-r-e-t_-a-c-c-e-s-s_-k-e-y.html"><span><span>AWS_SECRET_ACCESS_KEY</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-3609511%2FProperties%2F-753423151"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="-a-w-s_-s-e-c-r-e-t_-a-c-c-e-s-s_-k-e-y.html">AWS_SECRET_ACCESS_KEY</a><span class="token operator">: </span><a href="../../http4k-core/org.http4k.lens/-bi-di-lens/index.html">BiDiLens</a><span class="token operator">&lt;</span><a href="../../http4k-config/org.http4k.config/-environment/index.html">Environment</a><span class="token punctuation">, </span><a href="../org.http4k.connect.amazon.core.model/-secret-access-key/index.html">SecretAccessKey</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1038523710%2FProperties%2F-753423151" anchor-label="AWS_SECRET_ACCESS_KEY_OPTIONAL" id="-1038523710%2FProperties%2F-753423151" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-a-w-s_-s-e-c-r-e-t_-a-c-c-e-s-s_-k-e-y_-o-p-t-i-o-n-a-l.html"><span><span>AWS_SECRET_ACCESS_KEY_OPTIONAL</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1038523710%2FProperties%2F-753423151"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="-a-w-s_-s-e-c-r-e-t_-a-c-c-e-s-s_-k-e-y_-o-p-t-i-o-n-a-l.html">AWS_SECRET_ACCESS_KEY_OPTIONAL</a><span class="token operator">: </span><a href="../../http4k-core/org.http4k.lens/-bi-di-lens/index.html">BiDiLens</a><span class="token operator">&lt;</span><a href="../../http4k-config/org.http4k.config/-environment/index.html">Environment</a><span class="token punctuation">, </span><a href="../org.http4k.connect.amazon.core.model/-secret-access-key/index.html">SecretAccessKey</a><span class="token operator">?</span><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-143221380%2FProperties%2F-753423151" anchor-label="AWS_SESSION_TOKEN" id="-143221380%2FProperties%2F-753423151" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-a-w-s_-s-e-s-s-i-o-n_-t-o-k-e-n.html"><span><span>AWS_SESSION_TOKEN</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-143221380%2FProperties%2F-753423151"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="-a-w-s_-s-e-s-s-i-o-n_-t-o-k-e-n.html">AWS_SESSION_TOKEN</a><span class="token operator">: </span><a href="../../http4k-core/org.http4k.lens/-bi-di-lens/index.html">BiDiLens</a><span class="token operator">&lt;</span><a href="../../http4k-config/org.http4k.config/-environment/index.html">Environment</a><span class="token punctuation">, </span><a href="../org.http4k.connect.amazon.core.model/-session-token/index.html">SessionToken</a><span class="token operator">?</span><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="359484523%2FProperties%2F-753423151" anchor-label="AWS_WEB_IDENTITY_TOKEN" id="359484523%2FProperties%2F-753423151" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-a-w-s_-w-e-b_-i-d-e-n-t-i-t-y_-t-o-k-e-n.html"><span><span>AWS_WEB_IDENTITY_TOKEN</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="359484523%2FProperties%2F-753423151"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="-a-w-s_-w-e-b_-i-d-e-n-t-i-t-y_-t-o-k-e-n.html">AWS_WEB_IDENTITY_TOKEN</a><span class="token operator">: </span><a href="../../http4k-core/org.http4k.lens/-bi-di-lens/index.html">BiDiLens</a><span class="token operator">&lt;</span><a href="../../http4k-config/org.http4k.config/-environment/index.html">Environment</a><span class="token punctuation">, </span><a href="../org.http4k.connect.amazon.core.model/-web-identity-token/index.html">WebIdentityToken</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">For directly injecting the WebIdentityToken into the environment.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="899800532%2FProperties%2F-753423151" anchor-label="AWS_WEB_IDENTITY_TOKEN_FILE" id="899800532%2FProperties%2F-753423151" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-a-w-s_-w-e-b_-i-d-e-n-t-i-t-y_-t-o-k-e-n_-f-i-l-e.html"><span><span>AWS_WEB_IDENTITY_TOKEN_FILE</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="899800532%2FProperties%2F-753423151"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="-a-w-s_-w-e-b_-i-d-e-n-t-i-t-y_-t-o-k-e-n_-f-i-l-e.html">AWS_WEB_IDENTITY_TOKEN_FILE</a><span class="token operator">: </span><a href="../../http4k-core/org.http4k.lens/-bi-di-lens/index.html">BiDiLens</a><span class="token operator">&lt;</span><a href="../../http4k-config/org.http4k.config/-environment/index.html">Environment</a><span class="token punctuation">, </span><a href="https://docs.oracle.com/javase/8/docs/api/java/io/File.html">File</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Use when WebIdentityToken is to be stored in file on disk (eg. in K8S)</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="546075881%2FFunctions%2F-753423151" anchor-label="AwsReverseProxy" id="546075881%2FFunctions%2F-753423151" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-aws-reverse-proxy.html"><span>Aws</span><wbr><span>Reverse</span><wbr><span><span>Proxy</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="546075881%2FFunctions%2F-753423151"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">fun </span><a href="-aws-reverse-proxy.html"><span class="token function">AwsReverseProxy</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">vararg </span>awsServices<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html">Pair</a><span class="token operator">&lt;</span><a href="-aws-service-companion/index.html">AwsServiceCompanion</a><span class="token punctuation">, </span><a href="../../http4k-core/org.http4k.core/-http-handler/index.html">HttpHandler</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span class="token punctuation">(</span>request<span class="token operator">: </span><a href="../../http4k-core/org.http4k.core/-request/index.html">Request</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="../../http4k-core/org.http4k.core/-response/index.html">Response</a></div><div class="brief "><p class="paragraph">Simple ReverseProxy for AWS services. Allows for simple traffic splitting based on the Host header.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1027776649%2FFunctions%2F-753423151" anchor-label="CliCache" id="-1027776649%2FFunctions%2F-753423151" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-connect-amazon-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-cli-cache.html"><span>Cli</span><wbr><span><span>Cache</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1027776649%2FFunctions%2F-753423151"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">fun </span><a href="-credentials-chain/-companion/index.html">CredentialsChain.Companion</a><span class="token punctuation">.</span><a href="-cli-cache.html"><span class="token function">CliCache</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">clock<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/time/Clock.html">Clock</a><span class="token operator"> = </span>systemUTC()</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-credentials-chain/index.html">CredentialsChain</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1010470201%2FFunctions%2F-753423151" anchor-label="Environment" id="1010470201%2FFunctions%2F-753423151" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-connect-amazon-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-environment.html"><span><span>Environment</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1010470201%2FFunctions%2F-753423151"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">fun </span><a href="-credentials-chain/-companion/index.html">CredentialsChain.Companion</a><span class="token punctuation">.</span><a href="-environment.html"><span class="token function">Environment</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">env<span class="token operator">: </span><a href="../../http4k-config/org.http4k.config/-environment/index.html">Environment</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-credentials-chain/index.html">CredentialsChain</a></div><div class="symbol monospace"><span class="token keyword">fun </span><a href="-credentials-provider/-companion/index.html">CredentialsProvider.Companion</a><span class="token punctuation">.</span><a href="-environment.html"><span class="token function">Environment</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">env<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span><span class="token operator"> = </span>System.getenv()</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-credentials-provider/index.html">CredentialsProvider</a></div><div class="symbol monospace"><span class="token keyword">fun </span><a href="-credentials-provider/-companion/index.html">CredentialsProvider.Companion</a><span class="token punctuation">.</span><a href="-environment.html"><span class="token function">Environment</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">env<span class="token operator">: </span><a href="../../http4k-config/org.http4k.config/-environment/index.html">Environment</a><span class="token operator"> = </span>ENV</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-credentials-provider/index.html">CredentialsProvider</a></div><div class="symbol monospace"><span class="token keyword">fun </span><a href="-region-provider/-companion/index.html">RegionProvider.Companion</a><span class="token punctuation">.</span><a href="-environment.html"><span class="token function">Environment</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">env<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span><span class="token operator"> = </span>System.getenv()</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-region-provider/index.html">RegionProvider</a></div><div class="symbol monospace"><span class="token keyword">fun </span><a href="-region-provider/-companion/index.html">RegionProvider.Companion</a><span class="token punctuation">.</span><a href="-environment.html"><span class="token function">Environment</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">env<span class="token operator">: </span><a href="../../http4k-config/org.http4k.config/-environment/index.html">Environment</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-region-provider/index.html">RegionProvider</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1012692111%2FFunctions%2F-753423151" anchor-label="Profile" id="-1012692111%2FFunctions%2F-753423151" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-connect-amazon-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-core:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-profile.html"><span><span>Profile</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1012692111%2FFunctions%2F-753423151"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">fun </span><a href="-region-provider/-companion/index.html">RegionProvider.Companion</a><span class="token punctuation">.</span><a href="-profile.html"><span class="token function">Profile</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">env<span class="token operator">: </span><a href="../../http4k-config/org.http4k.config/-environment/index.html">Environment</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-region-provider/index.html">RegionProvider</a></div><div class="symbol monospace"><span class="token keyword">fun </span><a href="-credentials-chain/-companion/index.html">CredentialsChain.Companion</a><span class="token punctuation">.</span><a href="-profile.html"><span class="token function">Profile</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">profileName<span class="token operator">: </span><a href="../org.http4k.connect.amazon.core.model/-profile-name/index.html">ProfileName</a><span class="token punctuation">, </span></span><span class="parameter ">credentialsPath<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/nio/file/Path.html">Path</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-credentials-chain/index.html">CredentialsChain</a></div><div class="symbol monospace"><span class="token keyword">fun </span><a href="-region-provider/-companion/index.html">RegionProvider.Companion</a><span class="token punctuation">.</span><a href="-profile.html"><span class="token function">Profile</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">profileName<span class="token operator">: </span><a href="../org.http4k.connect.amazon.core.model/-profile-name/index.html">ProfileName</a><span class="token punctuation">, </span></span><span class="parameter ">credentialsPath<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/nio/file/Path.html">Path</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-region-provider/index.html">RegionProvider</a></div><div class="symbol monospace"><span class="token keyword">fun </span><a href="-credentials-chain/-companion/index.html">CredentialsChain.Companion</a><span class="token punctuation">.</span><a href="-profile.html"><span class="token function">Profile</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">env<span class="token operator">: </span><a href="../../http4k-config/org.http4k.config/-environment/index.html">Environment</a><span class="token operator"> = </span>Environment.ENV<span class="token punctuation">, </span></span><span class="parameter ">profileName<span class="token operator">: </span><a href="../org.http4k.connect.amazon.core.model/-profile-name/index.html">ProfileName</a><span class="token operator"> = </span>AWS_PROFILE(env)<span class="token punctuation">, </span></span><span class="parameter ">credentialsPath<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/nio/file/Path.html">Path</a><span class="token operator"> = </span>AWS_CREDENTIAL_PROFILES_FILE(env)</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-credentials-chain/index.html">CredentialsChain</a></div><div class="symbol monospace"><span class="token keyword">fun </span><a href="-credentials-provider/-companion/index.html">CredentialsProvider.Companion</a><span class="token punctuation">.</span><a href="-profile.html"><span class="token function">Profile</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">env<span class="token operator">: </span><a href="../../http4k-config/org.http4k.config/-environment/index.html">Environment</a><span class="token operator"> = </span>Environment.ENV<span class="token punctuation">, </span></span><span class="parameter ">profileName<span class="token operator">: </span><a href="../org.http4k.connect.amazon.core.model/-profile-name/index.html">ProfileName</a><span class="token operator"> = </span>AWS_PROFILE(env)<span class="token punctuation">, </span></span><span class="parameter ">credentialsPath<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/nio/file/Path.html">Path</a><span class="token operator"> = </span>AWS_CREDENTIAL_PROFILES_FILE(env)</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-credentials-provider/index.html">CredentialsProvider</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>(c) 2024 http4k</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

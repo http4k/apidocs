@@ -1,0 +1,429 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>Attribute</title>
+<link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer></script>
+<link href="../../../styles/dokka.css" rel="Stylesheet"></head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+<a class="library-name--link" href="../../../index.html">
+                            http4k
+                    </a>            </div>
+            <div class="library-version">5.35.0.0
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main">jvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+            <a class="navigation-controls--btn navigation-controls--homepage" id="homepage-link" href="https://http4k.org"></a>
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageids="http4k-connect-amazon-dynamodb::org.http4k.connect.amazon.dynamodb.model/Attribute///PointingToDeclaration//251999592">
+  <div class="breadcrumbs"><a href="../../index.html">http4k-connect-amazon-dynamodb</a><span class="delimiter">/</span><a href="../index.html">org.http4k.connect.amazon.dynamodb.model</a><span class="delimiter">/</span><span class="current">Attribute</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Attribute</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">Attribute</a><span class="token operator">&lt;</span><a href="index.html">FINAL</a><span class="token operator">&gt;</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>dataType<span class="token operator">: </span><a href="../-dynamo-data-type/index.html">DynamoDataType</a><span class="token punctuation">, </span></span><span class="parameter ">meta<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.lens/-meta/index.html">Meta</a><span class="token punctuation">, </span></span><span class="parameter ">get<span class="token operator">: </span><span class="token punctuation">(</span><a href="../-item/index.html">Item</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="index.html">FINAL</a><span class="token punctuation">, </span></span><span class="parameter ">lensSet<span class="token operator">: </span><span class="token punctuation">(</span><a href="index.html">FINAL</a><span class="token punctuation">, </span><a href="../-item/index.html">Item</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="../-item/index.html">Item</a><span class="token punctuation">, </span></span><span class="parameter ">ignoreNull<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator"> = </span><span class="token boolean">false</span></span></span><span class="token punctuation">)</span> : <a href="../../../http4k-core/org.http4k.lens/-lens/index.html">Lens</a><span class="token operator">&lt;</span><a href="../-item/index.html">Item</a><span class="token punctuation">, </span><a href="index.html">FINAL</a><span class="token operator">&gt; </span>, <a href="../../../http4k-core/org.http4k.lens/-lens-injector/index.html">LensInjector</a><span class="token operator">&lt;</span><a href="index.html">FINAL</a><span class="token punctuation">, </span><a href="../-item/index.html">Item</a><span class="token operator">&gt; </span></div><p class="paragraph">Constructs typesafe Lenses for the various Item/Key attributes. The lenses can be used to inject values with Item(attr of "123") or extract with attr(item).</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button><button class="section-tab" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION,EXTENSION_PROPERTY,EXTENSION_FUNCTION">Members &amp; Extensions</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="-33544965%2FConstructors%2F251999592" anchor-label="Attribute" id="-33544965%2FConstructors%2F251999592" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-attribute.html"><span><span>Attribute</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-33544965%2FConstructors%2F251999592"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">dataType<span class="token operator">: </span><a href="../-dynamo-data-type/index.html">DynamoDataType</a><span class="token punctuation">, </span></span><span class="parameter ">meta<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.lens/-meta/index.html">Meta</a><span class="token punctuation">, </span></span><span class="parameter ">get<span class="token operator">: </span><span class="token punctuation">(</span><a href="../-item/index.html">Item</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="index.html">FINAL</a><span class="token punctuation">, </span></span><span class="parameter ">lensSet<span class="token operator">: </span><span class="token punctuation">(</span><a href="index.html">FINAL</a><span class="token punctuation">, </span><a href="../-item/index.html">Item</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="../-item/index.html">Item</a><span class="token punctuation">, </span></span><span class="parameter ">ignoreNull<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator"> = </span><span class="token boolean">false</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="TYPE">
+        <h2 class="">Types</h2>
+        <div class="table"><a data-name="-129500086%2FClasslikes%2F251999592" anchor-label="AttrLensSpec" id="-129500086%2FClasslikes%2F251999592" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-attr-lens-spec/index.html"><span>Attr</span><wbr><span>Lens</span><wbr><span><span>Spec</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-129500086%2FClasslikes%2F251999592"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">class </span><a href="-attr-lens-spec/index.html">AttrLensSpec</a><span class="token operator">&lt;</span><a href="-attr-lens-spec/index.html">OUT</a><span class="token operator">&gt;</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">dataType<span class="token operator">: </span><a href="../-dynamo-data-type/index.html">DynamoDataType</a><span class="token punctuation">, </span></span><span class="parameter ">get<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.lens/-lens-get/index.html">LensGet</a><span class="token operator">&lt;</span><a href="../-item/index.html">Item</a><span class="token punctuation">, </span><a href="-attr-lens-spec/index.html">OUT</a><span class="token operator">&gt;</span><span class="token punctuation">, </span></span><span class="parameter ">set<span class="token operator">: </span><a href="../../../http4k-core/org.http4k.lens/-lens-set/index.html">LensSet</a><span class="token operator">&lt;</span><a href="../-item/index.html">Item</a><span class="token punctuation">, </span><a href="-attr-lens-spec/index.html">OUT</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span> : <a href="../../../http4k-core/org.http4k.lens/-lens-spec/index.html">LensSpec</a><span class="token operator">&lt;</span><a href="../-item/index.html">Item</a><span class="token punctuation">, </span><a href="-attr-lens-spec/index.html">OUT</a><span class="token operator">&gt; </span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2054341058%2FClasslikes%2F251999592" anchor-label="Companion" id="2054341058%2FClasslikes%2F251999592" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-companion/index.html"><span><span>Companion</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2054341058%2FClasslikes%2F251999592"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">object </span><a href="-companion/index.html">Companion</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="321635771%2FProperties%2F251999592" anchor-label="dataType" id="321635771%2FProperties%2F251999592" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="data-type.html"><span>data</span><wbr><span><span>Type</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="321635771%2FProperties%2F251999592"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="data-type.html">dataType</a><span class="token operator">: </span><a href="../-dynamo-data-type/index.html">DynamoDataType</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="580797811%2FProperties%2F251999592" anchor-label="meta" id="580797811%2FProperties%2F251999592" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#580797811%2FProperties%2F251999592"><span><span>meta</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="580797811%2FProperties%2F251999592"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="index.html#580797811%2FProperties%2F251999592">meta</a><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.lens/-meta/index.html">Meta</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1067859948%2FProperties%2F251999592" anchor-label="name" id="-1067859948%2FProperties%2F251999592" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="name.html"><span><span>name</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1067859948%2FProperties%2F251999592"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">val </span><a href="name.html">name</a><span class="token operator">: </span><a href="../-attribute-name/index.html">AttributeName</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="909802874%2FFunctions%2F251999592" anchor-label="asAttributeDefinition" id="909802874%2FFunctions%2F251999592" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../as-attribute-definition.html"><span>as</span><wbr><span>Attribute</span><wbr><span><span>Definition</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="909802874%2FFunctions%2F251999592"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="../as-attribute-definition.html">T</a><span class="token operator">&gt; </span><a href="index.html">Attribute</a><span class="token operator">&lt;</span><a href="../as-attribute-definition.html">T</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="../as-attribute-definition.html"><span class="token function">asAttributeDefinition</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../-attribute-definition/index.html">AttributeDefinition</a></div><div class="brief "><p class="paragraph">Used for creating tables</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="322937180%2FFunctions%2F251999592" anchor-label="asKeySchema" id="322937180%2FFunctions%2F251999592" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../as-key-schema.html"><span>as</span><wbr><span>Key</span><wbr><span><span>Schema</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="322937180%2FFunctions%2F251999592"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="../as-key-schema.html">T</a><span class="token operator">&gt; </span><a href="index.html">Attribute</a><span class="token operator">&lt;</span><a href="../as-key-schema.html">T</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="../as-key-schema.html"><span class="token function">asKeySchema</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">keyType<span class="token operator">: </span><a href="../-key-type/index.html">KeyType</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../-key-schema/index.html">KeySchema</a></div><div class="brief "><p class="paragraph">Used for creating tables</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1585675596%2FFunctions%2F251999592" anchor-label="asRequired" id="-1585675596%2FFunctions%2F251999592" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../as-required.html"><span>as</span><wbr><span><span>Required</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1585675596%2FFunctions%2F251999592"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="../as-required.html">OUT</a><span class="token operator">&gt; </span><a href="index.html">Attribute</a><span class="token operator">&lt;</span><a href="../as-required.html">OUT</a><span class="token operator">?</span><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="../as-required.html"><span class="token function">asRequired</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">description<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">metadata<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a><span class="token operator">&gt;</span><span class="token operator"> = </span>emptyMap()</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Attribute</a><span class="token operator">&lt;</span><a href="../as-required.html">OUT</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-742944254%2FFunctions%2F251999592" anchor-label="asValue" id="-742944254%2FFunctions%2F251999592" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="as-value.html"><span>as</span><wbr><span><span>Value</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-742944254%2FFunctions%2F251999592"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">fun </span><a href="as-value.html"><span class="token function">asValue</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="index.html">FINAL</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../-attribute-value/index.html">AttributeValue</a></div><div class="brief "><p class="paragraph">Return a correctly typed value for this attribute</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2123819369%2FFunctions%2F251999592" anchor-label="extract" id="2123819369%2FFunctions%2F251999592" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#2123819369%2FFunctions%2F251999592"><span><span>extract</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2123819369%2FFunctions%2F251999592"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="index.html#2123819369%2FFunctions%2F251999592"><span class="token function">extract</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">target<span class="token operator">: </span><a href="../-item/index.html">Item</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">FINAL</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-187136677%2FFunctions%2F251999592" anchor-label="forEach" id="-187136677%2FFunctions%2F251999592" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-187136677%2FFunctions%2F251999592"><span>for</span><wbr><span><span>Each</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-187136677%2FFunctions%2F251999592"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="index.html#-187136677%2FFunctions%2F251999592"><span class="token function">forEach</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">p0<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html">Consumer</a><span class="token operator">&lt;</span><span class="token keyword">in </span><a href="../../../http4k-core/org.http4k.lens/-meta/index.html">Meta</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="775654816%2FFunctions%2F251999592" anchor-label="get" id="775654816%2FFunctions%2F251999592" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#775654816%2FFunctions%2F251999592"><span><span>get</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="775654816%2FFunctions%2F251999592"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">operator </span><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="index.html#775654816%2FFunctions%2F251999592">R</a><span class="token operator"> : </span><a href="../-item/index.html">Item</a><span class="token operator">&gt; </span><a href="index.html#775654816%2FFunctions%2F251999592"><span class="token function">get</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">target<span class="token operator">: </span><a href="index.html#775654816%2FFunctions%2F251999592">R</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">FINAL</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1347901792%2FFunctions%2F251999592" anchor-label="inject" id="-1347901792%2FFunctions%2F251999592" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-1347901792%2FFunctions%2F251999592"><span><span>inject</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1347901792%2FFunctions%2F251999592"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="index.html#-1347901792%2FFunctions%2F251999592">R</a><span class="token operator"> : </span><a href="../-item/index.html">Item</a><span class="token operator">&gt; </span><a href="index.html#-1347901792%2FFunctions%2F251999592"><span class="token function">inject</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="index.html">FINAL</a><span class="token punctuation">, </span></span><span class="parameter ">target<span class="token operator">: </span><a href="index.html#-1347901792%2FFunctions%2F251999592">R</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html#-1347901792%2FFunctions%2F251999592">R</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1754008632%2FFunctions%2F251999592" anchor-label="invoke" id="1754008632%2FFunctions%2F251999592" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="invoke.html"><span><span>invoke</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1754008632%2FFunctions%2F251999592"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">operator override </span><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="invoke.html">R</a><span class="token operator"> : </span><a href="../-item/index.html">Item</a><span class="token operator">&gt; </span><a href="invoke.html"><span class="token function">invoke</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="index.html">FINAL</a><span class="token punctuation">, </span></span><span class="parameter ">target<span class="token operator">: </span><a href="invoke.html">R</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="invoke.html">R</a></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">operator override </span><span class="token keyword">fun </span><a href="index.html#233698776%2FFunctions%2F251999592"><span class="token function">invoke</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">target<span class="token operator">: </span><a href="../-item/index.html">Item</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">FINAL</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2124228010%2FFunctions%2F251999592" anchor-label="iterator" id="2124228010%2FFunctions%2F251999592" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#2124228010%2FFunctions%2F251999592"><span><span>iterator</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2124228010%2FFunctions%2F251999592"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">operator override </span><span class="token keyword">fun </span><a href="index.html#2124228010%2FFunctions%2F251999592"><span class="token function">iterator</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterator/index.html">Iterator</a><span class="token operator">&lt;</span><a href="../../../http4k-core/org.http4k.lens/-meta/index.html">Meta</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1887319191%2FFunctions%2F251999592" anchor-label="of" id="-1887319191%2FFunctions%2F251999592" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-1887319191%2FFunctions%2F251999592"><span><span>of</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1887319191%2FFunctions%2F251999592"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">infix </span><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="index.html#-1887319191%2FFunctions%2F251999592">R</a><span class="token operator"> : </span><a href="../-item/index.html">Item</a><span class="token operator">&gt; </span><a href="index.html#-1887319191%2FFunctions%2F251999592"><span class="token function">of</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="index.html">FINAL</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span class="token punctuation">(</span><a href="index.html#-1887319191%2FFunctions%2F251999592">R</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="index.html#-1887319191%2FFunctions%2F251999592">R</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1416242562%2FFunctions%2F251999592" anchor-label="restrictFrom" id="1416242562%2FFunctions%2F251999592" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#1416242562%2FFunctions%2F251999592"><span>restrict</span><wbr><span><span>From</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1416242562%2FFunctions%2F251999592"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="index.html#1416242562%2FFunctions%2F251999592">NEXT</a><span class="token operator"> : </span><a href="../-item/index.html">Item</a><span class="token operator">&gt; </span><a href="index.html#1416242562%2FFunctions%2F251999592"><span class="token function">restrictFrom</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.lens/-lens-extractor/index.html">LensExtractor</a><span class="token operator">&lt;</span><a href="index.html#1416242562%2FFunctions%2F251999592">NEXT</a><span class="token punctuation">, </span><a href="index.html">FINAL</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1751152784%2FFunctions%2F251999592" anchor-label="restrictInto" id="-1751152784%2FFunctions%2F251999592" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-1751152784%2FFunctions%2F251999592"><span>restrict</span><wbr><span><span>Into</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1751152784%2FFunctions%2F251999592"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="index.html#-1751152784%2FFunctions%2F251999592">NEXT</a><span class="token operator"> : </span><a href="../-item/index.html">Item</a><span class="token operator">&gt; </span><a href="index.html#-1751152784%2FFunctions%2F251999592"><span class="token function">restrictInto</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../http4k-core/org.http4k.lens/-lens-injector/index.html">LensInjector</a><span class="token operator">&lt;</span><a href="index.html">FINAL</a><span class="token punctuation">, </span><a href="index.html#-1751152784%2FFunctions%2F251999592">NEXT</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-188038833%2FFunctions%2F251999592" anchor-label="set" id="-188038833%2FFunctions%2F251999592" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-188038833%2FFunctions%2F251999592"><span><span>set</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-188038833%2FFunctions%2F251999592"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">operator </span><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="index.html#-188038833%2FFunctions%2F251999592">R</a><span class="token operator"> : </span><a href="../-item/index.html">Item</a><span class="token operator">&gt; </span><a href="index.html#-188038833%2FFunctions%2F251999592"><span class="token function">set</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">target<span class="token operator">: </span><a href="index.html#-188038833%2FFunctions%2F251999592">R</a><span class="token punctuation">, </span></span><span class="parameter ">value<span class="token operator">: </span><a href="index.html">FINAL</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html#-188038833%2FFunctions%2F251999592">R</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1387152138%2FFunctions%2F251999592" anchor-label="spliterator" id="-1387152138%2FFunctions%2F251999592" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-1387152138%2FFunctions%2F251999592"><span><span>spliterator</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1387152138%2FFunctions%2F251999592"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="index.html#-1387152138%2FFunctions%2F251999592"><span class="token function">spliterator</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/util/Spliterator.html">Spliterator</a><span class="token operator">&lt;</span><a href="../../../http4k-core/org.http4k.lens/-meta/index.html">Meta</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="427214419%2FFunctions%2F251999592" anchor-label="toString" id="427214419%2FFunctions%2F251999592" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main" data-filterable-set=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="to-string.html"><span>to</span><wbr><span><span>String</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="427214419%2FFunctions%2F251999592"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-connect-amazon-dynamodb:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="to-string.html"><span class="token function">toString</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>(c) 2024 http4k</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

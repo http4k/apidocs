@@ -235,11 +235,6 @@ module:http4k-connect-core
 org.http4k.connect
 org.http4k.connect.model
 org.http4k.connect.util
-module:http4k-connect-example
-org.http4k.connect.example
-org.http4k.connect.example.action
-module:http4k-connect-example-fake
-org.http4k.connect.example
 module:http4k-connect-github
 org.http4k.connect.github
 org.http4k.connect.github.api

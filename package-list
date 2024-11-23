@@ -379,6 +379,8 @@ module:http4k-format-moshi-yaml
 org.http4k.format
 module:http4k-format-xml
 org.http4k.format
+module:http4k-gcp
+org.http4k.gcp
 module:http4k-graphql
 org.http4k.client
 org.http4k.graphql

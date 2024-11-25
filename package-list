@@ -504,6 +504,11 @@ org.http4k.tracing.renderer
 org.http4k.tracing.tracer
 module:http4k-testing-webdriver
 org.http4k.webdriver
+module:http4k-web-datastar
+org.http4k.core
+org.http4k.datastar
+org.http4k.lens
+org.http4k.template
 module:http4k-webhook
 org.http4k.filter
 org.http4k.lens

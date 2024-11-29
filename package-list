@@ -508,6 +508,7 @@ module:http4k-web-datastar
 org.http4k.core
 org.http4k.datastar
 org.http4k.lens
+org.http4k.sse
 org.http4k.template
 module:http4k-webhook
 org.http4k.filter

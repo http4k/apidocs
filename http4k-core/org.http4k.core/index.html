@@ -43,7 +43,7 @@
 <a class="library-name--link" href="../../index.html">
                             http4k
                     </a>            </div>
-            <div class="library-version">5.37.1.1
+            <div class="library-version">5.38.0.0
             </div>
         </div>
         <div class="filter-section" id="filter-section">
@@ -216,11 +216,7 @@
                   </span></span></div>
               <div>
                 <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-http-transaction/index.html">HttpTransaction</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>request<span class="token operator">: </span><a href="-request/index.html">Request</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>response<span class="token operator">: </span><a href="-response/index.html">Response</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>duration<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html">Duration</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>labels<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span><span class="token operator"> = </span>when {
-        response is ResponseWithRoute -&gt; mapOf(ROUTING_GROUP_LABEL to response.xUriTemplate.toString())
-        request is RequestWithRoute -&gt; mapOf(ROUTING_GROUP_LABEL to request.xUriTemplate.toString())
-        else -&gt; emptyMap()
-    }<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>start<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/time/Instant.html">Instant</a></span></span><span class="token punctuation">)</span></div></div></div>
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-http-transaction/index.html">HttpTransaction</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>request<span class="token operator">: </span><a href="-request/index.html">Request</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>response<span class="token operator">: </span><a href="-response/index.html">Response</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>duration<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html">Duration</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>labels<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span><span class="token operator"> = </span>defaultLabels(request, response)<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>start<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/time/Instant.html">Instant</a></span></span><span class="token punctuation">)</span> : <a href="-protocol-transaction/index.html">ProtocolTransaction</a><span class="token operator">&lt;</span><a href="-response/index.html">Response</a><span class="token operator">&gt; </span></div></div></div>
                 </div>
               </div>
             </div>
@@ -311,6 +307,21 @@
               <div>
                 <div class="title">
                   <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">typealias </span><a href="-parameters/index.html">Parameters</a><span class="token operator"> = </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><span data-unresolved-link="org.http4k.core/Parameter///PointingToDeclaration/">Parameter</span><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-599301834%2FClasslikes%2F-249534899" anchor-label="ProtocolTransaction" id="-599301834%2FClasslikes%2F-249534899" data-filterable-set=":http4k-core:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-protocol-transaction/index.html"><span>Protocol</span><wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-599301834%2FClasslikes%2F-249534899"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-protocol-transaction/index.html">ProtocolTransaction</a><span class="token operator">&lt;</span><a href="-protocol-transaction/index.html">ProtocolResponse</a><span class="token operator">&gt;</span></div></div></div>
                 </div>
               </div>
             </div>
@@ -531,10 +542,10 @@
           </div>
         </div>
       </div>
-      <div data-togglable="EXTENSION_FUNCTION">
+      <div data-togglable="FUNCTION">
         <h2 class="">Functions</h2>
         <div class="table"><a data-name="714206238%2FFunctions%2F-249534899" anchor-label="appendToPath" id="714206238%2FFunctions%2F-249534899" data-filterable-set=":http4k-core:dokkaHtmlPartial/main"></a>
-          <div class="table-row" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
                   <div><a href="append-to-path.html"><span>append</span><wbr><span>To</span><wbr><span><span>Path</span></span></a></div>
@@ -548,8 +559,23 @@
               </div>
             </div>
           </div>
-<a data-name="-1260474687%2FFunctions%2F-249534899" anchor-label="extend" id="-1260474687%2FFunctions%2F-249534899" data-filterable-set=":http4k-core:dokkaHtmlPartial/main"></a>
+<a data-name="-1167373349%2FFunctions%2F-249534899" anchor-label="defaultLabels" id="-1167373349%2FFunctions%2F-249534899" data-filterable-set=":http4k-core:dokkaHtmlPartial/main"></a>
           <div class="table-row" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="default-labels.html"><span>default</span><wbr><span><span>Labels</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1167373349%2FFunctions%2F-249534899"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":http4k-core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">fun </span><span class="token operator">&lt;</span><a href="default-labels.html">ProtocolResponse</a><span class="token operator">&gt; </span><a href="default-labels.html"><span class="token function">defaultLabels</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">request<span class="token operator">: </span><a href="-request/index.html">Request</a><span class="token punctuation">, </span></span><span class="parameter ">response<span class="token operator">: </span><a href="default-labels.html">ProtocolResponse</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-map/index.html">Map</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1260474687%2FFunctions%2F-249534899" anchor-label="extend" id="-1260474687%2FFunctions%2F-249534899" data-filterable-set=":http4k-core:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
                   <div><a href="extend.html"><span><span>extend</span></span></a></div>
@@ -564,7 +590,7 @@
             </div>
           </div>
 <a data-name="784089210%2FFunctions%2F-249534899" anchor-label="findMultiple" id="784089210%2FFunctions%2F-249534899" data-filterable-set=":http4k-core:dokkaHtmlPartial/main"></a>
-          <div class="table-row" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
                   <div><a href="find-multiple.html"><span>find</span><wbr><span><span>Multiple</span></span></a></div>
@@ -579,7 +605,7 @@
             </div>
           </div>
 <a data-name="-1185576462%2FFunctions%2F-249534899" anchor-label="findSingle" id="-1185576462%2FFunctions%2F-249534899" data-filterable-set=":http4k-core:dokkaHtmlPartial/main"></a>
-          <div class="table-row" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
                   <div><a href="find-single.html"><span>find</span><wbr><span><span>Single</span></span></a></div>
@@ -594,7 +620,7 @@
             </div>
           </div>
 <a data-name="1368670495%2FFunctions%2F-249534899" anchor-label="getFirst" id="1368670495%2FFunctions%2F-249534899" data-filterable-set=":http4k-core:dokkaHtmlPartial/main"></a>
-          <div class="table-row" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
                   <div><a href="get-first.html"><span>get</span><wbr><span><span>First</span></span></a></div>
@@ -609,7 +635,7 @@
             </div>
           </div>
 <a data-name="-1523067531%2FFunctions%2F-249534899" anchor-label="hasContentToRead" id="-1523067531%2FFunctions%2F-249534899" data-filterable-set=":http4k-core:dokkaHtmlPartial/main"></a>
-          <div class="table-row" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
                   <div><a href="has-content-to-read.html"><span>has</span><wbr><span>Content</span><wbr><span>To</span><wbr><span><span>Read</span></span></a></div>
@@ -624,7 +650,7 @@
             </div>
           </div>
 <a data-name="1893426026%2FFunctions%2F-249534899" anchor-label="immutable" id="1893426026%2FFunctions%2F-249534899" data-filterable-set=":http4k-core:dokkaHtmlPartial/main"></a>
-          <div class="table-row" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
                   <div><a href="immutable.html"><span><span>immutable</span></span></a></div>
@@ -639,7 +665,7 @@
             </div>
           </div>
 <a data-name="1172056626%2FFunctions%2F-249534899" anchor-label="maxAge" id="1172056626%2FFunctions%2F-249534899" data-filterable-set=":http4k-core:dokkaHtmlPartial/main"></a>
-          <div class="table-row" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
                   <div><a href="max-age.html"><span>max</span><wbr><span><span>Age</span></span></a></div>
@@ -654,7 +680,7 @@
             </div>
           </div>
 <a data-name="169802930%2FFunctions%2F-249534899" anchor-label="mustRevalidate" id="169802930%2FFunctions%2F-249534899" data-filterable-set=":http4k-core:dokkaHtmlPartial/main"></a>
-          <div class="table-row" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
                   <div><a href="must-revalidate.html"><span>must</span><wbr><span><span>Revalidate</span></span></a></div>
@@ -669,7 +695,7 @@
             </div>
           </div>
 <a data-name="-1923469941%2FFunctions%2F-249534899" anchor-label="noCache" id="-1923469941%2FFunctions%2F-249534899" data-filterable-set=":http4k-core:dokkaHtmlPartial/main"></a>
-          <div class="table-row" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
                   <div><a href="no-cache.html"><span>no</span><wbr><span><span>Cache</span></span></a></div>
@@ -684,7 +710,7 @@
             </div>
           </div>
 <a data-name="1946397196%2FFunctions%2F-249534899" anchor-label="noStore" id="1946397196%2FFunctions%2F-249534899" data-filterable-set=":http4k-core:dokkaHtmlPartial/main"></a>
-          <div class="table-row" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
                   <div><a href="no-store.html"><span>no</span><wbr><span><span>Store</span></span></a></div>
@@ -699,7 +725,7 @@
             </div>
           </div>
 <a data-name="1924942745%2FFunctions%2F-249534899" anchor-label="onlyIfCached" id="1924942745%2FFunctions%2F-249534899" data-filterable-set=":http4k-core:dokkaHtmlPartial/main"></a>
-          <div class="table-row" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
                   <div><a href="only-if-cached.html"><span>only</span><wbr><span>If</span><wbr><span><span>Cached</span></span></a></div>
@@ -714,7 +740,7 @@
             </div>
           </div>
 <a data-name="-2112958818%2FFunctions%2F-249534899" anchor-label="parse" id="-2112958818%2FFunctions%2F-249534899" data-filterable-set=":http4k-core:dokkaHtmlPartial/main"></a>
-          <div class="table-row" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
                   <div><a href="parse.html"><span><span>parse</span></span></a></div>
@@ -729,7 +755,7 @@
             </div>
           </div>
 <a data-name="1350393481%2FFunctions%2F-249534899" anchor-label="private" id="1350393481%2FFunctions%2F-249534899" data-filterable-set=":http4k-core:dokkaHtmlPartial/main"></a>
-          <div class="table-row" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
                   <div><a href="private.html"><span><span>private</span></span></a></div>
@@ -744,7 +770,7 @@
             </div>
           </div>
 <a data-name="2057605723%2FFunctions%2F-249534899" anchor-label="public" id="2057605723%2FFunctions%2F-249534899" data-filterable-set=":http4k-core:dokkaHtmlPartial/main"></a>
-          <div class="table-row" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
                   <div><a href="public.html"><span><span>public</span></span></a></div>
@@ -759,7 +785,7 @@
             </div>
           </div>
 <a data-name="787522147%2FFunctions%2F-249534899" anchor-label="queries" id="787522147%2FFunctions%2F-249534899" data-filterable-set=":http4k-core:dokkaHtmlPartial/main"></a>
-          <div class="table-row" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
                   <div><a href="queries.html"><span><span>queries</span></span></a></div>
@@ -774,7 +800,7 @@
             </div>
           </div>
 <a data-name="-1995077793%2FFunctions%2F-249534899" anchor-label="query" id="-1995077793%2FFunctions%2F-249534899" data-filterable-set=":http4k-core:dokkaHtmlPartial/main"></a>
-          <div class="table-row" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
                   <div><a href="query.html"><span><span>query</span></span></a></div>
@@ -789,7 +815,7 @@
             </div>
           </div>
 <a data-name="-1842979103%2FFunctions%2F-249534899" anchor-label="queryParametersEncoded" id="-1842979103%2FFunctions%2F-249534899" data-filterable-set=":http4k-core:dokkaHtmlPartial/main"></a>
-          <div class="table-row" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
                   <div><a href="query-parameters-encoded.html"><span>query</span><wbr><span>Parameters</span><wbr><span><span>Encoded</span></span></a></div>
@@ -804,7 +830,7 @@
             </div>
           </div>
 <a data-name="-1570576042%2FFunctions%2F-249534899" anchor-label="relative" id="-1570576042%2FFunctions%2F-249534899" data-filterable-set=":http4k-core:dokkaHtmlPartial/main"></a>
-          <div class="table-row" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
                   <div><a href="relative.html"><span><span>relative</span></span></a></div>
@@ -819,7 +845,7 @@
             </div>
           </div>
 <a data-name="-1339285211%2FFunctions%2F-249534899" anchor-label="removeQueries" id="-1339285211%2FFunctions%2F-249534899" data-filterable-set=":http4k-core:dokkaHtmlPartial/main"></a>
-          <div class="table-row" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
                   <div><a href="remove-queries.html"><span>remove</span><wbr><span><span>Queries</span></span></a></div>
@@ -834,7 +860,7 @@
             </div>
           </div>
 <a data-name="1410864131%2FFunctions%2F-249534899" anchor-label="removeQuery" id="1410864131%2FFunctions%2F-249534899" data-filterable-set=":http4k-core:dokkaHtmlPartial/main"></a>
-          <div class="table-row" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
                   <div><a href="remove-query.html"><span>remove</span><wbr><span><span>Query</span></span></a></div>
@@ -849,7 +875,7 @@
             </div>
           </div>
 <a data-name="-1168952143%2FFunctions%2F-249534899" anchor-label="safeLong" id="-1168952143%2FFunctions%2F-249534899" data-filterable-set=":http4k-core:dokkaHtmlPartial/main"></a>
-          <div class="table-row" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
                   <div><a href="safe-long.html"><span>safe</span><wbr><span><span>Long</span></span></a></div>
@@ -864,7 +890,7 @@
             </div>
           </div>
 <a data-name="-1225688819%2FFunctions%2F-249534899" anchor-label="staleIfError" id="-1225688819%2FFunctions%2F-249534899" data-filterable-set=":http4k-core:dokkaHtmlPartial/main"></a>
-          <div class="table-row" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
                   <div><a href="stale-if-error.html"><span>stale</span><wbr><span>If</span><wbr><span><span>Error</span></span></a></div>
@@ -879,7 +905,7 @@
             </div>
           </div>
 <a data-name="-1164615328%2FFunctions%2F-249534899" anchor-label="staleWhileRevalidate" id="-1164615328%2FFunctions%2F-249534899" data-filterable-set=":http4k-core:dokkaHtmlPartial/main"></a>
-          <div class="table-row" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
                   <div><a href="stale-while-revalidate.html"><span>stale</span><wbr><span>While</span><wbr><span><span>Revalidate</span></span></a></div>
@@ -894,7 +920,7 @@
             </div>
           </div>
 <a data-name="-831446059%2FFunctions%2F-249534899" anchor-label="then" id="-831446059%2FFunctions%2F-249534899" data-filterable-set=":http4k-core:dokkaHtmlPartial/main"></a>
-          <div class="table-row" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
                   <div><a href="then.html"><span><span>then</span></span></a></div>
@@ -909,7 +935,7 @@
             </div>
           </div>
 <a data-name="-990114867%2FFunctions%2F-249534899" anchor-label="toCurl" id="-990114867%2FFunctions%2F-249534899" data-filterable-set=":http4k-core:dokkaHtmlPartial/main"></a>
-          <div class="table-row" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
                   <div><a href="to-curl.html"><span>to</span><wbr><span><span>Curl</span></span></a></div>
@@ -924,7 +950,7 @@
             </div>
           </div>
 <a data-name="1581547334%2FFunctions%2F-249534899" anchor-label="toParameters" id="1581547334%2FFunctions%2F-249534899" data-filterable-set=":http4k-core:dokkaHtmlPartial/main"></a>
-          <div class="table-row" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
                   <div><a href="to-parameters.html"><span>to</span><wbr><span><span>Parameters</span></span></a></div>
@@ -939,7 +965,7 @@
             </div>
           </div>
 <a data-name="-1127572060%2FFunctions%2F-249534899" anchor-label="toParametersMap" id="-1127572060%2FFunctions%2F-249534899" data-filterable-set=":http4k-core:dokkaHtmlPartial/main"></a>
-          <div class="table-row" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
                   <div><a href="to-parameters-map.html"><span>to</span><wbr><span>Parameters</span><wbr><span><span>Map</span></span></a></div>
@@ -954,7 +980,7 @@
             </div>
           </div>
 <a data-name="908716260%2FFunctions%2F-249534899" anchor-label="toPathSegmentDecoded" id="908716260%2FFunctions%2F-249534899" data-filterable-set=":http4k-core:dokkaHtmlPartial/main"></a>
-          <div class="table-row" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
                   <div><a href="to-path-segment-decoded.html"><span>to</span><wbr><span>Path</span><wbr><span>Segment</span><wbr><span><span>Decoded</span></span></a></div>
@@ -969,7 +995,7 @@
             </div>
           </div>
 <a data-name="-1424334916%2FFunctions%2F-249534899" anchor-label="toPathSegmentEncoded" id="-1424334916%2FFunctions%2F-249534899" data-filterable-set=":http4k-core:dokkaHtmlPartial/main"></a>
-          <div class="table-row" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
                   <div><a href="to-path-segment-encoded.html"><span>to</span><wbr><span>Path</span><wbr><span>Segment</span><wbr><span><span>Encoded</span></span></a></div>
@@ -984,7 +1010,7 @@
             </div>
           </div>
 <a data-name="246442877%2FFunctions%2F-249534899" anchor-label="toUrlFormEncoded" id="246442877%2FFunctions%2F-249534899" data-filterable-set=":http4k-core:dokkaHtmlPartial/main"></a>
-          <div class="table-row" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
                   <div><a href="to-url-form-encoded.html"><span>to</span><wbr><span>Url</span><wbr><span>Form</span><wbr><span><span>Encoded</span></span></a></div>
@@ -999,7 +1025,7 @@
             </div>
           </div>
 <a data-name="-1510009204%2FFunctions%2F-249534899" anchor-label="with" id="-1510009204%2FFunctions%2F-249534899" data-filterable-set=":http4k-core:dokkaHtmlPartial/main"></a>
-          <div class="table-row" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":http4k-core:dokkaHtmlPartial/main" data-filterable-set=":http4k-core:dokkaHtmlPartial/main">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
                   <div><a href="with.html"><span><span>with</span></span></a></div>

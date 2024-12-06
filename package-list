@@ -411,6 +411,8 @@ org.http4k.events
 org.http4k.filter
 org.http4k.metrics
 module:http4k-realtime-core
+org.http4k.core
+org.http4k.events
 org.http4k.filter
 org.http4k.lens
 org.http4k.routing
@@ -477,6 +479,7 @@ org.http4k.template
 module:http4k-template-thymeleaf
 org.http4k.template
 module:http4k-testing-approval
+org.http4k.datastar
 org.http4k.testing
 module:http4k-testing-chaos
 org.http4k.chaos
@@ -507,6 +510,7 @@ org.http4k.webdriver
 module:http4k-web-datastar
 org.http4k.core
 org.http4k.datastar
+org.http4k.format
 org.http4k.lens
 org.http4k.sse
 org.http4k.template

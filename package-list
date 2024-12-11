@@ -37,11 +37,6 @@ io.cloudevents.http4k
 org.http4k.core
 org.http4k.format
 org.http4k.lens
-module:http4k-cloudnative
-org.http4k.cloudnative
-org.http4k.cloudnative.health
-org.http4k.filter
-org.http4k.server
 module:http4k-config
 org.http4k.cloudnative.env
 org.http4k.config
@@ -410,6 +405,15 @@ module:http4k-opentelemetry
 org.http4k.events
 org.http4k.filter
 org.http4k.metrics
+module:http4k-platform-core
+org.http4k.cloudnative
+org.http4k.filter
+module:http4k-platform-k8s
+org.http4k.cloudnative
+org.http4k.cloudnative.health
+org.http4k.k8s
+org.http4k.k8s.health
+org.http4k.server
 module:http4k-realtime-core
 org.http4k.core
 org.http4k.events

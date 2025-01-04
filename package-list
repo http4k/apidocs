@@ -1,8 +1,6 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
-$dokka.location:////PointingToDeclaration/http4k-incubator/[root]/index.html
-$dokka.location:/HotReloadClassLoader///PointingToDeclaration/http4k-incubator/[root]/-hot-reload-class-loader/index.html
-$dokka.location:/HotReloadClassLoader/HotReloadClassLoader/#kotlin.Array[java.net.URL]/PointingToDeclaration/http4k-incubator/[root]/-hot-reload-class-loader/-hot-reload-class-loader.html
+$dokka.location:////PointingToDeclaration/http4k-connect-amazon-apprunner/[root]/index.html
 $dokka.location:/ServiceIdAndName.Companion///PointingToDeclaration/http4k-connect-amazon-apprunner/[root]/-service-id-and-name/-companion/index.html
 $dokka.location:/ServiceIdAndName.Companion/of/#org.http4k.connect.amazon.apprunner.model.ServiceName#org.http4k.connect.amazon.apprunner.model.ServiceId/PointingToDeclaration/http4k-connect-amazon-apprunner/[root]/-service-id-and-name/-companion/of.html
 $dokka.location:/ServiceIdAndName///PointingToDeclaration/http4k-connect-amazon-apprunner/[root]/-service-id-and-name/index.html
@@ -395,9 +393,9 @@ org.http4k.htmx
 org.http4k.lens
 org.http4k.routing
 module:http4k-incubator
+org.http4k.hotreload
 org.http4k.lens
 org.http4k.routing.experimental
-org.http4k.testing
 org.http4k.webdriver
 module:http4k-jsonrpc
 org.http4k.jsonrpc
